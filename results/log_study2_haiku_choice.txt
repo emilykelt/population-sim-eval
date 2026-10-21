@@ -1,0 +1,14 @@
+
+=== claude-haiku-5-5 ===
+judge              rho=0.293 top1=0.12 gap=-0.129 valid=240 sd=3.8 $0.022 23.5s
+grounded_choice    rho=0.330 top1=0.12 gap=0.033 valid=1152 sd=0.2 $0.264 235.6s
+/Users/emilykelt/Library/Mobile Documents/com~apple~CloudDocs/Coding/simulated societies/src/simsoc/metrics.py:48: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(pm, tv).correlation if len(msgs) > 2 else np.sign((pm[0] - pm[1]) * (tv[0] - tv[1]))
+label_choice       rho=0.262 top1=0.38 gap=0.083 valid=576 sd=0.0 $0.085 91.6s
+
+=== claude-haiku-4-5-20251001 ===
+judge              rho=0.397 top1=0.25 gap=-0.104 valid=240 sd=4.8 $0.138 28.2s
+grounded_choice    rho=-0.170 top1=0.12 gap=-0.011 valid=1151 sd=0.1 $1.168 125.9s
+label_choice       rho=0.016 top1=0.38 gap=0.178 valid=576 sd=0.0 $0.383 60.1s
+
+Total cost this run: $2.059 {'claude-haiku-5-5': 0.371, 'claude-haiku-4-5-20251001': 1.689}

@@ -1,0 +1,1106 @@
+{
+ "score": {
+  "mean_spearman": -0.45000000000000007,
+  "top1_accuracy": 0.0,
+  "gap_preservation": -0.12509882097372504,
+  "n_segments_scored": 8,
+  "n_valid_answers": 186,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": -0.5428571428571429,
+    "top1_hit": 0.0,
+    "pred": [
+     20.4,
+     22.4,
+     27.6,
+     5.0,
+     7.8,
+     16.8
+    ],
+    "truth": [
+     0.56,
+     0.416,
+     0.286,
+     0.615,
+     0.412,
+     0.314
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": -0.08571428571428573,
+    "top1_hit": 0.0,
+    "pred": [
+     28.8,
+     12.5,
+     28.0,
+     11.2,
+     4.0,
+     15.5
+    ],
+    "truth": [
+     0.517,
+     0.527,
+     0.352,
+     0.508,
+     0.474,
+     0.421
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": -0.7714285714285715,
+    "top1_hit": 0.0,
+    "pred": [
+     4.9,
+     16.9,
+     35.2,
+     2.2,
+     6.3,
+     34.6
+    ],
+    "truth": [
+     0.613,
+     0.574,
+     0.507,
+     0.575,
+     0.579,
+     0.451
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": -0.3142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     6.2,
+     39.7,
+     34.2,
+     6.6,
+     5.8,
+     7.5
+    ],
+    "truth": [
+     0.667,
+     0.466,
+     0.414,
+     0.664,
+     0.439,
+     0.341
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": -0.8285714285714287,
+    "top1_hit": 0.0,
+    "pred": [
+     5.0,
+     12.0,
+     8.0,
+     3.0,
+     15.0,
+     57.0
+    ],
+    "truth": [
+     0.707,
+     0.615,
+     0.507,
+     0.713,
+     0.587,
+     0.41
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": -0.3142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     9.7,
+     20.2,
+     26.8,
+     2.2,
+     6.2,
+     34.9
+    ],
+    "truth": [
+     0.657,
+     0.778,
+     0.663,
+     0.75,
+     0.637,
+     0.495
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": -0.14285714285714288,
+    "top1_hit": 0.0,
+    "pred": [
+     10.4,
+     37.8,
+     31.5,
+     5.6,
+     7.8,
+     6.9
+    ],
+    "truth": [
+     0.597,
+     0.539,
+     0.478,
+     0.617,
+     0.511,
+     0.355
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": -0.6,
+    "top1_hit": 0.0,
+    "pred": [
+     11.4,
+     28.1,
+     26.5,
+     9.7,
+     12.0,
+     12.3
+    ],
+    "truth": [
+     0.664,
+     0.602,
+     0.442,
+     0.649,
+     0.54,
+     0.491
+    ]
+   }
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "method": "grounded_single",
+  "cost_usd": 0.1021,
+  "seconds": 15.5,
+  "within_sd": 8.359658808152322,
+  "n_jobs": 40
+ },
+ "results": [
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "*leans back, thinking*\n\nRight, so my gut reaction is that most of this would just wash over me, to be honest. I'm not going to suddenly start meal-prepping because there's a picture of a bleeding eye on a chocolate bar\u2014that's just going to annoy me and make me feel like the government thinks I'm thick. But the calorie counts might actually make me pause for a second when I'm knackered and grabbing something at the station, because at least that's information I can use without feeling preached at. The graphic images especially would probably just make me want to buy the snack *more* out of spite.\n\n```json\n{\n  \"points\": {\n    \"A\": 2,\n    \"B\": 22,\n    \"C\": 18,\n    \"D\": 8,\n    \"E\": 5,\n    \"F\": 45\n  },\n  \"most_ignored\": \"A\",\n  \"why\": \"Those graphic images would just piss me off and feel manipulative\u2014I'd ignore them entirely and might even grab the snack to prove a point.\"\n}\n```",
+   "points": [
+    2.0,
+    22.0,
+    18.0,
+    8.0,
+    5.0,
+    45.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "*sighs* Right, so I'm looking at a vending machine after a shit day at work, knackered from the commute, and I've got twenty minutes before I need to head home. Honestly? Most of these feel like they're trying to scare or lecture me, which just winds me up more. The graphic photos would probably just make me feel guilty and annoyed rather than actually change what I grab\u2014I already know crisps aren't a health food, don't need a bleeding eye to tell me that. But calorie counts... I dunno, I track my running, so numbers actually mean something to me. If I can see that the fruit pot is 95 and the Dairy Milk is 240, and I'm thinking about my half marathon training, that might actually register in my brain in a way a scary poster won't.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 25, \"C\": 35, \"D\": 8, \"E\": 2, \"F\": 25}, \"most_ignored\": \"A\", \"why\": \"Graphic warnings without any actual information just feel preachy and manipulative, like those condescending public health ads that wind me up.\"}\n```",
+   "points": [
+    5.0,
+    25.0,
+    35.0,
+    8.0,
+    2.0,
+    25.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "Right, let me think about this honestly.\n\nMy gut reaction is that I'd find the graphic photos pretty disturbing and maybe guilt-tripping\u2014which would probably annoy me more than change my behaviour, to be honest. The plain text warnings feel preachy in a way that just bounces off. Calorie counts are actually useful information if I'm deciding between two similar things, but they won't stop me grabbing a Dairy Milk when I'm knackered at 3pm and need a boost. And option F\u2014just leaving things as they are\u2014is basically what happens now anyway. I'm training for a half marathon, so I'm already somewhat conscious of it, but I'm not going to deny myself a decent snack just because a label told me to. That said, if I can see the calorie count and see it's genuinely lower on something that still looks decent, I might pick that. The combo of information plus the slightly uncomfortable visual reminder might actually make a difference on the margins.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 22, \"C\": 18, \"D\": 35, \"E\": 5, \"F\": 12}, \"most_ignored\": \"E\", \"why\": \"Text-only warnings feel preachy and out-of-touch, exactly like the public health ads that annoy me.\"}\n```",
+   "points": [
+    8.0,
+    22.0,
+    18.0,
+    35.0,
+    5.0,
+    12.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "*leans back*\n\nRight, okay. So my gut reaction is... most of this feels like it's trying to scare or guilt me into something, and I'm already annoyed enough about money and time without being lectured at by a snack packet. The graphic pictures thing would probably just piss me off more than make me think \"oh better grab the yoghurt.\" But if I'm honest, seeing the actual calorie count next to everything might make me pause\u2014not because I'm trying to lose weight, but because I'd actually *know* what I'm grabbing, and that's useful information when you're spending money you don't have loads of.\n\nThe warnings without pictures feel like those annoying public health adverts I mentioned\u2014preachy, doesn't work. The pictures would genuinely wind me up. But just the numbers, with no drama attached? That's almost neutral enough that it might actually sink in without making me defensive.\n\n```json\n{\"points\": {\"A\": 18, \"B\": 32, \"C\": 5, \"D\": 8, \"E\": 15, \"F\": 22}, \"most_ignored\": \"C\", \"why\": \"Graphic shock images just make me ignore it and feel patronised, like I'm stupid.\"}\n```",
+   "points": [
+    18.0,
+    32.0,
+    5.0,
+    8.0,
+    15.0,
+    22.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Right, let me think about this honestly. I'm knackered after a ninety-minute commute, I'm training for a half marathon so I do care about what I eat, but I'm also not gonna be scared into submission by some gross medical photo while I'm just grabbing a snack. The calorie count thing\u2014that actually matters to me because I can see if something fits my day, but graphic surgery photos would just wind me up and probably make me spite-buy the chocolate bar.\n\nMy gut reaction: calorie counts are genuinely useful information I'd actually look at. Graphic warnings feel preachy and patronizing\u2014exactly the tone-deaf thing I already can't stand. No labelling is basically what we have now and it hasn't stopped me buying crap when I'm tired.\n\n{\"points\": {\"A\": 25, \"B\": 5, \"C\": 35, \"D\": 15, \"E\": 10, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"Graphic horror photos would just make me angry and stubborn, not actually change my behaviour.\"}",
+   "points": [
+    25.0,
+    5.0,
+    35.0,
+    15.0,
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Right, let me think about this properly.\n\nMy gut reaction: I'm not going to lie, the graphic pictures would probably put me off, but I'd still grab what I fancy if I'm hungry. The calorie counts don't mean much to me unless I'm specifically training hard and need to know my intake\u2014which I do sometimes, but not most days. The warnings about cancer and all that? I hear it constantly. Doesn't really stick. What would actually shift me is if something was inconvenient or if I physically couldn't see the thing I wanted, but that's not how this works.\n\nHonest assessment: Option F is basically now\u2014nothing changes. Options B and E are just text I'd skim and ignore like I do with everything else online. Option C with the graphic photos might actually make me pause for a second, might catch my eye more than text alone. But would it *change* what I buy? Probably not if I'm in a rush or genuinely want a chocolate bar. Option A with just calories is useful if I'm tracking, but most days I'm not. Option D removes the calorie info, which defeats the purpose when I *am* trying to be aware.\n\nThe graphic images in C would be most likely to shift behaviour, even if just marginally\u2014your brain notices them. But realistically, a warning I've heard a hundred times, in picture form or not, doesn't change much when you're tired after work and want something decent.\n\n{\"points\": {\"A\": 15, \"B\": 5, \"C\": 35, \"D\": 10, \"E\": 5, \"F\": 30}, \"most_ignored\": \"E\", \"why\": \"Text warnings just wash over me\u2014I see them everywhere and they don't land the same way as actually seeing something shocking.\"}",
+   "points": [
+    15.0,
+    5.0,
+    35.0,
+    10.0,
+    5.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Look, my gut reaction is... most of this feels like overkill, honestly. The graphic stuff especially would just annoy me\u2014I'm a grown man, I don't need shock tactics. But I'll be straight: the calorie counts might actually make me pause for a second when I'm grabbing something, just because I'd see the number staring at me, same way the fizzy drink thing worked for me with my teeth. The warnings alone though? I'd probably ignore them. I see enough scaremongering online.\n\nLet me think about what would actually change my hand reaching for a Dairy Milk versus a fruit pot when I'm tired after work and just want something quick...\n\nThe shock photos would wind me up more than change my mind. Pure calorie badges, no drama, at least that's information I can process without feeling lectured. Combining them with the graphic photos feels like someone's trying too hard to scare me into compliance, which makes me want to spite-buy the chocolate.\n\n{\"points\": {\"A\": 5, \"B\": 20, \"C\": 2, \"D\": 3, \"E\": 35, \"F\": 10, \"most_ignored\": \"C\", \"why\": \"Graphic medical photos feel like patronising shock tactics that would make me resent the message more than anything else.\"}",
+   "points": null
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "*leans back*\n\nRight, let me think about this honestly. I'm not going to pretend a photo of someone's diseased bowel is going to stop me grabbing a Dairy Milk when I'm tired after work\u2014I've seen that stuff before, doesn't really land. But if I can actually see the calorie numbers side by side, that might make me pause for a second, especially since I'm training for this half marathon. The thing is though, most days I'm just grabbing whatever's quickest and cheapest. A vending machine snack isn't really where my health decisions happen anyway.\n\nLet me be straight: the graphic warnings feel like they're trying too hard, like they're designed for people who've got time to think about their choices. I don't. The calorie badges would at least give me information without the lecture\u2014I can make my own call. But honestly, none of this is going to massively shift my behaviour because I'm not buying vending machine snacks that often in the first place. When I do, I just want it to be quick.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 2, \"C\": 18, \"D\": 22, \"E\": 30, \"F\": 23}, \"most_ignored\": \"B\", \"why\": \"Graphic medical photos feel manipulative and preachy\u2014I'd actively resent them on the packaging.\"}\n```",
+   "points": [
+    5.0,
+    2.0,
+    18.0,
+    22.0,
+    30.0,
+    23.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "*leans back*\n\nRight, let me think about this properly. I'm not going to lie and say I'm suddenly going to eat differently because of a label\u2014I grab what I want when I want it, usually when I'm knackered between work and a run and just need something quick. But if I'm being honest, the graphic stuff would probably stick with me a bit more than just text, even if it winds me up. That said, most of this feels like nagging, and I'd probably ignore half of it anyway.\n\nLet me be straight: calorie counts alone? Doesn't really move me because I'm not counting calories. Text warnings about disease? I'll read it once and forget it. But those photos\u2014a bleeding eye or open-heart surgery\u2014that's the kind of thing that'd actually sit in my head when I'm reaching for the chocolate, even if I'd resent it. Still probably wouldn't stop me every time though, especially if I'm hungry and in a rush.\n\nThe worst option is the one that just tries to scare me without any other info\u2014feels manipulative. Best case is probably something that combines the visual shock with at least knowing what I'm eating.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 8, \"C\": 3, \"D\": 28, \"E\": 2, \"F\": 54}, \"most_ignored\": \"E\", \"why\": \"No labels at all means nothing changes\u2014I'd just buy what I always buy.\"}\n```",
+   "points": [
+    5.0,
+    8.0,
+    3.0,
+    28.0,
+    2.0,
+    54.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "*leans back*\n\nRight, look. I'm not going to lie to you\u2014most of this stuff would bounce off me. I grab what I fancy, and honestly if I'm reaching for a snack it's because I want it, not because I'm having some big think about health. The graphic photos sound like they'd just wind me up, to be honest\u2014bit manipulative. The calorie counts... I mean, I can do maths, but I don't really look at labels much now anyway. What might actually stick is something simple that doesn't feel like it's trying to scare me or shame me\u2014but even then, if I'm knackered after a run and want a Dairy Milk, I'll probably just grab it.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 8, \"D\": 0, \"E\": 3, \"F\": 69}, \"most_ignored\": \"C\", \"why\": \"The graphic photos are just going to wind me up and feel like manipulation, especially when they're paired with calorie counts\u2014overkill and preachy.\"}\n```",
+   "points": [
+    5.0,
+    15.0,
+    8.0,
+    0.0,
+    3.0,
+    69.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "*sighs* Right, let me think about this honestly.\n\nMy gut reaction is that most of this stuff would just wash over me, to be honest. I'd go for what I fancy in the moment\u2014usually the chocolate or crisps because I like them and they're affordable. The graphic photos would probably just wind me up, make me feel lectured at. The plain text warnings? I'd barely notice them. Calorie counts are just numbers\u2014doesn't really mean much to me unless my doctor tells me I need to pay attention. What might actually make a tiny difference is if I just saw the information there clearly without the doom-mongering, because at least then it's *there* if I decide to look, rather than someone trying to scare me into compliance.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 3, \"C\": 5, \"D\": 1, \"E\": 2, \"F\": 2}, \"most_ignored\": \"D\", \"why\": \"Those graphic images would just irritate me and make me defensive\u2014I'd probably buy the chocolate out of spite.\"}\n```",
+   "points": [
+    38.095238095238095,
+    14.285714285714286,
+    23.80952380952381,
+    4.761904761904762,
+    9.523809523809524,
+    9.523809523809524
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "*shifts in chair slightly*\n\nLook, my gut reaction? Most of this would just irritate me or I'd blank it out entirely. The graphic photos especially\u2014that's the kind of thing that makes me think someone's trying to manipulate me, so I'd probably do the opposite just out of stubbornness. The calorie badges without the doom-mongering might actually register, I suppose, because at least it's just information I can take or leave. But honestly, when I'm grabbing a biscuit with my tea, I'm not standing there doing sums in my head. It's habit, it's what I fancy, and it's usually what's cheapest.\n\nThe warnings feel like background noise at this point\u2014we're all drowning in health messages telling us we're doing something wrong. My GP knows my situation; a label doesn't. The graphic ones especially would just make me tune out faster.\n\n```json\n{\n  \"points\": {\n    \"A\": 12,\n    \"B\": 2,\n    \"C\": 1,\n    \"D\": 18,\n    \"E\": 5,\n    \"F\": 62\n  },\n  \"most_ignored\": \"B\",\n  \"why\": \"Graphic images of diseased organs feel like emotional blackmail and make me want to ignore it on principle.\"\n}\n```",
+   "points": [
+    12.0,
+    2.0,
+    1.0,
+    18.0,
+    5.0,
+    62.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "*leans back*\n\nRight, look. I'm not going to pretend I'd suddenly start eating beetroot crisps because there's a picture of someone's insides on a chocolate bar. That's just going to wind me up\u2014feels like being talked down to, like I'm thick enough to need shock tactics. The calorie counts don't really move me either, to be honest. I know a Dairy Milk's got calories in it; I'm not ignorant. And those medical photos? They'd probably just make me angry and grab the Doritos out of spite. That said, if I *had* to notice something, a simple text warning might register slightly more than nothing, just because it's not assault and battery. But realistically, if I'm reaching for a snack, I'm reaching for it. The vending machine in the office has got all this stuff and I get what I fancy. F, nothing, current state\u2014that's what actually reflects how I live.\n\n{\"points\": {\"A\": 8, \"B\": 2, \"C\": 5, \"D\": 10, \"E\": 3, \"F\": 72}, \"most_ignored\": \"B\", \"why\": \"Graphic medical images just feel like emotional blackmail and would make me switch off completely, probably make me pick the high-calorie option to spite whoever designed it.\"}",
+   "points": [
+    8.0,
+    2.0,
+    5.0,
+    10.0,
+    3.0,
+    72.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "*leans back*\n\nRight, let me think about this properly. Honestly? Most of this stuff wouldn't budge me much\u2014I know biscuits aren't health food, I'm not daft. But if I'm being straight, the only thing that might actually make me pause is seeing the numbers. Not the graphic horror-show pictures\u2014that's just going to wind me up, make me feel lectured at, which is exactly when I stop listening. And the doom-mongering warnings without any actual information? That's just noise.\n\nThe calorie counts might actually register though, because it's just... information. No guilt attached. If I can see that the apple crisps are 95 and the Doritos are 240, I might think \"oh, alright\" and grab the apple ones some days. Not all days\u2014depends what I'm in the mood for. But at least it's not *telling* me what to do. And if it's on everything, healthy snacks included, then it's not singling anything out as \"bad,\" which I suppose is less aggravating.\n\nThe pictures and the warnings together though\u2014that's the stuff that makes me tune out completely. Feels like being talked to like I'm stupid.\n\n{\"points\": {\"A\": 5, \"B\": 0, \"C\": 2, \"D\": 35, \"E\": 8, \"F\": 50}, \"most_ignored\": \"B\", \"why\": \"Graphic pictures with doom warnings just make me feel guilty and talked down to, so I'd ignore them on principle.\"}",
+   "points": [
+    5.0,
+    0.0,
+    2.0,
+    35.0,
+    8.0,
+    50.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "*leans back*\n\nRight, let me think about this honestly. The doom-and-gloom warnings\u2014bowel tumours, open-heart surgery\u2014that's just going to wind me up and make me ignore the whole thing. I'm not some anxious person looking for reasons to feel guilty. The graphic photos especially would just be annoying, like someone's trying to scare me into behaving. As for calorie counts plastered everywhere... look, I know a Dairy Milk's not a health food. I eat what I want because I want it, not because I'm fooled about what it is. If anything, seeing a big \"240 CALORIES\" badge might actually make me think \"well, I'm having it anyway, so why bother looking at that?\"\n\nThe thing that *might* actually make a dent\u2014and I'm not saying it would change me much\u2014would be if the calorie info was just quietly there on everything, without the scaremongering attached. At least then it's factual, not manipulative. But honestly? I'd probably still grab what I fancy. The bit that might work, maybe, is if the lower-calorie options looked like actual food I'd want, not just the usual \"healthy\" rubbish.\n\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 2, \"D\": 10, \"E\": 3, \"F\": 65}, \"most_ignored\": \"E\", \"why\": \"Graphic medical shock tactics just make me tune out and resent being manipulated.\"}",
+   "points": [
+    5.0,
+    15.0,
+    2.0,
+    10.0,
+    3.0,
+    65.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Right, let me think about this properly. Most of these feel like they're designed to make me feel guilty or scared, which just winds me up\u2014I already know biscuits aren't a salad, don't need a tumour photo to tell me that. The only thing that might actually make a difference is if I could see at a glance what's actually in something, because sometimes you genuinely don't know if you're picking something with 150 calories or 400, especially when you're tired after a shift and just grabbing something.\n\nThe graphic horror show ones (B and C) would probably just annoy me into ignoring them\u2014feels like scaremongering. The calorie counts on their own (F) might nudge me a bit on good days when I'm thinking about it, but honestly, if I'm knackered and want a Dairy Milk, I'm getting a Dairy Milk. Text warnings (A and E) are somewhere in between\u2014they won't change much, but at least they're not grotesque. Having calorie counts on *everything* means you can actually compare (E or F), which is more useful than being lectured.\n\nCurrent setup without labels (D) is just the status quo\u2014I'll do what I always do.\n\n{\"points\": {\"A\": 5, \"B\": 2, \"C\": 2, \"D\": 5, \"E\": 25, \"F\": 61, \"most_ignored\": \"C\", \"why\": \"Graphic surgery photos would just feel like emotional manipulation and I'd tune them out completely.\"}",
+   "points": null
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Right, let me think about this honestly.\n\nMy gut reaction is: the graphic horror-show stuff [B and C] would probably just annoy me\u2014feels manipulative and preachy, like being told I'm an idiot. The plain text warnings [E and F] are easy to tune out; I've already decided not to listen to that noise. Calorie counts [A, C, E] are genuinely useful information if I'm thinking about it, but they won't stop me grabbing a Dairy Milk when I'm tired after a 12-hour shift and just want something nice. Option D is just reality\u2014that's what I see now and it doesn't change anything. If I'm honest, nothing here would really shift my behaviour much because when I'm buying a snack, I've already decided I want it. The only thing that *might* register is seeing the actual calorie number right there [A, C, E], because at least it's information rather than judgment, but even then\u2014I know a Dairy Milk isn't exactly health food. I'm not going to suddenly start choosing fruit pots because a label tells me to.\n\n```json\n{\"points\": {\"A\": 15, \"B\": 2, \"C\": 8, \"D\": 5, \"E\": 18, \"F\": 4, \"most_ignored\": \"B\", \"why\": \"Graphic warnings just feel like scaremongering and would make me resent the message more than change my habits.\"}\n```",
+   "points": null
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "*reads through all six options*\n\nRight, so my gut reaction... A is just going to wind me up\u2014I know what causes what, I don't need graphic pictures of tumours while I'm trying to grab a snack at work. B does nothing obviously. C is just text, a bit preachy but at least it's not shoving images in my face. D adds calorie counts which... fine, I can read them, but it won't stop me buying a Dairy Milk if that's what I fancy. E is honest at least\u2014just the facts, no lecturing. F is A without the calories, which is slightly less annoying I suppose but still the graphic thing.\n\nHonestly? None of these are going to change much because I know what I'm doing when I pick something. But if I'm being forced to choose, the calorie counts alone might make me pause for a second\u2014not to avoid the snack, just to be aware. The pictures and the preachy tone just make me want to ignore it more.\n\n```json\n{\"points\": {\"A\": 2, \"B\": 8, \"C\": 5, \"D\": 18, \"E\": 35, \"F\": 2, \"most_ignored\": \"A\", \"why\": \"Graphic medical images feel like manipulation and will just annoy me into ignoring the whole thing.\"}\n```",
+   "points": null
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Right, let me think about this honestly.\n\nMy gut reaction: The graphic photos would probably just annoy me\u2014I'd feel like I'm being treated like a kid who needs to be scared straight, and I'd resent it. The calorie counts might actually register because at least they're factual and not preachy, but even then, when I'm tired after a shift and grabbing something from a vending machine, I'm not really thinking about numbers. The combo of warnings plus numbers feels heavy-handed, and plain text warnings without pictures seem pointless\u2014I already *know* crisps aren't a health food, so telling me again won't change anything. Honestly, what might actually nudge me would be if the lower-calorie stuff just looked more appealing or convenient, not because of a label.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 3, \"D\": 0, \"E\": 20, \"F\": 2}, \"most_ignored\": \"D\", \"why\": \"No labels means nothing's changed from how I shop now, so it's a baseline that wouldn't shift my behaviour at all.\"}\n```",
+   "points": [
+    11.11111111111111,
+    33.333333333333336,
+    6.666666666666667,
+    0.0,
+    44.44444444444444,
+    4.444444444444445
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Right, honest gut reaction? The graphic horror-show labels would just wind me up\u2014feels like being talked down to by someone in a suit who's never worked a twelve-hour shift. The calorie counts at least give me information I can do something with, though I probably wouldn't obsess over them. And let's be real, none of this would stop me grabbing a Dairy Milk if I'm tired and fancy it. But if I *had* to pick, knowing the actual numbers might make me pause for a second, especially if I'm already thinking about my health anyway.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 2, \"C\": 15, \"D\": 35, \"E\": 8, \"F\": 35}, \"most_ignored\": \"B\", \"why\": \"Graphic photos of diseased organs just feel like shock tactics and would make me angry rather than thoughtful about my choices.\"}\n```",
+   "points": [
+    5.0,
+    2.0,
+    15.0,
+    35.0,
+    8.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Right, let me think about this properly. Honestly, the graphic images would probably just stress me out and make me feel guilty\u2014which doesn't stop me buying the thing, it just makes me feel worse about it. The calorie counts alone wouldn't change much because I already know a chocolate bar isn't a salad. What *might* actually make a difference is if I could compare at a glance\u2014like, seeing that the fruit pot is 95 calories next to a 240-calorie Dairy Milk, that makes it a real choice rather than just \"I fancy a treat.\" But realistically, when I'm grabbing something on a rush or stressed with the kids, none of these labels are going to stop me. I'd probably ignore most of them entirely.\n\n{\"points\": {\"A\": 5, \"B\": 0, \"C\": 25, \"D\": 8, \"E\": 3, \"F\": 30, \"most_ignored\": \"B\", \"why\": \"No label at all is invisible\u2014I won't even think about it.\"}",
+   "points": null
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Right, let me think about this honestly. The graphic photos would probably get to me more than text\u2014that's the kind of thing that sticks in your head when you're standing at the vending machine. But realistically, I'm often grabbing something because I'm tired or hungry between meetings, not because I've had time to sit and think. Calorie counts on their own don't really shift me because I already know a Dairy Milk isn't exactly a health food, and honestly when you're skint, you're picking what fills you up. The warnings combined with calorie counts might actually make a difference because it's information hitting you from two angles at once.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 28, \"D\": 0, \"E\": 12, \"F\": 40, \"most_ignored\": \"D\", \"why\": \"No labels at all means nothing changes my behavior\u2014I'd just carry on as normal.\"}\n```",
+   "points": null
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "*reads through slowly*\n\nRight. My gut reaction? The graphic pictures would probably wind me up more than anything else\u2014feels manipulative, like someone's trying to scare me into compliance. And honestly, at the point I'm grabbing a snack, I'm not going to stand there doing mental maths on calories anyway. If I'm tired and stressed and want a chocolate bar, a number on the wrapper isn't going to stop me. But the plain text warning at least doesn't feel like I'm being shouted at.\n\nThe calorie counts on everything\u2014that's just information, fair enough, but it doesn't really change behaviour for me. I already know a Dairy Milk isn't a health food. It's about what I can afford and what I fancy in that moment.\n\nOption F is basically what we have now, so that's the baseline. Option A with the gruesome photos would probably annoy me enough that I'd actively ignore it out of sheer stubbornness. The combo of pictures *and* calories feels overkill.\n\nIf I'm being honest, none of these would stop me buying what I want, but the plain text warning without the calories (E) at least sits quietly in the background without making me feel lectured to. That's probably most likely to make me think for half a second.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 12, \"C\": 8, \"D\": 3, \"E\": 15, \"F\": 57}, \"most_ignored\": \"A\", \"why\": \"Graphic photos feel like emotional manipulation and would make me reach for the banned item out of spite.\"}\n```",
+   "points": [
+    5.0,
+    12.0,
+    8.0,
+    3.0,
+    15.0,
+    57.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Right, let me think about this honestly. Those graphic images with tumours and bleeding eyes\u2014that's shock tactics, and it would probably wind me up more than make me think twice. I'd likely tune it out or feel annoyed at being lectured. The calorie counts on everything feel a bit pointless when I'm just grabbing a snack; I'm not sitting there doing maths. What *might* actually make a difference is if I could see at a glance what's genuinely lower-cal without the scaremongering, because then I could pick something less guilty-feeling without pretending I've gone health-conscious.\n\nHonestly though? Most of this wouldn't change much. I know Doritos aren't a health food. Some days I'd pick them anyway because they're there or I fancy them. Some days I might grab a yoghurt. A warning label isn't going to stop me\u2014I'm not an idiot who doesn't know crisps are bad for you.\n\n{\"points\": {\"A\": 5, \"B\": 2, \"C\": 15, \"D\": 8, \"E\": 22, \"F\": 48, \"most_ignored\": \"B\", \"why\": \"Graphic images of disease without any practical information would just feel manipulative and make me dismiss the whole thing.\"}",
+   "points": null
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "*reads through all six options*\n\nRight, honestly? Most of this feels like it's trying to scare or shame me into things, and that just winds me up. I know a Dairy Milk isn't a health food\u2014I'm not an idiot. The graphic photos would probably just annoy me more than anything, make me feel like I'm being treated like a kid who needs frightening. The calorie badges are fine, I suppose, at least they're just information without the lecture. But let's be real: if I'm tired after work and I fancy a chocolate bar, I'm going to buy it. What might actually make a difference is if the cheaper healthy options were, you know, actually cheaper, or if someone could magic up more time. None of these labels do that.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 15, \"C\": 2, \"D\": 5, \"E\": 20, \"F\": 3, \"most_ignored\": \"C\", \"why\": \"Graphic surgery photos would just piss me off and make me ignore the lot.\"}\n```",
+   "points": null
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "Right, let me think about this honestly.\n\nMy gut reaction is that I'd ignore most of this lot\u2014the warnings especially. I don't need someone showing me pictures of diseased organs every time I fancy a chocolate bar; that's the lecturing nonsense I can't stand. But calorie counts? That actually might make me pause, because I can do the maths myself and decide whether it's worth it. The graphic images would just wind me up and make me want to buy the thing out of spite, probably. And combining warnings with calories feels redundant\u2014if the calorie badge does anything, the warning's just noise on top.\n\nWhat would actually change my behaviour slightly is seeing the numbers in front of me. Not because I'm scared, but because I'm practical. If I can see a yoghurt is 95 calories and a Dairy Milk is 240, I might pick the yoghurt more often, especially if I'm watching my intake that week. The warnings alone? Pointless. I already know what's bad for me. I just don't care every single time I buy a snack.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 28, \"C\": 32, \"D\": 2, \"E\": 3, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"Graphic medical images would just annoy me and feel manipulative\u2014I'd ignore them or buy the snack anyway out of stubbornness.\"}\n```",
+   "points": [
+    5.0,
+    28.0,
+    32.0,
+    2.0,
+    3.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "Right, let me think about this honestly.\n\nMy gut reaction: most of these feel like they're trying to scare me into compliance, and I've already made my peace with occasional treats\u2014I'm not overweight, I cycle 60k a week, I read the labels that matter to me. The graphic photos would just wind me up, to be frank. The calorie counts are actually useful if I'm curious, but they won't stop me grabbing a Dairy Milk if that's what I want. I already know a chocolate bar isn't a health food.\n\nWhat *might* shift me slightly is if comparing options became easier\u2014like seeing 240 vs 95 calories side by side makes the choice more visible. But honestly, if I'm at a vending machine and fancy a snack, none of these warnings are going to change much. I'll grab what I fancy or what's cheap. The only thing that's actually changed my eating is when chicken became cheaper than red meat\u2014that's real, that's financial. Everything else is background noise.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 2, \"C\": 15, \"D\": 20, \"E\": 1, \"F\": 5}, \"most_ignored\": \"B\", \"why\": \"Graphic medical photos would just annoy me and make me want to do the opposite\u2014pure irritation, no actual effect.\"}\n```",
+   "points": [
+    15.686274509803921,
+    3.9215686274509802,
+    29.41176470588235,
+    39.21568627450981,
+    1.9607843137254901,
+    9.803921568627452
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "*leans back*\n\nRight, honestly? Most of this is just noise to me. I'm not a snacker\u2014I grab what I need, move on. If I'm buying a Dairy Milk it's because I fancy it, not because I haven't read a label. The graphic photos would just wind me up; feels like being talked down to. The calorie counts mean nothing without context\u2014240 calories of what, and compared to what? I eat what fits the budget and what I feel like at the time.\n\nOnly thing that might actually shift me is seeing the numbers side by side so I can make a quick comparison\u2014like, oh, that fruit pot is half the calories and costs about the same, fair enough, grab that instead. But even then, on a Tuesday at 4 p.m. when I want a chocolate bar, none of this stops me.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 2, \"D\": 12, \"E\": 8, \"F\": 58}, \"most_ignored\": \"C\", \"why\": \"Shock tactics just make me resent the message; graphic photos on a snack wrapper feel manipulative and I'd ignore it out of principle.\"}\n```",
+   "points": [
+    5.0,
+    15.0,
+    2.0,
+    12.0,
+    8.0,
+    58.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "*leans back*\n\nRight. Honest answer? Most of this won't shift me much because I don't buy snacks from vending machines\u2014I'm not that person. But if I'm in a petrol station grabbing something, I already know what I'm doing. The warnings feel like the lecturing I said annoys me, and graphic surgery photos would just wind me up, make me want to buy the thing out of spite, frankly. The calorie counts on everything\u2014that's just noise unless you're actively counting, which I'm not. What *might* nudge me is seeing the calories clearly on the high-cal stuff specifically, because that's comparative information my brain can actually use in thirty seconds.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 18, \"C\": 22, \"D\": 2, \"E\": 28, \"F\": 25}, \"most_ignored\": \"A\", \"why\": \"Plain text warnings feel like nagging and I'd tune them out immediately.\"}\n```",
+   "points": [
+    5.0,
+    18.0,
+    22.0,
+    2.0,
+    28.0,
+    25.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Right, my gut reaction: the graphic photos would just wind me up\u2014feel like being treated like a child who can't make his own decisions. The text warnings are just noise, same lectures I've heard a thousand times. Calorie counts are actually useful because I can see what I'm getting, but honestly, if I'm grabbing a snack from a vending machine, I've already decided what I want. What *might* actually shift me is seeing the numbers side by side so I could make a quick comparison\u2014apple crisps versus Doritos, say\u2014but even then, it's not like I'm in there every day.\n\nLet me think: A and F would annoy me into ignoring them. B changes nothing because there's no information. C is just preachy background noise. D gives me the data but with the finger-wagging attached. E is clean information without the lecturing. F is the worst of both worlds\u2014graphic shock tactics *and* calorie counts, feels patronising.\n\nWhat would actually work? Probably just seeing the calorie counts plainly, no drama, so I could make a conscious choice in the moment. That's E. D would come second because at least there's useful information, even if the warning's annoying.\n\n```json\n{\"points\": {\"A\": 2, \"B\": 0, \"C\": 3, \"D\": 18, \"E\": 60, \"F\": 17, \"most_ignored\": \"B\", \"why\": \"It's invisible; I wouldn't notice it at all.\"}\n```",
+   "points": null
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "*leans back*\n\nLook, I'm not going to pretend I'm some health nut. I eat what I fancy, and if it tastes good, that's half the battle already. All these warnings and pictures\u2014they're meant to scare you, aren't they? But I've seen it all before. One month salt's going to kill you, next month it's sugar. You stop listening after a while.\n\nThe calorie counts might actually mean something though, I suppose. If I could see at a glance that one thing's got half the calories of another and they're right there next to each other, I might pick the lighter one just out of curiosity\u2014might be less guilt. But these graphic pictures of tumours and all that? No. That's just... that's nasty, and it feels like they're talking down to you. Makes me want to buy the thing just to prove they can't tell me what to do.\n\nThe plain text warnings are invisible. I'd walk right past them. And honestly, if there's nothing on the label at all, I'm just grabbing what I always grab\u2014whatever's familiar and filling.\n\nSo the calorie count without the horror show\u2014that's the only one that might actually make me pause for a second and think. Not stop me eating crisps, but maybe I'd pick the smaller packet.\n\n{\"points\": {\"A\": 5, \"B\": 0, \"C\": 15, \"D\": 35, \"E\": 45, \"F\": 0}, \"most_ignored\": \"B\", \"why\": \"Those graphic pictures feel like bullying and make me want to buy the thing out of spite.\"}",
+   "points": [
+    5.0,
+    0.0,
+    15.0,
+    35.0,
+    45.0,
+    0.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "*shifts in chair*\n\nRight, let me think about this properly. If I'm being honest, the graphic pictures would just annoy me\u2014they'd feel like someone's trying to scare me into behaving like a child, and I'd probably pick the chocolate *more* out of stubbornness. The calorie counts on their own don't mean much to me because I don't really track that sort of thing, never have. But if there's a number just sitting there bold as brass every time I reach for something, it might actually make me pause\u2014not because it stops me, but because it makes me notice I'm choosing the bigger one. The plain text warnings are just noise, like the health campaigns on telly that contradict themselves all the time.\n\nHonestly, nothing's going to make much difference because money matters more than anything else\u2014I'll buy what's cheapest and what the family actually eats. But if I had to pick, the calorie counts without the horror show pictures might at least make me think twice now and then. That's about it.\n\n```json\n{\n  \"points\": {\n    \"A\": 2,\n    \"B\": 5,\n    \"C\": 22,\n    \"D\": 8,\n    \"E\": 3,\n    \"F\": 60\n  },\n  \"most_ignored\": \"E\",\n  \"why\": \"Plain text warnings just blend into the background noise like everything else telling me what to do.\"\n}\n```",
+   "points": [
+    2.0,
+    5.0,
+    22.0,
+    8.0,
+    3.0,
+    60.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "*leans back in chair*\n\nRight, look. I'm not going to pretend I don't know what's bad for me\u2014I'm sixty-something, not daft. But all these warnings and pictures and numbers... honestly, they just feel like noise. I grab what I fancy, and I'm not standing there doing sums at the vending machine. The graphic pictures would probably just irritate me, to be honest. Make me feel lectured. The calorie badges are fine, I suppose\u2014at least they're just numbers, not doom and gloom\u2014but I can't say they'd actually stop me buying a Dairy Milk if that's what I fancied. None of this is going to change much because the issue isn't that I don't *know*; it's that I've got a household to run on a budget and sometimes you just need something quick.\n\n```json\n{\n  \"points\": {\n    \"A\": 15,\n    \"B\": 20,\n    \"C\": 12,\n    \"D\": 8,\n    \"E\": 5,\n    \"F\": 10\n  },\n  \"most_ignored\": \"E\",\n  \"why\": \"Pictures of tumours and bleeding eyes would just make me cross and feel patronised; I'd ignore them and buy the Dairy Milk anyway out of spite.\"\n}\n```",
+   "points": [
+    21.428571428571427,
+    28.571428571428573,
+    17.142857142857142,
+    11.428571428571429,
+    7.142857142857143,
+    14.285714285714286
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "*shifts in chair*\n\nRight, let me think about this honestly. The graphic pictures\u2014that's the sort of thing that gets shoved in your face and makes you feel a bit sick, doesn't it? Bowel tumours and all that. But would it actually stop me reaching for a Dairy Milk? Probably not, not really. I've seen all that before on cigarette packets, and people still smoke. The plain text warnings, they're just... words. You'd stop reading them after the first time. \n\nThe calorie counts\u2014now, I don't really pay attention to those normally, but I suppose if it's staring you in the face every time, you might think twice. Just the numbers though, without all the shock tactics. And honestly, most of this stuff\u2014the warnings, the labels\u2014it all just feels like people trying to make you feel guilty about what you eat. I've got enough to worry about without that.\n\nIf I'm being completely straight with you, none of this would really change my habits much. I'm not going to suddenly start picking fruit pots over a chocolate bar because there's a scary picture or a number on it. But if I had to pick what might nudge me slightly, it'd be seeing the calorie count regularly\u2014just matter-of-fact information, not all the drama.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 3, \"C\": 22, \"D\": 8, \"E\": 12, \"F\": 50}, \"most_ignored\": \"B\", \"why\": \"Plain text warnings are just nagging words that people tune out immediately, especially when they've heard it all before.\"}\n```",
+   "points": [
+    5.0,
+    3.0,
+    22.0,
+    8.0,
+    12.0,
+    50.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "*settles back*\n\nRight, look. I'm not going to pretend I'm suddenly going to start picking apple crisps over a Dairy Milk because someone's put a picture of a tumour on it. That's just... that's manipulation, isn't it? It'll wind me up more than anything. The calorie counts don't really speak to me either\u2014I don't sit there doing sums. What might actually make me pause is if I could see at a glance that something's genuinely lower without all the scaremongering. But honestly? Most days I'll just grab what I fancy, especially if I'm tired or the kids are being a handful.\n\nThe warnings about obesity and cancer and all that\u2014I've heard it all before. It just makes me tune out, like those health adverts that are always banging on about something different. If they kept showing me gory pictures, I'd probably avoid looking at the vending machine altogether rather than think \"oh, I'll have the fruit pot instead.\" And D\u2014that's just normal life, so that doesn't change anything either.\n\n{\"points\": {\"A\": 8, \"B\": 5, \"C\": 12, \"D\": 0, \"E\": 2, \"F\": 3}, \"most_ignored\": \"E\", \"why\": \"Graphic images would just annoy me and make me switch off, not change what I pick.\"}",
+   "points": [
+    26.666666666666668,
+    16.666666666666668,
+    40.0,
+    0.0,
+    6.666666666666667,
+    10.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Right, my gut reaction: the graphic images would probably wind me up more than anything\u2014feels like emotional manipulation, which makes me want to ignore it on principle. The calorie counts are just... information, aren't they? I can see calories and make my own choice. The plain text warnings split the difference, but honestly, none of this is going to stop me grabbing a Dairy Milk if I want one. I'm training for a half marathon; I know what I'm doing.\n\nThe thing is, I'm not someone who needs scaring into good choices. I'm already fairly active, I'm aware of what I'm eating. If anything, these campaigns just feel preachy and judgmental\u2014which is exactly what I said annoys me about public health messaging.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 20, \"C\": 8, \"D\": 15, \"E\": 2, \"F\": 50}, \"most_ignored\": \"E\", \"why\": \"Graphic shock tactics just make me defensive and more likely to ignore the message entirely.\"}\n```",
+   "points": [
+    5.0,
+    20.0,
+    8.0,
+    15.0,
+    2.0,
+    50.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "*reads through slowly*\n\nRight, so... my gut reaction is that the graphic images would probably get to me more than I'd like to admit, but also annoy me for being manipulative. The calorie counts alone don't really do much because I'm not counting anything\u2014I eat what I want and I'm training enough that it balances out. And honestly, the plain text warnings feel like they'd just become background noise, like those cigarette packets you stop noticing.\n\nThe thing is, I'm not the target for most of this anyway. I'm hungry after the gym, I know what I'm doing, I'm not sitting around mindlessly eating crisps while watching telly. So most of these would just irritate me rather than change anything. But if I'm being honest, the graphic photos might actually make me pause for a second before grabbing something, even though I'd resent it.\n\n{\"points\": {\"A\": 18, \"B\": 22, \"C\": 8, \"D\": 0, \"E\": 5, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"It's just normal shopping\u2014I wouldn't even register it as trying to influence me.\"}",
+   "points": [
+    27.692307692307693,
+    33.84615384615385,
+    12.307692307692308,
+    0.0,
+    7.6923076923076925,
+    18.46153846153846
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Right, my gut reaction: the graphic horror-show stuff would probably just annoy me\u2014feels manipulative and like it's treating me like I can't make my own decisions. The calorie counts are actually useful information, especially now I'm training more and thinking about fueling properly. But honestly? None of this is going to make me pick a fruit pot over a Dairy Milk if I fancy a Dairy Milk. I already know what's in my body and what I'm doing with it.\n\nI'm training for a half marathon, so I'm not the target audience for these warnings anyway. And if I'm being honest, the whole \"excess calories cause disease\" framing just winds me up because it's so reductive\u2014like it's ignoring everything else about how people actually live and move and think about food. That's the judgmental stuff I was on about.\n\nCalorie counts would be the only thing I'd actually *use*, because if I'm hungry after a long run, I might actually check what I'm getting to make sure it's enough. The warnings would just become background noise.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 5, \"C\": 8, \"D\": 15, \"E\": 35, \"F\": 2}, \"most_ignored\": \"A\", \"why\": \"Graphic shock tactics feel preachy and patronizing, so I'd dismiss them immediately.\"}\n```",
+   "points": [
+    7.142857142857143,
+    7.142857142857143,
+    11.428571428571429,
+    21.428571428571427,
+    50.0,
+    2.857142857142857
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Right, let me think about this honestly.\n\nMy gut reaction is that the graphic warnings would probably wind me up more than change my behaviour\u2014I'd find them patronising and heavy-handed, especially after what I said about judgemental public health campaigns. The calorie counts alone might make me slightly more aware, but I'm not really counting calories; I just eat what I feel like, and my activity level balances it out. The text warnings without pictures feel like they'd have *some* effect because they're information without the moral theatre, but I'd still probably ignore them half the time.\n\n{\"points\": {\"A\": 15, \"B\": 5, \"C\": 10, \"D\": 25, \"E\": 30, \"F\": 15}, \"most_ignored\": \"B\", \"why\": \"The graphic horror-show warnings would just piss me off and make me want to buy the chocolate out of spite.\"}",
+   "points": [
+    15.0,
+    5.0,
+    10.0,
+    25.0,
+    30.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Right, my gut reaction: the graphic photos would just piss me off\u2014feels manipulative and like it's treating me like I'm stupid. The plain text warnings are just noise at this point, everyone knows that stuff. But actual numbers? That I'd probably look at, because I'm already tracking my activity and hunger levels anyway. It's just information, not judgment.\n\nThe vending machine scenario\u2014honestly, I'd probably still grab what I fancy because I'm training hard and I'm hungry. But if I'm standing there deliberating between two things, knowing the calorie counts would make me think \"right, if I'm having the Dairy Milk today, maybe the yoghurt tomorrow\" rather than just going for both. That's the only thing that would actually shift my choices in real time.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 35, \"D\": 35, \"E\": 8, \"F\": 2}, \"most_ignored\": \"A\", \"why\": \"Graphic shock tactics feel patronising and would just make me resent the message; I'm not going to change my behaviour because someone's shown me a bleeding eye.\"}\n```",
+   "points": [
+    5.0,
+    15.0,
+    35.0,
+    35.0,
+    8.0,
+    2.0
+   ]
+  }
+ ]
+}

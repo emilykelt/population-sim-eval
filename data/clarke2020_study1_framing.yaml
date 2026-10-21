@@ -1,0 +1,176 @@
+name: clarke2020_study1_framing
+source: Clarke et al. 2020 protocol Study 1; data osf.io/k7tw5 (N=4,607 UK adults, 18 pictorial labels collapsed to 6 disease framings). Truth = 8 - desire to eat the chocolate bar (1-7) per segment per framing; secondary truth = negative emotional arousal.
+outcome_hint: 'Concretely: you are shown a Dairy Milk bar carrying one of these warning labels and asked how much you want to eat it right now. Give more points to the label that would most reduce YOUR desire to eat the bar.'
+messages:
+  bowel_cancer: 'A warning label on a chocolate bar: ''Excess calories cause obesity which causes bowel cancer'', above a graphic photograph of a cancerous bowel.'
+  cancer: 'A warning label on a chocolate bar: ''Excess calories cause obesity which causes cancer'', above a photograph of cancer surgery.'
+  thirteen_cancers: 'A warning label on a chocolate bar: ''Excess calories cause obesity which causes 13 types of cancer'', above a photograph of cancer surgery.'
+  type2_diabetes: 'A warning label on a chocolate bar: ''Excess calories cause obesity which causes Type 2 diabetes'', above a photograph of a bleeding diabetic eye.'
+  heart_disease: 'A warning label on a chocolate bar: ''Excess calories cause obesity which causes heart disease'', above a photograph of open-heart surgery.'
+  obesity: 'A warning label on a chocolate bar: ''Excess calories cause obesity'', above a photograph of three overweight people seen from behind.'
+pooled_truth:
+  bowel_cancer: 4.9247
+  cancer: 4.6131
+  heart_disease: 4.6506
+  obesity: 4.7061
+  thirteen_cancers: 4.6789
+  type2_diabetes: 4.7442
+secondary_truth_nea:
+  age_band=18-34|country=UK|gender=man:
+    bowel_cancer: 4.93
+    cancer: 4.608
+    heart_disease: 4.66
+    obesity: 3.958
+    thirteen_cancers: 4.257
+    type2_diabetes: 4.275
+  age_band=35-54|country=UK|gender=man:
+    bowel_cancer: 4.328
+    cancer: 3.835
+    heart_disease: 3.724
+    obesity: 3.21
+    thirteen_cancers: 3.572
+    type2_diabetes: 3.852
+  age_band=55+|country=UK|gender=man:
+    bowel_cancer: 3.515
+    cancer: 3.174
+    heart_disease: 2.769
+    obesity: 2.693
+    thirteen_cancers: 2.898
+    type2_diabetes: 2.908
+  age_band=18-34|country=UK|gender=woman:
+    bowel_cancer: 5.135
+    cancer: 4.216
+    heart_disease: 4.654
+    obesity: 4.121
+    thirteen_cancers: 4.248
+    type2_diabetes: 4.245
+  age_band=35-54|country=UK|gender=woman:
+    bowel_cancer: 4.74
+    cancer: 3.796
+    heart_disease: 3.836
+    obesity: 3.873
+    thirteen_cancers: 4.073
+    type2_diabetes: 3.739
+  age_band=55+|country=UK|gender=woman:
+    bowel_cancer: 4.318
+    cancer: 3.505
+    heart_disease: 3.484
+    obesity: 3.107
+    thirteen_cancers: 3.645
+    type2_diabetes: 3.184
+  country=UK|education=no university degree:
+    bowel_cancer: 4.398
+    cancer: 3.731
+    heart_disease: 3.629
+    obesity: 3.343
+    thirteen_cancers: 3.562
+    type2_diabetes: 3.626
+  country=UK|education=university degree:
+    bowel_cancer: 4.492
+    cancer: 3.929
+    heart_disease: 3.957
+    obesity: 3.595
+    thirteen_cancers: 3.938
+    type2_diabetes: 3.694
+diagnostics:
+  gender+age_band:
+    pooled_baseline_spearman: 0.443
+    split_half_ceiling_spearman: 0.171
+  education:
+    pooled_baseline_spearman: 0.743
+    split_half_ceiling_spearman: 0.208
+segments:
+- cell:
+    country: UK
+    gender: man
+    age_band: 18-34
+  truth:
+    bowel_cancer: 4.52
+    cancer: 3.8632
+    heart_disease: 4.25
+    obesity: 4.197
+    thirteen_cancers: 4.029
+    type2_diabetes: 3.7101
+  n: 438
+- cell:
+    country: UK
+    gender: man
+    age_band: 35-54
+  truth:
+    bowel_cancer: 4.7448
+    cancer: 4.4422
+    heart_disease: 4.2242
+    obesity: 4.2416
+    thirteen_cancers: 4.3529
+    type2_diabetes: 4.5267
+  n: 909
+- cell:
+    country: UK
+    gender: man
+    age_band: 55+
+  truth:
+    bowel_cancer: 4.7597
+    cancer: 4.7368
+    heart_disease: 4.6478
+    obesity: 5.0
+    thirteen_cancers: 4.6753
+    type2_diabetes: 4.8947
+  n: 920
+- cell:
+    country: UK
+    gender: woman
+    age_band: 18-34
+  truth:
+    bowel_cancer: 4.9716
+    cancer: 4.5833
+    heart_disease: 4.7808
+    obesity: 4.596
+    thirteen_cancers: 4.5379
+    type2_diabetes: 4.7793
+  n: 860
+- cell:
+    country: UK
+    gender: woman
+    age_band: 35-54
+  truth:
+    bowel_cancer: 4.874
+    cancer: 4.7786
+    heart_disease: 4.824
+    obesity: 5.0
+    thirteen_cancers: 5.0342
+    type2_diabetes: 5.0876
+  n: 769
+- cell:
+    country: UK
+    gender: woman
+    age_band: 55+
+  truth:
+    bowel_cancer: 5.5625
+    cancer: 5.1667
+    heart_disease: 5.1667
+    obesity: 5.0082
+    thirteen_cancers: 5.2578
+    type2_diabetes: 4.9915
+  n: 711
+- cell:
+    country: UK
+    education: no university degree
+  truth:
+    bowel_cancer: 4.8957
+    cancer: 4.5942
+    heart_disease: 4.6018
+    obesity: 4.7149
+    thirteen_cancers: 4.6916
+    type2_diabetes: 4.8215
+  n: 2672
+- cell:
+    country: UK
+    education: university degree
+  truth:
+    bowel_cancer: 4.9635
+    cancer: 4.6401
+    heart_disease: 4.7188
+    obesity: 4.6942
+    thirteen_cancers: 4.6603
+    type2_diabetes: 4.6426
+  n: 1935

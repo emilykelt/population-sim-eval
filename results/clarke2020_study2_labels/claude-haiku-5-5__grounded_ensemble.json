@@ -1,0 +1,2520 @@
+{
+ "score": {
+  "mean_spearman": -0.37142857142857144,
+  "top1_accuracy": 0.0,
+  "gap_preservation": 0.09562156184993503,
+  "n_segments_scored": 8,
+  "n_valid_answers": 546,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": -0.3142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     17.5,
+     17.1,
+     36.4,
+     9.2,
+     8.0,
+     11.8
+    ],
+    "truth": [
+     0.56,
+     0.416,
+     0.286,
+     0.615,
+     0.412,
+     0.314
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": -0.48571428571428577,
+    "top1_hit": 0.0,
+    "pred": [
+     12.5,
+     15.7,
+     34.0,
+     7.3,
+     7.5,
+     23.0
+    ],
+    "truth": [
+     0.517,
+     0.527,
+     0.352,
+     0.508,
+     0.474,
+     0.421
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": -0.6,
+    "top1_hit": 0.0,
+    "pred": [
+     13.7,
+     24.7,
+     30.8,
+     7.2,
+     8.8,
+     14.8
+    ],
+    "truth": [
+     0.613,
+     0.574,
+     0.507,
+     0.575,
+     0.579,
+     0.451
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": -0.5428571428571429,
+    "top1_hit": 0.0,
+    "pred": [
+     13.2,
+     15.2,
+     32.8,
+     9.0,
+     7.9,
+     21.9
+    ],
+    "truth": [
+     0.667,
+     0.466,
+     0.414,
+     0.664,
+     0.439,
+     0.341
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": -0.5428571428571429,
+    "top1_hit": 0.0,
+    "pred": [
+     15.8,
+     15.5,
+     29.5,
+     9.2,
+     6.6,
+     23.5
+    ],
+    "truth": [
+     0.707,
+     0.615,
+     0.507,
+     0.713,
+     0.587,
+     0.41
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.2571428571428572,
+    "top1_hit": 0.0,
+    "pred": [
+     16.2,
+     18.9,
+     34.6,
+     7.3,
+     8.1,
+     14.9
+    ],
+    "truth": [
+     0.657,
+     0.778,
+     0.663,
+     0.75,
+     0.637,
+     0.495
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": -0.14285714285714288,
+    "top1_hit": 0.0,
+    "pred": [
+     21.5,
+     17.9,
+     32.3,
+     9.9,
+     6.9,
+     11.4
+    ],
+    "truth": [
+     0.597,
+     0.539,
+     0.478,
+     0.617,
+     0.511,
+     0.355
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": -0.6,
+    "top1_hit": 0.0,
+    "pred": [
+     13.3,
+     16.2,
+     28.2,
+     8.6,
+     7.9,
+     25.8
+    ],
+    "truth": [
+     0.664,
+     0.602,
+     0.442,
+     0.649,
+     0.54,
+     0.491
+    ]
+   }
+  },
+  "model": "claude-haiku-5-5",
+  "method": "grounded_ensemble",
+  "cost_usd": 0.0494,
+  "seconds": 43.5,
+  "within_sd": 7.040782573596046,
+  "n_jobs": 96
+ },
+ "results": [
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Honestly, the warnings would just wash over me. I've seen plenty of \"eat less\" posters and they never tell me the one thing I want: whether the cheaper option is actually cheaper. A calorie badge would at least give me a number to compare at the machine, though I'd still be going on what's reduced and what's in the fridge. The text-only and graphic warnings I'd probably read once and forget.\n\n```json\n{\"points\": {\"A\": 10, \"B\": 25, \"C\": 25, \"D\": 5, \"E\": 15, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no calorie info or picture gives me nothing new to act on, so I'd scroll straight past it, whereas a calorie badge at least gives me a number to compare at the machine.\"}\n```",
+   "points": [
+    10.0,
+    25.0,
+    25.0,
+    5.0,
+    15.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "e73a8907ad",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Honestly, the bleeding eye and bowel tumour pictures would make me roll my eyes and carry on to the reduced section, and the plain text warnings are just more lecturing. A calorie number on everything might nudge me, since a 95 next to a 240 is at least a fact I can use, though I'd still mostly grab what's cheap. The shelf with no labels changes nothing, so it gets almost nothing.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 15, \"C\": 30, \"D\": 12, \"E\": 5, \"F\": 30}, \"most_ignored\": \"E\", \"why\": \"With no labels at all nothing changes what I grab, which is mostly driven by what's reduced that afternoon, and the scary pictures in A would just make me roll my eyes and carry on.\"}\n```",
+   "points": [
+    8.0,
+    15.0,
+    30.0,
+    12.0,
+    5.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "90ad762cff",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "My gut says the warning stuff mostly washes over me. The pictures might make me wince for a second, but I'd still grab a Dairy Milk on the way to the shops, and the bit about calories is the bit I'd have to think about, which I don't really do. Whatever gets me to look at the number for half a second is probably what would actually work.\n\n{\"points\": {\"A\": 20, \"B\": 25, \"C\": 20, \"D\": 25, \"E\": 5, \"F\": 5}, \"most_ignored\": \"E\", \"why\": \"A plain text warning with no picture and no calorie number is the kind of health blurb I'd skip past the same way I skip everything from the NHS-and-nan category.\"}",
+   "points": [
+    20.0,
+    25.0,
+    20.0,
+    25.0,
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "079a7abcd4",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Honestly, the calorie badges are the only thing here that would register, and even then it'd be because a number on a Dairy Milk next to a fruit pot is a quick comparison, not because I care about calories. The warnings all read like the lecture I've heard a hundred times, and the bowel-tumour photo would make me look away and then grab whatever's cheapest anyway. Most of the time I'm just picking by price.\n\n{\"points\": {\"A\": 10, \"B\": 35, \"C\": 8, \"D\": 4, \"E\": 25, \"F\": 18}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no numbers or pictures is just the smug lecture I've heard a hundred times, so it would wash straight over me.\"}",
+   "points": [
+    10.0,
+    35.0,
+    8.0,
+    4.0,
+    25.0,
+    18.0
+   ]
+  },
+  {
+   "persona": "cb76a1654e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Gut reaction: honestly, most of these would wash over me. I'm buying something cheap and filling off a vending machine on a break, and I'm not reading a paragraph of small print to do it. The graphic medical photos would probably make me look away and think it's melodramatic rather than make me reach for the fruit pot. The calorie badge is the only one that might register, because I can see the numbers quickly, though I'd still probably grab a Dairy Milk if I was knackered and hungry.\n\n{\"points\": {\"A\": 12, \"B\": 5, \"C\": 35, \"D\": 8, \"E\": 0, \"F\": 4}, \"most_ignored\": \"E\", \"why\": \"With no labels at all I'd just pick whatever's cheapest and most filling, which is usually the chocolate, so the snacks themselves change nothing for me.\"}",
+   "points": [
+    18.75,
+    7.8125,
+    54.6875,
+    12.5,
+    0.0,
+    6.25
+   ]
+  },
+  {
+   "persona": "ec7dd14f8e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "My gut reaction is that the calorie badge is the only one that gives me something quick to use, but I'm not checking numbers in the Lidl aisle when I'm knackered and skint. The graphic photos would probably make me wince and then I'd forget them by the till, and the plain text ones are just more small print I'd skip. Honestly, the snacks would still get picked on price and hunger.\n\n{\"points\": {\"A\": 30, \"B\": 8, \"C\": 17, \"D\": 12, \"E\": 5, \"F\": 28}, \"most_ignored\": \"E\", \"why\": \"A plain black-and-white text warning with no calorie count is just more small print I'd skip while grabbing whatever's cheapest and quickest.\"}",
+   "points": [
+    30.0,
+    8.0,
+    17.0,
+    12.0,
+    5.0,
+    28.0
+   ]
+  },
+  {
+   "persona": "489854ab04",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Honestly, my gut says I'd carry on grabbing whatever's nearest, probably a Galaxy with my Co-op meal deal. The warnings feel like the five-a-day posters: I've seen the \"this is bad for you\" thing a hundred times, so I'd just tune it out. The calorie badge on everything is the only one that might make me think for a second, if it showed a M\u00fcller next to a Galaxy.\n\n{\"points\": {\"A\": 28, \"B\": 10, \"C\": 14, \"D\": 18, \"E\": 22, \"F\": 8}, \"most_ignored\": \"F\", \"why\": \"A plain text warning on the crisps and chocolate is the same nagging I've already learned to ignore, and it tells me nothing I don't know.\"}",
+   "points": [
+    28.0,
+    10.0,
+    14.0,
+    18.0,
+    22.0,
+    8.0
+   ]
+  },
+  {
+   "persona": "4fd26716c7",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "My gut reaction is that the photos in B and C are the same guilt-trip adverts I already tune out, and the plain text warnings in A and D just read like small print. The calorie badge in F is the only thing here that tells me something useful, and it's the same info I'd want on the shelf anyway, though I doubt a number alone would stop me grabbing a Dairy Milk. E changes nothing because it's just what I see now.\n\n{\"points\": {\"A\": 10, \"B\": 7, \"C\": 16, \"D\": 22, \"E\": 0, \"F\": 45}, \"most_ignored\": \"E\", \"why\": \"It's identical to what I already see in the shop, so it gives me nothing new to act on, whereas the calorie badge at least gives a price-free fact I can compare without being lectured.\"}",
+   "points": [
+    10.0,
+    7.0,
+    16.0,
+    22.0,
+    0.0,
+    45.0
+   ]
+  },
+  {
+   "persona": "6d6be3157b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "Honestly, the calorie badge on everything would be the one I'd notice, because I'm usually standing in the shop with no idea what a G\u00fc actually costs me, and it's the same information on the healthy stuff, so it doesn't feel like a lecture. The text warnings and the gory photos would make me roll my eyes; they'd feel like being told off by someone who's never had to eat a tin of beans for tea. Mostly, though, I'd still grab whatever's cheapest and fills me up.\n\n{\"points\": {\"A\": 40, \"B\": 15, \"C\": 8, \"D\": 5, \"E\": 10, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"A large graphic medical photo on a crisp packet would just look like the same nagging scare tactic I already scroll past, and it wouldn't change what I buy after a long shift.\"}",
+   "points": [
+    40.0,
+    15.0,
+    8.0,
+    5.0,
+    10.0,
+    22.0
+   ]
+  },
+  {
+   "persona": "8e1a662dcb",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "My gut says the graphic photos would just make me scroll past, because they feel like being told off for eating a Dairy Milk. The plain text warnings would annoy me too. A calorie badge is the only one that would give me a quick number to compare, though I still wouldn't pick by it if the high-calorie thing was cheaper.\n\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 12, \"D\": 5, \"E\": 8, \"F\": 55}, \"most_ignored\": \"A\", \"why\": \"The graphic medical photos and scare wording feel like finger-wagging, so I'd just scroll past them without changing what I pick.\"}",
+   "points": [
+    5.0,
+    15.0,
+    12.0,
+    5.0,
+    8.0,
+    55.0
+   ]
+  },
+  {
+   "persona": "e317db0701",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "Honestly, a number on the front is the only one of these I'd even clock, and only if it's right there in the vending machine when I'm knackered and hungry. The rest reads like a lecture from someone who's never done a 6:40 train, and the medical pictures would just make me look away. I'm still going to grab whatever's cheapest and fills me up.\n\n{\"points\": {\"A\": 30, \"B\": 7, \"C\": 15, \"D\": 8, \"E\": 25, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"A graphic medical photo on a snack I'm grabbing one-handed on the way to a train is the kind of thing I'd tune out, whereas a simple calorie number at least gives me something quick to compare.\"}",
+   "points": [
+    30.0,
+    7.0,
+    15.0,
+    8.0,
+    25.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "95f4b12a4e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "My gut says the calorie badges are the only bit I'd notice, mostly because I've been eating more since the running and I've no real idea what's in a bag of crisps. The graphic photos would just make me think someone's trying to scare me, and I'd bin it without changing what I grab at the bus stop.\n\n{\"points\": {\"A\": 20, \"B\": 15, \"C\": 5, \"D\": 50, \"E\": 10, \"F\": 0}, \"most_ignored\": \"F\", \"why\": \"Seeing the snacks exactly as they are in the shop tells me nothing new, and I'd still pick on price and whatever's quickest, so it wouldn't change a thing.\"}",
+   "points": [
+    20.0,
+    15.0,
+    5.0,
+    50.0,
+    10.0,
+    0.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Honestly, most of these would wash over me. The warnings read like they're talking down to me, and the photos would just make me think someone's trying to scare me, which I'd ignore. A calorie badge on everything is the only bit that's actually useful, because I'd see the fruit pot is a fraction of the Dairy Milk, but I'd still pick whatever's cheap and fills me up before the kids get home.\n\n{\"points\": {\"A\": 22, \"B\": 8, \"C\": 30, \"D\": 5, \"E\": 10, \"F\": 25}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no picture or number reads like a lecture I've already heard, so it'd go straight past me.\"}",
+   "points": [
+    22.0,
+    8.0,
+    30.0,
+    5.0,
+    10.0,
+    25.0
+   ]
+  },
+  {
+   "persona": "73afb797cc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "Honestly, most of these would wash over me. The graphic photos might make me wince for a second, but I'd roll my eyes at it like the anti-smoking ads, and I'd still grab the Dairy Milk. Calorie numbers are closer to something I might notice, but I'm not doing sums in the shop, and I look at the price before anything else.\n\n{\"points\": {\"A\": 40, \"B\": 10, \"C\": 8, \"D\": 14, \"E\": 8, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"A plain text warning with no picture is just more of the same nagging I already tune out, like the five-a-day posters on the bus.\"}",
+   "points": [
+    40.0,
+    10.0,
+    8.0,
+    14.0,
+    8.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "29f2cb08d2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "Honestly, most of these would just wash over me. The scary photos and the \"everyone knows this\" warnings are the kind of thing I'd scroll past, and a calorie number on a Dairy Milk doesn't tell me anything I can use when I'm choosing between a reduced pack of crisps and a 95p fruit pot. The calorie badge on everything is the only one that gives me something concrete to compare, even if I'd still probably grab whatever's cheapest.\n\n{\"points\": {\"A\": 8, \"B\": 18, \"C\": 12, \"D\": 22, \"E\": 5, \"F\": 35}, \"most_ignored\": \"E\", \"why\": \"The graphic medical photos feel like the preachy scare tactics I already tune out, and without any calorie information they give me nothing practical to act on at the shelf.\"}",
+   "points": [
+    8.0,
+    18.0,
+    12.0,
+    22.0,
+    5.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "da72812cfc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Gut reaction: honestly, most of these would wash over me. The graphic medical photos might make me wince for a second, but I've seen plenty of scary stuff on the telly and it doesn't change what I put in the basket. Calorie badges I'd probably notice, but I don't count calories, and Keith's reduced shelf is going to beat any label when I'm standing at the counter with forty quid's worth of bills in my head. The plain text ones are just more small print to me.\n\nRight, allocating. Nothing's going to make me swap a Dairy Milk for a beetroot crisp on a whim, but if anything gets a look it's the calorie badge sitting next to the price, since that's the sort of thing that actually stands out when you're choosing. I'd give most of the points to F and E, a few to B, and almost nothing to the bare warnings or the plain shop shelf.\n\n{\"points\": {\"A\": 3, \"B\": 14, \"C\": 4, \"D\": 5, \"E\": 22, \"F\": 46, \"G\": 0}, \"most_ignored\": \"A\", \"why\": \"Plain text warnings are just more small print I'd scroll past, and the shop-as-is option changes nothing because I'd buy the same snacks anyway.\"}",
+   "points": [
+    3.1914893617021276,
+    14.893617021276595,
+    4.25531914893617,
+    5.319148936170213,
+    23.404255319148938,
+    48.93617021276596
+   ]
+  },
+  {
+   "persona": "f97cee23dd",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Honestly, I'd mostly walk past all of these. A number on a bar might make me glance at it, but I'm not picking a fruit pot because a badge says 95, and the warning ones would just read like nagging. The gory photos would put me off the aisle for about a second, then I'd buy the Galaxy anyway after a bad day.\n\n{\"points\": {\"A\": 28, \"B\": 10, \"C\": 18, \"D\": 22, \"E\": 12, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"A plain text warning with no numbers reads like the nagging public-health stuff I already tune out, and it gives me nothing to compare against when I'm standing in front of the fridge.\"}",
+   "points": [
+    28.0,
+    10.0,
+    18.0,
+    22.0,
+    12.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "1ec44baa5d",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "Honestly, the warnings with the grim photos would make me roll my eyes. The cartoon-apple tone already gets on my nerves, and the scare stuff is the same lecturing. Calorie badges might catch my eye for a second, but I buy on price, and a 95-calorie fruit pot costs more than a bag of crisps, so it wouldn't change much.\n\n{\"points\": {\"A\": 10, \"B\": 32, \"C\": 14, \"D\": 8, \"E\": 26, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"Plain packaging with no labels tells me nothing new, so I'd walk past it the same as always, and the calorie badges at least give me something to glance at even if I still go by price.\"}",
+   "points": [
+    10.0,
+    32.0,
+    14.0,
+    8.0,
+    26.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "fb71b08c6b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Honestly, the scary photos would just make me roll my eyes, and a plain text warning would wash over me like the rest of the packaging. A calorie badge is the only one that gives me something I could actually use, though I'd probably only glance at it, and I'm not promising I'd pick the apple crisps over the Doritos on a Friday. The bare shop packaging is what I'd be looking at anyway, so it changes little.\n\n{\"points\": {\"A\": 3, \"B\": 40, \"C\": 2, \"D\": 20, \"E\": 30, \"F\": 5}, \"most_ignored\": \"A\", \"why\": \"The graphic medical photos and the lecturing tone are exactly the sort of poster I've stopped seeing, so they'd just make me switch off.\"}",
+   "points": [
+    3.0,
+    40.0,
+    2.0,
+    20.0,
+    30.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "379b5a60c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me roll my eyes. Being shown a bowel tumour next to a Dairy Milk feels like being lectured, and I'd just scroll past it. A calorie number is at least something I can use, though I'd probably only glance at it, and a bold badge on a Dairy Milk is hardly going to stop me when I'm knackered at the vending machine.\n\n{\"points\": {\"A\": 8, \"B\": 7, \"C\": 15, \"D\": 20, \"E\": 15, \"F\": 35}, \"most_ignored\": \"B\", \"why\": \"The graphic medical photos feel like being told off, so I'd tune them out, whereas a plain calorie number is the one bit of information I could actually use, though it probably wouldn't change much on its own.\"}",
+   "points": [
+    8.0,
+    7.0,
+    15.0,
+    20.0,
+    15.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "51e9fd8c10",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Honestly, the bowel-tumour and bleeding-eye photos on a crisp packet would make me roll my eyes. I've had enough of being told off by posters, and I'd just think \"here we go again\" and grab whatever's reduced at half five. The calorie badges are the only bit that might register, and even then I'd probably just compare the price.\n\n{\"points\": {\"A\": 10, \"B\": 35, \"C\": 25, \"D\": 10, \"E\": 5, \"F\": 15}, \"most_ignored\": \"E\", \"why\": \"A scary medical photo with a guilt-trip caption and no calorie info is exactly the lecturing tone I switch off from, and it gives me nothing practical to act on.\"}",
+   "points": [
+    10.0,
+    35.0,
+    25.0,
+    10.0,
+    5.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "8708403f28",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Honestly, I'd mostly walk past all of these. The graphic photos might make me wince for a second, but I'd still grab whatever's cheapest and quickest, and the plain text ones would just blend in with everything else on the packet. A bold calorie number is the only thing that would catch my eye at the machine, and even then it'd only tip me if the lower-calorie option cost the same.\n\n{\"points\": {\"A\": 5, \"B\": 10, \"C\": 25, \"D\": 15, \"E\": 35, \"F\": 10}, \"most_ignored\": \"A\", \"why\": \"Plain black-and-white text warnings blend into packaging and I'd read straight past them, the same way I do with most health messaging.\"}",
+   "points": [
+    5.0,
+    10.0,
+    25.0,
+    15.0,
+    35.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "ec140b48d8",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "Gut reaction first: honestly, most of these would wash over me. The graphic medical photos are the sort of thing I'd glance at and think \"yeah, yeah\", same as the cigarette packets, and I'd still grab a Dairy Milk on the way past the till. The calorie badges I might notice, but I already know a Dairy Milk is more than a fruit pot and I'm not going to swap my Friday treat because of a number. Plain text warnings are just background noise to me. Straight shop shelves with nothing added is what I see every day, so that changes nothing. Only thing that might nudge me is a big number when the price is about the same, and even then Priya's planning and the budget on the fridge matter more to what ends up in the basket.\n\n{\"points\": {\"A\": 8, \"B\": 3, \"C\": 22, \"D\": 5, \"E\": 2, \"F\": 0}, \"most_ignored\": \"F\", \"why\": \"With no extra labels at all, the snacks look exactly like they always do, so nothing about the choice changes for me, while the calorie badge at least gives me a number to glance at when I'm already comparing prices.\"}",
+   "points": [
+    20.0,
+    7.5,
+    55.0,
+    12.5,
+    5.0,
+    0.0
+   ]
+  },
+  {
+   "persona": "e49d79f0e8",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Honestly, the shock pictures on a bus-shelter-style poster would just make me roll my eyes. I'd read the first line, think \"yeah, yeah\", and grab whatever the kids will eat. Calorie numbers don't mean much to me either. I buy what's cheap and what gets eaten without a fuss, and I know a Dairy Milk is not a health food.\n\n{\"points\": {\"A\": 2, \"B\": 3, \"C\": 45, \"D\": 12, \"E\": 8, \"F\": 30}, \"most_ignored\": \"A\", \"why\": \"Graphic medical shock images plus a calorie badge on everything is exactly the shouting I tune out, and it does nothing for what I can afford or what the kids will eat.\"}",
+   "points": [
+    2.0,
+    3.0,
+    45.0,
+    12.0,
+    8.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Calorie numbers on the packet I'd glance at, the same way I check the price, but the gory pictures would just make me roll my eyes. The \"excess calories cause bowel cancer\" wording is the sort of thing that makes me feel lectured, and I've had six years of being told what's bad for me. I'd still pick the fruit pot if the number was right there next to the Dairy Milk, because I'm not daft about it, but I'd do that with or without a warning.\n\n{\"points\": {\"A\": 15, \"B\": 30, \"C\": 4, \"D\": 8, \"E\": 21, \"F\": 22}, \"most_ignored\": \"C\", \"why\": \"The gory photos and scare wording would just feel like being talked down to, so I'd scroll straight past them, while plain calorie numbers are the one bit of information I might actually use.\"}",
+   "points": [
+    15.0,
+    30.0,
+    4.0,
+    8.0,
+    21.0,
+    22.0
+   ]
+  },
+  {
+   "persona": "00af7ff56b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "Honestly, the photos of bowel tumours and surgery would make me wince and then forget about it by the time I'm at the till. The calorie badge is the only one I could actually use, because a 95 next to a 240 is a quick comparison and I'm already trying to cut back since the nurse had a go at me. Warnings in plain text are the sort of thing I'd skim past like the five-a-day posters on the bus.\n\n```json\n{\"points\": {\"A\": 15, \"B\": 30, \"C\": 20, \"D\": 15, \"E\": 10, \"F\": 10}, \"most_ignored\": \"A\", \"why\": \"A plain text warning on a Dairy Milk is the same wallpaper as the five-a-day posters, so I'd read it once and not register it again, whereas the calorie number gives me something to compare at the till.\"}\n```",
+   "points": [
+    15.0,
+    30.0,
+    20.0,
+    15.0,
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "b8189bb09e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "My gut reaction is that I'd mostly walk past all of these. I buy what's cheap and what I've always bought, and the scary pictures would just make me roll my eyes at another lot of people telling me what to do. The calorie badge might catch my eye, since I'm trying to cut back on sugar after that blood test, but I'd still be reaching for the Dairy Milk if it was the only thing I fancied.\n\n{\"points\": {\"A\": 15, \"B\": 5, \"C\": 40, \"D\": 25, \"E\": 5, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"Graphic medical photos on a biscuit would just look like scaremongering to me, and I'd switch off before reading the small print.\"}",
+   "points": [
+    15.0,
+    5.0,
+    40.0,
+    25.0,
+    5.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "91dacce118",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "My gut reaction is that I'd mostly ignore all of these. The photos on C and E would annoy me more than they'd put me off a Dairy Milk, and I've never been moved by being told I'm a child. The calorie badges in B and D are the only ones that give me a number I could actually use, and I do like a number, though I'd still probably grab the Galaxy at the machine.\n\n{\"points\": {\"A\": 15, \"B\": 30, \"C\": 5, \"D\": 25, \"E\": 5, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"Graphic medical photos on every packet would just look like nagging to me, so I'd skip past them without changing what I pick.\"}",
+   "points": [
+    15.0,
+    30.0,
+    5.0,
+    25.0,
+    5.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "82f88270eb",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "My gut reaction is that the graphic medical photos would make me roll my eyes, and the text warnings would just be the same \"everyone knows crisps aren't good for you\" I've heard a hundred times. A calorie number on the packet is different: it's something I can compare on the spot, and it might stop me reaching for the Dairy Milk when the fruit pot is sitting right there. I'd probably still get the crisps at the services, though.\n\n{\"points\": {\"A\": 10, \"B\": 25, \"C\": 10, \"D\": 5, \"E\": 40, \"F\": 10}, \"most_ignored\": \"D\", \"why\": \"A graphic medical photo on a snack would look like the sort of scare tactic that talks down to me, so I'd switch off before I'd read anything, whereas a plain calorie number is quick, factual, and useful at the vending machine.\"}",
+   "points": [
+    10.0,
+    25.0,
+    10.0,
+    5.0,
+    40.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "1475b795bc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "My gut says the scary pictures would just annoy me. I'd feel like I was being talked down to, the way I already feel about those adverts. The plain text warning would tell me something I already half know, and I'd probably skim it. A bold calorie number would catch my eye a bit more, though I'm not one for counting, and I'd only nudge toward the fruit pot if it looked like the sensible choice on the day.\n\n{\"points\": {\"A\": 6, \"B\": 0, \"C\": 12, \"D\": 30, \"E\": 40, \"F\": 12}, \"most_ignored\": \"A\", \"why\": \"Graphic medical photos feel like being lectured to like a child, so I'd scroll past them without changing what I pick.\"}",
+   "points": [
+    6.0,
+    0.0,
+    12.0,
+    30.0,
+    40.0,
+    12.0
+   ]
+  },
+  {
+   "persona": "f0547fbf1e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Honestly, the warnings would just wash over me. I've seen \"eat less, live longer\" a thousand times, and a black-and-white box saying the same thing gets the same shrug. A calorie number on the packet is at least something I haven't already heard, though I'd probably only glance at it, and I'm not going to swap my biscuit for a yoghurt because a badge says 240.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 12, \"C\": 25, \"D\": 15, \"E\": 30, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"Showing the snacks exactly as they are in the shop changes nothing about what I'd pick, so I'd barely register it, and the plain warnings are just more of the same lecture I've been tuning out for years.\"}\n```",
+   "points": [
+    8.0,
+    12.0,
+    25.0,
+    15.0,
+    30.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "e55fea1d30",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "Honestly, the grisly photos would just make me groan, and my brother-in-law would love them, but they wouldn't change my Friday shop. A calorie number is at least something I can compare, though I'd still be grabbing whatever's reduced at half five. The plain text warnings are the sort of small print I'd skip without thinking.\n\n{\"points\": {\"A\": 3, \"B\": 22, \"C\": 30, \"D\": 8, \"E\": 4, \"F\": 33}, \"most_ignored\": \"E\", \"why\": \"A plain black-and-white warning reads like the usual small print I skip, and it gives me nothing to compare between the crisps and the fruit pot.\"}",
+   "points": [
+    3.0,
+    22.0,
+    30.0,
+    8.0,
+    4.0,
+    33.0
+   ]
+  },
+  {
+   "persona": "af9be8e443",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "My gut reaction is that I'd mostly ignore the scary pictures. I've had enough of being talked down to, and a bowel tumour on a packet of Doritos would just make me roll my eyes. The actual calorie number is the bit I'd look at, because that's the sort of thing I can use, though with money tight I'd probably still go for whatever's cheapest on the yellow sticker.\n\n{\"points\": {\"A\": 15, \"B\": 30, \"C\": 25, \"D\": 8, \"E\": 12, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"A graphic medical photo with no calorie figure is the kind of scare tactic I'd scroll straight past, and it gives me nothing to act on.\"}",
+   "points": [
+    15.0,
+    30.0,
+    25.0,
+    8.0,
+    12.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "2044b418a3",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "Honestly, the medical photos on the crisps would make me roll my eyes. It's the same lecture with a worse picture, and I'd think they were trying to frighten me off a packet of Doritos. The calorie badge is the only one that gives me something I could use, since I'm training and I'd like to know what I'm eating, but I'd still probably grab the Galaxy on a bad day.\n\n{\"points\": {\"A\": 10, \"B\": 5, \"C\": 35, \"D\": 10, \"E\": 25, \"F\": 15}, \"most_ignored\": \"B\", \"why\": \"A plain text warning just repeats the nagging I already scroll past, with no price, no taste, and nothing that helps me choose at the machine.\"}",
+   "points": [
+    10.0,
+    5.0,
+    35.0,
+    10.0,
+    25.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "41652c374a",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Honestly, the warnings would just wash over me. I've heard \"excess calories\" and \"five a day\" a hundred times, and a plain black-and-white box looks like one more lecture. A number on the packet is more useful to me, because I'm already thinking about price per kilo and I can see a 95 next to a 240 without needing a lecture.\n\n{\"points\": {\"A\": 28, \"B\": 5, \"C\": 25, \"D\": 10, \"E\": 12, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"Plain text warnings read like the cheerful health campaigns I've learned to tune out, while a calorie badge gives me a number I can actually compare at the till.\"}",
+   "points": [
+    28.0,
+    5.0,
+    25.0,
+    10.0,
+    12.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "d9087a889e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Honestly, the scary photos would just make me roll my eyes. I've had the diabetes talk from the nurse enough times to know what a bleeding eye looks like, and I don't need a poster for it. A bold calorie number on the packet is the bit I'd actually use, because it's a fact I can compare in two seconds at the kiosk, and the fruit pot would look like the sensible pick next to a Dairy Milk.\n\n{\"points\": {\"A\": 5, \"B\": 30, \"C\": 5, \"D\": 10, \"E\": 5, \"F\": 45}, \"most_ignored\": \"E\", \"why\": \"The graphic medical photos feel like the cartoon-style scaremongering I already switch off from, and with no calorie figures there's no fact to act on at the kiosk.\"}",
+   "points": [
+    5.0,
+    30.0,
+    5.0,
+    10.0,
+    5.0,
+    45.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "My gut reaction is that most of these would wash over me. I'm knackered after a late shift and I buy what's cheap and filling, so a scary picture or a warning line doesn't change my mind much. The calorie badge is the only one that gives me something to compare at the till, though I'd probably only notice it if the 95 and 240 were right next to each other.\n\n{\"points\": {\"A\": 20, \"B\": 12, \"C\": 25, \"D\": 15, \"E\": 8, \"F\": 20}, \"most_ignored\": \"E\", \"why\": \"A plain black-and-white text warning with no picture or calorie figure is just small print I'd read as nagging and skip, and it doesn't tell me anything I can use while I'm standing in the shop tired.\"}",
+   "points": [
+    20.0,
+    12.0,
+    25.0,
+    15.0,
+    8.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "bc52ac20f2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Honestly, most of these would wash over me. The graphic ones with the bowel and the eye are the sort of thing I'd glance at and think \"well, that's grim,\" then reach for the Dairy Milk anyway, because it's a pound and it's what's left on the reduced shelf. The calorie badges mean nothing to me day to day; I don't count anything, I just work out whether I can afford it. Plain text warnings would be even easier to ignore, I'd read them as the usual nagging. What might actually nudge me is a price or a clear \"cheaper option\" sign, but none of these offer that, so I'm mostly stuck with the same choice I'd make anyway.\n\n{\"points\": {\"A\": 8, \"B\": 5, \"C\": 2, \"D\": 25, \"E\": 12, \"F\": 6}, \"most_ignored\": \"C\", \"why\": \"Plain text warnings with no pictures or numbers are just more background noise I'd scroll past, and nothing here tells me the lower-calorie snack is any cheaper or easier to get.\"}",
+   "points": [
+    13.793103448275861,
+    8.620689655172415,
+    3.4482758620689653,
+    43.10344827586207,
+    20.689655172413794,
+    10.344827586206897
+   ]
+  },
+  {
+   "persona": "f1a15a7249",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Honestly, my gut reaction is that most of these would wash over me. The graphic ones would make me wince for a second and then I'd still want my Dairy Milk after a rubbish shift, and the calorie badges are just numbers I'd not think about when I'm skint and knackered. The plain text warnings look like something I'd read once and forget, and the bare snacks change nothing because I already know what's in a Dairy Milk. If anything would nudge me it's a price-based or cheaper-option thing, which none of these are, so I'd be spreading points thinly and giving the most to the calorie badge, since at least that's a quick thing to glance at in a shop when I'm deciding between a bag of crisps and a fruit pot.\n\n{\"points\": {\"A\": 30, \"B\": 5, \"C\": 0, \"D\": 5, \"E\": 15, \"F\": 10}, \"most_ignored\": \"C\", \"why\": \"Without any labels there's nothing to prompt a second thought, and the warning-based messages mostly feel like guilt-trips I'd tune out, so the plain calorie badge is the only one that might catch my eye in the moment.\"}",
+   "points": [
+    46.15384615384615,
+    7.6923076923076925,
+    0.0,
+    7.6923076923076925,
+    23.076923076923077,
+    15.384615384615385
+   ]
+  },
+  {
+   "persona": "447b947c00",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "My gut reaction is that most of these are the same guilt-trip I already tune out. The graphic medical photos would just make me roll my eyes, and the plain warnings are barely there. The calorie badges are the only bit that gives me something quick to compare, though I'd still mostly buy by price and how hungry I am.\n\n{\"points\": {\"A\": 5, \"B\": 5, \"C\": 35, \"D\": 25, \"E\": 15, \"F\": 15}, \"most_ignored\": \"A\", \"why\": \"Graphic medical photos on a Doritos packet feel like a lecture I'd tune out, and I'd still choose based on price and how hungry I am.\"}",
+   "points": [
+    5.0,
+    5.0,
+    35.0,
+    25.0,
+    15.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "d4e5efe756",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Honestly, my gut reaction is that most of these would wash over me. The black-and-white text ones are just small print I'd read once and forget, and the graphic medical photos would make me wince and then I'd still reach for the Doritos at ten to six with a headache. The calorie badges are the sort of thing I'd notice, but I'm not counting anything when I'm knackered and the shop's about to shut, and a number on a bar doesn't tell me what's cheap or what's in the fridge. Going by how I actually shop, the one that might nudge me is the plain shelf reality of the lower-calorie snacks being right there and at a sensible price, which none of these change.\n\nAllocation, roughly: a bit of pull from the calorie badge and the photos, but mostly I'd be on autopilot.\n\n{\"points\": {\"A\": 8, \"B\": 22, \"C\": 10, \"D\": 4, \"E\": 50, \"F\": 6}, \"most_ignored\": \"D\", \"why\": \"A plain black-and-white text warning is small print I'd skim past, and I'd only notice the calorie badge without it changing what I actually grab when I'm tired and the shop's closing.\"}",
+   "points": [
+    8.0,
+    22.0,
+    10.0,
+    4.0,
+    50.0,
+    6.0
+   ]
+  },
+  {
+   "persona": "c4b8ff19b6",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    4,
+    5,
+    2,
+    0
+   ],
+   "raw": "My gut reaction is that the warnings would just annoy me. The graphic photos and \"excess calories cause obesity\" wording have exactly the preachy tone that makes me want a biscuit out of spite. A calorie badge is more useful because it gives me a number to weigh against a run, though I'd still probably pick the Dairy Milk if I fancied it.\n\n{\"points\": {\"A\": 15, \"B\": 10, \"C\": 5, \"D\": 5, \"E\": 50, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"With no labels at all I'd just buy whatever looks good on the day, so nothing about the display would change my choice.\"}",
+   "points": [
+    15.0,
+    10.0,
+    5.0,
+    5.0,
+    50.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "1094f782dc",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    5,
+    1,
+    3,
+    2
+   ],
+   "raw": "My gut reaction is that most of these would wash over me. I'm not counting calories, and with Crohn's what I buy is driven by what my stomach can handle and what's cheap on the day. The gory photos would just make me roll my eyes, and the plain text warnings would be like every other bit of small print I skip.\n\n{\"points\": {\"A\": 4, \"B\": 14, \"C\": 30, \"D\": 9, \"E\": 8, \"F\": 35}, \"most_ignored\": \"A\", \"why\": \"Plain black-and-white text warnings are easy to skip, and I'd only half-register a calorie badge while I'm really deciding on price and what my gut can take.\"}",
+   "points": [
+    4.0,
+    14.0,
+    30.0,
+    9.0,
+    8.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "3a61cdc446",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Honestly, the calorie badge on its own is the one I'd actually look at. It's still a number, not a price, so it wouldn't stop me buying a Galaxy on a rubbish day, but at least it's information rather than a lecture. The gory photos would just make me want the Galaxy more out of spite, and the plain text ones feel like someone wagging a finger.\n\n{\"points\": {\"A\": 40, \"B\": 18, \"C\": 4, \"D\": 6, \"E\": 12, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"The graphic medical photos feel like being lectured, so I'd tune them out or buy the chocolate out of spite, and nothing about them would make me pick the apple crisps.\"}",
+   "points": [
+    40.0,
+    18.0,
+    4.0,
+    6.0,
+    12.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "e4c7fed34e",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    4,
+    5,
+    0,
+    1,
+    3
+   ],
+   "raw": "My gut says the calorie badges are the only ones I'd even half-notice, because a number on the packet is at least practical, though I'm not going to start counting. The sad-faced photos would make me roll my eyes, like the burger advert, and the plain text warnings would wash past me like everything else on the packaging. Nothing here would change what I buy, since I go by what's reduced and what's in my budget.\n\n{\"points\": {\"A\": 24, \"B\": 10, \"C\": 14, \"D\": 16, \"E\": 24, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"A plain text warning is just more small print on a packet I'm already not reading, and it doesn't tell me anything about price or whether the cheaper one is better.\"",
+   "points": null
+  },
+  {
+   "persona": "9381ac00ed",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    5,
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "raw": "My gut reaction is that I'd mostly walk past all of these. Pictures of bowels and eyeballs on a packet would just make me feel got at, like the smug apple posters, and I already know crisps aren't good for me. The calorie numbers might catch my eye for a second, but I'm not counting anything. What decides it is whether it's a fiver or a payday, and nothing on the label changes that.\n\n{\"points\": {\"A\": 35, \"B\": 12, \"C\": 6, \"D\": 10, \"E\": 10, \"F\": 27}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no pictures or numbers is just another preachy poster I'd scroll past, and it tells me nothing about price or what's actually cheaper to grab on the way to the bus.\"}",
+   "points": [
+    35.0,
+    12.0,
+    6.0,
+    10.0,
+    10.0,
+    27.0
+   ]
+  },
+  {
+   "persona": "1e81182a11",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    1,
+    4,
+    0,
+    5
+   ],
+   "raw": "Honestly, the photo one (A) would make me wince, but I'd still grab the Doritos on a Thursday when I'm skint and knackered. A calorie number (B) at least tells me something I could compare, though I'm not sure I'd bother working out what 240 means for me. The plain text warnings (C, D) would just blur into the packaging for me.\n\n{\"points\": {\"A\": 12, \"B\": 30, \"C\": 14, \"D\": 6, \"E\": 18, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"A plain black-and-white sentence with no number or picture is just more small print I'd skip, and it doesn't help me compare anything at the vending machine.\"}",
+   "points": [
+    12.0,
+    30.0,
+    14.0,
+    6.0,
+    18.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "6eb166fc12",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Honestly, my first reaction is that the graphic ones would just make me roll my eyes. Bowel tumours on a Dairy Milk wrapper is the sort of thing I'd scroll past, and the adverts-with-a-Sunday-off vibe would put me off. A calorie number might actually register, though, especially since I'm already a bit fed up with feeling bloated, and a 95 next to a 240 is the kind of thing I'd glance at while I'm stood at the shelf with about two quid.\n\n{\"points\": {\"A\": 30, \"B\": 8, \"C\": 18, \"D\": 12, \"E\": 20, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"Graphic medical shock images on snacks are the kind of thing I'd scroll past, and with no calorie info nothing would change what I pick from the shelf.\"}",
+   "points": [
+    30.0,
+    8.0,
+    18.0,
+    12.0,
+    20.0,
+    12.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Honestly, most of these would wash over me. I'm not counting calories at ten to six, and a scary photo on a crisp packet would make me roll my eyes more than reach for the apple crisps. A calorie badge might make me pause for a second, but it's still the price and what the kids will eat that decides it.\n\n{\"points\": {\"A\": 24, \"B\": 20, \"C\": 6, \"D\": 4, \"E\": 16, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"With no labels at all I'd just grab whatever's cheapest and what the kids will eat, so nothing about the packaging would change my choice.\"}",
+   "points": [
+    24.0,
+    20.0,
+    6.0,
+    4.0,
+    16.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "94131bcc8c",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "raw": "Honestly, the warnings would just wash over me. I've seen \"this will kill you\" on everything since school, and the graphic photos would make me roll my eyes more than anything. A calorie number is different: I could glance at it in two seconds at the machine, and with the trousers thing I'd probably notice a 240 next to a 95.\n\n{\"points\": {\"A\": 15, \"B\": 5, \"C\": 45, \"D\": 3, \"E\": 27, \"F\": 5}, \"most_ignored\": \"D\", \"why\": \"The graphic medical photos feel like nagging and I'd scroll past them, whereas a calorie number is a quick comparison I could actually use at the vending machine.\"}",
+   "points": [
+    15.0,
+    5.0,
+    45.0,
+    3.0,
+    27.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "9daa53b3ac",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    0
+   ],
+   "raw": "Honestly, the scary-medical ones make me roll my eyes more than anything. The bowel tumour photo might make me pause for a second, but then I'd think, right, you're trying to frighten me into a bag of satsumas. The calorie badge is the only bit that tells me something I don't already know, so that's where I'd look first, though I'm not counting calories for a living. Plain text warnings just sound like a nag.\n\n```json\n{\"points\": {\"A\": 15, \"B\": 30, \"C\": 20, \"D\": 5, \"E\": 10, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"Showing the snacks with no labels tells me nothing new, and the scare-tactic warnings read as lecturing, so the plain calorie badge is the only one that might nudge me at all.\"}\n```",
+   "points": [
+    15.0,
+    30.0,
+    20.0,
+    5.0,
+    10.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "e08b1dd411",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    0,
+    5,
+    4,
+    3,
+    1
+   ],
+   "raw": "Honestly, my first thought is that I'd mostly carry on as I do. The graphic photos might make me pause for a second, but then I'd get that irritated feeling about being lectured, and I've seen enough warnings on packets that they just wash over me. The calorie badges I'd probably glance at, but I'm not counting anything.\n\n{\"points\": {\"A\": 10, \"B\": 20, \"C\": 30, \"D\": 5, \"E\": 15, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"A plain black-and-white warning is just more small print that blends into the packet, and the preachy wording would wash over me like all the others.\"}",
+   "points": [
+    10.0,
+    20.0,
+    30.0,
+    5.0,
+    15.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "f8997e000a",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    4,
+    5,
+    1,
+    0,
+    3
+   ],
+   "raw": "Gut reaction: I'd barely look at any of these. The calorie badges are just numbers I'd have to do sums with, and I'm not counting anything when I'm hungry at nine at night. The gory photos would probably make me look away and then grab what I wanted anyway, and the black-and-white warnings read like something off a cigarette packet that I've stopped noticing. Honestly the only thing that would nudge me is the reduced shelf and whether the cheaper option is sitting right there.\n\nPoints: the calorie-badge ones get a bit more because at least they're information I could use if I was in the shop, but not much.\n\n{\"points\": {\"A\": 22, \"B\": 10, \"C\": 30, \"D\": 25, \"E\": 8, \"F\": 5}, \"most_ignored\": \"E\", \"why\": \"Shock photos on crisps and shortbread just make me look away and buy the same thing, and I've got no time for scare tactics when I'm knackered and hungry.\"}",
+   "points": [
+    22.0,
+    10.0,
+    30.0,
+    25.0,
+    8.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "3b859ef636",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    4,
+    1,
+    5,
+    2,
+    3
+   ],
+   "raw": "Honestly, the warning-label ones are a bit of a turn-off. The \"bowel cancer\" stuff makes me want a Dairy Milk out of spite, and I'd just think it was someone trying to scare me. A number on the packet is more useful, because when I'm standing at a machine I'm already doing sums in my head, so a calorie badge might nudge me toward the apple crisps if the Doritos look like they're \"bad\".\n\n{\"points\": {\"A\": 8, \"B\": 4, \"C\": 22, \"D\": 4, \"E\": 52, \"F\": 10}, \"most_ignored\": \"D\", \"why\": \"Shop-standard packaging gives me nothing new to think about, and I'd barely register it at the machine, whereas a calorie badge at least gives me a quick number to weigh against price and hunger.\"}",
+   "points": [
+    8.0,
+    4.0,
+    22.0,
+    4.0,
+    52.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "1b922a1cd2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Honestly, the scary ones make me want to switch off. The bowel tumour photo would just make me scroll, and the plain black-and-white warnings are the same tone I already tune out. A calorie number on the packet is the only thing I'd actually glance at, and even then I'm probably grabbing whatever I'd have grabbed anyway.\n\n{\"points\": {\"A\": 10, \"B\": 22, \"C\": 8, \"D\": 6, \"E\": 4, \"F\": 50}, \"most_ignored\": \"D\", \"why\": \"A graphic medical photo with no useful information is the kind of scare I'd scroll past without a second thought, while a plain calorie number at least gives me something I could glance at while I'm rushing round the shop.\"}",
+   "points": [
+    10.0,
+    22.0,
+    8.0,
+    6.0,
+    4.0,
+    50.0
+   ]
+  },
+  {
+   "persona": "9d16508d2d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    0,
+    1,
+    2
+   ],
+   "raw": "Honestly, the scary photos would just make me switch off, and the plain text warnings would be the same. Everyone knows crisps and chocolate aren't good for you, and I'm choosing on what's in the fridge and what's cheap. A calorie badge might catch my eye now and then, but I don't think it would change much when I'm standing at the machine on a tight day.\n\n{\"points\": {\"A\": 2, \"B\": 0, \"C\": 38, \"D\": 15, \"E\": 10, \"F\": 35}, \"most_ignored\": \"B\", \"why\": \"The graphic medical photos are the kind of thing I'd scroll past or switch off from, and the text-only warning would be the same, whereas a plain calorie number at least gives me something to glance at while I'm deciding.\"}",
+   "points": [
+    2.0,
+    0.0,
+    38.0,
+    15.0,
+    10.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "f9a22226a0",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    0,
+    2,
+    5
+   ],
+   "raw": "Honestly, most of these would wash over me. I'm not counting calories in the corner shop; I'm looking at what's going off, what's on offer and what the own-brand costs. The horror-photo ones would make me roll my eyes, and the text-only warnings sound like the lecturing I already put up with. A calorie number on everything might register for a second, but I'd still reach for the biscuit with my tea.\n\n```json\n{\"points\": {\"A\": 10, \"B\": 15, \"C\": 5, \"D\": 10, \"E\": 20, \"F\": 40}, \"most_ignored\": \"C\", \"why\": \"Graphic medical photos feel like the heavy-handed lecturing I already tune out, so I'd barely notice them when I'm grabbing satsumas and a loaf on the way home.\"}\n```",
+   "points": [
+    10.0,
+    15.0,
+    5.0,
+    10.0,
+    20.0,
+    40.0
+   ]
+  },
+  {
+   "persona": "4b0355a87c",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    2,
+    0,
+    1,
+    5,
+    4
+   ],
+   "raw": "Honestly, the grim photos would just make me feel rubbish and then I'd still grab whatever's cheap and quick. A calorie number on the front is the only bit I could actually use in the two seconds I've got at the machine, though I'd still be thinking about what the kids will eat.\n\n{\"points\": {\"A\": 8, \"B\": 38, \"C\": 24, \"D\": 6, \"E\": 16, \"F\": 8}, \"most_ignored\": \"F\", \"why\": \"A plain text warning with no picture and no calorie number is just more wordy small print I'd skip past while I'm rushing to get everyone sorted.\"}",
+   "points": [
+    8.0,
+    38.0,
+    24.0,
+    6.0,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "persona": "84d96e5b4d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "raw": "Honestly, most of these would wash over me. The scary photos and the \"you'll get bowel cancer\" wording would just make me think someone's having a go at me, and I'd carry on regardless. A calorie number might make me glance at it, but I don't count anything, and when I'm fed up I want the chips anyway.\n\n{\"points\": {\"A\": 25, \"B\": 12, \"C\": 25, \"D\": 10, \"E\": 15, \"F\": 13}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no picture or number is just small print I'd scroll straight past, and I'd probably still go for the chips.\"}",
+   "points": [
+    25.0,
+    12.0,
+    25.0,
+    10.0,
+    15.0,
+    13.0
+   ]
+  },
+  {
+   "persona": "fb30d3a936",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "raw": "My gut says the calorie badges are the only thing that might register, and only for a second, in the car park with a sausage roll-level decision already half made. The graphic photos would probably make me wince and then I'd carry on regardless, and the plain text warnings are the sort of thing I'd stop seeing within a day. Nothing changes the fact that the lower-calorie snacks cost more or that I'm buying for a house, so I've kept the points low across the board.\n\n{\"points\": {\"A\": 25, \"B\": 5, \"C\": 35, \"D\": 15, \"E\": 10, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"Plain black-and-white text warnings are the sort of wording I'd stop seeing after a day, and they don't tell me anything I haven't already heard from the GP or Dan's cholesterol letter.\"}",
+   "points": [
+    25.0,
+    5.0,
+    35.0,
+    15.0,
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "raw": "Honestly, the scary warnings mostly make me roll my eyes, since they're the sort of thing my sister forwards and I ignore. A calorie number is different: I've already cut back on biscuits and I'm hungry from training, so seeing the figure on a Dairy Milk next to a fruit pot might nudge me, even though I'd still be checking the price first.\n\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 40, \"D\": 5, \"E\": 20, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"Graphic medical photos and scare lines feel aimed at someone with more time to worry than I have, and they say nothing about what's cheap or filling.\"}",
+   "points": [
+    5.0,
+    15.0,
+    40.0,
+    5.0,
+    20.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "243c6bdb1b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    4,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "Gut reaction: the graphic ones (A, C) feel like the lecture I'm already sick of, and I'd just think \"well, it's a Dairy Milk, not my funeral\" and grab it anyway. Plain text warnings are a bit more sensible but still easy to ignore when you're knackered at half five. Calorie badges on everything I'd probably glance at for a second, but I already know roughly what's in a Dairy Milk, and with money tight I'm not thinking in calories anyway, I'm thinking in pence. Honestly the thing that would shift me is price, which none of these touch, so I'd be guessing at the margins.\n\n{\"points\": {\"A\": 6, \"B\": 8, \"C\": 10, \"D\": 4, \"E\": 22, \"F\": 30, \"A\": 6}, \"most_ignored\": \"A\", \"why\": \"The graphic warnings read as a lecture I've heard before and would just make me roll my eyes and buy the chocolate anyway, while the calorie badge at least gives me a quick number to compare when I'm choosing between two things on the shelf.\"}",
+   "points": [
+    7.5,
+    10.0,
+    12.5,
+    5.0,
+    27.5,
+    37.5
+   ]
+  },
+  {
+   "persona": "b440ca7285",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    2,
+    1,
+    3
+   ],
+   "raw": "Honestly, the graphic photos would put me off more than they'd make me reach for an apple. I'd think they were trying to frighten me, and I've got enough people telling me what's going to kill me. A number on the front, though, like 95 against 240, I can take in at a glance while I'm stood at the machine, and that's the bit that might actually nudge me.\n\n{\"points\": {\"A\": 12, \"B\": 0, \"C\": 8, \"D\": 42, \"E\": 28, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"Seeing the snacks with no labels at all is just how the machine's always been, so nothing would change, whereas a plain calorie number is quick enough to make me pick the lower one.\"",
+   "points": null
+  },
+  {
+   "persona": "25a19e0428",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    3,
+    5,
+    0
+   ],
+   "raw": "My gut says most of these would pass me by. I already know a Dairy Milk isn't a carrot, and I'd still grab the reduced chicken or whatever's cheapest. The warnings would irritate me more than they'd make me think, and I'd probably just go for the one I fancied, so a calorie number on everything is the only thing I might glance at.\n\n{\"points\": {\"A\": 20, \"B\": 10, \"C\": 30, \"D\": 10, \"E\": 15, \"F\": 15}, \"most_ignored\": \"B\", \"why\": \"A plain text warning about bowel cancer reads like a lecture I've heard before, so I'd skip past it without it changing what I put in my basket.\"}",
+   "points": [
+    20.0,
+    10.0,
+    30.0,
+    10.0,
+    15.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "6e58e1cd2f",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Honestly, my first thought is that the pictures would just make me look away, and the warnings are the kind of thing I've seen a hundred times and stopped reading. A calorie number is quick to take in, though I don't count calories, so I'd only glance at it. I'd still probably grab the Dairy Milk if I fancied it, but the badge might nudge me when I'm standing there with my purse out.\n\n{\"points\": {\"A\": 10, \"B\": 5, \"C\": 45, \"D\": 20, \"E\": 0, \"F\": 20}, \"most_ignored\": \"E\", \"why\": \"A plain text warning with no numbers is just more small print telling me what I already know, so I'd read the first line and walk past.\"}",
+   "points": [
+    10.0,
+    5.0,
+    45.0,
+    20.0,
+    0.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "5c295eb8a2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    5,
+    3,
+    0,
+    2,
+    1
+   ],
+   "raw": "Honestly, the scary photos would just make me wince and look away, and the text warnings are the sort of thing I've been filtering out on packets for years. A bold calorie number is different, though. If I'm standing in front of the crisps deciding between them and the fruit pot, a number I can see at a glance might actually stop me, even if I'm not counting anything in particular.\n\n{\"points\": {\"A\": 3, \"B\": 8, \"C\": 6, \"D\": 28, \"E\": 35, \"F\": 20}, \"most_ignored\": \"A\", \"why\": \"Plain black-and-white text warnings are the sort of small print I've learned to tune out on everything, so I'd read right past it.\"}",
+   "points": [
+    3.0,
+    8.0,
+    6.0,
+    28.0,
+    35.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "69b60a8926",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    4,
+    5,
+    3,
+    1,
+    2
+   ],
+   "raw": "My gut says the warnings with photos would make me roll my eyes, and the plain text ones I'd just scroll past. The calorie badges on everything might actually get me looking, though I already know what's cheap and what fills me up, so I'm not going to be swayed much by numbers. Not much would change what I pick from the corner shop.\n\n{\"points\": {\"A\": 18, \"B\": 6, \"C\": 3, \"D\": 12, \"E\": 26, \"F\": 35}, \"most_ignored\": \"C\", \"why\": \"Without any labels nothing changes what I grab, and I already know the price and what's in the cupboard, so a plain snack with no extras is exactly what I'd buy anyway.\"}",
+   "points": [
+    18.0,
+    6.0,
+    3.0,
+    12.0,
+    26.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "d57d6d7c8a",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Honestly, the bright-jumper scare photos on a packet would just make me want the Dairy Milk. A plain number on a bar would catch my eye for a second, though, and I might grab the fruit pot if I'm not already reaching for the crisps.\n\n{\"points\": {\"A\": 5, \"B\": 28, \"C\": 27, \"D\": 5, \"E\": 25, \"F\": 10}, \"most_ignored\": \"A\", \"why\": \"The graphic medical photos feel like a lecture I'd tune out or resent, so they'd do nothing to change what I grab from the machine.\"}",
+   "points": [
+    5.0,
+    28.0,
+    27.0,
+    5.0,
+    25.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "9dc327d1d6",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    4,
+    3,
+    1,
+    0,
+    5
+   ],
+   "raw": "Honestly, my gut says the calorie numbers might catch my eye for a second, but I already know a Dairy Milk is rubbish for me, and I'd still grab the one in the drawer after a long day. The scary pictures and the cancer lines would just make me roll my eyes and feel talked down to, like the posters in the GP waiting room. Nothing here would stop the biscuits with my cuppa.\n\n{\"points\": {\"A\": 28, \"B\": 4, \"C\": 6, \"D\": 14, \"E\": 10, \"F\": 38}, \"most_ignored\": \"B\", \"why\": \"A plain text warning about cancer and diabetes is the kind of lecture I'd tune out without a second thought, and it doesn't tell me anything useful for a busy Tuesday.\"}",
+   "points": [
+    28.0,
+    4.0,
+    6.0,
+    14.0,
+    10.0,
+    38.0
+   ]
+  },
+  {
+   "persona": "7f584c3bdd",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    2,
+    3,
+    1,
+    4,
+    0
+   ],
+   "raw": "My gut reaction is that most of these would just wash over me. The medical photos would put me off the snack for a minute, but I'd resent being told off, and I'd probably still grab whatever was reduced. The calorie badges would make me look, but I don't count anything, and I'm not picking a KIND bar over a Galaxy just because a number's printed on it.\n\n{\"points\": {\"A\": 30, \"B\": 18, \"C\": 14, \"D\": 12, \"E\": 6, \"F\": 20}, \"most_ignored\": \"E\", \"why\": \"A plain black-and-white paragraph of small print with no picture and no number is exactly the sort of thing I'd never read on a packet, let alone let change what I pick from the machine.\"}",
+   "points": [
+    30.0,
+    18.0,
+    14.0,
+    12.0,
+    6.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "d2cf3ca33b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    0,
+    2,
+    1,
+    4
+   ],
+   "raw": "Honestly, most of these would wash over me. I'm not counting calories, and I'd only half-register a number on a packet when I'm hungry in a queue. The graphic pictures would just annoy me, like the bus posters that treat you like you're daft, and a plain text warning is wallpaper I'd stop seeing after a day. The calorie badge is the only one that might nudge me, and only if the fruit pot and the Galaxy were the same price.\n\n{\"points\": {\"A\": 5, \"B\": 15, \"C\": 20, \"D\": 30, \"E\": 10, \"F\": 20}, \"most_ignored\": \"F\", \"why\": \"A plain black-and-white text warning is the kind of thing I'd stop noticing within a day, and it wouldn't tell me anything about what's in the snack I'm about to grab.\"}",
+   "points": [
+    5.0,
+    15.0,
+    20.0,
+    30.0,
+    10.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "32f60dc12d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    5,
+    0,
+    2,
+    3,
+    4
+   ],
+   "raw": "My gut reaction is that the scare posters would just annoy me. I'd roll my eyes at a bowel tumour on a bag of crisps and probably buy them anyway, and the plain warning text would blur into the packaging. A calorie badge is different: 95 next to 240 is a number I can compare in two seconds, and with my diabetes I'm already watching what goes in, even if I'm not counting every bite.\n\n{\"points\": {\"A\": 15, \"B\": 10, \"C\": 10, \"D\": 55, \"E\": 5, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"A plain text warning with no picture and no numbers is just more small print I'd skip past, and it gives me nothing to compare against the M\u00fcller or the apple crisps.\"}",
+   "points": [
+    15.0,
+    10.0,
+    10.0,
+    55.0,
+    5.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    0,
+    2,
+    3,
+    5
+   ],
+   "raw": "Honestly, most of this would wash over me. I'm not going to go hunting for calorie numbers, but a bold badge on a Dairy Milk next to a fruit pot might make me think for a second, and the graphic pictures would just make me look away and feel rotten. Still, I'd sooner grab something cheap and reduced than fuss over any of it.\n\n{\"points\": {\"A\": 30, \"B\": 5, \"C\": 12, \"D\": 35, \"E\": 8, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"Plain black-and-white text warnings with no calorie numbers are just more lecturing I'd tune out, and I'd still buy whatever's cheapest.\"}",
+   "points": [
+    30.0,
+    5.0,
+    12.0,
+    35.0,
+    8.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "30e7fafb8c",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "Honestly, the calorie badges are the only bit I'd notice, because at least it's a number I can compare when I'm skint. The graphic photos would make me roll my eyes, and the plain text ones would just blend into the packaging. I still want a Dairy Milk after a shift, so none of these would change much.\n\n{\"points\": {\"A\": 12, \"B\": 6, \"C\": 22, \"D\": 10, \"E\": 15, \"F\": 35}, \"most_ignored\": \"B\", \"why\": \"A plain text warning on a Dairy Milk would just blend into the packaging, and I'd still grab whatever's cheapest and quickest after a shift.\"}",
+   "points": [
+    12.0,
+    6.0,
+    22.0,
+    10.0,
+    15.0,
+    35.0
+   ]
+  },
+  {
+   "persona": "a4275457b8",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    2,
+    5,
+    0,
+    3,
+    4
+   ],
+   "raw": "Gut reaction: honestly, most of these would wash over me. I know the difference between a Dairy Milk and a fruit pot without a badge telling me, and I'm not going to start doing sums in the Co-op. The graphic medical pictures would make me think \"that's the telly again, everyone's selling something\", and the plain warnings would just be more small print I don't read. Calorie badges might catch my eye for a second, but a bag of carrots costs what it costs, so it's price that decides it, not numbers.\n\n{\"points\": {\"A\": 8, \"B\": 14, \"C\": 0, \"D\": 10, \"E\": 6, \"F\": 4}, \"most_ignored\": \"C\", \"why\": \"With no labels at all, I'd still just go by price and what's on offer, so nothing about the packaging would move me toward the lower-calorie snack.\"}",
+   "points": [
+    19.047619047619047,
+    33.333333333333336,
+    0.0,
+    23.80952380952381,
+    14.285714285714286,
+    9.523809523809524
+   ]
+  },
+  {
+   "persona": "301c4c97c4",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    2,
+    3,
+    4,
+    0,
+    1,
+    5
+   ],
+   "raw": "My gut says the calorie badges are the only one I'd notice, and even then I'd probably just glance at the number and grab what I wanted anyway. The graphic photos would make me roll my eyes at being scared at, and the text warnings would blend into the packaging like the fag warnings do. Plain shelves change nothing at six in the morning.\n\n{\"points\": {\"A\": 40, \"B\": 5, \"C\": 10, \"D\": 25, \"E\": 20, \"F\": 0}, \"most_ignored\": \"B\", \"why\": \"Being shouted at with a gory photo feels like a lecture from someone who's never done a night shift, so I'd look straight past it.\"}",
+   "points": [
+    40.0,
+    5.0,
+    10.0,
+    25.0,
+    20.0,
+    0.0
+   ]
+  },
+  {
+   "persona": "5f9da4d215",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    4,
+    0,
+    1,
+    3
+   ],
+   "raw": "Honestly, my gut says most of these would wash over me. I've seen plenty of \"eat less, you'll die\" messaging, and the gory photos would just make me think someone's trying too hard. A calorie badge is the only thing that gives me something to actually weigh up, especially when I'm already looking at the price, though I'd still probably just grab whatever's cheapest or closest.\n\n{\"points\": {\"A\": 10, \"B\": 35, \"C\": 12, \"D\": 18, \"E\": 17, \"F\": 8}, \"most_ignored\": \"A\", \"why\": \"Without any labels the snacks look exactly like they always do, so nothing would make me reconsider what I grab on the way home.\"",
+   "points": null
+  },
+  {
+   "persona": "92206ed9a7",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Gut reaction: honestly the graphic ones (A and F) would just make me think \"they're trying to scare me\", and I'd flick past them like I do with the adverts. The plain text ones are a bit more sensible but still the same lecture I've heard a hundred times. The calorie badges are the only thing that's actually useful at the till when I'm knackered and holding a bag of Doritos or a Galaxy, and even then I'd mostly be deciding on price and what's on the shelf.\n\n{\"points\": {\"A\": 5, \"B\": 0, \"C\": 5, \"D\": 25, \"E\": 20, \"F\": 5}, \"most_ignored\": \"B\", \"why\": \"Without any label I'd just grab whatever's cheapest and what I fancy, and the scare-tactic versions just make me switch off like I do with the adverts on telly.\"",
+   "points": null
+  },
+  {
+   "persona": "d2c7805318",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Honestly, the text-only warning would just be another thing I've read a hundred times, and the graphic photos would make me look away rather than change my mind. A calorie number on each packet might actually get me to compare a Dairy Milk with a fruit pot at the machine, which is more than any poster has ever done. Showing the bad things with pictures feels like the same old lecture, but seeing numbers side by side is something I could use. I'd still probably grab a Dairy Milk on a bad day.\n\n{\"points\": {\"A\": 8, \"B\": 27, \"C\": 12, \"D\": 22, \"E\": 26, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"Showing the snacks exactly as they are in the shops tells me nothing I don't already know, so it would change nothing about what I pick.\"}",
+   "points": [
+    8.0,
+    27.0,
+    12.0,
+    22.0,
+    26.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "f45764f86a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    2,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "My gut reaction is that most of these would wash over me. I'd pick by price first, and calorie numbers are something I'd barely look at, so B and C only nudge me a bit. The graphic warnings in A and C would probably make me roll my eyes at another \"it's all your fault\" message, though I might notice them in the shop.\n\n{\"points\": {\"A\": 18, \"B\": 22, \"C\": 22, \"D\": 6, \"E\": 18, \"F\": 14}, \"most_ignored\": \"D\", \"why\": \"With no extra labels at all, nothing changes from how I already shop, which is by price and what's on reduced, so it gives me no reason to pick the lower-calorie snack.\"",
+   "points": null
+  },
+  {
+   "persona": "3abf77984a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    5,
+    2,
+    1,
+    0,
+    3
+   ],
+   "raw": "Honestly, my first thought is that the warnings would just get on my nerves. Scary pictures on a Dairy Milk at two in the afternoon, when I'm knackered and just want something sweet, would make me roll my eyes more than they'd make me reach for the apple crisps. A calorie number is quicker to take in, though I'm not counting calories, so it'd only nudge me if the lower one was also cheap.\n\n{\"points\": {\"A\": 8, \"B\": 0, \"C\": 30, \"D\": 17, \"E\": 25, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"Plain snacks with no labels are exactly what I see every day at the corner shop, so they'd change nothing, and the warnings mostly just annoy me.\"}",
+   "points": [
+    8.0,
+    0.0,
+    30.0,
+    17.0,
+    25.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "8caecf6112",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    5,
+    0,
+    2,
+    1,
+    3
+   ],
+   "raw": "Honestly, most of these would wash over me. The scary pictures would just annoy me, like they're treating me as daft, and I've heard the \"excess calories\" line a hundred times. A calorie number might catch my eye for a second, but I'm buying on price and what Pat's put on the list, not on figures.\n\n{\"points\": {\"A\": 7, \"B\": 40, \"C\": 15, \"D\": 25, \"E\": 10, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"A graphic tumour photo on a crisp packet would just look like the campaigns that talk down to me, so I'd skip past it and buy what's on offer anyway.\"}",
+   "points": [
+    7.0,
+    40.0,
+    15.0,
+    25.0,
+    10.0,
+    3.0
+   ]
+  },
+  {
+   "persona": "6babd0a75a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    2,
+    4,
+    5,
+    0,
+    3
+   ],
+   "raw": "Honestly, the warnings would just wash over me. I'd read a 'bowel cancer' line on a Doritos bag as the same lecture I get from everyone, and I'd be more likely to roll my eyes than put the crisps back. A calorie number is different, because it's quick and I might actually glance at it when I'm choosing between a bar and a pot on my break, even if price is what really decides it.\n\n{\"points\": {\"A\": 8, \"B\": 35, \"C\": 4, \"D\": 8, \"E\": 35, \"F\": 10}, \"most_ignored\": \"C\", \"why\": \"A plain text cancer warning with no numbers is just another lecture I'd skip past, while a calorie badge at least gives me something quick to compare.\"}",
+   "points": [
+    8.0,
+    35.0,
+    4.0,
+    8.0,
+    35.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "2b2b1ea043",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    5,
+    0,
+    4,
+    2,
+    3
+   ],
+   "raw": "Honestly, I'd mostly walk past all of these. Snacks aren't a big decision for me; I grab what's cheap or reduced on the way home, and the calorie numbers on a Dairy Milk wouldn't mean much to me. The shock pictures would just annoy me, and I'd probably think they were talking down to me.\n\n{\"points\": {\"A\": 15, \"B\": 30, \"C\": 10, \"D\": 5, \"E\": 35, \"F\": 5}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no calorie numbers or pictures is just more small print I'd scroll past, the same as every other label I've stopped reading.\"}",
+   "points": [
+    15.0,
+    30.0,
+    10.0,
+    5.0,
+    35.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "raw": "Honestly, my gut reaction is that the calorie badges might catch my eye for a second, since I already check price per kilo and cut back on crisps for the running. The warnings and the graphic photos are the sort of thing that makes me roll my eyes and move on, because they feel like being lectured in my own kitchen. Calorie numbers are information I might use; a scary picture just annoys me.\n\n{\"points\": {\"A\": 25, \"B\": 35, \"C\": 5, \"D\": 3, \"E\": 27, \"F\": 5}, \"most_ignored\": \"D\", \"why\": \"A large graphic medical photo on a crisp packet feels like being lectured at, so I'd probably scroll straight past it without changing what I pick.\"}",
+   "points": [
+    25.0,
+    35.0,
+    5.0,
+    3.0,
+    27.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "c9f37c0a97",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "raw": "Honestly, the fridge-of-sugar stuff would just wash over me. The graphic photos would make me roll my eyes, and the plain text warnings I'd probably read once and forget. The calorie badge is the only one that would give me any information, and even then I'd be checking the price before the number.\n\n{\"points\": {\"A\": 35, \"B\": 12, \"C\": 3, \"D\": 15, \"E\": 25, \"F\": 10}, \"most_ignored\": \"C\", \"why\": \"A graphic medical photo on a crisp packet reads as melodrama to me, so I'd scroll straight past it, and the apple crisps cost more than the Doritos anyway, so no label is going to change that.\"}",
+   "points": [
+    35.0,
+    12.0,
+    3.0,
+    15.0,
+    25.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "451d057b22",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    1,
+    3,
+    0,
+    2,
+    4,
+    5
+   ],
+   "raw": "Gut reaction: most of these are going to wash over me. The graphic medical photos would make me wince and then I'd look away, and the black-and-white warnings read like the tracksuit campaigns I can't stand, so I'd tune them out too. The calorie badges are the only thing that's practical, but I'm not counting calories at the till; I buy what's near its sell-by date, and a number on a Dairy Milk wouldn't stop me reaching for it with my tea. Honestly, I think the one that might nudge me a little is the calorie count on everything, because then the fruit pot and the chocolate sit side by side and I can see the difference, but even that is a small thing.\n\n{\"points\": {\"A\": 12, \"B\": 3, \"C\": 20, \"D\": 25, \"E\": 4, \"F\": 36}, \"most_ignored\": \"B\", \"why\": \"The graphic photos would make me look away and the scare tactic reads as the same patronising tone I already tune out, so it would barely touch what I pick up.\"}",
+   "points": [
+    12.0,
+    3.0,
+    20.0,
+    25.0,
+    4.0,
+    36.0
+   ]
+  },
+  {
+   "persona": "f0c9e8bbfa",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me roll my eyes. A bowel tumour on a packet of Doritos feels like being lectured, and I'd probably just grab the same thing out of habit. The calorie badge is the one I'd actually glance at, since it's a number I can use, even if I already know a Dairy Milk isn't the healthy choice.\n\n{\"points\": {\"A\": 10, \"B\": 15, \"C\": 20, \"D\": 5, \"E\": 20, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"With no labels at all I'd just grab whatever's nearest, same as I always do, so nothing would change my choice.\"}",
+   "points": [
+    10.0,
+    15.0,
+    20.0,
+    5.0,
+    20.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "e303a16ea5",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "Honestly, the bold calorie number is the only one that might register, because I'm already thinking about fuel when I'm training and I like useful facts. The gory photos would just make me roll my eyes, and the plain warnings would annoy me without giving me anything to act on at 5pm when I'm staring into the fridge.\n\n{\"points\": {\"A\": 4, \"B\": 15, \"C\": 8, \"D\": 60, \"E\": 3, \"F\": 10}, \"most_ignored\": \"E\", \"why\": \"Graphic medical photos with no calorie information give me nothing practical to act on, so I'd scroll straight past them and find them patronising.\"}",
+   "points": [
+    4.0,
+    15.0,
+    8.0,
+    60.0,
+    3.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "42d621f456",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    5,
+    1,
+    0,
+    4,
+    3
+   ],
+   "raw": "Honestly, my first reaction is a shrug. I'm not going to pick a crisp because a label told me the calorie count, because I don't count anything and I'd rather have the good cheese. The gory photos would probably make me roll my eyes, though the heart surgery one might catch me a bit given what happened to Dad.\n\n{\"points\": {\"A\": 10, \"B\": 34, \"C\": 12, \"D\": 16, \"E\": 8, \"F\": 20}, \"most_ignored\": \"E\", \"why\": \"It's the same nagging 'this will kill you' wording on a plain label with nothing new or useful in it, so I'd read it once and move on to the biscuit tin.\"}",
+   "points": [
+    10.0,
+    34.0,
+    12.0,
+    16.0,
+    8.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "b6a5f60816",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    1,
+    5,
+    4,
+    3,
+    0,
+    2
+   ],
+   "raw": "Honestly, most of these would wash over me. I'm not going to change what I buy because a packet has a number on it, and the scare photos would just make me roll my eyes and think about the sort of person who thinks I need them. The calorie badges feel like someone counting my bites, but at least that's neutral information, so F gets the most. The warnings are preachy in a dry way, and I'd notice them without them changing anything.\n\n```json\n{\"points\": {\"A\": 12, \"B\": 30, \"C\": 13, \"D\": 9, \"E\": 11, \"F\": 25}, \"most_ignored\": \"B\", \"why\": \"With no label at all nothing new registers when I'm standing at the shelf, and I'd still pick whatever I fancy or whatever my stomach can cope with that day.\"}\n```",
+   "points": [
+    12.0,
+    30.0,
+    13.0,
+    9.0,
+    11.0,
+    25.0
+   ]
+  },
+  {
+   "persona": "9964371380",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    0,
+    3,
+    2
+   ],
+   "raw": "My gut reaction is that the graphic ones would make me switch off, because they're the sort of thing I've seen a hundred times and they feel aimed at people with more time and money than me. The calorie badge is the only one that gives me something to act on, but I don't count calories, and a 240 badge tells me nothing about whether the Galaxy is cheaper than the M\u00fcller or whether it'll set off my stomach. Some of the \"healthier\" snacks, like the fibre-heavy ones, might be worse for me anyway.\n\n{\"points\": {\"A\": 5, \"B\": 18, \"C\": 7, \"D\": 15, \"E\": 10, \"F\": 45}, \"most_ignored\": \"C\", \"why\": \"With no labels at all, the snacks look exactly like they do now, so nothing changes what I'd pick, and calorie counts are the only thing that would give me a reason to look twice.\"}",
+   "points": [
+    5.0,
+    18.0,
+    7.0,
+    15.0,
+    10.0,
+    45.0
+   ]
+  },
+  {
+   "persona": "31d3b89344",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    1,
+    5,
+    0,
+    2,
+    4
+   ],
+   "raw": "My gut reaction is that most of these would wash over me. Anything with a graphic medical photo would make me wince and then I'd look away, and I'd hate the tone of a plain warning telling me what I already know. A calorie number might register a bit, because I count pennies in my head, but it wouldn't stop me reaching for whatever's cheapest, and the lower-calorie snacks cost more anyway.\n\n{\"points\": {\"A\": 8, \"B\": 28, \"C\": 15, \"D\": 14, \"E\": 30, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"A plain text warning with no calorie figure is just more bus-shelter wallpaper that I'd scroll past, and it tells me nothing about what things cost or whether I'd be any better off.\"}",
+   "points": [
+    8.0,
+    28.0,
+    15.0,
+    14.0,
+    30.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "769f392c41",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    5,
+    1,
+    3,
+    2,
+    4
+   ],
+   "raw": "Honestly, most of these would just be background noise to me. The graphic ones would make me roll my eyes at the scare tactics, and the plain text warnings I'd barely register. The calorie badges are the only thing that might catch my eye, because I like seeing what I'm paying for, but I don't count calories and a number on a fruit pot wouldn't stop me buying whatever's cheapest.\n\n{\"points\": {\"A\": 8, \"B\": 40, \"C\": 8, \"D\": 9, \"E\": 25, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"Plain text warnings with no pictures or calorie numbers are the easiest thing to scroll past, and I'd read them as the same generic nagging I already tune out.\"}",
+   "points": [
+    8.0,
+    40.0,
+    8.0,
+    9.0,
+    25.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "f2a6c99889",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Honestly, the calorie badges on every snack would barely register. I don't count anything, and a Dairy Milk saying 240 next to a fruit pot saying 95 is the sort of thing I'd glance at and forget while I'm grabbing something on the way to a meeting. The graphic photos might make me pause for a second, but I'd probably just feel lectured, and I'd still pick the Galaxy if I fancied it. A plain text warning would be scrolled past without a second thought.\n\n{\"points\": {\"A\": 5, \"B\": 10, \"C\": 25, \"D\": 10, \"E\": 10, \"F\": 40}, \"most_ignored\": \"A\", \"why\": \"A plain black-and-white warning reads like the same lecturing tone I'm already tuned out to, so I'd scroll straight past it.\"}",
+   "points": [
+    5.0,
+    10.0,
+    25.0,
+    10.0,
+    10.0,
+    40.0
+   ]
+  },
+  {
+   "persona": "212c2e0f70",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    4,
+    2,
+    1,
+    3,
+    5
+   ],
+   "raw": "My gut reaction is that most of these would wash over me. The graphic photos would make me wince for a second, but I'd assume they were trying to frighten me, and I'd be more annoyed than persuaded. Nothing here mentions that the apple crisps cost about three times what Doritos do, and that's what actually decides it for me in the Co-op at four o'clock.\n\n{\"points\": {\"A\": 12, \"B\": 5, \"C\": 18, \"D\": 20, \"E\": 10, \"F\": 35}, \"most_ignored\": \"B\", \"why\": \"A plain black-and-white text warning on a packet is just more small print that blends into everything else, so I'd read straight past it the way I do with most packaging.\"}",
+   "points": [
+    12.0,
+    5.0,
+    18.0,
+    20.0,
+    10.0,
+    35.0
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1169 @@
+{
+ "score": {
+  "mean_spearman": 0.3970542562453623,
+  "top1_accuracy": 0.25,
+  "gap_preservation": -0.10381865136424812,
+  "n_segments_scored": 8,
+  "n_valid_answers": 240,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": 0.3714285714285715,
+    "top1_hit": 0.0,
+    "pred": [
+     28.5,
+     28.0,
+     22.1,
+     8.9,
+     8.8,
+     3.7
+    ],
+    "truth": [
+     0.56,
+     0.416,
+     0.286,
+     0.615,
+     0.412,
+     0.314
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": 0.6571428571428573,
+    "top1_hit": 1.0,
+    "pred": [
+     23.8,
+     26.3,
+     20.6,
+     12.6,
+     12.5,
+     4.2
+    ],
+    "truth": [
+     0.517,
+     0.527,
+     0.352,
+     0.508,
+     0.474,
+     0.421
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": 0.34786262139146906,
+    "top1_hit": 0.0,
+    "pred": [
+     25.8,
+     28.2,
+     20.4,
+     11.8,
+     11.8,
+     1.9
+    ],
+    "truth": [
+     0.613,
+     0.574,
+     0.507,
+     0.575,
+     0.579,
+     0.451
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": 0.2571428571428572,
+    "top1_hit": 0.0,
+    "pred": [
+     18.1,
+     30.7,
+     24.0,
+     11.2,
+     11.3,
+     4.7
+    ],
+    "truth": [
+     0.667,
+     0.466,
+     0.414,
+     0.664,
+     0.439,
+     0.341
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.14285714285714288,
+    "top1_hit": 0.0,
+    "pred": [
+     20.4,
+     32.0,
+     24.4,
+     8.6,
+     10.6,
+     4.0
+    ],
+    "truth": [
+     0.707,
+     0.615,
+     0.507,
+     0.713,
+     0.587,
+     0.41
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.8285714285714287,
+    "top1_hit": 1.0,
+    "pred": [
+     21.6,
+     25.8,
+     25.6,
+     10.8,
+     9.6,
+     6.6
+    ],
+    "truth": [
+     0.657,
+     0.778,
+     0.663,
+     0.75,
+     0.637,
+     0.495
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.5428571428571429,
+    "top1_hit": 0.0,
+    "pred": [
+     31.1,
+     26.2,
+     17.1,
+     12.4,
+     9.1,
+     4.1
+    ],
+    "truth": [
+     0.597,
+     0.539,
+     0.478,
+     0.617,
+     0.511,
+     0.355
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": 0.028571428571428574,
+    "top1_hit": 0.0,
+    "pred": [
+     15.8,
+     40.2,
+     20.8,
+     9.4,
+     11.2,
+     2.6
+    ],
+    "truth": [
+     0.664,
+     0.602,
+     0.442,
+     0.649,
+     0.54,
+     0.491
+    ]
+   }
+  },
+  "model": "claude-haiku-4-5-20251001",
+  "method": "judge",
+  "cost_usd": 0.1378,
+  "seconds": 28.2,
+  "within_sd": 4.777396014853491,
+  "n_jobs": 40
+ },
+ "results": [
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "# Analysis\n\n**Target audience psychology:** UK men aged 18-34 tend to be:\n- Skeptical of heavy-handed health messaging and moral judgment\n- Responsive to factual, practical information they can act on\n- Prone to reactance against graphic shock tactics\n- Influenced by social norms and convenience rather than fear\n- More engaged when given agency/choice rather than lectured\n\n**Message-by-message assessment:**\n\n**A (Graphic + warning, no calories):** Shock tactics often backfire with this demographic through psychological reactance. Graphic images of bowel tumours may trigger dismissal (\"exaggerated scaremongering\") rather than behaviour change. Without calorie context, it's preachy without utility. *Low impact.*\n\n**B (Text warning + all calorie counts):** The text warning is relatively mild (not shocking). Crucially, showing calories on *all* snacks enables genuine comparison\u2014the hero snack (95 cal fruit pot) becomes obviously superior to the villain (240 cal chocolate). This supports autonomous choice. *Moderate-high impact.*\n\n**C (Calories only, no warnings):** Pure information without persuasion. Many will ignore and buy habits unchanged. However, some will notice \"95 vs 240\" and make rational choices. Better than F, worse than options with messaging. *Low-moderate impact.*\n\n**D (Text warning only, no calories):** Similar to A\u2014warning without supporting data. \"Obesity causes disease\" is abstract. Without calorie visibility, it's hard for someone to act on the warning. *Low impact.*\n\n**E (Graphic + warning + all calorie counts):** Combines shock with data. But graphic images risk reactance and alienation in this age group (particularly men, who statistically engage less with health messaging generally). The calorie badges do add utility, but the graphic element may cause defensive dismissal. *Moderate impact, undermined by shock tactics.*\n\n**F (No labelling):** Baseline. Status quo bias dominates. *Minimal impact.*\n\n**Ranking by effectiveness for this audience:**\n1. **B** (text + all calories): Respectful, data-driven, enables choice)\n2. **E** (graphic + text + calories: actionable but hampered by shock)\n3. **C** (calories only: passive but not offensive)\n4. **D** (text only: warning without teeth)\n5. **A** (graphic only: likely to trigger reactance)\n6. **F** (no change)\n\n```json\n{\"points\": {\"A\": 5, \"B\": 40, \"C\": 20, \"D\": 10, \"E\": 20, \"F\": 5}, \"most_ignored\": \"A\", \"why\": \"Graphic shock tactics trigger psychological reactance and dismissal in young men, who perceive heavy-handed health imagery as patronising rather than persuasive.\"}\n```",
+   "points": [
+    5.0,
+    40.0,
+    20.0,
+    10.0,
+    20.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "# Analysis for UK Male, 18-34 Years\n\n## Reasoning\n\n**Graphic warnings (A, B):** While shock tactics can work, this demographic tends to experience \"warning fatigue\" and often dismisses health scares they perceive as exaggerated. Graphic imagery on everyday snacks may trigger reactance\u2014a psychological resistance to persuasion that feels heavy-handed. However, they're not entirely ineffective.\n\n**Calorie information (B, C, F):** This audience increasingly uses fitness apps, tracks macros for gym goals, or at minimum has basic calorie awareness. Concrete, actionable numbers allow self-directed decision-making without paternalism\u2014more appealing to this age group than scare tactics. However, calorie counts alone lack motivational urgency.\n\n**Text-only warnings (D, F):** Plain text is easily ignored and forgettable at point-of-purchase. Less intrusive than graphics but also less memorable.\n\n**Combination approaches (B, F):** Pairing warnings with calorie data is more effective than either alone. The numbers provide agency while warnings add perceived consequence. Option B (graphics + calories) is stronger than F (text + calories) because the visual impact lingers.\n\n**No intervention (E):** Baseline; no change expected.\n\n## Point Allocation\n\n- **B (graphics + calories): 32** \u2014 Most impactful: combines shock value with actionable data. The calorie badge lets informed choices; graphics add weight.\n- **F (text + calories): 24** \u2014 Strong second: calorie badges are the real driver here, but plain text warnings lack memorability.\n- **C (calories only): 18** \u2014 Solid solo intervention; appeals to gym-conscious segment; lacks emotional push.\n- **A (graphics only): 14** \u2014 Graphics alone provoke defensiveness in this demographic without giving them a \"better\" option to choose.\n- **D (text only): 8** \u2014 Easily ignored; minimal behavior change.\n- **E (no labels): 4** \u2014 Residual effect from general health awareness; negligible.\n\n```json\n{\"points\": {\"A\": 14, \"B\": 32, \"C\": 18, \"D\": 8, \"E\": 4, \"F\": 24}, \"most_ignored\": \"D\", \"why\": \"Plain text warnings lack memorability and emotional salience at point-of-purchase, especially for younger men who experience warning fatigue.\"}\n```",
+   "points": [
+    14.0,
+    32.0,
+    18.0,
+    8.0,
+    4.0,
+    24.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "# Analysis\n\n**Target audience psychology:** UK men aged 18-34 typically show:\n- Skepticism toward heavy-handed health messaging\n- Responsiveness to practical information (calorie counts)\n- Potential reactance to graphic shock tactics\n- Preference for autonomy in decision-making\n- Limited engagement with text-only warnings\n\n**Message-by-message assessment:**\n\n**A (Graphics + text, no calories):** Graphic warnings can trigger psychological reactance in this demographic\u2014they may feel manipulated and deliberately choose the forbidden snack. The absence of calorie information removes the practical tool that could shift behaviour. Moderate effect.\n\n**B (Text warning + universal calorie badges):** The calorie information is genuinely useful for comparison shopping. Text warnings are less provocative than graphics. This respects autonomy while enabling informed choice. Good effect.\n\n**C (Calories only, no warnings):** Calorie badges alone provide transparency. Without emotional/health messaging, this may have modest behavioural impact\u2014some will use the information, many won't. Weak-to-moderate effect.\n\n**D (Graphics + text + universal calories):** Combines all tools. Graphics may trigger some reactance, but the practical calorie information and comparative context (seeing lower-calorie options labelled) could overcome this. Strongest potential effect because it works on both emotional and rational levels.\n\n**E (Text warning only):** Text-only health warnings have demonstrated weak effects on this age group. No calorie data to facilitate substitution. Weak effect.\n\n**F (Status quo):** No intervention = baseline. Zero effect by definition.\n\n**Allocation reasoning:**\n- D gets the most points: graphics + calories creates redundancy (overcomes reactance through practical utility)\n- B gets second place: calories alone work for thoughtful shoppers\n- A and C are moderate (graphics without comparative context; calories without health framing)\n- E is weak (text warnings alone don't move this demographic)\n- F is zero baseline\n\n```json\n{\n  \"points\": {\n    \"A\": 12,\n    \"B\": 28,\n    \"C\": 18,\n    \"D\": 35,\n    \"E\": 5,\n    \"F\": 2\n  },\n  \"most_ignored\": \"E\",\n  \"why\": \"Text-only health warnings have minimal persuasive impact on young adult men without supporting practical information or emotional salience to drive behaviour change.\"\n}\n```",
+   "points": [
+    12.0,
+    28.0,
+    18.0,
+    35.0,
+    5.0,
+    2.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "# Analysis for UK Male, 18-34\n\n## Reasoning\n\n**Psychological factors for this demographic:**\n- High reactance to heavy-handed fear appeals (graphic imagery often backfires)\n- Strong preference for autonomy; warnings can trigger oppositional behaviour\n- Data-driven pragmatism appeals more than emotional manipulation\n- Social proof and normalisation matter; extreme labels feel preachy\n- Comparison/context is powerful for decision-making\n\n**Message-by-message assessment:**\n\n**[A] Text warning + calorie count:** Moderate impact. The calorie badge enables informed choice (appealing to rationality), while text-only warnings feel less threatening than images. Some compliance likely.\n\n**[B] Calorie count only:** Strong impact. This demographic responds well to transparent information without moral judgement. Seeing \"240 CALORIES\" vs \"95 CALORIES\" enables comparison-based choice without triggering reactance. Clean, actionable.\n\n**[C] Graphic + no calories:** Low impact. Graphic shock tactics typically backfire in this age group\u2014triggers dismissal as \"nanny state\" fearmongering. No comparative data undermines rational decision-making.\n\n**[D] Text warning only, no calories:** Minimal impact. Feels weak and preachy without supporting data. Easier to ignore than [A].\n\n**[E] No labels:** Baseline (minimal change from status quo).\n\n**[F] Graphic + calorie count:** Moderate-high impact. The calorie data provides rational escape from emotional manipulation, but the graphic still triggers reactance. Mixed signals reduce effectiveness vs [B].\n\n**Ranking by effectiveness:** B > F > A > D > C > E\n\n## JSON Output\n\n```json\n{\n  \"points\": {\n    \"A\": 18,\n    \"B\": 35,\n    \"C\": 5,\n    \"D\": 8,\n    \"E\": 2,\n    \"F\": 32\n  },\n  \"most_ignored\": \"C\",\n  \"why\": \"Graphic shock tactics provoke reactance and dismissal as sanctimonious fearmongering in this demographic, while providing no actionable comparison data.\"\n}\n```",
+   "points": [
+    18.0,
+    35.0,
+    5.0,
+    8.0,
+    2.0,
+    32.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "# Analysis for UK Men Aged 18-34\n\n## Reasoning\n\n**Psychological & Behavioral Factors for this demographic:**\n\n1. **Disease threat messaging** is often ineffective for young men (18-34), who typically have low perceived personal risk and tend to dismiss distant health consequences\n2. **Graphic imagery** (Option B/D) can trigger reactance\u2014deliberate rejection of the message\u2014especially without complementary positive framing\n3. **Calorie counts alone** (Option C) provide information but lack motivational push; this age group often lacks nutritional literacy or interest\n4. **Combination approaches** (Option D) theoretically offer redundancy but may create cognitive overload or backlash\n5. **Plain text warnings** (A/F) split the difference: they're present but less provocative than images, reducing reactance\n6. **Comparison effect** (Options A, C, D) showing both high and low-calorie options creates helpful context; knowing a fruit pot is \"95 CALORIES\" vs a Dairy Milk at \"240 CALORIES\" enables quick decision-making\n\n**Most effective for behavior change:** A combination of **non-graphic information** (text + numbers) that enables comparison without triggering psychological resistance.\n\n**Least effective:** Pure imagery (B) or no intervention (E) for this age group.\n\n## Point Allocation\n\n- **A (text + calories)**: 28 \u2014 Text won't shock but calorie badges enable comparison; practical utility\n- **B (graphic images only)**: 8 \u2014 High reactance risk; young men reject paternalism; no decision-support\n- **C (calories only, no warnings)**: 18 \u2014 Empowers choice but lacks motivational hook; depends on pre-existing nutritional awareness\n- **D (graphics + calories)**: 22 \u2014 The combination provides both warning and utility, but graphic overkill may backfire\n- **E (no labels)**: 5 \u2014 Status quo; minimal friction to current behavior\n- **F (text warning only)**: 12 \u2014 Text alone feels weak; no information to guide better choices\n\n```json\n{\"points\": {\"A\": 28, \"B\": 8, \"C\": 18, \"D\": 22, \"E\": 5, \"F\": 12}, \"most_ignored\": \"E\", \"why\": \"Young men with no intervention simply continue existing vending habits; information vacuums don't drive behavior change.\"}\n```",
+   "points": [
+    30.107526881720432,
+    8.602150537634408,
+    19.35483870967742,
+    23.655913978494624,
+    5.376344086021505,
+    12.903225806451612
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "# Analysis for UK Male Audience (35-54)\n\n## Key Audience Characteristics\n- Peak earning years, established habits\n- Moderate health awareness but not health-obsessed\n- Skeptical of perceived hectoring or manipulation\n- Decision-making influenced by habit, taste preference, and convenience\n- Likely to experience \"reactance\" against heavy-handed warnings (backfire effect)\n\n## Message-by-Message Assessment\n\n**A (Calorie counts only):** Provides factual information without judgment. For this demographic, modest impact\u2014some will use it rationally, many will ignore it or note it briefly. Low-calorie options become slightly more salient.\n*Estimated effect: 15-18 points*\n\n**B (Text warning + calories):** Adds consequence messaging without sensory shock. Text-based warnings feel more credible and less manipulative than images. The dual information (consequences + calories) provides both emotional and rational angles. Moderate effectiveness.\n*Estimated effect: 20-24 points*\n\n**C (Graphic warning + calories):** Combines maximum information. However, graphic medical images risk triggering reactance in this demographic\u2014seen as patronizing or fear-mongering. Some will be genuinely deterred, but others will dismiss it as manipulation. Polarizing effect.\n*Estimated effect: 18-22 points*\n\n**D (Graphic warning, no calories):** Removes the rational escape hatch (knowing exact calories lets people feel in control). Graphic images without caloric context feel purely emotional/manipulative. High reactance risk.\n*Estimated effect: 8-12 points*\n\n**E (Text warning, no calories, no counts):** Text-only warnings without data feel vague and preachy. Calorie counts elsewhere provide a rational alternative focus. Lowest credibility and impact.\n*Estimated effect: 10-14 points*\n\n**F (No labels):** Baseline. No behavioral change expected.\n*Estimated effect: 0 points*\n\n## Overall Logic\nThis audience responds best to **transparent information** combined with **moderate messaging** that doesn't feel patronizing. Graphic images trigger skepticism. The combination of rational (calories) + emotional (text consequence) messaging works better than either alone.\n\n```json\n{\"points\": {\"A\": 16, \"B\": 24, \"C\": 19, \"D\": 10, \"E\": 12, \"F\": 0}, \"most_ignored\": \"D\", \"why\": \"Graphic warnings without calorie information feel manipulative and trigger reactance in a demographic that values autonomy and rational decision-making.\"}\n```",
+   "points": [
+    19.753086419753085,
+    29.62962962962963,
+    23.45679012345679,
+    12.345679012345679,
+    14.814814814814815,
+    0.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "# Analysis for UK Male, Age 35-54\n\n## Reasoning\n\nThis demographic typically shows:\n- **Moderate health awareness** but often deprioritizes it against taste/convenience\n- **Skepticism toward fear appeals** (potential \"reactance\" \u2013 pushback against heavy-handed messaging)\n- **Responsiveness to factual information** presented straightforwardly\n- **Decision fatigue** \u2013 lengthy labels are often ignored in vending situations\n\n**Critical insight:** Graphic medical imagery (C, D) risks triggering defensive avoidance in this group. Men 35-54 often exhibit health-protective denial when confronted with visceral threat imagery, especially in low-involvement contexts like snack selection. Text-only warnings (B, F) are more likely to register cognitively without triggering avoidance.\n\n**Calorie badges (B, D, E)** provide actionable information that supports rational comparison, but require motivation to use. Combined with warnings, they're most effective because they offer *both* reason to care AND practical guidance.\n\n**Option D** is likely strongest: the dual approach (graphic warning + calorie count) creates both emotional salience and practical decision support without excessive redundancy. However, this group will partially habituate to the graphic.\n\n**Option C** (graphic only, no calories) wastes the visual impact because it doesn't enable alternative choice-making.\n\n**Option A** (control) will have minimal effect in this price/convenience-driven context.\n\n```json\n{\n  \"points\": {\n    \"A\": 5,\n    \"B\": 22,\n    \"C\": 8,\n    \"D\": 28,\n    \"E\": 18,\n    \"F\": 19\n  },\n  \"most_ignored\": \"A\",\n  \"why\": \"This demographic expects and ignores unmarked snacks; absence of any intervention produces no behavioral shift.\"\n}\n```",
+   "points": [
+    5.0,
+    22.0,
+    8.0,
+    28.0,
+    18.0,
+    19.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "# Analysis for UK Male, Age 35-54\n\n## Reasoning\n\nThis demographic is typically:\n- Health-aware but not obsessively so (mid-life health concerns become salient)\n- Responsive to concrete, personal risk information\n- Somewhat desensitized to abstract warnings through repeated exposure\n- Pragmatic decision-makers who respond to actionable information\n- Potentially fatigued by graphic shock tactics (over-reliance reduces effectiveness)\n\n**Evaluating each approach:**\n\n- **[A]** Plain text warnings alone: Minimal impact. This age group has seen countless health warnings and habituates quickly to text-only messaging.\n\n- **[B]** Graphic medical images + text: Powerful initial impact, but graphic shock tactics can trigger reactance (\"I know the risks, let me choose\") and emotional avoidance in this demographic.\n\n- **[C]** Graphic images + warnings + universal calorie counts: Strong combination. The universal calorie counts on *healthy* options create meaningful comparison (\"95 vs 240 calories\"). Graphics are impactful but calorie visibility offers practical, non-preachy guidance.\n\n- **[D]** Text warnings + universal calorie counts: Effective middle ground. Calorie counts provide concrete, comparison-friendly data without shock tactics. Text + numbers appeals to rational deliberation.\n\n- **[E]** No intervention: Baseline\u2014habits dominate, minimal change expected.\n\n- **[F]** Only calorie counts, no warnings: Moderate effectiveness. Provides information but lacks health context; many in this age band actively ignore or rationalize calorie counts.\n\n**Most effective**: **[D]** offers the best balance\u2014the calorie counts give concrete, comparative data (activating deliberative thinking) while text warnings maintain health salience without triggering reactance through graphic shock.\n\n**Most ignored**: **[A]**\u2014plain text warnings are maximally habituated in this age group and provide no actionable alternative information.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 18, \"C\": 24, \"D\": 32, \"E\": 10, \"F\": 8}, \"most_ignored\": \"A\", \"why\": \"Plain text health warnings face maximum habituation in this demographic and offer no actionable comparison tool to facilitate healthier choices at the point of purchase.\"}\n```",
+   "points": [
+    8.0,
+    18.0,
+    24.0,
+    32.0,
+    10.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "# Analysis for UK Male, 35-54 Years Old\n\n**Reasoning:**\n\nThis demographic tends to be resistant to:\n- Heavy-handed messaging (many have developed \"banner blindness\")\n- Graphic shock tactics (can trigger reactance\u2014doing the opposite of intended)\n- Moralistic language linking food to disease (feels paternalistic)\n\nThis demographic is moderately responsive to:\n- Clear, factual information (calorie counts speak to rational self-interest)\n- Non-accusatory framing (practical info > warnings)\n- Effort reduction (visible info requires no extra cognitive load)\n\n**Predicted responses:**\n\n- **A (calories only)**: Moderately effective. Clear data without judgment appeals to this age group's self-monitoring instincts and sense of autonomy. ~20 points\n- **B (text warning + calories)**: Slightly more effective than A. Combines rational info with consequence messaging. Some will dismiss the warning as obvious, but calorie count helps. ~22 points\n- **C (text warning, no calories)**: Minimally effective. Text warnings alone feel preachy; removing calorie info reduces practical utility. ~8 points\n- **D (graphic warning, no calories)**: Counterproductive. Graphic imagery triggers defensive reactions in this age group; omitting calorie data removes the only actionable element. ~5 points\n- **E (no labels)**: Baseline\u2014no change. ~0 points\n- **F (graphic warning + calories)**: Moderately effective but weakened by imagery. The graphic creates reactance that partially undermines the calorie count benefit. ~15 points\n- **Most ignored**: **D or C**, but **D** more so\u2014graphic shock is most likely to provoke \"I'll buy it anyway\" defiance in this demographic.\n\n```json\n{\"points\": {\"A\": 22, \"B\": 24, \"C\": 8, \"D\": 5, \"E\": 0, \"F\": 16}, \"most_ignored\": \"D\", \"why\": \"Graphic medical imagery triggers psychological reactance in middle-aged men, prompting defensive override of health messaging.\"}\n```",
+   "points": [
+    29.333333333333332,
+    32.0,
+    10.666666666666666,
+    6.666666666666667,
+    0.0,
+    21.333333333333332
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "# Analysis for UK Male, 35-54 Years Old\n\n**Reasoning:**\n\nThis demographic is typically health-conscious enough to recognize obesity risks, yet resistant to heavy-handed messaging. Research on warning labels shows:\n\n1. **Graphic images (A, C)** often trigger avoidance/reactance in this age group\u2014they've seen shock tactics before and may dismiss them as patronizing. However, they're more effective than no intervention at all.\n\n2. **Calorie information alone (F)** provides neutral data without moral judgment. For men 35-54, this demographic segment often responds well to factual information they can interpret themselves rather than being \"told what's bad.\" It respects autonomy.\n\n3. **Text warnings without imagery (B, E)** fall between extremes\u2014credible but easily ignored without the salience of visuals or the actionability of numbers.\n\n4. **Combined approach (C)** adds redundancy but may overwhelm or trigger reactance; some evidence suggests graphic + numbers together can backfire.\n\n5. **Baseline (D)** establishes no intervention effect\u2014the control condition.\n\n**Point allocation logic:**\n- **F (Calorie badges only): 28** \u2014 Provides actionable information without paternalism; allows autonomous decision-making; data-driven appeal suits this demographic better than shock tactics.\n- **C (Graphics + warnings + calories): 22** \u2014 Combines multiple signals but risks reactance; still effective through calorie component.\n- **A (Graphics + warnings only): 18** \u2014 Memorable and concerning, but without actionable numbers, impact fades quickly.\n- **B (Text warnings + calories): 16** \u2014 Rational but low-salience; text alone is easily ignored.\n- **E (Text warnings only): 10** \u2014 Minimal impact; repeated exposure dulls effectiveness.\n- **D (No labels): 6** \u2014 Baseline; minimal change from status quo.\n\n```json\n{\"points\": {\"A\": 18, \"B\": 16, \"C\": 22, \"D\": 6, \"E\": 10, \"F\": 28}, \"most_ignored\": \"E\", \"why\": \"Plain text warnings without imagery or actionable data are low-salience and easily dismissed by this demographic through habituation.\"}\n```",
+   "points": [
+    18.0,
+    16.0,
+    22.0,
+    6.0,
+    10.0,
+    28.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "# Analysis for UK Male, 55+\n\n**Key considerations for this demographic:**\n- This age group has established eating habits and is generally resistant to behaviour change\n- They've likely heard health warnings many times before (messaging fatigue)\n- However, they're at higher risk of the diseases mentioned, which may increase salience\n- Older men often respond better to rational/informational appeals than shock tactics\n- Graphic imagery can backfire\u2014causing avoidance of the message rather than behaviour change\n- Calorie counts alone have mixed evidence for behaviour change in this group\n- The combination of familiar disease names + personal relevance might be moderately effective\n\n**Reasoning by option:**\n\n- **A** (Calories only): Minimal impact. At 55+, most know calories matter but don't act on it.\n- **B** (Text warning + calories): Moderate impact. Combines information with rational disease risk. Text is less avoidable than graphics. Calories provide a decision aid.\n- **C** (No labels): Zero impact. Status quo maintains current behaviour.\n- **D** (Graphic only, no calories): Likely counterproductive. Shock tactics often trigger psychological reactance in older adults (\"I know the risks already\"); graphic images may be dismissed as exaggeration.\n- **E** (Graphic + calories): Some impact, but graphics may overshadow calorie information. Mixed signals\u2014one emotional, one rational.\n- **F** (Text warning only): Modest impact. Rational messaging without actionable data (calories) limits effectiveness.\n\n**Predicted ranking:** B > E > F > A > D > C\n\n**Most ignored:** D\u2014graphic shock tactics tend to alienate this demographic rather than motivate change.\n\n```json\n{\n  \"points\": {\n    \"A\": 12,\n    \"B\": 28,\n    \"C\": 2,\n    \"D\": 5,\n    \"E\": 18,\n    \"F\": 15\n  },\n  \"most_ignored\": \"D\",\n  \"why\": \"Graphic medical images trigger psychological reactance and are often dismissed as manipulative by older adults who have already processed health risks rationally.\"\n}\n```",
+   "points": [
+    15.0,
+    35.0,
+    2.5,
+    6.25,
+    22.5,
+    18.75
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "# Analysis for UK Males 55+\n\n**Key demographic factors:**\n- This age group has established eating habits and is generally resistant to behaviour change\n- Health literacy is moderate; disease risk awareness exists but may feel abstract\n- They've encountered health warnings for decades (smoking, etc.) so novelty/shock value diminishes\n- Decision-making at point-of-purchase is often habitual rather than deliberative\n\n**Reasoning by option:**\n\n**[A] Text warning + calorie badge:** Moderate effect. The calorie count is salient and actionable (specific number aids comparison). Text-only warnings are less emotionally compelling than graphics, but this group respects factual information. This works through rational deliberation.\n\n**[B] Graphic warning + calorie badge:** Strongest effect. Combines emotional impact (graphic photos are difficult to ignore, particularly for men who've experienced health scares in their 50s) with rational data (calorie counts enable trade-offs). The redundancy\u2014both visual shock and numerical clarity\u2014is powerful.\n\n**[C] Graphic warning, no calories:** Moderate-to-weak effect. While the graphic is impactful, the absence of calorie information on *all* snacks removes a key navigation tool. Men in this age band want to *do something* with information; \"stop eating\" is abstract, but \"choose the 95-calorie option\" is concrete.\n\n**[D] Calorie counts only, no warnings:** Weak effect. Calorie information alone requires active calculation and motivation. Without disease framing, it's just data. This group doesn't typically self-regulate on calories alone.\n\n**[E] Text warning, no calories:** Weak effect. Text warnings are easily dismissed as background noise after 50+ years of exposure. No actionable alternative pathway.\n\n**[F] No intervention:** Negligible effect. Baseline\u2014confirms habit dominance.\n\n**Allocation reasoning:**\n- B gets the most (35) because it combines visual-emotional salience (particularly effective for health threats in older men) with actionable numeracy.\n- A gets second (25) because the calorie count is genuinely useful, even if the text warning is forgettable.\n- C gets third (18): graphics work, but lack of comparative calorie data weakens agency.\n- D gets fourth (15): some men will use calorie counts, but without health framing, motivation is low.\n- E gets fifth (5): text warnings have become wallpaper.\n- F gets remainder (2): minimal intervention effect.\n\n**Most ignored:** F (no change mechanism).\n\n```json\n{\"points\": {\"A\": 25, \"B\": 35, \"C\": 18, \"D\": 15, \"E\": 5, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"Absent labelling removes all cognitive and emotional cues, leaving only entrenched habit.\"}\n```",
+   "points": [
+    25.0,
+    35.0,
+    18.0,
+    15.0,
+    5.0,
+    2.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "# Analysis for UK Male, 55+\n\n## Reasoning\n\nThis demographic has likely encountered health messaging about obesity and diet-related disease for decades. Several factors influence responsiveness:\n\n**Psychological resistance factors:**\n- Males 55+ often show reactance to perceived \"nannying\" or preachy messaging\n- Graphic imagery can trigger avoidance/denial rather than behaviour change\n- Repeated health warnings lose impact through habituation\n- This group may have established snacking habits resistant to labelling alone\n\n**What might work:**\n- **Comparative information (A, C, E)**: Calorie badges on *all* snacks create a relative comparison that engages decision-making without moralizing. Seeing \"95 CALORIES\" next to \"240 CALORIES\" makes the choice concrete rather than abstract.\n- **Graphic warnings (B, E)**: Mixed evidence for this age group. Some respond; many dismiss as scaremongering.\n- **Text-only warnings (A, D)**: Likely ignored after initial exposure\u2014too familiar and preachy.\n\n**Allocation logic:**\n- **E (20 pts)**: Combines graphics + comparative calorie data. The calorie comparison gives rational decision support; graphics may reinforce (though some dismiss). Most complete intervention.\n- **C (18 pts)**: Pure comparison without moralizing. Rational, non-coercive, respects agency. Likely most effective for this demographic.\n- **A (16 pts)**: Combines messaging + comparison, but text warnings are less impactful than graphics for some.\n- **B (12 pts)**: Graphic warnings without comparison may trigger reactance/avoidance in this group.\n- **D (10 pts)**: Text-only without comparative data\u2014easily ignored, lectures don't change behaviour.\n- **F (4 pts)**: Status quo; minimal change.\n\n```json\n{\n  \"points\": {\n    \"A\": 16,\n    \"B\": 12,\n    \"C\": 18,\n    \"D\": 10,\n    \"E\": 20,\n    \"F\": 4\n  },\n  \"most_ignored\": \"F\",\n  \"why\": \"Men 55+ need comparative decision-support or novel shock value; unlabelled snacks offer neither and reinforce existing habits.\"\n}\n```",
+   "points": [
+    20.0,
+    15.0,
+    22.5,
+    12.5,
+    25.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "# Analysis for UK Male, 55+\n\n## Key Considerations for This Demographic\n\n**Psychological factors:**\n- This age group has substantial health awareness (prostate cancer, heart disease, Type 2 diabetes are salient personal risks)\n- But also displays \"optimism bias\" and habitual behaviour patterns established over decades\n- Graphic shock tactics can backfire (reactance, dismissal as \"nanny state\")\n- This cohort generally responds better to rational information than emotional manipulation\n- Many will have experienced health scares or lost peers to these conditions\u2014making warnings either persuasive or anxiety-inducing\n\n**Behavioural patterns:**\n- Established snacking habits are hard to shift through labelling alone\n- Calorie counts alone have modest impact without context (unclear if 240 is \"bad\")\n- Graphic medical imagery may trigger defensive dismissal rather than behaviour change\n- However, plain-text warnings linking behaviour to consequences *can* work if perceived as credible\n\n## Point Allocation Reasoning\n\n- **A (0 pts):** Baseline, no intervention\n- **B (8 pts):** Graphic shock may trigger reactance in this age group; some will be moved by health reality, but many will dismiss as manipulative\n- **C (12 pts):** Plain text warnings are credible and non-threatening; will nudge some decisions\n- **D (28 pts):** **Best option.** Warnings + calorie badges work synergistically\u2014the numbers provide concrete evidence to support the message; older men often respond to factual data; comparison between 95 and 240 calories makes relative risk salient\n- **E (18 pts):** Graphic + numbers: the visceral image may override rational processing or trigger avoidance; less effective than D for this demographic\n- **F (14 pts):** Calorie counts alone have modest impact; provides information but no motivational framing\n\n```json\n{\"points\": {\"A\": 0, \"B\": 8, \"C\": 12, \"D\": 28, \"E\": 18, \"F\": 14}, \"most_ignored\": \"A\", \"why\": \"Unlabelled snacks exploit existing habits and optimism bias with no intervention to prompt reflection.\"}\n```",
+   "points": [
+    0.0,
+    10.0,
+    15.0,
+    35.0,
+    22.5,
+    17.5
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "# Analysis for UK Male, 55+\n\n## Key Considerations for this Demographic\n\n**Psychological factors:**\n- Men 55+ typically show lower responsiveness to health warnings than younger adults (well-documented in tobacco and alcohol research)\n- Abstract text warnings about disease chains (\"obesity causes X\") have moderate impact on this group\n- Graphic medical imagery can trigger defensive avoidance (\"that won't happen to me\") or backlash, particularly in men\n- This age group has generally established eating habits and is more resistant to behavioral nudges\n- However, they may be more health-conscious than younger men, especially if they've experienced health scares\n- Concrete, comparative information (calorie counts) provides intellectual engagement they may respect\n\n**Practical factors:**\n- Vending machine purchases are often impulsive/habitual\n- At 55+, many will have already experienced health issues or know peers who have, making disease references feel real rather than abstract\n- Calorie information requires active cognitive engagement; warnings provide passive messaging\n\n## Predicted Responses\n\n**A (Text warning only):** Minimal impact. Familiar messaging, easily ignored, no friction for purchase.\n\n**B (Text warning + universal calorie badges):** Moderate impact. Calorie transparency creates cognitive load at point of purchase. The comparison between \"240 CALORIES\" and \"95 CALORIES\" makes the choice visible. This group respects factual information.\n\n**C (Graphic images + calorie badges):** Moderate-to-high impact. The combination is powerful. Images trigger emotional response even if intellectually resisted. Calorie badges support rational decision-making. However, risk of backlash in some men (defense mechanism).\n\n**D (No intervention):** No additional impact\u2014baseline.\n\n**E (Graphic images only):** Low-to-moderate impact. Medical images may backfire through reactance (\"I'm not going to be scared into compliance\"). No practical information to support different choices.\n\n**F (Calorie badges only, no warnings):** Moderate impact. Provides transparency without coercion. Respects autonomy while enabling informed choice. Evidence suggests this demographic responds well to information provision rather than fear.\n\n## Allocation Reasoning\n\nFor this demographic, I weight heavily toward:\n- **B and F** (information-based, non-coercive approaches)\n- **C** (emotion + information combination, despite backlash risk)\n- Downweight **A and E** (text warnings without actionable support; graphic images without data)\n\nThe 55+ male is likely to be somewhat health-conscious but resistant to being \"told what to do.\" Calorie transparency is less patronizing than fear appeals.\n\n```json\n{\n  \"points\": {\n    \"A\": 8,\n    \"B\": 26,\n    \"C\": 24,\n    \"D\": 0,\n    \"E\": 10,\n    \"F\": 32\n  },\n  \"most_ignored\": \"D\",\n  \"why\": \"Without intervention, established vending habits remain unchanged for this age group.\"\n}\n```",
+   "points": [
+    8.0,
+    26.0,
+    24.0,
+    0.0,
+    10.0,
+    32.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "# Analysis for UK Women 18-34\n\n## Reasoning\n\n**Psychological and Behavioural Factors:**\n\nThis demographic is generally health-literate, digitally native, and increasingly concerned with wellness\u2014but also price-conscious and seeking convenience. They're exposed to substantial health messaging already.\n\n**Message Effectiveness:**\n\n- **A (Text-only warning):** Minimal impact. Repeated health claims without salience or novelty. Easy to ignore after initial exposure. People habituate to text warnings quickly.\n\n- **B (Graphic + warning + calorie count):** Moderate-to-strong impact. Combines emotional salience (graphic shock) with rational information (calorie count). The dual approach addresses both affect and cognition. However, showing calories on *all* snacks (healthy + unhealthy) dilutes the differentiation signal. May produce cognitive overload.\n\n- **C (Graphic + warning, no calories):** Strong impact initially, but limited practical guidance. The graphic is potent for emotional response, but without actionable calorie data, behaviour change is less sustained. Visceral reaction fades; no reinforcing rational anchor.\n\n- **D (No labels):** Baseline/control. Reflects current reality for most UK shoppers. Minimal active influence.\n\n- **E (Text warning + all calories shown):** Moderate impact. Calorie counts are actionable and cognitive (suits this demographic's rationality preference), but text-only warnings are weaker. Good for conscious deliberation, weaker on impulse prevention.\n\n- **F (Calories only, no warnings):** Moderate impact for this audience. Transparent information favours autonomy (valued by 18-34s) and allows comparison. But absence of negative framing is less motivating to restrict high-calorie choices. Some evidence shows calorie labelling alone has modest effects on high-calorie items if not paired with warnings or social norms.\n\n**Predicted Distribution:**\n\n- **B** gains most (emotional + rational) = **28 points**\n- **C** is strong but less sustained = **20 points**\n- **E** balances rationality + warning = **18 points**\n- **F** provides info but weak deterrent = **15 points**\n- **A** is habituated/ignored quickly = **12 points**\n- **D** is inert = **7 points**\n\n---\n\n```json\n{\n  \"points\": {\n    \"A\": 12,\n    \"B\": 28,\n    \"C\": 20,\n    \"D\": 7,\n    \"E\": 18,\n    \"F\": 15\n  },\n  \"most_ignored\": \"A\",\n  \"why\": \"Text-only warnings are cognitively easy to dismiss and produce rapid habituation, especially in a young, information-saturated demographic.\"\n}\n```",
+   "points": [
+    12.0,
+    28.0,
+    20.0,
+    7.0,
+    18.0,
+    15.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "# Analysis for UK Women, 18-34\n\n## Reasoning\n\n**Behavioral Psychology & Evidence Base:**\n\nThis demographic is digitally native, skeptical of fear-mongering, and exposed to extensive health messaging. Key considerations:\n\n1. **Graphic warnings (B, C):** Research on shock tactics shows diminishing returns, especially for younger adults who may experience \"reactance\" (rejecting messaging that feels controlling). Graphic imagery can also be dismissed as alarmist, particularly when paired with obesity messaging that carries weight-stigma baggage this group increasingly rejects.\n\n2. **Calorie information (A, C, E):** Clear calorie counts align with how this audience already shops\u2014many use apps, read labels, and make deliberate choices. This is framing information rather than fear, making it sustainable.\n\n3. **Text-only warnings (E, F):** Plain language works better than graphics with this cohort, but without supporting calorie context (F), the warning feels preachy and ignorable.\n\n4. **No intervention (D):** Status quo continues; minimal behavior change.\n\n5. **Optimal combination (C or E):** Calorie counts + warnings create information asymmetry favoring healthier choices without triggering defensive reactions. E (plain text + calories) likely outperforms C because graphic imagery may paradoxically entertain or shock rather than persuade this audience.\n\n## Allocation\n\n- **E: 32** \u2013 Plain text warning + calorie counts = credible, actionable, not patronizing\n- **C: 24** \u2013 Graphics + calories = informative but graphics may backfire with this demographic\n- **A: 18** \u2013 Calories alone work but lack behavioral \"nudge\"; requires self-motivation\n- **F: 12** \u2013 Text warning without context feels nagging; no decision support\n- **B: 10** \u2013 Graphics without calorie context seem disconnected from purchase logic\n- **D: 4** \u2013 Minimal intervention = minimal change\n\n```json\n{\"points\": {\"A\": 18, \"B\": 10, \"C\": 24, \"D\": 4, \"E\": 32, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"Graphic medical imagery without calorie context triggers skepticism and defensive dismissal in digitally literate younger women rather than behavioral change.\"}\n```",
+   "points": [
+    18.0,
+    10.0,
+    24.0,
+    4.0,
+    32.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "# Analysis\n\n**Target audience context:** UK women aged 18-34 are generally health-conscious, digitally literate, and responsive to evidence-based messaging, but also prone to habituation and \"warning fatigue.\" They tend to respond well to actionable information and dislike feeling manipulated.\n\n**Message effectiveness predictions:**\n\n**[A] - Graphic + warning text + calorie count (17 points)**\nMaximum shock value but risks backfiring through:\n- Desensitisation after repeated exposure\n- Reactance (rejecting heavy-handed persuasion)\n- Psychological distance (graphic images feel alarmist to young, healthy individuals)\nHowever, the calorie badge provides useful comparative information that could influence choices when shock wears off.\n\n**[B] - No intervention (5 points)**\nBaseline. Existing habits dominate. Some individuals may self-educate, but most follow established preferences.\n\n**[C] - Text warning only, no visuals or calories (8 points)**\nPlain text is easy to ignore and habituate to. No concrete actionable metric. Slightly better than baseline but minimal behavioural nudge.\n\n**[D] - Text warning + calorie count (28 points)**\nMost effective combination. The calorie badge is:\n- Concrete and comparable (enables informed choice)\n- Non-emotional (avoids reactance)\n- Persistent (works across repeated exposures)\n- Actionable (clear reference point for decisions)\nThe text reinforces the \"why\" without relying on shock.\n\n**[E] - Calorie count only, no warnings (22 points)**\nStrong performer. Calorie transparency alone shifts behaviour for health-conscious consumers making deliberate choices. No reactance. But lacks motivational framing about health consequences.\n\n**[F] - Graphic + warning text only (12 points)**\nHigh initial impact but:\n- Shock value diminishes rapidly\n- No actionable metric to guide replacement choices\n- Likely evokes defensive responses (\"one won't hurt\")\n\n**Reasoning:** This audience responds to transparency and agency more than shock. Calorie counts enable direct comparison and informed decision-making. Combined with motivational text (not images), it provides both the \"why\" and the \"how much.\"\n\n```json\n{\"points\": {\"A\": 17, \"B\": 5, \"C\": 8, \"D\": 28, \"E\": 22, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"Without any intervention, existing snacking habits persist unchallenged and the choice environment exerts no nudging pressure.\"}\n```",
+   "points": [
+    18.47826086956522,
+    5.434782608695652,
+    8.695652173913043,
+    30.434782608695652,
+    23.91304347826087,
+    13.043478260869565
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "# Analysis\n\n**Target audience characteristics:**\n- UK women aged 18-34 are generally health-literate and media-savvy\n- This group tends to be skeptical of heavy-handed fear tactics\n- They're familiar with nutritional information and actively engage with it\n- They're influenced by autonomy and practical information rather than shock value\n\n**Predicted responses by option:**\n\n**[A] Graphic warnings only (no calories):** Likely to backfire. Graphic shock imagery tends to trigger psychological reactance in this demographic\u2014they may resent the manipulation and deliberately choose high-calorie snacks. The absence of calorie information removes rational decision-making tools. **Low effectiveness.**\n\n**[B] Calorie counts only (no warnings):** Moderately effective. This audience understands that knowledge enables choice. Transparent calorie information appeals to their autonomy and rational planning. Some will adjust choices based on this data. **Moderate effectiveness.**\n\n**[C] Plain text warnings only:** Minimal effect. Text-only warnings without visual salience or calorie context are easy to ignore. Information overload has made plain warnings increasingly ineffective. **Low-moderate effectiveness.**\n\n**[D] No labels (control):** Baseline\u2014no behavioral change expected. **Minimal effectiveness.**\n\n**[E] Plain text warnings + calorie counts:** Additive effect. Combines rational decision-making (calories) with health messaging (warnings). The text warning reinforces without being manipulative; calorie counts enable action. This targets both cognitive and affective channels. **High effectiveness.**\n\n**[F] Graphic warnings + calorie counts:** Mixed effect. The graphic element may trigger reactance and feel patronizing, but the calorie information provides a rational counterweight. The combination is less effective than [E] because the graphic component actively undermines trust in this demographic. **Moderate-high effectiveness, but lower than [E].**\n\n**Allocation reasoning:**\n- [E] gets the most points: it's the \"Goldilocks\" option\u2014informative without manipulative, rational without neglecting emotional health messaging\n- [B] gets significant points as a close second: pure information respects autonomy\n- [F] gets moderate points: effective elements undermined by graphic shock tactics\n- [C] gets modest points: text alone isn't salient enough\n- [A] gets minimal points: likely counterproductive\n- [D] is the control\n\n```json\n{\n  \"points\": {\n    \"A\": 5,\n    \"B\": 25,\n    \"C\": 12,\n    \"D\": 3,\n    \"E\": 45,\n    \"F\": 10\n  },\n  \"most_ignored\": \"A\",\n  \"why\": \"Graphic shock imagery triggers psychological reactance in media-savvy young adults who resent manipulation, often causing them to deliberately ignore or reject the intended message.\"\n}\n```",
+   "points": [
+    5.0,
+    25.0,
+    12.0,
+    3.0,
+    45.0,
+    10.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "# Analysis for UK Women 18-34\n\n## Key Psychological Factors for This Audience:\n\n1. **Warning fatigue**: This demographic encounters constant health messaging and may experience desensitization\n2. **Graphic imagery backlash**: Extreme medical photos can trigger reactance (\"I'll do what I want\") rather than behavior change, particularly in younger adults\n3. **Calorie awareness**: This age group is relatively nutrition-literate and already aware of calorie concepts\n4. **Choice architecture**: Comparative information (seeing healthy options also labeled) provides context\n5. **Aspiration over fear**: This demographic generally responds better to positive framing than shock tactics\n\n## Reasoning:\n\n**A** (Text warning only): Minimal impact. Familiar messaging, easily ignored in moment-of-purchase.\n\n**B** (Graphic horror): Likely counterproductive with this audience. High reactance risk. The graphic shock may create negative associations with the *labeling* rather than the product.\n\n**C** (No intervention): Baseline. No effect by definition.\n\n**D** (Text warning + universal calories): Moderate impact. The universal calorie labeling is the key component here\u2014it allows comparison without shock tactics. She can see \"240 vs 95 calories\" and make informed choices. The text warning adds minimal value.\n\n**E** (Graphic + universal calories): The calories are helpful; the graphics are counterproductive noise that may actually reduce effectiveness through reactance.\n\n**F** (Universal calories only): Most effective for this audience. Removes shock tactics entirely. The comparative calorie information at point-of-choice is powerful and respects agency. She sees the stark 240 vs 95 contrast without feeling manipulated.\n\n## Point Allocation:\n\n- **F**: 38 (transparent, respects intelligence, enables informed choice)\n- **D**: 28 (similar to F but weaker due to unnecessary warning text)\n- **A**: 12 (some effect but easily ignored)\n- **E**: 10 (calories help, but graphics undermine effectiveness)\n- **B**: 8 (likely triggers reactance)\n- **C**: 4 (minimal baseline recognition)\n\n```json\n{\"points\": {\"A\": 12, \"B\": 8, \"C\": 4, \"D\": 28, \"E\": 10, \"F\": 38}, \"most_ignored\": \"B\", \"why\": \"Graphic shock tactics trigger psychological reactance in this digitally-native, message-saturated demographic rather than motivating behavior change.\"}\n```",
+   "points": [
+    12.0,
+    8.0,
+    4.0,
+    28.0,
+    10.0,
+    38.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "# Analysis for UK Women, 35-54\n\n**Reasoning:**\n\nThis demographic is typically health-conscious, pragmatic, and resistant to manipulation. They've seen extensive public health messaging and tend to develop \"warning fatigue\" from graphic shock tactics.\n\n**Key psychological factors:**\n\n1. **Graphic warnings (A, E)**: Research shows these trigger reactance in adults\u2014particularly educated women who resent being \"scared\" into compliance. The explicit causation claims may feel overwrought (\"excess calories cause cancer\") and prompt skepticism.\n\n2. **Calorie information (A, C, F)**: Moderately effective for this group. Women 35-54 often monitor intake and find calorie counts practical and actionable. However, calorie labels alone don't address *choice architecture*\u2014they inform but don't strongly nudge.\n\n3. **Plain text warnings (D, F)**: Less emotionally manipulative than graphics, so less resistance. But plain text alone has minimal impact\u2014this audience has heard health warnings before.\n\n4. **Comparative visibility (C, F)**: Showing calories on *all* snacks (healthy and high-calorie) is crucial for this demographic. It enables informed comparison and supports autonomy, which this age group values.\n\n5. **No intervention (B)**: Minimal change expected.\n\n**Predicted ranking of effectiveness:**\n- **F (text warning + all calorie counts)**: Best\u2014respects autonomy, provides information, no reactance\n- **C (all calorie counts, no warnings)**: Second\u2014enables comparison; many will self-regulate with clear data\n- **A (graphic + all calories)**: Moderate\u2014information rich but graphic shock may backfire\n- **D (text warning only)**: Weak\u2014familiar messaging, no comparative data\n- **E (graphic, no calories)**: Weak\u2014reactance to graphics; missing actionable information\n- **B (no intervention)**: Minimal impact\n\n**Point allocation:**\n\n```json\n{\n  \"points\": {\n    \"A\": 12,\n    \"B\": 3,\n    \"C\": 28,\n    \"D\": 8,\n    \"E\": 5,\n    \"F\": 44\n  },\n  \"most_ignored\": \"B\",\n  \"why\": \"No intervention provides no reason for purchase behaviour to change among a habitual audience.\"\n}\n```",
+   "points": [
+    12.0,
+    3.0,
+    28.0,
+    8.0,
+    5.0,
+    44.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "# Analysis\n\n**Target: UK women 35-54** - This demographic is typically health-conscious (peak awareness of midlife health risks), experienced with nutrition labels, but also prone to label fatigue and reactance to overly aggressive messaging.\n\n**Key behavioural principles:**\n\n1. **Graphic warnings (B, C):** High shock value but risk of \"defensive avoidance\" - people look away, become desensitized, or resent being frightened. Graphic imagery of tumours/surgery may trigger emotional rejection in this age group rather than sustained behaviour change.\n\n2. **Text-only warnings (A, F):** Less visceral but less ignored than expected - health-literate women 35-54 generally read and process text warnings. However, repetition of identical warning text reduces impact over time.\n\n3. **Calorie counts (C, E, F):** Most effective for this demographic. Women 35-54 are nutrition-label readers who can use concrete numerical information to make deliberate choices. Comparative labelling (240 vs 95 calories) enables informed decision-making.\n\n4. **Combined approaches (C, F):** Text warnings + calorie counts create both emotional and rational motivation, though C's graphic component may be counterproductive (overwhelming, evoking reactance).\n\n5. **No intervention (D, E):** Control conditions show baseline responsiveness. E (calorie counts only) is likely more effective than D for this demographic.\n\n**Point allocation reasoning:**\n\n- **C: 28** - Graphic + text + calorie counts hits multiple channels, but graphic imagery risks defensive avoidance; some women will be put off rather than persuaded.\n- **F: 24** - Text + calorie counts; no graphic overkill. Rational, readable, effective for deliberative shoppers.\n- **E: 18** - Calorie counts alone work well for health-literate women but lack urgency messaging.\n- **A: 12** - Text-only warnings fade quickly; no comparative data (calories) to guide choices.\n- **B: 10** - Graphic warnings alone risk dismissal and emotional reactance; no actionable numerical guidance.\n- **D: 8** - No intervention; minimal change from baseline.\n\n```json\n{\"points\": {\"A\": 12, \"B\": 10, \"C\": 28, \"D\": 8, \"E\": 18, \"F\": 24}, \"most_ignored\": \"D\", \"why\": \"Women 35-54 with no labels or calorie information have no salient decision aid and typically default to habit or preference rather than health consideration.\"}\n```",
+   "points": [
+    12.0,
+    10.0,
+    28.0,
+    8.0,
+    18.0,
+    24.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "# Analysis for UK Women Aged 35-54\n\n## Reasoning\n\nThis demographic is typically health-conscious, well-informed about nutrition, and sensitive to both rational evidence and emotional appeals\u2014but not equally. Key considerations:\n\n**Message Effectiveness Factors:**\n\n- **Graphic warnings (A, D)**: Research shows shock tactics often trigger defensive reactions (\"that won't happen to me\") or avoidance of the message entirely. However, they do create visceral impact. For this audience, they may feel patronizing or manipulative, potentially reducing effectiveness through reactance.\n\n- **Text-only warnings (B, E)**: Less emotionally jarring, but this audience already knows obesity links to disease. Without new information, these feel redundant and are easily dismissed.\n\n- **Calorie counts (A, B, C)**: This is powerful for this demographic. Women aged 35-54 often track calories deliberately. Comparative visibility (95 vs 240) creates direct, non-emotional choice architecture\u2014\"I can see the difference.\"\n\n- **No information (F)**: Status quo bias dominates. Minimal behavioral change expected.\n\nThe most effective approach combines **actionable information** (calories) with **choice comparison** (showing healthy alternatives' counts too). Graphic images may backfire through psychological reactance.\n\n**Point Allocation Logic:**\n\n- **A (20 points)**: Graphics + warnings + calorie counts. Graphics reduce effectiveness through reactance, but calorie comparison is powerful.\n- **B (28 points)**: Text warning + calorie counts. Removes emotional manipulation; calorie comparison drives choice.\n- **C (25 points)**: Calorie counts only. Honest comparison framework; no warning fatigue.\n- **D (8 points)**: Graphics + warnings only. No actionable guidance; graphics trigger defensiveness.\n- **E (12 points)**: Text warning only. Known information; lacks choice framework.\n- **F (7 points)**: No intervention; minimal behavior change.\n\n```json\n{\"points\": {\"A\": 20, \"B\": 28, \"C\": 25, \"D\": 8, \"E\": 12, \"F\": 7}, \"most_ignored\": \"F\", \"why\": \"Without labeling intervention, status quo bias ensures minimal deviation from existing habits.\"}\n```",
+   "points": [
+    20.0,
+    28.0,
+    25.0,
+    8.0,
+    12.0,
+    7.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "# Analysis for UK Women, 35-54\n\n**Key psychological factors for this demographic:**\n\nThis age group typically has established health literacy and is increasingly aware of health risks (menopause, cardiovascular risk, cancer awareness peaks in media). However, they also experience decision fatigue and habit-driven snacking. The group responds well to practical information but can experience \"warning fatigue\" from excessive graphic messaging.\n\n**Evaluation of each message:**\n\n- **A (Graphics + Warnings + Calories):** The combination is powerful but risks cognitive overload and desensitization. Graphic images create initial shock but habituate quickly. However, the calorie information provides *actionable* data for comparison shopping. Moderate-to-strong effect.\n\n- **B (Graphics + Warnings, no calories):** Graphics alone without actionable metrics (\"so what do I choose instead?\") tends to create anxiety without behavior change. Strong initial impact but limited sustained effect.\n\n- **C (No labels):** Baseline. No intervention, no change expected.\n\n- **D (Text warning only):** Minimal visual salience. Text-only warnings are easily ignored, especially on familiar products. This demographic has heard these warnings before.\n\n- **E (Text warning + Calories):** Plain text + calorie information is the most *practical* combination. No graphic shock, but the numbers enable direct comparison. Research shows calorie counts influence 35-54 year-old women more reliably than emotional appeals.\n\n- **F (Calories only, no warnings):** Transparency without moralizing. Empowering rather than fear-based. This age group often resists paternalism; seeing a 95-calorie fruit pot alongside a 240-calorie chocolate bar creates natural comparison without judgment.\n\n**Allocation logic:**\n\nA and F will drive actual behavior change most effectively. A combines shock with practical data; F respects autonomy while enabling informed choice. E provides steady influence through practicality. B creates anxiety without solutions. D is ignored due to low salience. C is the baseline.\n\n```json\n{\n  \"points\": {\n    \"A\": 28,\n    \"B\": 12,\n    \"C\": 0,\n    \"D\": 5,\n    \"E\": 32,\n    \"F\": 23\n  },\n  \"most_ignored\": \"D\",\n  \"why\": \"Text-only warnings lack visual salience and fail to provide actionable alternatives, making them easy to dismiss through habituation.\"\n}\n```",
+   "points": [
+    28.0,
+    12.0,
+    0.0,
+    5.0,
+    32.0,
+    23.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "# Analysis\n\n**Target Audience Context:** UK women aged 35-54 are typically health-conscious, informed about nutrition risks, and responsive to evidence-based messaging. However, they're also experienced consumers who can experience warning fatigue and may reject approaches that feel manipulative or emotionally coercive.\n\n**Evaluation by Message:**\n\n**[A] Text warnings + calorie counts:** Strong combination. Calorie badges enable rational decision-making while text warnings provide health rationale without sensory shock. This respects autonomy while informing choice. Moderate-to-strong behaviour change expected.\n\n**[B] Calorie counts only:** Effective for this demographic. Women 35-54 often track calories and appreciate transparency. The comparison (95 vs 240) makes relative healthiness salient without preaching. Solid baseline for behaviour change.\n\n**[C] Graphic warnings only (no calories):** Graphic images risk backfire through psychological reactance\u2014the audience may feel manipulated. Lacks actionable information (calorie context). Shock tactics often alienate educated consumers.\n\n**[D] Text warnings only (no calories/graphics):** Weaker than A because it removes the empowering tool of calorie information. This demographic wants data, not just warnings. Limited behaviour change.\n\n**[E] No labelling:** Baseline/control. No change expected.\n\n**[F] Graphic warnings + calorie counts:** Strong combination, but graphic images may cause reactance/avoidance of the labels themselves in this demographically intelligent audience, potentially undermining the calorie information benefit. The visceral shock may override rational choice.\n\n**Ranking Impact:**\n1. **[A]** (best): Balanced, respects agency, provides tools\n2. **[B]**: Information-driven, non-paternalistic\n3. **[F]**: Comprehensive but emotionally manipulative\n4. **[D]**: Incomplete information\n5. **[C]**: Graphic shock, no actionable data\n6. **[E]**: Control, no change\n\n```json\n{\n  \"points\": {\n    \"A\": 32,\n    \"B\": 28,\n    \"C\": 8,\n    \"D\": 16,\n    \"E\": 2,\n    \"F\": 14\n  },\n  \"most_ignored\": \"C\",\n  \"why\": \"Graphic medical imagery triggers reactance in educated consumers and lacks the calorie information needed for informed decision-making.\"\n}\n```",
+   "points": [
+    32.0,
+    28.0,
+    8.0,
+    16.0,
+    2.0,
+    14.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "# Analysis for UK Women 55+\n\n## Key Considerations for This Demographic\n\nThis audience segment typically:\n- Has established eating habits and brand loyalties\n- May experience health concerns (hypertension, cholesterol, joint issues) making disease warnings salient\n- Has higher health literacy than younger groups\n- Values practical information over emotional appeals\n- May have decision fatigue around health messages (warning fatigue is real)\n- Responds well to autonomy and clear information rather than shock tactics\n\n## Evaluation of Each Option\n\n**[A] Text warnings only:** Moderate impact. Disease linkages are clear and relevant to this age group's concerns, but lacks actionable information (no calorie context). Text-only may feel preachy to some.\n\n**[B] Calorie badges only:** Moderate-to-good impact. Practical, non-judgmental information. This demographic often tracks calories consciously. However, lacks the health motivation layer that drives behavior change in older adults.\n\n**[C] Text warnings + calorie badges:** Strong impact. Combines emotional/health motivation (disease risk) with practical decision-making information. Addresses both \"why\" and \"how much.\" This is the sweet spot for informed decision-making.\n\n**[D] Graphic images + calorie badges:** Mixed impact. For 55+ women, graphic medical imagery can trigger anxiety or reactance (\"I don't want to see that\"). The shock value may alienate rather than persuade this audience. May backfire by making snacking feel like a transgression rather than a choice.\n\n**[E] Graphic images only:** Low-to-moderate impact. Emotional/shock approach without practical guidance. May cause distress without enabling better choices. Some will tune it out.\n\n**[F] No labels (control):** Baseline\u2014no impact. Establishes the current state.\n\n## Point Allocation Rationale\n\n- **[C] gets highest points:** This demographic responds to both reason and relevance. Clear disease links + practical calorie information = informed choice-making.\n- **[B] and [A] split mid-range:** Both work but incompletely. [B] has the advantage of non-stigmatizing information; [A] has motivational weight but lacks actionability.\n- **[D] lower:** Graphic shock tactics underperform with this age group\u2014perceived as manipulative or distressing.\n- **[E] low:** Graphic images without practical guidance frustrate rather than enable.\n- **[F] baseline:** Reference point.\n\n```json\n{\"points\": {\"A\": 12, \"B\": 18, \"C\": 35, \"D\": 15, \"E\": 8, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"Graphic medical imagery triggers reactance and anxiety in 55+ women rather than reasoned behavior change, causing them to ignore or resent the labelling system.\"}\n```",
+   "points": [
+    12.0,
+    18.0,
+    35.0,
+    15.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "# Analysis for UK Women 55+\n\n**Key considerations for this demographic:**\n\nThis audience is typically health-conscious, has lived experience with chronic disease (either personal or through peers), and responds well to evidence-based information. However, they also show:\n- High health literacy and medical knowledge\n- Potential \"warning fatigue\" from decades of health messaging\n- Rational decision-making balanced with pleasure/habit\n- Concerns about autonomy and paternalism\n\n**Reasoning by option:**\n\n**[A] Text warning + calorie count:** Moderate effectiveness. The calorie badge provides actionable information; text warnings are familiar but somewhat ignored after repeated exposure. The explicit disease links may trigger rational consideration.\n\n**[B] Graphic images + calorie count:** Highest effectiveness for immediate behavior change. This demographic has seen enough health crises in peers' lives that graphic imagery creates visceral impact. The dual information (visual + numerical) engages both emotional and rational systems. However, some may find it manipulative.\n\n**[C] No labels:** Zero impact on behavior change\u2014baseline control.\n\n**[D] Calorie count only (no warnings):** Moderate-to-good effectiveness. This audience can self-regulate with information; seeing \"240 CALORIES\" vs \"95 CALORIES\" enables informed choice without the paternalism that might trigger reactance.\n\n**[E] Graphic images only (no calories):** Lower effectiveness than [B]. Shock value fades quickly; without actionable data, recipients feel manipulated rather than informed.\n\n**[F] Text warning only (no calories):** Low effectiveness. Text warnings are ubiquitous and habituated; no actionable metric to guide choice.\n\n**Allocation reasoning:**\n- [B] gets the largest share: graphic + data is most persuasive for this age group\n- [D] gets substantial points: informational autonomy appeals to this demographic\n- [A] gets moderate points: hybrid approach with some effectiveness\n- [E], [F] get lower points: incomplete information reduces utility\n- [C] gets minimal points: no intervention\n\n```json\n{\n  \"points\": {\n    \"A\": 16,\n    \"B\": 35,\n    \"C\": 2,\n    \"D\": 28,\n    \"E\": 11,\n    \"F\": 8\n  },\n  \"most_ignored\": \"C\",\n  \"why\": \"No intervention produces no behavior change.\"\n}\n```",
+   "points": [
+    16.0,
+    35.0,
+    2.0,
+    28.0,
+    11.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "# Analysis for UK Women 55+\n\n## Reasoning\n\n**Effectiveness factors for this demographic:**\n- Women 55+ are typically health-conscious and have good health literacy\n- They've lived through multiple health campaigns and may show habituation to warnings\n- This age group often uses rationalization (\"I'll have just one\") and has established snacking habits\n- They're capable of doing mental arithmetic (calories) but may struggle with large graphic images creating psychological avoidance\n- They value autonomy and respond poorly to perceived manipulation\n\n**Option-by-option assessment:**\n\n**[A] Text warning only**: Minimal impact. Generic language about disease causation they've heard repeatedly. No actionable comparative information. Easy to dismiss. *Low change.*\n\n**[B] Text warning + universal calorie counts**: Moderate impact. The comparative calorie badges (95 vs 240) provide concrete, rationality-based choice support. Allows self-directed decision-making. The warning adds reinforcement. *Moderate change.*\n\n**[C] Graphic image + text warning**: Potentially backfires. Graphic imagery creates psychological reactance (\"I won't be manipulated\") and avoidance behaviors. May even increase snack purchases post-visit due to defensive eating. *Minimal change, possible negative effect.*\n\n**[D] Calorie counts only**: Moderate-to-good impact. No warning fatigue. Empowering information for rational choice. Women 55+ are price and nutrition conscious. The contrast (95 vs 240) is viscerally informative. *Moderate change.*\n\n**[E] Graphic image + text + universal calories**: The graphic image undermines credibility for this sophisticated audience and creates reactance, offsetting the calorie benefit. *Low-to-moderate change.*\n\n**[F] No intervention**: Baseline. *No change.*\n\n## Allocation\n\n- **[B]**: 28 points (effective balance of message + comparative data)\n- **[D]**: 25 points (rational, empowering, no warning fatigue)\n- **[A]**: 12 points (weak, habituated messaging)\n- **[E]**: 10 points (graphic imagery causes reactance despite calorie help)\n- **[C]**: 8 points (high-reactance, avoidance-inducing imagery)\n- **[F]**: 17 points (baseline habits, some make healthier choices anyway)\n\n```json\n{\"points\": {\"A\": 12, \"B\": 28, \"C\": 8, \"D\": 25, \"E\": 10, \"F\": 17}, \"most_ignored\": \"C\", \"why\": \"Graphic medical images trigger psychological reactance in this educated demographic who perceive manipulative messaging as disrespectful to their autonomy.\"}\n```",
+   "points": [
+    12.0,
+    28.0,
+    8.0,
+    25.0,
+    10.0,
+    17.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "# Analysis for UK Women 55+\n\nThis demographic is generally:\n- Health-conscious and experienced with health messaging\n- Likely already aware of obesity-disease links (extensive public health campaigns over 20+ years)\n- Susceptible to \"warning fatigue\" from repeated similar messages\n- Responsive to practical, actionable information over shock tactics\n- Potentially desensitized to graphic imagery (higher exposure, more medical literacy)\n- Motivated by concrete choices and comparative information\n\n**Reasoning by option:**\n\n**[A] Text warning only**: Minimal impact. The link between calories/obesity/disease is well-established in this audience's knowledge. Without actionable guidance on *what* to choose instead, it's just another familiar warning that doesn't change behaviour at point-of-purchase.\n\n**[B] Text warning + all calorie counts**: Moderate-high impact. Calorie information is concrete and actionable. It allows comparison (\"this is 240, that is 95\") and empowers informed choice. However, the warning is still generic/familiar.\n\n**[C] No labels (control)**: No direct impact, but serves as baseline.\n\n**[D] Graphic + warning, no calorie counts**: Low-moderate impact. Graphic shock may trigger visceral aversion initially, but: (1) this audience has medical literacy to contextualize images, (2) without *actionable alternative information* (calorie counts), the choice feels forced/paternalistic, (3) habituation occurs quickly.\n\n**[E] Calorie counts only, no warnings**: Moderate impact. Clean, non-alarmist information. Allows self-directed choice. This group may actually prefer this to fear-based messaging. The contrast between 95 and 240 calories is powerful at point-of-purchase.\n\n**[F] Graphic + warning + all calorie counts**: Highest impact. Combines emotional trigger (graphic) with rational decision support (calorie comparison). The calorie badges on *both* healthy and high-calorie snacks create a transparent comparison that mature consumers respect. However, the graphic may feel heavy-handed.\n\n**Most ignored**: [A] relies entirely on familiarity and lacks actionable tools.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 22, \"C\": 0, \"D\": 15, \"E\": 25, \"F\": 30, \"most_ignored\": \"A\", \"why\": \"Abstract disease warnings without calorie information or visual comparison fail to change behaviour in an audience saturated with health messaging for 20+ years.\"}\n```",
+   "points": [
+    8.0,
+    22.0,
+    0.0,
+    15.0,
+    25.0,
+    30.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "# Analysis for UK Women 55+\n\n**Key considerations for this demographic:**\n- This age group has higher health literacy and personal experience with health conditions (cancer, heart disease, diabetes are no longer abstract)\n- Women 55+ tend to be pragmatic about health messaging; graphic shock tactics often backfire (perceived as patronising or manipulative)\n- This cohort values autonomy and making informed choices rather than being \"scared straight\"\n- They've likely encountered multiple health campaigns and show decision fatigue\n- Calorie counts provide concrete, actionable information they can reason through\n- Comparative information (healthy vs unhealthy options showing calories) is more persuasive than fear alone\n\n**Reasoning:**\n\n**A (graphic + warning):** Moderate impact. The shock factor may provoke initial aversion but risks backlash (\"treating me like a child\"). Some effectiveness but alienates. ~12 points\n\n**B (no labels):** Minimal impact. This is the baseline; no nudge whatsoever. ~2 points\n\n**C (text warning only):** Low-moderate impact. Text alone feels bureaucratic and preachy to this group; they already know the risks. Lacks actionable guidance. ~8 points\n\n**D (text warning + all calories):** Higher impact. The text provides moral framing, but the critical element is seeing that a fruit pot is 95 calories vs. chocolate at 240. Comparative transparency enables rational choice. ~28 points\n\n**E (calories only, no warnings):** Moderately high impact. This audience is sophisticated enough to interpret calorie data intelligently. Information without manipulation respects autonomy. Clean, accessible, actionable. ~32 points\n\n**F (graphic + warning + all calories):** Highest impact. Combines the persuasive power of comparative calorie visibility (which works for this age group) with immediate health salience from graphics. The calories then feel like a rational escape route rather than paternalism. ~18 points\n\nThe strongest strategies avoid shock-based messaging while providing **comparative transparency**. Options E and D work best because they respect agency.\n\n```json\n{\"points\": {\"A\": 12, \"B\": 2, \"C\": 8, \"D\": 28, \"E\": 32, \"F\": 18}, \"most_ignored\": \"B\", \"why\": \"No labelling provides no nudge, leaving habits unchanged for a pragmatic demographic that responds to information but resists fear tactics.\"}\n```",
+   "points": [
+    12.0,
+    2.0,
+    8.0,
+    28.0,
+    32.0,
+    18.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "# Analysis\n\n## Key Considerations for UK Audience (No University Degree)\n\n**What drives behaviour change in this demographic:**\n- Concrete, immediate information tends to outperform abstract warnings\n- Visual shock (graphic images) shows high initial impact but often triggers psychological reactance (\"I'll do what I want\")\n- Calorie counts work best when they enable *comparison* and feel actionable rather than punitive\n- Plain text warnings alone are routinely ignored (cigarette pack fatigue phenomenon)\n- The framing matters: health threats without tools feel preachy; information + choice feels empowering\n\n## Predicted Responses\n\n**[A]** Plain text warnings only. Low impact. The audience has seen countless health warnings; this reads as patronising nagging. Minimal behaviour change. **8 points**\n\n**[B]** Graphic images + warnings. High shock value initially, but research shows graphic warnings trigger defensive responses (\"that won't happen to me\"). May even increase purchases through reactance. Some converts via genuine fear, but limited. **12 points**\n\n**[C]** Graphic images + warnings + universal calorie counts. This is the strongest option. The visual shock grabs attention; the calorie badge on *both* types enables direct comparison (\"this apple crisp is 95 vs 240 on the chocolate\"); the transparency feels less like coercion. Calorie counts on healthy options reduce stigma around reading labels. **35 points**\n\n**[D]** Plain text + universal calorie counts. The calorie information does heavy lifting here. No shock, but clear, non-threatening data. The average person can compare and decide rationally. Better than A alone, but the plain warning remains largely invisible. **28 points**\n\n**[E]** Calorie counts only, no warnings. Still useful for informed choice; removes the heavy-handed messaging that triggers reactance. Nudges through transparency rather than fear. Works reasonably well for a pragmatic audience. **14 points**\n\n**[F]** Status quo. No change mechanism at all. **3 points**\n\n---\n\n```json\n{\n  \"points\": {\n    \"A\": 8,\n    \"B\": 12,\n    \"C\": 35,\n    \"D\": 28,\n    \"E\": 14,\n    \"F\": 3\n  },\n  \"most_ignored\": \"F\",\n  \"why\": \"No intervention provides no mechanism for behaviour change; people default to existing habits and preferences.\"\n}\n```",
+   "points": [
+    8.0,
+    12.0,
+    35.0,
+    28.0,
+    14.0,
+    3.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "# Analysis\n\n## Key Considerations for UK Audience (No University Degree)\n\n**What drives food choices in this demographic:**\n- Visual/emotional impact > abstract information\n- Habit and convenience are strong\n- Health warnings work best when concrete and unavoidable\n- Information overload reduces effectiveness\n- Calorie counts alone have limited impact without context\n\n## Message-by-Message Assessment\n\n**A (Graphic + Warning Text, No Calories):** Strong emotional impact from graphic images. However, no calorie reference point makes the abstract risk feel distant. Shock value fades quickly. **Medium-High effect** (15-18 pts)\n\n**B (Control - No Labels):** Baseline. No behaviour change expected. **Minimal effect** (3-5 pts)\n\n**C (Calorie Counts Only):** Research shows calorie counts alone have weak effects on this demographic\u2014they lack emotional salience and require mental math. \"240 calories\" is meaningless without knowing daily targets. **Low effect** (8-10 pts)\n\n**D (Graphic + Warning + Calorie Counts):** Combines emotional trigger (graphic) with practical information (calories). The calorie count on *all* snacks provides comparison framework. Graphics create immediate discomfort; numbers provide exit route via lower-calorie alternatives. **Highest effect** (28-32 pts)\n\n**E (Text Warning Only, No Graphics/Calories):** Text-only warnings without images are easily ignored by a demographic that responds to visual stimuli. No actionable alternative information. **Low effect** (7-9 pts)\n\n**F (Text Warning + Calorie Counts):** Better than E because calories provide decision-making support. But text warning lacks emotional punch\u2014no graphic to interrupt automatic choice. **Medium effect** (14-16 pts)\n\n## Allocation Rationale\n\nD is most effective because it combines the proven persuasion elements: emotional disruption (graphics) + practical decision support (calories visible on all options for easy comparison). F and A are secondary but weaker. C is surprisingly ineffective because calories without guidance or comparison are cognitively taxing for this audience. E is nearly invisible.\n\n```json\n{\n  \"points\": {\n    \"A\": 17,\n    \"B\": 4,\n    \"C\": 9,\n    \"D\": 30,\n    \"E\": 8,\n    \"F\": 15\n  },\n  \"most_ignored\": \"E\",\n  \"why\": \"Text-only warnings without visual impact or actionable alternatives are easily overlooked by audiences who rely on visual cues and practical information to override habitual choices.\"\n}\n```",
+   "points": [
+    20.481927710843372,
+    4.819277108433735,
+    10.843373493975903,
+    36.144578313253014,
+    9.63855421686747,
+    18.072289156626507
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "# Analysis for UK Audience Without University Degree\n\n## Key Behavioural Insights\n\n**What works with this demographic:**\n- **Actionable information**: Simple, concrete numbers resonate better than abstract health messaging\n- **Calorie counts**: Provide immediate, understandable guidance without requiring health literacy\n- **Graphic warnings**: Can trigger avoidance, but risk habituation and emotional backlash (\"being lectured\")\n- **Skepticism of authority**: Overly dramatic warnings may be dismissed as scaremongering, especially without supporting numbers\n\n**What doesn't work:**\n- Text-only warnings with disease links feel preachy and generate reactance (people double down on choices when feeling manipulated)\n- Medical imagery without context can feel patronising and may be tuned out quickly\n- Absence of calorie counts removes the practical tool people can use to self-justify \"lighter\" choices\n\n## Point Allocation Reasoning\n\n**B (15 points)**: Calorie badges alone work surprisingly well\u2014they're non-judgmental, practical, and many shoppers already look for them. This is the baseline credible intervention.\n\n**C (28 points)**: Combines actionable data (calories) with clear consequences. The text warning is less triggering than images, and the calorie count gives people a \"escape route\"\u2014they can feel they're making an informed choice, not being scolded.\n\n**E (25 points)**: Graphic images are attention-grabbing and memorable, and the calorie counts maintain practical utility. However, the emotional shock may cause reactance, and some will dismiss the imagery as manipulation.\n\n**A (2 points)**: No intervention\u2014status quo. Minimal behaviour change.\n\n**D (8 points)**: Text warnings alone lack the practical tool (calories). Feels like a lecture with no actionable alternative, reducing effectiveness.\n\n**F (2 points)**: Graphic images without calorie counts feel punitive and manipulative. People will resent it and may rebel. Least effective.\n\n```json\n{\n  \"points\": {\n    \"A\": 2,\n    \"B\": 15,\n    \"C\": 28,\n    \"D\": 8,\n    \"E\": 25,\n    \"F\": 2\n  },\n  \"most_ignored\": \"F\",\n  \"why\": \"Graphic shock tactics without practical information feel like manipulation, triggering reactance and avoidance of the labels entirely.\"\n}\n```",
+   "points": [
+    2.5,
+    18.75,
+    35.0,
+    10.0,
+    31.25,
+    2.5
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "# Analysis\n\n## Effectiveness Assessment for UK Audience (No University Degree)\n\n**Behavioural Psychology Principles:**\n- This audience is relatively price and habit-driven; health warnings alone have limited impact (extensive research shows text-only warnings achieve 5-15% behaviour change)\n- Graphic warnings (A, E) create emotional activation but risk habituation and backlash (\"nanny state\" resentment)\n- Calorie information (C, F) requires numeracy/motivation to process; without context, numbers alone don't drive behaviour\n- Combinations can overwhelm or create contradictory signals\n- Vending machine context: impulse purchases, limited deliberation time\n\n**Predicted Effectiveness Ranking:**\n\n1. **F (Best: 30 points)** \u2013 Text warning + universal calorie badges. The calorie count is the active ingredient here. For an impulse purchase, seeing \"95 CALORIES\" vs \"240 CALORIES\" creates instant, intuitive comparison without requiring interpretation. The text warning adds social proof/legitimacy but doesn't dominate.\n\n2. **E (Second: 22 points)** \u2013 Graphic + calorie counts. Graphics are attention-grabbing but may trigger reactance in this demographic (\"patronising\"). Calorie badges do the real work. The combination is effective but the graphic creates noise.\n\n3. **C (Third: 18 points)** \u2013 Calorie counts only. Pure information, no emotional manipulation. Works via conscious choice, but requires motivation. Many will ignore and revert to habit/taste preference.\n\n4. **A (Fourth: 12 points)** \u2013 Graphics only. Highest emotional impact but lowest sustained behavioural change. Graphic warnings work best when repeated over months; in a single vending moment, most reach for familiar brands. Risk of \"I know it's bad, I'll have it anyway.\"\n\n5. **B (Fifth: 10 points)** \u2013 Text only. Weakest option. Requires reading, processing abstract cause-effect chains. No emotional or intuitive trigger. Studies show text warnings have minimal impact.\n\n6. **D (Baseline: 8 points)** \u2013 Status quo. Some people naturally choose lower-calorie options, but no nudge. Default choice is established habit.\n\n---\n\n```json\n{\n  \"points\": {\n    \"A\": 12,\n    \"B\": 10,\n    \"C\": 18,\n    \"D\": 8,\n    \"E\": 22,\n    \"F\": 30\n  },\n  \"most_ignored\": \"B\",\n  \"why\": \"Plain text warnings on health risks are the least effective for impulse-driven consumers; they require cognitive effort and fail to create intuitive choice architecture.\"\n}\n```",
+   "points": [
+    12.0,
+    10.0,
+    18.0,
+    8.0,
+    22.0,
+    30.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "# Analysis\n\n**Target audience context:** UK adults without university degrees. This demographic typically:\n- Responds well to direct, clear information\n- May be skeptical of perceived manipulation or \"nanny state\" messaging\n- Has varying health literacy\n- Makes purchasing decisions quickly (vending machine context)\n\n**Predicting responses by option:**\n\n**[A] Text warning + calorie count:** Moderate effect. The calorie badge provides actionable information without shock value. Text warnings alone have modest impact\u2014research shows they're often ignored or habituated. The combination gives both rational (calories) and emotional (health risk) nudges. ~20 points.\n\n**[B] Text warning only:** Low effect. Warnings on their own show diminishing returns; repeated exposure causes habituation. No alternative information to guide choices. ~8 points.\n\n**[C] Calorie count only:** Moderate-to-strong effect. This is empowering rather than preachy. Comparison enables active choice (\"95 vs 240 calories\"). Works for audiences skeptical of fear-messaging. No moral judgment. ~24 points.\n\n**[D] No labels (status quo):** Negligible effect. This is the baseline\u2014habits unchanged. ~2 points.\n\n**[E] Graphic images only:** Moderate-to-low effect. Shock value initially high, but:\n- Medical images provoke defensive avoidance (\"doesn't apply to me\")\n- Graphic content may trigger backlash in this demographic\n- No comparative information or calorie data to guide substitution\nResearch shows graphic warnings show faster habituation than expected.\n~15 points.\n\n**[F] Graphic images + calorie count:** Strongest effect. Combines:\n- Emotional salience (graphic imagery captures attention despite skepticism)\n- Rational information (calorie comparison allows guilt-free substitution)\n- Credibility (two complementary signals; harder to dismiss)\n- Actionability (calories show *how much better* the healthier option is)\nThe dual-system approach overcomes habituation better than single-channel warnings.\n~31 points.\n\n---\n\n```json\n{\n  \"points\": {\n    \"A\": 20,\n    \"B\": 8,\n    \"C\": 24,\n    \"D\": 2,\n    \"E\": 15,\n    \"F\": 31\n  },\n  \"most_ignored\": \"D\",\n  \"why\": \"The status quo baseline produces no behavior change; people default to established habits and preferences without intervention.\"\n}\n```",
+   "points": [
+    20.0,
+    8.0,
+    24.0,
+    2.0,
+    15.0,
+    31.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "# Analysis\n\n**Target audience characteristics:**\n- UK university-educated adults\n- Likely have nutritional knowledge\n- Susceptible to both rational and emotional appeals, but resistant to manipulation\n- May exhibit psychological reactance to heavy-handed tactics\n\n**Predicted responses:**\n\n**A (Graphic images + calories):** Highly aversive. The combination of graphic medical imagery with calorie counts creates maximum emotional impact, but educated audiences often *reject* fear-based messaging as manipulative. However, the dual information (emotional + rational) provides multiple decision pathways. Moderate effectiveness, some backlash.\n\n**B (Calories only, neutral):** Clean, non-paternalistic information. Educated consumers appreciate transparency without coercion. However, provides no *motivation* to choose lower-calorie options\u2014mere information without framing. Low behavioral change.\n\n**C (Text warning only):** Minimal impact. Easily ignored, no visual salience, no supporting data (calories), no emotional trigger. Low effectiveness.\n\n**D (No labels):** Baseline. No behavioral change expected.\n\n**E (Graphic images only):** Strong emotional impact but lacks the rational anchor (calories). Fear appeals work briefly; educated audiences may dismiss as \"propaganda.\" However, the visceral nature of medical images provides momentary decision-friction. Moderate-to-high effect.\n\n**F (Text warning + calories):** Combines rational (calorie transparency) and mild emotional framing (text warning). Non-manipulative, evidence-based approach appeals to educated consumers. Avoids graphic imagery that triggers reactance. Most likely to influence *consistent* choices through informational empowerment rather than shock.\n\n**Allocation logic:** F maximizes behavior change for this audience through dual-pathway persuasion (knowledge + gentle framing) without triggering defensiveness. A runs second due to combined potency despite reactance risk. E third (emotion without reason). B, C, D trail (insufficient motivation or salience).\n\n```json\n{\n  \"points\": {\n    \"A\": 22,\n    \"B\": 8,\n    \"C\": 5,\n    \"D\": 3,\n    \"E\": 17,\n    \"F\": 45\n  },\n  \"most_ignored\": \"C\",\n  \"why\": \"Plain text warnings without visual salience or supporting data provide no emotional trigger or rational framework, rendering them cognitively negligible for educated consumers in a high-choice environment.\"\n}\n```",
+   "points": [
+    22.0,
+    8.0,
+    5.0,
+    3.0,
+    17.0,
+    45.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "# Analysis\n\n**Audience Context:** UK university graduates are generally health-literate, skeptical of heavy-handed messaging, and prone to reactance when feeling manipulated. They're likely to have encountered multiple health campaigns and may discount shock tactics.\n\n**Message Effectiveness Assessment:**\n\n**A (Graphics + Warnings + Calories):** The combination is maximally salient but risks backfiring through reactance and desensitization. Graphics may provoke dismissal (\"I'm not at risk\") rather than behaviour change. However, the calorie information provides rational alternative pathway to influence. Mixed effectiveness.\n\n**B (Graphics + Warnings only):** Graphics are attention-grabbing but without actionable information (calorie counts), the effect is likely guilt/avoidance rather than sustained behaviour change. For this educated audience, emotional shock without data feels patronising.\n\n**C (Calories only, no warnings):** Most defensible and least patronising. Provides transparent information enabling autonomous choice. University-educated consumers often respond well to \"nudges\" that inform rather than frighten. The comparison effect (95 vs 240 calories) is cognitively salient without aggression.\n\n**D (No intervention):** Baseline, no change expected.\n\n**E (Text warning only):** Weakest intervention. Text alone has minimal impact for an audience exposed to constant health messaging. No visual salience, no actionable data.\n\n**F (Text warning + Calories):** Combines rationality with mild warning. Better than E or B alone, but text-only warnings underperform graphics and calorie information addresses an actionable dimension.\n\n**Predicted hierarchy:** C > A \u2248 F > B > E > D\n\nThe calorie comparison mechanism (seeing \"95 CALORIES\" next to \"240 CALORIES\") is likely most effective for this audience\u2014it's informative, non-coercive, and leverages social comparison without graphic manipulation.\n\n```json\n{\"points\": {\"A\": 18, \"B\": 12, \"C\": 32, \"D\": 0, \"E\": 5, \"F\": 33}, \"most_ignored\": \"E\", \"why\": \"Text-only warnings have minimal impact on educated audiences already saturated with health messaging and without visual salience or actionable information.\"}\n```",
+   "points": [
+    18.0,
+    12.0,
+    32.0,
+    0.0,
+    5.0,
+    33.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "# Analysis\n\n**Target audience considerations:**\n- University-educated UK adults are sophisticated consumers who resist overt manipulation\n- They're aware of health risks and likely experience \"warning fatigue\" from existing labels\n- This group tends to respond better to information than emotion; graphic shock tactics often backfire through reactance (oppositional defiance)\n- They value autonomy and may resent being \"lectured to\"\n\n**Message evaluation:**\n\n**A (Graphic + warning + calories):** High emotional intensity combined with information creates cognitive overload. The graphic shock may initially capture attention but university-educated audiences often intellectually dismiss graphic warnings as manipulative. However, the calorie information provides useful data. Moderate effect expected\u2014some will be swayed, many will habituate or rebel.\n\n**B (Text warning + calories):** This balances information with respected autonomy. The plain text avoids emotional manipulation that breeds resistance. Calorie counts enable informed decision-making without coercion. This aligns well with how educated consumers prefer to be treated. Likely the most effective option.\n\n**C (Text warning only):** Provides the message without calories. Less effective because it removes the concrete, actionable metric. Warning alone feels preachy without data to act on.\n\n**D (No intervention):** Baseline. Minimal behavior change.\n\n**E (Calories only, no warnings):** Effective for some (provides information), but lacks the motivational framing. Neutral calories on desserts (\"240 CALORIES\") may feel less prohibitive than when paired with disease warnings.\n\n**F (Graphic only, no calories):** Pure emotional appeal without rational data. University-educated audiences are most likely to dismiss this as fear-mongering and resist it actively.\n\n**Point allocation rationale:**\n- B is most effective for this demographic (40 points)\n- A has moderate impact but includes reactance-inducing elements (20 points)\n- E works through information alone (18 points)\n- C provides messaging without behavioral tools (12 points)\n- D is baseline (5 points)\n- F likely triggers active resistance (5 points)\n\n```json\n{\n  \"points\": {\n    \"A\": 20,\n    \"B\": 40,\n    \"C\": 12,\n    \"D\": 5,\n    \"E\": 18,\n    \"F\": 5\n  },\n  \"most_ignored\": \"F\",\n  \"why\": \"University-educated audiences actively resist graphic shock tactics as manipulative and exercise psychological reactance, making shocking images alone counterproductive.\"\n}\n```",
+   "points": [
+    20.0,
+    40.0,
+    12.0,
+    5.0,
+    18.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "## Analysis\n\n**Target Audience Context:** UK university-educated adults are typically higher in health literacy, skeptical of manipulation, and responsive to evidence-based information rather than emotional appeals.\n\n**Evaluating Each Option:**\n\n**[A] Calorie counts only (neutral framing)**\n- Provides actionable information without moral judgment\n- Educated audiences respect autonomy and factual data\n- Will influence some choices through awareness, but no behavioral nudge\n- Effective: ~18 points\n\n**[B] Graphic warnings (shock tactic, no counts)**\n- High likelihood of **reactance** in educated audiences who dislike manipulation\n- Graphic imagery may alienate rather than persuade\n- Removes neutral information option; appears paternalistic\n- May be dismissed as \"fearmongering\"\n- Effective: ~8 points\n\n**[C] No labels (control)**\n- Baseline behavior; establishes that labeling changes choices\n- Effective: ~2 points\n\n**[D] Plain text warnings (rational, non-graphic)**\n- Respects intelligence without emotional manipulation\n- Provides causal information without coercion\n- Evidence-based tone matches audience values\n- Moderate effectiveness due to repetition/desensitization over time\n- Effective: ~22 points\n\n**[E] Text warnings + all calorie counts**\n- Combines rational health messaging with objective data\n- Allows informed decision-making\n- Double reinforcement (why it's concerning + concrete numbers)\n- No manipulation; appeals to autonomy + evidence\n- **Most effective for this demographic**\n- Effective: ~38 points\n\n**[F] Graphic warnings + calorie counts**\n- Combines shock tactic with data\n- Graphic imagery may undermine credibility with educated audience\n- Overkill feels manipulative\n- The calorie count helps, but graphic warnings activate reactance\n- Effective: ~12 points\n\n---\n\n```json\n{\"points\": {\"A\": 18, \"B\": 8, \"C\": 2, \"D\": 22, \"E\": 38, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"University-educated consumers resist graphic shock tactics as manipulative and show reactance against perceived paternalism, preferring rational evidence-based information.\"}\n```",
+   "points": [
+    18.0,
+    8.0,
+    2.0,
+    22.0,
+    38.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "## Analysis\n\n**Target audience context:** UK university-educated adults are typically skeptical of manipulation, value autonomy, and respond better to information than appeals to fear or emotion. They're also more likely to engage with rational, data-driven messaging.\n\n**Evaluation by option:**\n\n**A (Graphic warnings only):** Shock value may initially grab attention, but this audience often *resists* graphic fear appeals as manipulative or patronising. The absence of calorie information reduces practical decision-making value. Likely to be dismissed as \"nanny state\" tactics.\n\n**B (No intervention):** Baseline. No change expected.\n\n**C (Calorie counts, no warnings):** Empowers informed choice without coercion. Aligns with this audience's preference for autonomy and data. The contrast between 95 and 240 calories creates visible comparison points. Moderately effective.\n\n**D (Text warning + calorie counts):** Combines two approaches. The text warning is less aggressive than graphics but still informative. Calorie counts provide practical tool. Text-based approach respects intelligence. Good middle ground\u2014effective without being patronising.\n\n**E (Text warning only):** Provides information but lacks the concrete tool (calorie counts) to translate concern into action. Less effective than D because it doesn't enable comparison.\n\n**F (Graphic warnings + calorie counts):** Combines strong deterrent with practical information. However, for this educated audience, graphic shock tactics may *undermine* credibility\u2014they might see it as emotional manipulation rather than legitimate public health. The calorie counts help, but the graphics risk backlash.\n\n**Reasoning:** This audience responds to **information and autonomy**, not fear. Option D offers rational concern + practical tools without heavy-handed manipulation. Option C is close, but adding the brief text warning adds legitimacy without aggression. Options A and F risk alienating through perceived manipulation; B provides no lever for change.\n\n```json\n{\"points\": {\"A\": 5, \"B\": 3, \"C\": 28, \"D\": 45, \"E\": 12, \"F\": 7}, \"most_ignored\": \"A\", \"why\": \"University-educated UK audiences typically reject graphic fear appeals as manipulative and patronising, viewing them as disrespecting their autonomy and intelligence.\"}\n```",
+   "points": [
+    5.0,
+    3.0,
+    28.0,
+    45.0,
+    12.0,
+    7.0
+   ]
+  }
+ ]
+}

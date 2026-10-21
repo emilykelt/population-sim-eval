@@ -1,0 +1,1169 @@
+{
+ "score": {
+  "mean_spearman": 0.29285714285714287,
+  "top1_accuracy": 0.125,
+  "gap_preservation": -0.12867045118553352,
+  "n_segments_scored": 8,
+  "n_valid_answers": 240,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": -0.028571428571428574,
+    "top1_hit": 0.0,
+    "pred": [
+     26.6,
+     25.8,
+     32.4,
+     7.0,
+     4.4,
+     3.8
+    ],
+    "truth": [
+     0.56,
+     0.416,
+     0.286,
+     0.615,
+     0.412,
+     0.314
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": 0.3142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     30.4,
+     19.4,
+     23.8,
+     13.4,
+     7.8,
+     5.2
+    ],
+    "truth": [
+     0.517,
+     0.527,
+     0.352,
+     0.508,
+     0.474,
+     0.421
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 1.0,
+    "pred": [
+     26.8,
+     23.6,
+     25.4,
+     11.2,
+     6.6,
+     6.4
+    ],
+    "truth": [
+     0.613,
+     0.574,
+     0.507,
+     0.575,
+     0.579,
+     0.451
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": 0.2571428571428572,
+    "top1_hit": 0.0,
+    "pred": [
+     21.4,
+     23.2,
+     34.6,
+     8.6,
+     7.4,
+     4.8
+    ],
+    "truth": [
+     0.667,
+     0.466,
+     0.414,
+     0.664,
+     0.439,
+     0.341
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 0.0,
+    "pred": [
+     33.0,
+     17.2,
+     23.2,
+     14.0,
+     8.2,
+     4.4
+    ],
+    "truth": [
+     0.707,
+     0.615,
+     0.507,
+     0.713,
+     0.587,
+     0.41
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.5428571428571429,
+    "top1_hit": 0.0,
+    "pred": [
+     25.8,
+     23.4,
+     30.4,
+     9.4,
+     6.6,
+     4.4
+    ],
+    "truth": [
+     0.657,
+     0.778,
+     0.663,
+     0.75,
+     0.637,
+     0.495
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 0.0,
+    "pred": [
+     29.4,
+     19.2,
+     25.2,
+     13.6,
+     8.6,
+     4.0
+    ],
+    "truth": [
+     0.597,
+     0.539,
+     0.478,
+     0.617,
+     0.511,
+     0.355
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": -0.028571428571428574,
+    "top1_hit": 0.0,
+    "pred": [
+     24.0,
+     24.4,
+     31.6,
+     8.4,
+     7.2,
+     4.4
+    ],
+    "truth": [
+     0.664,
+     0.602,
+     0.442,
+     0.649,
+     0.54,
+     0.491
+    ]
+   }
+  },
+  "model": "claude-haiku-5-5",
+  "method": "judge",
+  "cost_usd": 0.0225,
+  "seconds": 23.5,
+  "within_sd": 3.843517507062445,
+  "n_jobs": 40
+ },
+ "results": [
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Calorie badges give a concrete, comparable number on every pack, so a 95-calorie fruit pot looks clearly better than a 240-calorie bar. That comparison is the most direct nudge toward the lower-calorie option, and it works without triggering the defensiveness that warnings often provoke in young men. Adding plain text warnings (B) probably adds a little more salience to the high-calorie items. The graphic warnings (A, E) grab attention, but young men are likely to tune out or resent them, so E gets less credit than the calorie badge alone. Text-only warnings (D) become wallpaper, and the unlabelled control (F) changes nothing.\n\n{\"points\": {\"A\": 8, \"B\": 25, \"C\": 40, \"D\": 4, \"E\": 20, \"F\": 3}, \"most_ignored\": \"D\", \"why\": \"A plain text warning without calorie information is easy to scroll past and gives no comparison, so it is the label young men are most likely to disregard.\"}",
+   "points": [
+    8.0,
+    25.0,
+    40.0,
+    4.0,
+    20.0,
+    3.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Calorie counts are the only element that gives a young man a quick, concrete reason to choose the 95-calorie fruit pot over the 240-calorie Dairy Milk at the point of purchase. Message B pairs that with the graphic warnings, which may add some attention-grabbing and some reactance, so it should do best. Message C has the same calorie signal without the warnings, so it may trigger less reactance and stay close behind. Message F adds calories to a text-only warning, which is less salient but still informative. The graphic warnings alone (A) and plain text warnings alone (D) give no numerical comparison, and young men tend to tune out health messaging that feels preachy, so they should shift behaviour very little. E is the baseline with no labels.\n\n{\"points\": {\"A\": 4, \"B\": 38, \"C\": 30, \"D\": 3, \"E\": 3, \"F\": 22}, \"most_ignored\": \"E\", \"why\": \"With no labels at all there is no new information, so young UK men would notice nothing and keep buying what they normally buy, while the graphic and text-only warnings without calorie counts are easy to dismiss as nagging.\"}",
+   "points": [
+    4.0,
+    38.0,
+    30.0,
+    3.0,
+    3.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "Calorie counts are the only element that gives a concrete, immediate comparison (240 vs 95 at the point of choice), so they should move this audience most. Young men in this group tend to discount distant, long-term health risks and to tune out repeated warnings, so plain text warnings add little. Graphic shock images may provoke reactance or avoidance rather than a switch to a lower-calorie snack, so I expect them to add only a small effect. Scheme D combines the calorie badge with the graphic warning, but the shock elements may dilute the calorie signal. The control and text-only warning should barely change anything.\n\n{\"points\": {\"A\": 8, \"B\": 30, \"C\": 28, \"D\": 25, \"E\": 4, \"F\": 5}, \"most_ignored\": \"E\", \"why\": \"A plain text warning with no calorie information is the easiest for this audience to habituate to and tune out, while the concrete calorie badges give the only point-of-choice comparison that could realistically shift a purchase.\"}",
+   "points": [
+    8.0,
+    30.0,
+    28.0,
+    25.0,
+    4.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Young UK men aged 18-34 mostly decide on taste, habit and price, and they tend to skim or tune out health warnings, especially text-only ones that look like background packaging. Calorie badges are different: they are a quick, concrete number that makes the high-calorie options stand out against the lower-calorie ones, so they are the most likely to shift a choice. Scheme B, with calorie counts and no warnings, gives that cue without the reactance that graphic shock images can trigger. A and F add the same calorie cue, but their warnings add little, and F's graphic images may provoke some eye-rolling. C and D rely on warnings alone, so they barely move behaviour. E, with no labels, is the baseline and shifts almost nothing.\n\n{\"points\": {\"A\": 24, \"B\": 32, \"C\": 6, \"D\": 4, \"E\": 8, \"F\": 26}, \"most_ignored\": \"D\", \"why\": \"A plain black-and-white text warning with no calorie count or image blends into packaging and gives this audience no concrete reason to choose differently.\"}",
+   "points": [
+    24.0,
+    32.0,
+    6.0,
+    4.0,
+    8.0,
+    26.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Young UK men are likely to respond most to information they can use at the moment of choice. A bold calorie badge lets them compare a Dairy Milk with a fruit pot in seconds, so schemes with calorie counts should push hardest toward the lower-calorie snacks. Text-only warnings are familiar and easy to skip, so they should barely register. Graphic medical images probably trigger reactance and avoidance in this group, and they add clutter that can dilute the calorie badge when both appear together. Scheme A pairs a calorie badge with a text warning, so it should work nearly as well as C. Scheme D has the calorie information too, but the graphic images may reduce its effect. Scheme E is the unlabelled baseline and gives no push at all.\n\n{\"points\": {\"A\": 28, \"B\": 9, \"C\": 32, \"D\": 24, \"E\": 0, \"F\": 7}, \"most_ignored\": \"F\", \"why\": \"A plain text-only warning with no calorie information or imagery is familiar boilerplate that this group can easily skip, and it gives them nothing to compare when choosing between snacks.\"}",
+   "points": [
+    28.0,
+    9.0,
+    32.0,
+    24.0,
+    0.0,
+    7.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Men aged 35-54 in the UK are likely to respond most to labels that make high-calorie snacks less appealing at the point of choice. Graphic medical images tend to be more attention-grabbing than plain text, though they can trigger avoidance or reactance, so I've kept D below C. Calorie badges on every snack let shoppers compare options directly, which helps the lower-calorie items win. The plain text warnings (B, E) are easy to skim past. A gives comparison information but no deterrent on the high-calorie items. F, with no labels, is the baseline and should shift choices least.\n\n{\"points\": {\"A\": 12, \"B\": 14, \"C\": 34, \"D\": 24, \"E\": 10, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"The combination of graphic warnings on high-calorie snacks with calorie badges on all snacks (C) gives both a deterrent and an easy comparison, while the unlabelled control (F) provides no prompt to change choice.\"}",
+   "points": [
+    12.0,
+    14.0,
+    34.0,
+    24.0,
+    10.0,
+    6.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Calorie badges are the most concrete nudge, since they give a direct numerical comparison at the point of choice. Graphic medical images add emotional salience, but men in this age band may tune them out or resent them, so their effect is probably smaller than the combined scheme's. Plain text warnings are easy to read past, and the no-label control should barely move behaviour.\n\n- **D** (graphic warning plus calorie badge) combines the two strongest levers.\n- **E** (calorie badge only) gives a clear, actionable comparison without reactance.\n- **B** (text warning plus calorie badge) keeps the useful calorie information but with a weaker warning.\n- **C** (graphic warning, no calories) grabs attention but gives no comparison, so it changes choices less.\n- **F** (text warning only) is easily ignored.\n- **A** (no labels) is the baseline.\n\n{\"points\": {\"A\": 5, \"B\": 18, \"C\": 13, \"D\": 35, \"E\": 22, \"F\": 7}, \"most_ignored\": \"F\", \"why\": \"A plain black-and-white text warning with no calorie information is easily read as background wallpaper and gives no concrete reason to switch snacks.\"}",
+   "points": [
+    5.0,
+    18.0,
+    13.0,
+    35.0,
+    22.0,
+    7.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "Calorie badges are the only element that gives a concrete comparison at the moment of choice, so the schemes with badges (C, D, F) should move choices most. Men aged 35-54 are likely to compare numbers across the six snacks, and a '95 CALORIES' fruit pot next to a '240 CALORIES' bar makes the trade-off obvious. Fear-based warnings habituate quickly, and text-only warnings are the easiest to tune out. Graphic images may add some pull (B, C) but can also provoke reactance or avoidance of the packaging. Plain warnings with no numbers (A) should barely change behaviour, and E is the baseline with no change at all.\n\n{\"points\": {\"A\": 6, \"B\": 10, \"C\": 28, \"D\": 18, \"E\": 8, \"F\": 30}, \"most_ignored\": \"A\", \"why\": \"A plain text warning with no numbers or images is familiar wallpaper that this audience will tune out, while the calorie badge on every snack, including the fruit pot, gives a direct, comparable number at the point of choice.\"}",
+   "points": [
+    6.0,
+    10.0,
+    28.0,
+    18.0,
+    8.0,
+    30.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "Calorie badges are likely the strongest lever for this group. Men aged 35\u201354 in the UK are typically trying to manage weight or heart health, and a number like \"240 vs 95\" makes the comparison concrete at the point of choice. Graphic medical images can add deterrence, but they may also trigger avoidance or reactance, so they help less on their own. Plain text warnings are easy to scan past, and a scheme with no labels gives no push at all.\n\n- **F** (graphic warning plus calorie badges on all snacks) combines the most concrete comparison with the strongest emotional deterrent.\n- **B** (text warning plus calorie badges) gets most of the benefit of the numbers, with less reactance than imagery.\n- **A** (calorie badges only) is the clearest comparison without any warning-induced reactance.\n- **D** (graphic warning, no numbers) gives fear without a comparison, so it pushes less reliably.\n- **C** (text warning, no numbers) is easily habituated to.\n- **E** (no labels) is the baseline and gives essentially no push.\n\nThese are rough judgement-based estimates, not measured effects.\n\n{\"points\": {\"A\": 22, \"B\": 23, \"C\": 10, \"D\": 12, \"E\": 3, \"F\": 30}, \"most_ignored\": \"C\", \"why\": \"A plain black-and-white text warning with no numbers is quickly habituated to and gives the shopper no concrete comparison, so it is most likely to be scanned past.\"}",
+   "points": [
+    22.0,
+    23.0,
+    10.0,
+    12.0,
+    3.0,
+    30.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "Calorie badges on every snack, including the healthy ones, are the most likely to change choices, because they give a direct, comparable number at the point of decision. Option F does this without any warning, so it avoids the reactance that graphic or fear-based warnings can trigger. B and C add the same badge, and C's graphic warnings may hold attention but could also prompt avoidance. Text-only warnings (E) are easy to tune out, and D, with no labels at all, is essentially the baseline. Calorie counts are also a weaker lever for many people than the numbers suggest, so these shares are estimates of relative effect, not large absolute shifts.\n\n{\"points\": {\"A\": 8, \"B\": 24, \"C\": 25, \"D\": 4, \"E\": 6, \"F\": 33}, \"most_ignored\": \"E\", \"why\": \"A plain text warning with no picture and no calorie figure gives the shopper neither a vivid reason nor an actionable number, so it is the easiest to tune out.\"}",
+   "points": [
+    8.0,
+    24.0,
+    25.0,
+    4.0,
+    6.0,
+    33.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "A 55+ UK man is likely to respond most to concrete calorie figures, since a \"240 vs 95\" comparison is easy to act on at the vending machine. Shock imagery (D, E) may add some pull for some men, but it can also provoke reactance or be tuned out as nanny-state messaging. Plain text warnings (B, F) are easy to skim past. Labels with no calorie information (D, F) give him less to compare. The unlabelled control (C) changes nothing, so it gets almost no weight.\n\n- **E** (warning + photo + calories): most complete information plus the strongest emotional cue.\n- **B** (text warning + calories): clear numbers and a mild health reminder.\n- **A** (calories only): the actionable number without the warning.\n- **D** (photo warning, no calories): shock without a comparison point, partly offset by reactance.\n- **F** (text warning, no calories): weak cue with no numbers.\n- **C** (no labels): the status quo.\n\n{\"points\": {\"A\": 22, \"B\": 25, \"C\": 5, \"D\": 10, \"E\": 30, \"F\": 8}, \"most_ignored\": \"C\", \"why\": \"Calorie badges give this audience a concrete, comparable number to act on at the point of choice, whereas plain text or shock-only warnings are easier to dismiss and the unlabelled control changes nothing.\"}",
+   "points": [
+    22.0,
+    25.0,
+    5.0,
+    10.0,
+    30.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "Older UK men are likely to respond most to the scheme that combines a graphic image with the calorie count (B). The graphic warning grabs attention and makes the health risk concrete, while the bold calorie figure gives a specific, comparable reason to pick the 95-calorie fruit pot over the 240-calorie bar. Graphic warnings without numbers (C) should still have a real effect, though a little less, since the numbers are what make the lower-calorie choice easy to compare. Calorie badges alone (D) are informative but have no emotional pull, and text warnings with calories (A) add a clear comparison without much urgency. Plain text warnings with no numbers (E) are the easiest to tune out, since they look like routine small print. The control (F) should change almost nothing.\n\n{\"points\": {\"A\": 13, \"B\": 35, \"C\": 22, \"D\": 18, \"E\": 7, \"F\": 5}, \"most_ignored\": \"E\", \"why\": \"A plain text warning with no calorie figure or image reads as routine small print that this group is likely to scroll past, so it should change choices least among the warning schemes.\"}",
+   "points": [
+    13.0,
+    35.0,
+    22.0,
+    18.0,
+    7.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Calorie counts do most of the work here. A bold number on every snack, including the healthy ones, lets a 55+ man compare options at a glance, and that is the comparison that would tip a choice. Graphic warnings (B, E) add some salience, but shock imagery often triggers \"that's not for me\" avoidance and may not translate into a different purchase. Plain text warnings with no numbers (D) give little actionable information. Option F is the baseline, so it gets a modest share for the chance that some people still notice the healthy-snack prices or the general health message on packs they already know.\n\n{\"points\": {\"A\": 20, \"B\": 7, \"C\": 27, \"D\": 4, \"E\": 30, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no calorie figures gives the shopper nothing to compare and is the kind of generic health message that is easiest to tune out.\"}",
+   "points": [
+    20.0,
+    7.0,
+    27.0,
+    4.0,
+    30.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "Older UK men are often health-aware but set in their habits, and they tend to tune out generic warnings. Plain text warnings are likely to become wallpaper quickly. Graphic medical images may provoke avoidance or \"scaremongering\" resentment rather than changed choices. Concrete calorie numbers are the most usable signal: a 240 versus 95 comparison is easy to act on at the vending machine, and it doesn't require the consumer to accept a moral framing. Adding the text warning to calorie badges (D) adds a little salience without much reactance, while the graphic images in E add reactance that dilutes the calorie effect. Overall, I'd expect calorie information alone (F) to shift choices most, with D close behind. Baseline (A) and the plain text warning (C) would change little, and C is the one most likely to be ignored outright. These are estimates of a modest effect, not precise measurements.\n\n{\"points\": {\"A\": 7, \"B\": 10, \"C\": 8, \"D\": 28, \"E\": 17, \"F\": 30}, \"most_ignored\": \"C\", \"why\": \"A plain text warning is easy to habituate to and gives no concrete, actionable comparison at the point of choice, whereas the calorie badge gives a simple number to compare against a lower-calorie option.\"}",
+   "points": [
+    7.0,
+    10.0,
+    8.0,
+    28.0,
+    17.0,
+    30.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "A UK man aged 55+ is likely to respond most to concrete numbers he can compare at the shelf. A calorie badge gives him a direct reason to pick the apple crisps or fruit pot over the Galaxy. Warnings alone are easy to tune out, and graphic medical images may provoke avoidance or irritation in some older men, which blunts their effect on purchases. The plain-pack baseline (D) should change almost nothing.\n\n- **B** (text warning plus calorie badge on every snack): the best combination of a clear reason to switch and a comparison he can act on.\n- **F** (calorie badges only): nearly as strong, since the numbers do the work without any warning to resist.\n- **C** (graphic warning plus calorie badge): the badge still drives the choice, but the shock imagery may add reactance and reduce the gain.\n- **E** (graphic warning, no calories): images without a comparison point give little actionable guidance.\n- **A** (text warning, no calories): a plain warning on a snack he already knows is unhealthy is easy to ignore.\n- **D** (no labels): the baseline, with essentially no effect.\n\n{\"points\": {\"A\": 6, \"B\": 32, \"C\": 22, \"D\": 3, \"E\": 7, \"F\": 30}, \"most_ignored\": \"A\", \"why\": \"A plain text warning with no calorie information is easy to tune out and gives him no concrete reason to switch snacks.\"}",
+   "points": [
+    6.0,
+    32.0,
+    22.0,
+    3.0,
+    7.0,
+    30.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Calorie badges should do most of the work here. UK women aged 18-34 are fairly calorie-aware, and a bold number is quick to read at the point of choice. Because the badge appears on healthy snacks too, it also makes the 95-calorie fruit pot look like the easier pick, not just the high-calorie ones look worse. Graphic medical images add salience but may provoke avoidance or reactance, so they help less than the calorie numbers alone. Plain text warnings are easy to skim past and carry little emotional weight, so they add little. The unlabelled control (D) changes nothing.\n\n{\"points\": {\"A\": 8, \"B\": 35, \"C\": 11, \"D\": 4, \"E\": 20, \"F\": 22}, \"most_ignored\": \"A\", \"why\": \"A plain black-and-white text warning is easy to skim past and carries little emotional or informational weight, whereas the bold calorie badge gives a quick, concrete comparison at the point of choice.\"}",
+   "points": [
+    8.0,
+    35.0,
+    11.0,
+    4.0,
+    20.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Calorie counts on every item (A, C, E) give the clearest reason to pick the 95-calorie fruit pot over the 240-calorie bar, so they should move choices most. Between them, A has no competing warning to dilute attention, so it gets the largest share. C keeps the counts but adds a graphic warning that may trigger avoidance or reactance, so it gets less. E's text warning is easy to tune out, so it adds little beyond the counts.\n\nThe graphic warnings without counts (B) might raise some salience, but for this group they mostly invite avoidance or dismissal, and the causal chain is long-term and abstract. Text-only warnings with no counts (F) are the most likely to be ignored, as with tobacco-style text warnings. D, the unlabelled baseline, produces no change.\n\nThese are estimates of a population-level response, not a claim about any individual's behaviour.\n\n{\"points\": {\"A\": 40, \"B\": 8, \"C\": 25, \"D\": 5, \"E\": 15, \"F\": 7}, \"most_ignored\": \"F\", \"why\": \"A plain text warning with no calorie information gives the shopper nothing actionable to compare, so it is the easiest to tune out.\"}",
+   "points": [
+    40.0,
+    8.0,
+    25.0,
+    5.0,
+    15.0,
+    7.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "Young UK women aged 18-34 are likely to respond most to salient calorie information that makes the comparison concrete. A \"240 CALORIES\" badge next to a \"95 CALORIES\" fruit pot gives a quick, direct reason to swap. Graphic medical imagery is more likely to trigger avoidance or reactance in this group than behaviour change, so the schemes that rely on it (A and F) should do less work. Plain text warnings (C) are easy to tune out, and the no-label control (B) changes little.\n\nPoints: E 38, D 24, A 18, C 8, F 6, B 6.\n\n{\"points\": {\"A\": 18, \"B\": 6, \"C\": 8, \"D\": 24, \"E\": 38, \"F\": 6}, \"most_ignored\": \"C\", \"why\": \"A plain black-and-white text warning is low-salience and easily tuned out, and it adds no concrete comparison that would change the choice at the vending machine.\"}",
+   "points": [
+    18.0,
+    6.0,
+    8.0,
+    24.0,
+    38.0,
+    6.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Calorie counts on every snack (B, E, F) give this audience a direct way to compare a Doritos with an apple crisp, so they should move choices most. B ranks highest because it avoids the reactance that warnings can trigger in women aged 18-34, who are often sceptical of \"obesity\" framing and may tune out or resent the messaging. E adds a mild text warning to the counts, which keeps the salience without much backlash. F pairs the counts with graphic fear imagery, which probably draws attention but also invites avoidance and dismissal. A and C carry the health warnings without any comparison info, so they should do little to steer choice toward the lower-calorie snacks, and graphic images (A) tend to be habituated to quickly. D is the baseline with no change. The most ignored is A, since large graphic warnings on every snack are the easiest to scroll past. These are estimates, not measured effects.\n\n{\"points\": {\"A\": 10, \"B\": 35, \"C\": 8, \"D\": 5, \"E\": 27, \"F\": 15}, \"most_ignored\": \"A\", \"why\": \"Graphic medical warnings without any calorie information are likely to be habituated to or resented, giving the audience no concrete basis for choosing a lower-calorie snack, whereas plain calorie counts on every item enable direct comparison.\"}",
+   "points": [
+    10.0,
+    35.0,
+    8.0,
+    5.0,
+    27.0,
+    15.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Calorie badges on every snack (D and F) should do most of the work. They give a direct, comparable number right at the point of choice, so a 240 versus 95 comparison is easy to make and nudges me toward the fruit pot or apple crisps. D edges below F because the text warning adds a little reactance and the \"healthy or not\" badge is the same in both. Graphic images (B and E) probably add little or backfire. I'd likely look away or feel put off rather than reconsider, and the images don't tell me anything about the specific snack in front of me. E gets a bit more than B because its calorie badge still carries some of the effect. The plain text warning (A) is easy to tune out since it's just background wording on every pack. The unlabelled control (C) changes nothing.\n\n{\"points\": {\"A\": 6, \"B\": 8, \"C\": 4, \"D\": 30, \"E\": 14, \"F\": 38}, \"most_ignored\": \"A\", \"why\": \"Calorie badges give an immediate, comparable number at the point of choice, whereas the plain text warning is generic wording that is easily habituated to and the graphic images are more likely to provoke avoidance than a change in purchase.\"}",
+   "points": [
+    6.0,
+    8.0,
+    4.0,
+    30.0,
+    14.0,
+    38.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Reasoning in brief: Every scheme except B puts its warning only on high-calorie snacks, so the lower-calorie options look cleaner under all of them. The calorie badge in A, C and F gives a direct comparison (\"240 vs 95\"), which is the cue most likely to change a choice in the moment. A pairs that comparison with fear imagery, which should be the strongest push, though some avoidance or reactance is possible. F gets the calorie cue plus a text warning that is easy to tune out. C has the calorie cue without a warning. E uses graphic fear without a calorie cue, so it may cause some avoidance but gives no specific reason to switch. D is a text warning with no numbers, which people habitually skip. B is the control, with no cue at all.\n\n{\"points\": {\"A\": 28, \"B\": 6, \"C\": 20, \"D\": 10, \"E\": 14, \"F\": 22}, \"most_ignored\": \"B\", \"why\": \"With no labels or calorie counts, the packs give this shopper no cue to compare or switch, so the scheme changes almost nothing.\"}",
+   "points": [
+    28.0,
+    6.0,
+    20.0,
+    10.0,
+    14.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Calorie badges on every snack are the most actionable cue, since they let me compare a 95-calorie fruit pot with a 240-calorie Dairy Milk at a glance. Option C pairs that with a graphic health warning, which adds some emotional weight, so it ranks highest. Option E gives the same calorie contrast without the scare imagery, so it comes close behind. Option F keeps the calorie badges but its plain text warning is easy to tune out. Graphic warnings alone (B) may provoke avoidance or reactance rather than a switch to healthier snacks. Plain text alone (A) and no labels (D) barely change anything.\n\n{\"points\": {\"A\": 5, \"B\": 8, \"C\": 37, \"D\": 2, \"E\": 33, \"F\": 15}, \"most_ignored\": \"A\", \"why\": \"A plain black-and-white text warning is easy to dismiss as background wording and gives no information about which snack is lighter, so it is unlikely to change a purchase.\"",
+   "points": [
+    5.0,
+    8.0,
+    37.0,
+    2.0,
+    33.0,
+    15.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "Women aged 35\u201354 in the UK are already calorie-aware and likely to read a calorie badge as a direct, quantitative comparison, which is the most useful cue for choosing between a 95-calorie fruit pot and a 240-calorie bar. Graphic warnings add salience and a clear \"bad\" signal to the high-calorie items. Scheme A combines both, so it should push hardest. D gets the warning contrast without the numbers, and C gives the calorie comparison alone. Plain-text warnings (B, E) are easy to habituate to and may trigger some reactance. F is the no-label baseline and should barely shift choices.\n\n{\"points\": {\"A\": 30, \"B\": 12, \"C\": 22, \"D\": 20, \"E\": 10, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"With no labels at all, the snacks give this audience no cue to steer them toward the lower-calorie options, so it is the baseline that changes least.\"}",
+   "points": [
+    30.0,
+    12.0,
+    22.0,
+    20.0,
+    10.0,
+    6.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Graphic medical imagery grabs attention and tends to shift short-term snack choices more than text alone. Calorie badges on every snack, including the healthy ones, give a concrete comparison at the shelf, which is the decision point the question asks about. Combining both (A) should work best. A calorie-only scheme (F) and graphic-only scheme (B) should each have a real but smaller effect. Plain text warnings (D and E) are easy to skim past, so they add less, though E gains some from its calorie badges. The unlabelled control (C) should barely move anyone.\n\n{\"points\": {\"A\": 36, \"B\": 17, \"C\": 5, \"D\": 8, \"E\": 20, \"F\": 14}, \"most_ignored\": \"D\", \"why\": \"A small black-and-white text warning with no image or calorie information is easy to skim past, so it is unlikely to change a snack choice much.\"}",
+   "points": [
+    36.0,
+    17.0,
+    5.0,
+    8.0,
+    20.0,
+    14.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Calorie counts are the most likely lever here. UK women in this age band are used to kcal figures on packs, and a concrete number like \"240 CALORIES\" gives a direct basis for comparing a Dairy Milk with a fruit pot. F combines that badge with the graphic warning, so it probably edges out B, though graphic fear appeals can provoke avoidance rather than substitution. A's plain text warning adds little beyond the badge. C's graphic images without calories may cause some avoidance of high-calorie snacks but give no comparative guidance. D's plain text warning without calories is the easiest to skim past. E, with no labels, is the status quo and changes nothing.\n\n{\"points\": {\"A\": 17, \"B\": 27, \"C\": 11, \"D\": 8, \"E\": 3, \"F\": 34}, \"most_ignored\": \"D\", \"why\": \"A plain text warning with no calorie information is the easiest to habituate to and skim past, while the calorie badges give a concrete, comparable number that most directly shifts choices.\"}",
+   "points": [
+    17.0,
+    27.0,
+    11.0,
+    8.0,
+    3.0,
+    34.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "This audience, UK women 55+, is likely to be fairly health-aware and used to reading nutrition labels, so numbers should register more than generic warnings. Calorie badges give a direct, comparable figure (240 vs 95), and a concrete number is easy to act on at the point of choice. Graphic medical images probably add emotional force, and combining them with calorie counts seems most likely to shift choices. Text-only warnings are familiar and easy to tune out, and graphic images alone may provoke avoidance or desensitisation without giving a usable comparison. F, with no extra labels, is the baseline and should barely move choices.\n\n{\"points\": {\"A\": 7, \"B\": 22, \"C\": 23, \"D\": 35, \"E\": 10, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"Without any added information, the snacks look the same as they always do, so this group would most likely keep choosing the same familiar high-calorie options.\"}",
+   "points": [
+    7.0,
+    22.0,
+    23.0,
+    35.0,
+    10.0,
+    3.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "This audience (UK women 55+) is likely to respond most to plain calorie information. Side-by-side calorie badges make the high- and low-calorie options easy to compare, and this group tends to be already calorie- and health-aware. Graphic medical images (B, E) may add some fear-driven motivation, but they also invite avoidance or reactance, so their effect is less reliable. Text-only warnings (A, F) are easy to tune out, and the no-label control (C) changes nothing. Among the text-only options, F has no calorie information, so it gives the least comparison help and is the most likely to be ignored.\n\n{\"points\": {\"A\": 18, \"B\": 27, \"C\": 2, \"D\": 40, \"E\": 8, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"A plain black-and-white text warning with no calorie counts or images is easy to tune out as routine packaging and gives the shopper no comparative information to act on.\"}",
+   "points": [
+    18.0,
+    27.0,
+    2.0,
+    40.0,
+    8.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Women aged 55+ in the UK are generally health-conscious and already know that chocolate and crisps are high in calories, so the most useful signal is a concrete number they can compare at the point of choice. A \"240 CALORIES\" badge beside a \"95 CALORIES\" fruit pot does that directly. Scheme D gives the clearest comparison without the reactance that warnings can provoke. B and E add calorie badges to every snack, so they keep most of that effect, but the warnings and, in E's case, graphic medical images may add friction or avoidance that dilutes the nudge toward the lower-calorie option. C's shock imagery may make some people avoid the snacks entirely, but without calorie counts it gives little help in choosing the lower-calorie option. A's plain text warning is easy to skim past. F, with no labels, is the baseline.\n\n{\"points\": {\"A\": 8, \"B\": 26, \"C\": 9, \"D\": 28, \"E\": 22, \"F\": 7}, \"most_ignored\": \"A\", \"why\": \"A plain text warning with no numbers or images is easy to skim past, while calorie badges give a concrete comparison at the point of choice.\"}",
+   "points": [
+    8.0,
+    26.0,
+    9.0,
+    28.0,
+    22.0,
+    7.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "Two things drive this. Calorie badges on every snack, healthy or not, give a direct comparison at the point of choice, which is what pushes someone toward the lower-calorie option. Graphic medical images tend to provoke avoidance or looking away in many people, so they add less reliable push than the numbers, and plain text warnings are familiar enough to be tuned out. For a UK woman aged 55+, who is often already health-aware, the calorie comparison should register most, the health risk framing adds some weight, and the graphic images are likely to be partly avoided.\n\n{\"points\": {\"A\": 7, \"B\": 20, \"C\": 5, \"D\": 8, \"E\": 35, \"F\": 25}, \"most_ignored\": \"C\", \"why\": \"With no labels at all there is nothing to notice or compare, so the unlabelled snacks would change her choices least, while the plain text warnings in A would likely be scanned past as familiar wallpaper.\"}",
+   "points": [
+    7.0,
+    20.0,
+    5.0,
+    8.0,
+    35.0,
+    25.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Women in this age band are often already health-conscious and monitor calories or sugar, so a visible calorie figure gives them something concrete to compare when choosing between a Dairy Milk and a fruit pot. Scheme D combines that comparison with a plain text warning that is informative but not alarming, so I'd expect it to shift choices most. E gives nearly the same benefit without the warning, so it is close behind. F also includes calorie badges, but the graphic medical images may provoke avoidance or irritation, so I expect less effect than D or E. A has graphic images but no calorie information, so it gives shoppers no clear basis for switching and may simply be tuned out. C is a text warning with no numbers, which is mildly informative at most. B, with no labels at all, gives no new information and should change little.\n\n{\"points\": {\"A\": 12, \"B\": 5, \"C\": 6, \"D\": 30, \"E\": 27, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"With no labels, the snacks look the same as they always do, so shoppers have no new information to change their habits, whereas the calorie badges in D and E give a direct, easy-to-use reason to pick a lower-calorie option.\"}",
+   "points": [
+    12.0,
+    5.0,
+    6.0,
+    30.0,
+    27.0,
+    20.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Calorie information on every item, including the lower-calorie options, lets people compare directly, which is the step most likely to move choices. Graphic images add emotional weight, but on their own they risk warning fatigue or reactance, and they give no comparison. Plain text warnings are the easiest to tune out. Scheme F changes nothing by definition, so it gets only a token share for residual effects.\n\n{\"points\": {\"A\": 8, \"B\": 15, \"C\": 40, \"D\": 12, \"E\": 20, \"F\": 5}, \"most_ignored\": \"A\", \"why\": \"A plain text-only warning is familiar and easy to tune out, while the combination of graphic images and a bold calorie badge on every item gives both emotional salience and a direct, easy comparison at the point of choice.\"}",
+   "points": [
+    8.0,
+    15.0,
+    40.0,
+    12.0,
+    20.0,
+    5.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "**Reasoning:** Calorie badges give a concrete, comparable number at the point of choice, which is the information most likely to shift a snack pick. Graphic shock images tend to be tuned out or to provoke avoidance, and the multi-step causal chain in the text warnings (\"excess calories \u2192 obesity \u2192 bowel cancer\") is abstract for someone without a degree, so it is less likely to change behaviour. Combining numbers with a warning (D) should still work well, but the warning may dilute the number's clarity or add noise. Plain text warnings are easy to skim past. The unlabelled control (B) should change almost nothing.\n\nPredicted allocation (proportional to expected change in choosing a lower-calorie snack):\n\n- **C** (calorie badges only): largest effect, since it is simple and actionable.\n- **D** (shock images + warnings + calorie badges): the badges still do the work, but the warnings may dilute them.\n- **F** (text warning + calorie badges): similar to D, with less visual distraction.\n- **A** (shock images + warnings, no calories): mild effect, mostly from fear, which may be avoided.\n- **E** (text warning only): little effect, as the warning is easily ignored.\n- **B** (no labels): essentially no change from the status quo.\n\n{\"points\": {\"A\": 6, \"B\": 3, \"C\": 40, \"D\": 26, \"E\": 5, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"Without any label the snacks give no new information, so the audience's choices stay as they are, whereas the calorie badges give a simple, comparable number at the point of choice that is most likely to shift picks toward lower-calorie options.\"",
+   "points": [
+    6.0,
+    3.0,
+    40.0,
+    26.0,
+    5.0,
+    20.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "The audience is UK adults without a degree, who likely have lower health literacy and may respond more to concrete, simple cues than to abstract causal chains. Calorie badges give an easy comparison (240 vs 95), which makes it simplest to pick the lower-calorie option. Plain-text warnings (\"excess calories cause obesity which causes bowel cancer\") are abstract and easy to skip. Graphic medical images add emotional salience, but shock imagery can provoke avoidance or reactance, so I expect it to help less than the numbers. A is the unlabelled control, so it should change nothing.\n\n{\"points\": {\"A\": 0, \"B\": 30, \"C\": 22, \"D\": 10, \"E\": 25, \"F\": 13}, \"most_ignored\": \"A\", \"why\": \"Without any labelling there is no information to shift choices, while the concrete calorie badges give this audience a simple, usable comparison that most directly favours the lower-calorie snacks.\"}",
+   "points": [
+    0.0,
+    30.0,
+    22.0,
+    10.0,
+    25.0,
+    13.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "Graphic shock imagery is the strongest lever for this group. Fear appeals with vivid medical photos tend to get attention and prompt avoidance, and the combined scheme (E) adds a calorie badge that makes the high-versus-low comparison concrete. Calorie numbers like \"240\" versus \"95\" are easy to compare even without a degree, so the badge alone (C) should help. Plain text warnings (B, F) are easy to skim past, and the bare packaging (D) changes nothing. Graphic images can provoke reactance or avoidance in some people, so I've kept A below E.\n\n{\"points\": {\"A\": 22, \"B\": 12, \"C\": 14, \"D\": 10, \"E\": 30, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"A plain black-and-white text warning is easy to skim past and carries no visual salience, so it is the one least likely to change a snack choice.\"}",
+   "points": [
+    22.0,
+    12.0,
+    14.0,
+    10.0,
+    30.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Predicted response for a UK audience without a university degree:\n\n- **A (text warning + calorie badge):** Strongest. The numeric badge on every snack makes the 240 vs 95 comparison quick, and the plain text avoids the shock-and-scroll-past effect that graphic images can trigger.\n- **F (photos + warning + calorie badge):** Strong. The calorie badge does the comparison work, but the gruesome photos may provoke avoidance or reactance, which limits the gain.\n- **C (calorie badge only):** Moderate. Comparison is easy, but without a health message the numbers may not feel important enough to change a snack choice.\n- **E (photos + warning, no calories):** Weak to moderate. The fear message may nudge some people, but without numbers there is no easy way to compare snacks, and the images are likely to be ignored or resented.\n- **B (text warning only):** Weak. Warning text with no comparison aid is easy to skim past.\n- **D (no labels):** Baseline, with no effect.\n\n{\"points\": {\"A\": 30, \"B\": 8, \"C\": 22, \"D\": 2, \"E\": 12, \"F\": 26}, \"most_ignored\": \"D\", \"why\": \"Without any label, the calorie and health information that drives a lower-calorie choice is absent, so the shopper falls back on habit and taste.\"}",
+   "points": [
+    30.0,
+    8.0,
+    22.0,
+    2.0,
+    12.0,
+    26.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Calorie counts are the most actionable information for someone choosing between a Dairy Milk and a fruit pot, so schemes that show them should move choices most. Graphic medical images probably add salience, but they may also trigger avoidance in a university-educated audience that tends to discount scare tactics. Plain text warnings without calories give little new information and are easy to overlook. The control (D) shows nothing extra, so it sets the baseline.\n\n- **A** (calories + graphic warnings): strongest combined effect, with calories driving comparison and the images adding salience.\n- **B** (calories only): nearly as strong, since it gives clear comparison without reactance.\n- **F** (calories + text warning): good, though the plain text adds less impact than the images.\n- **E** (graphic warnings, no calories): moderate, as the shock may register without giving a usable comparison.\n- **D** (control): small baseline effect.\n- **C** (text warning only): least likely to change behaviour.\n\n{\"points\": {\"A\": 28, \"B\": 26, \"C\": 6, \"D\": 8, \"E\": 10, \"F\": 22}, \"most_ignored\": \"C\", \"why\": \"A plain black-and-white text warning with no calorie information is easy to overlook and gives the shopper nothing new to act on when comparing snacks.\"",
+   "points": [
+    28.0,
+    26.0,
+    6.0,
+    8.0,
+    10.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "Calorie counts are the most useful signal for a university-educated UK shopper comparing snacks. Both the bold calorie badge and the warning-plus-calorie combinations should push people toward the lower-calorie option, with the calorie-only scheme (C) likely strongest. Graphic medical images (A, B) may add salience, but they can also provoke reactance or be discounted as scare tactics among educated audiences, so their effect is smaller once calories are shown. Plain text warnings without calories (E) barely register, and the unlabelled condition (D) changes nothing.\n\n{\"points\": {\"A\": 28, \"B\": 9, \"C\": 32, \"D\": 0, \"E\": 7, \"F\": 24}, \"most_ignored\": \"D\", \"why\": \"With no labels at all, the snacks look the same as they do now, so there is no new information to change a choice that is already being made on taste and habit.\"}",
+   "points": [
+    28.0,
+    9.0,
+    32.0,
+    0.0,
+    7.0,
+    24.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Calorie badges on every snack, healthy or not, make the comparison easy at the point of choice, so schemes with them should do most of the work. Graphic shock warnings may draw attention but are likely to be tuned out or resented by a university-educated audience that already knows the obesity-disease links, so they add less than the numbers do. Plain text warnings with no calorie counts give little actionable information, so they should barely shift choices. Scheme E, with calorie counts and no warnings, avoids reactance entirely, so I weight it highest. These are estimates, and the spread between A, B and E is probably within the margin of error.\n\n{\"points\": {\"A\": 24, \"B\": 24, \"C\": 5, \"D\": 7, \"E\": 32, \"F\": 8}, \"most_ignored\": \"C\", \"why\": \"Plain text warnings with no calorie counts give a familiar health message without any actionable comparison at the moment of choice, so they are likely to be skimmed past.\"}",
+   "points": [
+    24.0,
+    24.0,
+    5.0,
+    7.0,
+    32.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Calorie badges on every product (A, E, F) give this audience a direct comparison, so they are most likely to shift choices toward the 95-calorie fruit pot or the apple crisps. Warnings alone (B, D) add less, since the causal claim is familiar and an educated audience may discount it as overstated. Graphic images (B, F) likely trigger reactance and habituation, so they add less than their shock value suggests. E edges out A because it pairs the calorie badge with a warning that makes the high-calorie options feel more consequential, while F's graphics dilute its calorie signal. C changes nothing, so it gets the fewest points.\n\n{\"points\": {\"A\": 28, \"B\": 7, \"C\": 3, \"D\": 12, \"E\": 30, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"Graphic medical images on every high-calorie snack are likely to provoke reactance and habituation in a university-educated audience, so the shock wears off quickly and the calorie information is discounted along with it.\"",
+   "points": [
+    28.0,
+    7.0,
+    3.0,
+    12.0,
+    30.0,
+    20.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Among these, calorie badges are the only element likely to change a choice at the shelf. A university-educated UK consumer can use a number like \"95 vs 240 calories\" to compare options directly, and this is the kind of information that modestly shifts purchases toward lower-calorie products. Fear-based warnings are weaker. The causal chain (calories \u2192 obesity \u2192 bowel cancer, heart disease, diabetes) is long and abstract, and graphic medical images tend to provoke reactance, avoidance, or habituation rather than a changed choice, especially for people who already know snacks are \"bad.\" Plain text warnings are quickly tuned out. Without any calorie information (A, E), the warnings add little. B changes nothing. So I weight C highest, then D and F (which include calorie badges), with the graphic-only and text-only warnings lowest.\n\n{\"points\": {\"A\": 8, \"B\": 4, \"C\": 40, \"D\": 22, \"E\": 6, \"F\": 20}, \"most_ignored\": \"E\", \"why\": \"Plain text warnings with no calorie information are easy to skim past and carry no concrete comparison that would change a snack choice.\"}",
+   "points": [
+    8.0,
+    4.0,
+    40.0,
+    22.0,
+    6.0,
+    20.0
+   ]
+  }
+ ]
+}

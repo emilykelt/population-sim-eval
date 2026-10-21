@@ -1,0 +1,1169 @@
+{
+ "score": {
+  "mean_spearman": 0.4142857142857143,
+  "top1_accuracy": 0.375,
+  "gap_preservation": -0.16592405266129268,
+  "n_segments_scored": 8,
+  "n_valid_answers": 240,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": 0.2,
+    "top1_hit": 0.0,
+    "pred": [
+     39.8,
+     20.2,
+     25.0,
+     9.2,
+     5.0,
+     0.8
+    ],
+    "truth": [
+     0.56,
+     0.416,
+     0.286,
+     0.615,
+     0.412,
+     0.314
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": 0.3142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     36.2,
+     17.0,
+     29.8,
+     12.8,
+     4.0,
+     0.2
+    ],
+    "truth": [
+     0.517,
+     0.527,
+     0.352,
+     0.508,
+     0.474,
+     0.421
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": 0.48571428571428577,
+    "top1_hit": 1.0,
+    "pred": [
+     40.0,
+     12.8,
+     22.6,
+     18.8,
+     4.0,
+     1.8
+    ],
+    "truth": [
+     0.613,
+     0.574,
+     0.507,
+     0.575,
+     0.579,
+     0.451
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": 0.6,
+    "top1_hit": 1.0,
+    "pred": [
+     34.8,
+     17.0,
+     30.2,
+     13.6,
+     4.4,
+     0.0
+    ],
+    "truth": [
+     0.667,
+     0.466,
+     0.414,
+     0.664,
+     0.439,
+     0.341
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 0.0,
+    "pred": [
+     32.0,
+     20.8,
+     31.2,
+     11.8,
+     3.4,
+     0.8
+    ],
+    "truth": [
+     0.707,
+     0.615,
+     0.507,
+     0.713,
+     0.587,
+     0.41
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.48571428571428577,
+    "top1_hit": 0.0,
+    "pred": [
+     34.9,
+     16.3,
+     28.3,
+     15.3,
+     4.3,
+     1.0
+    ],
+    "truth": [
+     0.657,
+     0.778,
+     0.663,
+     0.75,
+     0.637,
+     0.495
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 0.0,
+    "pred": [
+     39.5,
+     16.7,
+     25.3,
+     14.9,
+     3.7,
+     0.0
+    ],
+    "truth": [
+     0.597,
+     0.539,
+     0.478,
+     0.617,
+     0.511,
+     0.355
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": 0.3714285714285715,
+    "top1_hit": 1.0,
+    "pred": [
+     31.8,
+     21.8,
+     29.0,
+     13.8,
+     3.6,
+     0.0
+    ],
+    "truth": [
+     0.664,
+     0.602,
+     0.442,
+     0.649,
+     0.54,
+     0.491
+    ]
+   }
+  },
+  "model": "claude-sonnet-5-5",
+  "method": "label_single",
+  "cost_usd": 0.2204,
+  "seconds": 28.7,
+  "within_sd": 3.47302722279025,
+  "n_jobs": 40
+ },
+ "results": [
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Gut reaction: the graphic photos would probably put me off for a second, but I'd get used to them fast and just tune them out, and they'd be a bit annoying. Calorie counts are actually useful because I can compare things quickly, like a Dairy Milk at 240 versus a fruit pot at 95. The plain text warning I'd ignore completely, since I already know crisps and chocolate aren't good for me. Combining the graphic photo with the calorie badge (E) would push me most in the moment, since it's the shock plus the info. B is next, and C works fine on its own.\n\n{\"points\": {\"A\": 8, \"B\": 20, \"C\": 22, \"D\": 3, \"E\": 45, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"Calorie numbers give me something to compare, and the graphic image adds a jolt at the moment of choosing, while plain text or no label changes nothing.\"}",
+   "points": [
+    8.0,
+    20.0,
+    22.0,
+    3.0,
+    45.0,
+    2.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Honestly, my gut says the graphic photos would gross me out for a second, but I'd get used to them fast and probably just resent them. What would actually nudge me is seeing the calories on everything, because I'd never really know a Dairy Milk is 240 versus a fruit pot at 95 until it's right there. Text warnings I'd scroll past, since I already know crisps aren't health food. Calories plus the graphic warning (B) would be the strongest push in the moment, but the calorie badge alone (C) feels like the one I'd actually use without getting annoyed.\n\n{\"points\": {\"A\": 8, \"B\": 33, \"C\": 24, \"D\": 4, \"E\": 0, \"F\": 31}, \"most_ignored\": \"E\", \"why\": \"Calorie numbers give me something to compare in the moment, while the warnings alone just tell me what I already know, and showing nothing changes nothing.\"}\n\nCorrection to keep totals tidy: the allocation sums to 100 as given.",
+   "points": [
+    8.0,
+    33.0,
+    24.0,
+    4.0,
+    0.0,
+    31.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me wince the first couple of times, but I'd get used to them quickly, like with cigarette packs. The calorie badges are what would actually change what I pick, because I could compare a 95 calorie fruit pot with a 240 calorie Dairy Milk on the spot. Warnings with no numbers feel preachy and give me nothing to act on. And when it's the same snacks with no labels, nothing changes at all.\n\nCalorie badges on everything (C) give me real information. Adding the text warning (B) is a bit nagging but harmless, and adding the graphic photo (D) gives a bit of extra shock on top of the numbers. A and E tell me nothing I can use, so they'd barely register.\n\n{\"points\": {\"A\": 8, \"B\": 24, \"C\": 28, \"D\": 32, \"E\": 6, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"With no labels nothing is different from today, while the calorie badges let me compare snacks at a glance and the graphic photos add a bit of shock on top.\"}",
+   "points": [
+    8.0,
+    24.0,
+    28.0,
+    32.0,
+    6.0,
+    2.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Honestly, my gut says the graphic photos would make me wince for a second, but I'd get used to them fast, like with fag packets. Calorie counts are the thing that would actually register, because I could compare a Dairy Milk against a fruit pot in two seconds without being lectured. Plain text warnings I'd scroll past, since everyone already knows snacks make you fat. Graphic and calories together would probably push me most, since the shock makes me look and the number gives me something to act on.\n\n{\"points\": {\"A\": 14, \"B\": 26, \"C\": 8, \"D\": 3, \"E\": 0, \"F\": 49}, \"most_ignored\": \"E\", \"why\": \"No labels means nothing changes, and a plain text warning tells me what I already know, while a calorie number plus a gross photo makes me stop and compare.\"}",
+   "points": [
+    14.0,
+    26.0,
+    8.0,
+    3.0,
+    0.0,
+    49.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "My gut reaction is that the graphic photos would put me off in the moment, but I'd probably get used to them fast or just look away. Calorie counts are practical, though, because I can compare a Dairy Milk at 240 with a fruit pot at 95 and decide. A text-only warning is like the small print on fags, and I'd scroll past it. Photos plus calories (D) would shift me most, since the photo gives the nudge and the number tells me what to swap to. Calories alone (C) would work fairly well too, because it's useful and doesn't feel preachy.\n\n{\"points\": {\"A\": 12, \"B\": 14, \"C\": 25, \"D\": 40, \"E\": 0, \"F\": 9}, \"most_ignored\": \"E\", \"why\": \"Graphic images give the shock and calorie badges give me something to compare, so the combo would push me to the fruit pot, while no labels changes nothing.\"}",
+   "points": [
+    12.0,
+    14.0,
+    25.0,
+    40.0,
+    0.0,
+    9.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Gut reaction: I'm a normal bloke who grabs a snack without much thought. Calorie badges are the only thing that gives me usable information at the point of choice, so seeing 240 next to 95 might nudge me a bit. The graphic photos would make me wince, and maybe put me off for a day or two, but I'd soon get used to them and find them annoying. The plain text warning is just wallpaper, and I'd scroll past it. The no-label option does nothing at all.\n\nOf the schemes, C probably has the most immediate effect because the photo is hard to ignore and the calorie badge gives me something to act on. D is similar but without the numbers, so it's less useful. A is the quiet, practical option and the one I'd keep noticing without resenting. B adds a text warning that I'd ignore. E and F would do almost nothing.\n\n{\"points\": {\"A\": 22, \"B\": 17, \"C\": 40, \"D\": 14, \"E\": 6, \"F\": 1}, \"most_ignored\": \"F\", \"why\": \"Unchanged shop displays give me no reason to behave differently, while a graphic photo plus a calorie number is hardest to ignore at the vending machine.\"}",
+   "points": [
+    22.0,
+    17.0,
+    40.0,
+    14.0,
+    6.0,
+    1.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Honestly, my gut says the graphic photos would make me wince for a second, but I'd get used to them quickly, like the pictures on fag packets. The calorie badges on everything are what would actually make me stop and compare, because \"240 vs 95\" is something I can act on without feeling lectured. The plain text warning is wallpaper; I'd scroll past it. A is nothing, so zero. Photos plus calories (D) would probably push hardest in the first few weeks, though the calorie badge is doing most of the work.\n\n{\"points\": {\"A\": 0, \"B\": 15, \"C\": 12, \"D\": 33, \"E\": 36, \"F\": 4}, \"most_ignored\": \"A\", \"why\": \"Seeing calories on everything lets me compare quickly, the graphic photos add a short-term jolt, and plain text warnings are just background noise.\"}",
+   "points": [
+    0.0,
+    15.0,
+    12.0,
+    33.0,
+    36.0,
+    4.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "My gut reaction is that I've seen warnings on fags and they mostly wash over people, but the graphic ones do make you wince a bit. Honestly, as a bloke in my 40s grabbing a snack at work, a calorie number on everything is what would actually make me stop and compare, because it's practical and not preachy. The gory pictures would put me off the chocolate for a minute, but I'd probably get used to them quickly. Combining the photo with the calorie badge probably has the biggest effect on me, though the calories alone do a fair bit of the work.\n\n{\"points\": {\"A\": 4, \"B\": 14, \"C\": 36, \"D\": 16, \"E\": 0, \"F\": 30}, \"most_ignored\": \"E\", \"why\": \"Plain shop-as-usual labelling changes nothing, while seeing calorie numbers side by side (plus a gruesome photo) would actually make me compare and swap.\"}",
+   "points": [
+    4.0,
+    14.0,
+    36.0,
+    16.0,
+    0.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "My gut reaction is that I'd mostly shrug off the warnings. I know crisps and chocolate aren't good for me, and a plain text line about cancer reads like boilerplate I'd stop seeing after a day. Graphic photos would turn my stomach and probably nudge me the most in the moment, but I'd also find them annoying and a bit preachy, and I'd likely just get used to them. The calorie badge is the one thing that gives me something useful. Seeing 240 next to 95 makes me do the sums, even if I still end up buying the Dairy Milk. Combining the badge with the graphic warning would work best, because I get the number and the shock together.\n\n{\"points\": {\"A\": 22, \"B\": 15, \"C\": 3, \"D\": 18, \"E\": 0, \"F\": 42}, \"most_ignored\": \"E\", \"why\": \"Nothing changes with no labels, and a plain text warning with no numbers is just wallpaper I'd scroll past.\"}",
+   "points": [
+    22.0,
+    15.0,
+    3.0,
+    18.0,
+    0.0,
+    42.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "Gut reaction: I'd mostly shrug at the warnings. I know crisps and chocolate aren't good for me, and a plain text warning would just become wallpaper like the ones on fags. The graphic photos would make me wince, and maybe put me off once or twice, but I'd get used to them or just avoid looking. The calorie numbers are the thing that actually gives me something to compare, because a lot of the \"healthy\" stuff is not much lower than the treats. Seeing 240 next to 95 would make me think twice, especially if I'm trying to keep an eye on my weight.\n\nC combines both, so it would probably have the biggest effect on me, with the photo adding a bit of a shock on top of the numbers. B and F are close behind, since the calorie badge does most of the work. A and E have no numbers, so I'd mostly ignore them. D is nothing at all.\n\n{\"points\": {\"A\": 6, \"B\": 22, \"C\": 30, \"D\": 0, \"E\": 3, \"F\": 39}, \"most_ignored\": \"D\", \"why\": \"Calorie numbers give me something useful to compare at the machine, whereas I'd tune out the generic warnings because I already know snacks are bad for me.\"}",
+   "points": [
+    6.0,
+    22.0,
+    30.0,
+    0.0,
+    3.0,
+    39.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "Gut reaction: I'm a man in my late 50s or 60s and I don't much like being nagged. Calorie badges are practical, so I'd glance at them and maybe think twice, since \"240 vs 95\" is easy to see. The graphic photos would put me off at first, and I'd probably find them a bit much, but they would make me look away from the high-calorie stuff. Plain text warnings I'd scroll past, because I've seen it all on fag packets and wine labels. No labels at all changes nothing.\n\nHonestly, the combination of photo and calorie count (E) would push me hardest. The photo gives the shock, and the number lets me compare and choose something else instead of just feeling grim. Calorie badges on their own (A) would nudge me a bit, and (B) a bit more. The photo with no calories (D) would still work, but less well because I'd have nothing to switch to.\n\n{\"points\": {\"A\": 18, \"B\": 17, \"C\": 0, \"D\": 20, \"E\": 40, \"F\": 5}, \"most_ignored\": \"C\", \"why\": \"With no labels at all nothing prompts me to change, whereas the photo plus calorie count gives me both a jolt and a way to compare.\"}",
+   "points": [
+    18.0,
+    17.0,
+    0.0,
+    20.0,
+    40.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "Honestly, my gut says I'd roll my eyes at most of these. I'm a grown man and I know crisps and chocolate aren't good for me, so a nanny-state text warning would just be wallpaper. The graphic photos would turn my stomach and probably put me off for a bit, especially near food, so they'd have the most effect, though I'd resent it and likely get used to it. Calorie badges are useful because they actually tell me something I don't already know, such as the fruit pot being 95 and the chocolate bar 240, and they let me compare things at a glance. But I'd mostly use them to pick within what I fancy. The combination of the shock photo and the calorie number would probably push me hardest on a given day.\n\n{\"points\": {\"A\": 12, \"B\": 36, \"C\": 20, \"D\": 17, \"E\": 6, \"F\": 9}, \"most_ignored\": \"F\", \"why\": \"Plain text warnings and unlabelled snacks tell me nothing new, while the graphic photos plus calorie numbers would actually make me think twice at the machine.\"}\n\nCorrection: the allocation above must total 100. Here it is, final:\n\n{\"points\": {\"A\": 10, \"B\": 36, \"C\": 20, \"D\": 16, \"E\": 6, \"F\": 12}, \"most_ignored\": \"F\", \"why\": \"Unlabelled snacks change nothing, and plain text warnings just repeat what I already know, while graphic photos with calorie numbers would actually make me think twice at the machine.\"}",
+   "points": [
+    12.0,
+    36.0,
+    20.0,
+    17.0,
+    6.0,
+    9.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Honestly, I'm a man in my late fifties and I know a Dairy Milk isn't health food. Plain text warnings I'd scroll past, much like the ones on cigarette packets I ignored for years. Graphic photos would make me wince and might put me off for a moment, especially a bleeding eye or an operation, because those stick in the mind. Calorie counts on their own are useful and don't nag me, but I'd probably only glance at them. The calorie count next to the picture, as in E, does the most: the photo gives the jolt and the number lets me compare the Dairy Milk with the fruit pot right there in the machine.\n\nB has the photo but no numbers, so it would still push me away from the chocolate, just with less to go on. C is mild but practical. A and D are wallpaper. F changes nothing.\n\n{\"points\": {\"A\": 8, \"B\": 24, \"C\": 14, \"D\": 3, \"E\": 51, \"F\": 0}, \"most_ignored\": \"F\", \"why\": \"Shop-as-normal changes nothing, whereas a shocking photo plus a calorie number gives me both the jolt and a way to compare.\"}",
+   "points": [
+    8.0,
+    24.0,
+    14.0,
+    3.0,
+    51.0,
+    0.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "My gut reaction is that I'm a man in my late 50s or 60s who knows perfectly well crisps and chocolate aren't good for me, so a lecture on the packet wouldn't tell me anything new. The plain text warning I'd scroll past like the health notice on a cigarette packet. The graphic photos would probably put me off for a moment, but I'd find them irritating and get used to them. The calorie badge on everything is the one thing that's actually useful, because I'd see a Dairy Milk at 240 against a fruit pot at 95 and it would make me stop and think. Photos plus calories would push hardest, but I'd resent it, so I'd mostly give the weight to the calorie numbers.\n\n{\"points\": {\"A\": 0, \"B\": 8, \"C\": 2, \"D\": 15, \"E\": 35, \"F\": 40}, \"most_ignored\": \"A\", \"why\": \"Seeing the calories side by side on every snack is what would make me think twice, whereas I already know crisps and chocolate are bad for me and a plain warning tells me nothing new.\"}",
+   "points": [
+    0.0,
+    8.0,
+    2.0,
+    15.0,
+    35.0,
+    40.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "Gut reaction: I'm a man in my late 50s or 60s, and I don't like being nagged, so the plain text warning would just wash over me, rather like the ones on cigarette packets did for years. The graphic photos would turn my stomach and might make me put the Dairy Milk back, at least for a bit, but I'd probably get used to them or just avoid that machine. The calorie count is useful because it's a plain fact I can use, and it would show me that the \"healthy\" KIND bar isn't much better than the chocolate. Seeing 95 next to 240 would nudge me more than a lecture would. Even so, the photos would shock me most in the moment.\n\nThe combination in C would push me hardest, because it gives me the gut-turn and the numbers together. E would come next. F is the sensible, practical one.\n\n{\"points\": {\"A\": 4, \"B\": 12, \"C\": 38, \"D\": 0, \"E\": 22, \"F\": 24}, \"most_ignored\": \"D\", \"why\": \"Unlabelled snacks give me nothing to react to, while the shock photos plus calorie numbers would make me stop and think before reaching for the chocolate.\"}",
+   "points": [
+    4.0,
+    12.0,
+    38.0,
+    0.0,
+    22.0,
+    24.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Honestly, my gut reaction is that the graphic photos would make me wince and maybe put me off a Dairy Milk in the moment, but I'd probably get used to them fast, and they'd feel preachy. The plain text warning I'd scroll past, as it's like the writing on cigarette packs before the pictures. The calorie badge is the most practical, since seeing 95 vs 240 side by side actually lets me compare, and I'm already a bit calorie-aware, so B (photo plus calories) would push me most, with F next as a less annoying option.\n\n{\"points\": {\"A\": 3, \"B\": 33, \"C\": 17, \"D\": 0, \"E\": 14, \"F\": 33}, \"most_ignored\": \"D\", \"why\": \"Calorie badges let me compare snacks quickly, and the graphic photos would give an extra short-term jolt, whereas plain text warnings and no labels would just be background noise.\"}",
+   "points": [
+    3.0,
+    33.0,
+    17.0,
+    0.0,
+    14.0,
+    33.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Gut reaction: I'd probably roll my eyes at the graphic photos. They're gross, and I'd either look away or get annoyed and buy the chocolate anyway, though a bit of it might stick. Calorie badges on everything are the most practical thing because I can compare quickly. Seeing 240 against 95 would nudge me, even if only slightly. Text-only warnings I'd scroll past, because I already know crisps aren't good for me. Adding the calorie numbers to a warning makes it a bit more useful.\n\nThe graphic images with the calorie counts might push me most in the moment, since they combine the shock with something to act on. But I'd probably resent them. Calories alone feels like the realistic winner for me, with C getting a decent share.\n\n{\"points\": {\"A\": 30, \"B\": 8, \"C\": 30, \"D\": 0, \"E\": 24, \"F\": 8}, \"most_ignored\": \"D\", \"why\": \"Plain calorie numbers let me compare snacks quickly and would actually nudge me, while no labels changes nothing and text-only warnings just tell me what I already know.\"}",
+   "points": [
+    30.0,
+    8.0,
+    30.0,
+    0.0,
+    24.0,
+    8.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me feel a bit sick and I'd probably look away, so they might work in the moment, but I'd also get irritated and just tune them out after a week. The calorie badges on everything are the thing I'd actually use, because they let me compare a Dairy Milk with a fruit pot at a glance without feeling lectured. The plain text warning with nothing else is the sort of thing I'd scroll past straight away, and no labels at all changes nothing.\n\nPhotos plus calorie counts (A) would push me most on the day, since the shock and the numbers work together. Calories alone (E) is a close second and would be the one I'd keep using. D is a bit weaker because the text warning adds little. F has some impact but gives me no way to compare.\n\n{\"points\": {\"A\": 33, \"B\": 0, \"C\": 4, \"D\": 17, \"E\": 30, \"F\": 16}, \"most_ignored\": \"B\", \"why\": \"Seeing calorie numbers on everything lets me compare snacks quickly, and the graphic images add a jolt, while plain text warnings and no labels just blend into the background.\"}",
+   "points": [
+    33.0,
+    0.0,
+    4.0,
+    17.0,
+    30.0,
+    16.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Honestly, my gut reaction is that the graphic photos would make me wince and maybe put me off the chocolate in the moment, but I'd get used to them fast, and I'd probably find them a bit preachy. Calorie counts are actually useful to me because I can compare quickly, and seeing 240 vs 95 does nudge me. The plain text warning is something I'd scroll straight past, since I already know crisps aren't good for me. Combining the calorie badge with the graphic image (F) would have the biggest immediate effect, because it gives me both a gut-level shock and a number to compare. The calorie-only option (B) is the one I'd actually act on most consistently.\n\n{\"points\": {\"A\": 10, \"B\": 30, \"C\": 3, \"D\": 0, \"E\": 17, \"F\": 40}, \"most_ignored\": \"D\", \"why\": \"Calorie numbers give me something to compare, and the graphic photo adds a gut-level jolt at the moment I'm choosing, whereas plain text or no labels would just blend into the background.\"}",
+   "points": [
+    10.0,
+    30.0,
+    3.0,
+    0.0,
+    17.0,
+    40.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Gut reaction: the graphic photos would make me wince, and I'd probably pick the healthier snack for a bit, but I'd get used to them quickly, and they'd feel preachy and a bit over the top. Calorie counts are actually useful in the moment because I can compare a 240 cal Dairy Milk with a 95 cal fruit pot without thinking too hard, and that feels less like being told off. The plain text warning I'd scroll past, as it's just wallpaper. Plain shop labelling changes nothing.\n\nThe combo of graphic image plus calories would likely push me most today, with calories alone close behind, since I'd trust it more and not get annoyed by it.\n\n{\"points\": {\"A\": 4, \"B\": 17, \"C\": 0, \"D\": 13, \"E\": 38, \"F\": 28}, \"most_ignored\": \"C\", \"why\": \"No labels change nothing, and the plain text warning is just wallpaper, whereas the calorie badge gives me something to compare and the graphic photo gives me a jolt in the moment.\"}",
+   "points": [
+    4.0,
+    17.0,
+    0.0,
+    13.0,
+    38.0,
+    28.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Honestly, my gut says the calorie badge on everything is what would actually nudge me. I already half-know chocolate is bad for me, so a warning telling me about bowel cancer feels preachy and I'd tune it out. Seeing 240 next to 95 is just useful and quick, and it doesn't make me feel lectured. The graphic photos would probably put me off for a few days, and I'd probably avoid looking at them, but they might sway me a bit in the moment. They'd also annoy me, and I'd get used to them. The plain text warning I'd ignore completely, and no labels changes nothing.\n\nCalorie badge only (C) is the most practical. Adding the graphic image to the calories (A) would push me a bit more, since the photos are shocking and the numbers give me something to act on. Text plus calories (F) is a bit better than calories alone, but not by much.\n\n{\"points\": {\"A\": 28, \"B\": 0, \"C\": 30, \"D\": 4, \"E\": 17, \"F\": 21}, \"most_ignored\": \"B\", \"why\": \"No labels changes nothing, and plain text warnings are the sort of thing I'd scroll past, whereas calorie numbers give me something I can use when choosing.\"}",
+   "points": [
+    28.0,
+    0.0,
+    30.0,
+    4.0,
+    17.0,
+    21.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Gut reaction: I know crisps and chocolate aren't good for me, so a plain text warning is just wallpaper and I'd scroll past it. The graphic photos would make me wince and probably put me off in the moment, but I'd get used to them fast and might resent being lectured. The calorie badge is the thing that gives me actual information at the point of choice, and seeing 95 next to 240 on a fruit pot versus a Dairy Milk would nudge me a bit, particularly if it's on everything. The combination of calories and a shocking image would probably push me most, though the calories do the practical work.\n\nHonestly, I'd be most affected by C, then E and F. B has some shock value but no useful comparison. A and D do nothing.\n\n{\"points\": {\"A\": 3, \"B\": 14, \"C\": 35, \"D\": 0, \"E\": 25, \"F\": 23}, \"most_ignored\": \"D\", \"why\": \"Unlabelled snacks give me nothing new, while calorie badges let me compare at the point of choice and the graphic photo adds a bit of real shock.\"}",
+   "points": [
+    3.0,
+    14.0,
+    35.0,
+    0.0,
+    25.0,
+    23.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me wince, and I'd probably avoid looking at the label rather than change what I pick. I'd roll my eyes at the plain text warning, because everyone already knows chocolate is fattening and it feels preachy. The calorie badge is the thing that would actually make me pause. Seeing 240 next to 95 is a quick, non-judgy comparison, and it works at the vending machine when I'm choosing in ten seconds. The graphic version with calories (A) gets the most from me because it combines both, though I'd find it a bit much. Without the calorie numbers, the warnings alone would do very little.\n\n{\"points\": {\"A\": 28, \"B\": 22, \"C\": 34, \"D\": 8, \"E\": 4, \"F\": 4}, \"most_ignored\": \"F\", \"why\": \"Calorie numbers give me something useful to compare in the moment, whereas generic warnings just tell me what I already know and unlabelled snacks change nothing.\"}",
+   "points": [
+    28.0,
+    22.0,
+    34.0,
+    8.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me wince and probably put me off for a day or two, but I'd soon tune them out, and they'd annoy me. Plain text warnings I'd scroll past, because I already know crisps aren't good for me. What actually works in the moment is a number. Seeing 240 next to 95 makes the comparison easy and feels like information rather than a telling-off, though I'd still often buy the Dairy Milk. The calorie badge on everything (F) is the one that would nudge me most. Pairing it with the graphic warning (A) adds a bit of shock, so it would push me slightly more, though I'd find it a bit much. The graphic picture alone (B) would just put me off the shop.\n\n{\"points\": {\"A\": 28, \"B\": 12, \"C\": 0, \"D\": 4, \"E\": 22, \"F\": 34}, \"most_ignored\": \"C\", \"why\": \"Nothing changes with no labels, whereas a simple calorie number lets me compare snacks quickly without being lectured.\"}",
+   "points": [
+    28.0,
+    12.0,
+    0.0,
+    4.0,
+    22.0,
+    34.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Honestly, my gut says the graphic photos would make me flinch, but I'd probably get used to them fast, and they'd feel preachy and a bit insulting. The calorie badges are the thing I'd actually use, because they give me a number to compare in the moment. I know chocolate isn't good for me, so a warning telling me that again doesn't change much. A number next to the fruit pot and the Dairy Milk does. The graphic photo plus calories (F) would probably nudge me most on the day, since the picture is off-putting and the number gives me something to act on, but I'd resent it. Plain text warnings I'd scroll past. No labels at all changes nothing.\n\n{\"points\": {\"A\": 16, \"B\": 33, \"C\": 8, \"D\": 2, \"E\": 0, \"F\": 41}, \"most_ignored\": \"E\", \"why\": \"Calorie numbers give me something to compare, and the graphic image would add a jolt on top, whereas plain text warnings and no labels just wash over me.\"}",
+   "points": [
+    16.0,
+    33.0,
+    8.0,
+    2.0,
+    0.0,
+    41.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "My gut reaction is that I've seen plenty of warnings over the years and I tune out the wordy ones. A plain text line saying calories cause cancer would just read as nannying, and I'd walk past it. The calorie number on every snack is actually useful, because I can see at a glance that the fruit pot is 95 and the Dairy Milk is 240, and that would nudge me a bit. The graphic photos would put me off in the moment, because nobody wants to look at a tumour while buying a Twirl, but I'd probably also find them over the top and just avoid looking. Still, they'd be the hardest to ignore. Combined with the calorie numbers, that's probably the strongest push, though I'd resent it.\n\n{\"points\": {\"A\": 6, \"B\": 26, \"C\": 18, \"D\": 30, \"E\": 17, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"Calorie numbers give me something practical to compare, and the graphic photos would shock me enough to think twice, whereas plain text warnings and unlabelled snacks would just wash over me.\"}",
+   "points": [
+    6.0,
+    26.0,
+    18.0,
+    30.0,
+    17.0,
+    3.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "My gut reaction is that I'm a woman in my late 50s or 60s and I already know chocolate and crisps aren't good for me, so a plain text warning would just be wallpaper. The graphic photos would make me wince and maybe put me off for a moment, but I'd probably get used to them or resent being lectured. Calorie counts are practical, though. I can see at a glance that a fruit pot is 95 and a Dairy Milk is 240, and that would actually nudge me in the moment. The combination of photo and calories would work best, but I'd say the calories do most of the work.\n\nCalories alone (D) is the most useful and least annoying. B adds the shock on top, which would put me off the treats more. A is the same but with dull text. E and F have no calories, so they'd do less, and C does nothing.\n\n{\"points\": {\"A\": 12, \"B\": 30, \"C\": 0, \"D\": 30, \"E\": 13, \"F\": 5}, \"most_ignored\": \"C\", \"why\": \"Calorie numbers give me something practical to compare at the machine, while plain text warnings just repeat what I already know.\"}",
+   "points": [
+    13.333333333333334,
+    33.333333333333336,
+    0.0,
+    33.333333333333336,
+    14.444444444444445,
+    5.555555555555555
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "My gut reaction is that I'm a woman over 55 and I know perfectly well what a Dairy Milk does to me, so a plain text warning would just wash over me. Graphic photos would make me wince and probably put me off in the moment, though I'd also resent being shouted at, and I might just look away. The calorie count is the thing I'd actually use, because it's practical. Seeing 240 next to 95 is useful, and I'd compare the two without feeling lectured. The photos plus the calories together would probably push me hardest, but the calories alone are what I'd put up with day to day. Plain text with nothing else I'd scroll past, and no labels at all changes nothing.\n\n{\"points\": {\"A\": 4, \"B\": 14, \"C\": 17, \"D\": 22, \"E\": 41, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"Plain text warnings tell me what I already know, but a calorie badge helps me compare and a graphic photo makes me think twice, so the two together would nudge me most.\"}",
+   "points": [
+    4.0,
+    14.0,
+    17.0,
+    22.0,
+    41.0,
+    2.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me wince, and probably put me off the chocolate for a minute, but I'd get used to them quickly, and I'd resent being lectured at my age. Plain text warnings I'd scroll straight past, since I know calories make you fat. The calorie badges on everything are actually useful, because I'd see that a KIND bar isn't much lower than a Dairy Milk and that a fruit pot is far lower. That would nudge me more than a scare. Combining the badge with the graphic warning would probably have the most effect on a day when I'm just standing in front of the machine.\n\nOverall the scheme with both the photo and the calories (F) would push me most, then calorie badges alone (E), then D. The plain text ones do very little, and no labels at all do nothing.\n\n{\"points\": {\"A\": 4, \"B\": 14, \"C\": 0, \"D\": 20, \"E\": 22, \"F\": 40}, \"most_ignored\": \"C\", \"why\": \"No labels change nothing, and plain text warnings just repeat what I already know.\"}",
+   "points": [
+    4.0,
+    14.0,
+    0.0,
+    20.0,
+    22.0,
+    40.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Honestly, my gut reaction is that the graphic photos would turn my stomach for a moment, but I'd get used to them fast, and I'd probably resent being lectured at. I already know chocolate and crisps aren't good for me, so the warning text tells me nothing new. What would actually make me stop and think is seeing the calories right there, as I'd compare 240 against 95 and sometimes put the Dairy Milk back. The photos plus calories would push me a bit more, but the photos alone, with no numbers, feel like scare tactics and I'd just look away. Plain text warnings I'd scroll past entirely, and no labels changes nothing.\n\n{\"points\": {\"A\": 8, \"B\": 0, \"C\": 2, \"D\": 22, \"E\": 38, \"F\": 30}, \"most_ignored\": \"B\", \"why\": \"Calorie numbers give me something useful to compare at the machine, whereas I already know the warnings and would tune out the plain text.\"}",
+   "points": [
+    8.0,
+    0.0,
+    2.0,
+    22.0,
+    38.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Gut reaction: I'm a normal person who grabs a snack when I fancy one, and I've seen warnings on cigarettes, so I know they can be a bit much but they do stick in your head. Plain text warnings I'd scroll past, because it's just more small print. The graphic photos would properly put me off in the moment, a bit grossing me out, though I'd probably get used to them after a few weeks. Calorie badges on everything are useful because I could compare, but I mostly know a Dairy Milk is more than a fruit pot, so it wouldn't shock me. The combination of photo and calorie count (C) would push me most: the photo makes me pause and the number tells me which alternative is better.\n\n{\"points\": {\"A\": 4, \"B\": 22, \"C\": 38, \"D\": 10, \"E\": 20, \"F\": 0}, \"most_ignored\": \"F\", \"why\": \"No labels means nothing nudges me, while the graphic photo with calorie numbers would make me pause and show which snack is the better pick.\"}",
+   "points": [
+    4.25531914893617,
+    23.404255319148938,
+    40.42553191489362,
+    10.638297872340425,
+    21.27659574468085,
+    0.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "Honestly, my gut reaction is that the graphic photos would put me off for a second, but I'd get used to them quickly and probably just ignore them, or get annoyed and feel lectured. Seeing calories on everything is more useful, because I can compare a Dairy Milk at 240 with a fruit pot at 95 and decide on the spot. Plain text warnings I'd scroll past, because I already know crisps and chocolate aren't good for me. The calorie badge combined with the warning would probably work best, since the numbers give me something to act on and the picture adds a bit of a shock. The picture alone, with no numbers, just feels preachy.\n\n{\"points\": {\"A\": 8, \"B\": 0, \"C\": 30, \"D\": 34, \"E\": 3, \"F\": 25}, \"most_ignored\": \"B\", \"why\": \"Calorie numbers let me compare snacks in the moment, the graphic photo adds a bit of a jolt, while plain text warnings and no labels tell me nothing I don't already know.\"}",
+   "points": [
+    8.0,
+    0.0,
+    30.0,
+    34.0,
+    3.0,
+    25.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "Gut reaction: I'd mostly ignore plain text warnings, because they read like boilerplate and I've seen the same sort of thing on fags and just tuned out. Calorie counts are practical, though. Seeing 240 next to 95 would make me stop and think for a second, and it doesn't feel preachy. The graphic photos would actually get a reaction, maybe a bit of disgust, and I'd probably pick the fruit pot a few times. But I'd get fed up with them quickly and just avoid looking, and they'd feel a bit nannying. The ones that combine photos and calories would work best for me today, since the photo shocks me and the number gives me something to act on.\n\nPlain \"no label\" does nothing, obviously.\n\n{\"points\": {\"A\": 0, \"B\": 20, \"C\": 14, \"D\": 6, \"E\": 40, \"F\": 20}, \"most_ignored\": \"A\", \"why\": \"A graphic photo grabs me and the calorie badge gives me a number to compare, whereas plain text warnings just wash over me.\"}",
+   "points": [
+    0.0,
+    20.0,
+    14.0,
+    6.0,
+    40.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "Gut reaction: the graphic photos would turn my stomach and I'd probably notice them, but I'd also get annoyed and just tune them out after a week or so, like the pictures on fag packets. Calorie counts are the thing I'd actually use, because I'd see right there that a Dairy Milk is 240 and a fruit pot is 95, and that's useful without being preachy. The plain text warning I'd scroll past, because everyone already knows that stuff. Combining the calories with the graphic photo would push me most on day one, but the calories alone do most of the work.\n\n{\"points\": {\"A\": 8, \"B\": 2, \"C\": 28, \"D\": 0, \"E\": 40, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"Seeing the calorie numbers side by side is what would actually make me swap a Dairy Milk for a fruit pot, and the gross photos add a bit of extra shove, while plain text warnings just wash over me.\"}",
+   "points": [
+    8.0,
+    2.0,
+    28.0,
+    0.0,
+    40.0,
+    22.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Gut reaction: I'm honestly a bit cynical about warnings. Text-only ones I'd scroll past, because they feel like nagging and I've seen them on fags and ignored them. Calorie numbers are the thing that actually registers in the moment, because I can compare 240 with 95 straight away. The graphic photos would make me wince and probably put me off a bit, especially with the calorie badge next to them, but I'd also get fed up and just stop looking. Calories alone is the practical one, and the graphic plus calories combo would probably nudge me most on the day.\n\n{\"points\": {\"A\": 12, \"B\": 3, \"C\": 27, \"D\": 0, \"E\": 15, \"F\": 43}, \"most_ignored\": \"D\", \"why\": \"Seeing calories side by side lets me compare snacks quickly, and the graphic photo adds a bit of a gut-level shove, whereas no labels or plain text warnings I'd just blank.\"}",
+   "points": [
+    12.0,
+    3.0,
+    27.0,
+    0.0,
+    15.0,
+    43.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "My gut reaction is that the graphic photos would make me wince the first couple of times, but I'd soon tune them out, and they'd feel preachy. Calorie counts are the thing that actually works on me, because they give me a number I can compare in two seconds. A \"95\" next to a \"240\" tells me something useful, and I don't feel lectured. The warning text on its own is something I'd scroll past because I already know crisps and chocolate are bad for me. Combined with the counts it adds a little nudge, and the graphic version might add a bit more, but mostly it's the numbers doing the work. Showing the counts on the healthy snacks as well is what makes the comparison possible.\n\n{\"points\": {\"A\": 22, \"B\": 36, \"C\": 2, \"D\": 0, \"E\": 8, \"F\": 32}, \"most_ignored\": \"D\", \"why\": \"With no label at all there's nothing to nudge me, whereas calorie badges let me compare snacks quickly and the warnings add little for something I already know.\"}",
+   "points": [
+    22.0,
+    36.0,
+    2.0,
+    0.0,
+    8.0,
+    32.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "Gut reaction: the graphic photos would probably make me roll my eyes after a week, and they'd feel preachy, but the first few times they'd be off-putting enough to make me pause. What really changes a choice in a vending machine is seeing the number next to every snack, because then I can compare quickly. I'm already vaguely aware crisps are fattening, so a text warning is just wallpaper, and no labels changes nothing.\n\nCalorie badges on everything (C) are practical and non-judgmental, and they'd nudge me the most. Adding the graphic warning (A) would add a bit of extra deterrence, though it also might make me irritated. Text warning plus calories (F) is similar to C with a bit of noise. Graphic alone (B) would work a bit, but without the numbers I can't compare the options. E and D do nearly nothing.\n\n{\"points\": {\"A\": 28, \"B\": 12, \"C\": 32, \"D\": 0, \"E\": 5, \"F\": 23}, \"most_ignored\": \"D\", \"why\": \"Seeing calories on every snack lets me compare quickly, while plain text warnings and unlabelled snacks give me nothing new to act on.\"}",
+   "points": [
+    28.0,
+    12.0,
+    32.0,
+    0.0,
+    5.0,
+    23.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Gut reaction: the graphic photos would make me wince and probably put me off the Dairy Milk in the moment, at least for a while, though I'd get used to them quickly and some part of me would resent being nannied. Calorie badges on everything are the thing I'd actually use, because they let me compare quickly. I'd see the apple crisps at 95 and the Doritos at 240 and think twice. Plain text warnings I'd scroll past, since I already know crisps aren't health food. No labels at all changes nothing.\n\nThe graphic plus calories combo (A) would nudge me most, since it pairs the emotional shock with a practical number. E on its own is next, because it's useful and not annoying. F has some shock effect but gives me nothing to compare with. B adds little over E, and C and D do essentially nothing.\n\n{\"points\": {\"A\": 38, \"B\": 9, \"C\": 3, \"D\": 0, \"E\": 28, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"Unchanged shop labels give me nothing new, while calorie badges help me compare and graphic images give a short-term jolt.\"}",
+   "points": [
+    38.0,
+    9.0,
+    3.0,
+    0.0,
+    28.0,
+    22.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Gut reaction: I already know crisps and chocolate are fattening, so a plain text warning is just wallpaper and I'd ignore it. Calorie numbers actually give me something to compare. Seeing 240 next to 95 does nudge me, especially because some \"healthy\" snacks turn out to be surprisingly high. The graphic photos would make me wince and probably put me off in the moment, but I'd get desensitised quickly, and they feel preachy. Combined with calorie counts (F), though, they'd probably push me hardest on a given day, since the shock plus the numbers is hard to ignore.\n\nThe text warning with calories (E) adds little over calories alone. The graphic photo alone (B) would put me off the high-calorie stuff but give me no guidance on the alternatives. No labels (C) change nothing.\n\n{\"points\": {\"A\": 22, \"B\": 17, \"C\": 0, \"D\": 4, \"E\": 23, \"F\": 34}, \"most_ignored\": \"C\", \"why\": \"Plain shop-as-usual packaging gives me nothing new, while calorie numbers plus a shocking image would actually make me stop and pick the lighter snack.\"}",
+   "points": [
+    22.0,
+    17.0,
+    0.0,
+    4.0,
+    23.0,
+    34.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Gut reaction: I already know crisps and chocolate aren't good for me, so a text warning telling me what I know would just be wallpaper. Graphic photos would make me wince the first few times, but I'd probably get used to them, and they might put me off a bit in the moment. What would really change my choice is seeing calorie numbers, because that's concrete and lets me compare. I'd be surprised that a \"healthy\" KIND bar or the beetroot crisps aren't much lower than a Dairy Milk. Calories plus a graphic image would likely have the strongest effect, but the calories do most of the work for me. Labels with no numbers do little, and no labels do nothing.\n\n{\"points\": {\"A\": 10, \"B\": 0, \"C\": 27, \"D\": 22, \"E\": 4, \"F\": 37}, \"most_ignored\": \"B\", \"why\": \"No labels change nothing, and calorie numbers give me something to compare, with the graphic image adding a bit of extra deterrent.\"}",
+   "points": [
+    10.0,
+    0.0,
+    27.0,
+    22.0,
+    4.0,
+    37.0
+   ]
+  }
+ ]
+}

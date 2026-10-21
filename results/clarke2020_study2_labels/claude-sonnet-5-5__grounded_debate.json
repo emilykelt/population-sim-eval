@@ -1,0 +1,2346 @@
+{
+ "score": {
+  "mean_spearman": 0.2642857142857143,
+  "top1_accuracy": 0.0,
+  "gap_preservation": 0.2785672164754592,
+  "n_segments_scored": 8,
+  "n_valid_answers": 384,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": -0.028571428571428574,
+    "top1_hit": 0.0,
+    "pred": [
+     30.2,
+     18.2,
+     32.1,
+     9.8,
+     5.8,
+     3.9
+    ],
+    "truth": [
+     0.56,
+     0.416,
+     0.286,
+     0.615,
+     0.412,
+     0.314
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": 0.08571428571428573,
+    "top1_hit": 0.0,
+    "pred": [
+     25.1,
+     18.5,
+     36.1,
+     11.8,
+     6.1,
+     2.4
+    ],
+    "truth": [
+     0.517,
+     0.527,
+     0.352,
+     0.508,
+     0.474,
+     0.421
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": 0.2,
+    "top1_hit": 0.0,
+    "pred": [
+     22.8,
+     21.1,
+     38.4,
+     11.8,
+     5.2,
+     0.8
+    ],
+    "truth": [
+     0.613,
+     0.574,
+     0.507,
+     0.575,
+     0.579,
+     0.451
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": 0.3714285714285715,
+    "top1_hit": 0.0,
+    "pred": [
+     30.1,
+     16.2,
+     34.0,
+     14.1,
+     4.1,
+     1.4
+    ],
+    "truth": [
+     0.667,
+     0.466,
+     0.414,
+     0.664,
+     0.439,
+     0.341
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 0.0,
+    "pred": [
+     30.1,
+     22.1,
+     24.6,
+     17.8,
+     5.1,
+     0.2
+    ],
+    "truth": [
+     0.707,
+     0.615,
+     0.507,
+     0.713,
+     0.587,
+     0.41
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.7142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     20.1,
+     24.8,
+     34.6,
+     10.8,
+     7.8,
+     2.0
+    ],
+    "truth": [
+     0.657,
+     0.778,
+     0.663,
+     0.75,
+     0.637,
+     0.495
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.2571428571428572,
+    "top1_hit": 0.0,
+    "pred": [
+     29.5,
+     17.9,
+     34.1,
+     13.7,
+     4.5,
+     0.2
+    ],
+    "truth": [
+     0.597,
+     0.539,
+     0.478,
+     0.617,
+     0.511,
+     0.355
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": 0.08571428571428573,
+    "top1_hit": 0.0,
+    "pred": [
+     27.5,
+     16.2,
+     32.9,
+     15.6,
+     4.7,
+     3.1
+    ],
+    "truth": [
+     0.664,
+     0.602,
+     0.442,
+     0.649,
+     0.54,
+     0.491
+    ]
+   }
+  },
+  "model": "claude-sonnet-5-5",
+  "method": "grounded_debate",
+  "cost_usd": 0.8878,
+  "seconds": 75.3,
+  "within_sd": 5.949946796916534,
+  "n_jobs": 64,
+  "round1": {
+   "mean_spearman": 0.20000000000000004,
+   "top1_accuracy": 0.0,
+   "gap_preservation": 0.0798906113288576,
+   "n_segments_scored": 8,
+   "n_valid_answers": 384
+  }
+ },
+ "results": [
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Gut reaction: My friend's partly right. The calorie number is a fuel number for me, so a bold 95 on a fruit pot might well steer me toward the 240 bar when I'm hungry after a run. That means the counts might not push me to the lower-calorie snack at all. But I never said I flinched at a bowel tumour, and I don't think a photo would change what I can afford. The Monster thing was my heart racing, which is a different kind of scare from a picture on a Dairy Milk. I'll shave E down a bit and give the graphic labels a little more credit, but the counts still do most of the work. The plain text warnings are still the easiest thing to ignore.\n\n{\"points\": {\"A\": 10, \"B\": 15, \"C\": 30, \"D\": 3, \"E\": 34, \"F\": 8}, \"most_ignored\": \"D\", \"why\": \"A plain text lecture is the easiest thing to scroll past, while the graphic photos might make me hesitate and the calorie numbers give me something I can actually use.\"}",
+   "points": [
+    10.0,
+    15.0,
+    30.0,
+    3.0,
+    34.0,
+    8.0
+   ],
+   "round1_points": [
+    6.0,
+    17.0,
+    38.0,
+    3.0,
+    30.0,
+    6.0
+   ],
+   "critique": "You're kidding yourself that calorie counts \"nudge\" you toward anything: you're a runner training for a half marathon who needs fuel, and a bold \"95 CALORIES\" on a fruit pot just tells you it won't fill you up, so you'll buy the 240 bar anyway and feel fine about it. Your 30 on E is too generous, because the graphic photos would land harder than you admit; you flinched at the bowel tumour in your own answer, and those images stick with people on night shifts who already got spooked by a racing heart on energy drinks. The \"preachy\" warnings in B and D bounce off, fair enough, but you've written off A as a 6 when the same logic that scared you off Monster could make a bleeding eye on a chocolate bar work on you in the shop queue. The thing you've underrated is that calories are useful to you as a fuel number, not a diet number, so the real win is a count that helps you find cheap filling food, and you've dressed that up as \"nudging\" when it's just information you'd use for your training."
+  },
+  {
+   "persona": "e73a8907ad",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Gut reaction: He's got a point about the cupboard at four o'clock, but that's cooking, not snacks. At the shop or a vending machine I'm standing there looking at the label, so the numbers would get read at least for a while. He's also right that the graphic photos might land harder than I let on, because the knee thing was a physical, personal reason. I'd still not enjoy them, but I'll admit they'd put me off a Dairy Milk more than a plain text line would. I'll shift a bit toward the warnings and away from calories alone, but not by much, because I still think facts work best on me.\n\n{\"points\": {\"A\": 9, \"B\": 21, \"C\": 36, \"D\": 5, \"E\": 0, \"F\": 29}, \"most_ignored\": \"E\", \"why\": \"Unlabelled snacks give me nothing new, whereas calorie numbers are facts I can use, and the graphic photos would nudge me a bit more than I first admitted.\"}",
+   "points": [
+    9.0,
+    21.0,
+    36.0,
+    5.0,
+    0.0,
+    29.0
+   ],
+   "round1_points": [
+    4.0,
+    17.0,
+    46.0,
+    3.0,
+    0.0,
+    30.0
+   ],
+   "critique": "Mate, you're kidding yourself that you'd sit there comparing 240 to 95 when you're staring into the cupboard at four o'clock, hungry, grabbing whatever's in; you buy daily and decide on the fly, and a number on a Dairy Milk bar is wallpaper by week two, just like the ads you already tune out. You say you hate being told off, but you quit the daily Coke because your knee hurt and the physio said so, which is a concrete, personal reason, and the graphic photos of a bleeding eye or open-heart surgery hit that same nerve of \"this happens to people like me\" harder than you're admitting, so 4 and 3 for A and D look too low. You've also underrated the plain text warning in F: you said it tells you nothing new, but on top of the badge it gives the number a \"so what,\" and that's exactly the facts-no-cartoon-vegetable tone you claim to want. Where you're right is that the corner shop owners aren't going to be nagging anyone, and plain numbers fit you, but don't pretend you're a calorie-counter when you're a \"see what's in the cupboard\" bloke."
+  },
+  {
+   "persona": "90ad762cff",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "Fair points, some of them. The photo on a Dairy Milk would stick longer than I let on, and I do bristle at being nagged, so a fortnight of bold calorie badges might wear thin. And yes, the pide place has no badge, so snack labels barely touch my real eating. But I still think a number is the only thing that gives me something to act on, and the photos alone just make me want to rebel. I'll shift some points from C to D and leave F a bit higher, since a lot of this wouldn't touch me anyway.\n\n{\"points\": {\"A\": 10, \"B\": 14, \"C\": 22, \"D\": 32, \"E\": 3, \"F\": 19}, \"most_ignored\": \"E\", \"why\": \"A plain text warning is wallpaper I'd tune out, whereas the photo plus a calorie number is the only combo that might actually make me pause.\"}",
+   "points": [
+    10.0,
+    14.0,
+    22.0,
+    32.0,
+    3.0,
+    19.0
+   ],
+   "round1_points": [
+    8.0,
+    18.0,
+    30.0,
+    25.0,
+    4.0,
+    15.0
+   ],
+   "critique": "Mate, you say you'd scroll past warnings, but you also admitted the tumour photo would put you off a Dairy Milk \"for a minute\", and you rank D second while swearing you'd resent it. That's you underrating the thing that actually lands: the shock sticks, and the badge gives you somewhere to go with it. Where you're kidding yourself is thinking C would do much, because you walk past the fridge and head to the Turkish place, and a lamb pide has no badge on it, so a snack label is hardly touching your real habit. Also, \"just information, not preachy\" is a bit rich from someone who needs a bacon roll after a poster; give it a fortnight of \"240 CALORIES\" screaming at you while you're skint and fed up, and it'll feel like being nagged too."
+  },
+  {
+   "persona": "079a7abcd4",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Fair challenge, and he's partly right. I said the photos fade and I'd resent being lectured, then gave F the most points anyway, which doesn't add up. I look at numbers all the time with yellow stickers and own-brand prices, so a calorie badge fits how I already shop. The photos would make me wince for a couple of days and then I'd tune them out.\n\nBut he's also right that being skint cuts the other way. If I'm buying a snack at all, it's usually the cheap, filling one, and 240 versus 95 might just tell me the Dairy Milk is better value per bite. So B won't do as much as I'd like. I'd still put it first, with F behind it for the short-term shock, and keep A, C and D low.\n\n{\"points\": {\"A\": 10, \"B\": 48, \"C\": 5, \"D\": 2, \"E\": 0, \"F\": 35}, \"most_ignored\": \"E\", \"why\": \"Calorie numbers fit how I already compare prices so B does most of the work, while photos shock briefly and plain warnings or no labels would just wash over me.\"}",
+   "points": [
+    10.0,
+    48.0,
+    5.0,
+    2.0,
+    0.0,
+    35.0
+   ],
+   "round1_points": [
+    12.0,
+    36.0,
+    6.0,
+    2.0,
+    0.0,
+    44.0
+   ],
+   "critique": "Mate, you've just said the photos wear off in a day or two and you'd resent the lecture, then handed F your biggest chunk of points. That's you wanting to sound like you're picking the \"tough\" option. You told me you only look at the NHS site when something's actually worrying you, and you stopped the fizzy drinks because your teeth hurt, not because a poster told you to. So B is where you actually live, and you've underrated it: you already read yellow stickers and compare prices, so a number on the fruit pot beats a tumour photo every time. Also, you're skint and eating pasta and jacket spuds, so 240 versus 95 will mostly tell you what's cheap and filling, not what to skip, and that's where it might bounce off you."
+  },
+  {
+   "persona": "cb76a1654e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Fair point on some of it. The energy drinks stopped because my heart was going and I felt rough, not because of a number on a can, so a proper body scare does land with me more than I let on. And yeah, at 3am on nights I'm not doing maths, so the badge isn't the magic fix I made it sound. But I still think the calorie badge is the only thing that tells me something I don't already know, and the photos on their own, with nothing to compare, would just make me resent it and look away. So I'm moving D up and C down a bit, B up a little, and keeping the text-only ones low because that's just being told off in black and white.\n\n{\"points\": {\"A\": 10, \"B\": 14, \"C\": 27, \"D\": 40, \"E\": 0, \"F\": 9}, \"most_ignored\": \"E\", \"why\": \"The photo plus calorie badge combo is the one that would actually make me stop and compare, while plain text warnings and unlabelled snacks tell me nothing new.\"}",
+   "points": [
+    10.0,
+    14.0,
+    27.0,
+    40.0,
+    0.0,
+    9.0
+   ],
+   "round1_points": [
+    17.0,
+    8.0,
+    36.0,
+    27.0,
+    0.0,
+    12.0
+   ],
+   "critique": "You're being idealistic about the calorie badge: you said yourself you grab what you fancy from a 3am vending machine, and on nights you're knackered and eating a meal deal, so \"compare at a glance\" assumes a state of mind you're rarely in. 240 versus 95 means nothing to anyone who doesn't know what a day's worth is, and if you read it as \"just a number\" it bounces off like every other label. You've underrated the graphic photos, because you said the energy drinks stopped when your heart raced, which is a body scare, not a number, so 8 points for B looks like pride talking, and D at 27 is probably closer to what would actually stick. And the \"I already know\" line about text warnings is exactly the sort of thing people say right before they ignore it, so F and A being low is fair, but don't pretend the badge alone is doing the heavy lifting for you either."
+  },
+  {
+   "persona": "ec7dd14f8e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair points, mostly. I did say graphic photos would feel preachy and I'd get used to them, then gave them the top score anyway. In the moment at the machine they'd make me wince, but within a week I'd be looking past them, and they'd annoy me like the campaigns I can't stand. The calorie badge is the same story. 95 versus 240 made me shrug, and I buy on price and tiredness, not a number on a wrapper.\n\nStill, I don't think plain text is as powerful as my friend suggests. I'd probably skim it, though it's the tone I trust and it doesn't feel like blame. Calories plus a sober line is a decent combination, and it fits how I changed with beef: quiet, repeated, and then normal. So I'm shifting points from C and D to A and B, keeping C a bit ahead because the shock does work on day one. F stays near zero.\n\n{\"points\": {\"A\": 24, \"B\": 24, \"C\": 26, \"D\": 9, \"E\": 13, \"F\": 4}, \"most_ignored\": \"F\", \"why\": \"Unlabelled snacks give me nothing new, and I'd get used to the shock photos quickly, so the quieter calorie-plus-text combination is more realistic for me.\"}",
+   "points": [
+    24.0,
+    24.0,
+    26.0,
+    9.0,
+    13.0,
+    4.0
+   ],
+   "round1_points": [
+    22.0,
+    12.0,
+    38.0,
+    20.0,
+    5.0,
+    3.0
+   ],
+   "critique": "You say graphics would wear off fast and feel preachy and blamey, which is exactly what you said you hate about campaigns, yet you gave C the biggest score and D 20 anyway; that's you rewarding \"shock\" in theory while your own habits say you'd shrug after a week and keep buying the Greggs or the meal deal. Your own example undercuts the calorie badge too: 95 versus 240 made you shrug, so A at 22 is generous when you're a tired, budget-driven person who buys based on price and what's in the cupboard, not a number on a wrapper. Meanwhile you wrote off B and E as \"dull\" when plain text from a neutral, NHS-style source is the tone you actually trust and the least blamey option, and you treat health info with suspicion unless it's clearly credible, so a sober factual line naming bowel cancer might stick more than you admit. Also, you're someone who cut beef because a message became normal rather than shocking, so slow, quiet nudging is your real track record, not gore."
+  },
+  {
+   "persona": "489854ab04",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Fair, partly. I'd like to think I'd compare numbers, but at 1pm on autopilot I'm grabbing whatever's next to the sandwich, so E probably does less than I claimed. The energy drink thing is a good point too: what shifted me was something scary happening in my own body, so the graphic photos might stick more than I'd admit, even though I'd hate being shouted at. I still think the photos alone (C) give me nothing to act on, and the badge gives me the facts I actually asked for. But B, with the plain warning plus numbers, is a better fit than I gave it credit for. I'm not buying that I'd go all in on the gory one, though.\n\n{\"points\": {\"A\": 0, \"B\": 27, \"C\": 8, \"D\": 25, \"E\": 32, \"F\": 8}, \"most_ignored\": \"A\", \"why\": \"Numbers plus a plain warning suit me best, and the graphic images might stick a bit more than I'd like, but doing nothing at all would change nothing.\"}",
+   "points": [
+    0.0,
+    27.0,
+    8.0,
+    25.0,
+    32.0,
+    8.0
+   ],
+   "round1_points": [
+    0.0,
+    22.0,
+    6.0,
+    17.0,
+    46.0,
+    9.0
+   ],
+   "critique": "You're kidding yourself that you'd sit there comparing 240 against 95 in the moment: you're the bloke who snoozes twice and orders a takeaway off an app, and you'll grab the meal deal crisps on autopilot at 1pm without reading a badge. Giving E 46 and the graphic ones near-nothing is also too neat, because your own energy drink story shows what actually changed your behaviour was your heart feeling odd, a scary bodily thing, not a number, so the tumour and heart-surgery images would probably stick more than you admit even if you hate them. And you've underrated the plain text warning in B: it's the facts-no-telling-off version you say you want, with the badge alongside, which is probably a better fit for you than E alone. Your \"I'd tune it out\" line is the same thing you say about every poster, so don't trust it; what you've actually shown is that you respond to cost and personal consequence, which neither a bare calorie number nor \"obesity\" in the abstract really delivers."
+  },
+  {
+   "persona": "4fd26716c7",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "Fair points, some of them. The fizzy drink thing was pounds and feeling rubbish, and a calorie number on its own isn't either of those. When I'm knackered and on autopilot I probably would just grab the usual, and F alone is easy to tune out. I still don't think photos would change what I buy, though. I'd roll my eyes, but I'll admit a bowel tumour picture on a Dairy Milk wrapper would stick in my head and might make me hesitate for a second. So I'll move some points toward the graphic ones, mainly C, since it pairs the shock with the numbers, and take some off F. I still reckon numbers beat warnings I've heard a hundred times, so F, D and C stay at the top.\n\n{\"points\": {\"A\": 3, \"B\": 13, \"C\": 29, \"D\": 17, \"E\": 0, \"F\": 38}, \"most_ignored\": \"E\", \"why\": \"Calorie badges still help me compare at a glance, but I accept a graphic image might break my autopilot a bit more than I wanted to admit, so I've moved some weight to C and B.\"}",
+   "points": [
+    3.0,
+    13.0,
+    29.0,
+    17.0,
+    0.0,
+    38.0
+   ],
+   "round1_points": [
+    3.0,
+    7.0,
+    22.0,
+    20.0,
+    0.0,
+    48.0
+   ],
+   "critique": "Mate, you say numbers work on you, but your fizzy drink change was about a fiver a day in cash, and calories aren't pounds. A \"240 CALORIES\" badge on a Dairy Milk is just wallpaper when you're knackered at half four grabbing a meal deal, and you know you'll buy the same thing anyway. You're also underrating the graphic photos: you admitted they'd stick in your head, and that's the only message that might actually make you pause when you're on autopilot, so giving B just 7 points looks like you protecting your pride. And F getting 48 is idealistic, because you'd barely register it unless it sat next to a price or a \"this is a fifth of your day\" comparison, which none of these options give you."
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "Fair points, some of them. I do shop on what's reduced, and in a vending machine at the warehouse I'd probably read 240 as fuel before a run, not a warning. So A was a bit generous. But I still wouldn't say the photos are the answer. I'd wince the first few times, then tune them out, and they'd feel like a dig at people who can't afford to choose. The calorie number is still the only thing I'd actually use, even if it moves me less than I claimed. The photo bit does stick a bit more than the text, so I'll nudge D and F up and trim A and B.\n\n{\"points\": {\"A\": 28, \"B\": 18, \"C\": 4, \"D\": 10, \"E\": 0, \"F\": 40}, \"most_ignored\": \"E\", \"why\": \"The calorie number is still the only part I'd use, but a graphic photo next to it would probably nudge me off the chocolate more than I admitted, even if I'd tire of it.\"}",
+   "points": [
+    28.0,
+    18.0,
+    4.0,
+    10.0,
+    0.0,
+    40.0
+   ],
+   "round1_points": [
+    38.0,
+    24.0,
+    4.0,
+    7.0,
+    0.0,
+    27.0
+   ],
+   "critique": "You're kidding yourself that you'd use calorie badges to compare snacks: you shop on what's reduced and what's cheap, so a number on a Dairy Milk bar won't change what goes in the basket, and you've just said cheap wins anyway. As a runner chasing carbs you'd probably read \"240\" as fuel, not a warning, so A is doing less than you think for the people who need it most. You're also underrating the photos: you say you'd wince and then ignore them, but you've admitted you trust NHS-style authority, and a medical image on a snack sitting next to your kids' lunchbox treats would stick in a way a text line never does. And you handed F 27 while moaning it's preachy and you'd tire of it, so your points don't match your own reasoning, and it's the same trap as every campaign you resent: assuming people can act on information when the month's end is the real problem."
+  },
+  {
+   "persona": "73afb797cc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "Fair play to him, he's got a point on some of it. I do shop on autopilot, and a calorie number wouldn't beat a yellow sticker, so 55 for F was me flattering myself. The dentist thing is true as well: I changed because someone scared me in person, not because I read a fact. A photo of a tumour on a packet would probably stick, and the lads would pipe up about it. But I'd still resent it and stop seeing it after a few weeks, and I'm not convinced it would change what I buy in the vending machine. The plain text warning is the stuff I tune out, so E near zero is right. I'd still keep some weight on the calorie badge, since it's the only one I'd treat as information rather than a telling-off.\n\n{\"points\": {\"A\": 27, \"B\": 8, \"C\": 30, \"D\": 0, \"E\": 2, \"F\": 33}, \"most_ignored\": \"D\", \"why\": \"Gory photos would stick like the dentist's telling-off did, but plain calorie numbers are still the only thing I'd treat as useful, while text-only warnings and unchanged shelves I'd ignore.\"}",
+   "points": [
+    27.0,
+    8.0,
+    30.0,
+    0.0,
+    2.0,
+    33.0
+   ],
+   "round1_points": [
+    8.0,
+    14.0,
+    18.0,
+    0.0,
+    5.0,
+    55.0
+   ],
+   "critique": "Mate, you're kidding yourself that you'd \"glance at the calories and pick the lower one\": you do the Saturday Asda shop on autopilot, buy own-brand, and chase yellow stickers, so a 240 badge is going to lose to a 30p discount every time, and 55 for F is miles too generous. You've also written off the photos too fast: you quit fizzy because the dentist scared you, and a bleeding eye or a tumour on a packet your lads are eating off is closer to that telling-off than any poster, so A and C should score higher than 8 and 18. Remember too that you've got two kids, so a bold number is basically wallpaper, but a graphic image on the crisps in the cupboard is the one thing that'd get said out loud at home. And D being the most ignored is true, but E is the real dud: plain text warnings are exactly the sort of government preaching you already tune out, so it should sit right next to zero."
+  },
+  {
+   "persona": "29f2cb08d2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "Fair point, mate. I gave the photos the top score because they sounded serious, but I said myself I'd stop noticing them within a week, and that's exactly what happened with the fizzy drinks. What stuck was a number off a blood test, so a plain number on the snack is the closest thing to that. I still think a photo would turn my stomach the first few times, so the versions with photos and calories get some credit, but the calorie badge by itself is what I'd use at the machine. The text-only warnings I'd scroll past, because I already know crisps aren't good for me.\n\n{\"points\": {\"A\": 48, \"B\": 18, \"C\": 0, \"D\": 6, \"E\": 23, \"F\": 5}, \"most_ignored\": \"C\", \"why\": \"A plain calorie number is something I can compare and act on every time, while shock photos and text warnings would wear off or just tell me what I already know.\"}",
+   "points": [
+    48.0,
+    18.0,
+    0.0,
+    6.0,
+    23.0,
+    5.0
+   ],
+   "round1_points": [
+    22.0,
+    17.0,
+    0.0,
+    11.0,
+    41.0,
+    9.0
+   ],
+   "critique": "Mate, you say the calorie badge is the one you'd actually use, then give the shock-photo version 41 points and the badge alone 22. That's you scoring what sounds tough rather than what you'd do, and you've just told us you'd get numb to the photos in a week, same as fag packets, which didn't exactly stop anyone we know. Be honest about the fizzy drinks too: you quit, missed them for a month, then went back, so a one-week shock is exactly the pattern you already know fails you, and the thing that stuck was a number off a blood test. You've also underrated the badge as something that fits how you shop: you're already hunting yellow stickers and treating tuna as an event, so \"95 vs 240\" on a shelf is the one message that talks about your receipt and your sugar at once, and it deserves the top score by a mile."
+  },
+  {
+   "persona": "da72812cfc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "Fair enough, the mate's got a point. I said I'd look away from the photos and resent them, and then I gave them the top marks, which doesn't hang together. A bowel tumour on a Dairy Milk wouldn't make me pick an apple crisp. It'd make me annoyed, or I'd just buy something else off the shelf, and the lower-calorie stuff is half the fibrous rubbish that sets me off anyway. The calorie badge is the only one that's any use to me, because on bad spells I need to know what's got some substance in it, and on good days it might make me think twice about a second bar. Still, I'm not going to pretend any of this changes much, so the points stay modest and spread. F gets little, since it's just the status quo.\n\n{\"points\": {\"A\": 8, \"B\": 17, \"C\": 13, \"D\": 40, \"E\": 6, \"F\": 16}, \"most_ignored\": \"E\", \"why\": \"A plain text warning is a lecture I've heard a hundred times, whereas the calorie number is the only thing that's actually usable for someone whose eating is dictated by his gut.\"}",
+   "points": [
+    8.0,
+    17.0,
+    13.0,
+    40.0,
+    6.0,
+    16.0
+   ],
+   "round1_points": [
+    12.0,
+    24.0,
+    20.0,
+    18.0,
+    8.0,
+    18.0
+   ],
+   "critique": "Mate, you say you'd resent the graphic photos and look away, then give them the most points. Those labels are on the very snacks you buy on good days at Mr Patel's, and a bowel tumour photo on a Dairy Milk is exactly what a Crohn's bloke would find hard to shrug off, so either you'd dodge the shelf or you'd get stroppy, and neither is \"it works\". You're also kidding yourself that you'd \"glance\" at the calorie badge: you literally told us you don't plan and you decide from the fridge, but you did say you need to keep weight on in bad spells, and that's the one thing that would actually land. A number is something you could use, while a lecture or a tumour isn't, so D should be well above B and C, not trailing them. And giving F the same points as D is odd, because you hate being talked at, and D is the only one that doesn't talk at you."
+  },
+  {
+   "persona": "f97cee23dd",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Fair points, some of them. F getting 12 was me dodging: a label-free vending machine changes nothing, so that should be near zero. And E at 20 was daft given I said I'd resent it. Graphic photos would put me off for a week, then I'd tune them out and get irritated.\n\nWhere he's wrong is the calorie badge. I don't scrimp on food, but a number on the G\u00fc dessert or the millionaire shortbread is something I'd actually see, and it works as a comparison against the fruit pot at 95. It's the only one that gives me something to act on. But he's right about the cholesterol. The GP's comment worked on me because it was sober and official, so a plain \"heart disease\" line in A does land a bit more than I admitted. D on its own is the same tone but gives me no number, so it stays low, though not nothing.\n\n{\"points\": {\"A\": 27, \"B\": 6, \"C\": 34, \"D\": 9, \"E\": 21, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"A label-free machine changes nothing, and the graphic photos mostly just irritate me, while a calorie number with a sober NHS-style line is what I'd actually act on.\"}",
+   "points": [
+    27.0,
+    6.0,
+    34.0,
+    9.0,
+    21.0,
+    3.0
+   ],
+   "round1_points": [
+    18.0,
+    10.0,
+    35.0,
+    5.0,
+    20.0,
+    12.0
+   ],
+   "critique": "Mate, you say you hate nagging and want facts, then give E 20 points for \"shock factor\" when it's the most nagging thing on the list, and you literally said you'd resent it and buy the Dairy Milk anyway. You're also kidding yourself that a calorie badge on its own does much: you spend four quid on bread without blinking and ignore your own shopping list, so \"3, 4, 5 hundred calories\" will bounce off you the same as it does me, apart from maybe the G\u00fc pudding. What you've underrated is the plain, non-picture warning in A: you trust the NHS and took your GP's cholesterol comment seriously enough to ditch the butter, so a sober \"this leads to heart disease\" line that reads like official information would land harder than you admit. Calling D \"just nagging\" is also a bit rich when it's the same tone as the NHS stuff you swear by, and giving F 12 points for doing nothing is just you dodging the question."
+  },
+  {
+   "persona": "1ec44baa5d",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "Fair enough, he's got me on a few things. I did say I'd get used to the photos and that they're preachy, then handed them over half the points, which doesn't add up. What actually moves me is price and numbers I can use, like the squash switch. A calorie badge helps me compare two things at the same price without anyone wagging a finger. I'd still give the warning text a little, since D at least has the badge, but I wouldn't pretend a graphic photo changes my budget or the kids' choices.\n\n{\"points\": {\"A\": 0, \"B\": 5, \"C\": 4, \"D\": 22, \"E\": 17, \"F\": 52}, \"most_ignored\": \"A\", \"why\": \"Calorie badges are the only thing that gives me useful information at the same price without lecturing, while photos and warning text I'd stop noticing within a week.\"}",
+   "points": [
+    0.0,
+    5.0,
+    4.0,
+    22.0,
+    17.0,
+    52.0
+   ],
+   "round1_points": [
+    0.0,
+    22.0,
+    6.0,
+    20.0,
+    34.0,
+    18.0
+   ],
+   "critique": "Mate, you say graphic photos are preachy and you'd get used to them in a week, then you give E and B 56 points between them. That's you cosplaying as someone who responds to shock, when you've told us your actual lever is price and a yellow sticker. Tell the truth: you'd walk past a bowel tumour on a Wagon Wheel the same way you walk past the \"drink responsibly\" bit on the lager, and your kids and brother-in-law would just say \"gross\" and pick it up anyway. You've underrated F: calorie badges are the only thing here that helps you compare two snacks at the same price without being told off, and you already cut fizzy drinks because the numbers made sense, so that's the one that'd stick. Plain text in C and D is no more nagging than the graphic version, it's just quieter, so don't pretend one is preachy and the other isn't, and your \"none for A\" is fine but the spread should be F first, D a distant second, and the photo stuff near the bottom."
+  },
+  {
+   "persona": "fb71b08c6b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "Fair points, some of them. I do mostly eat what's in, so a label only touches the bit I choose myself, and I'll admit a bare \"240\" would fade into the background after a week or two. The blood pressure number worked because it came with a consequence, so something that bites does move me more than I let on. But I still don't want a gory photo shoved at me, and I'd resent it even if it worked. The flat text naming heart disease and diabetes is closer to the tone I say I want, so I'll give it more than I did. I'll keep the calorie badge as the base, but not as the clear winner.\n\n{\"points\": {\"A\": 12, \"B\": 24, \"C\": 28, \"D\": 0, \"E\": 14, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"Nothing on the snacks changes nothing, while a calorie number plus a consequence is the combination that would actually make me stop and pick the fruit pot.\"}",
+   "points": [
+    12.0,
+    24.0,
+    28.0,
+    0.0,
+    14.0,
+    22.0
+   ],
+   "round1_points": [
+    6.0,
+    22.0,
+    24.0,
+    0.0,
+    12.0,
+    36.0
+   ],
+   "critique": "You say you mostly eat what's in and you let your wife decide tea, so a badge on a snack at a machine only reaches the small slice of your eating that you actually choose, and you're giving it 36 like it would run your diet. The \"treats me like an adult\" line is also a bit flattering to yourself: you cut the fizzy drinks because a number scared you, and a bold \"240\" on a Dairy Milk is a number with no verdict attached, which is exactly the kind of thing you'd shrug at once the novelty wore off. You're overrating how much you'd resent the photos and underrating how much that blood pressure reading shows you respond to something that bites, so 12 for E and 24 for C look low and C beating B shows you know it. And the one thing you've underrated is the plain text warning: it names your own diagnoses (heart disease, diabetes) in a flat, no-cheer voice, which is the tone you say you want, so 6 is you being snooty about it."
+  },
+  {
+   "persona": "379b5a60c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Fair points, partly. The battery farming thing is true: images of that do land with me, and Claire's cholesterol did shift what we eat. But both of those are about things I already cared about, and I resent being told what to do with a snack. A gory photo on a Dairy Milk would make me roll my eyes, not stop me buying it. Still, I'll admit I can't see my own avoidance, and a photo might make me put the bar back once or twice. And the calorie badge probably does fade into wallpaper after a couple of weeks, so I'll mark F down. I'd still say calories beat plain warnings for me, since they give me something to compare. I just won't pretend any of it would change much.\n\n{\"points\": {\"A\": 7, \"B\": 25, \"C\": 13, \"D\": 0, \"E\": 23, \"F\": 32}, \"most_ignored\": \"D\", \"why\": \"Calorie numbers still suit me best, but I'll concede graphic photos might make me put a bar back more often than I'd like to admit, even if I'd resent them.\"}",
+   "points": [
+    7.0,
+    25.0,
+    13.0,
+    0.0,
+    23.0,
+    32.0
+   ],
+   "round1_points": [
+    8.0,
+    17.0,
+    8.0,
+    0.0,
+    27.0,
+    40.0
+   ],
+   "critique": "Mate, you're kidding yourself that a calorie badge \"nudges\" you: you shop off a phone list, grab a Tesco sandwich on autopilot, and buy whatever's in the fridge, so a number on a Dairy Milk is just more wallpaper by week two. The photos are where you're underrating yourself, because you told me battery farming turns your stomach and that's the one thing you'll actually pay extra for, so graphic imagery clearly lands with you when it's about something you care about. You also admitted Claire's cholesterol changed what you eat, which means a health scare close to home moves you, not tidy facts, so B and C at 17 and 8 look way too low and F at 40 is flattering your \"I just want the facts\" self-image. And \"I'd look away\" isn't immunity, it's the exact avoidance reaction that makes people quietly put the bar back, which you can't see in yourself because you've already decided you're above it."
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "My friend has a point on a couple of things. As a diabetic I should be looking at sugar and carbs, not calories, and a \"95 CALORIES\" badge on a fruit pot doesn't tell me about the sugar. I also do ignore numbers when I fancy something, like the Sunday roast and the good bread. But I still think a plain number does more for me than a lecture. The photo of the diabetic eye would land harder than I let on, because it's my own risk. It would also annoy me, and I'd be a bit resentful about being shown it. So I'll move some points toward the photo options and trim the calorie-only ones, though I won't pretend any of it would stop me buying a Dairy Milk if I fancied one.\n\n{\"points\": {\"A\": 28, \"B\": 8, \"C\": 26, \"D\": 0, \"E\": 27, \"F\": 11}, \"most_ignored\": \"D\", \"why\": \"Unlabelled snacks give me nothing to act on, while a plain calorie number still helps me compare, and a photo of a diabetic eye would hit closer to home than I first admitted.\"}",
+   "points": [
+    28.0,
+    8.0,
+    26.0,
+    0.0,
+    27.0,
+    11.0
+   ],
+   "round1_points": [
+    40.0,
+    4.0,
+    17.0,
+    0.0,
+    35.0,
+    4.0
+   ],
+   "critique": "You're kidding yourself that you'd read a calorie badge and use it: you buy reduced stuff at Sainsbury's and cook from the fridge, and as a diabetic what you should be watching is sugar and carbs, not calories, so a \"95 CALORIES\" badge on a fruit pot could easily mislead you. You say photos would put you off \"a little\" and then give them 4 points, but you'd be the first to flinch at a bleeding diabetic eye, since that's your own risk and your GP and nurse already nag you about it, so you've underrated how much that would land. Meanwhile you're overrating your own label-reading, because the Sunday roast and the good bread show you ignore numbers when you don't fancy them, and the badge will go the same way as the plain text you say you'd stop seeing within a week. The one thing you've got right is that a lecturing tone bounces off us, so the plain facts do work, but don't pretend a number on a Dairy Milk is going to stop you buying it."
+  },
+  {
+   "persona": "00af7ff56b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "Fair points, some of them. The crisps in my lunch box are habit, and a number on the packet would probably fade into the background after a couple of weeks, especially when I'm grabbing whatever's yellow-stickered. I still think the photos would annoy me, so I was soft in giving them that many points. But I don't agree the plain warning does much on its own, because I already know what it says. The calorie number is the only thing I'd use, and it works best without the lecture, so I'd shift a bit towards D and E and take some off the photos. I'd still say none of it changes much, given that price decides most of what I buy.\n\n{\"points\": {\"A\": 15, \"B\": 0, \"C\": 4, \"D\": 26, \"E\": 37, \"F\": 18}, \"most_ignored\": \"B\", \"why\": \"Nothing changes with no labels, and the photos and plain warnings mostly tell me off or repeat what I know, whereas a calorie number is a plain fact I might glance at, even if it fades with time.\"}",
+   "points": [
+    15.0,
+    0.0,
+    4.0,
+    26.0,
+    37.0,
+    18.0
+   ],
+   "round1_points": [
+    25.0,
+    0.0,
+    4.0,
+    18.0,
+    33.0,
+    20.0
+   ],
+   "critique": "You're kidding yourself about the calorie badge: you eat a packet of crisps from the work-lunch routine without weighing anything up, so a \"240\" is more likely to become wallpaper in a fortnight than a nudge, especially when you're grabbing yellow-sticker bargains where price beats numbers every time. You also say you'd be put off by graphic photos for a day and then resent them, yet you gave A and F 45 points between them, which is a lot for something you've told us bounces off you and would irritate you. You've underrated D: a plain, non-shouty warning paired with the number gives you the \"fact, not a telling-off\" tone you say you respond to, and you gave it less than the photo versions. And be honest, the sugar-in-tea change worked because your doctor, someone you trust, said it to you personally, and a label on a crisp packet isn't a GP, so don't assume a number alone will do the same job."
+  },
+  {
+   "persona": "b8189bb09e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Fair enough, the mate has a point on a few things. The badge is doing the work, and I was a bit daft giving F 26 while saying I'd resent it. If the photo's on there it's because the badge is there too, and I'd be noticing the number, not the tumour. E being near F doesn't hold up either. It's the same number with a lecture bolted on, so it should sit below B.\n\nBut I'll stand by B being the one that works. The blood test showed me a number from the doctor and I acted on it, so a plain figure on the pack lands with me in a way a telling-off doesn't. He's right that I'd probably stop seeing it by Thursday, and that I'm not often at a vending machine anyway, so the overall effect is modest. The photos get a bit of credit for a wince, but not much.\n\n{\"points\": {\"A\": 6, \"B\": 56, \"C\": 2, \"D\": 0, \"E\": 14, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"A plain calorie number is a fact I can weigh up against my money without being lectured, while the text warning is wallpaper and the photos only work for a wince before I resent them.\"}",
+   "points": [
+    6.0,
+    56.0,
+    2.0,
+    0.0,
+    14.0,
+    22.0
+   ],
+   "round1_points": [
+    6.0,
+    45.0,
+    3.0,
+    0.0,
+    20.0,
+    26.0
+   ],
+   "critique": "Mate, you say you'd resent the photos, yet you give F 26 and A 6, which tells me the badge is doing the work and you're not being straight about how much a nasty photo sticks. You're also kidding yourself on B: you buy reduced stuff and a tin of whatever, not Dairy Milk and fruit pots, so 240 versus 95 means nothing next to a bacon sandwich or a freezer curry, and you'd stop seeing the badge by Thursday just like the wallpaper text. Where you've undersold it is price and your blood test: you only changed because a number came from the doctor, so a number on the pack that looks like a fact, not a telling-off, probably does land. But E at 20 is daft, because that's the same badge with a lecture bolted on, and by your own \"never cared for being told off\" logic it should score below B, not near F."
+  },
+  {
+   "persona": "91dacce118",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Fair points, some of them. I do hardly buy snacks, so none of this moves me much, and a bare number would probably fade into the background after a week. But I did cut the salt because of a concrete reason, and a label naming heart disease touches that. The photos made me wince, and I said so. I'd resent them, but the wince would work on me more than the plain text would. The friend is right that I contradicted myself. If I hate the nagging, the combos shouldn't score nearly as high as the number alone. Still, I do like the calorie number as information, because it lets me compare. I'll keep F on top but trim it, lift B a bit, and trim E.\n\n{\"points\": {\"A\": 6, \"B\": 17, \"C\": 0, \"D\": 14, \"E\": 25, \"F\": 38}, \"most_ignored\": \"C\", \"why\": \"Unlabelled snacks change nothing, and I still prefer a plain calorie number I can compare, though the graphic warnings would sting more than I first admitted.\"}",
+   "points": [
+    6.0,
+    17.0,
+    0.0,
+    14.0,
+    25.0,
+    38.0
+   ],
+   "round1_points": [
+    3.0,
+    12.0,
+    0.0,
+    20.0,
+    25.0,
+    40.0
+   ],
+   "critique": "Come off it: you say a calorie number \"nudges\" you, but you're a man who eats porridge or toast by habit, lets Jan decide dinner, and hardly buys snacks, so a badge on a Dairy Milk bar would bounce off you as easily as the text warning does. Your own point about advice flipping and headlines winding you up is exactly why a bare number would become wallpaper too, and you're being idealistic that \"treats me like an adult\" means you'd act on it. What you've underrated is the Dr Rahman and your-daughter-the-physio angle, plus the blood pressure scare: you changed your salt because someone you trust gave a specific, personal reason, so a label that names a concrete outcome like heart disease would land harder than you admit, and giving B 12 and A 3 while calling photos something you'd \"get used to\" ignores that you winced and said it might put you off the chocolate. Also, your 25 for E and 20 for D contradict your 40 for F: if the nagging is what you hate, why are you scoring the nag-plus-numbers combos at 45 together, nearly matching F on its own?"
+  },
+  {
+   "persona": "82f88270eb",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Fair points, some of them. The bit about 240 being wallpaper by week two stings, because I probably would stop looking when I'm grabbing a sausage roll in a hurry. But the 240 against 95 comparison is still the one thing that tells me something I didn't know, so I'd keep C on top, just not by so much. He's right that F sitting at 34 was hedging, because the text warning adds nothing I haven't heard, so it should be only a touch above C-minus-nothing, not a big chunk. On the photos, I'll grudgingly give him some ground. I'd moan about them, but a heart op picture would stick more than a line of text, given I got caught out on blood pressure. I'd still think it's patronising, though, so the effect is small. A and E should be close, with A slightly ahead because the calorie number gives me something to act on beyond the shock.\n\n{\"points\": {\"A\": 20, \"B\": 0, \"C\": 34, \"D\": 4, \"E\": 10, \"F\": 32}, \"most_ignored\": \"B\", \"why\": \"The calorie comparison is still the only genuinely new information, but I'll admit it fades with habit, and a graphic photo would stick a bit more than I like to admit.\"}",
+   "points": [
+    20.0,
+    0.0,
+    34.0,
+    4.0,
+    10.0,
+    32.0
+   ],
+   "round1_points": [
+    14.0,
+    0.0,
+    40.0,
+    4.0,
+    8.0,
+    34.0
+   ],
+   "critique": "Mate, you're kidding yourself that you'd \"glance and compare\" at a garage: you're in a rush with a sausage roll in hand, and by week two 240 is wallpaper just like the photos, so C at 40 is you flattering yourself as a numbers person. You also say the plain text warning is old news and the photos are patronising, yet you score F at 34 and A at 14, which is just you hedging; if you really ignore warnings, F should sit right on top of C, and A's graphic photo should be worse than E's, not better. Where you've underrated something is the photos: you had your blood pressure scare and \"missed it at first, then didn't\", so a gross image of a heart op would actually stick for someone like us who got caught out, even while we moan about it. And be honest, 240 means nothing without context, since neither of us knows if that's a lot, so the number only lands when it sits next to the 95 fruit pot, and that comparison is the one genuinely new bit."
+  },
+  {
+   "persona": "1475b795bc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Fair points, some of them. I do buy the same list every Thursday, and a number on a Dairy Milk isn't going to move a shopping habit that's driven by price. The badge helps a bit when I'm standing in front of a machine or deciding on a long-run snack, but I was probably flattering myself on how much it changes.\n\nI'll give the friend the blood pressure point. What got me to cut back was a blunt fact about my own body, so the plain text about heart disease isn't pure noise to me. It still reads like a telling-off, though, and I'd stop seeing it after a few weeks. The photos I'd flinch at, but I don't think they'd change what I buy. I'd just resent them. So I'll nudge F up a little and bring E down a bit, and I'm not shifting much on B and C.\n\n{\"points\": {\"A\": 5, \"B\": 12, \"C\": 18, \"D\": 0, \"E\": 35, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"The calorie badge still gives me something usable without a lecture, but my blood pressure scare shows blunt health facts do land, so the text-plus-badge combo deserves more than I first gave it.\"}",
+   "points": [
+    5.0,
+    12.0,
+    18.0,
+    0.0,
+    35.0,
+    30.0
+   ],
+   "round1_points": [
+    3.0,
+    12.0,
+    20.0,
+    0.0,
+    45.0,
+    20.0
+   ],
+   "critique": "Mate, you say you'd use the badge, but you buy the same Thursday list at Asda every week and cut biscuits by not buying the big packs, so a number on a Dairy Milk won't touch your habits. It'll bounce off you like everything else, and you've said yourself that money decides. Giving E 45 while saying it \"wouldn't change much\" is you flattering yourself as the sensible runner, when the badge mostly helps the lad at the club and not someone counting pennies at the bypass. And you're underrating the cancer and heart text: your blood pressure scare is exactly what made you change, so a blunt health consequence does land with you when it's about your own body, and F scoring only 20 is too low. Also, the photos would work harder than you admit on the people you know, who'd flinch at a tumour picture longer than a week, so B and C at 12 and 20 look like you protesting about being nagged, not predicting how it plays out."
+  },
+  {
+   "persona": "f0547fbf1e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair points, some of them. I did say the photos would nudge me most and then put the plain facts on top, and that's me wanting to be the sensible fact-loving fella. But I still don't think the shock photo would keep working. I'd see the bleeding eye the first few times, and by week three I'd be walking past it like the posters at the surgery. The calorie number is different, because I can use it without anyone shouting at me.\n\nStill, he's right about the biscuits. I'm not going to put the Dairy Milk back because it says 240. And the tea sugar only changed when the nurse put my own numbers in front of me. A diabetic eye picture is the closest thing here to that, since I've got the condition. It would hit me harder than a plain line of text, so A should be well ahead of B. A with calories still beats D because the number gives me something to compare. I'll shift some points from C towards A, and I'll cut B a bit, since I'd read that once and ignore it.\n\n{\"points\": {\"A\": 36, \"B\": 12, \"C\": 28, \"D\": 12, \"E\": 6, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"Unlabelled snacks tell me nothing, and the plain text warning I'd read once and forget, while the diabetic eye photo with a calorie number is the closest thing to the nurse showing me my own numbers.\"}",
+   "points": [
+    36.0,
+    12.0,
+    28.0,
+    12.0,
+    6.0,
+    6.0
+   ],
+   "round1_points": [
+    25.0,
+    20.0,
+    38.0,
+    8.0,
+    6.0,
+    3.0
+   ],
+   "critique": "Mate, you say photos would \"nudge you most\" and then give C the biggest share, which is the finger-wagging-free option you claim to prefer. That's fine, but you're kidding yourself that you're a facts-only man when you've admitted you'd grumble and still be nudged. Also, you're idealistic about those calorie badges: you eat whatever's easy, buy yellow-sticker stuff and freeze it, and you won't give up biscuits, so a \"240\" on a Dairy Milk is a number you'll read once and then eat the biscuit anyway, same as the plain warning. What you've underrated is that your tea sugar only changed when the nurse showed you your own numbers, so something personal and concrete beats a generic slogan, and that makes the shock photo of a diabetic eye (A over B at 25 vs 20 is too close) likely to hit you harder than you'll admit, given you've got the very condition it shows."
+  },
+  {
+   "persona": "e55fea1d30",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Fair point from him, and it stings a bit. I said the photos would make me look away and I'd resent being told off, so giving them top marks was daft. The calorie number is a plain fact, and I might glance at it, but I'm not counting and I mostly buy by the yellow sticker, so even that wouldn't shift much. Honestly none of this touches the carvery and the freezer meals, where most of my food comes from, and a vending machine is something I hardly ever use. Still, if anything moves me it's the number with no lecture, and the photos a little on top of that because of my blood pressure.\n\n{\"points\": {\"A\": 20, \"B\": 11, \"C\": 0, \"D\": 4, \"E\": 14, \"F\": 51}, \"most_ignored\": \"C\", \"why\": \"Nothing on the label means nothing to make me think, and the plain text warning just repeats what I already know.\"}",
+   "points": [
+    20.0,
+    11.0,
+    0.0,
+    4.0,
+    14.0,
+    51.0
+   ],
+   "round1_points": [
+    30.0,
+    20.0,
+    0.0,
+    8.0,
+    17.0,
+    25.0
+   ],
+   "critique": "You're kidding yourself about the numbers: you said you're not counting calories and you buy whatever's on the yellow sticker, so 240 vs 95 will bounce off you the same way \"five a day\" does. The photos will do less than you claim too, since you told me you'd look away and resent the lecture, yet you've scored A at 30 and B at 20 as if shock works on a man who already got his blood pressure result and only swapped the salt. What you've underrated is that you're a Thursday carvery and freezer-meal man since Maureen went, so none of this touches where your real calories come from, and the one thing that would land is something about those ready meals and the pub, with a plain fact on it and no telling-off. Your own logic says F and E beat the graphic ones, so ranking A top is you talking yourself into the dramatic option when you've already admitted you'd glance past it."
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Fair points, some of them. I did say I'd resent the photos and tune them out, then gave F the top mark anyway, which doesn't add up. On a bad shift I'm probably reaching for the Dairy Milk whatever the label says, and me and the other HCAs would take the mick out of a bowel tumour on a Galaxy bar and then eat it. The calorie badge is still the only thing I could use without being lectured, so B stays at the top. I'd still say the plain text is wallpaper, though it's not totally useless. The teeth thing shows I only change when something hurts, and a line about real health problems might stick a bit. But I won't pretend it would do much.\n\n{\"points\": {\"A\": 20, \"B\": 40, \"C\": 4, \"D\": 6, \"E\": 0, \"F\": 30}, \"most_ignored\": \"E\", \"why\": \"The calorie badge is the only label I could actually use without being talked down to, while the photos would be joked about and tuned out and no label at all changes nothing.\"}",
+   "points": [
+    20.0,
+    40.0,
+    4.0,
+    6.0,
+    0.0,
+    30.0
+   ],
+   "round1_points": [
+    14.0,
+    38.0,
+    5.0,
+    3.0,
+    0.0,
+    40.0
+   ],
+   "critique": "You're kidding yourself about the calorie badge: you're knackered at the vending machine after a bad shift, and \"95 versus 240\" will lose to \"I've earned it\" nine times out of ten, because the number tells you nothing you'd act on when you're running on fumes. You say you'd resent the photos and tune them out, then give F the top score anyway, and that's the same tone that annoys you, just with a bowel tumour on it. You've also underrated the text warning: you only changed your fizzy drinks because your teeth hurt, so a plain line linking snacks to something real and painful might land harder than \"wallpaper\", especially coming without the lecture. Be honest too that you and your mates would clock the photos, joke about them, and then buy the Dairy Milk anyway, so B probably deserves the lead over F."
+  },
+  {
+   "persona": "bc52ac20f2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "Fair points from my mate, though not all of them. The dentist thing is true: what changed my fizzy drinks habit was a blunt, physical jolt, not a number, so I'll admit the photos would probably hit harder than I said, especially early on. And I was probably being a bit idealistic about the calorie badge, because when I'm knackered I'm not doing maths, and 95 versus 240 could just tell me the sausage roll is cheaper per calorie. But I don't buy that C is underrated, since the plain text is wallpaper to me and it just adds a lecture to a number I'd already use. So I'm shifting weight toward the graphic ones, trimming B, and leaving C about where it was.\n\n{\"points\": {\"A\": 4, \"B\": 18, \"C\": 16, \"D\": 33, \"E\": 26, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"A blunt physical jolt is what actually changed my habits before, so the graphic photos get more weight, while the calorie badge alone is less likely to beat tiredness and a tight budget.\"}",
+   "points": [
+    4.0,
+    18.0,
+    16.0,
+    33.0,
+    26.0,
+    3.0
+   ],
+   "round1_points": [
+    6.0,
+    28.0,
+    17.0,
+    30.0,
+    16.0,
+    3.0
+   ],
+   "critique": "Mate, you say you'd count calories like you count pounds, but you told me you grab toast when you're knackered and you've got one pan for beans, so a \"240\" badge isn't going to beat tiredness and twelve quid until Friday. You're also kidding yourself that you're immune to scary pictures: you only quit fizzy drinks because your teeth hurt and the dentist was blunt, and that's a harsh, personal, physical jolt, which is exactly what a bowel tumour on a Twix is, so D and E probably land harder than you admit. And the badge could backfire, because 95 on a fruit pot next to the brown-bananas reality at your shop just tells you the cheap sausage roll is a better value per calorie. Where you're underrating things is C: the plain text plus the number gives you the useful comparison without the shouting, and you gave it a middling score for no good reason."
+  },
+  {
+   "persona": "f1a15a7249",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "Fair enough, my mate's got a point. I said the photos would wear off in a week and sound preachy, then gave them nearly half my points, which doesn't add up. The calorie badge is the one thing that fits how I actually decide, because it's quick, plain and doesn't make me feel judged for being skint. I'd still say it only nudges me, since price and tiredness win most days, but it's the only one I'd really use. I'll leave a bit for the photos for the first couple of weeks, and the plain text warnings are basically fag-packet small print to me.\n\n{\"points\": {\"A\": 4, \"B\": 22, \"C\": 0, \"D\": 60, \"E\": 10, \"F\": 4}, \"most_ignored\": \"C\", \"why\": \"A plain calorie number is quick and non-judgmental so it's the only thing I'd use day to day, while text warnings I'd ignore and photos would wear off fast.\"}",
+   "points": [
+    4.0,
+    22.0,
+    0.0,
+    60.0,
+    10.0,
+    4.0
+   ],
+   "round1_points": [
+    12.0,
+    30.0,
+    0.0,
+    36.0,
+    14.0,
+    8.0
+   ],
+   "critique": "Mate, you say you'd get used to the photos in a week and find them preachy, then hand B 30 points and E another 14. That's nearly half your budget on something you've admitted bounces off. And you're kidding yourself about the calorie badge: you eat toast, noodles and frozen chips because they're cheap and need no effort, so \"95 vs 240\" isn't changing anything when the meal deal's on offer and you're knackered after a shift on the phones. The thing you've underrated is that D is the only one that doesn't make you feel judged for being skint, and you already ignore the fag-packet text, so A and F deserve close to nothing. Also, you're an NHS-trusting bloke who cut down the fizzy drinks because of headaches and your mum, so a plain number you can compare quickly is exactly your style, and D should get way more than 36."
+  },
+  {
+   "persona": "447b947c00",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Fair points, mostly. The photos would make me wince for a week and then I'd stop seeing them, and they're exactly the preachy tone I can't stand, so C shouldn't be getting that much. Plain text warnings I'd scroll past. I do think the calorie badge is the one thing that gives me something to compare without a lecture, even if it won't touch my meal deal autopilot much. I'd still keep some points on E because the photo plus numbers has a short-term shock, but D should lead.\n\n{\"points\": {\"A\": 2, \"B\": 12, \"C\": 6, \"D\": 46, \"E\": 32, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"Plain unlabelled snacks tell me nothing new, whereas a neutral calorie number is something I'd actually compare at the vending machine without being lectured.\"}",
+   "points": [
+    2.0,
+    12.0,
+    6.0,
+    46.0,
+    32.0,
+    2.0
+   ],
+   "round1_points": [
+    4.0,
+    15.0,
+    17.0,
+    26.0,
+    36.0,
+    2.0
+   ],
+   "critique": "Mate, you say the photos would feel preachy and you'd get used to them in a week, then give E the top score anyway. That's the exact tone you moan about, and you'd be walking past a tumour photo on your 4pm vending machine run like it's wallpaper. You're also flattering yourself with the \"I check numbers like prices\" line: you check prices because they hit your wallet, but 240 vs 95 costs you nothing, and you'll buy the cheese and the meal deal crisps regardless because you \"don't really decide\". The calorie badge probably does less than you think for the meal deal autopilot, but you've underrated how it plays with your hate of being lectured: it's neutral, no finger-wagging, so D probably deserves more than B and C ever will. And you've given C 17 while saying you'd get used to it and find it preachy, which doesn't hold up, so drop C and A to near nothing and put the weight on D."
+  },
+  {
+   "persona": "d4e5efe756",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "Fair points, some of them. The friend's right that I'm kidding myself a bit on the graphic photos: I'd flinch for a week, then get used to them, and they're the preachiest thing here, which is exactly what I can't stand. And when I'm skint and tired, a 70p yellow-sticker Dairy Milk will win regardless. But the comparison point lands, because I compare numbers all day (price per kilo, stickers), so a calorie badge fits how I already shop. I'd put E and B up a bit and bring F and D down. Plain text is mostly wallpaper, though I'll give it a touch more credit for not being theatrical.\n\n{\"points\": {\"A\": 7, \"B\": 20, \"C\": 0, \"D\": 14, \"E\": 30, \"F\": 29}, \"most_ignored\": \"C\", \"why\": \"A plain calorie number fits how I already compare prices and would nudge me without lecturing, whereas shock photos would wear off and just irritate me.\"}",
+   "points": [
+    7.0,
+    20.0,
+    0.0,
+    14.0,
+    30.0,
+    29.0
+   ],
+   "round1_points": [
+    5.0,
+    15.0,
+    0.0,
+    22.0,
+    20.0,
+    38.0
+   ],
+   "critique": "Mate, you're kidding yourself with that 20 for calorie badges: you said yourself you cut the Coke because of the 3pm crash, not because anyone told you anything, and you're skint and knackered, so you'll grab the 240 Dairy Milk anyway because it's 70p on a yellow sticker. F at 38 is the \"I'm a person who'd be shocked into changing\" fantasy, since you admit you'd get used to it in a week and it's the most preachy, lecturing thing on the list, which is exactly what you hate. Where you've underrated something is the \"95 vs 240\" comparison, because you actually do compare prices and stickers all day, so a number you can compare fits how you already shop and B or E should be higher than A by more than you've given. Also, the plain text wasn't worthless: it's the only one that doesn't make you roll your eyes at the tone, so 5 is harsh when D and F would make you feel nagged and tune out faster."
+  },
+  {
+   "persona": "c4b8ff19b6",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Fair points, some of them. The friend is right that \"in the moment\" is when I'd actually choose, so I've probably undersold F. A photo of a bowel tumour on a Dairy Milk would make me hesitate for a second, even if I'd resent it. And yes, I'm not disciplined, so \"usable information\" is partly me flattering myself. But the number is still the only thing I could tie to my running, and that's what changed my breakfast, so I'd keep E on top. I'd also admit C is basically B with a sentence I'd tune out, so they sit together at the bottom.\n\nI'd shift some points from E to F and D, trim the gap, and make C and B nearly equal.\n\n{\"points\": {\"A\": 4, \"B\": 1, \"C\": 1, \"D\": 20, \"E\": 42, \"F\": 32}, \"most_ignored\": \"B\", \"why\": \"Calorie badges still give me something I can use for running, the gory photos would bite a bit more in the moment than I admitted, and a plain-text warning is basically the same as no label at all.\"}",
+   "points": [
+    4.0,
+    1.0,
+    1.0,
+    20.0,
+    42.0,
+    32.0
+   ],
+   "round1_points": [
+    3.0,
+    0.0,
+    2.0,
+    22.0,
+    50.0,
+    23.0
+   ],
+   "critique": "You're kidding yourself that you'd shrug off the photos: you say F would put you off \"a bit more than E in the moment,\" yet you give it half the points of E, and that \"in the moment\" is the only moment a snack decision happens. You also say you'd glance at the badges but still grab the Dairy Milk after a run, so the \"usable information\" is mostly flattering yourself, since you're a fancy-and-what's-in-the-cupboard eater who admits to zero discipline and doesn't track food spend. The real thing you've underrated is your own breakfast story: you changed because a concrete cost (hitting the wall) showed up, so a number you can tie to your run fuelling would land far harder than any cancer line, and that's why D and F barely beating C and A looks off when the text adds irritation, not information. Also, calling B \"most ignored\" is lazy, because the plain-text C you scored 2 is just B with a sentence you've already said you'd tune out, so they're basically tied at the bottom."
+  },
+  {
+   "persona": "1094f782dc",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Fair points, some of them annoyingly accurate. I'd glance at \"240\" and still buy the Dairy Milk if it's 85p and I've had a day, and with Crohn's a low number on apple crisps tells me nothing about whether they'll set me off. The bowel tumour photo is different, because bowel cancer is a real worry for people with Crohn's, so it would stick even if I hated looking at it. I'd still say the plain text is wallpaper and the calorie badge is the least patronising thing here, but \"least patronising\" isn't the same as \"changes what I buy\". Unlabelled is basically nothing, so it should be near zero.\n\n{\"points\": {\"A\": 3, \"B\": 25, \"C\": 33, \"D\": 14, \"E\": 20, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"With no label at all there's nothing to notice, while the plain text is wallpaper and the calorie number is only a mild nudge, so the bowel photo is the only thing likely to stick.\"}",
+   "points": [
+    3.0,
+    25.0,
+    33.0,
+    14.0,
+    20.0,
+    5.0
+   ],
+   "round1_points": [
+    4.0,
+    12.0,
+    24.0,
+    22.0,
+    33.0,
+    5.0
+   ],
+   "critique": "Mate, you say you're not a calorie counter and that the vending machine choice is hunger, gut and price, then you give 79 of 100 points to calorie badges. That's you flattering yourself as a tidy, informed chooser, when you'd actually clock \"240\" for half a second and still buy the Dairy Milk because it's 85p and you've had a rubbish day. Also, you said you can't stand the one-size-fits-all tone, yet a calorie number is exactly that, and with Crohn's a low number on a fruit pot or apple crisps could steer you wrong when your gut's the thing deciding.\n\nThe graphic photo is where you're underrating it: you said you'd look away, but you'd still register the bowel tumour, and with Crohn's, bowel cancer isn't abstract to you or anyone else with it. That's the one message that would actually stick, so ranking C at 24 and B at 12 while A at 4 looks off, because the real split is between \"preachy text\" and \"image that hits home.\"\n\nYour \"most ignored\" pick of A is right, but F isn't much better, so scoring it 5 while claiming you'd tune out everything is a bit tidy."
+  },
+  {
+   "persona": "3a61cdc446",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "Fair, partly. I did make the badge sound like it would do more than it would. I don't count calories, I buy what looks good, and I'd probably eat the Dairy Milk regardless. But the beef point stings because it's true: what moved me was a specific, vivid consequence, not a number. A tumour photo would stick in my head, and I'd probably hesitate for half a second before the Doritos, even while resenting being nudged. I still think the tone is patronising and the plain text would slide past me. So I'd move points from the badge-only options towards the graphic ones, keep F as a respectable second-tier option, and accept that none of this changes much in a vending machine I rarely use.\n\n{\"points\": {\"A\": 24, \"B\": 0, \"C\": 16, \"D\": 30, \"E\": 6, \"F\": 24}, \"most_ignored\": \"B\", \"why\": \"Vivid images would stick with me more than I'd like to admit, while a calorie badge alone is something I'd mostly glance past and an unlabelled snack gives me nothing at all.\"}",
+   "points": [
+    24.0,
+    0.0,
+    16.0,
+    30.0,
+    6.0,
+    24.0
+   ],
+   "round1_points": [
+    8.0,
+    0.0,
+    34.0,
+    14.0,
+    6.0,
+    38.0
+   ],
+   "critique": "Mate, you're flattering yourself: you say you'd eat the Dairy Milk and not think twice, then give calories 34 points as if a badge would nudge you, when you're a man who drives across town for cheese and spends freely without counting. Nobody on that allotment is switching snacks over \"240 CALORIES\"; that's a tidy answer to look reasonable, not a habit you actually have. You also claim the graphic photos would just irritate you, but you quit beef over a read about emissions, which means vivid, specific consequences move you more than you admit, and a bleeding eye or a tumour photo would stick in your head longer than any badge. Where you're onto something real is the tone point: the pictures would bounce off the people we know as \"nanny state\" and get mocked, while the plain text plus numbers reads like information, so F over D is a fair call, but don't pretend the badge is doing the work."
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "Fair points, some of them. I did say the photos would annoy me and then gave E the most, which doesn't add up. I'd wince, get cross, and look away, and I'd still buy the Dairy Milk for the kids if it was on offer. The calorie number is the one thing I might actually use, because I already read yellow stickers and prices closely. Still, I'm not going to pretend it beats the cost of a fruit pot, and A does nothing, though that's a fair description of most of my tired Saturday shop. So I'm moving points away from the shouty ones and towards C and B, with E and F still getting something because the shock would have some effect in the moment.\n\n{\"points\": {\"A\": 2, \"B\": 24, \"C\": 30, \"D\": 10, \"E\": 20, \"F\": 14}, \"most_ignored\": \"A\", \"why\": \"A gives me nothing at all, whereas a calorie number plus a plain reason is something I'd actually use without feeling lectured, while the graphic photos would mostly just irritate me.\"}",
+   "points": [
+    2.0,
+    24.0,
+    30.0,
+    10.0,
+    20.0,
+    14.0
+   ],
+   "round1_points": [
+    0.0,
+    17.0,
+    27.0,
+    11.0,
+    31.0,
+    14.0
+   ],
+   "critique": "You're kidding yourself that a calorie badge is \"neutral and useful\": you're knackered, shopping with kids in tow, and you'd skim past a number on a Dairy Milk bar in about half a second, and a 95 on a fruit pot won't beat the four-quid-pears maths you already said wins. You also say the warnings feel preachy and the photos would make you resent it, yet you scored E highest, and that's the same tone problem you moan about with \"just eat five a day,\" so I don't buy that it'd shift your basket rather than just make you scroll Instagram to cheer up. What you've underrated is the food bank and yellow-sticker planning: you already read labels hard to save money, so a calorie number as a cheap-per-calorie comparison could land more than you admit, and C's \"reason plus number\" is probably the one that sticks without the shaming. Also, saying A \"does nothing\" is lazy, because nothing is exactly what 90% of what you'd buy on a tired Saturday gets, and your scores for the preachy ones are way too generous."
+  },
+  {
+   "persona": "94131bcc8c",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "Fair points, to be honest. I did give myself too much credit on the calorie sums. At the end of the month I'm buying whatever's cheapest, and a number on a fruit pot won't make it cost less. The photos are exactly the tone I can't stand, so E at 20 doesn't fit with what I said. I'd wince, then stop seeing it.\n\nThe plain warning does sound more like the NHS site than the Facebook stuff, so I'll give it more credit. I still think the calorie badge is the only thing that gives me something to use, even if I use it less than I claimed. Mostly nothing changes what ends up in the trolley, so the points are low and spread thin.\n\n{\"points\": {\"A\": 4, \"B\": 12, \"C\": 33, \"D\": 0, \"E\": 12, \"F\": 39}, \"most_ignored\": \"D\", \"why\": \"Calories plus a sober NHS-style warning is the only mix I'd trust, but my budget and my biscuit habit mean none of it changes much, and the gory photos just feel like being blamed.\"}",
+   "points": [
+    4.0,
+    12.0,
+    33.0,
+    0.0,
+    12.0,
+    39.0
+   ],
+   "round1_points": [
+    8.0,
+    3.0,
+    42.0,
+    0.0,
+    20.0,
+    27.0
+   ],
+   "critique": "Mate, you say you'd use the calorie badge to compare, but you plan backwards from reduced stickers and whatever's in the fridge, so be honest: at the end of the month you're buying the 4-for-\u00a32 biscuits, not doing sums on a fruit pot that costs three times as much. And \"I won't give up biscuits\" tells me a number on the Hobnobs is just a number you'll read once and then ignore, same as the photos. You've also underrated the plain warning, because you're the person who trusts the GP, the pharmacist and the NHS site, and flat, sober wording sounds like them, whereas the gory photo sounds like the Facebook scaremongering you bin. So why is F only 27 and E at 20 when E has the exact tone you said you hate?"
+  },
+  {
+   "persona": "9daa53b3ac",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Fair point on some of it. The documentary is the one thing that actually changed how I eat, and that was images of how animals are kept, so I can't pretend pictures don't get to me. A calorie badge on a Dairy Milk bar I'd probably glance at once and forget, since I don't count calories and I'm hardly buying vending machine snacks. But I'd push back a bit: the documentary worked because it was about animals and I felt it as a moral thing, whereas a bowel tumour on a Galaxy bar would feel like being nagged about my own body, and I'd get used to it fast. So I'll shift points toward the photo options, but I won't drop C to nothing, because the numbers are the only thing that helps me compare the apple crisps with the Doritos when I'm skint and choosing.\n\n{\"points\": {\"A\": 7, \"B\": 4, \"C\": 19, \"D\": 0, \"E\": 27, \"F\": 43}, \"most_ignored\": \"D\", \"why\": \"Plain text and no labels would bounce off me, while graphic images are the only thing in my history that has actually changed what I eat, with calorie badges a useful but weaker extra.\"}",
+   "points": [
+    7.0,
+    4.0,
+    19.0,
+    0.0,
+    27.0,
+    43.0
+   ],
+   "round1_points": [
+    14.0,
+    6.0,
+    27.0,
+    0.0,
+    20.0,
+    33.0
+   ],
+   "critique": "You say you'd use calorie counts to compare, but you don't count calories and you cook from the cupboard, so be honest: a badge on a Dairy Milk bar is something you'd glance at once and then ignore, same as everyone else we know. You're also kidding yourself about the photos. You already changed your diet because of a documentary, so you're clearly someone who responds to graphic images, and you've underrated that, since F is the one you gave the most points while claiming you'd resent it. Your resentment of \"preachy\" is mostly pose, because what actually moved you was being shown something you couldn't unsee, and the plain text in A and B would bounce right off you, as you admitted yourself. Last, you're scoring C at 27 for being \"useful\" when the real test is whether it changes what you do, and your own history says the images would do more than the numbers."
+  },
+  {
+   "persona": "e08b1dd411",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "My friend's got a point on a few things. I do hunt yellow stickers for the price, not the number, and I've never counted calories in my life. A bare \"240\" doesn't mean much without knowing what a day's worth is, so I'd probably glance and shrug. And the dentist thing is fair: being told bluntly and personally is what actually worked on me, so I can't pretend I'm immune to a shock.\n\nI'd still say the plain text warning is wallpaper, and I'd still bristle at the photos. But I'd probably look away from them and still feel put off the chocolate in the moment, which is more than a number would do. A calorie badge does help a bit when it's a comparison, like 95 next to 240, but I overstated it. So I'd shift some points toward the graphic ones, trim the badge-only option, and keep the plain text low. D stays the most ignored, since nothing changes there, though C is a close second.\n\n{\"points\": {\"A\": 30, \"B\": 25, \"C\": 4, \"D\": 0, \"E\": 20, \"F\": 21}, \"most_ignored\": \"D\", \"why\": \"Unlabelled snacks give me nothing at all, and the plain text warning would be wallpaper, while the graphic photos would actually stick in my head even if they annoy me.\"}",
+   "points": [
+    30.0,
+    25.0,
+    4.0,
+    0.0,
+    20.0,
+    21.0
+   ],
+   "round1_points": [
+    22.0,
+    40.0,
+    3.0,
+    0.0,
+    12.0,
+    23.0
+   ],
+   "critique": "You're kidding yourself that you'd read the badge like a yellow sticker, because you hunt those for the price, not the number, and you've never once counted calories on pasta night or at the Sunday roast. A bare \"240\" means nothing unless you know what a day's worth is, so you'd glance, shrug and chuck the Dairy Milk in the basket anyway. You also say the graphic photos make you roll your eyes, yet you cut the sugar in your tea because the dentist had words, and that was blunt, personal and a bit scary, so scoring A and E that low is you pretending you're immune to being told off. Putting D as most ignored is daft too, since the plain text warning (C) is the real wallpaper, and giving it 3 while handing F 23 shows the badge is carrying all the weight in your head, which is more faith in numbers than people like us have."
+  },
+  {
+   "persona": "f8997e000a",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "Fair points, some of them. I do buy from a Sunday shop and eat what's in the house, so a calorie badge I'd compare in a vending machine matters less in my real week. And yes, F at 30 next to C at 35 was inconsistent: if text is wallpaper, it shouldn't be earning me points. The dentist thing is true too. What worked was someone making it personal and concrete, so the photos probably stick longer than I wanted to admit, even though I'd resent them.\n\nI still think the calorie number is the only thing that's useful, and it does help in a rush. But I'd cut it back, because most of what I eat is decided before I'm anywhere near a label. The photos get a bit more, and the text-only ones less.\n\n{\"points\": {\"A\": 28, \"B\": 18, \"C\": 28, \"D\": 0, \"E\": 2, \"F\": 24}, \"most_ignored\": \"D\", \"why\": \"Calorie badges are the only thing I'd actually use, but my snacks mostly come from a Sunday shop, so I've cut them back and given the photos more credit for sticking, even though I'd hate them.\"}",
+   "points": [
+    28.0,
+    18.0,
+    28.0,
+    0.0,
+    2.0,
+    24.0
+   ],
+   "round1_points": [
+    22.0,
+    10.0,
+    35.0,
+    0.0,
+    3.0,
+    30.0
+   ],
+   "critique": "You're kidding yourself that you'd weigh up a \"240\" against a \"95\" at 9pm after your course, when you've said you pick food by what's in the house and how knackered you are, and the snacks come off a Sunday online shop where nobody's standing in an aisle comparing badges. Your own story undermines you too: the sugar in your tea stopped because your dentist nagged, and a personal, concrete consequence got through, so the graphic photos probably stick more than you're admitting, even if you hate being treated like you're daft. You also contradict yourself by calling text warnings wallpaper and then scoring F at 30, practically level with calories alone, so either the text does something or it doesn't. And a calorie number on a Dairy Milk won't stop anyone in our house, because we know it's chocolate, so I'd call C's 35 optimistic."
+  },
+  {
+   "persona": "3b859ef636",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Fair points, partly. I do skip the maths on a rubbish Wednesday, and \"I earned it\" after a long run is very much a thing for me. The photos would genuinely stop my hand in the moment, and I react strongly to images of suffering, so I probably did undersell them. But I still think they'd wear off within a few weeks, and I'd resent being shocked at a vending machine. The calorie badge still gives me something to use, just maybe less reliably than I claimed. So I'll move some weight toward the graphic versions but keep E near the top.\n\n{\"points\": {\"A\": 30, \"B\": 10, \"C\": 3, \"D\": 0, \"E\": 30, \"F\": 27}, \"most_ignored\": \"D\", \"why\": \"Graphic images would stop my hand in the moment more than I admitted, though calorie badges still give me something useful, and no labels or plain text would do nothing.\"}",
+   "points": [
+    30.0,
+    10.0,
+    3.0,
+    0.0,
+    30.0,
+    27.0
+   ],
+   "round1_points": [
+    22.0,
+    14.0,
+    4.0,
+    0.0,
+    42.0,
+    18.0
+   ],
+   "critique": "You're being idealistic about the calorie badge: you're a runner in training who already thinks about fuel, and most people like us at the till aren't comparing 240 against 95, they're grabbing what the kids will eat and skipping the maths. Calories are also a nudge you'd quietly ignore on a Wednesday when the meal plan has collapsed and you're knackered, and \"I earned it\" is a very easy thing for a half-marathon trainee to say. You waved off the graphic photos as desensitising lecturing, but you also said they'd put you off in the moment, and that's the thing that actually bites at the point of grabbing a biscuit, and it fits your animal-welfare gut reaction to images you can't unsee. Giving A only 22 and F 18 while E gets 42 underrates that, and you're also overrating how neutral a calorie number feels to people who are already anxious about food or prices, since a bold badge can read as just another finger-wag."
+  },
+  {
+   "persona": "1b922a1cd2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Fair enough, my friend has a point. I do say I'd resent things, and the cholesterol result did move me because it was frightening and came with a real number. A calorie badge on its own is easy to stop seeing by week two, especially on a Friday with the kids' biscuits in the trolley. The graphic photos would make me wince, and they would stick, so B was probably too low.\n\nI still don't think the plain text does anything, and I'd tune out a label with no pictures and no numbers. The badge is still the only thing that gives me something to compare, and the photo alone gives me nothing to swap to. So the combination of fear and a figure is probably what would actually work on me, which makes F first. A and E drop a bit, and B goes up.\n\n{\"points\": {\"A\": 16, \"B\": 18, \"C\": 0, \"D\": 2, \"E\": 24, \"F\": 40}, \"most_ignored\": \"C\", \"why\": \"No label changes nothing, and plain text is just more wagging I'd tune out, whereas the photo plus a calorie number is the only combination that feels like my cholesterol scare.\"}",
+   "points": [
+    16.0,
+    18.0,
+    0.0,
+    2.0,
+    24.0,
+    40.0
+   ],
+   "round1_points": [
+    30.0,
+    8.0,
+    0.0,
+    3.0,
+    25.0,
+    34.0
+   ],
+   "critique": "You're kidding yourself that a calorie badge nudges you to the fruit pot: you buy good cheese and a proper bit of lamb without guilt, you cook from whatever you fancy, and you only cut crisps in multipacks after a blood test scared you, so \"240 vs 95\" is more likely to become background noise by week two, especially when you've just told me cholesterol is about saturated fat, not calories. You've also underrated the graphic photos: you admitted they'd stick in your head, and a lass who changed her habits because of a real number on a real result responds to something that feels personal, so scoring B at 8 while handing F 34 is inconsistent. Be honest that \"I'd resent it\" is what you say about anything that works, and your own story shows fear plus a concrete figure moved you, not a neutral badge. And the plain text, which you'd scroll past, is right to be bottom of the pile, but your claim that A beats F because it \"leaves the decision to me\" is flattering yourself, because you'd happily ignore a badge on a Friday night with the kids' biscuits in the trolley."
+  },
+  {
+   "persona": "9d16508d2d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Fair point on a few things. I don't actually know if 240 is a lot, and I'd probably glance at it and still buy the Doritos, because what I grab is mostly down to what's cheap or reduced. So I'll knock C down. The friend is right that F and D shouldn't be level when I've just said pictures irritate me. But I also can't pretend the nagging didn't work on me with the sugar. The graphic ones are the sort of thing that gets shared round and talked about, and that sticks in my head more than a number does. I'd still never admit it, but the picture might make me put the Dairy Milk back at least some of the time. The plain text warning I'd still scroll past, and B is nothing.\n\n{\"points\": {\"A\": 14, \"B\": 0, \"C\": 22, \"D\": 22, \"E\": 4, \"F\": 38}, \"most_ignored\": \"B\", \"why\": \"A bare number means little when I don't know what's a lot, whereas a shocking picture plus a comparison figure is the kind of nagging that actually stuck with me before.\"}",
+   "points": [
+    14.0,
+    0.0,
+    22.0,
+    22.0,
+    4.0,
+    38.0
+   ],
+   "round1_points": [
+    6.0,
+    0.0,
+    34.0,
+    28.0,
+    4.0,
+    28.0
+   ],
+   "critique": "You're being idealistic about the numbers: you say a bare calorie count registers, but you're someone who dropped sugar in tea because you couldn't be bothered, not because a figure told you to. You'll glance at \"240\" and still buy the Doritos, since you don't actually know if 240 is a lot, and the Co-op reduced shelf drives your choices more than any badge. Your own reasoning says pictures irritate you, yet you give F the same 28 as D, which is inconsistent, and the lecture you hate is exactly what D's text warning adds on top of C. Meanwhile you've underrated the thing that did land for you: a mate at work nagging you repeatedly, so a blunt, repeated, in-your-face message like A or F, passed around via Priya or a shared post, might stick more than you admit, even if you'd never say so."
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Fair point from my mate. I did say the photos would irritate me and I'd look away, so giving F 37 doesn't hang together. The badge is the only thing doing any work for me. The warnings are noise, and the pictures are worse than noise. I'll move most of F's points to B.\n\nI'm still not convinced the badge would change much, though. A reduced Dairy Milk at 30p is a bargain whatever the number says, and on a long ride I want the calories. But the number next to the price does make me think per penny, and that's how I already work. So B gets the bulk, and A and F keep a few points for the small extra nudge.\n\n{\"points\": {\"A\": 10, \"B\": 66, \"C\": 2, \"D\": 3, \"E\": 0, \"F\": 19}, \"most_ignored\": \"E\", \"why\": \"The plain calorie badge is the only thing that fits how I already think about price and fuel, while warnings and gory photos are lectures I'd look past.\"}",
+   "points": [
+    10.0,
+    66.0,
+    2.0,
+    3.0,
+    0.0,
+    19.0
+   ],
+   "round1_points": [
+    14.0,
+    42.0,
+    3.0,
+    4.0,
+    0.0,
+    37.0
+   ],
+   "critique": "Mate, you say the photos would irritate you and you'd look away, then give F 37 points. That's a graphic-warning-plus-badge message you've just told us you'd scroll past, so either F drops hard or you're admitting the badge is the only thing doing any work. You're also kidding yourself that you \"barely buy snacks\": you're a price-obsessed lad who loves a yellow sticker, so a reduced Dairy Milk or shortbread at 30p would absolutely end up in your basket, and that's where a calorie number sat next to the price would bite. You're underrating how well B lands with people like us: it's numbers, it doesn't preach, and it fits how you already think, per penny and per ride. And your pasta story proves it, since you only noticed you were running out of fuel when you started thinking in energy terms, so a badge that frames calories as fuel as well as a cost would stick far better than any \"excess calories cause cancer\" line."
+  },
+  {
+   "persona": "243c6bdb1b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    4,
+    5,
+    2,
+    0
+   ],
+   "raw": "Fair, my friend's got a point on some of it. I'd be kidding myself that a photo keeps working after the second week, and price does decide my basket at ten to seven, so none of these really touch that. But I won't swallow all of it. A calorie number is still the only thing here that helps me compare when I'm standing in front of the yellow stickers, and the plain heart disease wording does link to my blood pressure, so I'll bump that up. The photos get a wince, then I'm used to them, so I'll cut F and B down.\n\n{\"points\": {\"A\": 20, \"B\": 12, \"C\": 10, \"D\": 0, \"E\": 28, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"Nothing here fixes price, but calorie badges help me compare on the spot and the blunt heart warning ties to my blood pressure, whereas the photos would wear off fast and no labels does nothing.\"}",
+   "points": [
+    20.0,
+    12.0,
+    10.0,
+    0.0,
+    28.0,
+    30.0
+   ],
+   "round1_points": [
+    12.0,
+    20.0,
+    5.0,
+    0.0,
+    23.0,
+    40.0
+   ],
+   "critique": "You're kidding yourself that you'd \"get the shock and the number\" and it would stick: you buy whatever's on a yellow sticker at 6:50pm after twelve hours out, and you admitted you'd get used to the photos fast, so F is mostly a wince followed by the same sausages and Hobnobs. Calorie badges don't touch your real problem either, because price decides your basket, and a 95-calorie fruit pot at \u00a31.50 still loses to a reduced pack of biscuits, so 23 for E is you wanting to feel in control rather than actually changing anything. You've also underrated the plain warning (A and C): you said you'd read it once and ignore it, but you're the person who cut down Hobnobs after a blood pressure reading, so \"heart disease\" in blunt words linking to *your* number is exactly what lands, and 5 for C is daft. Be honest that the thing that works on you is personal and specific, not shock, and that none of these touch the cost you're so annoyed about."
+  },
+  {
+   "persona": "b440ca7285",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    0,
+    5,
+    1,
+    3,
+    2
+   ],
+   "raw": "Fair points, some of them. I did say calories aren't really what I watch, and on a bad day I'm not reading badges, I'm grabbing whatever I can open. And a number on a Dairy Milk doesn't tell me about sugar or price, so I was a bit tidy about F. The diabetes line is what moved me with my tea, because it was my sister and it was real. A plain sentence naming diabetes would stick more than I let on, though I'd still stop seeing it after a few weeks. The photos I'd mostly resent, but I'll admit they'd make me flinch. I still don't buy many snacks, so nothing here changes much, and cheap and easy to open will win most days.\n\n{\"points\": {\"A\": 18, \"B\": 12, \"C\": 0, \"D\": 30, \"E\": 10, \"F\": 30}, \"most_ignored\": \"C\", \"why\": \"Nothing shifts me much because price and opening them with sore hands decide most days, but a plain diabetes warning could stir me a bit like my sister's diagnosis did with my tea, and a calorie number helps a little on good days.\"}",
+   "points": [
+    18.0,
+    12.0,
+    0.0,
+    30.0,
+    10.0,
+    30.0
+   ],
+   "round1_points": [
+    5.0,
+    12.0,
+    0.0,
+    25.0,
+    8.0,
+    50.0
+   ],
+   "critique": "You're kidding yourself that you'd use calorie numbers: you said you plan nothing beyond Wednesday and on bad days it's beans on toast, so on a bad day you won't be squinting at a badge, you'll grab what you can open with those hands. Also, calories aren't your worry, sugar and money are, and a \"240\" on a Dairy Milk tells you nothing about either; a 95 on a fruit pot just tells you it costs more than a yellow-sticker biscuit. You've underrated the diabetes line, though: you cut your tea sugar after your sister's diagnosis, so a family-and-consequence message is exactly what has moved you before, and calling A \"noise\" while giving B 12 is a bit rich when you admit the photos would make you flinch. And \"I'd tune out the warnings but the number would nudge me\" is the tidy answer you'd give a stranger; most people like us ignore both and buy what's cheap and easy to open."
+  },
+  {
+   "persona": "25a19e0428",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair points, some of them. I'll admit the calorie number would probably fade into the background after a couple of weeks, and I don't buy many snacks anyway, so nothing here is going to change much. But I still think the badge is the only one that treats me like an adult, and it's the one I'd actually glance at when I'm standing there deciding. The plain text warning does sound more like the NHS than the photos do, so I'll give it a bit more credit, though it's still preachy. The photos I'd still roll my eyes at. My friend is wrong that they'd land, because the salt changed when the nurse showed me my own numbers, not because someone waved a tumour at me.\n\n{\"points\": {\"A\": 33, \"B\": 28, \"C\": 10, \"D\": 3, \"E\": 10, \"F\": 16}, \"most_ignored\": \"D\", \"why\": \"A graphic photo with no numbers is nagging without any useful information, so I'd look straight past it, and with so few snacks bought, nothing here changes much.\"}",
+   "points": [
+    33.0,
+    28.0,
+    10.0,
+    3.0,
+    10.0,
+    16.0
+   ],
+   "round1_points": [
+    40.0,
+    25.0,
+    15.0,
+    4.0,
+    6.0,
+    10.0
+   ],
+   "critique": "Come off it, you say you'd \"glance at the number and think twice about the shortbread,\" but you eat takeaway and ready meals and tell me you like your biscuits, so a bold 240 on a Dairy Milk will be wallpaper within a fortnight, and you've admitted you barely buy snacks anyway. You're also kidding yourself that the photos only irritate you: the salt only changed because the nurse put your own blood pressure numbers in front of you, and that's the bit that would land, something that feels personal and clinical rather than a lecture. Meanwhile you're underrating the plain text warning, because it's the one that sounds like the NHS rather than a shock tactic, and you trust the NHS, so giving it just 6 points looks like pride talking. Also, a calorie badge on the fruit pot as well as the chocolate is exactly the \"we're not idiots, here's the facts\" respect you say you want, so A deserves its lead, but don't pretend it'll change what ends up in your basket."
+  },
+  {
+   "persona": "6e58e1cd2f",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    4,
+    5,
+    0,
+    1,
+    3
+   ],
+   "raw": "Well, he's got a point about the photos. I said I'd find them insulting and look away, so giving them forty points was daft. And I do shop by the sticker and what's in the fridge, so a calorie number would probably be \"oh, interesting\" and then I'd buy whatever was cheapest. But I won't hand it all to E. The salt thing worked because it was my own blood pressure and Karen told me, not because of a label. A plain warning is something I've heard before, though next to a number it reads like a straight fact and doesn't talk down to me. I still think the number gives me something to use, so A and E come out top, with E slightly ahead.\n\n{\"points\": {\"A\": 30, \"B\": 6, \"C\": 0, \"D\": 9, \"E\": 40, \"F\": 15}, \"most_ignored\": \"C\", \"why\": \"A label that changes nothing gives me nothing, whereas a plain fact next to a number is the dry, no-nonsense tone I'd actually take in, unlike the shouting photos I'd look away from.\"}",
+   "points": [
+    30.0,
+    6.0,
+    0.0,
+    9.0,
+    40.0,
+    15.0
+   ],
+   "round1_points": [
+    30.0,
+    5.0,
+    0.0,
+    25.0,
+    25.0,
+    15.0
+   ],
+   "critique": "Come off it, you say you don't buy snacks from vending machines and that you hate being talked to like a child, then you give D and F 40 points between them for gruesome photos you admit you'd find insulting and look away from. That's you being nice to the \"shock value\" idea, not what you'd do, since you already told me you nod politely at your daughter's articles and skip the five-a-day posters. You're also kidding yourself that a calorie number steers you: you shop by yellow stickers and what needs using up in the fridge, so you'd mostly read 95 against 240 as interesting and then buy whatever's cheapest. What you've underrated is the plain warning in E, because the salt thing shows you do change when it's a straight fact tied to your own blood pressure, and a dry, no-nonsense line next to a number is exactly the tone you respect from Karen, not a poster shouting at you."
+  },
+  {
+   "persona": "5c295eb8a2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "raw": "My friend has a point about the numbers. I've never counted a calorie, and 240 against 95 would mean little to me next to a yellow sticker. I'd probably glance at it and move on. But I still think a graphic photo would irritate me, and I know I've ignored every poster that tells me off. That said, the blood pressure reading is what actually moved me, so something personal and vivid does land, and I can't honestly say the open-heart picture wouldn't stick for a bit. So I'll shift some points from F to the graphic ones, but not abandon the calorie badge entirely, since it's the only thing that gives me a comparison on the shelf.\n\n{\"points\": {\"A\": 0, \"B\": 30, \"C\": 15, \"D\": 3, \"E\": 24, \"F\": 28}, \"most_ignored\": \"A\", \"why\": \"A calorie number is easy to take in but I wouldn't act on it, while a graphic picture might stick in my mind even though I'd resent it.\"}",
+   "points": [
+    0.0,
+    30.0,
+    15.0,
+    3.0,
+    24.0,
+    28.0
+   ],
+   "round1_points": [
+    0.0,
+    22.0,
+    17.0,
+    3.0,
+    18.0,
+    40.0
+   ],
+   "critique": "You're kidding yourself that you'd read a calorie badge as \"just information\": you've never counted a calorie in your life, you shop on yellow stickers and offers, and 240 versus 95 will mean nothing to you next to a 40p discount. Your own story says price and salt moved you, because your blood pressure reading did, so what actually lands is something personal and concrete, and that's the graphic photo you say you'd \"look away\" from. Looking away is still seeing it, and you'd remember the open-heart picture at the Tesco shelf far longer than any number; \"resent and get used to it\" is a guess you've made without trying it, and it's the same line you'd give about every poster you've ignored. Also, you say you rarely buy snacks, yet you nearly dropped cheese and make pasta bakes, so you're ignoring that the real risk is in your big Thursday shop, which none of these labels would reach, and that muddies your 40 for F."
+  },
+  {
+   "persona": "69b60a8926",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    2,
+    1,
+    4,
+    0,
+    5
+   ],
+   "raw": "Well, she's got a point about the numbers. I've never counted a calorie in my life, and by week two I'd probably stop seeing it, especially when it's the cheapest thing that wins. But I'd still look at 240 against 95 now and then, and it doesn't nag at me. The diabetic eye, I'll admit, did make me flinch, because that's what Dr Hanif warned me about. I'd resent it, but it would stick more than a number would. The plain text I'd read once and then not notice, though it does sound like my GP, so I'll give it a bit more. I still barely buy these snacks, so none of it moves me much.\n\n{\"points\": {\"A\": 14, \"B\": 26, \"C\": 21, \"D\": 9, \"E\": 30, \"F\": 0}, \"most_ignored\": \"F\", \"why\": \"I'd concede the number turns into wallpaper and the diabetic-eye picture would bite harder, but I still think the calorie badge helps and plain text is easily ignored, and no label does nothing.\"}",
+   "points": [
+    14.0,
+    26.0,
+    21.0,
+    9.0,
+    30.0,
+    0.0
+   ],
+   "round1_points": [
+    8.0,
+    40.0,
+    24.0,
+    5.0,
+    23.0,
+    0.0
+   ],
+   "critique": "Love, you're flattering yourself: you say you'd \"work it out myself\" with 240 against 95, but you cook from whatever's in the fridge and you've never counted a calorie in your life. Be honest, that number would be wallpaper by week two, especially when the pension's gone on bills and the cheapest thing wins. You also said the diabetic eye is \"close to home\" and might put you off, then gave it only 23 points; that's the one thing you admitted would bite, and fear from your own warning from Dr Hanif lands harder than a number ever will. And you're underrating the plain text warning: you trust official, no-nonsense voices like your GP and pharmacist, and a flat, unshouty statement of fact is just their tone, not a lecture."
+  },
+  {
+   "persona": "d57d6d7c8a",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Fair points, some of them. I do buy the same things every week, and standing at a vending machine I'd probably grab what I always grab, so the calorie badge would likely fade into the background after a few goes. They're right about F too: if I say the photos nag me, I can't then give the photo-plus-numbers option nearly as much as the plain numbers. Photos make me look away and dig in.\n\nI still think numbers are the only thing I can actually use, because a text warning tells me what I know and a photo just irritates. But I'll admit the effect would be smaller than I claimed. As for the family angle, that's not one of the options here, so I can't give points to it. The yellow-sticker point is true but also isn't on offer.\n\nSo I'll trim the calorie options a bit, bring F down below E, and keep the rest low. Because I'd ignore most of it in practice, the total is still spread across A and E, with A slightly ahead since it's the cleanest. E adds a warning I'd skim over, but it doesn't hurt.\n\n{\"points\": {\"A\": 36, \"B\": 6, \"C\": 0, \"D\": 3, \"E\": 34, \"F\": 21}, \"most_ignored\": \"C\", \"why\": \"Calorie numbers are the only thing I can actually use to choose, but the photos would make me look away and dig in, and the plain warning just repeats what I know.\"}",
+   "points": [
+    36.0,
+    6.0,
+    0.0,
+    3.0,
+    34.0,
+    21.0
+   ],
+   "round1_points": [
+    33.0,
+    8.0,
+    0.0,
+    3.0,
+    25.0,
+    31.0
+   ],
+   "critique": "You're kidding yourself that you stand there comparing 95 against 240: you buy the same Saturday shop every week, eat a sausage roll standing up and love a bacon roll, so the badge would be read once and become wallpaper just like the text warning you wrote off. Giving F 31 while calling photos nagging is a mismatch, because you'd look away from those and nagging is exactly what makes people like us dig in, so F should sit closer to E or below it. Where you've undersold something is the guilt hook: you cut beef and lamb for your grandchildren's sake, so a message framed around what it means for them or around your own family would land far harder than any bowel tumour. Also, the \"careful with money\" bit is real, and calories per pound on a yellow-sticker deal is the sort of thing you'd genuinely use, not a bare number."
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Fair point about the biscuits, I'll give them that. A number on a packet is easy to get used to, and I haven't managed to give up the Hobnobs yet. The photos would probably get under my skin more than I let on, because the unpleasant picture is what sticks when I've got a packet in my hand. But I still think the calorie numbers are the only thing that helps me choose between two things, and Dawn doing the cooking and most of the shopping doesn't change what I reach for in a vending machine. So I'll move some points over to the photos and take a bit off the plain numbers, but not all the way.\n\n{\"points\": {\"A\": 30, \"B\": 26, \"C\": 3, \"D\": 0, \"E\": 18, \"F\": 23}, \"most_ignored\": \"D\", \"why\": \"I'll admit the grim photos would stick with me more than I let on, but the calorie numbers are still the only thing that helps me pick between two snacks, and a plain text warning is just more of the same old telling-off.\"}",
+   "points": [
+    30.0,
+    26.0,
+    3.0,
+    0.0,
+    18.0,
+    23.0
+   ],
+   "round1_points": [
+    22.0,
+    36.0,
+    4.0,
+    0.0,
+    12.0,
+    26.0
+   ],
+   "critique": "You say you'd use the calorie numbers, but you've cut the sugar in your tea and still can't give up the biscuits, so you know full well that \"240\" on a Hobnob won't stop you reaching for the tin; you'll glance at it once, then it's wallpaper like every other label. You're also underrating the photos: you admit they'd put you off \"in the moment\", and that's exactly when you're standing in Tesco with a yellow-sticker packet in your hand, and you'd likely pass the nagging off as someone else's problem while it works on you anyway. Giving A 22 and E 12 while saying the shock \"would resent it\" is you protecting your pride, not describing what you'd do. And the real thing you've missed is Dawn: you trust her and she does most of the cooking, so a message that hits the shopping and the biscuit tin she's buying for the whole house would land harder than anything aimed at you alone."
+  },
+  {
+   "persona": "30e7fafb8c",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "raw": "Fair point on F versus E: if I say I'd roll my eyes at the text warning, it makes no sense to put F above E. The plain text adds nothing the calorie badge doesn't already give me, and it's the preachy bit. The photos at least do something, even if it's just a grim image in my head for a day.\n\nI'm not convinced by the \"feels like my sister talking\" argument, though. She'd never shove a bowel tumour at me over a Dairy Milk, she'd just say eat decently and don't overthink it. Photos would put me off a bit, and I'd probably get annoyed too. They wouldn't change a Friday takeaway or a reduced chocolate bar. But I'll admit the calorie badge probably does less than I claimed, since I mostly buy on price and what's in the fridge. It would still be the one thing I'd actually use, mainly to spot the KIND bar isn't as light as I'd assumed. So C stays top, a bit lower, and E goes up.\n\n{\"points\": {\"A\": 0, \"B\": 2, \"C\": 38, \"D\": 10, \"E\": 33, \"F\": 17}, \"most_ignored\": \"A\", \"why\": \"Calorie numbers are still the only thing I'd use, but the photos would stick in my head more than I first said, while plain text warnings just feel preachy.\"}",
+   "points": [
+    0.0,
+    2.0,
+    38.0,
+    10.0,
+    33.0,
+    17.0
+   ],
+   "round1_points": [
+    0.0,
+    3.0,
+    50.0,
+    7.0,
+    18.0,
+    22.0
+   ],
+   "critique": "Your own scores contradict you: you say you'd roll your eyes at text warnings, yet F gets 22 and sits above E, where you admit the photos \"might nudge a little.\" Mate, you hate being talked down to and you're a runner on a budget who already reads labels, so you're also overrating how much a calorie badge changes anything on a tired Friday. You decide by what's reduced at the Co-op and what's in the fridge, so a number on the front would mostly confirm what you already do. What you've underrated is the photos: you admitted they'd stick for a day or two, and for people like us, who trust a nurse sister over a campaign, a blunt picture that feels like her talking might hit harder than the numbers, so E probably deserves more than 18 and D more than 7."
+  },
+  {
+   "persona": "a4275457b8",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    0
+   ],
+   "raw": "Fair point from my mate, mostly. I did say the photos would make me feel nagged, and I know how fast I stop seeing the fag packet pictures. The number is what I'd actually use, because it's quick and nobody's shouting at me. I'll still give F a bit for the photo making me pause in the moment, but B is closer to how I shop, and A gets a little because it comes with the number too.\n\n{\"points\": {\"A\": 14, \"B\": 42, \"C\": 6, \"D\": 0, \"E\": 4, \"F\": 34}, \"most_ignored\": \"D\", \"why\": \"A plain calorie number is something I'd actually use to compare without feeling lectured, whereas the photos would turn into wallpaper like the ones on fag packets, and nothing on the label gives me nothing to react to.\"}",
+   "points": [
+    14.0,
+    42.0,
+    6.0,
+    0.0,
+    4.0,
+    34.0
+   ],
+   "round1_points": [
+    17.0,
+    30.0,
+    8.0,
+    0.0,
+    5.0,
+    40.0
+   ],
+   "critique": "You're kidding yourself giving F 40 when you just said the photos make you feel nagged and you'd resent them. Five minutes of being put off isn't a push, it's the same wallpaper as the fag packets, only grislier, and by week two you'd be looking past the tumour to find the cheapest multipack. B at 30 is closer to how you actually shop: you pop in for milk and a loaf, see a number, and compare, and you hardly give the calories a second thought when the gas meter has eaten your tenner. You're also underrating how much the plain-numbers approach respects you, since you literally said it doesn't make you feel small, which is the thing that keeps people like us listening instead of switching off, so B should probably beat F outright."
+  },
+  {
+   "persona": "301c4c97c4",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    2,
+    0,
+    5,
+    4,
+    3,
+    1
+   ],
+   "raw": "Fair points, mostly. F at 25 doesn't hang together: I said plain warnings wash over me, so it's really just A with some wallpaper on it. It should sit a bit below A, not level with B.\n\nThe dentist point stings, because that's the one thing that actually worked on me. A person telling me off about something specific stuck, and a photo of a bowel tumour might do something similar in the moment. I'd still resent it and get used to it. But the badge on its own is the thing I'd use, because 95 versus 240 is easy to compare quickly, even if I'm already half-decided at the garage. So A stays on top, B gets a bit more because it has both the shock and the number, and E stays modest since there's no number to compare.\n\n{\"points\": {\"A\": 35, \"B\": 30, \"C\": 0, \"D\": 2, \"E\": 15, \"F\": 18}, \"most_ignored\": \"C\", \"why\": \"A clear calorie number is the fact I'd actually use to compare, the photos might bite briefly, and plain text warnings or no labels just fade into the background.\"}",
+   "points": [
+    35.0,
+    30.0,
+    0.0,
+    2.0,
+    15.0,
+    18.0
+   ],
+   "round1_points": [
+    33.0,
+    25.0,
+    0.0,
+    3.0,
+    14.0,
+    25.0
+   ],
+   "critique": "Mate, you said plain warnings \"just wash over\" you, then gave F 25 points, the same as B, which has the graphic photos you said you'd resent. That doesn't add up: F is just A with a text telling-off bolted on, and you hate the telling-off tone, so it should sit near A or lower, not level with B. You're also kidding yourself that you'd \"glance and pick the lighter one\" on a Saturday trolley shop where you don't check prices and grab the bigger one when hungry; the badge would mostly land on the new crisps and the meal deal, in the garage, when you're already half-decided. What you've underrated is that photos from E and B would probably stick more than you admit, like the dentist telling you off got you off the fizzy drinks, and a number you can compare quickly (95 vs 240) is the thing that'd actually change a van-driver's bacon bap choice."
+  },
+  {
+   "persona": "5f9da4d215",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    2,
+    4,
+    5,
+    1,
+    0,
+    3
+   ],
+   "raw": "Fair points, mostly. I did contradict myself: I said the photos would just irritate me and then handed them nearly half the points. F with no numbers and a big gory picture is the nagging I switch off from, so that drops right down. And yes, I'm not standing at a vending machine weighing 240 against 95 after the train. I'm on autopilot, so the numbers only help if they sink in over time and nudge the meal deal or the freezer choice.\n\nI'm not convinced by the \"professional talking straight\" bit, though. The plain text warning is still the cancer line I've heard a hundred times, and my dentist worked because he was telling me off personally, not because of a label. So B stays small. D goes above E, because the calories do the useful work and the plain warning is less grating than a photo. A stays on top.\n\n{\"points\": {\"A\": 42, \"B\": 6, \"C\": 2, \"D\": 24, \"E\": 22, \"F\": 4}, \"most_ignored\": \"C\", \"why\": \"Calorie badges are the only thing giving me something usable, while the photos and cancer lines are nagging I'd tune out, and no labels at all does nothing.\"}",
+   "points": [
+    42.0,
+    6.0,
+    2.0,
+    24.0,
+    22.0,
+    4.0
+   ],
+   "round1_points": [
+    33.0,
+    4.0,
+    0.0,
+    15.0,
+    28.0,
+    20.0
+   ],
+   "critique": "Mate, you say the photos would annoy you more than anything and you'd still buy the Dairy Milk, then you give E 28 and F 20, which is nonsense. F has no calorie numbers and a big preachy photo, and you just told me that tone is exactly what makes you switch off. Also, you're pretending you'd sit there comparing 240 against 95 at the machine at ten past seven knackered off the train, when you grab the meal deal on autopilot. The numbers would only land if they changed the meal deal or the freezer choice, and honestly the squash thing worked because your dentist, someone you trust, told you off, so a warning that sounds like a professional talking straight is worth more than you're giving B and D. Be honest: A is probably right as top, but D should be above E and F should be near the bottom with C."
+  },
+  {
+   "persona": "92206ed9a7",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    0,
+    4,
+    1,
+    5,
+    2,
+    3
+   ],
+   "raw": "Fair points, mate, I'll give you some of that. I did say the photos would wear off like the fag packet ones and then gave them over half my points, which doesn't add up. They'd turn my stomach for a week or two and I'd also roll my eyes at the preachy bit, and a gory label on a 70p Dairy Milk after a 4:30 start isn't going to beat tired. The calorie badge is still the one thing that tells me something I don't already know, but I was flattering myself that it'd win out over wanting something sweet. The Dean's dad bit is fair too: \"causes Type 2 diabetes\" lands differently when you know someone, so plain text isn't a total write-off. So I'm moving some points off the photos and the calories and giving a few to the text, but the pictures with calories still nudge me most, and not much changes what I actually buy.\n\n{\"points\": {\"A\": 25, \"B\": 9, \"C\": 17, \"D\": 0, \"E\": 20, \"F\": 29}, \"most_ignored\": \"D\", \"why\": \"Nothing much beats tired and wanting something sweet, but the gory photos would shake me for a bit and the calorie numbers at least help, while no label at all does nothing.\"}",
+   "points": [
+    25.0,
+    9.0,
+    17.0,
+    0.0,
+    20.0,
+    29.0
+   ],
+   "round1_points": [
+    33.0,
+    4.0,
+    14.0,
+    0.0,
+    24.0,
+    25.0
+   ],
+   "critique": "Mate, you say the photos would wear off like the fag packet ones, then you give A and F 58 points between them, so which is it? You're also kidding yourself that the calorie badge lets you \"make up your own mind\", because you're stood at a vending machine after a 4:30 start wanting something sweet, and 240 versus 95 won't beat tired, so E at 24 is flattering your own willpower. Where you've underrated something is the sugar-in-tea bit: what actually moved you was Dean's dad getting diagnosed, a real person you know, so a diabetic eye or a \"this causes Type 2\" line might hit harder than you're admitting, and the text-only B at 4 is probably too low. And let's be honest, you'd also clock the prices and the \"preachy\" feel with the big gory labels, so don't pretend the photos are the one thing that wouldn't make you roll your eyes."
+  },
+  {
+   "persona": "d2c7805318",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    2,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair points, some of it stings. I did quit fizzy drinks because my teeth hurt, not because someone told me, so I can't pretend facts alone move me. The graphic photos might hit harder than I admitted, at least for the first few weeks, though I'd still resent them and I do tune stuff out fast. The calorie badge as a swap prompt is the bit I still believe: if it's right there on the vending machine, 240 versus 95 is easy to act on without feeling lectured. But I'll admit that at 6:20 half asleep it'd be wallpaper by day three, so I'll trim B a little and lift the graphic ones. C gets the most because it combines the shock with the swap prompt. A stays modest, and F stays at zero because it changes nothing.\n\n{\"points\": {\"A\": 9, \"B\": 33, \"C\": 30, \"D\": 15, \"E\": 3, \"F\": 0}, \"most_ignored\": \"F\", \"why\": \"Plain text warnings and unlabelled snacks would wash over me, while the calorie badge gives me an easy swap and the graphic photos might sting for a bit.\"}",
+   "points": [
+    10.0,
+    36.666666666666664,
+    33.333333333333336,
+    16.666666666666668,
+    3.3333333333333335,
+    0.0
+   ],
+   "round1_points": [
+    16.27906976744186,
+    48.83720930232558,
+    19.767441860465116,
+    9.30232558139535,
+    5.813953488372093,
+    0.0
+   ],
+   "critique": "You're kidding yourself that you'd \"glance and think blimey\": you're on a bacon roll at 6:20 half asleep, then a takeaway because you can't face cooking, and by day three that bold badge is wallpaper like every other thing on a packet. Your own story says you quit fizzy drinks when your teeth hurt, not because a fact told you to, so something personal and physical is what moves you, which is why C and D deserve more than 17 and 8 and why \"I'd get used to it\" is a guess you've never tested. Also, you hate the preachy tone but A is plain text with no pictures and no finger-wagging, and giving it 14 while F gets 0 shows you're scoring on irritation rather than what would change your behaviour. The one thing you've underrated is the 240 versus 95 comparison, because it works as a swap prompt for someone who won't give up the treat, but only if it's on the shelf where you're choosing, not buried when you're knackered."
+  },
+  {
+   "persona": "f45764f86a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    0,
+    1,
+    2
+   ],
+   "raw": "Fair points, some of them. I did say I'd get used to the photos and that they feel preachy, then still put D top, which doesn't add up. A shock fades in about a fortnight, and I've walked past fag packet pictures for years without them touching me. The friend is also right that I count pounds, not calories. A \"240\" on its own means little unless I've got something to compare it to, though the 240 next to 95 in a vending machine is a fairly obvious gap, so I wouldn't write the badge off. It's the one thing that gives me something to use, even if it won't do much at Greggs where there's no badge.\n\nWhere I'd push back is on A. The friend says plain wording is closer to a pharmacist explaining, but it's still a slogan on a packet, and I'd read it once and then ignore it. I'll nudge it up a little, but not far. The fizzy drinks change came from a person talking to me, and none of these are that.\n\nSo I'll bring D down and put it level with F, trim F a bit, and give A a small bump. The graphic photos plus a number still have more bite in the first few weeks, and the next month is the window we're talking about.\n\n{\"points\": {\"A\": 7, \"B\": 11, \"C\": 0, \"D\": 29, \"E\": 20, \"F\": 33}, \"most_ignored\": \"C\", \"why\": \"No labels changes nothing, and while photos would wear off fast and a plain warning is mostly wallpaper, a calorie number is the only thing I could actually use, so it edges ahead.\"}",
+   "points": [
+    7.0,
+    11.0,
+    0.0,
+    29.0,
+    20.0,
+    33.0
+   ],
+   "round1_points": [
+    3.0,
+    14.0,
+    0.0,
+    34.0,
+    17.0,
+    32.0
+   ],
+   "critique": "Be honest, you're kidding yourself on D: you said you'd get used to the photos quickly and that they feel preachy, then gave them the top score anyway. Someone who walks past a fag packet horror picture and ends up at Greggs would scroll past a bleeding eye on a Twix within a fortnight, so D should be basically F with a side of resentment, not ahead of it. You're also overrating the calorie badge, because you've never once counted calories at Greggs, you count pounds, and a \"240\" means nothing to you without a price tag or a benchmark, so F is probably a lot less than 32. What you've underrated is that your fizzy drink change came from a dentist telling you something specific and personal, so a message that sounds like a pharmacist explaining rather than a poster shouting would land harder than any of these, and A's plain wording is nearer to that than you've given it credit for."
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    0,
+    2,
+    5
+   ],
+   "raw": "Fair points, some of them. The calorie badge is probably less of a nudge than I made out. I'd notice it, but with biscuits at my desk the number just tells me what I already know, and in the run-up to a long run I'd happily use it as permission. Price and yellow stickers would still beat it.\n\nWhere my friend has a point is the photos. I said I'd get used to them, but I also admitted a bowel tumour on a Dairy Milk could put me off now and then, and that's the only thing here that might actually stop a purchase. It still feels preachy, so I wouldn't give it big points. I do think I was marking down C and D on principle rather than on what they'd do to me.\n\nI was also inconsistent about B and D. If I ignore warnings, I should give them fewer points. So I'm cutting B, trimming E a bit, and moving some points to the photo options. Nothing here changes much, so the spread is flatter.\n\n{\"points\": {\"A\": 4, \"B\": 12, \"C\": 20, \"D\": 30, \"E\": 33, \"F\": 1}, \"most_ignored\": \"F\", \"why\": \"Calorie badges are still the most useful thing to me, but I now think the photos are the only thing that might actually stop me buying a Dairy Milk, while plain text and unchanged shelves just get scrolled past.\"}",
+   "points": [
+    4.0,
+    12.0,
+    20.0,
+    30.0,
+    33.0,
+    1.0
+   ],
+   "round1_points": [
+    5.2631578947368425,
+    23.157894736842106,
+    8.421052631578947,
+    26.31578947368421,
+    36.8421052631579,
+    0.0
+   ],
+   "critique": "You're kidding yourself that a calorie badge nudges you: you're training for a half and you literally said you'd often want the higher-calorie option, so the number just becomes permission for the biscuits, and the 500-calorie desk habit is boredom and stress, not ignorance. You also say price and yellow stickers drive everything, yet you've given zero weight to the fact that a bold \"240 CALORIES\" on a Dairy Milk is just noise next to a 40p reduced label, and the badge on a fruit pot might even make the cheap choice look worse. Where you're underrating something is the photos: you said you'd wince and \"get used to it\", but you also admitted D might put you off a Dairy Milk, and that's the only thing in the set you've said might actually stop a purchase, so 25 for D and 8 for C looks like you're punishing the preachy bit on principle, not because it wouldn't land. And scoring B and D as \"warnings I'd ignore\" while still giving them 47 points combined is inconsistent; either they bounce off you or they don't."
+  },
+  {
+   "persona": "c9f37c0a97",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    2,
+    0,
+    1,
+    5,
+    4
+   ],
+   "raw": "Fair point, and it stings a bit. I did stop the crisps because of boredom, not because a number told me to, and I do buy on price and yellow stickers, so a calorie badge is something I'd glance at and then ignore. I still think the photos are shouty and I'd resent them, but resenting something isn't the same as it not working. A bowel tumour on a Dairy Milk wrapper might make me put my hand back in the 3pm dead zone, where a tidy \"240\" wouldn't.\n\nI'd still say the plain text warnings are mostly wallpaper, and I'd still give calories some credit, because when I do compare, the numbers help me pick the fruit pot over the shortbread. So I'm moving points toward the graphic options, especially C, which has the shock and the useful number. B drops, but not to the floor.\n\n{\"points\": {\"A\": 22, \"B\": 20, \"C\": 30, \"D\": 14, \"E\": 0, \"F\": 4}, \"most_ignored\": \"E\", \"why\": \"The graphic photos would probably jolt me out of bored autopilot more than a number or plain text would, though I'd still want the calorie badge for comparing when I'm actually choosing.\"}",
+   "points": [
+    24.444444444444443,
+    22.22222222222222,
+    33.333333333333336,
+    15.555555555555555,
+    0.0,
+    4.444444444444445
+   ],
+   "round1_points": [
+    12.0,
+    36.0,
+    20.0,
+    22.0,
+    0.0,
+    10.0
+   ],
+   "critique": "You're kidding yourself about B: you cut crisps out of boredom, not because you were comparing numbers, so a \"240 CALORIES\" badge isn't going to touch the 3pm dead-zone grazing, and you'll just learn the figure and eat the thing anyway. You also say you're \"picking carefully\" on money, but you pick on price and yellow stickers, not calories, so the badge is information you'd admire and not act on. Where you've underrated something is the graphic photos: you wince, then say it \"does nothing\", yet you hate being lectured, so the gut-punch is exactly what would cut through bored autopilot when your hand's in the bag. And giving D and F as \"wallpaper\" is too generous to your own attention, because plain text on a crisp packet is precisely what you'd never see."
+  },
+  {
+   "persona": "451d057b22",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "raw": "Fair point about the numbers. I do buy what's reduced, and a \"240\" on a Dairy Milk wouldn't stop me if it's 30p off. I'd probably just register it and carry on, and that's what happened with the nurse's look: it was a person saying it, not a label. So I'll bring C down a bit.\n\nI'm not shifting much on the photos, though. Being put off my tea is true, but I'd resent them, and I'd learn to look past them by Thursday, which is just what my friend says about the preachy bit. Still, the shock does bite more than I let on, so I'll nudge them up a little. E gets a bit more because it pairs the shock with a number to act on.\n\nI won't write the plain text off entirely, but I'd still say I know all this already. The wording about bowel cancer and heart disease is closer to home with my blood pressure than I admitted. Seeing it every time I reach for something might land more than I claimed, so D and F go up a touch. F stays the sensible one, since the number is the part I can use.\n\n{\"points\": {\"A\": 0, \"B\": 10, \"C\": 28, \"D\": 8, \"E\": 24, \"F\": 30}, \"most_ignored\": \"A\", \"why\": \"A number alone wouldn't beat a reduced sticker, so I need the warning and the calories together, with the photos adding some shock but also resentment.\"}",
+   "points": [
+    0.0,
+    10.0,
+    28.0,
+    8.0,
+    24.0,
+    30.0
+   ],
+   "round1_points": [
+    0.0,
+    8.0,
+    38.0,
+    6.0,
+    18.0,
+    30.0
+   ],
+   "critique": "Come off it, you say calorie numbers \"just tell me something,\" but you buy what's reduced and cook from the cupboard, so when has a number on a Dairy Milk ever stopped you? The nurse's look cut your biscuits, not a label, and you still have one with your tea, so I'd say C is about as idealistic as your five-a-day complaint is practical. Your 8 for the graphic photos is too low for someone who says they'd be put off their tea, since disgust is exactly what would bounce off you at the shop shelf, whereas the \"preachy\" bit you'd shrug off by Thursday. What you've underrated is the plain text next to the numbers in F: you say you'd ignore it, but a bit of GP-style wording linking this to your blood pressure worry is the sort of thing that would actually land, so don't write D and F off as \"heard it before.\""
+  },
+  {
+   "persona": "f0c9e8bbfa",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "raw": "Fair points, and a bit annoying because some of it lands. I do buy chocolate when I'm knackered, and by then I'm not comparing numbers, I'm just grabbing something. And the dentist thing did work because it was blunt and came from someone credible. So I'll shift some weight towards the graphic photos.\n\nBut I'd still say the numbers matter in the vending machine, because without them I can't tell the beetroot crisps from the McCoy's, and \"healthy-looking\" snacks are often not as light as they look. The photo with no numbers only tells me to avoid the treats, which is fine, but it's also the kind of thing I'd get numb to. Plain text warning is still wallpaper. Overall I'd give calories alone less, and the photo versions more, with E ahead because it has both.\n\n{\"points\": {\"A\": 0, \"B\": 3, \"C\": 22, \"D\": 14, \"E\": 38, \"F\": 23}, \"most_ignored\": \"A\", \"why\": \"Unlabelled snacks change nothing, and a bare text warning would fade into the background, whereas a graphic image plus numbers would actually bite on a tired Thursday.\"}",
+   "points": [
+    0.0,
+    3.0,
+    22.0,
+    14.0,
+    38.0,
+    23.0
+   ],
+   "round1_points": [
+    0.0,
+    5.0,
+    32.0,
+    20.0,
+    28.0,
+    15.0
+   ],
+   "critique": "You're flattering yourself with C at 32: you've said your week's food is \"whatever's in the fridge and how tired I am\" and your Sunday plan dies by Wednesday, so you're not standing in the shop comparing 240 against 95 like a tidy little economist. Chocolate is a tired-Thursday purchase, and a number you've already half-guessed won't stop it. The \"treats me like an adult\" line is also you wanting to sound like you can't be nagged, when you cut sugar in your tea because a dentist said one thing, which is exactly a blunt authority-voice message landing.\n\nYou've underrated the graphic photo too: you admit it makes you wince, yet you scored it below D-ish territory because you \"resent being shouted at,\" when your own habit shows blunt, credible health messages work. Also, B and D being nearly identical to your \"cigarette small print\" tuning-out is fair, but F at 15 is odd given you trust NHS-style authority, so the stark message with a real medical image is the closest thing to your sister the nurse talking."
+  },
+  {
+   "persona": "e303a16ea5",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "raw": "Fair points, partly. I do tend to say I'd use the numbers, and on a tired Friday I'd probably buy the Dairy Milk anyway. But the comparison at 1pm, 95 against 240, is a real nudge, and it works because it's concrete, like the booze thing was. The graphic photo would make me pause for a second, which is what my own numbers admitted, but it'd wear off fast and I'd resent it. Warnings without calories are still the telling-off I scroll past, so D and F stay low.\n\nI'll move a bit away from the idea that I'm immune, shifting some points from C to E, since the photo plus numbers is where I'd actually hesitate. But C stays the biggest because it's the one I'd put up with every day.\n\n{\"points\": {\"A\": 0, \"B\": 12, \"C\": 46, \"D\": 7, \"E\": 33, \"F\": 2}, \"most_ignored\": \"A\", \"why\": \"Calorie badges give me a concrete comparison I'd actually use at the shelf, the graphic photo adds a brief pause on top, and warnings alone are just a telling-off I'd tune out.\"}",
+   "points": [
+    0.0,
+    12.0,
+    46.0,
+    7.0,
+    33.0,
+    2.0
+   ],
+   "round1_points": [
+    0.0,
+    15.0,
+    50.0,
+    6.0,
+    27.0,
+    2.0
+   ],
+   "critique": "Mate, you're flattering yourself: \"I'd actually use it\" is what everyone says, and in practice you'd clock '240 CALORIES' on a Dairy Milk once, shrug, and buy it anyway on a tired Friday, just like the chips. You've also said you scroll past vague telling-offs, yet you gave E 27 points, which is basically admitting the graphic photo is what actually makes you pause, so your \"I'd roll my eyes\" line doesn't match your own numbers. What you've underrated is C's effect on the fruit pot versus the Dairy Milk: a meal-deal brain comparing 95 against 240 at 1pm when you're skint and knackered is a real nudge, and you gave it credit but then framed it as just \"fuel,\" when it'd hit your mates who aren't training way harder than it hits you. Also, you're ranking D at 6 as if the photo alone does nothing, but without calories it's exactly the preachy nag you hate, so that part holds, and your own cut-down-on-booze story shows you respond to a concrete, personal cost, not to a cancer line on a wrapper."
+  },
+  {
+   "persona": "42d621f456",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    4,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "Fair points, some of them. I do tell myself I like \"just facts\", but I buy snacks for pleasure, and a number on a Dairy Milk would probably stop registering within a fortnight. The KIND bar comparison is the one place a number would surprise me, and that only works the first few times. The photos I'd roll my eyes at, but they're the only thing that would actually interrupt me mid-impulse, so I've probably been too dismissive of A and C. The plain text I'd stop seeing within days. I'd still say calories-only is the most respectful approach, but \"most respectful\" and \"most effective on me\" aren't the same thing. Overall, nothing here changes much, so I'll spread the points more evenly and move some from F toward the photo options.\n\n{\"points\": {\"A\": 18, \"B\": 4, \"C\": 33, \"D\": 0, \"E\": 15, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"The gory photos would jolt me for a moment and the calorie badge adds some real information, but plain text warnings I'd tune out and no label changes nothing.\"}",
+   "points": [
+    18.0,
+    4.0,
+    33.0,
+    0.0,
+    15.0,
+    30.0
+   ],
+   "round1_points": [
+    10.0,
+    3.0,
+    25.0,
+    0.0,
+    20.0,
+    42.0
+   ],
+   "critique": "You're kidding yourself that you'd read calorie badges as \"just facts\": you're the woman who pays six quid for sourdough and says food is where you're least careful, so '240 CALORIES' on a Dairy Milk would bounce off you inside a fortnight, same as the text warning you've already written off. You dismiss the photos as nagging, but you admit they'd put you off for a minute, and that gut-level yuck is the only thing here that would actually interrupt a deli-wander impulse buy, so 10 for A looks too low against 42 for F. Where you've underrated something is the KIND bar versus Galaxy point: surprise comparisons are the one thing that would genuinely land with people like us who think we eat well, but a bare number on its own won't deliver that unless you already know what 240 means. And be honest that you'd never act on any of it, because you trust your sister the nurse and your GP, not a sticker."
+  },
+  {
+   "persona": "b6a5f60816",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    2,
+    1,
+    3
+   ],
+   "raw": "My friend has a point on a couple of things, but not everything. The E inconsistency is fair: if I think the text warning is oversimplified and I'd scroll past it, then E can't be worth much more than D, and it might irritate me enough to do slightly worse. The photos are harder to call. A bleeding diabetic eye would stick in my head, but I think I'd resent it rather than act on it, and I'd probably just buy the thing anyway out of stubbornness. I'm not changing my mind about that, though I'll admit it could do slightly more than I said. I'll also concede that a calorie badge is a mild nudge at best. I'd still rank it first because it's the only one that gives me something to use, but I'll lower the total and spread the points more.\n\n{\"points\": {\"A\": 14, \"B\": 6, \"C\": 8, \"D\": 40, \"E\": 14, \"F\": 18}, \"most_ignored\": \"C\", \"why\": \"A plain text warning about obesity and cancer is the sort of oversimplified message I'd scroll past, while the calorie badge at least gives me a specific fact.\"}",
+   "points": [
+    14.0,
+    6.0,
+    8.0,
+    40.0,
+    14.0,
+    18.0
+   ],
+   "round1_points": [
+    6.0,
+    3.0,
+    8.0,
+    48.0,
+    25.0,
+    10.0
+   ],
+   "critique": "You're kidding yourself that you \"just notice how you feel afterwards\" and so calorie badges only nudge you. You're a cheese-drawer person who spends without guilt on food, so a \"240 CALORIES\" badge on a Dairy Milk will bounce off you the way a \"five a day\" poster does. Meanwhile you rate the badge as respectful and adult, but you've admitted you'd barely use it, and that's the opposite of landing. You've also underrated the graphic photos: a bleeding diabetic eye is exactly the sort of thing that sticks in a Hashimoto's head, and your eye-roll is less a sign it fails than a sign it gets under your skin, so giving A and F only 6 and 10 is a bit of a flex. Your best-supported point is that the plain text warning is oversimplified and easy to scroll past, but then you give E 25 points, when by your own logic it adds nothing to D and may irritate you."
+  },
+  {
+   "persona": "9964371380",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    3,
+    5,
+    0
+   ],
+   "raw": "Fair points, mostly. I did overdo C: I count carbs, so \"240 CALORIES\" is a glance-and-shrug thing on a tired Tuesday, and I'd likely buy what I was already buying. It's still the only option that gives me something to compare, so it stays on top, just not as a saviour.\n\nThe friend is right about F too. If the badge is what I'm rating, F shouldn't beat A by nearly double, because the photo adds nothing useful for me and the warning on a Dairy Milk does feel like a verdict on my hypo sugar. I'd still notice the graphic ones, but that's irritation, not a reason to pick a yoghurt. I'll bring F down to roughly A's level, and the warning-only options stay near nothing.\n\nWhere I'd push back is that I don't think the warnings do much of anything. Overall effect is small whatever I pick, so the points spread out a bit more, with E still at the bottom.\n\n{\"points\": {\"A\": 17, \"B\": 4, \"C\": 42, \"D\": 4, \"E\": 18, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"The calorie badge is the only thing that gives me something to compare, though it would only nudge me, while the graphic cancer warnings feel aimed at someone else and would mostly make me tune out.\"}",
+   "points": [
+    17.0,
+    4.0,
+    42.0,
+    4.0,
+    18.0,
+    15.0
+   ],
+   "round1_points": [
+    14.0,
+    3.0,
+    55.0,
+    5.0,
+    0.0,
+    23.0
+   ],
+   "critique": "You're being idealistic about the calorie badge: you just told me you count carbs, not calories, and that it would only nudge you a little, yet you give it 55 points like it's your saviour. On a tired Tuesday train with a meal deal, you'd glance at \"240 CALORIES\", shrug, and buy what you were already buying, same as everyone else we know. Your points are also incoherent, since you say the graphic ones would irritate you but you'd notice them more, then hand F 23 while A, the same thing without the photo, gets 14, and that suggests you're rating the badge, not the warning. And you've underrated how much a warning on every Dairy Milk would sting for us specifically, because it would make our hypo sugar look like a moral failing, and that kind of \"designed for someone else\" resentment is exactly what makes people like us tune out the whole campaign, which is why D and F should be scored lower, not higher."
+  }
+ ]
+}

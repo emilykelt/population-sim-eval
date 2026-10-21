@@ -1,0 +1,3391 @@
+{
+ "score": {
+  "mean_spearman": 0.27179355423836604,
+  "top1_accuracy": 0.5,
+  "gap_preservation": 0.002174878449891976,
+  "n_segments_scored": 8,
+  "n_valid_answers": 570,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": 0.48571428571428577,
+    "top1_hit": 1.0,
+    "pred": [
+     25.1,
+     12.8,
+     15.4,
+     15.8,
+     18.4,
+     12.5
+    ],
+    "truth": [
+     4.52,
+     3.863,
+     4.029,
+     3.71,
+     4.25,
+     4.197
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": -0.14285714285714288,
+    "top1_hit": 0.0,
+    "pred": [
+     20.3,
+     12.6,
+     16.5,
+     15.8,
+     20.8,
+     14.0
+    ],
+    "truth": [
+     4.745,
+     4.442,
+     4.353,
+     4.527,
+     4.224,
+     4.242
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": 0.2571428571428572,
+    "top1_hit": 0.0,
+    "pred": [
+     25.9,
+     10.9,
+     11.2,
+     20.3,
+     18.9,
+     12.8
+    ],
+    "truth": [
+     4.76,
+     4.737,
+     4.675,
+     4.895,
+     4.648,
+     5.0
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": 0.3142857142857143,
+    "top1_hit": 1.0,
+    "pred": [
+     27.5,
+     13.6,
+     16.7,
+     19.7,
+     13.5,
+     8.9
+    ],
+    "truth": [
+     4.972,
+     4.583,
+     4.538,
+     4.779,
+     4.781,
+     4.596
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.5428571428571429,
+    "top1_hit": 0.0,
+    "pred": [
+     21.9,
+     13.1,
+     15.8,
+     19.8,
+     15.2,
+     14.1
+    ],
+    "truth": [
+     4.874,
+     4.779,
+     5.034,
+     5.088,
+     4.824,
+     5.0
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.20291986247835697,
+    "top1_hit": 1.0,
+    "pred": [
+     25.2,
+     12.8,
+     11.1,
+     18.5,
+     20.4,
+     11.9
+    ],
+    "truth": [
+     5.562,
+     5.167,
+     5.258,
+     4.992,
+     5.167,
+     5.008
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.3142857142857143,
+    "top1_hit": 1.0,
+    "pred": [
+     26.4,
+     13.9,
+     16.7,
+     14.4,
+     17.6,
+     11.0
+    ],
+    "truth": [
+     4.896,
+     4.594,
+     4.692,
+     4.822,
+     4.602,
+     4.715
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": 0.2,
+    "top1_hit": 0.0,
+    "pred": [
+     22.6,
+     12.0,
+     22.8,
+     16.3,
+     15.8,
+     10.5
+    ],
+    "truth": [
+     4.964,
+     4.64,
+     4.66,
+     4.643,
+     4.719,
+     4.694
+    ]
+   }
+  },
+  "model": "claude-haiku-5-5",
+  "method": "grounded_debate",
+  "cost_usd": 0.095,
+  "seconds": 125.6,
+  "within_sd": 6.572448769570106,
+  "n_jobs": 96,
+  "round1": {
+   "mean_spearman": 0.17148071182997068,
+   "top1_accuracy": 0.625,
+   "gap_preservation": -0.13053749867256279,
+   "n_segments_scored": 8,
+   "n_valid_answers": 552
+  }
+ },
+ "results": [
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "The bowel one is still gross, and I'd still look away, but the friend's right that I'd remember the grey bit at the till when I'm deciding. The cancer surgery ones are telly-ad stuff, and \"13 types\" is just a number I'd skip past. Nothing on any of them tells me a cheaper alternative, so none will stop me grabbing it, but the bowel one is the most likely to stick.\n\n{\"points\": {\"A\": 22, \"B\": 14, \"C\": 4, \"D\": 14, \"E\": 36, \"F\": 10}, \"most_ignored\": \"C\", \"why\": \"A number of cancer types is just a figure I'd scroll past like Mum's WhatsApps, with no picture or alternative that makes me think about the bar.\"}",
+   "points": [
+    22.0,
+    14.0,
+    4.0,
+    14.0,
+    36.0,
+    10.0
+   ],
+   "round1_points": [
+    18.181818181818183,
+    14.545454545454545,
+    21.818181818181817,
+    14.545454545454545,
+    27.272727272727273,
+    3.6363636363636362
+   ],
+   "critique": "You say the bowel photo is just gross and you'd look away, but that's exactly why it would stick: you'd remember the grey tissue at the till long after you'd forgotten the words. You also say none of them would change what you grab, yet you check yellow stickers at seven and eat chicken thighs because they're cheap, so you already respond to money and not to health messages, and you're assuming a chocolate warning is the only thing that could shift you. The \"13 types of cancer\" line (C) would probably slide past you as a number, the same way Mum's WhatsApps do, so I'd rate it lower than you did. And F isn't the worst because it calls you fat; it's the worst because it's the only one that's vague enough to be a lecture, and you'd have ticked off the same thing from a poster in a gym."
+  },
+  {
+   "persona": "e73a8907ad",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Fair enough, I was a bit too pleased with myself about the gory ones. Looking away for a second is still looking away, and I'd still be reaching for the Dairy Milk after the kettle's on. The people from behind is a bit of a cop-out too, because I did just do the same thing to them that I hate getting from those campaigns. I'd still say none of these would stop me on a Tuesday, but the one about cancer surgery and \"13 types\" reads like a lecture from someone who's never had to plan a week round reduced chicken.\n\n{\"points\": {\"A\": 15, \"B\": 17, \"C\": 13, \"D\": 17, \"E\": 23, \"F\": 15}, \"most_ignored\": \"C\", \"why\": \"The '13 types of cancer' line is abstract and reads like a lecture, and the surgery photo is one I'd look away from without it changing anything about what I eat.\"}",
+   "points": [
+    15.0,
+    17.0,
+    13.0,
+    17.0,
+    23.0,
+    15.0
+   ],
+   "round1_points": [
+    15.0,
+    24.0,
+    15.0,
+    18.0,
+    8.0,
+    20.0
+   ],
+   "critique": "You say you haven't changed your diet on purpose, yet you're scoring these warnings as if you'd bin the chocolate bar the moment one appeared, so cut the idealism: a gory photo would make you look away for a second and then you'd still be eating the Dairy Milk. Your ratings are also mostly about how grim the picture is, not whether the message touches your life, and you never mention that you're the one cooking for a household and building the week around whatever's reduced, which is where a message about weight or bowel health would actually have to land. You've ranked B top because it's the most shocking, but shock is exactly what you've said you tune out, and the reduced-chicken logic suggests a plain fact about your own choices would hit harder than any photo. Your \"most ignored\" pick is also a bit lazy: the three people from behind is the one you'd dismiss in a second, but you wrote that you'd skip it because it feels like telling-off, which is exactly the tone you say you hate, so you're complaining about condescension while doing the same thing to the people in the picture."
+  },
+  {
+   "persona": "90ad762cff",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "Reading it again, the friend's probably right that the bowel photo would make me flinch for a second and then I'd still have the bar in my hand. The \"13 types\" line is the one I could actually see myself repeating to my mum, so it might stick more than the gross pictures. The diabetes one still feels like it's about other people, and the scare-tactic thing is more about my irritation than a real judgement.\n\n{\"points\": {\"A\": 12, \"B\": 16, \"C\": 24, \"D\": 22, \"E\": 16, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"It's vague and just reads as someone judging people's bodies, so I'd tune it out and it wouldn't connect to the bar in my hand.\"}",
+   "points": [
+    12.0,
+    16.0,
+    24.0,
+    22.0,
+    16.0,
+    10.0
+   ],
+   "round1_points": [
+    14.0,
+    14.0,
+    18.0,
+    26.0,
+    20.0,
+    8.0
+   ],
+   "critique": "You'd stop for a second at the bowel photo, then the bar would be in your hand before the grim bit wore off, because you're skint, bored, and on Deliveroo most nights. You say you hate being talked to like a kid in a dentist's waiting room, yet you wrote off the cancer surgery as \"scare tactics,\" which is the same adult-versus-told-off complaint pointed the other way. Diabetes \"happens to other people\" is exactly how you treated your nan's vegetables, so don't pass that off as a considered view. Your gut pick is probably wrong: C's \"13 types\" is the number you'd repeat to your mum and half-believe, and it's the one that sounds like something a doctor would say."
+  },
+  {
+   "persona": "079a7abcd4",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "My gut says none of these would change a Tuesday purchase. The gore makes me think about the packet, and the scary-food-warning stuff is background noise by now. The gran link probably was overweighted, since a family memory doesn't make a bar cost less. A plain line like E is at least less smug, even though it wouldn't stop me buying anything.\n\n{\"points\": {\"A\": 18, \"B\": 20, \"C\": 12, \"D\": 10, \"E\": 22, \"F\": 18}, \"most_ignored\": \"D\", \"why\": \"I've heard the heart disease line so many times it's just background noise, and nothing about it connects to what a chocolate bar costs or whether I can afford it.\"}",
+   "points": [
+    18.0,
+    20.0,
+    12.0,
+    10.0,
+    22.0,
+    18.0
+   ],
+   "round1_points": [
+    12.307692307692308,
+    21.53846153846154,
+    30.76923076923077,
+    9.23076923076923,
+    6.153846153846154,
+    20.0
+   ],
+   "critique": "You've given the bleeding eye (C) 20 points, the highest in the list, but you just said graphic gore makes you think about the packet and not the chocolate, so you're contradicting yourself. Your gran having diabetes is a real connection, but you've also told me you've stopped taking health advice seriously and that nothing sticks, so a personal memory is not going to change what you buy on a Tuesday. Nothing here speaks to the thing you actually care about: you're checking receipts and shaving food costs, and none of these labels mention money, cheap food, or what a bar costs versus what it does to you. Give the points to whichever one is the least preachy and the most tied to a daily choice, not the one that feels closest to home."
+  },
+  {
+   "persona": "cb76a1654e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Fair point about Shannon. I do cut the fizzy stuff because of her, so I'm not as immune to nagging as I make out. Mum forwarding a list of 13 cancers would probably stick in my head, even if I'd grumble about it. The plain one still bugs me for talking down, but it's not a scare, so it might slip in more than I thought. The bowel photo still gets the most of my attention because of Dad, but the rest are closer than I first said.\n\n{\"points\": {\"A\": 13, \"B\": 15, \"C\": 17, \"D\": 21, \"E\": 17, \"F\": 17}, \"most_ignored\": \"A\", \"why\": \"Cancer surgery photos are the scare tactic I've seen a hundred times, so I'd go 'yeah, yeah' and reach for the Dairy Milk anyway.\"}",
+   "points": [
+    13.0,
+    15.0,
+    17.0,
+    21.0,
+    17.0,
+    17.0
+   ],
+   "round1_points": [
+    16.0,
+    18.666666666666668,
+    8.0,
+    29.333333333333332,
+    10.666666666666666,
+    17.333333333333332
+   ],
+   "critique": "You're being idealistic when you say you'd scroll past these, because you've just admitted you cut fizzy drinks to shut Shannon up, so you do change for people leaning on you at home. Your scores also contradict your reasoning: D gets 22 points for your dad, yet you said the cancer photos make you go \"yeah, yeah,\" and B gets 14 for a nan link you barely mentioned. You also brushed off C as preachy, but a list of 13 cancers is exactly the kind of headline your mum would send you, so it might stick more than you think. The one you underrated is E, because it doesn't scare you or talk down to you, and that's the one you say you hate seeing less of."
+  },
+  {
+   "persona": "ec7dd14f8e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair enough. I was ranking by what made me flinch, and that wears off by the time the kettle's on. The bypass is the only bit of this that's actually mine. Dad still gets tired walking up the stairs, so if I'm honest that's what would make me think twice, more than a bowel photo I'd forget by Thursday. Still, at four o'clock I'm thinking about whether the bar will last till Sunday, and none of these say a word about that.\n\n{\"points\": {\"A\": 10, \"B\": 8, \"C\": 18, \"D\": 16, \"E\": 42, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"It's a vague comment on body shape with no consequence I can picture and no link to my actual dad or my actual money, so it just reads as a dig and I'd switch off.\"}",
+   "points": [
+    10.0,
+    8.0,
+    18.0,
+    16.0,
+    42.0,
+    6.0
+   ],
+   "round1_points": [
+    14.634146341463415,
+    9.75609756097561,
+    31.70731707317073,
+    17.073170731707318,
+    21.951219512195124,
+    4.878048780487805
+   ],
+   "critique": "You've ranked these by which picture would make you wince, but you told me the wince fades by the time the kettle's on, so the ranking measures shock, not whether you'd put the bar down. Your dad's bypass is the one personal hook here, and you gave heart disease 18 points, less than bowel cancer, which you admitted only \"feels more real.\" Your red meat cut stuck because you had a reason that felt like yours, so a specific, personal consequence like E could outlast the photo in a way the graphic bowel image won't. And you're dismissing F as a dig, but you've just said the bar only registers if it fits into a Sunday shop you can't afford to ignore, and none of these six mention that at all."
+  },
+  {
+   "persona": "489854ab04",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Reading it again, the friend's right that I was too quick to wave off the bowel one. I still wince, and it's the only one that might tell me something I didn't know. The 13 cancers line is probably new to me too, but I'd still just grab the bar when I'm knackered at the Co-op. The fact that it's cheap and I'm tired still beats all of them, so I've spread the points a bit more.\n\n{\"points\": {\"A\": 12, \"B\": 12, \"C\": 10, \"D\": 34, \"E\": 18, \"F\": 14}, \"most_ignored\": \"A\", \"why\": \"It's the same 'you're fat' nagging I've seen a hundred times, so I'd tune it out before I even got to the price.\"}",
+   "points": [
+    12.0,
+    12.0,
+    10.0,
+    34.0,
+    18.0,
+    14.0
+   ],
+   "round1_points": [
+    14.117647058823529,
+    9.411764705882353,
+    11.764705882352942,
+    32.94117647058823,
+    14.117647058823529,
+    17.647058823529413
+   ],
+   "critique": "You're being idealistic about switching off: you say you'd scroll past the bowel photo, but you're the one who called it the only one that gets attention, and you also admit it makes you wince. \"It happens in forty years\" is the same logic that has you ordering takeaway on fifteen quid, so don't pretend it's a reason you're immune to it. The eye photo is the one you'd skip, fine, but you're wrong that a chocolate bar has nothing to do with you, because the bar is the thing you already buy. Your own rule is \"tell me something I don't know,\" and the bowel link is the only one of these that might be news to you, so it's the one that could actually land. Also, you've answered as if the price is the whole decision, but none of these touch the Co-op till, so you haven't really tested them against the moment you're describing."
+  },
+  {
+   "persona": "4fd26716c7",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "Fair point from my mate, I'll give him that. The teeth thing was a real consequence I could feel, and bowel cancer is the one I've actually had screening-letter noise about, so that picture would stick more than the others. The \"13 cancers\" line still means nothing to me, though. I'd skim it. I still reckon the gory photos would make me wince and move on, and I'm not cutting out a Dairy Milk because of a label.\n\n{\"points\": {\"A\": 12, \"B\": 10, \"C\": 40, \"D\": 12, \"E\": 10, \"F\": 16}, \"most_ignored\": \"E\", \"why\": \"Three overweight people from behind is just a judgemental photo with nothing concrete to remember, so I'd forget it as soon as I'd seen it.\"}",
+   "points": [
+    12.0,
+    10.0,
+    40.0,
+    12.0,
+    10.0,
+    16.0
+   ],
+   "round1_points": [
+    16.0,
+    14.0,
+    18.0,
+    14.0,
+    16.0,
+    22.0
+   ],
+   "critique": "You say you don't know anyone who changed what they ate because a poster made them feel bad, but you cut out fizzy drinks because your teeth were giving you grief, which is a concrete consequence you could feel, not a guilt trip. So stop pretending you're immune to specifics. Your 22 for F rests on \"13 types of cancer,\" which is a number you'd skim past, because you don't know what the 13 are and you'd have no idea what to do with it. C is the one that would actually land with you: bowel cancer is specific, it's the one people in your position get screening letters about, and your mum will have sent you something on WhatsApp about it at some point. Rating E lowest because it \"tells you nothing\" ignores that it's the only one that doesn't make you wince, so you'd forget it, not just dismiss it."
+  },
+  {
+   "persona": "6d6be3157b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "Looking at it again, my friend's right that I was scoring the gore and not the message. E is vague, and I said I don't trust scare labels, so rating it highest was inconsistent. The labels that give a specific chain would stick more, and F is the one I could actually repeat to my sister. I'd still probably buy the bar, though. A sharper warning might make me feel guilty for a second, but it wouldn't change a tired Tuesday.\n\n{\"points\": {\"A\": 12, \"B\": 10, \"C\": 16, \"D\": 20, \"E\": 12, \"F\": 30}, \"most_ignored\": \"B\", \"why\": \"A generic 'causes cancer' line over a surgery photo is the standard scare warning I've already learned to tune out, whereas the specific bowel cancer chain is the one I could actually repeat back.\"}",
+   "points": [
+    12.0,
+    10.0,
+    16.0,
+    20.0,
+    12.0,
+    30.0
+   ],
+   "round1_points": [
+    14.285714285714286,
+    11.428571428571429,
+    14.285714285714286,
+    11.428571428571429,
+    20.0,
+    28.571428571428573
+   ],
+   "critique": "You're rating E highest for \"telling me something,\" but E is the vaguest label on the list, and you just said you don't trust scare messaging, so you're contradicting yourself. You also admit F would make you pause at the tills, yet you're confident you'd still buy it, which is exactly how a warning works on someone who's tired on a long shift. Your complaint that campaigns never explain why the cheap option is worst is the most useful thing you said, and none of these labels do that either, so the one that would land on you is the one that tells you the mechanism, not the one that shouts. Stop scoring the gore and ask which label you could repeat back to your sister after she's been shouting about influencers."
+  },
+  {
+   "persona": "8e1a662dcb",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "Fair point from my mate. The teeth thing is the one that actually changed what I did, because it was sore and it was happening to me. The cancer pictures do land more than I let on, I just don't like admitting a poster got to me. Still, none of these tell me what to have instead of a Dairy Milk at six after a shift, and the fat-people one still feels like a dig.\n\n{\"points\": {\"A\": 24, \"B\": 14, \"C\": 26, \"D\": 4, \"E\": 20, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"It reads as a dig at people's bodies rather than something that tells me what to do with a bar in my hand, so I'd tune it out, while the graphic pictures at least make me stop for a second.\"}",
+   "points": [
+    24.0,
+    14.0,
+    26.0,
+    4.0,
+    20.0,
+    12.0
+   ],
+   "round1_points": [
+    28.0,
+    12.0,
+    26.0,
+    4.0,
+    20.0,
+    10.0
+   ],
+   "critique": "You say the eye and bowel pictures would make you wince, then call the cancer ones scare tactics, which is you admitting they'd land and pretending they wouldn't. The thing that actually changed your habits was your teeth giving you grief, a pain you felt that week, and no warning label is going to mention that. You say you trust the doctors who explain the mechanism properly, yet the messages that spell out the chain of cause and effect are the ones you're waving off. Stop pretending a Dairy Milk at six after a shift on the phones isn't a real pull; the message that might work on you is the one that makes the cheap, quick alternative sound better, not the one that makes you feel like a bad person."
+  },
+  {
+   "persona": "e317db0701",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "Gut reaction: my friend's got a point about the eye. It's the same gore I already said I look away from, and mum mentioning it at the dinner table isn't the same as it landing at the counter at quarter to six. Bowel cancer is still the closest one to home, and \"which causes bowel cancer\" is easier to picture than \"13 types\", but I'd still be reaching for the bar.\n\n{\"points\": {\"A\": 9, \"B\": 9, \"C\": 10, \"D\": 22, \"E\": 32, \"F\": 18}, \"most_ignored\": \"C\", \"why\": \"It just tells me I'm overweight, which I already know, and doesn't give me a reason to put the bar down when I'm knackered and it's sitting right there on the counter.\"}",
+   "points": [
+    9.0,
+    9.0,
+    10.0,
+    22.0,
+    32.0,
+    18.0
+   ],
+   "round1_points": [
+    10.0,
+    10.0,
+    12.0,
+    30.0,
+    22.0,
+    16.0
+   ],
+   "critique": "You're being idealistic about your own pull toward the diabetes eye: a nurse mum mentioning it doesn't make it land when you're knackered at the counter, and a bleeding eye photo is the same \"yeah, yeah\" gore you just said you look away from, so don't ring it up as your best shot. You've also underrated the bowel cancer one, which is the only message that names something close to home and a body part you can picture, and \"which causes bowel cancer\" is more concrete than \"13 types\" in a way that a man in a van at lunch might actually register. Your ranking is also just saying the wrong thing matters least: the fat-people photo scored lowest, but you're right that it's insulting, and that's worth knowing, not a reason to dismiss the whole approach. Honestly, none of these will move you on a bad day, because the bar is twelve quid cheaper than a box and the ad doesn't touch the train at 6:40 or the Sunday shop that decides what's in the fridge."
+  },
+  {
+   "persona": "95f4b12a4e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "Fair point about the till. I'm skint, knackered, and on autopilot by then, so none of these would stop me on a picture alone. I still think the photos are just \"ew\" and I'd want the bar anyway, but a number might catch me for a second. I'm also less sure about F now, since it's basically the same having-a-go message, and I don't link chocolate to bowel cancer, so B stays the weakest.\n\n{\"points\": {\"A\": 12, \"B\": 7, \"C\": 12, \"D\": 30, \"E\": 25, \"F\": 14}, \"most_ignored\": \"B\", \"why\": \"I don't connect a chocolate bar to bowel cancer, so the warning depends on a link I don't believe, and the gross picture just makes me look away.\"}",
+   "points": [
+    12.0,
+    7.0,
+    12.0,
+    30.0,
+    25.0,
+    14.0
+   ],
+   "round1_points": [
+    13.333333333333334,
+    20.0,
+    16.666666666666668,
+    25.0,
+    16.666666666666668,
+    8.333333333333334
+   ],
+   "critique": "You're being idealistic about your own willpower: you say the gross photos wouldn't stop you, but you also say you're knackered, skint, and grabbing banana and coffee because it's easy, so the bar at the till is exactly the moment you'd stop thinking about any warning. You've also underrated F as a \"having a go\" message, when you already react to shaming (you cut fizzy drinks for your legs, not for \"health\"), so a message that frames the same fact around something you care about, like running or your legs, might actually land. And your scoring of B as the second most effective is wrong: you just told me you don't link chocolate to bowel cancer, so a message that depends on that link is the one most likely to slide straight past you. D's \"13 types of cancer\" is the only one that stops you on a number rather than a picture, and that's the one I'd bet on for someone in your position, so don't dismiss it as \"scary-sounding but far off.\""
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "My gut says a warning on a Dairy Milk still gets a sigh and a scroll, and the surgery photos are things I've already heard about from my mum, so they don't tell me much I don't know. I'd notice the diabetes one more, because my knees and my running are what I actually care about, and a damaged eye is a thing I can picture. The graphic bowel one would give me a second's pause, but I'd still be at the vending machine after a twelve-hour shift.\n\n{\"points\": {\"A\": 17, \"B\": 23, \"C\": 17, \"D\": 19, \"E\": 20, \"F\": 4}, \"most_ignored\": \"F\", \"why\": \"It's a vague judgement with a photo of strangers' backs that tells me nothing new and talks down to me, so I'd ignore it completely.\"}",
+   "points": [
+    17.0,
+    23.0,
+    17.0,
+    19.0,
+    20.0,
+    4.0
+   ],
+   "round1_points": [
+    16.0,
+    12.0,
+    18.0,
+    20.0,
+    30.0,
+    4.0
+   ],
+   "critique": "You score E at 30 and then admit a graphic cancer photo would still have you reaching for the chocolate at four o'clock, which is the exact gap you're pretending isn't there. Surgery photos are things you've already seen through your mum, so they land as a sad story, not news, and you'll scroll past them just like the ones you called thick. Your dismissal of F is fair, but you're lumping every option together when none of them touch the real problem: nothing here helps someone with forty minutes and a half-empty freezer. The one that might actually move you is the one tied to your own life, like something about running and recovery, because you actually want that and it doesn't make you feel guilty about Friday chips."
+  },
+  {
+   "persona": "73afb797cc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "Fair point about the bowel one. Grim does stick with me more than a cheery poster does. I still don't think a label on a Dairy Milk changes much, but the \"13 types\" line is the sort of number that sounds like it came from somewhere official, and I'd be more likely to believe a doctor saying it than a picture.\n\n{\"points\": {\"A\": 14, \"B\": 8, \"C\": 12, \"D\": 14, \"E\": 26, \"F\": 26}, \"most_ignored\": \"B\", \"why\": \"The eye photo has nothing to do with a chocolate bar in my head, so it reads like a stock picture and I'd scroll past it.\"}",
+   "points": [
+    14.0,
+    8.0,
+    12.0,
+    14.0,
+    26.0,
+    26.0
+   ],
+   "round1_points": [
+    20.0,
+    10.0,
+    14.0,
+    14.0,
+    26.0,
+    16.0
+   ],
+   "critique": "You say you'd think \"here we go again\" and still reach for the Dairy Milk, then give the bowel one 26 out of 100 because it's grim. Grim is the reason it'd stick, so your own scores say you'd pay attention to something, and the \"I'm immune\" line is you being idealistic about yourself. You also dismissed the eye as a stock photo, but a warning label on a chocolate bar is exactly the kind of thing you'd file as nagging, so every one of these will bounce off you for the same reason the five-a-day posters do. The one you've underrated is F: \"13 types of cancer\" is a number that sounds like a fact you can't argue with, and a bloke who trusts his GP and Dave the pharmacist might take a number from a source like that more seriously than a picture."
+  },
+  {
+   "persona": "29f2cb08d2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "Reading them again, the friend has a point. I was scoring by which one stung, not which one would stop my hand. The surgery and eye photos are just gore to me now, and I already know the cancer and surgery pictures won't put me off a bar. The one that connects to what the doc actually said is still the heart disease one, so that stays top. The plain obesity one isn't really me being offended, it just doesn't tell me anything I don't know. The 13 types of cancer line is the one I'd tune out fastest, a scare number that sounds like it's about somebody else.\n\n{\"points\": {\"A\": 34, \"B\": 12, \"C\": 12, \"D\": 18, \"E\": 18, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"The heart disease link is the only one tied to what the doc told me, but even that would only register for a moment at two o'clock in the car, and the 13-cancers line is a vague scare number I'd tune out fastest.\"}",
+   "points": [
+    34.0,
+    12.0,
+    12.0,
+    18.0,
+    18.0,
+    6.0
+   ],
+   "round1_points": [
+    40.0,
+    13.333333333333334,
+    13.333333333333334,
+    6.666666666666667,
+    20.0,
+    6.666666666666667
+   ],
+   "critique": "You say they all look the same, then score A at 30 and say heart disease is the one that \"felt real,\" which contradicts your own \"I'd half-ignore it\" and tells me you're rating the message by how much it stung you, not by whether it would change anything. You also say gore doesn't stop you wanting a Dairy Milk, so shock photos are exactly what you'd scroll past, and C's bowel picture is no different. Your \"having a go at me\" reaction to D is the same defensiveness you'd bring to any label, so calling it the most ignored just means you're rating how preachy it sounds, not whether it works. And you've said yourself you want to be told how to eat on a tenner with no oven, which none of these do, so you should be asking which one would get you to swap the fizzy drink in the car, not which one you'd feel guiltiest reading."
+  },
+  {
+   "persona": "da72812cfc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "I'll give the friend this much: the diabetes one is the only one that touches my real life, and I'd be lying if I said the nurse's telling-offs don't stick a bit. The cancer ones I still reckon I'd file under \"not me,\" but I'll admit the surgery photos would stop me for a second more than I let on. The three blokes from behind still annoy me, so that stays bottom.\n\n{\"points\": {\"A\": 12, \"B\": 16, \"C\": 36, \"D\": 6, \"E\": 14, \"F\": 16}, \"most_ignored\": \"D\", \"why\": \"The bare warning with the photo of overweight people from behind reads as a dig at me, so I'd ignore it, while the diabetes one connects to what the nurse has already been on at me about.\"}",
+   "points": [
+    12.0,
+    16.0,
+    36.0,
+    6.0,
+    14.0,
+    16.0
+   ],
+   "round1_points": [
+    17.77777777777778,
+    13.333333333333334,
+    31.11111111111111,
+    8.88888888888889,
+    13.333333333333334,
+    15.555555555555555
+   ],
+   "critique": "You're being idealistic about your own tuning-out: you say you'd just carry on, yet you also say you'd give the diabetes label \"a tiny bit of attention,\" which is the only one that touches your real life, so you're underrating how much a nurse-linked warning would sink in. Your reasoning for ranking D as most ignored is the strongest part of your answer, but you've mistaken \"I'd resent it\" for \"I'd be immune to it,\" and resentment is exactly what makes people like you dismiss a message. Where you're wrong is on the surgery photos: you call them telly-style shock tactics, but you and Keith and your wife would probably see a cancer label as a far-off, someone-else's problem, so the cancer ones aren't just skipped, they're easy to file under \"not me.\" Honestly, the message that would bounce off you hardest is the one with the most scary imagery, not the most judgemental one, and you've ranked it backwards."
+  },
+  {
+   "persona": "f97cee23dd",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Looking again, the friend has a point about the wince. The surgery and eye photos would make me pause for a second, and I did cut crisps after the doctor's warning, so specific health news does get through to me. I still don't think a label on a Dairy Milk bar would stop me buying one on a knackered Thursday, but it might make me hesitate a bit longer over the wrapper. Heart disease is the one that's closest to my own situation, so it gets the most.\n\n{\"points\": {\"A\": 14, \"B\": 12, \"C\": 20, \"D\": 10, \"E\": 14, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"A bare obesity line over a stock photo of people from behind is generic nagging I'd skip past, while the specific disease links at least connect to something I'd actually worry about.\"}",
+   "points": [
+    14.0,
+    12.0,
+    20.0,
+    10.0,
+    14.0,
+    30.0
+   ],
+   "round1_points": [
+    10.666666666666666,
+    8.0,
+    29.333333333333332,
+    5.333333333333333,
+    9.333333333333334,
+    37.333333333333336
+   ],
+   "critique": "You cut crisps the minute your doctor mentioned blood pressure, so specific health news clearly does move you, and F's heart link is the closest thing here to your own problem, yet you're waving the whole set away as wash-over. Your \"I'd reach for the chocolate anyway\" is the idealist talking: you also buy steak even when the big shop's due and have a pint every Friday, so a label on a bad day isn't going to beat a craving. You're right that \"obesity\" sounds like it's talking down to a child, but you're also the one saying the surgery photos make you wince, and a wince is the only reaction the campaign needs. Stop assuming you're immune to messages you've already shown you respond to."
+  },
+  {
+   "persona": "1ec44baa5d",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "Fair point from my mate. I did dismiss the \"13 types\" line too quickly, just because it sounded like padding. I still reckon a photo on a bar I buy at three o'clock won't stop me, but a specific cancer I could actually get is more likely to make me think twice than a generic scare.\n\n{\"points\": {\"A\": 30, \"B\": 8, \"C\": 14, \"D\": 12, \"E\": 20, \"F\": 16}, \"most_ignored\": \"B\", \"why\": \"The three people from behind just feels like being got at, so I'd scroll past it, whereas the bowel cancer link is specific enough to make me pause, even if it wouldn't stop the Dairy Milk.\"}",
+   "points": [
+    30.0,
+    8.0,
+    14.0,
+    12.0,
+    20.0,
+    16.0
+   ],
+   "round1_points": [
+    25.0,
+    13.0,
+    18.0,
+    17.0,
+    12.0,
+    15.0
+   ],
+   "critique": "You say you'd never be moved by a scare photo, yet the bowel one is the only one you'd pause at, and you cut beer the minute money got tight, so consequences do land when they feel real. You hate the cartoon apple, then rank the grisliest image highest and wave off the one line that names a cancer you can catch with the boring checks your mum keeps nagging about. Calling \"13 types of cancer\" padding is you deciding a stat is fake because it's inconvenient, not because you've checked it. You're right that none of these stops the Dairy Milk at three o'clock, which is the real problem: a warning on a bar you buy when you're bored and skint needs to address that moment, not a photo you'll scroll past."
+  },
+  {
+   "persona": "fb71b08c6b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Honestly, the blood pressure thing is fair. I did cut the sugar, and that was because of my own numbers, not a poster. So heart disease probably should have got more from me than I gave it. Bowel cancer still feels closest to home, but a pause isn't a habit, and I'm not going to pretend a picture of a bowel makes me put the Dairy Milk back.\n\n{\"points\": {\"A\": 8, \"B\": 10, \"C\": 26, \"D\": 5, \"E\": 11, \"F\": 40}, \"most_ignored\": \"D\", \"why\": \"It reads as a judgement on people's bodies, which makes me resent the message and stops it sinking in, even though it's the least personal of the six.\"}",
+   "points": [
+    8.0,
+    10.0,
+    26.0,
+    5.0,
+    11.0,
+    40.0
+   ],
+   "round1_points": [
+    11.764705882352942,
+    14.705882352941176,
+    20.58823529411765,
+    5.882352941176471,
+    14.705882352941176,
+    32.35294117647059
+   ],
+   "critique": "You say a pause isn't a change, but you cut sugar after your blood pressure went up, which is a counterexample to your own argument: it took a consequence close to home, not a face on a wall. Bowel cancer at fifty-three is the one that's actually yours to worry about, so don't wave off F's half-second pause, because a message that makes you think about your own body is the kind that sticks. You're also precious about tone: D is the least personal of the six, yet you'd ignore it even if it were gentle, because you've already decided health messages are for idiots. And calling heart disease \"vague\" is odd when your blood pressure has already gone up, so C should have hit you harder than you're admitting."
+  },
+  {
+   "persona": "379b5a60c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Reading these again, the friend has a point about E. A graphic image is exactly the shock tone that makes me switch off, so it probably lands worse than I said. I still don't think a chocolate bar label changes my Sunday shop, and I'd still eat the bar, but the specific, plain-tone ones are more likely to stick in my head than the photos.\n\n{\"points\": {\"A\": 10, \"B\": 15, \"C\": 25, \"D\": 5, \"E\": 20, \"F\": 25}, \"most_ignored\": \"D\", \"why\": \"A vague cancer claim over a surgery photo is the same shock-poster tone I already switch off to, and it doesn't tell me anything I could act on.\"}",
+   "points": [
+    10.0,
+    15.0,
+    25.0,
+    5.0,
+    20.0,
+    25.0
+   ],
+   "round1_points": [
+    10.0,
+    10.0,
+    20.0,
+    5.0,
+    35.0,
+    20.0
+   ],
+   "critique": "You're being idealistic about your own habits: you already cut beef and check unit prices, so you clearly respond to cost and specifics, yet you're claiming a grim photo would have no effect on you while also admitting the bowel one might give you pause. The bigger miss is that you've dismissed the scores as just \"scrolling past,\" but your mum forwarding articles and you trusting the GP tell me you do listen to health claims from sources you trust, and none of these labels come from one. Challenge your ranking too: you put E top and D bottom, but E's graphic image is exactly the sort of shock tone you say makes you switch off, so it may land worse with you than you think. And \"I'd still eat the bar\" is true of nearly any single label, so the real test is whether a message changes what you buy on Sunday, which none of these do, so stop grading them on whether they'd stop your hand."
+  },
+  {
+   "persona": "51e9fd8c10",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Fair point from my friend. I was calling the tone the problem when the real problem is that I don't like being told what to do, and that's no reason to ignore a label I'll see at the till. I still don't trust the eggs-style \"this causes that\" chain, but Dave's bowel cancer link is more solid than I gave it credit for. The photos still make me look away, though, and I'd still rather be left to think about the price myself.\n\n{\"points\": {\"A\": 10, \"B\": 25, \"C\": 14, \"D\": 14, \"E\": 18, \"F\": 19}, \"most_ignored\": \"A\", \"why\": \"The gory bowel photo makes me look away, and the preachy tone makes me roll my eyes, even if the underlying claim is more credible than I first admitted.\"}",
+   "points": [
+    10.0,
+    25.0,
+    14.0,
+    14.0,
+    18.0,
+    19.0
+   ],
+   "round1_points": [
+    9.876543209876543,
+    33.333333333333336,
+    12.345679012345679,
+    14.814814814814815,
+    18.51851851851852,
+    11.11111111111111
+   ],
+   "critique": "You rank B highest because it's the least preachy, which tells me you're judging the tone, not whether the message is true. You say the bar is a shrug, but you also say you think about price at the till, and that's exactly where a label is most likely to nudge someone like you. You've written off the obesity-cancer link because of the eggs flip-flopping, yet Dave would tell you the link between excess weight and bowel cancer has been stable for years. Your real objection is that you hate being talked down to, so say that, and stop pretending the photos are the problem."
+  },
+  {
+   "persona": "8708403f28",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "My gut says the heart surgery picture still gets to me because of Dad's bypass, and I'd be kidding myself to say I'd just glance past it. Still, a label on a bar in my hand, when I'm skint and eating beans at the sink, won't do much on its own. Dev's links make me nervous, and I just ignore them, so I shouldn't pretend a poster would work better.\n\n{\"points\": {\"A\": 34, \"B\": 8, \"C\": 12, \"D\": 10, \"E\": 24, \"F\": 12}, \"most_ignored\": \"B\", \"why\": \"The diabetic eye feels like a problem for someone older and further off, whereas the heart surgery picture connects to my dad and sticks with me.\"}",
+   "points": [
+    34.0,
+    8.0,
+    12.0,
+    10.0,
+    24.0,
+    12.0
+   ],
+   "round1_points": [
+    26.31578947368421,
+    10.526315789473685,
+    12.631578947368421,
+    5.2631578947368425,
+    26.31578947368421,
+    18.94736842105263
+   ],
+   "critique": "You're kidding yourself that you'd \"just glance and move on,\" because you've just told me your dad had a bypass and you still remember how it looked, so A and E are the only ones that have actually got under your skin. Dismissing D as \"a dig\" is you doing exactly what you hate about telly ads: assuming it's aimed at someone else. Your scoring is sloppy too, with B listed twice and the points adding to 105, which says you haven't thought about these as a set. None of them touches the skint, beans-at-the-sink reality you described, so don't pretend a label on a bar is going to decide what goes in your mouth."
+  },
+  {
+   "persona": "ec140b48d8",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair enough, I still reckon I wouldn't pay more for a smaller bar, and the budget's what really runs my shopping. But the bowel one does stick, probably because it's specific and a bit gross, and I've had mates with the NHS letters. The three people from behind still annoys me, but I'll admit that's partly because it's aimed at me, which doesn't make it useless.\n\n{\"points\": {\"A\": 30, \"B\": 6, \"C\": 14, \"D\": 18, \"E\": 14, \"F\": 18}, \"most_ignored\": \"B\", \"why\": \"A generic 'causes cancer' line over a surgery photo is vague enough that I'd file it with every other health advert, whereas the bowel one names something specific and nasty that I could picture happening to someone I know.\"}",
+   "points": [
+    30.0,
+    6.0,
+    14.0,
+    18.0,
+    14.0,
+    18.0
+   ],
+   "round1_points": [
+    22.0,
+    10.0,
+    16.0,
+    20.0,
+    17.0,
+    15.0
+   ],
+   "critique": "You're treating \"I'd still buy it\" as proof the label is useless, but you just told me you check a budget on the fridge, freeze half a pack of mince, and skip branded stuff over a few quid, so cost is what actually steers you, and none of these labels touch that. Your own answer also undercuts you: you wince at the bowel one and then say you know sugar's not great, which means it's landing and you're just too sure of yourself to admit it. Bowel cancer is the one you'd file under \"not me\" until your knee-surgery NHS mates start getting the letters, so it's the one most likely to stick. And calling F \"just a dig\" is you being precious about being told you're overweight, which is exactly why you'd ignore it, so don't pretend that's a judgement on the message."
+  },
+  {
+   "persona": "e49d79f0e8",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Honestly, the heart line is the only one that connects to something I've already done, since my blood pressure went up and I cut the sugar. But a photo of open-heart surgery on a Dairy Milk wrapper is still the sort of thing I'd look away from on the train, and \"three fat people from behind\" still tells me nothing new. So I'm moving some points to D, not all of them.\n\n{\"points\": {\"A\": 8, \"B\": 10, \"C\": 25, \"D\": 30, \"E\": 15, \"F\": 12}, \"most_ignored\": \"A\", \"why\": \"The bowel cancer photo is so grim and so obviously trying to scare me that I'd look away, whereas the heart disease line at least links to something that has actually happened to my own health.\"}",
+   "points": [
+    8.0,
+    10.0,
+    25.0,
+    30.0,
+    15.0,
+    12.0
+   ],
+   "round1_points": [
+    7.0,
+    12.0,
+    44.0,
+    15.0,
+    12.0,
+    10.0
+   ],
+   "critique": "You say the gory photos put you off, but you cut sugar in your tea after your blood pressure went up, so a warning tied to a specific outcome like heart disease is the one that actually moved you, which makes D the one you're underrating. C is the bus-shelter shouting you hate in a quieter voice: three fat people photographed from behind is exactly the \"we're all idiots\" tone you just complained about, and it tells you nothing about what happens to you. You also say a bar on the train home wouldn't stop you eating it, which is probably true, but you'd still remember the heart line when you're deciding on the second one, so don't pretend a plain sentence is neutral. Pick D."
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Reading it again, my gut says the eye picture is the one that would actually stop me, because I've seen what it does to people. The bowel one shocks for a minute, but you're right that it fades by the time the thighs are in. The thirteen-cancers line is a number I can't check, but it's more plausible than \"causes cancer\" on its own, which I'd still take with a pinch of salt.\n\n{\"points\": {\"A\": 5, \"B\": 20, \"C\": 35, \"D\": 12, \"E\": 8, \"F\": 20}, \"most_ignored\": \"A\", \"why\": \"The vague 'causes cancer' line over a surgery photo is the sort of scare I've learned to tune out, whereas the eye picture touches someone I know and the specific cancer count at least reads like a fact.\"}",
+   "points": [
+    5.0,
+    20.0,
+    35.0,
+    12.0,
+    8.0,
+    20.0
+   ],
+   "round1_points": [
+    10.526315789473685,
+    5.2631578947368425,
+    26.31578947368421,
+    10.526315789473685,
+    0.0,
+    47.36842105263158
+   ],
+   "critique": "You're scoring these like a man who's never had to change anything, yet you did change, and only because a diagnosis frightened you into it. The eye picture is the only one that touches your own life, and you've already waved it off as \"a second's thought,\" which is exactly how you talked yourself out of giving up the biscuit. You say you want facts, not shouting, and the thirteen-cancers line is the closest to a plain fact here, so dismissing it as scaremongering is you choosing the message that suits your mood. Your bowel poster stopping you \"for a moment\" will be gone by the time the thighs are out of the oven, so ask yourself honestly which of these you'd still remember on Thursday at the yellow stickers."
+  },
+  {
+   "persona": "00af7ff56b",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "Fair enough, the nurse did get through to me, and it was the bit about my own body that did it. A heart one is the closest thing to that, so I'd take it more seriously than I first said. I still don't reckon a label would stop me having a Dairy Milk on a Tuesday, though, and the bowel one is still just gross.\n\n{\"points\": {\"A\": 30, \"B\": 12, \"C\": 12, \"D\": 12, \"E\": 18, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"It feels like a dig at overweight people rather than something that would change whether I fancy the bar, and I'd just get defensive about it.\"}",
+   "points": [
+    33.333333333333336,
+    13.333333333333334,
+    13.333333333333334,
+    13.333333333333334,
+    20.0,
+    6.666666666666667
+   ],
+   "round1_points": [
+    18.75,
+    12.5,
+    18.75,
+    25.0,
+    15.0,
+    10.0
+   ],
+   "critique": "You scored D highest after saying it's disgusting and wouldn't make you think twice, so your points are noise. The nurse is the only thing that's actually changed what you eat, and it worked because it was about your body, which is exactly what A does with the heart, yet you gave A 15 like it's nothing. You say you'd still have the bar, but you've already dropped the crisps and pudding, so you're not immune, you're just not admitting a plain warning did something. And you're writing off the cancer photos as bus-stop wallpaper, when a grim picture is exactly what sticks with someone knackered at six."
+  },
+  {
+   "persona": "b8189bb09e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "Fair point about the blood test. It did scare me, and I cut the sugar. But that was because the nurse said something specific about my numbers, not because someone waved a gory picture at me. So a label that names a condition I could actually get is more likely to stick than a vague \"cancer\" one. Bowel cancer and diabetes are the ones I'd picture, and the diabetes one would stick most because of the blood test. The heart one's fair too, since my dad had heart trouble. I still think the surgery photos are just something you flick past, and I still don't like being lectured, so I'm not moving much on that.\n\n{\"points\": {\"A\": 8, \"B\": 27, \"C\": 10, \"D\": 8, \"E\": 27, \"F\": 20}, \"most_ignored\": \"A\", \"why\": \"A vague 'cancer' line over a surgery photo reads as a lecture to someone else, whereas a named condition like diabetes or bowel cancer that I could really get would make me stop and think about my next biscuit.\"}",
+   "points": [
+    8.0,
+    27.0,
+    10.0,
+    8.0,
+    27.0,
+    20.0
+   ],
+   "round1_points": [
+    10.0,
+    15.0,
+    25.0,
+    10.0,
+    15.0,
+    25.0
+   ],
+   "critique": "You've just told me a blood test scared you into cutting sugar, so don't pretend fear doesn't work on you. You rated C and F highest, then said they wouldn't change what you eat, which means you're scoring what annoys you, not what would move you. Your complaint about adverts treating people like children is the same mistake in reverse: you've decided \"obesity\" is for other people and never checked whether bowel cancer, the specific one, is the thing that actually lands with someone like you. Stop judging these by whether they feel patronising and ask which one your GP would stand behind."
+  },
+  {
+   "persona": "91dacce118",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Fair enough, the bowel one is the sort of thing that does get you thinking. My mate Dave had to do one of those kits and went quiet about it for a week, so I can see it landing. The gory bowel picture would still make me wince and look away, though, and I'd still think they're trying to frighten us.\n\n{\"points\": {\"A\": 30, \"B\": 10, \"C\": 15, \"D\": 5, \"E\": 30, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"The vague calories line over a photo of people from behind is the preachy sort of thing I tune out, whereas the bowel and heart links are specific enough to make me think about my own health.\"}",
+   "points": [
+    30.0,
+    10.0,
+    15.0,
+    5.0,
+    30.0,
+    10.0
+   ],
+   "round1_points": null,
+   "critique": "You're kidding yourself that a label on a Dairy Milk wouldn't touch you, when you spent a month missing bacon because a doctor was firm and now you've rationed it to a fortnight. Calling A \"they're scaring us\" is the exact tone you say you hate, so you're not immune to scare tactics, you just prefer the ones that match your own story. You're right that F is useless, since a vague calories line with no consequence is what people like us wave away, but you've given no good reason for it beyond being annoyed. What you've underrated is E: bowel cancer is the kind of thing a bloke your age gets sent for at the GP, it's specific, and a plain consequence would hit harder than the gory photo you're probably scrolling past."
+  },
+  {
+   "persona": "82f88270eb",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "Fair point. I did go for the heart one because of the doctor and Pat, not because the picture grabbed me. The surgery photos still turn my stomach, so I'd look away from them. What I'd actually keep is that the heart link is the one that means something to me, and the plain one is at least honest even if it bores me. None of them would stop me on a Tuesday with four teas and no lunch, so I've spread the points more evenly.\n\n{\"points\": {\"A\": 30, \"B\": 10, \"C\": 16, \"D\": 10, \"E\": 12, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"A bleeding eye is grim to look at and has nothing to do with my day, so I'd look away before I even read the words.\"}",
+   "points": [
+    30.0,
+    10.0,
+    16.0,
+    10.0,
+    12.0,
+    22.0
+   ],
+   "round1_points": [
+    35.0,
+    15.0,
+    5.0,
+    15.0,
+    10.0,
+    20.0
+   ],
+   "critique": "You say you'd look away from the surgery pictures, then score the heart one highest, so your numbers don't match your own gut. The heart one only lands because the doctor and Pat are already on at you about your blood pressure, which means the label isn't doing the work. The thing that actually wrecks your Tuesday is four teas and no lunch, and none of these six touch that. Stop pretending a warning on a chocolate bar is going to fix a day you've set up to fail."
+  },
+  {
+   "persona": "1475b795bc",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Fair point from my mate, I'll admit that. The blood pressure is the bit that's actually bothering me, so a heart warning would probably land closer to home than a cancer one, though I still reckon I'd have the bar with my tea. The gore only makes me look away, it doesn't make me put the biscuit down.\n\n{\"points\": {\"A\": 14, \"B\": 16, \"C\": 24, \"D\": 12, \"E\": 6, \"F\": 28}, \"most_ignored\": \"E\", \"why\": \"The thirteen-cancers line reads like someone overdoing the scare, so I'd dismiss it straight away, whereas the heart one ties to what the doctor already told me about my blood pressure.\"}",
+   "points": [
+    14.0,
+    16.0,
+    24.0,
+    12.0,
+    6.0,
+    28.0
+   ],
+   "round1_points": [
+    12.0,
+    18.0,
+    12.0,
+    14.0,
+    8.0,
+    36.0
+   ],
+   "critique": "You say you'd roll your eyes at all of them, but you've just told me you cut crisps because of your blood pressure, which makes C the one closest to your actual life, and you dismissed it with the rest. Your \"here we go again\" is idealism: you read the leaflets and listen to your GP, so a warning tied to something your doctor already told you would land harder than you're admitting. You scored F 36 for being the nastiest picture, but you're also the man who still has the biscuit, so the gore isn't what would change anything. Stop ranking by shock and ask which of these a skint man with a dodgy knee would think applied to him, because it's probably the heart one."
+  },
+  {
+   "persona": "f0547fbf1e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Fair enough, I'd still have the biscuit. I'm not going to say a label on a Dairy Milk would stop me. The diabetes one still makes me think of the nurse and that leaflet, but that's more irritation than anything useful. The bowel one is the grim one, and I'd probably wince, but I'd be off to the kettle before I'd thought about it. I'll drop the diabetes one down a bit and let the bowel one take a few more points, since it's the only one that's about something I might actually get asked about.\n\n{\"points\": {\"A\": 15, \"B\": 25, \"C\": 25, \"D\": 10, \"E\": 10, \"F\": 15}, \"most_ignored\": \"E\", \"why\": \"A chocolate bar label with a cancer surgery photo is just the sort of scare picture I've learned to let wash over me, and '13 types of cancer' sounds like a number someone's made up to get a reaction.\"}",
+   "points": [
+    15.0,
+    25.0,
+    25.0,
+    10.0,
+    10.0,
+    15.0
+   ],
+   "round1_points": [
+    20.0,
+    35.0,
+    20.0,
+    10.0,
+    10.0,
+    5.0
+   ],
+   "critique": "You're being idealistic about your own biscuit: you say the diabetes one \"might actually stick\" and then admit you'd still have the biscuit, so it's a guilt trip you'd shrug off, not a message that changes anything. Your \"tell me something I don't know\" line is a bit of a pose, because the leaflet in your drawer is exactly the kind of thing you've been ignoring for years, and that's the real reason B lands for you. The point you've underrated is that the bowel cancer one (C) is the only one that connects to something you'd actually be asked about, since your bowel screening kit is probably sitting unopened somewhere too, and a warning that hits you at the chocolate bar could work where a leaflet never did. Your daughter the pharmacist would tell you straight that a warning label doesn't change a biscuit habit, so stop scoring these as if they will."
+  },
+  {
+   "persona": "e55fea1d30",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "Reading them again, the friend's right that I scored the photos and the heart one on how they made me feel, not on whether I'd put the bar down. The three backs still annoy me, but a plain fact I can't really argue with might get through more than the cancer ones I'd write off as my brother-in-law's nonsense. Honestly, none of them would stop me having the Dairy Milk with my tea.\n\n{\"points\": {\"A\": 16, \"B\": 22, \"C\": 16, \"D\": 18, \"E\": 16, \"F\": 12}, \"most_ignored\": \"F\", \"why\": \"It's the same vague cancer warning as C without the number, so it reads like every other lecture I've been ignoring for years.\"}",
+   "points": [
+    16.0,
+    22.0,
+    16.0,
+    18.0,
+    16.0,
+    12.0
+   ],
+   "round1_points": [
+    16.0,
+    10.666666666666666,
+    13.333333333333334,
+    18.666666666666668,
+    29.333333333333332,
+    12.0
+   ],
+   "critique": "You're scoring E at 22 because of your dad's bypass, then telling me you'd still have the bar, so that's a score for a feeling, not for what you'd do. You say shock does nothing for you, yet D and A get 14 and 12, which is you grading the photos, not the message. C and F are the same message with and without \"13 types\", and you've given them 10 and 9, so you're not actually reading the differences. Your biscuit-tin rant is the real clue: you respond to being talked down to, and \"obesity\" with three backs does that, so it's not \"most ignored\", it's the one you can't argue with."
+  },
+  {
+   "persona": "af9be8e443",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "Fair point about the number. I'd still bristle at the surgery photo, but \"13 types of cancer\" is a figure I can check, and the nurse's letters have already shown me that things with consequences get my attention. The bowel one still feels closest to home, and I'd be lying if I said the fact on the bar wouldn't make me hesitate for a second.\n\n{\"points\": {\"A\": 15, \"B\": 15, \"C\": 8, \"D\": 12, \"E\": 30, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"It gives the same vague 'cancer' claim as B without the specific number, so it reads like every other poster I've learnt to tune out.\"}",
+   "points": [
+    15.0,
+    15.0,
+    8.0,
+    12.0,
+    30.0,
+    20.0
+   ],
+   "round1_points": [
+    30.0,
+    5.0,
+    10.0,
+    15.0,
+    25.0,
+    15.0
+   ],
+   "critique": "You marked B lowest as a scare tactic, but you're the one who said you want \"the actual number,\" and B is the only label that gives one: 13 cancers, a figure the NHS and Cancer Research UK already publish. Your \"not my problem\" reasoning applies to A too, since three anonymous overweight backs from behind are easy to dismiss, so A shouldn't sit at 30. You've also just told me that the nurse's letters got you cutting milk and sugar, which means consequences land on you and posters don't, so don't pretend fear doesn't work. Check the number before you wave it off, because a knee that's already got opinions about a 10K doesn't need you ignoring a fact that's sitting on the bar in front of you."
+  },
+  {
+   "persona": "2044b418a3",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "Looking at it again, the friend's right that I was scoring on how things made me feel, not on whether they'd change a Tuesday. A picture of three fat folk from behind still annoys me, and I'd probably dig my heels in rather than put the bar back. The bowel cancer one is more specific and it's about my age, so I'd be lying if I said it wouldn't give me a pause, even if I'd still have the bar. Diabetes I already know about, and it's the same story I've heard from everyone, so it's less new.\n\n{\"points\": {\"A\": 25, \"B\": 10, \"C\": 5, \"D\": 10, \"E\": 35, \"F\": 15}, \"most_ignored\": \"C\", \"why\": \"A vague '13 types of cancer' line sounds like a leaflet written to frighten, so I'd switch off before it reached the bar in my hand.\"}",
+   "points": [
+    25.0,
+    10.0,
+    5.0,
+    10.0,
+    35.0,
+    15.0
+   ],
+   "round1_points": [
+    35.294117647058826,
+    17.647058823529413,
+    5.882352941176471,
+    5.882352941176471,
+    29.41176470588235,
+    5.882352941176471
+   ],
+   "critique": "You're calling the diabetes label the one that'd make you hesitate, but you've already said you know what diabetes costs and you're still not buying \"less chocolate\" as a plan: a Dairy Milk on a long day, with Aldi reduced aisles and a bacon sandwich every Saturday, isn't going to be swayed by a picture of an eye. The bowel cancer one is the one you're quietly dismissing as \"probably getting a bit more attention because of my age,\" which is exactly the thing you say annoys you about the posters, a nod to you without a single reason to do anything differently. Your scoring has D at 5 but you actually said it \"reads like someone having a go at fat folk,\" so you're rating it on how it makes you feel, not whether it'd change a Tuesday, and you've also said you trust your GP, so you'd probably trust a clear, specific line from them more than a shock photo from a chocolate wrapper. Nothing here mentions money, time, or what a cheaper swap looks like, and that's the gap you yourself complained about."
+  },
+  {
+   "persona": "41652c374a",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Looking at it again, I was being a bit precious about the sugar thing. I cut it because the doctor nagged, not because I'm a careful eater. The bowel one is the one that would actually stop me. Someone at the allotment lost their brother to that, and the photo would stay in my head at the shop. The eye picture still turns my stomach, but I'd forget it by the time I was at the till. The three big backs I'd just assume were for somebody else.\n\n{\"points\": {\"A\": 10, \"B\": 12, \"C\": 8, \"D\": 5, \"E\": 15, \"F\": 50}, \"most_ignored\": \"D\", \"why\": \"It reads as a lecture aimed at other people, so I'd assume it was meant for someone else and not look twice.\"}",
+   "points": [
+    10.0,
+    12.0,
+    8.0,
+    5.0,
+    15.0,
+    50.0
+   ],
+   "round1_points": [
+    12.0,
+    13.0,
+    10.0,
+    10.0,
+    30.0,
+    25.0
+   ],
+   "critique": "You're flattering yourself that you're the careful one who \"already cut back\" on sugar, when you've ignored everything else in your own life for years and your tea sugar was only cut because a doctor made a fuss. Your scores say E is 30 and F is 25, but the eye picture only sticks because it's gross, and you'd shrug off a bleeding eye the same way you shrug off the cheerful voice on the telly. The one you'd actually act on is F, because bowel cancer is the thing people round here get told about by their own GP, and you'd have heard of someone's cousin going through it. Your claim that D is most ignored is probably right, but you're wrong that it's the one that makes you feel judged, because a shot of three big bodies from behind is precisely the kind of thing you'd assume was aimed at someone else."
+  },
+  {
+   "persona": "d9087a889e",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Looking again, the friend's right. The bleeding eye and the open heart are the most graphic pictures here, and I'd probably look away from them rather than let them change anything. The diabetes is real, but my tablets making me feel rough is a present-tense thing, not a scare about later. The bare \"cancer\" line and the bowel one both just read as more of the same nagging, and I'd be lying if I said a bar on Thursday was going anywhere.\n\n{\"points\": {\"A\": 12, \"B\": 16, \"C\": 12, \"D\": 20, \"E\": 22, \"F\": 18}, \"most_ignored\": \"D\", \"why\": \"The vague obesity line over a photo of people's backs is preachy and tells me nothing new, so it slides past before I've finished reading it.\"}",
+   "points": [
+    12.0,
+    16.0,
+    12.0,
+    20.0,
+    22.0,
+    18.0
+   ],
+   "round1_points": [
+    13.333333333333334,
+    11.11111111111111,
+    24.444444444444443,
+    6.666666666666667,
+    38.888888888888886,
+    5.555555555555555
+   ],
+   "critique": "You say the graphic photos are what you'd skip past, then give the highest score to the bleeding eye and the open-heart surgery, which are the two most graphic images here. You also cut biscuits because the tablets made you feel rough, not for a grand reason, and you still have one with your tea, so you're not the person who responds to scares about future harm. Your own numbers contradict you too: you'd \"probably have a bar on Thursday\" after giving E 35 points, and you rated A (bowel cancer) at 12 while calling F (bare \"cancer\") a blur, even though the specificity is the only thing separating them. The JSON also scores a message \"G\" that doesn't exist, so the tally isn't trustworthy."
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "Right, fair point on D. It's the one that gets my back up, and that's exactly why I gave it points. I'd also been brushing off B too quickly. I've seen diabetics on the unit with bad feet and eyes, so that photo is the one I'd believe. It still wouldn't stop me reaching for a bar after a late shift, but it'd stick more than the others. Everything still comes back to \"excess calories\" sounding like it's my fault, so that line is what bounces off me.\n\n{\"points\": {\"A\": 20, \"B\": 22, \"C\": 14, \"D\": 18, \"E\": 8, \"F\": 18}, \"most_ignored\": \"E\", \"why\": \"Open-heart surgery is a generic hospital picture that doesn't connect to a chocolate bar, and 'heart disease' sounds like something that happens to other people, so I'd scroll straight past it.\"}",
+   "points": [
+    20.0,
+    22.0,
+    14.0,
+    18.0,
+    8.0,
+    18.0
+   ],
+   "round1_points": [
+    18.75,
+    8.333333333333334,
+    14.583333333333334,
+    22.916666666666668,
+    10.416666666666666,
+    25.0
+   ],
+   "critique": "Your scores contradict you: you called D a dig that puts you off more than it scares you, then ranked it your second-highest. Every label also says \"excess calories\" as if it's down to willpower, which you already said is what winds you up, so that's what bounces off you, not the photos. You wrote off B as a shock tactic, but you work in a care home and your mum's a nurse, so you've probably seen diabetics with eye and foot problems, and that's the one you'd recognise as real. And G isn't on the list, so either the numbers are sloppy or you were guessing."
+  },
+  {
+   "persona": "bc52ac20f2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Fair enough, I was judging them by whether they'd stop me, and nothing on a wrapper is going to beat a bar after a double shift. The bleeding eye would probably stick with me longer than the bowel, which is just grim and gone by the till. I still reckon none of them changes what I buy, but I'll admit I marked D down partly because it made me feel got at.\n\n{\"points\": {\"A\": 16, \"B\": 14, \"C\": 14, \"D\": 10, \"E\": 18, \"F\": 28}, \"most_ignored\": \"B\", \"why\": \"A generic photo of cancer surgery looks like every other health ad I've scrolled past, so it would blur into the background before I'd think about the bar.\"}",
+   "points": [
+    16.0,
+    14.0,
+    14.0,
+    10.0,
+    18.0,
+    28.0
+   ],
+   "round1_points": [
+    24.0,
+    16.0,
+    12.0,
+    4.0,
+    22.0,
+    22.0
+   ],
+   "critique": "You're judging these by whether they'd stop you, but you've already said the bar wins after a long shift, so nothing on the wrapper is going to change that moment. The bowel photo you'd call \"grim\" and forget by the till, but the bleeding diabetic eye is harder to brush off, especially from someone whose mum is a nurse. And you ranked D last because it doesn't make you feel judged, which is the exact complaint you made about public health ads. That's not a neutral test, it's just you protecting your own self-image."
+  },
+  {
+   "persona": "f1a15a7249",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Fair enough, I'll give you that. The bowel cancer one is the only one that's stuck with me, and I was daft to act like none of them register when I'm knackered after a shift. Still, I'd be at the shelf at 5pm wanting the chocolate, and a picture of a bowel isn't going to stop me, it's just going to make me feel rotten for a bit. The people from behind still just feel like a dig, so that's still the one I'd ignore.\n\n{\"points\": {\"A\": 15, \"B\": 13, \"C\": 6, \"D\": 15, \"E\": 17, \"F\": 34}, \"most_ignored\": \"C\", \"why\": \"The bare obesity label with people photographed from behind reads as a judgment about my weight with nothing I can do about it, so it's the one I'd tune out fastest, while the bowel cancer one at least names a consequence I can picture.\"}",
+   "points": [
+    15.0,
+    13.0,
+    6.0,
+    15.0,
+    17.0,
+    34.0
+   ],
+   "round1_points": [
+    16.666666666666668,
+    12.5,
+    8.333333333333334,
+    14.583333333333334,
+    18.75,
+    29.166666666666668
+   ],
+   "critique": "You're being idealistic about your own switch-off: you say the scare stuff \"didn't change anything\", yet you've just scored the bowel cancer one highest and admitted it would stick for a second, so the gut-reaction \"they all wash over me\" story doesn't hold up. The bigger problem is that you're judging these as if you'd be reading them calmly at a shelf, when you'd be reading them at 5pm on a shit day, and at that point nothing on a wrapper is getting through, including the one you rated highest. Your \"make it cheaper and then we'll talk\" line is fair, but you've also quietly assumed the message is about your willpower rather than what's sitting in the cupboard, so you've underrated the one that names a specific, personal consequence (F) and overrated the one that's just a judgment (C). Your points for F at 14 and the zero for G, which isn't even on the list, make the scoring look sloppier than your reasoning."
+  },
+  {
+   "persona": "447b947c00",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Okay, fair enough, I did flinch at the bowel one, and I'd probably still think about it when I reached for the Dairy Milk. The heart surgery one would stick too, because my sister's a nurse and I'd end up hearing her voice saying the same thing. I'm still not going to change my mind about paying nine quid for cheese, though.\n\n{\"points\": {\"A\": 14, \"B\": 6, \"C\": 16, \"D\": 12, \"E\": 22, \"F\": 30}, \"most_ignored\": \"B\", \"why\": \"The three-people-from-behind photo reads as a dig at me with no consequence I care about, whereas the bowel and heart images are vivid enough to come to mind at the shop even if they don't change my budget.\"}",
+   "points": [
+    14.0,
+    6.0,
+    16.0,
+    12.0,
+    22.0,
+    30.0
+   ],
+   "round1_points": [
+    22.641509433962263,
+    7.547169811320755,
+    18.867924528301888,
+    15.09433962264151,
+    26.41509433962264,
+    9.433962264150944
+   ],
+   "critique": "You're being idealistic if you think you'd \"just roll my eyes\": you'd look away from the bowel and surgery photos, which means they got through, and you'd still notice them every time you reach for the Dairy Milk. You also underrate how much the bowel cancer message (F) would land, since it's the one that made you flinch and it's tied to something concrete you can't ignore. Your fizzy drink cut was driven by money, not health, so the only message here that's really for you is the one that talks about cost, and none of these do. Your own sister is a nurse, so the message most likely to reach you is the one you'd hear from her, not a poster."
+  },
+  {
+   "persona": "d4e5efe756",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Fair enough, looking away is the easy bit and it doesn't change what I do at half six. The \"13 types\" number would probably stick, though, because I'd end up Googling it and worrying on the bus, and that's the sort of thing I'd actually remember. The bowel cancer one might make me think about my own insides for a second, but I'd still be knackered and reaching for the bar.\n\n{\"points\": {\"A\": 10, \"B\": 25, \"C\": 15, \"D\": 12, \"E\": 8, \"F\": 30}, \"most_ignored\": \"E\", \"why\": \"A bare 'obesity' line over a photo of people from behind reads as a judgement on body shape rather than a risk to me, and it gives no practical alternative, so I'd scroll straight past it.\"}",
+   "points": [
+    10.0,
+    25.0,
+    15.0,
+    12.0,
+    8.0,
+    30.0
+   ],
+   "round1_points": [
+    15.0,
+    15.0,
+    15.0,
+    15.0,
+    10.0,
+    30.0
+   ],
+   "critique": "You're being idealistic about yourself: you say the bowel cancer one would make you look away fastest, but you also say you'd still reach for the Dairy Milk at half six, so looking away is the easy bit and changes nothing. And you've dismissed the \"what would I have instead\" gap as if it's the poster's fault, when you already told us you never plan and buy the reduced shelf, so no label on earth is going to fix that for you. Where you've underrated things is the \"13 types of cancer\" line in B: a specific number lands harder on someone who's already half-anxious and Googling symptoms and panicking, and that's you by your own admission. Bowel cancer in F is the one that might actually make you think about your own gut rather than some abstract surgery photo, so don't wave it off as just the scariest picture."
+  },
+  {
+   "persona": "c4b8ff19b6",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    4,
+    5,
+    2,
+    0
+   ],
+   "raw": "Honestly, the friend's right that I was grading on what catches my eye, not what would stop my hand reaching for the bar. The \"13 types of cancer\" line is checkable, and I'd probably Google it, so it might bother me more than I first thought. The bowel one still hits harder than the others, but I was flattering myself by tying it to my running stomach. The three overweight people from behind is exactly the preachy thing I hate, so it does almost nothing to my appetite.\n\n{\"points\": {\"A\": 10, \"B\": 20, \"C\": 15, \"D\": 5, \"E\": 30, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"It's the preachy 'people like you' stereotype that makes me want the biscuit out of spite, so it does nothing to how much I want the bar.\"}",
+   "points": [
+    10.0,
+    20.0,
+    15.0,
+    5.0,
+    30.0,
+    20.0
+   ],
+   "round1_points": [
+    10.0,
+    20.0,
+    15.0,
+    15.0,
+    5.0,
+    35.0
+   ],
+   "critique": "You say you'd \"probably eat the bar\" anyway, which means you're grading these on whether they grab your attention, not whether they change anything, and you've mislabelled that as a judgement about the message. Your E verdict is the weakest part: you dismiss \"13 types of cancer\" as \"made up,\" but you also say you Google every worry and don't take health pages as gospel, so a specific, checkable claim is exactly what someone like you would look up, and it's roughly true. Your bowel cancer pick rests on a stretch, since long-run stomach trouble isn't bowel cancer, so you're flattering yourself that the message is about you. And D, the three overweight people seen from behind, is the preachy stereotype you just said annoys you most, yet you scored it 15 when it should be near the bottom."
+  },
+  {
+   "persona": "1094f782dc",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    5,
+    1,
+    3,
+    2
+   ],
+   "raw": "Fair point. I did cut back on red meat because of my gut, so I do respond to health stuff when it's about my own body, and bowel cancer is closer to home than heart surgery or eyes. A graphic bowel photo would still make me wince, though I'd probably still buy the bar on a bad day. The label might make me hesitate at the till, but it wouldn't stop me.\n\n{\"points\": {\"A\": 10, \"B\": 44, \"C\": 4, \"D\": 14, \"E\": 12, \"F\": 16}, \"most_ignored\": \"C\", \"why\": \"The plain 'obesity' wording with a photo of anonymous overweight backs feels like a lecture aimed at someone else, so I'd tune it out, whereas the bowel cancer link is the only one that connects to my actual gut.\"}",
+   "points": [
+    10.0,
+    44.0,
+    4.0,
+    14.0,
+    12.0,
+    16.0
+   ],
+   "round1_points": [
+    9.090909090909092,
+    40.0,
+    7.2727272727272725,
+    14.545454545454545,
+    10.909090909090908,
+    18.181818181818183
+   ],
+   "critique": "You're rating B highest and then saying it wouldn't stop you buying the bar, so your scores and your reasoning don't match. Your tuned-out reaction to \"obesity\" is fair, but you're assuming the label has to beat the chocolate on a grim Tuesday, when it only has to make you pause at the till once. You also say you're not overweight, yet you already tell yourself that your gut and the environment are the reasons you cut back on red meat, so you clearly respond to health messages that connect to your own body. And for someone with Crohn's, a bowel cancer line is closer to your daily life than the rest, which is exactly why B should be taken more seriously than \"this is a weird label\" lets you admit."
+  },
+  {
+   "persona": "3a61cdc446",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair point from my mate, I did give A the most, and the number does stick for a second. But honestly, a second isn't going to stop me wanting a Dairy Milk on a bad day. The bowel cancer one (C) might catch me a bit more than the others because it's specific, though I'd still probably think \"ugh, gross\" and reach for the chocolate anyway. The surgery pictures just look like every other bus shelter poster to me now. F is still the one that makes me want it most, because it's about people's bodies, not the bar. I'd rather be told what the thing costs in money, which none of these do.\n\n{\"points\": {\"A\": 20, \"B\": 10, \"C\": 24, \"D\": 14, \"E\": 12, \"F\": 4, \"most_ignored\": \"F\", \"why\": \"The bowel cancer picture is specific and about the gut, so it's the one most likely to register for a second, while the judgemental body picture just makes me want the chocolate more.\"}",
+   "points": null,
+   "round1_points": [
+    25.88235294117647,
+    14.117647058823529,
+    21.176470588235293,
+    17.647058823529413,
+    15.294117647058824,
+    5.882352941176471
+   ],
+   "critique": "You say you'd scroll past most of these, then give A your top score and admit the \"13 types\" number sticks, so you're not as immune as you think. The bowel cancer graphic (C) is the one that would land on someone who eats chips on a rubbish day, because it's specific and it's about the gut. You also said you'd rather be told what things cost than be lectured, and none of these labels do that, so you're marking them down for the wrong reason. Your own answer shows the shock photo and the big number still get through, so stop pretending the label bounces off you just because it irritates you."
+  },
+  {
+   "persona": "e4c7fed34e",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    4,
+    5,
+    0,
+    1,
+    3
+   ],
+   "raw": "My gut reaction is that the bowel one is the only one that actually gets through to me. My dad's mate had that, and I know what the bag and the nurses' faces looked like, so I'd see it and think of him. I'd still probably have a Dairy Milk on a Friday, but I might grab the smaller one, and that's the most a label is going to get out of me. The generic \"causes cancer\" ones are just the nagging I already tune out.\n\n{\"points\": {\"A\": 10, \"B\": 10, \"C\": 5, \"D\": 40, \"E\": 10, \"F\": 25}, \"most_ignored\": \"C\", \"why\": \"The photo of three overweight people from behind is the judgey tone I've already learned to tune out, and it tells me nothing I haven't heard before.\"}",
+   "points": [
+    10.0,
+    10.0,
+    5.0,
+    40.0,
+    10.0,
+    25.0
+   ],
+   "round1_points": [
+    15.0,
+    15.0,
+    10.0,
+    25.0,
+    15.0,
+    20.0
+   ],
+   "critique": "You say you'd roll your eyes at all of these, but you also said the bowel one would make you look away, which is the only one that got a reaction, so don't pretend the rest are equally dead. You're being precious about your Friday Dairy Milk: \"it's a treat, not a health decision\" is what everyone says while the 45p bar goes in the basket, and a label that makes you flinch is exactly the one that might nudge you toward the cheaper, smaller one. You've also underrated D because you're thinking like someone who's never had a family member go through bowel cancer, and people like you and your mum will hear \"bowel\" and think of someone off the telly, not you. And the thing that really bounces off people like us is the one you didn't mention: the 'causes cancer' versions read as the same nagging you already resent, so the message only works if it comes with something you can actually afford."
+  },
+  {
+   "persona": "9381ac00ed",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    5,
+    0,
+    1,
+    4,
+    3,
+    2
+   ],
+   "raw": "Looking at them again, the friend's right that I scored B high for being grim, not because it'd change anything. I'd still look away and eat the bar if I was knackered. A is still the smug thing I hate, but it's at least plain and I can't call it a scare. F is the same cancer scare I've stopped trusting, just with a bigger number, so I'd probably scroll past it without thinking.\n\n{\"points\": {\"A\": 18, \"B\": 20, \"C\": 14, \"D\": 14, \"E\": 22, \"F\": 12}, \"most_ignored\": \"F\", \"why\": \"It's the same cancer scare I've stopped believing since the egg business, with a bigger number tacked on, and nothing in it tells me what a bar costs or what I'd eat instead.\"}",
+   "points": [
+    18.0,
+    20.0,
+    14.0,
+    14.0,
+    22.0,
+    12.0
+   ],
+   "round1_points": [
+    7.0,
+    30.0,
+    16.0,
+    14.0,
+    26.0,
+    7.0
+   ],
+   "critique": "You scored the bowel one highest, then told me you'd look away and eat the bar anyway when knackered, so your points measure how grim a picture is, not whether it would change anything you do. The \"13 types of cancer\" line is the same scare you just said you've stopped trusting, only with a bigger number, so it'll bounce off you harder than the one you dismissed as smug. You're also too quick to write off A: \"obesity\" and a photo of strangers from behind is sneering, yes, but your real objection is that nothing in any of these mentions price or what you'd swap in, and you've underrated how much a label that said something checkable and boring would cut through your distrust. A message that came from Priya or your GP's receptionist, and gave one concrete alternative that costs less than a meal deal, would land on you far more than any of these six."
+  },
+  {
+   "persona": "1e81182a11",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    1,
+    4,
+    0,
+    5
+   ],
+   "raw": "Fair point about my mum. The bowel one would reach me through her, not the poster. And \"Type 2 diabetes\" is the one I've actually heard from the GP, so it's the only label that sounds like it's about me. Honestly, though, the Dairy Milk at three o'clock is decided before I see any label. It depends on whether I ate lunch and what's left in my account this week.\n\n{\"points\": {\"A\": 30, \"B\": 8, \"C\": 17, \"D\": 15, \"E\": 20, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"A list of thirteen cancers under a surgery photo is the kind of thing I'd skim past in the time it takes to unwrap the bar, and I'd be thinking about whether I can afford the bar anyway.\"}",
+   "points": [
+    30.0,
+    8.0,
+    17.0,
+    15.0,
+    20.0,
+    10.0
+   ],
+   "round1_points": [
+    20.0,
+    10.0,
+    15.0,
+    15.0,
+    30.0,
+    10.0
+   ],
+   "critique": "You say you'd ignore all of them, then give the bowel one 30 points because your mum would bring it up, which means it would land through her, not through the poster. The diabetic eye and open-heart photos are the same scare pictures you've trained yourself to skip, so yes, those bounce. Your own scores also don't match your logic: you'd probably clock \"Type 2 diabetes\" faster than \"13 types of cancer\" because you've heard it from the GP already. And you're assuming the 3pm Dairy Milk is a decision you make at the till, when it's really made earlier, by what's left in your account and whether you ate lunch."
+  },
+  {
+   "persona": "6eb166fc12",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "Fair point from my mate. I do read labels, and the crisps change was about bloating in lectures, not some health warning. Still, I'd be kidding myself if I said a photo of a bowel would stop me reaching for a 60p bar when I'm hungry and skint. It would make me think for a second, though, and the nurse-style specific claim in A would stick more than the vague \"obesity\" line.\n\n{\"points\": {\"A\": 20, \"B\": 16, \"C\": 8, \"D\": 14, \"E\": 14, \"F\": 28}, \"most_ignored\": \"C\", \"why\": \"It's a vague judgement about my body with a photo of strangers, so it reads as a lecture I've already heard, whereas the bowel image is at least specific and shocking enough to pause me at the till.\"}",
+   "points": [
+    20.0,
+    16.0,
+    8.0,
+    14.0,
+    14.0,
+    28.0
+   ],
+   "round1_points": [
+    18.0,
+    18.0,
+    6.0,
+    14.0,
+    16.0,
+    28.0
+   ],
+   "critique": "You say you'd scroll past most of these, but you check every reduced sticker and know which own-brand sauce is decent, so you actually read labels. You cut crisps because of bloating in lectures, not a health warning, which suggests a message about how you'll feel tomorrow beats anything about cancer in twenty years. Dismissing F because a 60p bar is a \"treat when I'm skint\" misses the point: that's exactly the moment a label is meant to catch you. And you trust the nurse, so the specific, numbered claim in A would land harder with you than the vague wording in C."
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Looking again, I think I brushed off the guilt part too quickly. The red meat thing did happen, so a specific, believable harm might get through to me, and my sister would take a bowel cancer line seriously. I still doubt any label gets me at 10:50 with a bar in my hand, and the \"obesity\" framing still grates. The people-from-behind photo probably just makes me feel judged.\n\n{\"points\": {\"A\": 32, \"B\": 10, \"C\": 16, \"D\": 10, \"E\": 16, \"F\": 16}, \"most_ignored\": \"D\", \"why\": \"A photo of overweight people from behind reads as judgement and makes me defensive, and it doesn't name a disease or anything I could do differently when I'm tired and grabbing something quick.\"}",
+   "points": [
+    32.0,
+    10.0,
+    16.0,
+    10.0,
+    16.0,
+    16.0
+   ],
+   "round1_points": [
+    15.0,
+    12.5,
+    15.0,
+    27.5,
+    12.5,
+    17.5
+   ],
+   "critique": "You say you'd just read the label and keep going, but you cut red meat because a report about emissions made you feel guilty, so guilt clearly moves you, and the surgery photos could do that too. Your ranking also contradicts itself: you pick D as the least theatrical, yet a photo of three overweight people from behind is the kind of judgement you just said you hate, and it would probably make you defensive rather than change your lunch. The bowel cancer label (A) is the one you should have weighed more, because it names a specific, real disease that your sister, who's a nurse, would recognise as credible rather than a scare line. And \"excess calories\" is useless to someone who's already picking the cheapest, quickest thing at 10:50, so none of these tell you what to do instead, which is the real problem you're describing."
+  },
+  {
+   "persona": "94131bcc8c",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "raw": "Fair enough, my trousers did change what I eat, and I was too quick to wave off A. The bowel one still makes me wince, but I'd forget it. I still think the surgery pictures don't feel like mine, and a warning that's really about being told off still puts me off, because I'm already tired and skint. I'm moving a bit of the weight towards A and E and leaving the rest mostly where it was.\n\n{\"points\": {\"A\": 40, \"B\": 8, \"C\": 10, \"D\": 8, \"E\": 22, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"A bleeding eye photo is about diabetes and eyes, which I don't connect with grabbing a Dairy Milk when I'm knackered, so it would slide straight past.\"}",
+   "points": [
+    40.0,
+    8.0,
+    10.0,
+    8.0,
+    22.0,
+    12.0
+   ],
+   "round1_points": [
+    34.0,
+    6.0,
+    10.0,
+    6.0,
+    28.0,
+    16.0
+   ],
+   "critique": "You say none of these would stop you, but you cut back on crisps and biscuits because your trousers stopped fitting, so the one message that matches what actually changed your habits is the one you're dismissing as \"being told off.\" Your own JSON gives E 28 but then argues the bowel photo would be forgotten by the bus stop, which is a contradiction you should sort out. Your idea that the surgery pictures are \"for someone else's life\" is the same assumption you're complaining public health makes about you, that people like us don't get heart disease or cancer. And the chocolate bar on a tight budget isn't the thing you'd be deciding against at half five; the message only has to make you think about it for a second, and A is the one that already did that to you once."
+  },
+  {
+   "persona": "9daa53b3ac",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    5,
+    4,
+    0
+   ],
+   "raw": "Fair point from my friend. I'd still talk myself out of the bowel photo, but a bleeding eye with a named condition is more concrete than a cancer photo, and I already changed how I eat over something specific. The smug apple tone still makes me switch off, so the message needs a real mechanism and no lecture.\n\n{\"points\": {\"A\": 13, \"B\": 15, \"C\": 25, \"D\": 3, \"E\": 13, \"F\": 31}, \"most_ignored\": \"D\", \"why\": \"It's a generic lecture over a photo of strangers' backs, the smug nothing-new tone I tune out, so it wouldn't stop me wanting the bar.\"}",
+   "points": [
+    13.0,
+    15.0,
+    25.0,
+    3.0,
+    13.0,
+    31.0
+   ],
+   "round1_points": null,
+   "critique": "You're scoring F highest on a photo you'd talk yourself out of in the same breath (\"one bar isn't giving me bowel cancer\"), and that's the reasoning that lets all six bounce, so your 38 is flattering you about how much a shock image changes what you do. Your dismissal of D as a generic lecture is fair, but you're treating the bowel photo as the one that stings when you've just said you'd eat the bar anyway. What you've underrated is C: you already changed your habits over something specific and concrete (calves, the guilt of pouring milk), and a bleeding eye with a named condition is harder to shrug off than a generic warning. You also trust your GP and your sister, so a message that states a real mechanism without the smugness might land better than any photo."
+  },
+  {
+   "persona": "e08b1dd411",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    0,
+    5,
+    4,
+    3,
+    1
+   ],
+   "raw": "My gut says the heart one is the one I'd nod at and ignore, because the doctor's already said the same about my blood pressure and I still keep crisps in the glovebox. The bowel one is closer to what I'm actually fretting about on TikTok, and I'd probably stop for a second on it. The \"13 types of cancer\" line still sounds like a scare tactic to me, but I'd take the cancer ones more seriously than I'd like to admit.\n\n{\"points\": {\"A\": 15, \"B\": 25, \"C\": 10, \"D\": 15, \"E\": 15, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"I've already had the same heart warning from the doctor about my blood pressure and carried on regardless, so a heart surgery photo would just bounce off me like the crisps in the glovebox.\"}",
+   "points": [
+    15.0,
+    25.0,
+    10.0,
+    15.0,
+    15.0,
+    20.0
+   ],
+   "round1_points": [
+    10.0,
+    15.0,
+    15.0,
+    30.0,
+    20.0,
+    10.0
+   ],
+   "critique": "You say the heart one would stick because of your blood pressure, but you've had that same warning from the doctor and the crisps are still in the glovebox, so it would bounce off you like everything else. Your D score of 30 is the biggest over-estimate here: you're more likely to read it, nod, and reach for the reduced Lidl chicken anyway. B deserves a higher score than 15, because you spend ten minutes arguing about bloating on TikTok, so bowel is the thing you're already worrying about. And you're dismissing the \"13 types of cancer\" line as a scare tactic while you're watching videos about your own gut, so a cancer message might land harder than you're admitting."
+  },
+  {
+   "persona": "f8997e000a",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    4,
+    5,
+    1,
+    0,
+    3
+   ],
+   "raw": "I'd take the friend's point. Looking back, I was grading which picture was grimmest, and none of them would change Tuesday's shop. The plain \"Excess calories cause obesity\" is the one I'd actually believe, because it sounds like something Priya would say straight. I still think I'd wince and buy the bar anyway, and the cancer lines feel like they're trying too hard. Nothing here gives me a cheaper or easier option, so the scores end up fairly flat.\n\n{\"points\": {\"A\": 12, \"B\": 13, \"C\": 26, \"D\": 12, \"E\": 14, \"F\": 23}, \"most_ignored\": \"E\", \"why\": \"A graphic bowel photo is easy to look away from, and it doesn't tell me anything practical about what to buy or when I'm hungry.\"}",
+   "points": [
+    12.0,
+    13.0,
+    26.0,
+    12.0,
+    14.0,
+    23.0
+   ],
+   "round1_points": [
+    16.0,
+    18.0,
+    10.0,
+    16.0,
+    28.0,
+    12.0
+   ],
+   "critique": "You say you'd wince and buy the chocolate anyway, then give the bowel cancer photo the highest score, which is a contradiction: a graphic picture is still just a picture above a bar you're already eyeing on the reduced shelf. Your own rule says campaigns should make things cheaper or easier, and none of these labels does either, so you're grading six versions of the same shouting from a bus shelter. You also haven't noticed that \"Excess calories cause obesity\" is the one you'd actually believe from Priya, because it's plain and she'd say it straight, while the cancer lines would make you suspicious of who's exaggerating. Score them on whether anything in them would change Tuesday's shop, not on which picture is grimmest."
+  },
+  {
+   "persona": "3b859ef636",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    4,
+    1,
+    5,
+    2,
+    3
+   ],
+   "raw": "Fair point from my mate. I did dodge F, and I've already cut sugary drinks because of my bloods, so a sugar-and-heart-or-diabetes link isn't some abstract thing to me. E's \"13 types\" is more specific than I gave it credit for, and I'd take that from my GP more readily than from a poster. I still reckon I'd wince and then reach for the Dairy Milk at quarter to four, so the photos don't lose me much.\n\n{\"points\": {\"A\": 15, \"B\": 18, \"C\": 14, \"D\": 4, \"E\": 27, \"F\": 22}, \"most_ignored\": \"D\", \"why\": \"It's a vague dig at people's bodies with a photo of strangers from behind, so it feels like judgement I'd resent rather than something that changes what I grab on the way out the door.\"}",
+   "points": [
+    15.0,
+    18.0,
+    14.0,
+    4.0,
+    27.0,
+    22.0
+   ],
+   "round1_points": [
+    19.17808219178082,
+    16.438356164383563,
+    20.54794520547945,
+    5.47945205479452,
+    24.65753424657534,
+    13.698630136986301
+   ],
+   "critique": "You say you'd switch off at the photo, but you just told me you cut sugary drinks after a high blood test, which is exactly what F and B are about. Scoring F at 10 because it \"has nothing to do with a bar I'm eating standing up\" is you dodging, since you already connected sugar to your own numbers. E's \"13 types\" is the kind of specific claim your GP or sister would nod at, so don't dismiss it as a scare tactic just because it's a number you'd skim past. D probably does get binned, but you're grading its tone, not whether it's true."
+  },
+  {
+   "persona": "1b922a1cd2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fair point, and it stings a bit. I was ranking these by how much they'd make me wince, not by whether they'd stop me reaching for a bar at 9pm, which is the actual habit. I still don't think any of these will make me give up the bar, and I'd still skim most of them. But the \"13 types\" line is the one that would make me stop for a second, because it's a specific number rather than a vague threat. The surgery and eye photos are just grim, and I'd look away.\n\n{\"points\": {\"A\": 8, \"B\": 26, \"C\": 14, \"D\": 20, \"E\": 16, \"F\": 16}, \"most_ignored\": \"A\", \"why\": \"'Causes cancer' is vague and abstract enough that I'd read it as the usual nagging and not connect it to the bar in my hand at 9pm.\"}",
+   "points": [
+    8.0,
+    26.0,
+    14.0,
+    20.0,
+    16.0,
+    16.0
+   ],
+   "round1_points": [
+    10.526315789473685,
+    18.42105263157895,
+    13.157894736842104,
+    28.94736842105263,
+    23.68421052631579,
+    5.2631578947368425
+   ],
+   "critique": "You say you'd never eat a bar a day, but you've just told me you buy the good butter without thinking, you cook what TikTok shows you, and you couldn't give up sugar for a month, so \"I'm not eating a bar a day\" is a story you're telling yourself. Your 9pm Dairy Milk is the habit these posters are aimed at, and you're ranking them by how much they'd scare you rather than whether they'd change that. You're also scoring the diabetic eye at 22 because it's concrete and you've got a sweet tooth, which means you're already drawn to the one that feels most like it's about you, not the one that would actually work. If the nurse on TikTok is what gets through to you, it's because she's specific, calm and doesn't sound like she's wagging a finger, and none of these six do that."
+  },
+  {
+   "persona": "9d16508d2d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    0,
+    1,
+    2
+   ],
+   "raw": "Fair point about the dentist. A specific consequence from someone I trust has moved me before, and a bleeding eye is easier to picture happening to someone in my house, like Dad, than a stranger's heart surgery. I still wouldn't stop at the kiosk for any of these, but B is the one I'd at least register.\n\n{\"points\": {\"A\": 10, \"B\": 30, \"C\": 22, \"D\": 15, \"E\": 11, \"F\": 12}, \"most_ignored\": \"E\", \"why\": \"A generic cancer surgery photo is the same scare tactic I've already learned to tune out, and it doesn't connect to anyone I know or to the sugar and hunger I'm dealing with at four o'clock.\"}",
+   "points": [
+    10.0,
+    30.0,
+    22.0,
+    15.0,
+    11.0,
+    12.0
+   ],
+   "round1_points": [
+    9.090909090909092,
+    9.090909090909092,
+    54.54545454545455,
+    9.090909090909092,
+    9.090909090909092,
+    9.090909090909092
+   ],
+   "critique": "You're kidding yourself that you're the immune one: you cut sugar in your tea for three months because the dentist went on at you, which proves a specific, personal consequence from someone you trust works on you. Calling \"13 types of cancer\" too much is judging the message by its tone, when a bit of radio is all you hear anyway, so a vague general warning like C is noise you've already filtered out. Dismissing B as the one that makes you look away is the wrong read too, because a bleeding eye is something you can picture happening to someone you know, which matters more to you than a heart surgery photo of a stranger. And C being \"least preachy\" is exactly why it fails: it tells you nothing you don't already know, and at four o'clock by the kiosk you won't read any of them anyway."
+  },
+  {
+   "persona": "f9a22226a0",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    0,
+    2,
+    5
+   ],
+   "raw": "Honestly, the friend has a point about D. Bowel cancer is the one I'd think about, because I'm at the age they tell you to get checked and my sister would back it up. But I'd still look away from that photo rather than keep reading. E annoys me, and I'd still probably pass it over, though my sister would say it's true.\n\n{\"points\": {\"A\": 12, \"B\": 14, \"C\": 12, \"D\": 28, \"E\": 28, \"F\": 6}, \"most_ignored\": \"F\", \"why\": \"It's a picture of three backs that tells me nothing I don't already know, so it would be gone before I'd picked up the bread and the satsumas.\"}",
+   "points": [
+    12.0,
+    14.0,
+    12.0,
+    28.0,
+    28.0,
+    6.0
+   ],
+   "round1_points": [
+    15.0,
+    12.0,
+    10.0,
+    35.0,
+    18.0,
+    10.0
+   ],
+   "critique": "You scored D highest at 35, then said gory photos make you look away, so your own numbers contradict your answer. Bowel cancer is the one that lands in a house like yours, because it's the thing people your age get told to check for, and your sister would confirm that. You dismissed E as \"trying to frighten us,\" yet you'd take your sister's word on it, so you're rejecting it for its tone, which is the exact thing you said annoys you about campaigns. And you think you'd \"think about the biscuit,\" but a label on a chocolate bar gets a glance at the till while you're grabbing bread and satsumas, so whatever reaches you is whatever doesn't need careful reading."
+  },
+  {
+   "persona": "4b0355a87c",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    2,
+    0,
+    1,
+    5,
+    4
+   ],
+   "raw": "Honestly, the heart one is the one that's stuck with me. My blood pressure's been up, and I'd rather not think about what that means. Bowel cancer still lands because of my dad, but I'd probably still buy the bar, and the surgery photo is the sort of thing I'd glance at and forget.\n\n{\"points\": {\"A\": 10, \"B\": 10, \"C\": 25, \"D\": 10, \"E\": 10, \"F\": 35}, \"most_ignored\": \"D\", \"why\": \"A vague 'cancer' label above a surgery photo is just telly to me, while the heart disease one connects to my blood pressure, though I'd still probably have the bar on the bus home.\"}",
+   "points": [
+    10.0,
+    10.0,
+    25.0,
+    10.0,
+    10.0,
+    35.0
+   ],
+   "round1_points": [
+    12.5,
+    12.5,
+    37.5,
+    12.5,
+    6.25,
+    18.75
+   ],
+   "critique": "You've given F 15 and said nothing about it, yet your blood pressure is already up, and heart disease is the one that connects to your own body right now. Your \"I'm not being told off by a chocolate bar\" line is defensive, and you'd still have the bar on the bus after a bowel cancer pause, so the message that bothers you most is probably the one closest to what you already suspect. Ranking C top because of your dad is fair, but you've admitted it won't change what you eat, so don't pretend it's the one that would work. And stop writing off the eye and surgery photos as just telly: scoring them 10 is you tuning out anything that scares you, which is how people like us end up ignoring the message that matters."
+  },
+  {
+   "persona": "84d96e5b4d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    3,
+    2,
+    4,
+    0,
+    1
+   ],
+   "raw": "Looking at them again, the friend's right: I said they're all the same scare, then gave the bowel one and the cancer one a lot more points than the rest. Most of this is noise to me. The bowel picture is the only one that might make me flinch for a second, and a second is all it gets. The bit that bothers me is that I still can't see any of them stopping me wanting a Dairy Milk after a rubbish day, so I've spread the points fairly evenly.\n\n{\"points\": {\"A\": 14, \"B\": 17, \"C\": 17, \"D\": 15, \"E\": 20, \"F\": 17}, \"most_ignored\": \"A\", \"why\": \"It's a rude picture of strangers' bodies that makes me think about them rather than the chocolate, and it's the same nagging tone I already tune out.\"}",
+   "points": [
+    14.0,
+    17.0,
+    17.0,
+    15.0,
+    20.0,
+    17.0
+   ],
+   "round1_points": [
+    10.0,
+    15.0,
+    15.0,
+    10.0,
+    25.0,
+    25.0
+   ],
+   "critique": "You say these all look like the same scare, then give E and F 25 points and A 10, so you're grading them on a difference you just said doesn't exist. You also say the label that would make you think twice is the one that \"feels like it's about me,\" but you didn't pick any of them for that, so you're describing a message you didn't rate. The bowel picture is the one you'd look away from hardest, and you know that's when a message stops being a message. And you're right that none of them touch the twelve-quid cake on a rubbish day, but you've rated them as if that's a flaw in the label when it's the whole point of you."
+  },
+  {
+   "persona": "fb30d3a936",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    4,
+    2,
+    1,
+    0,
+    3
+   ],
+   "raw": "Fair enough, I was being a bit precious about the bowel one. I do know what diabetes does with Mum on her tablets and her pension, and I'd rather not wish that on anyone. The eye picture still looks like a shock tactic to me, but the diabetes line is closer to home than I'd admitted.\n\n{\"points\": {\"A\": 8, \"B\": 12, \"C\": 8, \"D\": 10, \"E\": 22, \"F\": 40}, \"most_ignored\": \"A\", \"why\": \"Three overweight people photographed from behind reads as a judgy poster aimed at other people, so I'd skip past it without it touching my tea-time Dairy Milk.\"}",
+   "points": [
+    8.0,
+    12.0,
+    8.0,
+    10.0,
+    22.0,
+    40.0
+   ],
+   "round1_points": [
+    17.647058823529413,
+    11.764705882352942,
+    11.764705882352942,
+    11.764705882352942,
+    41.1764705882353,
+    5.882352941176471
+   ],
+   "critique": "You'd glance away from the surgery pictures and then still reach for the Friday takeaway, so don't pretend the shrug is you being immune. \"A single bar on a Wednesday\" is the exact excuse these labels exist to break, and you're using it to dismiss E while missing that it's your own logic. F is the one you've written off, but you're already juggling Mum's tablets on a pension, so you know what diabetes and heart trouble do to a household like yours, and that's closer to home than a poster about \"people like that.\" You changed your sugar because the dentist pulled a face, so the message that would actually move you is one that sounds like a professional who's seen the consequences, not a campaign aimed at someone with a tidy routine."
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    1,
+    2,
+    3,
+    0,
+    4
+   ],
+   "raw": "Fair enough, I was being too sure of myself. I still reckon I'd not think twice about a Dairy Milk at full price, so the till is the real decider, but the stomach business made me think harder about the bowel one, and the eye and heart pictures would bother me more than I let on. The \"13 types\" line is just a number to me, though, and it reads like someone selling something.\n\n```json\n{\"points\": {\"A\": 8, \"B\": 10, \"C\": 8, \"D\": 18, \"E\": 30, \"F\": 26}, \"most_ignored\": \"C\", \"why\": \"The number '13 types of cancer' reads like a slogan, and I'd tune it out before I'd picture anything happening to me.\"}\n```",
+   "points": [
+    8.0,
+    10.0,
+    8.0,
+    18.0,
+    30.0,
+    26.0
+   ],
+   "round1_points": null,
+   "critique": "You're overrating your own resistance to scare labels: you say you've \"seen plenty\" and would scroll past most of them, yet you've scored E at 38 because it touched your stomach, which is exactly the kind of personal hook you claim doesn't work on you. The real point is that you already don't buy the bar at full price, so no label changes the till sum, and you're not going to read \"13 types of cancer\" as anything but noise. Your JSON says A gets ignored because it judges strangers, but you're also a 60-something who'd feel the diabetes eye photo and the heart surgery, and you've brushed them off too quickly. Stop pretending the warnings are about you deciding; they're about whether you'd even be standing at the chocolate shelf in Morrisons with the yellow stickers in your head."
+  },
+  {
+   "persona": "243c6bdb1b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    4,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "My first answer was off. Blood pressure has nothing to do with bowel cancer, so I was reaching for the scariest picture and calling it personal. The diabetes label is the one that actually connects to what the doctor has already told me about my weight and blood pressure, and I'd take that more seriously. I still think a bar of chocolate with a picture on it is going to get a tut and then a bite on a rubbish day, and the \"excess calories\" line doesn't help when I'm standing in the Co-op deciding between the freezer and a reduced tray.\n\n{\"points\": {\"A\": 40, \"B\": 12, \"C\": 10, \"D\": 15, \"E\": 13, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"The '13 types of cancer' line is a vague scare number that doesn't tell me anything about my own habits, so I'd switch off before getting to the point.\"}",
+   "points": [
+    40.0,
+    12.0,
+    10.0,
+    15.0,
+    13.0,
+    10.0
+   ],
+   "round1_points": [
+    12.0,
+    18.0,
+    25.0,
+    15.0,
+    15.0,
+    15.0
+   ],
+   "critique": "You say the bowel cancer one would stick because of your blood pressure, but blood pressure has nothing to do with bowel cancer, so you've grabbed the scariest picture and called it personal. You find the surgery photos \"a bit much\" yet spend your commute on TikTok, so you clearly don't mind shock when it comes from someone you trust. The diabetes one is the likeliest to land, because it's the most tied to the weight and blood pressure your doctor already flagged. And \"excess calories\" is useless to someone deciding between the freezer and a reduced tray at quarter past five, since it says what to cut but nothing about what to eat instead."
+  },
+  {
+   "persona": "b440ca7285",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    2,
+    1,
+    3
+   ],
+   "raw": "Fair point from your friend. I was scoring which ones annoyed me, not which would shift me. The bowel one is the only message here that matches something I could actually do this month, because that kit has been sitting on the side since the letter came, and I've been putting it off. A picture of a bowel might make me think about that kit for a minute, even if it does nothing for the chocolate. The eye photo still hits harder for me because of my sugar, but it's a scare too, and I'd have that thought about my eyes without a bar in my hand.\n\n{\"points\": {\"A\": 50, \"B\": 4, \"C\": 6, \"D\": 8, \"E\": 10, \"F\": 22}, \"most_ignored\": \"B\", \"why\": \"It's a judgement with no new information, and nothing in it connects to anything I can do or worry about.\"}",
+   "points": [
+    50.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    22.0
+   ],
+   "round1_points": [
+    8.0,
+    4.0,
+    10.0,
+    12.0,
+    10.0,
+    56.0
+   ],
+   "critique": "You're rating these on whether they'd stop you eating chocolate, and you've already said you'd eat it on every one, so your scores are measuring how much each message annoys you, not whether it would work. You dismiss the cancer messages as scare tactics, yet you give the diabetic eye photo 56 points, which is just as much a scare and just as graphic. You also underrated A: you're over 60, so bowel screening letters are probably already landing on your mat, and a bowel cancer message is the one that matches something you could actually do this month. Stop asking which message would make you give up cheese on a Tuesday, because nothing on that label will, and ask which one would get you to answer the screening kit."
+  },
+  {
+   "persona": "25a19e0428",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    3,
+    5,
+    0
+   ],
+   "raw": "Honestly, the friend's got a point about the bowel one. Ray's illness was hard going, and a picture like that would make me think of him, which the others wouldn't. I'd still probably have the bar, though, perhaps with a bit more of a sigh.\n\n{\"points\": {\"A\": 12, \"B\": 10, \"C\": 12, \"D\": 20, \"E\": 11, \"F\": 35}, \"most_ignored\": \"E\", \"why\": \"A photo of big people from behind feels like being nagged and doesn't say anything that would happen to me, but the bowel picture might make me think twice because of Ray, even if I'd still eat the bar.\"}",
+   "points": [
+    12.0,
+    10.0,
+    12.0,
+    20.0,
+    11.0,
+    35.0
+   ],
+   "round1_points": [
+    15.0,
+    10.0,
+    15.0,
+    25.0,
+    15.0,
+    20.0
+   ],
+   "critique": "You say you'd just peel the wrapper, but you also admit you don't read labels, so whatever the message says, it won't reach you, and that's the real finding here. Your eyes are why D might get through, yet you call it \"a bit much,\" which means you're rating it on how it feels rather than whether it would change anything. You say you'll go with what the NHS says, but you cut salt for a month and live on tins and chips, so stop pretending you're the careful type. And you've underrated F: a bowel cancer picture might hit hard for someone who's lost Ray and has a daughter sending articles, and you scored it 20 like it's just another scare."
+  },
+  {
+   "persona": "6e58e1cd2f",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Looking at it again, I'd been too quick to say the bowel picture would stop me. I'd probably flinch, then tell myself it's a scare tactic and eat the bar on the walk home. The one thing that did get to me was the sugar readings, because that came from the surgery and a number I could not argue with. So diabetes is the one that connects to something I've actually changed, though I still wouldn't trust a wrapper to tell me that.\n\n{\"points\": {\"A\": 14, \"B\": 22, \"C\": 10, \"D\": 12, \"E\": 14, \"F\": 28}, \"most_ignored\": \"C\", \"why\": \"The '13 types of cancer' claim sounds made up to frighten people, so I'd distrust it straight away and carry on eating what I fancied.\"}",
+   "points": [
+    14.0,
+    22.0,
+    10.0,
+    12.0,
+    14.0,
+    28.0
+   ],
+   "round1_points": [
+    12.0,
+    14.0,
+    12.0,
+    16.0,
+    18.0,
+    28.0
+   ],
+   "critique": "You say the bowel one would make you put the bar down fastest, but you've just told me you wouldn't change anything unless a doctor frightened you, and a label on a bar in the corner shop isn't your GP. You'd flinch at F, then tell yourself it's a scare tactic like the \"13 cancers\" one, because you can't be the sort of person it's aimed at. Your sugar change happened because a specific number came back from a surgery you trust, so the message that will land with you is one tied to your own readings and your own GP, not a photo on a wrapper. And \"I'd just carry on with my tea\" is your honest answer to all six, so the question is which one would make you think about it for longer than the walk home."
+  },
+  {
+   "persona": "5c295eb8a2",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    5,
+    3,
+    0,
+    2,
+    1
+   ],
+   "raw": "Looking again, the friend is right that I was too quick to wave off the weight message. I still think the shock photos would mostly make me look away rather than put the bar down. But a weight line is the one that has actually moved me before, with the sugar in my tea, so it's the one most likely to make me think twice at the shelf. The cancer lines are still vague to me, though a bit of guilt over the next biscuit could tip things.\n\n{\"points\": {\"A\": 18, \"B\": 32, \"C\": 8, \"D\": 14, \"E\": 10, \"F\": 18}, \"most_ignored\": \"C\", \"why\": \"The bleeding eye is a gross picture I'd glance at and look away from, and diabetes doesn't feel like something happening to me the way weight does.\"}",
+   "points": [
+    18.0,
+    32.0,
+    8.0,
+    14.0,
+    10.0,
+    18.0
+   ],
+   "round1_points": [
+    14.545454545454545,
+    40.0,
+    10.909090909090908,
+    18.181818181818183,
+    9.090909090909092,
+    7.2727272727272725
+   ],
+   "critique": "Your numbers say B gets the most attention, yet you spent the whole answer saying it would make you switch off, so pick one. You also say you'd only take notice of something about weight, then dismiss the one weight message as \"bit cheeky,\" even though weight is exactly what got you to drop sugar in your tea. Your \"I'd just eat the bar anyway\" is the idealistic bit, since you're describing what you'd do with a bar you already fancy, not how you'd feel when you spot the label on the shelf. And the cancer lines aren't as far off as you think, because a message only has to make you feel slightly worse about the next biscuit to work."
+  },
+  {
+   "persona": "69b60a8926",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    0,
+    4,
+    5,
+    3,
+    1,
+    2
+   ],
+   "raw": "I suppose Kath has a point about Dennis. The bowel one would catch me, more than the others, because of the hospital visits. But a photo on a bar I'm buying because it's marked down on a Friday isn't going to stop me. The pharmacist would reach me before a chocolate wrapper does.\n\n{\"points\": {\"A\": 34, \"B\": 17, \"C\": 6, \"D\": 17, \"E\": 13, \"F\": 13}, \"most_ignored\": \"C\", \"why\": \"The photo of three overweight people from behind feels like judgement and tells me nothing I can use, so I'd scroll past it, while the bowel cancer label is the only one that touches something real in my life.\"}",
+   "points": [
+    34.0,
+    17.0,
+    6.0,
+    17.0,
+    13.0,
+    13.0
+   ],
+   "round1_points": [
+    26.0,
+    18.0,
+    5.0,
+    22.0,
+    15.0,
+    14.0
+   ],
+   "critique": "You rate A highest and then say you've seen plenty of that sort of thing, so does it land or not? With Dennis in hospital twice this year, the bowel cancer one is the most specific and the most likely to hit a nerve you won't admit to. \"Excess calories cause obesity\" is the exact biscuit-lecture you say you hate, and it does nothing for someone whose problem is that reduced chicken thighs are what's affordable. If anything on that wrapper would get through to you, it's your pharmacist saying it out loud, not a picture on a bar you buy when it's marked down."
+  },
+  {
+   "persona": "d57d6d7c8a",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Okay, fair point about F. Heart surgery is nothing like my Tuesday, so I can't pretend it'd stop me reaching for a Dairy Milk. But the bloating bit is real, and none of these say anything about how you feel after eating, which is what actually gets me. I'd still tap past the plain \"excess calories\" one, but I'd give it a bit more credit for not pretending to scare me.\n\n{\"points\": {\"A\": 14, \"B\": 16, \"C\": 16, \"D\": 22, \"E\": 10, \"F\": 22}, \"most_ignored\": \"E\", \"why\": \"It's just the lecture I already know, with nothing about how I'd actually feel or how to manage a knackered day, so it wouldn't change whether I fancy the chocolate.\"}",
+   "points": [
+    14.0,
+    16.0,
+    16.0,
+    22.0,
+    10.0,
+    22.0
+   ],
+   "round1_points": [
+    15.0,
+    15.0,
+    20.0,
+    20.0,
+    5.0,
+    25.0
+   ],
+   "critique": "You scored F highest at 25 and then said you'd tap past all of them, so which is it? Heart surgery is about as far from your Tuesday as a photo can get, and you told me you cut back on crisps because of bloating, not a scare picture, so you're underrating how much something that affects how you feel actually moves you. You also rated E lowest for the reason you hate every campaign, but it's the only one of these that doesn't pretend to be a warning, so it's not clear why that's a flaw. None of these six does what you said you need, which is help with managing a knackered Tuesday rather than telling you you're failing."
+  },
+  {
+   "persona": "9dc327d1d6",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    4,
+    3,
+    1,
+    0,
+    5
+   ],
+   "raw": "Fair point from my friend. I do know about my blood pressure and still buy whatever I fancy at lunch, so the heart label would probably only get a moment's thought. The bowel cancer one is different: it names a cancer I'm due to be screened for, and I dismissed it without reading it properly. I still think the warnings that feel like being shouted at will bounce off me, but I'd be more likely to stop and read that one.\n\n{\"points\": {\"A\": 3, \"B\": 25, \"C\": 12, \"D\": 10, \"E\": 35, \"F\": 15}, \"most_ignored\": \"A\", \"why\": \"Thirteen cancers in one scary label reads as a scare tactic, so I'd dismiss it and eat the bar anyway.\"}",
+   "points": [
+    3.0,
+    25.0,
+    12.0,
+    10.0,
+    35.0,
+    15.0
+   ],
+   "round1_points": [
+    5.0,
+    30.0,
+    15.0,
+    10.0,
+    25.0,
+    15.0
+   ],
+   "critique": "You say the heart label would give you a moment's pause, but you already know your blood pressure is a problem and still nip out at lunch for whatever you fancy, so that pause would last about as long as the walk to the shop. Your \"life's too short for weak tea\" line is the same reasoning, so don't pretend the tone is what's stopping you. The bowel cancer label is the one you should be looking at, since it names a specific cancer people your age get screened for, and you've written it off without reading it properly. Calling the thirteen-cancers label a scare tactic is just a convenient excuse to eat the bar anyway."
+  },
+  {
+   "persona": "7f584c3bdd",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    2,
+    3,
+    1,
+    4,
+    0
+   ],
+   "raw": "Fair enough, I was judging them against a bar nobody could clear. I still don't think any of them would stop me reaching for a square, but the heart one is the only one that's actually about Ken, and I did wince at the surgery pictures more than I let on. None of them asks what a bar of chocolate costs me, which is the bit I really care about, so I've put a bit more weight on the ones that feel closest to home.\n\n{\"points\": {\"A\": 8, \"B\": 16, \"C\": 12, \"D\": 14, \"E\": 38, \"F\": 12}, \"most_ignored\": \"A\", \"why\": \"I've heard the calories-and-obesity line so often it's just background noise, whereas the heart surgery one is the only picture that touches what I actually worry about with Ken.\"}",
+   "points": [
+    8.0,
+    16.0,
+    12.0,
+    14.0,
+    38.0,
+    12.0
+   ],
+   "round1_points": [
+    12.0,
+    14.0,
+    13.0,
+    12.0,
+    36.0,
+    13.0
+   ],
+   "critique": "Your own answer undercuts your scoring: you say the heart one is the only one that lands near home, then dismiss it because it \"isn't going to stop me having a square,\" which is a test no poster passes. Nobody's standard for a warning label is that it stops the Dairy Milk in the hand, so you're grading the messages against a bar you'd never let them clear. You also claim the surgery pictures have stopped meaning anything because of TikTok, but you still wince, so that's habituation you're assuming about yourself and then about everyone else. Your real complaint is that nobody asks what you can afford, and none of these six addresses that, so you're ranking the scare tactics without noticing you'd rather the poster were about the money."
+  },
+  {
+   "persona": "d2cf3ca33b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    0,
+    2,
+    1,
+    4
+   ],
+   "raw": "Fair enough, I was giving the heart one more weight than I'd really thought about. My dad's heart is a real thing, but I don't stand at the counter thinking about it, and the others aren't that different once I'm in a rush. The picture of the bleeding eye still turns my stomach, so I'd probably look away, but the 13 cancers line I'd just roll my eyes at, so I'll keep that one low too.\n\n{\"points\": {\"A\": 15, \"B\": 10, \"C\": 15, \"D\": 17, \"E\": 16, \"F\": 27}, \"most_ignored\": \"B\", \"why\": \"It's a plain lecture about weight I already know, and the people seen from behind give me nothing to think about except being told off.\"}",
+   "points": [
+    15.0,
+    10.0,
+    15.0,
+    17.0,
+    16.0,
+    27.0
+   ],
+   "round1_points": [
+    12.0,
+    8.0,
+    10.0,
+    14.0,
+    12.0,
+    44.0
+   ],
+   "critique": "Your scores don't hold together: you said the heart one would only \"nudge\" you, then gave it 44 while everything else sits between 8 and 14, so the number is doing your feelings' work, not measuring anything. You admit the heart picture lands because of your dad, which is the only personal hook in your whole answer, and you dismissed it as a side note. You say you'd skip past them all, but you already skip your own meals, sit down for nothing, and scroll past your sister-in-law's posts, so \"I'd ignore it\" is the one thing you'd be right about. And the blood test you mentioned is the closest thing you have to a message that already got through, so calling the rest \"nagging\" only shows you've decided in advance what counts as a lecture."
+  },
+  {
+   "persona": "32f60dc12d",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    5,
+    0,
+    2,
+    3,
+    4
+   ],
+   "raw": "My gut reaction is that the bleeding eye still registers more than the others, but I know what my clinic visits were like and how I've already let that stuff go. The heart surgery picture is harder to brush off because of my dad, though I still can't see a warning on a chocolate bar stopping me from having a biscuit with my tea. The bowel one I'd probably just look past, and I'm not sure why.\n\n{\"points\": {\"A\": 10, \"B\": 10, \"C\": 18, \"D\": 10, \"E\": 22, \"F\": 30}, \"most_ignored\": \"B\", \"why\": \"It's a generic 'you're overweight' message with a photo of strangers' backs, which tells me nothing I haven't heard and makes me feel judged, so I'd scroll past it.\"}",
+   "points": [
+    10.0,
+    10.0,
+    18.0,
+    10.0,
+    22.0,
+    30.0
+   ],
+   "round1_points": [
+    8.0,
+    4.0,
+    18.0,
+    10.0,
+    35.0,
+    25.0
+   ],
+   "critique": "You're scoring the eye picture highest because it's the one that's about you, but you've already sat in that clinic and let it go in one ear, so it's the message you're most likely to explain away as \"I'm managing my numbers.\" Your own answer says you'd still have the biscuit after every single one, so none of these is landing as a reason to change, and your 35 for E is you flattering yourself about how much it would move you. The heart surgery one is the one I'd pay attention to: you said it made you think of your dad, and a message that connects to a real person you've lost is harder to dismiss than a clinical warning about your eyes. You've also dismissed C without a word, which might be because it's the bowel photo, and that's the sort of thing people quietly avoid thinking about, so check whether you're ignoring it or just ignoring it on purpose."
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    0,
+    2,
+    3,
+    5
+   ],
+   "raw": "Looking at it again, I think my friend's right that I was kidding myself. The surgery pictures make me look for a second, but that's all, and I'd still be putting the kettle on. The bowel one stuck in my head more than the others because it sounds like something that happens to you, not just a picture on a wrapper. The \"13 types\" line is the one that would stay with me, because a number like that sounds serious. I'd still be more moved by the pharmacist telling me my tablets matter than by anything printed on a chocolate bar.\n\n{\"points\": {\"A\": 16, \"B\": 14, \"C\": 22, \"D\": 24, \"E\": 14, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"It shows people who don't look like anyone I know, so I'd tune it out, while the specific cancer claims at least sound like real consequences I might remember.\"}",
+   "points": [
+    16.0,
+    14.0,
+    22.0,
+    24.0,
+    14.0,
+    10.0
+   ],
+   "round1_points": [
+    14.117647058823529,
+    16.470588235294116,
+    25.88235294117647,
+    21.176470588235293,
+    18.823529411764707,
+    3.5294117647058822
+   ],
+   "critique": "You say the surgery photos would make you turn your head, then you put the kettle on anyway, so the shock doesn't stick and you know it. Your scores also contradict your story: you rated C, the bowel photo, highest, yet you claim you ignore scare pictures. None of these messages mention the grandchildren, so your \"I'd pay attention to that\" is a hypothetical you've made up, not something you'd actually act on. You'd rather hear it from the pharmacist on the corner, who you trust and who knows your tablets, than from a chocolate wrapper, and nobody's testing that channel."
+  },
+  {
+   "persona": "30e7fafb8c",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "My first answer was too tidy. I scored which picture was most frightening, not which would stop me reaching for the bar. Bowel cancer still gets the most because my sister keeps on about screening and I'm at the age where it matters, so it's the one that sticks. But sticking isn't the same as changing what I do. The gory photos I'd probably tune out like the surgery posters. The cancer ones I'd feel nagged by, and I'd still have the bar at the till. None of them give me a reason I'd care about, like the thirst thing that got me off fizzy drinks.\n\n{\"points\": {\"A\": 10, \"B\": 10, \"C\": 35, \"D\": 5, \"E\": 20, \"F\": 20}, \"most_ignored\": \"D\", \"why\": \"The generic obesity lecture with people photographed from behind says nothing about me or what I'd get from eating less, so it would wash straight over me.\"}",
+   "points": [
+    10.0,
+    10.0,
+    35.0,
+    5.0,
+    20.0,
+    20.0
+   ],
+   "round1_points": [
+    10.666666666666666,
+    13.333333333333334,
+    40.0,
+    6.666666666666667,
+    16.0,
+    13.333333333333334
+   ],
+   "critique": "You say they'd all make you roll your eyes, then admit the bowel cancer one \"sticks\" and that you'd still have the bar, so the 30 points is a score for being noticed, not for changing anything. Your \"gory pictures make me think of the posters at the surgery\" line is the same reflex that makes you ignore the NHS posters, and you're kidding yourself if you think a gorier photo of a bowel gets past that. You also didn't notice that the only message tied to something in your life is C, because your sister and your age make it personal, and none of the others offer you anything you'd want, like the feeling of not being thirsty that actually got you to quit fizzy drinks. Stop scoring which picture is most frightening and ask which one a bloke who cycles six miles and runs for fun would think is about him at all."
+  },
+  {
+   "persona": "a4275457b8",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    2,
+    5,
+    0,
+    3,
+    4
+   ],
+   "raw": "Fair point, I did contradict myself. I still think a photo of someone's insides would make me switch off, but I can see I gave the two most graphic ones the top marks anyway. The thirteen cancers number might actually stick with me more than I'd admit, even if it sounds like a scare.\n\n```json\n{\"points\": {\"A\": 12, \"B\": 22, \"C\": 14, \"D\": 16, \"E\": 16, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"A photo of three overweight people from behind feels like judgement, and it doesn't tell me anything about what to do when fruit costs more than a bar of chocolate.\"}\n```",
+   "points": [
+    12.0,
+    22.0,
+    14.0,
+    16.0,
+    16.0,
+    20.0
+   ],
+   "round1_points": [
+    10.0,
+    10.0,
+    10.0,
+    30.0,
+    27.0,
+    13.0
+   ],
+   "critique": "You say a photo won't frighten you off, then give the two most graphic images your top scores, so which is it? Your mum's sugar problem is why E and D land for you, but that's one family's story, and a label on a chocolate bar won't carry it for the bloke next to you on the bus. You wrote off B as scaremongering, yet \"13 types of cancer\" is the one that makes a number stick, while the bleeding eye is the kind of picture you just said makes you switch off. And you've ranked all six without noticing that none of them mention the price of fruit or that a bar of chocolate is the cheap option, which is the real reason you're eating it."
+  },
+  {
+   "persona": "301c4c97c4",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    2,
+    3,
+    4,
+    0,
+    1,
+    5
+   ],
+   "raw": "Fair enough, I was being soft on myself. The eye picture is the one I'd rationalise away in two seconds, same as I do with my sister's blood pressure warnings. The bowel one is different because it's gross, and the lads at the depot will have heard about someone's dad, so I'd probably put it down before I'd think about the sugar.\n\n{\"points\": {\"A\": 5, \"B\": 22, \"C\": 18, \"D\": 35, \"E\": 8, \"F\": 12}, \"most_ignored\": \"A\", \"why\": \"The cancer surgery photo with a vague 'causes cancer' line is the kind of scare I've stopped hearing, while the bowel picture is specific and gross enough to make me put the bar down, though nothing here would touch the Asda trolley or the garage top-ups that actually cost me.\"}",
+   "points": [
+    5.0,
+    22.0,
+    18.0,
+    35.0,
+    8.0,
+    12.0
+   ],
+   "round1_points": [
+    5.0,
+    30.0,
+    25.0,
+    15.0,
+    5.0,
+    20.0
+   ],
+   "critique": "You're being soft on yourself: you say the three fat people one \"makes me feel got at\" and you'd reach for the bar anyway, yet you scored it 20 and called the eye one the most real, when you've just told me you're already ignoring your sister's warnings and the Diet Coke habit proves it. Your own gut reaction is that the blood-pressure-linked eye and heart pictures would make you pause, but you've also said you won't picture anything when you're knackered at half four with a bar in your hand, so the eye at 30 is an overestimate for a message you'd rationalise away in two seconds. Your \"yeah, yeah, everything causes cancer\" dismissal is fair, but you've underrated D: bowel cancer is specific, it's the one that your mates at the depot will have heard about from someone's dad, and a bowel photo on a chocolate wrapper is hard to shrug off because it's gross rather than just scary. And the thing nobody's asked is whether any of these would make you think about the price or the Asda trolley at all, because none of them touch the money side you've just admitted is the bigger problem."
+  },
+  {
+   "persona": "5f9da4d215",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    4,
+    0,
+    1,
+    3
+   ],
+   "raw": "Reading that again, the friend has a point about the fat-bodies photo. I'd still roll my eyes at it, but it's the one that's actually about someone like me, and it's the closest to the trousers thing. The bowel one still jumps out, but that's just shock, and I'd forget it by the Co-op. Nothing here says anything about what chocolate costs or whether I can afford the healthier option, so they all come out weak. The eye one is grim enough that it might stick for a minute.\n\n{\"points\": {\"A\": 24, \"B\": 8, \"C\": 12, \"D\": 22, \"E\": 8, \"F\": 26}, \"most_ignored\": \"E\", \"why\": \"A generic 'cancer' line over surgery photo is the sort of scare warning I'd read as nothing to do with my shop, and the price of the bar is still what decides it.\"}",
+   "points": [
+    24.0,
+    8.0,
+    12.0,
+    22.0,
+    8.0,
+    26.0
+   ],
+   "round1_points": [
+    8.0,
+    14.0,
+    16.0,
+    32.0,
+    10.0,
+    20.0
+   ],
+   "critique": "You've ranked the bowel graphic highest, then admitted it wouldn't change what you buy on Friday, so you're scoring how much a picture grabs you, not whether it moves you. The fat-bodies photo you waved off as eye-roll material is the one that could land hardest on a bloke whose trousers got tight and who calls ditching the multipacks \"progress,\" and you're pretending you're not the target. You dismissed the cancer-surgery labels as scare tactics, but you've said you trust your sister's word on health, and a nurse would probably tell you that a vague \"obesity causes cancer\" line gets skimmed just as fast. And nothing on any of these labels mentions money, which is what actually decides your shop, so none of them is going to change much however it's worded."
+  },
+  {
+   "persona": "92206ed9a7",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Fair enough, I was too quick to say the heart one was the only one that landed. Last year it landed for about six weeks, and then the shifts got bad. The bowel one is grim enough that I'd probably think of it when I'm reaching for a bar at quarter to five, though I'm not sure it would stop me. I still reckon the big pictures would make me roll my eyes, but I'd rather be honest about that than pretend it's a decision.\n\n{\"points\": {\"A\": 10, \"B\": 8, \"C\": 25, \"D\": 12, \"E\": 10, \"F\": 35}, \"most_ignored\": \"B\", \"why\": \"A photo of overweight people from behind reads like a dig at people rather than a reason to leave the bar, so I'd switch over, the same as I do with most of the adverts.\"}",
+   "points": [
+    10.0,
+    8.0,
+    25.0,
+    12.0,
+    10.0,
+    35.0
+   ],
+   "round1_points": [
+    5.0,
+    2.0,
+    35.0,
+    15.0,
+    13.0,
+    30.0
+   ],
+   "critique": "You're kidding yourself that the heart one would change anything. You had the same warning last year, cut back for six weeks, and went straight back to it when the shifts got bad. Saying you'd still have the bar on your break anyway means the label landed as a feeling, not a decision, and you already know how that goes. Dismissing the pictures as \"trying to frighten me\" is the same switch-over habit you hate in the adverts, and the bowel one is the only option that ties to something you're actually worried about, so it's the one that might stick if it were on a bar you'd grab at quarter to five."
+  },
+  {
+   "persona": "d2c7805318",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Looking again, my friend's right about the dentist. When someone I trust gives me a specific consequence, I do change, so a label with a specific outcome could land too. The bowel one is still the one I'd remember, and \"13 types of cancer\" sounds closer to home than I'd admitted. I'd still grab a Dairy Milk on a bad day, though, so the scores stay low overall.\n\n{\"points\": {\"A\": 8, \"B\": 12, \"C\": 15, \"D\": 26, \"E\": 35, \"F\": 4}, \"most_ignored\": \"F\", \"why\": \"It's a telling-off with no consequence attached, so it reads as nagging and I'd tune it out or want the chocolate more out of irritation.\"}",
+   "points": [
+    8.0,
+    12.0,
+    15.0,
+    26.0,
+    35.0,
+    4.0
+   ],
+   "round1_points": [
+    10.81081081081081,
+    13.513513513513514,
+    16.216216216216218,
+    18.91891891891892,
+    33.78378378378378,
+    6.756756756756757
+   ],
+   "critique": "You're being idealistic about your own habits: you say you'd skim past all of them, yet you cut out fizzy drink because your dentist had a word, so a specific consequence from a person you trust does get through. The bowel cancer one is your strongest pick, but you're still rating it a 25 out of 100 and then saying you'd grab a Dairy Milk anyway, so the score is just you being honest about how little any label moves you on a shit day. The \"feel judged, so I'd eat it out of spite\" line is a neat excuse, because the bar was going in your mouth whatever the label said. And you've underrated D: \"13 types of cancer\" is a number that sounds like it could be you, and people like us tend to shrug off one scary condition but not a whole list."
+  },
+  {
+   "persona": "f45764f86a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    2,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Fair enough, I was thinking about my blood pressure and not much else. Cancer is the one that actually scares people, and my mum's been through it, so that picture would stop me more than the heart one. The gory photos still make me want to look away, but that's the problem, isn't it? If I look away I'm not thinking about the chocolate at all.\n\n{\"points\": {\"A\": 5, \"B\": 25, \"C\": 15, \"D\": 5, \"E\": 25, \"F\": 25}, \"most_ignored\": \"D\", \"why\": \"It's a photo of other people with 'obesity' written on it, which feels like being told off, so I'd switch off before it made me think about the bar.\"}",
+   "points": [
+    5.0,
+    25.0,
+    15.0,
+    5.0,
+    25.0,
+    25.0
+   ],
+   "round1_points": [
+    10.0,
+    10.0,
+    15.0,
+    10.0,
+    15.0,
+    40.0
+   ],
+   "critique": "You picked the heart surgery because your blood pressure is high, but you just told me you cut out fizzy drinks without knowing why, so a warning about heart surgery is still vague and far off for you. You'd look away from the gory ones, which means you'd look away from the chocolate, and that's the only effect that matters to someone who buys by the yellow sticker. Your \"makes me feel daft\" test is doing too much work: you'd ignore D for the same reason you'd ignore any message that sounds like a lecture. And B is underrated, because \"cancer\" lands harder than \"heart\" with most people round here, and a surgery photo is harder to scroll past when you're thinking about your mum."
+  },
+  {
+   "persona": "3abf77984a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    5,
+    2,
+    1,
+    0,
+    3
+   ],
+   "raw": "Fair point from my mate. At two o'clock I'm not reading a label, I'm grabbing whatever's nearest, so the photos probably wouldn't stop me any more than the words would. I still think the plain obesity line is the one I'd skip, but I was too quick to dismiss the 13 cancers thing as made up, and it's the sort of thing my mum would ring me about, so it might stick a bit more.\n\n{\"points\": {\"A\": 12, \"B\": 8, \"C\": 25, \"D\": 15, \"E\": 20, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"It's a bland lecture with a photo of strangers from behind, so it reads like the adverts that talk down to you and I'd never notice it at the counter.\"}",
+   "points": [
+    12.0,
+    8.0,
+    25.0,
+    15.0,
+    20.0,
+    20.0
+   ],
+   "round1_points": [
+    12.0,
+    8.0,
+    15.0,
+    10.0,
+    30.0,
+    25.0
+   ],
+   "critique": "You'd skip the gross photo too: at two o'clock, wiped out, you're grabbing whatever's on the counter, not reading labels. Dismissing C as a made-up stat is the wrong reason, because the 13 cancers link is real, and it's the sort of thing your GP receptionist or your mum would repeat to you. You say B talks down to you, then pick E and F, which are just scarier pictures of the same lecture. The one that might actually land is tied to something you already feel, like the teeth that made you cut back on fizzy drinks, and none of these six touch that."
+  },
+  {
+   "persona": "8caecf6112",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    5,
+    0,
+    2,
+    1,
+    3
+   ],
+   "raw": "Honestly, the friend's right. None of these tells me why a bar of chocolate would do me harm, so they all bounce off, and I'd still grab one if it was reduced. The bowel one would make me pause for a second, but only because it's the scariest, and a pause isn't the same as putting it back. Most of the points go to the ones I'd barely notice.\n\n{\"points\": {\"A\": 12, \"B\": 16, \"C\": 22, \"D\": 12, \"E\": 14, \"F\": 12, \"G\": 0}, \"most_ignored\": \"E\", \"why\": \"Every label just says 'excess calories cause' something without explaining how a bar of chocolate fits in, so none of them changes what I'd do, and the one that stops me for a second is still only a scare with no reason behind it.\"}",
+   "points": [
+    13.636363636363637,
+    18.181818181818183,
+    25.0,
+    13.636363636363637,
+    15.909090909090908,
+    13.636363636363637
+   ],
+   "round1_points": [
+    14.117647058823529,
+    9.411764705882353,
+    29.41176470588235,
+    17.647058823529413,
+    17.647058823529413,
+    11.764705882352942
+   ],
+   "critique": "You've picked the bowel one as the one that would make you stop, then admitted nobody's ever explained the link, which is exactly why it'll bounce off you as a scare. Your \"ugh, don't look\" reaction to the gory pictures is the same reflex that makes you skip the five-a-day posters, so C's 25 points is a guess about the one you'd pause on, not a sign you'd change anything. You also said you'd reach for the bar anyway if it was on the yellow sticker, which means no label beats price for you, and you've underrated how much that is the whole story. Your own chips-and-no-salt habit shows you do change one thing when a doctor explains it simply, so the honest question is whether any of these labels explains anything at all."
+  },
+  {
+   "persona": "6babd0a75a",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    2,
+    4,
+    5,
+    0,
+    3
+   ],
+   "raw": "Fair point from my mate. The heart thing is what's really in my head, and I did go back to chips after a week, so I'm not going to pretend a label changes much. I don't read labels either, so honestly the picture on a bar is the most likely thing to get a glance, and the surgery ones are just telly-ad stuff I'd skip past. The bills are what decide what I buy, and a warning on a bar at the kiosk is not going to beat being skint or a bad day.\n\nStill, I'd rather the dad thing sit closer to home than a cancer number, so C gets a bit more, and E drops because I don't think I'd actually notice it.\n\n{\"points\": {\"A\": 10, \"B\": 5, \"C\": 25, \"D\": 10, \"E\": 20, \"F\": 5}, \"most_ignored\": \"B\", \"why\": \"I don't read labels and the 13-cancers figure is just a number I'd forget, so it would slide past me at the kiosk.\"}",
+   "points": [
+    13.333333333333334,
+    6.666666666666667,
+    33.333333333333336,
+    13.333333333333334,
+    26.666666666666668,
+    6.666666666666667
+   ],
+   "round1_points": [
+    12.5,
+    6.25,
+    18.75,
+    6.25,
+    43.75,
+    12.5
+   ],
+   "critique": "You've picked bowel cancer because it sounds like it's about you, but you told me your dad's heart is what's in your head, so C should be scoring higher than 15. Your own story shows these things fade: you thought about your dad for a week and went back to chips on Fridays, so \"pause for a second\" at the kiosk is a blip, not a change. You also said you don't read labels, so a label on a bar is the one thing you'll never see, and your 35 for E is you flattering yourself. What would actually land is something from your sister the nurse or the GP receptionist, or something about what the bar costs when the bills are due, not another gruesome photo."
+  },
+  {
+   "persona": "2b2b1ea043",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    5,
+    0,
+    4,
+    2,
+    3
+   ],
+   "raw": "Fair enough. The heart one was mostly my dad, not the message. Honestly, none of these is going to make me put the Dairy Milk back after a double shift. The bowel one is the one that might make me think for a second, because it's specific and it's the kind of thing I'd tell the kids about, though I'd still probably eat the bar. The cancer-surgery ones I'd switch off from, and the three people from behind just feel like a dig.\n\n{\"points\": {\"A\": 10, \"B\": 10, \"C\": 30, \"D\": 20, \"E\": 15, \"F\": 15}, \"most_ignored\": \"A\", \"why\": \"Cancer surgery photos read as a scare tactic I've learned to tune out, so they'd barely register when I'm knackered and want a bar.\"}",
+   "points": [
+    10.0,
+    10.0,
+    30.0,
+    20.0,
+    15.0,
+    15.0
+   ],
+   "round1_points": [
+    7.142857142857143,
+    7.142857142857143,
+    21.428571428571427,
+    42.857142857142854,
+    7.142857142857143,
+    14.285714285714286
+   ],
+   "critique": "You've given D 30 points because of your dad, but you just told us surgery photos are scare tactics you switch off from, so you're rewarding the one that hits your guilt rather than the one that would change anything. Giving B 5 for being \"a dig at bodies\" while D gets 30 is backwards, since you're dismissing the word \"obesity\" and then scoring a heart photo as if it's useful information. You mentioned cutting crisps after your dad's scare, which is the only lever here that's actually worked on you, yet none of your reasoning asks whether any message would make you pick the smaller or cheaper option. Nothing here is going to beat a Dairy Milk after a double shift, so stop scoring the shock and say which one would make you pick something different."
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "raw": "My gut reaction is that the friend has a point. I wrote F off as a graphic image I'd look away from, but it's the only one that names a specific cancer, and that's the kind of plain claim I'd check on the NHS site. I'd still flinch at the photo, though, and the bar in my hand after a run would still win.\n\n{\"points\": {\"A\": 8, \"B\": 15, \"C\": 15, \"D\": 10, \"E\": 12, \"F\": 40}, \"most_ignored\": \"A\", \"why\": \"It's vague and aimed at other people, with a photo of strangers that makes me defensive, so I'd scroll past it before it registered.\"}",
+   "points": [
+    8.0,
+    15.0,
+    15.0,
+    10.0,
+    12.0,
+    40.0
+   ],
+   "round1_points": [
+    15.0,
+    20.0,
+    15.0,
+    10.0,
+    20.0,
+    20.0
+   ],
+   "critique": "You say you'd \"look away\" from F and D, then score F at 20, the same as B and E, which you just called melodramatic. Your own rating doesn't match your own story. You also claim a chocolate bar isn't connected to your knees, yet you're the one who eats more beans because your sister told you to and who notices the price per kilo of everything. Your \"I'd flinch and then buy it anyway\" is exactly how these labels fail: they land as noise, and you'd still be standing at the till after a run wanting something sweet. The one thing you undervalued is that F names a specific cancer, which is the kind of plain, checkable claim you'd take from the NHS site or your GP's receptionist, so it might be the only one that doesn't sound like a toddler warning."
+  },
+  {
+   "persona": "c9f37c0a97",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    4,
+    2,
+    0
+   ],
+   "raw": "Fair point on E. The NHS does list obesity among the causes of several cancers, so I was too quick to call it scaremongering. The number sounds big, but I'd probably take it as roughly true. I'm still not moved by the surgery photos, because that's the kind of image I'd slide past. I'm also still sceptical of the \"disappointed person\" tone in A, and money will beat any label when the bar is the cheapest thing on the shelf.\n\n{\"points\": {\"A\": 8, \"B\": 12, \"C\": 10, \"D\": 10, \"E\": 25, \"F\": 35}, \"most_ignored\": \"A\", \"why\": \"It's the same disappointed-looking nagging tone I already switch off, and a photo of overweight people from behind is easy to ignore.\"}",
+   "points": [
+    8.0,
+    12.0,
+    10.0,
+    10.0,
+    25.0,
+    35.0
+   ],
+   "round1_points": [
+    22.0,
+    8.0,
+    12.0,
+    10.0,
+    6.0,
+    42.0
+   ],
+   "critique": "Your \"I trust the NHS\" line doesn't fit your ranking: E is the one you ignored as scaremongering, yet the 13-cancer link is the kind of thing NHS and Cancer Research UK publish, so you dismissed a claim your own trusted source would back. You also say the graphic photos are shock tactics and the ones you'd slide off, but you give F, the most graphic one, the highest score. Your history-degree scepticism is doing a lot of work here, and it's suspiciously aimed at the messages that ask the least of you. And \"I'd still just eat the bar if it was cheap\" is the honest bit: a warning on a bar you buy because it's the cheapest thing on the reduced shelf won't change much, but that's a money problem, not a messaging one."
+  },
+  {
+   "persona": "451d057b22",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    1,
+    3,
+    0,
+    2,
+    4,
+    5
+   ],
+   "raw": "Honestly, the friend has a point: the photos would make me look away and then I'd have the bar anyway, so the shock does very little. The bowel one still gets my attention because it's the sort of thing people talk about at the surgery, but that's gossip, not a reason to change what I buy. I'd still rather be told plainly what a bar costs me than be frightened.\n\n{\"points\": {\"A\": 14, \"B\": 17, \"C\": 22, \"D\": 12, \"E\": 19, \"F\": 16}, \"most_ignored\": \"D\", \"why\": \"A big round number like '13 types of cancer' reads like a scare tactic, so I'd tune it out just as I'd tune out the photo.\"}",
+   "points": [
+    14.0,
+    17.0,
+    22.0,
+    12.0,
+    19.0,
+    16.0
+   ],
+   "round1_points": [
+    12.0,
+    20.0,
+    28.0,
+    12.0,
+    20.0,
+    8.0
+   ],
+   "critique": "You say you'd look away from the grim photos and still have the bar with your tea, which means the shock is doing nothing for you, and you're rating C highest mainly because it's the one you'd talk about in the waiting room. That's gossip value, not behaviour change, and you know it. Your own answer proves the point: you already decided the chocolate stays, so any label is just decoration on something you've made peace with. And calling F \"talked down to\" is fair, but you're underrating what it does on the bar: it says the thing is just calories, which you can plainly see, so it matches your own sense that it's no different from anything else in the cupboard. Stop pretending you're the hard case here: the message that would actually land is the one that says what a bar costs in your week, not one that frightens you about cancer you'd want the odds on before acting."
+  },
+  {
+   "persona": "f0c9e8bbfa",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    1,
+    2
+   ],
+   "raw": "My gut says the weight message still gets to me most, because of the trousers, even though it's the one with the dig. I'd roll my eyes at it, but it's the only one that touches something I already think about. The surgery and gore photos would just make me switch off. \"13 types of cancer\" would make me stop and think, though probably more \"is that right?\" than anything that changes my biscuit habit.\n\n{\"points\": {\"A\": 8, \"B\": 6, \"C\": 6, \"D\": 40, \"E\": 15, \"F\": 25}, \"most_ignored\": \"B\", \"why\": \"The bleeding eye is grim enough that I'd scroll past it, and diabetes doesn't feel like something that applies to someone who just cut back on biscuits.\"}",
+   "points": [
+    8.0,
+    6.0,
+    6.0,
+    40.0,
+    15.0,
+    25.0
+   ],
+   "round1_points": null,
+   "critique": "You say the photos would make you switch off, then rank D top because it \"connects to your trousers,\" even though its dig is exactly the talking-down you hate about campaigns. You're also being idealistic about your own discipline: you cut crisps and biscuits because of your trousers and stopped there, so a message about weight is the one you'd nod at and then carry on regardless. Your 15s for A and C are generous, since you'd skip graphic gore the same way you'd skip the bleeding eye. And you've underrated F: \"13 types of cancer\" is a big, specific claim, and the kind of figure you'd actually stop and wonder about, not because it frightens you but because you'd want to check it."
+  },
+  {
+   "persona": "e303a16ea5",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "My gut says the eye picture would stick for a second, and \"13 types of cancer\" is at least a concrete number, which is more than I usually get. But I'd still mostly shrug and eat the bar, because none of these tell me anything I can do with a Friday shop or a tired evening. The three-people-from-behind photo is exactly the smug cartoon I can't stand, so it gets almost nothing.\n\n{\"points\": {\"A\": 8, \"B\": 2, \"C\": 5, \"D\": 35, \"E\": 30, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"The photo of three overweight people from behind is a smug cartoon that makes me switch off, and it gives me nothing to act on either.\"}",
+   "points": [
+    8.0,
+    2.0,
+    5.0,
+    35.0,
+    30.0,
+    20.0
+   ],
+   "round1_points": [
+    12.0,
+    0.0,
+    8.0,
+    20.0,
+    30.0,
+    30.0
+   ],
+   "critique": "You're calling the surgery photos scare stories, then giving F (open-heart surgery) a perfect 30, which is the same tactic with a bigger picture. Your \"ignore my mum's Mail links\" habit is the real signal here, and anything that reads like a chain of \"this causes that causes that\" will get the same skip, so E and F are probably not landing as hard as you think. D's \"13 types of cancer\" is a specific number, which is the kind of concrete thing you said you want, so you've underrated it and scored it below E and F anyway. None of these tell you what to do on a Friday shop or after a bad day, and \"just tell me the thing\" means nothing if the thing has no action in it."
+  },
+  {
+   "persona": "42d621f456",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    5,
+    1,
+    0,
+    4,
+    3
+   ],
+   "raw": "Fair point from my friend. I do notice the bowel one, and I'd still eat the bar on the train, so my scores were about what I'd think about, not what I'd do. Cancer and eye photos would put me off for a minute, but a bar after a long day usually wins. I'd also still quibble with the cancer claims, but I'd take them more seriously than the tone of the thing.\n\n{\"points\": {\"A\": 17, \"B\": 6, \"C\": 17, \"D\": 26, \"E\": 14, \"F\": 20}, \"most_ignored\": \"B\", \"why\": \"The generic obesity line over a photo of people from behind is the nagging I've heard a hundred times, so it gives me nothing new to weigh against a chocolate bar I already want.\"}",
+   "points": [
+    17.0,
+    6.0,
+    17.0,
+    26.0,
+    14.0,
+    20.0
+   ],
+   "round1_points": [
+    14.457831325301205,
+    3.6144578313253013,
+    16.867469879518072,
+    36.144578313253014,
+    16.867469879518072,
+    12.048192771084338
+   ],
+   "critique": "You're describing yourself as someone who doesn't need telling, but your own answer shows the opposite: you'd notice D and still eat the bar on the train, which means the message isn't failing on your attention, it's failing on your willingness to act. Your \"I'd rather have one nice thing\" habit is exactly the buying pattern a chocolate warning is aimed at, so you're poorly placed to say B is the one that washes over you. The \"it's trying to frighten me so I want it more\" line is reactance talk you'd dismiss in your sister's Facebook posts, and you've said you trust evidence over tone, so D's specificity should count for more than you're giving it. Your 30 points for D are a guess about what would make you think, not a prediction of what you'd do, and the scores should reflect the second thing."
+  },
+  {
+   "persona": "b6a5f60816",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    1,
+    5,
+    4,
+    3,
+    0,
+    2
+   ],
+   "raw": "My gut says the friend has a point. I did cut dairy on a hunch and I know the oat milk is daft, so I'm not as clear-eyed as I made out. Still, the surgery and eye photos would make me look away, and the \"people from behind\" one is the most likely to get skipped. E names one organ, which is the kind of concrete detail I trust from my nurse. F's number is the only useful fact here, even though the tone would still put me off.\n\n{\"points\": {\"A\": 12, \"B\": 5, \"C\": 13, \"D\": 10, \"E\": 32, \"F\": 28}, \"most_ignored\": \"B\", \"why\": \"It's the same generic lecture I've heard a hundred times, with a photo of strangers that has nothing to do with me, so I'd scroll straight past it.\"}",
+   "points": [
+    12.0,
+    5.0,
+    13.0,
+    10.0,
+    32.0,
+    28.0
+   ],
+   "round1_points": [
+    16.0,
+    10.666666666666666,
+    18.666666666666668,
+    13.333333333333334,
+    29.333333333333332,
+    12.0
+   ],
+   "critique": "You say you'd ignore the surgery photos, but you cut dairy for two years on a hunch and still buy oat milk you know is daft, so you're not the cool-headed filter you're describing. Your \"a rubbish day wins anyway\" point is true, but it means no label beats the moment; you already admitted you only read labels when you feel guilty. E scoring highest is probably right for the wrong reason: it names one specific organ, the kind of concrete detail you trust from your nurse, not a poster. And F's \"13 types of cancer\" is the only genuinely useful number here, which you'd dismiss because it sounds like a lecture, not because it's wrong."
+  },
+  {
+   "persona": "9964371380",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    0,
+    3,
+    2
+   ],
+   "raw": "Okay, fair point from my friend. I put D top because it's the one that would make me wince, but wincing isn't the same as putting the bar back. On a rubbish day I'd probably still reach for it, so I've spread the points out more and given E a bit more weight, since diabetes is the sort of thing people round here do have in the family. I still think the scary pictures would only nudge me, not stop me.\n\n{\"points\": {\"A\": 12, \"B\": 14, \"C\": 8, \"D\": 24, \"E\": 22, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"It shows overweight people from behind, which feels like being got at and tells me nothing I don't already know, so I'd switch off straight away.\"}",
+   "points": [
+    12.0,
+    14.0,
+    8.0,
+    24.0,
+    22.0,
+    20.0
+   ],
+   "round1_points": [
+    12.0,
+    14.0,
+    5.0,
+    32.0,
+    18.0,
+    19.0
+   ],
+   "critique": "You say scary pictures don't stop you wanting a bar on a rubbish day, so why did you score D highest? Your own gut is the reason it would catch your eye, and that's the exact reason a graphic bowel image would make you wince and think \"I already know this\" before you put the bar back. You've also been ideal about your dairy cut: you admit it may not have helped, yet you're ranking messages as if you'd be a clear-headed judge of what changes behaviour. And you've underrated E. A bleeding eye photo doesn't need you to feel specially at risk, and plenty of people round here have a diabetic dad or auntie, so it might be the one that makes someone think about their own family."
+  },
+  {
+   "persona": "31d3b89344",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    1,
+    5,
+    0,
+    2,
+    4
+   ],
+   "raw": "Honestly, my gut says none of these would stop me. I'd glance at the photo, feel a bit grim for a second, and then the bar would still cost less than a proper lunch. The friend's right that the only thing that would change my mind is something about money or a cheaper swap, and nothing here offers that.\n\n{\"points\": {\"A\": 15, \"B\": 12, \"C\": 6, \"D\": 22, \"E\": 25, \"F\": 20}, \"most_ignored\": \"C\", \"why\": \"None of these touch the price or give me a cheaper option, so they'd only nudge me for a second, and the fat-people photo reads as a dig I'd tune out fastest.\"}",
+   "points": [
+    15.0,
+    12.0,
+    6.0,
+    22.0,
+    25.0,
+    20.0
+   ],
+   "round1_points": [
+    12.0,
+    10.0,
+    8.0,
+    22.0,
+    30.0,
+    18.0
+   ],
+   "critique": "You rated E highest because of one number you'd probably forget by the checkout, and you admitted you'd eat the bar anyway, so every one of these gets a shrug, not a change. Your own record shows what actually moves you: you cut back on biscuits because you ran out of money, not because of cancer, and none of these labels mention cost or offer a cheaper swap. You dismissed C as a dig, but it's the only one that doesn't frighten you, and you've already said scare stuff you read online makes you wish you hadn't. Stop ranking by which one you'd remember and ask which one would make you put the bar back, because nothing you picked does that."
+  },
+  {
+   "persona": "769f392c41",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    5,
+    1,
+    3,
+    2,
+    4
+   ],
+   "raw": "Fair point, though I'd still argue with some of it. The bloating and the price were what actually made me cut the fizzy drinks, and none of these say anything about money or how I feel after eating. The 13-cancers line does read as specific enough to check, and I'd trust a claim like that more than a vague one. I still think my nan is why D gets the most, even if it's not the only reason I'd notice it.\n\n{\"points\": {\"A\": 12, \"B\": 4, \"C\": 8, \"D\": 28, \"E\": 32, \"F\": 16}, \"most_ignored\": \"B\", \"why\": \"A plain line about excess calories causing obesity doesn't tell me anything specific or connect to how I feel or what I spend, so it slides past.\"}",
+   "points": [
+    12.0,
+    4.0,
+    8.0,
+    28.0,
+    32.0,
+    16.0
+   ],
+   "round1_points": [
+    10.0,
+    5.0,
+    12.5,
+    50.0,
+    7.5,
+    15.0
+   ],
+   "critique": "You're kidding yourself that you're immune: you check unit prices, and you dropped fizzy drinks because of cost and bloating, so you respond to immediate, practical stakes, and none of these six touch that. Giving D 40 points because of your nan is you flattering your own story rather than admitting that a personal memory is the only thing that moved you. You wave off the 13-cancers line as exaggerated, yet you trust the NHS website and your GP's receptionist, and a claim that's specific and checkable is exactly what would read as credible to someone like you. Stop pretending the bar is beneath you; you're just immune to the warnings that feel like they're talking to someone else."
+  },
+  {
+   "persona": "f2a6c99889",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Fair enough, I hadn't connected the heart one to my own cholesterol result. The surgery photo still makes me look away, but a warning about heart disease would stick, because that's the number I already worry about. At the till I'd take in a short line before I looked at the photo, so the words matter more than the picture.\n\n{\"points\": {\"A\": 30, \"B\": 6, \"C\": 14, \"D\": 17, \"E\": 26, \"F\": 7}, \"most_ignored\": \"B\", \"why\": \"Nothing in my life points to diabetes, and a bleeding eye is the sort of image I'd look away from before reading the words.\"}",
+   "points": [
+    30.0,
+    6.0,
+    14.0,
+    17.0,
+    26.0,
+    7.0
+   ],
+   "round1_points": [
+    25.0,
+    12.0,
+    15.0,
+    13.0,
+    30.0,
+    5.0
+   ],
+   "critique": "You say the surgery photos make you look away, then give A 25, which is the same kind of image you just dismissed. The 13-cancers line only \"feels like information\" because you're a sceptic who's been burned by lectures, and the number is novelty, not persuasion. Your own history shows that what changes you is something hitting your life: the cholesterol result is why you cut red meat, and A points straight at that, so you may be underrating it. And none of these labels get read at 5:30 with a kid and a load of washing waiting, so the real question is which one a tired person registers in two seconds at the till."
+  },
+  {
+   "persona": "212c2e0f70",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    4,
+    2,
+    1,
+    3,
+    5
+   ],
+   "raw": "Honestly, the friend's right that disgust wouldn't stop me when I'm skint and the bar's reduced. Bowel cancer does feel closer to home than a generic \"cancer\", since it's a specific chain I could actually picture, and I'm already cutting back for vague reasons. The smug tone still gets under my skin, though, so F gets a bit more than I'd have given it, but not much.\n\n{\"points\": {\"A\": 30, \"B\": 12, \"C\": 14, \"D\": 9, \"E\": 22, \"F\": 13}, \"most_ignored\": \"D\", \"why\": \"A generic 'causes cancer' line over a surgery photo feels like a vague scare tactic I've already learned to tune out, whereas the bowel cancer link at least tells me something specific I could act on.\"}",
+   "points": [
+    30.0,
+    12.0,
+    14.0,
+    9.0,
+    22.0,
+    13.0
+   ],
+   "round1_points": [
+    26.0,
+    15.0,
+    13.0,
+    10.0,
+    30.0,
+    6.0
+   ],
+   "critique": "Your gut says the bleeding eye would stop you, but you've just admitted you'd eat the bar anyway at the end of the week when you're skint, so disgust isn't what changes your actual behaviour. You rank E highest because it's the most revolting, which isn't the same as it working on someone who stretches a pot of lentils over three days and quietly eats less meat without making a fuss. Your dismissal of F is idealistic: you say you'd scroll past it, yet you're already a person who changed habits out of a vague guilt, and that's exactly the nudge a smug line like that is designed to produce. And you've underrated A, because bowel cancer is specific, close to home, and follows a chain you can actually trace, which is the kind of thing someone who still thinks about where their eggs come from might take seriously."
+  }
+ ]
+}

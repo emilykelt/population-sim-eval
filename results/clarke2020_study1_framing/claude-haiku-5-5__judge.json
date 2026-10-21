@@ -1,0 +1,1162 @@
+{
+ "score": {
+  "mean_spearman": 0.17635800285175615,
+  "top1_accuracy": 0.75,
+  "gap_preservation": -0.10835207913143743,
+  "n_segments_scored": 8,
+  "n_valid_answers": 234,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": 0.14285714285714288,
+    "top1_hit": 1.0,
+    "pred": [
+     23.8,
+     16.0,
+     20.0,
+     15.5,
+     15.2,
+     9.5
+    ],
+    "truth": [
+     4.52,
+     3.863,
+     4.029,
+     3.71,
+     4.25,
+     4.197
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": 0.3714285714285715,
+    "top1_hit": 1.0,
+    "pred": [
+     26.4,
+     12.4,
+     14.4,
+     16.6,
+     20.6,
+     9.6
+    ],
+    "truth": [
+     4.745,
+     4.442,
+     4.353,
+     4.527,
+     4.224,
+     4.242
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": -0.3714285714285715,
+    "top1_hit": 0.0,
+    "pred": [
+     26.6,
+     13.2,
+     13.8,
+     16.2,
+     22.0,
+     8.2
+    ],
+    "truth": [
+     4.76,
+     4.737,
+     4.675,
+     4.895,
+     4.648,
+     5.0
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": -0.08571428571428573,
+    "top1_hit": 1.0,
+    "pred": [
+     23.4,
+     16.2,
+     21.4,
+     14.4,
+     12.0,
+     12.6
+    ],
+    "truth": [
+     4.972,
+     4.583,
+     4.538,
+     4.779,
+     4.781,
+     4.596
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.08571428571428573,
+    "top1_hit": 0.0,
+    "pred": [
+     24.8,
+     14.6,
+     21.6,
+     15.0,
+     16.0,
+     8.0
+    ],
+    "truth": [
+     4.874,
+     4.779,
+     5.034,
+     5.088,
+     4.824,
+     5.0
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.6957252427829382,
+    "top1_hit": 1.0,
+    "pred": [
+     25.8,
+     15.0,
+     16.4,
+     15.8,
+     18.4,
+     8.6
+    ],
+    "truth": [
+     5.562,
+     5.167,
+     5.258,
+     4.992,
+     5.167,
+     5.008
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.5428571428571429,
+    "top1_hit": 1.0,
+    "pred": [
+     26.4,
+     13.0,
+     18.2,
+     17.0,
+     16.4,
+     9.0
+    ],
+    "truth": [
+     4.896,
+     4.594,
+     4.692,
+     4.822,
+     4.602,
+     4.715
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": 0.029424494316824982,
+    "top1_hit": 1.0,
+    "pred": [
+     23.8,
+     14.8,
+     23.8,
+     14.8,
+     14.6,
+     8.2
+    ],
+    "truth": [
+     4.964,
+     4.64,
+     4.66,
+     4.643,
+     4.719,
+     4.694
+    ]
+   }
+  },
+  "model": "claude-haiku-5-5",
+  "method": "judge",
+  "cost_usd": 0.0168,
+  "seconds": 28.4,
+  "within_sd": 2.182133277084374,
+  "n_jobs": 40
+ },
+ "results": [
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Young UK men tend to discount generic health warnings and respond more to concrete, personally relevant threats, especially when paired with vivid imagery. Specific, graphic consequences should move desire most. The bowel cancer label (E) combines a specific cancer with a graphic image, so it gets the most points. Open-heart surgery (D) and the 13-cancers claim (C) are also strong, and cancer surgery (B) is a bit less specific. The diabetic eye (A) is vivid but Type 2 diabetes feels more distant to this group. The generic label with overweight people (F) gives no concrete consequence and may trigger defensiveness about body image, so it is the least effective.\n\n{\"points\": {\"A\": 16, \"B\": 14, \"C\": 16, \"D\": 18, \"E\": 24, \"F\": 12}, \"most_ignored\": \"F\", \"why\": \"A generic obesity warning with a photo of overweight people gives no concrete consequence and may provoke defensiveness, so it is least likely to reduce this group's desire to eat the bar.\"}",
+   "points": [
+    16.0,
+    14.0,
+    16.0,
+    18.0,
+    24.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Young UK men are less moved by generic health warnings than by specific, vivid threats. Graphic imagery of a diseased bowel is likely the strongest hook: it is visceral and tied to a cancer that feels concrete. The \"13 types of cancer\" line is a salient, alarming statistic even though its image is less vivid. Generic cancer surgery is strong but less specific. Diabetic eye damage is gross but feels more distant for this age group. Heart surgery imagery feels remote for 18-34s. The label that only mentions obesity, with a photo of overweight people from behind, is most likely to be dismissed. It doesn't name a consequence that feels personal, and it can trigger reactance or a sense of being judged.\n\n{\"points\": {\"A\": 16, \"B\": 24, \"C\": 20, \"D\": 12, \"E\": 10, \"F\": 18}, \"most_ignored\": \"E\", \"why\": \"The obesity-only label with a photo of overweight people from behind names no personal consequence and may provoke reactance or self-exemption, so it is least likely to reduce desire for the bar.\"}",
+   "points": [
+    16.0,
+    24.0,
+    20.0,
+    12.0,
+    10.0,
+    18.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "Young UK men (18-34) tend to discount generic health messaging, so the labels that work best are likely the most concrete and emotionally vivid, with a clear personal stake. Bowel cancer paired with a graphic image should register most strongly. The general cancer label with 13 cancer types is specific and alarming, so it should rank next. Generic cancer and heart disease labels are still frightening but slightly less vivid. The diabetic eye is graphic, but young men may see Type 2 diabetes as more controllable or less relevant to them. The obesity-only label with no disease consequence and a non-specific image of overweight people gives the weakest push, and it may even invite self-comparison or defensiveness.\n\nThese are estimates of relative impact, not measured effects.\n\n{\"points\": {\"A\": 14, \"B\": 18, \"C\": 22, \"D\": 26, \"E\": 13, \"F\": 7}, \"most_ignored\": \"F\", \"why\": \"The generic obesity-only warning with a photo of overweight people names no serious consequence and is easy for young men to dismiss, so it should do least to reduce the urge to eat the bar.\"",
+   "points": null
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Young UK men aged 18-34 tend to discount distant health risks, and they often react against heavy-handed warnings. Messages that are specific, surprising, or feel personally relevant are more likely to break through. \"13 types of cancer\" is a striking, concrete claim that is likely to register. Bowel cancer is widely discussed in the UK and is rising among younger adults, so F's graphic image may land harder. A and C use vivid, familiar disease framing with a less generic link to obesity. D's heart surgery image is strong but feels more remote for this age group. E names no disease and gives no consequence beyond weight, so it has the least to grip on, though the image of overweight people could prompt some self-consciousness.\n\n```json\n{\"points\": {\"A\": 16, \"B\": 24, \"C\": 17, \"D\": 13, \"E\": 10, \"F\": 20}, \"most_ignored\": \"E\", \"why\": \"Young UK men are likely to respond most to specific, surprising or relevant cancer claims (especially the '13 cancers' statistic and bowel cancer), while the disease-free obesity-only warning gives them the least reason to change their snacking.\"}\n```",
+   "points": [
+    16.0,
+    24.0,
+    17.0,
+    13.0,
+    10.0,
+    20.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Young UK men are likely to respond most to specific, personally relevant consequences, and to discount vague or overly distant ones. Bowel cancer (D) is a salient, common UK cancer, and the graphic image makes it concrete, so I expect it to have the strongest effect on desire to eat. The \"13 types of cancer\" claim (C) is specific and alarming, so it should come second. Labels A and F name serious outcomes but are less concrete. F's open-heart image is vivid, but heart disease may feel less tied to a snack. B's eye image is disturbing but its link to the chocolate bar is more abstract. E gives no consequence at all, so it should barely shift desire, and the audience may also dismiss it as nagging.\n\n{\"points\": {\"A\": 16, \"B\": 13, \"C\": 20, \"D\": 27, \"E\": 6, \"F\": 18}, \"most_ignored\": \"E\", \"why\": \"The generic obesity warning with no named health consequence or graphic image is easy to dismiss, so it is unlikely to reduce craving much.\"}",
+   "points": [
+    16.0,
+    13.0,
+    20.0,
+    27.0,
+    6.0,
+    18.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Men aged 35-54 in the UK are likely to respond most to threats that feel personal and concrete. Bowel cancer and heart disease are both highly salient for this age group, and the graphic images (a cancerous bowel, open-heart surgery) are the most visceral. Generic cancer surgery imagery and the \"13 cancers\" claim are alarming but less specific, and the \"13 types\" framing may read as exaggerated and invite scepticism. Diabetes is serious but feels less immediately threatening here. The label with only overweight people from behind is abstract and may provoke defensiveness or stigma-based reactance rather than reduced craving.\n\n{\"points\": {\"A\": 15, \"B\": 13, \"C\": 24, \"D\": 15, \"E\": 22, \"F\": 11}, \"most_ignored\": \"F\", \"why\": \"Its abstract, non-threatening image of overweight people lacks a concrete health consequence and may trigger defensiveness, so it is least likely to reduce this man's desire for the bar.\"}",
+   "points": [
+    15.0,
+    13.0,
+    24.0,
+    15.0,
+    22.0,
+    11.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Men aged 35-54 in the UK are likely to find the most concrete, personally relevant threats most persuasive. Bowel cancer and heart disease are prominent health worries for this group, and the graphic bowel image (D) is the most vivid and specific threat. Open-heart surgery (F) is also a strong, familiar cue for men in this age band. The diabetic eye (C) is serious but less personally salient. The generic cancer surgery labels (B, E) are less specific, and \"13 types of cancer\" (E) may read as abstract or exaggerated. Label A is the most abstract and its image of overweight people may trigger defensiveness or stigma reactance rather than reduced desire, so it is likely the least effective.\n\n{\"points\": {\"A\": 10, \"B\": 12, \"C\": 16, \"D\": 30, \"E\": 10, \"F\": 22}, \"most_ignored\": \"A\", \"why\": \"The generic 'excess calories cause obesity' message with a photo of overweight people is abstract and may provoke defensiveness, whereas the graphic, specific disease imagery of bowel cancer and heart surgery connects more directly to this group's health worries.\"}",
+   "points": [
+    10.0,
+    12.0,
+    16.0,
+    30.0,
+    10.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "Men aged 35-54 in the UK are at the age where heart disease and bowel cancer feel most personally threatening, and both are common in public messaging, so those labels should register most. The bowel cancer photo is the most graphic and visceral, which should make it the strongest deterrent. Heart disease is the most familiar risk for this group, and the open-heart surgery image is concrete. Type 2 diabetes is also relevant at this age, and the bleeding eye is shocking. The generic \"cancer\" labels (D and F) are vaguer, and F's \"13 types\" statistic is abstract, so they should do less. E names no consequence at all, and a photo of overweight people may trigger defensiveness or reactance, so it should have the least effect on desire.\n\n{\"points\": {\"A\": 22, \"B\": 20, \"C\": 26, \"D\": 11, \"E\": 9, \"F\": 12}, \"most_ignored\": \"E\", \"why\": \"E names no health consequence and its photo of overweight people may provoke defensiveness rather than a desire to avoid the bar.\"}",
+   "points": [
+    22.0,
+    20.0,
+    26.0,
+    11.0,
+    9.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "Graphic, disease-specific imagery tends to outperform abstract or non-disease warnings. F pairs the most vivid image (a cancerous bowel) with a cancer type that is salient for men in their 40s and 50s, given UK bowel screening age ranges. A and C also combine multi-cancer or heart-disease risk with surgical imagery. D's bleeding eye is graphic but less personally threatening for this group. B is similar to A but names fewer risks. E shows no disease outcome and depicts people, which invites defensiveness, so it should have the weakest effect on desire to eat the bar.\n\n{\"points\": {\"A\": 20, \"B\": 13, \"C\": 17, \"D\": 14, \"E\": 10, \"F\": 26}, \"most_ignored\": \"E\", \"why\": \"The label with no disease consequence and an image of overweight people is least likely to reduce desire and may trigger defensiveness or reactance in men aged 35-54.\"}",
+   "points": [
+    20.0,
+    13.0,
+    17.0,
+    14.0,
+    10.0,
+    26.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "Men aged 35-54 in the UK are at the age where bowel cancer and heart disease become personally salient, and screening campaigns have made bowel cancer familiar. C pairs that concern with a graphic image, so it should cut desire most. E (heart disease, open-heart surgery) is also vivid and relevant to this group. A is gruesome and links to diabetes, which is common in the UK, so it scores well. F's \"13 types of cancer\" is abstract and the surgery photo is generic, and B is similarly generic. D's image of overweight people from behind invites self-exempting judgement of others and carries no personal stake, so it should barely move desire.\n\n{\"points\": {\"A\": 18, \"B\": 13, \"C\": 26, \"D\": 8, \"E\": 20, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"The generic warning about obesity paired with a photo of overweight strangers from behind creates no personal threat and invites self-exemption, so it is least likely to reduce this man's desire for the bar.\"}",
+   "points": [
+    18.0,
+    13.0,
+    26.0,
+    8.0,
+    20.0,
+    15.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "Men aged 55+ in the UK are likely to respond most to specific, personally relevant serious diseases. Bowel cancer (E) is salient for this age group because of national screening invitations, and its graphic image is hard to dismiss. Heart disease (F) also resonates strongly with older men. Diabetes with a bleeding eye (D) is vivid and concrete. The \"13 types of cancer\" claim (A) is a striking statistic, but the surgery photo is generic. B has similar imagery with a vaguer claim. C names no disease and shows an image that is judgmental rather than alarming, so it is likely to have the least effect.\n\n{\"points\": {\"A\": 14, \"B\": 13, \"C\": 9, \"D\": 18, \"E\": 24, \"F\": 22}, \"most_ignored\": \"C\", \"why\": \"C names no serious disease and uses a judgmental image of overweight people, so it gives this audience the least reason to change how much they want the bar.\"}",
+   "points": [
+    14.0,
+    13.0,
+    9.0,
+    18.0,
+    24.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "Men aged 55+ in the UK are likely to be most responsive to health risks that feel personally relevant at their age. Bowel cancer is a salient concern for this group, and a graphic image of a diseased bowel is vivid and specific, so B should reduce desire most. Heart disease is similarly relevant to men in this age band, and open-heart surgery is a strong visual, so E comes next. The diabetic eye image is graphic and concrete, though the link to chocolate is more distant, so C is third. D's \"13 types of cancer\" is a striking claim, but it is abstract and paired with a generic surgery photo, so its impact is moderate. A is vaguer and shares D's photo, so it is weaker. F offers no specific disease and shows other people's bodies, which invites self-exemption and reactance, so it is least likely to change behaviour.\n\n{\"points\": {\"A\": 11, \"B\": 28, \"C\": 18, \"D\": 13, \"E\": 22, \"F\": 8}, \"most_ignored\": \"F\", \"why\": \"F names no specific disease and shows other people's bodies, which this group can easily dismiss as not applying to them, so it is least likely to reduce their desire to eat the bar.\"}",
+   "points": [
+    11.0,
+    28.0,
+    18.0,
+    13.0,
+    22.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Older UK men are likely to respond most to threats they see as personally relevant and concrete. Heart disease (D) and bowel cancer with a graphic image (E) fit that best: bowel cancer screening is actively promoted to this age group, and heart disease is a common worry at this stage of life. Diabetes (B) and generic cancer (A) are also relevant, but less so. The \"13 types of cancer\" claim (C) is abstract and may be less vivid. The generic obesity label with a photo of overweight people from behind (F) gives no specific threat and may provoke defensiveness, so it should have the least effect.\n\nThese are judgement-based estimates, not measured effects.\n\n{\"points\": {\"A\": 14, \"B\": 15, \"C\": 12, \"D\": 24, \"E\": 25, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"The generic obesity label with a photo of unnamed overweight people gives no concrete, personally relevant health threat and may trigger defensiveness, so it is least likely to reduce this audience's desire to eat the bar.\"}",
+   "points": [
+    14.0,
+    15.0,
+    12.0,
+    24.0,
+    25.0,
+    10.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "Men aged 55+ in the UK are in the age range targeted by bowel cancer screening and heart health campaigns, so specific, personally relevant consequences should carry the most weight. Graphic imagery of a named condition should make the warning more vivid and harder to dismiss. Heart disease (C) and diabetes (B) are also salient at this age. Generic cancer (D) and the 13-cancer statistic (F) are less concrete, and the photo in F is generic. Message A is vague, stigmatising toward people who are overweight, and easy to dismiss, which invites reactance.\n\n{\"points\": {\"A\": 7, \"B\": 16, \"C\": 22, \"D\": 13, \"E\": 30, \"F\": 12}, \"most_ignored\": \"A\", \"why\": \"It names no specific disease and its image of overweight people from behind is stigmatising and easy to dismiss, which invites reactance rather than a personal sense of risk.\"}",
+   "points": [
+    7.0,
+    16.0,
+    22.0,
+    13.0,
+    30.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "Older UK men are likely to find bowel cancer and heart disease the most personally relevant risks. Bowel cancer screening is actively promoted from age 50, and heart disease is a common worry at this age. The graphic bowel image (C) should therefore hit hardest. Heart surgery (A) and the generic cancer label (B) should also register strongly. The 13-cancer claim (F) is more abstract and may dilute its impact, though the surgery photo keeps it fairly strong. Diabetes (E) is serious but tends to feel less immediately frightening than cancer. D names no consequence, so it gives the least reason to change behaviour, and the stigmatising image may provoke reactance.\n\n{\"points\": {\"A\": 20, \"B\": 15, \"C\": 26, \"D\": 7, \"E\": 14, \"F\": 18}, \"most_ignored\": \"D\", \"why\": \"Label D states only that excess calories cause obesity, with no serious health outcome, so the unpleasant image of overweight people gives the viewer little reason to lower their desire to eat the bar and may provoke reactance.\"}",
+   "points": [
+    20.0,
+    15.0,
+    26.0,
+    7.0,
+    14.0,
+    18.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Young UK women are likely to respond most to vivid, personally relevant harms and to labels that don't feel like body-shaming. Bowel cancer (B) pairs a concrete, graphic image with a serious disease that feels close to home, so it should carry the most weight. Diabetic eye damage (C) is also vivid and tied to a common condition. The \"13 types of cancer\" label (F) is alarming but more abstract. Generic cancer (E) is less specific, and heart surgery (A) feels distant for an 18-34 audience. The photo of overweight people (D) shows no health consequence and may provoke reactance or body-image discomfort, so it should do least to reduce craving.\n\n{\"points\": {\"A\": 11, \"B\": 28, \"C\": 22, \"D\": 8, \"E\": 14, \"F\": 17}, \"most_ignored\": \"D\", \"why\": \"It shows no direct health harm and uses an image of overweight people that may trigger body-image defensiveness rather than reduce the urge to eat the bar.\"}",
+   "points": [
+    11.0,
+    28.0,
+    22.0,
+    8.0,
+    14.0,
+    17.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "Young UK women tend to respond most to specific, personally relevant health threats, and vivid imagery can strengthen that response. Cancer is the most feared outcome, and \"13 types of cancer\" is a concrete, alarming number. Bowel cancer is specific and gives a clear, graphic image of harm. Generic \"cancer\" with surgery imagery is less specific but still strong. Heart disease and diabetes feel less immediate for this age group, and the diabetic eye image is gruesome but tied to a condition that seems more distant. The photo of overweight people from behind is abstract and stigmatising, which may trigger reactance or simply be ignored.\n\n{\"points\": {\"A\": 26, \"B\": 13, \"C\": 20, \"D\": 10, \"E\": 18, \"F\": 13}, \"most_ignored\": \"D\", \"why\": \"The generic photo of overweight people from behind is stigmatising and abstract, so it likely triggers reactance or gets tuned out, leaving little reduction in desire to eat the bar.\"}",
+   "points": [
+    26.0,
+    13.0,
+    20.0,
+    10.0,
+    18.0,
+    13.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "Young UK women are likely to respond most to weight and body-image framing, since it's personally salient and triggers guilt about eating. A plain photo of overweight bodies (B) probably does the most work here. The graphic bowel cancer image with a specific causal chain (A) should also be strong, because disgust is a powerful deterrent. The \"13 types of cancer\" claim (E) is more concrete than the generic cancer labels, so it gets a moderate share. Heart disease (C) and generic cancer surgery (D) feel more distant for this age group. The bleeding diabetic eye (F) is the most remote from a chocolate bar and the least tied to self-image, so it is likely to be the most ignored.\n\n{\"points\": {\"A\": 22, \"B\": 26, \"C\": 12, \"D\": 14, \"E\": 16, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"For women aged 18-34, a bleeding diabetic eye feels remote from a chocolate bar and does little to trigger the weight-guilt or disgust that drives snacking decisions, so it is likely to be skimmed past.\"}",
+   "points": [
+    22.0,
+    26.0,
+    12.0,
+    14.0,
+    16.0,
+    10.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Young UK women are likely to respond most to the broadest and most personally relevant cancer threat. The \"13 types of cancer\" claim is specific and surprising, and the surgery photo adds fear. The bowel cancer label is the most graphic, which should boost emotional impact, but its single-cancer framing is narrower. Generic \"cancer\" and \"heart disease\" labels carry less specific salience for this group, and the Type 2 diabetes eye image is vivid but its link to chocolate feels more distant. The label showing overweight people from behind is stigmatising and names no health consequence, so it probably triggers avoidance or reactance and does little to cut desire for the bar.\n\n{\"points\": {\"A\": 13, \"B\": 24, \"C\": 12, \"D\": 9, \"E\": 17, \"F\": 25}, \"most_ignored\": \"D\", \"why\": \"It names no health harm and shows stigmatising images of overweight people, which likely provokes reactance or avoidance rather than reducing desire to eat the bar.\"}",
+   "points": [
+    13.0,
+    24.0,
+    12.0,
+    9.0,
+    17.0,
+    25.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Under-35 UK women tend to respond most to cancer framing and to vivid, specific imagery. Heart disease and bowel cancer feel more distant at this age, and the photo of overweight people from behind is stigmatising and gives no clear consequence, so it may provoke reactance rather than reduced craving. The \"13 types of cancer\" claim is broad and alarming, and the cancer surgery photo is vivid without being as gruesome as the cancerous bowel image, which may trigger avoidance in some viewers. I've weighted F and E highest, followed by D, then B, A, and C.\n\nFor the \"most_ignored\" field, I've taken it to mean the label with the least effect on desire.\n\n{\"points\": {\"A\": 12, \"B\": 14, \"C\": 10, \"D\": 18, \"E\": 22, \"F\": 24}, \"most_ignored\": \"C\", \"why\": \"The stigmatising image of overweight people with no specific health consequence is likely to be dismissed or to provoke reactance, while the broad, alarming cancer claim paired with vivid surgery imagery is most likely to cut this audience's desire to eat the bar.\"}",
+   "points": [
+    12.0,
+    14.0,
+    10.0,
+    18.0,
+    22.0,
+    24.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Several factors likely shape this audience's response:\n\n- **Specific, severe, relatable outcomes work best.** Bowel cancer has strong UK awareness (Bowel Cancer UK campaigns), and women in this age band are often screening-aware, so [A] should land hard.\n- **The \"13 types of cancer\" figure in [C]** is concrete and alarming, so it should outperform the vaguer generic cancer claim in [F], even with the same image.\n- **Heart disease with open-heart surgery [D]** is a vivid, high-stakes image for a 35\u201354 cohort, which is at an age where cardiovascular risk becomes salient.\n- **Diabetes [E]** is plausibly linked to sugar and chocolate, but the bleeding-eye image is less immediately tied to the bar, so it should be moderately effective.\n- **[B] is weakest.** It names no serious outcome, and a photo of overweight people invites stigma and defensive reactance, especially among women who may feel judged about their bodies. It is unlikely to reduce craving much.\n\nPoints are allocated accordingly.\n\n{\"points\": {\"A\": 22, \"B\": 10, \"C\": 20, \"D\": 18, \"E\": 15, \"F\": 15}, \"most_ignored\": \"B\", \"why\": \"A generic obesity claim paired with a photo of overweight people names no serious consequence and risks body-shame reactance, so it is least likely to reduce craving.\"}",
+   "points": [
+    22.0,
+    10.0,
+    20.0,
+    18.0,
+    15.0,
+    15.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Women aged 35-54 in the UK are likely to respond most to the cancer warnings. Bowel cancer is a salient concern in the UK, given national screening campaigns and high-profile advocacy, and the graphic image makes it concrete. The \"13 types of cancer\" claim is specific and surprising, which tends to read as credible and memorable. The generic \"cancer\" label is alarming but vaguer, so it scores lower. Heart disease and diabetes are serious but feel less immediately threatening to this group than cancer, and the bleeding eye is a strong image that may still provoke disgust-driven avoidance. The label with no health consequence beyond obesity is weakest, since it gives no vivid outcome and may trigger reactance.\n\nThese are judgement-based estimates, not measured effects. Graphic images can also cause some people to look away or feel defensive, so the ranking among the middle options is less certain than the top and bottom.\n\n{\"points\": {\"A\": 15, \"B\": 14, \"C\": 25, \"D\": 10, \"E\": 22, \"F\": 14}, \"most_ignored\": \"D\", \"why\": \"Stating only that excess calories cause obesity, with a photo of overweight people, gives no vivid or personally threatening outcome and may provoke reactance, so it is least likely to reduce desire to eat the bar.\"}",
+   "points": [
+    15.0,
+    14.0,
+    25.0,
+    10.0,
+    22.0,
+    14.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "Fear appeals work best when they are specific, vivid, and feel personally relevant. For UK women aged 35-54, bowel cancer is a familiar and salient risk, and a graphic image of a cancerous bowel tied directly to the bar is the most concrete threat, so A should lead. C's \"13 types of cancer\" is a striking, broad number that may raise perceived risk. B is less specific, and E and D use vivid images of their own but link to conditions that feel more remote for this group. F contains no health consequence and only a stigmatising image, which may trigger reactance or avoidance rather than reduced craving, so it should do least.\n\n{\"points\": {\"A\": 28, \"B\": 16, \"C\": 22, \"D\": 14, \"E\": 12, \"F\": 8}, \"most_ignored\": \"F\", \"why\": \"F names no health consequence and relies on a stigmatising image of overweight people, which is unlikely to reduce craving for the bar and may provoke reactance.\"}",
+   "points": [
+    28.0,
+    16.0,
+    22.0,
+    14.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Warnings that name a specific, serious disease and show a graphic image of it should move this group most. Bowel cancer (A) is the strongest fit: it's a prominent UK health concern for women in this age band, who are close to the bowel screening age range, and the graphic image is vivid. The \"13 types of cancer\" message (F) adds a striking, alarming number. Heart disease (D) and diabetes (B) also carry strong, relatable consequences. Generic cancer (E) is somewhat less concrete. The label that only says \"obesity\" with a photo of overweight people (C) gives no personal consequence and may provoke stigma-driven reactance, so it should do least.\n\n{\"points\": {\"A\": 24, \"B\": 16, \"C\": 5, \"D\": 18, \"E\": 15, \"F\": 22}, \"most_ignored\": \"C\", \"why\": \"It names no disease consequence and its photo of overweight people invites self-defensive stigma reactance rather than a change in craving.\"}",
+   "points": [
+    24.0,
+    16.0,
+    5.0,
+    18.0,
+    15.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Warning labels that name a specific, serious outcome and pair it with a vivid image tend to be most effective for this group. Graphic bowel cancer imagery (F) is probably the strongest single appeal, and the specific \"13 types of cancer\" claim (B) is concrete and credible. Heart disease (D) and the diabetic eye (C) are also vivid and relevant to women in their 35\u201354 range. The generic \"cancer\" label with surgery (A) is less specific. The label that only states obesity with a photo of overweight people from behind (E) names no health harm, risks stigma and reactance, and is least likely to reduce craving.\n\n{\"points\": {\"A\": 13, \"B\": 22, \"C\": 16, \"D\": 17, \"E\": 7, \"F\": 25}, \"most_ignored\": \"E\", \"why\": \"It names no concrete health harm and its image of overweight people from behind invites stigma or reactance rather than a change in craving.\"}",
+   "points": [
+    13.0,
+    22.0,
+    16.0,
+    17.0,
+    7.0,
+    25.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "This audience is women aged 55+ in the UK, so messages tied to conditions that are salient at this age and to familiar national screening programmes should land hardest. Graphic imagery adds impact. Bowel cancer (D) combines a directly relevant, screened-for cancer with a graphic image of a diseased organ, so it should most reduce desire to eat. The 13-cancers claim (B) and generic cancer (C) are alarming, though the cancer-surgery photo is less visceral and less personal than a diseased bowel. Heart disease (A) is a major concern for women in this age group, but the open-heart image is less directly tied to what they eat. The bleeding eye (E) is vivid, but diabetes is more abstract as a consequence of one chocolate bar. F gives only a generic statement and a non-specific image of overweight people, so it should have the least effect.\n\n{\"points\": {\"A\": 15, \"B\": 18, \"C\": 17, \"D\": 25, \"E\": 15, \"F\": 10}, \"most_ignored\": \"F\", \"why\": \"F names no disease and shows only a generic image of overweight people, so it gives this audience no specific, personally relevant consequence to weigh against the bar.\"}",
+   "points": [
+    15.0,
+    18.0,
+    17.0,
+    25.0,
+    15.0,
+    10.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "Older UK women are likely to respond most to specific, personally relevant outcomes. Bowel cancer is familiar from UK screening campaigns, and heart disease is a leading cause of death for women in this age group, so B and F should carry the most weight. D is a credible, concrete fact (obesity is linked to 13 cancers), so it should work well. A and E are specific enough to register, but less personally salient. C names no serious consequence and shows body-focused imagery, which may provoke reactance or stigma-based avoidance rather than changing how much the bar appeals.\n\n{\"points\": {\"A\": 13, \"B\": 24, \"C\": 10, \"D\": 17, \"E\": 14, \"F\": 22}, \"most_ignored\": \"C\", \"why\": \"C names no serious health consequence and pairs a body-shaming image with a generic warning, so it is the least likely to reduce desire and may provoke reactance.\"}",
+   "points": [
+    13.0,
+    24.0,
+    10.0,
+    17.0,
+    14.0,
+    22.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Women aged 55+ in the UK are likely to be most moved by cancer, especially bowel cancer, which is a familiar concern for this age group through the NHS bowel screening programme. A graphic image of a cancerous bowel is the most direct and vivid threat, so it should cut desire most. Cancer messages generally land well with this group, and \"13 types of cancer\" adds a striking, specific number that may be a little more salient than the generic version. Heart disease is also a major worry at this age, though the open-heart image is less personally immediate. Type 2 diabetes is a real concern but the bleeding eye is less familiar as a threat. The obesity-only label with a photo of overweight people from behind gives no health consequence and may provoke reactance or stigma, so it should have the least effect.\n\n{\"points\": {\"A\": 15, \"B\": 18, \"C\": 12, \"D\": 17, \"E\": 30, \"F\": 8}, \"most_ignored\": \"F\", \"why\": \"The obesity-only label with a photo of overweight people gives no concrete health consequence and may provoke defensiveness, while the graphic bowel cancer image speaks directly to a salient fear for women over 55.\"}",
+   "points": [
+    15.0,
+    18.0,
+    12.0,
+    17.0,
+    30.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "Women aged 55+ in the UK are highly familiar with heart disease and bowel cancer as risks, since both feature prominently in NHS messaging and screening invitations at this age. Heart disease (A) and a graphic bowel cancer image (F) are likely to be the most personally salient and emotionally forceful. Cancer warnings (B, E) are also strong, though the \"13 types\" figure may feel vague. The diabetes eye image (D) is vivid but less tied to this group's immediate concerns. Message C names no disease and shows stigmatising imagery of overweight people, which is likely to provoke defensiveness and deflect the message onto body image rather than the chocolate.\n\n```json\n{\"points\": {\"A\": 22, \"B\": 15, \"C\": 7, \"D\": 16, \"E\": 16, \"F\": 24}, \"most_ignored\": \"C\", \"why\": \"Message C names no health consequence and its stigmatising photo of overweight people invites defensiveness rather than reducing the urge to eat the bar.\"}\n```",
+   "points": [
+    22.0,
+    15.0,
+    7.0,
+    16.0,
+    16.0,
+    24.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Older UK women are often health-conscious and already aware of diabetes, heart disease and bowel cancer, and the 55+ bowel cancer screening programme makes that risk feel personal. Graphic imagery tends to work better on this group than generic text, and the explicit disease consequence matters more than the bare \"obesity\" claim. Message F pairs a concrete, relevant cancer with the most graphic image, so it should weigh most. A (bleeding diabetic eye) and C (open-heart surgery) follow, both threatening conditions with high salience for this age group. E has a striking statistic, but it shares D's relatively mild surgery image. B has no disease outcome and only a non-graphic photo, so it should barely shift desire to eat the bar. Because older women may also feel some reactance to shaming imagery, I've kept the spread moderate rather than concentrating points on one label.\n\n{\"points\": {\"A\": 22, \"B\": 8, \"C\": 18, \"D\": 12, \"E\": 14, \"F\": 26}, \"most_ignored\": \"B\", \"why\": \"Message B states only that excess calories cause obesity with a non-graphic photo, offering no personally salient disease consequence for women over 55.\"}",
+   "points": [
+    22.0,
+    8.0,
+    18.0,
+    12.0,
+    14.0,
+    26.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Those without a university degree in the UK are likely to respond most to concrete, personally relevant health threats paired with graphic imagery. Bowel cancer (C) combines a familiar, frightening disease with a vivid image of diseased tissue, so it should reduce the urge to eat most. Heart surgery (A) is also familiar and vivid, though less directly tied to diet in people's minds. Diabetes (B) has a strong graphic image, but the eye is less immediately recognisable as a consequence of eating. The \"13 types of cancer\" claim (E) is specific and alarming but more abstract, so it likely lands a little below the others. Generic \"cancer\" (D) is vaguer and less credible. The obesity-only label with photos of overweight people from behind (F) gives no consequence, and it may provoke defensiveness or simply be ignored.\n\n{\"points\": {\"A\": 18, \"B\": 17, \"C\": 30, \"D\": 12, \"E\": 15, \"F\": 8}, \"most_ignored\": \"F\", \"why\": \"It names no health consequence and shows overweight people from behind, which is likely to be skipped or to provoke defensiveness rather than reduce the urge to eat the bar.\"}",
+   "points": [
+    18.0,
+    17.0,
+    30.0,
+    12.0,
+    15.0,
+    8.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "The audience has no university degree, so abstract, multi-step causal chains are likely to register less than concrete, familiar threats. Vivid, specific disease outcomes with graphic imagery should do the most work. Label D pairs a familiar cancer with a graphic image. C's \"13 types of cancer\" adds a striking, fear-raising number. E and A name common, recognisable conditions with vivid imagery. F is the same as C but vaguer. B names no disease and shows only stigmatising imagery, so it should do the least.\n\n{\"points\": {\"A\": 15, \"B\": 8, \"C\": 20, \"D\": 26, \"E\": 18, \"F\": 13}, \"most_ignored\": \"B\", \"why\": \"Label B names no disease consequence and relies on stigmatising imagery of overweight people, so it gives this audience no concrete health threat to react to.\"}",
+   "points": [
+    15.0,
+    8.0,
+    20.0,
+    26.0,
+    18.0,
+    13.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "Warning labels that name a specific, serious outcome tied to the product tend to work best with this audience. The \"13 types of cancer\" claim is concrete and sounds authoritative, so it likely gives the strongest push. The graphic bowel image (E) is vivid and feels personally relevant, and open-heart surgery (D) carries strong fear appeal. The generic \"cancer\" and diabetic-eye labels (C, F) are somewhat less specific. The photo of overweight people (A) is the weakest: it relies on body-image cues, which can trigger defensiveness or stigma reactance rather than a change in eating.\n\n{\"points\": {\"A\": 11, \"B\": 24, \"C\": 15, \"D\": 16, \"E\": 20, \"F\": 14}, \"most_ignored\": \"A\", \"why\": \"The overweight-bodies photo relies on vague, stigmatising imagery that is easy to dismiss or resent, whereas the specific, fear-inducing health outcomes in the other labels are more likely to register and reduce desire.\"}",
+   "points": [
+    11.0,
+    24.0,
+    15.0,
+    16.0,
+    20.0,
+    14.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "The graphic, concrete warnings should work best for this audience. Bowel cancer with a graphic image of a cancerous bowel (E) is likely the most aversive and most personally relevant, and a bleeding diabetic eye (A) is also vivid and tied to a common, understandable outcome. Heart surgery (B) is strong but slightly less visceral. The two generic \"cancer\" labels (C, F) are vaguer, though C's \"13 types\" adds some specificity. The label with three overweight people from behind (D) names no disease or consequence and may provoke reactance or self-consciousness rather than aversion, so it should have the least effect.\n\n{\"points\": {\"A\": 22, \"B\": 16, \"C\": 12, \"D\": 8, \"E\": 30, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"The generic obesity statement paired with a photo of overweight people names no concrete harm and may trigger reactance or self-consciousness, so it is least likely to reduce desire, while the graphic, specific disease images (especially bowel cancer) are most aversive.\"}",
+   "points": [
+    22.0,
+    16.0,
+    12.0,
+    8.0,
+    30.0,
+    12.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Warning labels that pair a concrete, vivid health consequence with a graphic image tend to work best with this audience. Message F combines a specific, personally relevant cancer (bowel) with a graphic photo, so it should have the strongest effect. C adds a striking statistic (\"13 types of cancer\") to a familiar cancer surgery image. E's bleeding eye is disgusting and fear-inducing, though diabetes feels less immediate than cancer. B's open-heart surgery is dramatic but the link to chocolate is more distant. A is the same cancer message as C with a vaguer, less alarming claim. D only states the obesity link and shows overweight people from behind, which is likely to feel stigmatising and abstract, and may trigger reactance rather than reduced desire.\n\n{\"points\": {\"A\": 13, \"B\": 14, \"C\": 20, \"D\": 10, \"E\": 17, \"F\": 26}, \"most_ignored\": \"D\", \"why\": \"It shows only a generic obesity claim with a stigmatising photo of overweight people, which is abstract and likely to provoke reactance rather than reduce the urge to eat the bar.\"}",
+   "points": [
+    13.0,
+    14.0,
+    20.0,
+    10.0,
+    17.0,
+    26.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Warning labels usually have small effects on desire to eat, so the differences here are modest. University-educated UK adults are likely to respond to specific, credible claims more than to graphic shock, and to discount generic or emotionally manipulative framing.\n\n- **B** pairs a specific, credible-sounding figure (13 cancers) with a vivid surgery image. It is the most likely to register as a concrete, relevant risk.\n- **A** uses the most disgust-provoking image (a cancerous bowel) and a causal chain that feels relevant to diet. Educated readers may find the single-cancer leap simplistic, which limits its effect.\n- **F** is similar to B but vaguer (\"cancer\" rather than \"13 types\"), so it should be somewhat weaker.\n- **E** and **C** rely on familiar, serious outcomes with strong imagery, but they name a single condition each, so they are less salient.\n- **D** has no consequence statement or disturbing image, so it adds little beyond \"obesity is bad.\"\n\ncheck: 28+22+15+14+13+8 = 100.\n\n{\"points\": {\"A\": 22, \"B\": 28, \"C\": 13, \"D\": 8, \"E\": 14, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"Label D states only that excess calories cause obesity and shows an image with no concrete health consequence, so it is the easiest to dismiss for an educated UK audience.\"}",
+   "points": [
+    22.0,
+    28.0,
+    13.0,
+    8.0,
+    14.0,
+    15.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "Educated UK readers are likely to be skeptical of crude fear appeals but responsive to specific, credible causal claims. The \"13 types of cancer\" claim is concrete and surprising, and it matches public health messaging they may have seen, so it should carry the most weight (C). The bowel cancer label (A) is specific and personally relevant to a food product, so it ranks high. The generic \"cancer\" label (F) uses the same image as C but is vaguer, so it scores lower. The diabetes and heart disease labels (B, E) are credible but less vivid to this group. The label that only states \"Excess calories cause obesity\" with a photo of overweight people (D) adds little new information and may provoke self-image defensiveness, so it should barely shift desire.\n\n{\"points\": {\"A\": 22, \"B\": 14, \"C\": 26, \"D\": 6, \"E\": 15, \"F\": 17}, \"most_ignored\": \"D\", \"why\": \"It states an already well-known fact and its photo of overweight people invites defensive self-image reactions rather than a concrete health consequence, so it adds little to reduce desire for the bar.\"}",
+   "points": [
+    22.0,
+    14.0,
+    26.0,
+    6.0,
+    15.0,
+    17.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "Among UK graduates, the strongest deterrent is likely E, since \"13 types of cancer\" is a specific, surprising, and credible claim, and it is paired with a serious image. A is next: it names a concrete cancer and shows a graphic image, though the chain of causes may read as a stretch to some. F's bleeding eye is vivid, but diabetes is a less immediate threat to this audience than cancer. C and B use the same fear-based approach with less specificity. D gives a general fact and an image of people that doesn't evoke a consequence, so it should do little to reduce desire. Some educated readers may also resist heavy-handed fear appeals, which compresses the gap between the top and middle options.\n\n{\"points\": {\"A\": 22, \"B\": 12, \"C\": 14, \"D\": 8, \"E\": 26, \"F\": 18}, \"most_ignored\": \"D\", \"why\": \"D states only that excess calories cause obesity and shows a neutral image of people, with no vivid or specific health consequence to make the chocolate bar feel risky.\"}",
+   "points": [
+    22.0,
+    12.0,
+    14.0,
+    8.0,
+    26.0,
+    18.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "University-educated UK adults are likely to be sceptical of generic health messages and to discount weak causal chains. The bare obesity message (C) gives no consequence and its photo of overweight people may provoke reactance or stigma rather than a change in craving. The cancer-based messages should work best. The \"13 types of cancer\" claim (A) is specific and credible to this audience, and the bowel cancer graphic (F) is concrete, vivid, and tied to a clear mechanism. Heart disease (D) and diabetes (B) are serious but feel slightly more remote from a single chocolate bar, and the generic \"cancer\" version (E) is less specific than A or F.\n\n{\"points\": {\"A\": 22, \"B\": 14, \"C\": 7, \"D\": 13, \"E\": 16, \"F\": 28}, \"most_ignored\": \"C\", \"why\": \"The generic obesity message with a photo of overweight people gives no concrete consequence and may trigger reactance or stigma, whereas the specific, graphic cancer messages give a vivid, credible reason to hold back.\"}",
+   "points": [
+    22.0,
+    14.0,
+    7.0,
+    13.0,
+    16.0,
+    28.0
+   ]
+  },
+  {
+   "persona": null,
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Warning labels that name a specific, serious, personally relevant outcome and pair it with a vivid image should reduce desire most. This audience is well-educated, so the causal chain \"excess calories \u2192 obesity \u2192 disease\" will likely register, and they may find the cancer statistic in C credible because it matches public-health messaging. Bowel cancer (F) is a salient UK campaign topic and its graphic image is the most concrete, so it should rank highest. Heart disease (E) is also vivid and feels close to home. C's \"13 types of cancer\" is broad and alarming, but it may read as slightly alarmist to a sceptical graduate. A and D are reasonably strong, but A's diabetic eye is less universally feared and D's generic surgery photo is less specific. B names no disease at all, and showing overweight people may trigger defensiveness or stigma reactance rather than reducing desire. Effects overall will be modest, so the spread should be moderate.\n\n{\"points\": {\"A\": 14, \"B\": 12, \"C\": 17, \"D\": 14, \"E\": 18, \"F\": 25}, \"most_ignored\": \"B\", \"why\": \"B names no disease consequence and shows overweight people, which is abstract and may provoke defensiveness rather than reducing the desire to eat the bar.\"}",
+   "points": [
+    14.0,
+    12.0,
+    17.0,
+    14.0,
+    18.0,
+    25.0
+   ]
+  }
+ ]
+}

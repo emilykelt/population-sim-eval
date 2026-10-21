@@ -1,0 +1,1162 @@
+{
+ "score": {
+  "mean_spearman": 0.3761470888307831,
+  "top1_accuracy": 0.5,
+  "gap_preservation": 0.1208468741653489,
+  "n_segments_scored": 8,
+  "n_valid_answers": 234,
+  "per_segment": {
+   "age_band=18-34|country=UK|gender=man": {
+    "spearman": 0.2571428571428572,
+    "top1_hit": 1.0,
+    "pred": [
+     28.1,
+     14.0,
+     18.0,
+     17.0,
+     16.6,
+     6.3
+    ],
+    "truth": [
+     4.52,
+     3.863,
+     4.029,
+     3.71,
+     4.25,
+     4.197
+    ]
+   },
+   "age_band=35-54|country=UK|gender=man": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 1.0,
+    "pred": [
+     24.6,
+     15.4,
+     14.5,
+     16.2,
+     17.2,
+     12.0
+    ],
+    "truth": [
+     4.745,
+     4.442,
+     4.353,
+     4.527,
+     4.224,
+     4.242
+    ]
+   },
+   "age_band=55+|country=UK|gender=man": {
+    "spearman": -0.028571428571428574,
+    "top1_hit": 0.0,
+    "pred": [
+     24.5,
+     11.6,
+     11.1,
+     30.0,
+     14.1,
+     8.7
+    ],
+    "truth": [
+     4.76,
+     4.737,
+     4.675,
+     4.895,
+     4.648,
+     5.0
+    ]
+   },
+   "age_band=18-34|country=UK|gender=woman": {
+    "spearman": 0.3142857142857143,
+    "top1_hit": 0.0,
+    "pred": [
+     20.2,
+     13.0,
+     14.1,
+     12.9,
+     17.5,
+     22.3
+    ],
+    "truth": [
+     4.972,
+     4.583,
+     4.538,
+     4.779,
+     4.781,
+     4.596
+    ]
+   },
+   "age_band=35-54|country=UK|gender=woman": {
+    "spearman": 0.4285714285714286,
+    "top1_hit": 0.0,
+    "pred": [
+     18.5,
+     15.4,
+     18.3,
+     15.7,
+     14.1,
+     18.0
+    ],
+    "truth": [
+     4.874,
+     4.779,
+     5.034,
+     5.088,
+     4.824,
+     5.0
+    ]
+   },
+   "age_band=55+|country=UK|gender=woman": {
+    "spearman": 0.6377481392176932,
+    "top1_hit": 1.0,
+    "pred": [
+     31.7,
+     14.5,
+     17.2,
+     15.7,
+     14.0,
+     6.9
+    ],
+    "truth": [
+     5.562,
+     5.167,
+     5.258,
+     4.992,
+     5.167,
+     5.008
+    ]
+   },
+   "country=UK|education=no university degree": {
+    "spearman": 0.7714285714285715,
+    "top1_hit": 0.0,
+    "pred": [
+     23.7,
+     12.8,
+     10.8,
+     26.8,
+     9.5,
+     16.5
+    ],
+    "truth": [
+     4.896,
+     4.594,
+     4.692,
+     4.822,
+     4.602,
+     4.715
+    ]
+   },
+   "country=UK|education=university degree": {
+    "spearman": 0.2,
+    "top1_hit": 1.0,
+    "pred": [
+     26.1,
+     15.1,
+     14.9,
+     15.0,
+     11.9,
+     17.0
+    ],
+    "truth": [
+     4.964,
+     4.64,
+     4.66,
+     4.643,
+     4.719,
+     4.694
+    ]
+   }
+  },
+  "model": "claude-haiku-5-5",
+  "method": "grounded_single",
+  "cost_usd": 0.0147,
+  "seconds": 23.2,
+  "within_sd": 5.5657959469765546,
+  "n_jobs": 40
+ },
+ "results": [
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Honestly, the bowel and eye ones are just gross, and I'd probably look away and think about my tea. The cancer surgery photos feel like something from a telly ad, and I've seen enough of those to tune out. The \"three overweight people from behind\" one is the worst: it's basically saying I'm one of them, and I'd feel a bit got at, but a chocolate bar at 4pm is still a chocolate bar. Nothing on there tells me what to eat instead or what it costs, so none of them would really change what I grab.\n\n{\"points\": {\"A\": 10, \"B\": 8, \"C\": 12, \"D\": 8, \"E\": 15, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"It just tells me I'm fat from behind a photo without giving me any alternative I could afford, so it's the one I'd roll my eyes at and carry on.\"}",
+   "points": [
+    18.181818181818183,
+    14.545454545454545,
+    21.818181818181817,
+    14.545454545454545,
+    27.272727272727273,
+    3.6363636363636362
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    5,
+    1
+   ],
+   "raw": "Honestly, these all look the same to me: a scary picture and a sermon about calories. The bleeding eye and the bowel are gross, and I'd probably look away and think \"yeah, fine,\" but I'd still want the Dairy Milk after a long day on the train. The \"obesity\" ones are the worst, because three fat people from behind is just a dig at people like me, and I'd switch off straight away. Cancer surgery photos I've seen a hundred times on the telly, so they don't land. Heart surgery at least feels a bit closer to home given my dad, but I doubt it would change a thing about a chocolate bar I'm eating at ten at night.\n\n{\"points\": {\"A\": 15, \"B\": 20, \"C\": 10, \"D\": 20, \"E\": 5, \"F\": 10}, \"most_ignored\": \"E\", \"why\": \"A photo of three overweight people from behind feels like a judgement on me personally, so I'd tune it out instantly rather than think about changing what I eat.\"}",
+   "points": [
+    18.75,
+    25.0,
+    12.5,
+    25.0,
+    6.25,
+    12.5
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    1,
+    2,
+    0,
+    4,
+    5
+   ],
+   "raw": "Gut reaction: these all look like the same nagging government leaflet to me, and I'd mostly tune out the text and the photo. The eye, the surgery and the bowel picture are a bit grim, but I've seen plenty of that sort of thing and it doesn't stop me eating a Dairy Milk when I'm knackered on the train home. The one with just \"overweight people from behind\" feels like it's having a dig at people like me, so I'd ignore it or resent it. Nothing here would stop me buying a bar that's sat by the till at 6pm when I'm skint and tired.\n\n{\"points\": {\"A\": 8, \"B\": 14, \"C\": 16, \"D\": 22, \"E\": 12, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"It just says 'overweight people from behind' with no consequence, so it reads as judgement rather than something that would change a choice I'm making on a tired evening.\"}",
+   "points": [
+    10.666666666666666,
+    18.666666666666668,
+    21.333333333333332,
+    29.333333333333332,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "Honestly, a chocolate bar with a warning on it is not going to stop me eating it. After a run and a hour and forty on the train, I want the bar. The graphic pictures would make me wince for a second, and the bowel one would stick the most, but I'd still probably buy it if it was on offer.\n\n{\"points\": {\"A\": 12, \"B\": 16, \"C\": 22, \"D\": 12, \"E\": 10, \"F\": 28}, \"most_ignored\": \"E\", \"why\": \"It's vague and just makes you feel judged, with no consequence or picture that would make me think twice, like every other five-a-day poster.\"}",
+   "points": [
+    12.0,
+    16.0,
+    22.0,
+    12.0,
+    10.0,
+    28.0
+   ]
+  },
+  {
+   "persona": "7f0edfc43f",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "18-34"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    0,
+    5,
+    4
+   ],
+   "raw": "Gut reaction first: these all look like the same scary chocolate wrapper to me, and honestly I'd skip past most of them. The surgery and eye photos are grim but they feel like they're for someone else, and \"causes cancer\" on a bar I'd eat after a 7pm run doesn't land with me any more than the Mum WhatsApps do. The plain obesity one with the back-of-heads photo is the one that would actually annoy me, because it's the one that feels like it's judging my body, and I'd probably just eat the bar out of spite. Bowel cancer is at least specific enough that I might think about it for a second, but a second's not a month.\n\n{\"points\": {\"A\": 8, \"B\": 10, \"C\": 12, \"D\": 20, \"E\": 5, \"F\": 10}, \"most_ignored\": \"E\", \"why\": \"The photo of three people from behind reads as a dig at people's bodies rather than a health warning, so I'd just ignore it or feel irritated, and none of these change what I'd grab at the Co-op, which is a reduced chicken or a bag of something cheap.\"}",
+   "points": [
+    12.307692307692308,
+    15.384615384615385,
+    18.46153846153846,
+    30.76923076923077,
+    7.6923076923076925,
+    15.384615384615385
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "raw": "Honestly, most of these would just make me roll my eyes. The cancer surgery ones feel like they're trying to scare me, and the \"13 types\" figure sounds made up. The three big blokes from behind is the kind of thing that makes me feel judged, and I'd scroll past it. The diabetes eye and the heart one are the only ones that make me think of people I know, and I'd probably remember those for a second at the Dairy Milk stand, though I'd still probably have it on a Friday.\n\n{\"points\": {\"A\": 12, \"B\": 16, \"C\": 18, \"D\": 24, \"E\": 28, \"F\": 2}, \"most_ignored\": \"F\", \"why\": \"It's a vague photo that feels like a dig at people's bodies, with no consequence I can picture, so it's just background noise to me.\"}",
+   "points": [
+    12.0,
+    16.0,
+    18.0,
+    24.0,
+    28.0,
+    2.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "raw": "Gut reaction: honestly, most of these are the same warning with a scarier photo bolted on, and I'd scroll past the lot in a Lidl queue with a kid asking for sweets. The gory ones (surgery, bleeding eye, cancerous bowel) make me wince for a second, but I've seen enough of that stuff through my mum's work to know it's a shock that wears off, and it doesn't change whether I'm knackered at four o'clock and want something sweet. The bar's a few quid, it's the thing I can actually afford to make myself feel better after a shift, so the picture of a bad outcome in twenty years doesn't weigh much against that.\n\nIf I'm being straight, the plainest one, A, is the only one I'd even read properly, because it doesn't feel like it's trying to frighten me. The bowel one is the most graphic and I'd probably look away and carry on. The \"13 types of cancer\" one reads like someone padding it out, and I'd roll my eyes.\n\n{\"points\": {\"A\": 30, \"B\": 10, \"C\": 10, \"D\": 15, \"E\": 5, \"F\": 10}, \"most_ignored\": \"E\", \"why\": \"It reads like padding and the scary number doesn't connect to anything I'd actually do at the till when I'm tired and the bar is cheap.\"}",
+   "points": [
+    37.5,
+    12.5,
+    12.5,
+    18.75,
+    6.25,
+    12.5
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    5,
+    2
+   ],
+   "raw": "Gut reaction: these are all the same scary-label formula, and honestly they'd wash over me. A surgery photo or a graphic bowel picture is the sort of thing I'd glance at and think \"yeah, obviously\", then want the chocolate anyway, especially after a double shift when I've not eaten properly. The ones that just show a bloke's back or three people from behind feel like the campaign talking down to me, which makes me switch off faster. The 13 cancers one is just a number that means nothing to me on a Tuesday night.\n\nPoints: I'd put a bit on the cancer-specific ones because the bowel picture is at least a thing I'd flinch at, but the whole lot is weak against a bar that costs 50p from the garage when I'm knackered.\n\n{\"points\": {\"A\": 12, \"B\": 10, \"C\": 22, \"D\": 14, \"E\": 4, \"F\": 8}, \"most_ignored\": \"E\", \"why\": \"Showing three anonymous overweight backs feels like being lectured by someone who has never had to stretch a tenner, so I'd tune it out fastest.\"}",
+   "points": [
+    17.142857142857142,
+    14.285714285714286,
+    31.428571428571427,
+    20.0,
+    5.714285714285714,
+    11.428571428571429
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    2,
+    1,
+    4,
+    3,
+    5,
+    0
+   ],
+   "raw": "Honestly, most of these would wash over me. The \"excess calories cause obesity\" bit is just what every label says, and I'd skim past it. The surgery photos are grim, and I'd probably look away and think \"yeah, that's horrible,\" but I'd still be standing in the Lidl queue wanting a chocolate bar after a ten-hour shift. The one with the three fat people from behind is the one that'd get on my nerves, because it's basically saying \"look at them\" and that's a bit cheap, though I don't think it would stop me reaching for a Dairy Milk either. The ones about cancer and diabetes I'd take as scare tactics. I've got a mum who knows her stuff and a GP who's been good to me, so I'd just assume it's the same rubbish I've heard before.\n\n{\"points\": {\"A\": 12, \"B\": 10, \"C\": 8, \"D\": 9, \"E\": 6, \"F\": 15}, \"most_ignored\": \"E\", \"why\": \"It just states the obvious and the photo of people from behind feels like a dig at them rather than information I could use, so it wouldn't change whether I fancy the bar when I'm knackered.\"}",
+   "points": [
+    20.0,
+    16.666666666666668,
+    13.333333333333334,
+    15.0,
+    10.0,
+    25.0
+   ]
+  },
+  {
+   "persona": "9c044bd8c2",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "35-54"
+   },
+   "order": [
+    3,
+    1,
+    0,
+    5,
+    4,
+    2
+   ],
+   "raw": "Honestly, I'd probably see the wrapper, think \"it's a Dairy Milk, not a fag packet,\" and still fancy it after a twelve-hour shift on the pallets. The gory pictures would make me look away for a second, and the cancer ones are a bit vague to me. The bowel one, with the mention of bowel cancer, might stick a bit more, because my mum would have had something to say about that one.\n\n{\"points\": {\"A\": 15, \"B\": 12, \"C\": 30, \"D\": 5, \"E\": 15, \"F\": 23}, \"most_ignored\": \"D\", \"why\": \"Three overweight backs on a chocolate bar feels like being judged, so I'd tune it out, and I'd not change anything over that.\"}",
+   "points": [
+    15.0,
+    12.0,
+    30.0,
+    5.0,
+    15.0,
+    23.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    2,
+    1,
+    5,
+    3,
+    0,
+    4
+   ],
+   "raw": "My gut reaction is that the cancer surgery pictures just make me want to look away, and the back-of-head photo of overweight people reads as a dig. The diabetes eye would hit closest, since I've had the diagnosis six years and I know what it can do. The \"13 types\" line makes me think someone's padded the number.\n\n{\"points\": {\"A\": 12, \"B\": 15, \"C\": 10, \"D\": 30, \"E\": 18, \"F\": 15}, \"most_ignored\": \"C\", \"why\": \"A photo of strangers' overweight backs feels like being lectured, and I've already cut the sugar, so I'd just switch off.\"}",
+   "points": [
+    12.0,
+    15.0,
+    10.0,
+    30.0,
+    18.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "raw": "Gut reaction: these all read like the posters my wife tuts at, and I'd probably skip past most of them without really taking anything in. The photos are the bit that would stop me for a second, and the one about my eyes or a bowel would make me think a bit more, given the diabetes. But I've got a diagnosis already, so a warning about it doesn't tell me much I don't know, and I'd still have the biscuit with my tea.\n\nGoing through them quickly: the plain \"obesity\" one with the three backs is just a dig at people, I'd ignore it. The heart one hits closest to home with the wife's cooking and Sunday roast, but a Dairy Milk on a Thursday isn't what's going to change that. The eye photo might get a flicker, but I've been told all this by the GP already. The 13 cancers one is too much of a list to take seriously.\n\n{\"points\": {\"A\": 10, \"B\": 18, \"C\": 22, \"D\": 8, \"E\": 14, \"F\": 3}, \"most_ignored\": \"F\", \"why\": \"It's a judgement about people's bodies with no consequence attached, so it slides straight past me like the five-a-day posters.\"}",
+   "points": [
+    13.333333333333334,
+    24.0,
+    29.333333333333332,
+    10.666666666666666,
+    18.666666666666668,
+    4.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    3,
+    2,
+    4,
+    0,
+    5
+   ],
+   "raw": "Honestly, most of these would wash over me. The cancer and heart ones feel like scare tactics, and the gory photos make me think \"stop trying to frighten me\" rather than \"I'll have less of that.\" The obesity-only one with the three people from behind is the sort of thing that makes me feel judged, so I'd just look away. Bowel cancer and diabetes hit closest to home since I'm already on tablets for the sugar, so those might nudge me a bit more, but I'd still have my biscuit with the tea.\n\n{\"points\": {\"A\": 5, \"B\": 20, \"C\": 5, \"D\": 5, \"E\": 25, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"It's a vague, judgemental image of other people that tells me nothing new and makes me feel lectured, so I'd scroll past it.\"}",
+   "points": [
+    7.6923076923076925,
+    30.76923076923077,
+    7.6923076923076925,
+    7.6923076923076925,
+    38.46153846153846,
+    7.6923076923076925
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    2
+   ],
+   "raw": "Gut reaction first: these all feel like the same lecture with a gorier picture attached, and I'd probably barely look past the photo. A is the vaguest and just says \"three overweight people\", which is insulting to look at and tells me nothing I don't already know. The eye and the surgery pictures are grim, but I'd treat them as the sort of thing that's made to frighten people and then I'd get on with my biscuit. The bowel one is the most gruesome, and oddly the one I'd most want to look away from, though looking away isn't the same as changing what I eat.\n\nHonestly, the diabetes one would bite most because I've got it, and a bleeding eye linked to the thing I'm already managing hits closer than cancer does. Still, I'd only give it a modest share. Nothing here tells me anything useful about how much sugar is in a bar, so none of them would really change my Thursday.\n\n{\"points\": {\"A\": 12, \"B\": 30, \"C\": 14, \"D\": 10, \"E\": 22, \"F\": 12}, \"most_ignored\": \"D\", \"why\": \"Cancer surgery photos and a general cancer claim feel remote and generic to me, so I'd scroll past them, whereas the diabetes link is a personal reminder but still just a warning rather than information I can act on.\"}",
+   "points": [
+    12.0,
+    30.0,
+    14.0,
+    10.0,
+    22.0,
+    12.0
+   ]
+  },
+  {
+   "persona": "1df970e0ed",
+   "cell": {
+    "country": "UK",
+    "gender": "man",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    3,
+    2
+   ],
+   "raw": "Honestly, the heart surgery and cancer surgery pictures would make me look away and think it's all a bit dramatic. The diabetic eye one hits closer, because I've got the diabetes myself and I know the tablets are doing their job, but I'd still think \"I know, mate\" and reach for the biscuit anyway. The three blokes from behind is just a snap of people I don't know, so I'd scroll straight past it.\n\n{\"points\": {\"A\": 15, \"B\": 12, \"C\": 20, \"D\": 10, \"E\": 30, \"F\": 13}, \"most_ignored\": \"D\", \"why\": \"A generic photo of three overweight people from behind with no consequence attached is just a judgement I'd scroll past, and it reads as lecturing.\"}",
+   "points": [
+    15.0,
+    12.0,
+    20.0,
+    10.0,
+    30.0,
+    13.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "raw": "Honestly, my first thought is that a chocolate bar warning is going to get eye-rolled, especially on a late shift when I've got nothing else in. The graphic ones would catch my eye for a second, and my mum's nursing background means heart surgery or a diseased bowel feels more real than something vague. I'd still probably have the bar if I fancied it, though.\n\n{\"points\": {\"A\": 20, \"B\": 25, \"C\": 17, \"D\": 6, \"E\": 17, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"A picture of three overweight people from behind with no consequence attached just reads as someone judging, and I'd scroll straight past it.\"}",
+   "points": [
+    20.0,
+    25.0,
+    17.0,
+    6.0,
+    17.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "raw": "My gut reaction is that I'd mostly scroll past these. The cancer and surgery photos would make me wince for a second, but I'd still be reaching for the bar after a late shift. The plain \"three overweight people from behind\" one feels like being judged, and I'd tune it out fastest. Heart disease is the one that would stick, since my mum spent years on wards and I've seen what that does to people.\n\n{\"points\": {\"A\": 12, \"B\": 15, \"C\": 20, \"D\": 10, \"E\": 13, \"F\": 30}, \"most_ignored\": \"D\", \"why\": \"It just shows overweight people from behind with a blame-style line, which feels like judgement I'd tune out, whereas the heart surgery image connects to something I've actually seen.\"}",
+   "points": [
+    12.0,
+    15.0,
+    20.0,
+    10.0,
+    13.0,
+    30.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "raw": "Honestly, these all feel like the same nagging thing to me, and I'd probably scroll past most of them. The cancer ones with the grim photos might make me pause for a second, but I've seen plenty of scary stuff on packets and it doesn't stop me grabbing a bar when I'm knackered at half eleven after a late shift. The \"three overweight people from behind\" one feels like it's having a go at people like me, which just puts me off, and the diabetes eye picture is gross but it's a long way off in my head. The bit that actually bothers me is it's all about the individual choosing, not about the fact I've had no time to cook and a bar's cheap and there.\n\nGoing by what I'd actually do: the one that might nudge me is the bowel cancer one, because my mum's a nurse and bowel cancer is the one she always goes on about, so it's the only one that sounds like something I'd take seriously. The rest I'd largely ignore.\n\n{\"points\": {\"A\": 30, \"B\": 10, \"C\": 15, \"D\": 15, \"E\": 15, \"F\": 15}, \"most_ignored\": \"B\", \"why\": \"It reads as blaming people for their weight rather than saying anything about a health risk I'd worry about, so it just makes me switch off.\"}",
+   "points": [
+    30.0,
+    10.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    1,
+    0
+   ],
+   "raw": "Honestly, these all feel like the same nagging voice to me, and the photos are the bit that makes me roll my eyes. The \"obesity causes\" wording just sounds like the government again, and I've heard that line so many times it's background noise. A gory picture of a surgery or an eye might make me flinch for a second, but I'd still be knackered after a late shift and reaching for a Dairy Milk anyway, because it's cheap and it's sweet and I've had a rubbish day.\n\nIf anything would make me pause, it's the one that's closest to something I actually care about, which is my health in general and not some abstract cancer statistic. Even then I doubt it'd stop me. I'd probably just think \"yeah, yeah\" and carry on.\n\n{\"points\": {\"A\": 8, \"B\": 10, \"C\": 12, \"D\": 30, \"E\": 10, \"F\": 15}, \"most_ignored\": \"B\", \"why\": \"The surgery photo and the 13-cancers claim feel like scare tactics I've already tuned out, whereas the plain 'excess calories cause obesity' with people from behind just reads like a comment about other people and doesn't change how tired or hungry I am.\"}",
+   "points": [
+    9.411764705882353,
+    11.764705882352942,
+    14.117647058823529,
+    35.294117647058826,
+    11.764705882352942,
+    17.647058823529413
+   ]
+  },
+  {
+   "persona": "098b28132b",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "18-34"
+   },
+   "order": [
+    4,
+    3,
+    5,
+    1,
+    0,
+    2
+   ],
+   "raw": "Gut reaction: these all look like the same nagging government poster to me, and I'd probably not even read past the photo. The grim pictures make me think of the telly ads and I switch off, and \"obesity\" is the word that makes it sound like it's about willpower again, which annoys me. The one about the eye is the most gruesome, but gore doesn't stop me wanting a chocolate bar after a double shift; I'd just think, I've had worse days. Honestly I'd give most of the points to whichever one is least preachy, and nothing much to the scary ones.\n\n{\"points\": {\"A\": 5, \"B\": 5, \"C\": 30, \"D\": 5, \"E\": 5, \"F\": 10}, \"most_ignored\": \"B\", \"why\": \"The bleeding eye photo is so gory and so far from my life that it just reads as a government scare tactic I've learned to tune out, while the plain obesity wording at least doesn't pretend a chocolate bar is going to give me cancer.\"}",
+   "points": [
+    8.333333333333334,
+    8.333333333333334,
+    50.0,
+    8.333333333333334,
+    8.333333333333334,
+    16.666666666666668
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    3,
+    1
+   ],
+   "raw": "Honestly, a chocolate bar at ten to four with a long day behind me is going to win most of the time, whatever's printed on the wrapper. The bowel one probably sticks a bit more because I get bowel screening letters through the post and it feels closer to home. The photo of three people from behind just feels like being judged, so I'd probably tune it out.\n\n{\"points\": {\"A\": 28, \"B\": 6, \"C\": 14, \"D\": 15, \"E\": 19, \"F\": 18}, \"most_ignored\": \"B\", \"why\": \"The photo of three overweight people from behind feels like judgement of other people rather than anything I'd act on, and it doesn't connect to a consequence I'd think about while reaching for a bar.\"}",
+   "points": [
+    28.0,
+    6.0,
+    14.0,
+    15.0,
+    19.0,
+    18.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    5,
+    2,
+    1
+   ],
+   "raw": "Honestly, my first reaction is that I'd barely register most of these. The surgery and gory photos feel like they're trying to shock me, and I'd just think \"here we go\" and move on. The plain one with the people from behind is dull, but it's the only one that doesn't feel like it's shouting, and the bowel one at least makes me think of something real. None of them would stop me reaching for a Dairy Milk at ten past four when I'm knackered, though.\n\n{\"points\": {\"A\": 5, \"B\": 10, \"C\": 15, \"D\": 35, \"E\": 15, \"F\": 20}, \"most_ignored\": \"A\", \"why\": \"A graphic heart-surgery photo reads as scare tactics I'd scroll past, and it doesn't connect to anything I'd feel while eating a chocolate bar.\"}",
+   "points": [
+    5.0,
+    10.0,
+    15.0,
+    35.0,
+    15.0,
+    20.0
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "raw": "Honestly, my gut reaction is that they all look like scare tactics aimed at someone who has time to care about bowel cancer on a Tuesday morning. The graphic photos would make me look away, and I'd probably just think \"great, another lecture\" and reach for the bar anyway, especially after a long day with the kids. The ones that mention a specific disease feel a bit more concrete, but I'd still be thinking about the price of the bar and whether I've got anything else to eat tonight. The plain \"excess calories cause obesity\" one with the photo of people from behind feels like it's judging people, which would just irritate me.\n\nI'd give most of the points to the ones that name something I'd actually recognise from the NHS site or from my sister, and little to the rest. Realistically the labels won't do much to a chocolate bar I can get for under a pound.\n\n{\"points\": {\"A\": 12, \"B\": 8, \"C\": 22, \"D\": 18, \"E\": 15, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"It just tells me I'm overweight in a way that feels like a judgement, with no concrete consequence or reason to change what I'm doing right now.\"}",
+   "points": [
+    15.0,
+    10.0,
+    27.5,
+    22.5,
+    18.75,
+    6.25
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    0,
+    3,
+    5,
+    4,
+    1,
+    2
+   ],
+   "raw": "Honestly, these all read like the same scare-tactic poster to me, and I'd probably skim past most of them. The graphic surgery photos feel melodramatic, and \"obesity causes cancer\" is the sort of thing that sounds like it's aimed at someone with more time to worry about it than I have at ten to six. The one about overweight people from behind feels like judgement, which would just make me defensive, and I'd be more likely to grab a bar out of spite than put it back. Still, the plain \"excess calories cause obesity\" with no shock imagery is the least preachy, so it's the one I'd at least register, though I doubt it would stop me wanting a chocolate bar after a long day.\n\n{\"points\": {\"A\": 8, \"B\": 10, \"C\": 30, \"D\": 10, \"E\": 12, \"F\": 15, \"G\": 0}, \"most_ignored\": \"E\", \"why\": \"The graphic surgery photos and vague cancer scare feel like melodrama aimed at people with more time to worry, so I'd tune out the ones with shock imagery and be most likely to ignore the cancer-surgery label.\"}",
+   "points": [
+    9.411764705882353,
+    11.764705882352942,
+    35.294117647058826,
+    11.764705882352942,
+    14.117647058823529,
+    17.647058823529413
+   ]
+  },
+  {
+   "persona": "b6d8cbdfe4",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "35-54"
+   },
+   "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    0
+   ],
+   "raw": "I'll be honest: these all look like the same scary poster to me, and I'd probably skim past most of them at the Tesco till. The photos of surgery and eyes are a bit grim, but I've seen plenty of grim stuff and it doesn't stop me wanting a chocolate bar at ten to six, which is exactly when I'd want one. The \"excess calories\" bit reads like something a person who's never had a tight week would write, and the cancer or diabetes link just makes me think \"yeah, everything gives you cancer these days.\" The one with three overweight people from behind feels more like a dig than information, so I'd probably tune that out or feel a bit got at. The bowel cancer one is at least specific and the picture is hard to ignore, so it might stick for a second, but I'd still buy the bar if I fancied it.\n\n{\"points\": {\"A\": 12, \"B\": 14, \"C\": 12, \"D\": 16, \"E\": 6, \"F\": 20, \"G\": 0}, \"most_ignored\": \"E\", \"why\": \"It's a vague, judgemental picture of other people that feels aimed at someone else, so it doesn't connect with my own situation or make me want the bar any less.\"}",
+   "points": [
+    15.0,
+    17.5,
+    15.0,
+    20.0,
+    7.5,
+    25.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    3,
+    5
+   ],
+   "raw": "Gut reaction first: honestly, I'd glance at most of these and think \"well, obviously, that's what the telly says.\" The gory pictures I'd find a bit much over a bar of chocolate, and I'd probably just feel irritated, not put off. The one about the three people from behind I'd barely register, it's just a generic fat-shaming image and I'd skip past it.\n\nThe ones naming a specific disease might get a second look, mainly because my knees and my stomach are on my mind, but a Dairy Milk is 45p-ish in the reduced section and I'm not going to walk past it because of a label. Bowel cancer, given my age and the running, might make me pause for a second. Still, I'd probably eat it anyway if it was in front of me.\n\n{\"points\": {\"A\": 12, \"B\": 12, \"C\": 14, \"D\": 22, \"E\": 10, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"It's a vague picture of other people with no specific consequence for me, so it just reads as someone else's problem and I'd scroll straight past it.\"}",
+   "points": [
+    16.0,
+    16.0,
+    18.666666666666668,
+    29.333333333333332,
+    13.333333333333334,
+    6.666666666666667
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    3,
+    4
+   ],
+   "raw": "Honestly, the bar's a treat and I'm not buying Dairy Milk at full price anyway, so none of these is going to be the thing that stops me. The bowel one would make me stop for a second because of the stomach trouble I've had, and the eye photo is nasty enough to stick. The fat people from behind just feels like being looked down on, so I'd scroll straight past it.\n\n{\"points\": {\"A\": 14, \"B\": 28, \"C\": 5, \"D\": 16, \"E\": 19, \"F\": 18}, \"most_ignored\": \"C\", \"why\": \"A photo of overweight people from behind reads as judgement rather than information, and I'd skip it, whereas the specific cancer and eye-damage images at least connect to something I've actually had to think about with my own body.\"}",
+   "points": [
+    14.0,
+    28.0,
+    5.0,
+    16.0,
+    19.0,
+    18.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    3,
+    2,
+    0,
+    5
+   ],
+   "raw": "Honestly, the surgery photos make me wince, but I'd mostly think \"that's a bit much\" and carry on. The bowel one would catch my attention because of the stomach trouble the physio warned me about, though I'd still have the bar if I fancied it. The plain photo of people from behind just looks like a finger-wag, and I'd scroll past it.\n\n{\"points\": {\"A\": 10, \"B\": 15, \"C\": 10, \"D\": 25, \"E\": 35, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"It's a vague, judgemental photo of people from behind that tells me nothing I haven't heard, whereas a specific, close-to-home health consequence like bowel cancer gives me something to actually think about.\"}",
+   "points": [
+    10.0,
+    15.0,
+    10.0,
+    25.0,
+    35.0,
+    5.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    4,
+    1,
+    5,
+    3,
+    2,
+    0
+   ],
+   "raw": "My gut reaction is that the surgery photos make me wince, but I've seen enough hospitals with my husband's family that they don't stop me. The bowel one lands closest, since my stomach's been a mess and the physio already had me cutting back on white bread. The photo of three people from behind just feels like being judged, so I'd switch off.\n\n{\"points\": {\"A\": 14, \"B\": 12, \"C\": 10, \"D\": 16, \"E\": 14, \"F\": 34}, \"most_ignored\": \"C\", \"why\": \"A vague 'excess calories cause obesity' with a photo of overweight people from behind reads as judgement rather than information, so I'd scroll straight past it, whereas the bowel cancer link ties to a stomach problem I actually have.\"}",
+   "points": [
+    14.0,
+    12.0,
+    10.0,
+    16.0,
+    14.0,
+    34.0
+   ]
+  },
+  {
+   "persona": "64db805673",
+   "cell": {
+    "country": "UK",
+    "gender": "woman",
+    "age_band": "55+"
+   },
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    2,
+    0
+   ],
+   "raw": "Honestly, my first reaction is a shrug. I know a chocolate bar isn't good for me, and I don't need a photo to tell me that. The bowel one would make me stop for a second, since my stomach's been a mess, but I'd still pick up a bar if it were reduced to 20p. Picture of three fat backs? I'd scroll straight past, and I'd probably resent it.\n\n```json\n{\"points\": {\"A\": 20, \"B\": 8, \"C\": 12, \"D\": 13, \"E\": 15, \"F\": 32}, \"most_ignored\": \"B\", \"why\": \"The generic obesity photo feels like judgement with no consequence I can picture, whereas the bowel image at least touches on the stomach trouble I've actually had, though a reduced bar would still win out on price.\"}\n```",
+   "points": [
+    20.0,
+    8.0,
+    12.0,
+    13.0,
+    15.0,
+    32.0
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    4,
+    3,
+    0,
+    1,
+    2,
+    5
+   ],
+   "raw": "Honestly, my gut reaction is a shrug. Pictures of surgery and eyeballs just make me think of the telly, and I've seen enough of those in my life not to flinch. The \"obesity\" line on its own is the sort of thing I've heard my whole life, so it washes straight over me. I'd rather have a bit of a chocolate bar with my tea than look at a grisly photo, and I'm not going to be told off by a wrapper.\n\nThe one that might catch my eye a bit is the bowel cancer one, because my sister's husband had that and it made me think, though I'd still eat the bar if I fancied it.\n\n{\"points\": {\"A\": 5, \"B\": 5, \"C\": 20, \"D\": 10, \"E\": 10, \"F\": 5}, \"most_ignored\": \"F\", \"why\": \"A photo of three overweight people from behind feels like it's pointing at strangers and doesn't tell me anything I haven't heard a hundred times, so it wouldn't stop me reaching for a bar.\"}",
+   "points": [
+    9.090909090909092,
+    9.090909090909092,
+    36.36363636363637,
+    18.181818181818183,
+    18.181818181818183,
+    9.090909090909092
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    1
+   ],
+   "raw": "Gut reaction: these all look like the leaflets I've been binning for years, with pictures of surgery and eyeballs that make me think of the hospital, not my tea. The one with the three big people from behind is the sort of thing that makes me feel got at, and I'd have a bit of a sulk about it. Honestly, a chocolate bar on a Tuesday afternoon is not going to be talked out of me by a scary photo, and I'd probably just pick the bar up anyway, the way I always do.\n\n{\"points\": {\"A\": 12, \"B\": 22, \"C\": 14, \"D\": 18, \"E\": 16, \"F\": 13}, \"most_ignored\": \"C\", \"why\": \"Surgery and cancer photos feel like hospital leaflets that have nothing to do with a Dairy Milk on my afternoon break, so they wash over me, and the cancer-surgery one is just another version of the pictures I already tune out.\"",
+   "points": null
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    5,
+    2,
+    1,
+    4,
+    0,
+    3
+   ],
+   "raw": "Looking at these, my gut reaction is that they're all the same sort of thing I've seen a hundred times: a scare photo and a big word. The ones with surgery and bleeding eyes just make me wince and think about the telly, not about the chocolate in my hand. The one with the three big people from behind is the most like real life, but honestly I'd think \"that's not me\" or \"that's someone else's problem\", and I'd still have a square of it with my cuppa.\n\nI'm not going to pretend a label is going to stop me having a bit of chocolate, especially if it's a value bar on offer. What might nudge me is the plain one, because it doesn't shout at me, but even that's a small thing against the rest of my day.\n\n{\"points\": {\"A\": 30, \"B\": 5, \"C\": 10, \"D\": 5, \"E\": 10, \"F\": 5}, \"most_ignored\": \"B\", \"why\": \"The surgery and cancer-count shouting feels like a leaflet written for someone else, so I'd scroll straight past it, while the plain photo of overweight people is at least a bit closer to home even if I'd still eat the bar.\"}",
+   "points": [
+    46.15384615384615,
+    7.6923076923076925,
+    15.384615384615385,
+    7.6923076923076925,
+    15.384615384615385,
+    7.6923076923076925
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    3,
+    4,
+    2,
+    5,
+    0,
+    1
+   ],
+   "raw": "Honestly, my first reaction is that they're all the same leaflet with a different gory picture on it. The bleeding eye and the surgery shots make me wince, but I've seen worse on the telly and I just turn over. The ones with the people from behind feel like they're having a go at folk who look like me, and I'd switch off straight away.\n\nI'm not going to be put off a bar of Dairy Milk by a warning on the wrapper. If I fancy one with a cup of tea, I'll have it. What would make me think twice is if it was about my own kind of problem, my blood sugar or my tablets, and came from somebody I'd trust like the pharmacist. The cancer ones are so broad they just wash over me, and \"13 types of cancer\" sounds like someone's trying to frighten me. The diabetes eye one is the closest to something I'd actually care about, but even that's a picture I'd rather not look at, so I'd probably look away and carry on.\n\n{\"points\": {\"A\": 30, \"B\": 10, \"C\": 10, \"D\": 5, \"E\": 25, \"F\": 10}, \"most_ignored\": \"D\", \"why\": \"Showing three overweight people from behind feels like a judgement on people who look like me, so I'd just switch off, whereas the diabetes eye picture at least connects to something I actually have to watch.\"}",
+   "points": [
+    33.333333333333336,
+    11.11111111111111,
+    11.11111111111111,
+    5.555555555555555,
+    27.77777777777778,
+    11.11111111111111
+   ]
+  },
+  {
+   "persona": "a8e0cf1dde",
+   "cell": {
+    "country": "UK",
+    "education": "no university degree"
+   },
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0
+   ],
+   "raw": "Honestly, my first reaction is a bit of a shrug. The pictures of surgery are grim, but I've seen plenty of that sort of thing and it doesn't stop me having a biscuit with my tea. The ones with the big words and the scary pictures always feel like they're shouting at you, and I just tune out. The plain one with the three people from behind, that's almost insulting, because it's basically saying \"look at those fat folk,\" and I'd rather not be looking at that while I'm unwrapping something.\n\nFor me the bar's a treat for the grandchildren or the odd square after dinner, and what would actually put me off is something that feels like it's about my own bits, like the eye one, because my sister's had trouble with her sugar and I've seen what it does. Even that wouldn't stop me much, though. I'd still probably give the little one a bit if she asked.\n\n{\"points\": {\"A\": 5, \"B\": 8, \"C\": 5, \"D\": 4, \"E\": 45, \"F\": 12, \"G\": 0}, \"most_ignored\": \"D\", \"why\": \"The plain headline with the photo of overweight people from behind reads as judgemental and I'd just scroll past or tune it out, while the diabetic eye is the one that connects to someone I actually know.\"}",
+   "points": [
+    6.329113924050633,
+    10.126582278481013,
+    6.329113924050633,
+    5.063291139240507,
+    56.962025316455694,
+    15.189873417721518
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "raw": "Honestly, a warning on a Dairy Milk would make me roll my eyes more than put it down. The bowel photo might make me wince, and the surgery pictures would probably make me look away, but I'd still want the bar on a bad day after a run. The one with the three people from behind just feels like a dig, so I'd tune it out.\n\n{\"points\": {\"A\": 24, \"B\": 14, \"C\": 14, \"D\": 12, \"E\": 12, \"F\": 24}, \"most_ignored\": \"D\", \"why\": \"It's a vague, judgmental image of strangers that reads as a dig rather than information, so I'd tune it out before it registered.\"}",
+   "points": [
+    24.0,
+    14.0,
+    14.0,
+    12.0,
+    12.0,
+    24.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    3,
+    2,
+    5,
+    4,
+    1
+   ],
+   "raw": "My gut reaction is a bit of an eye-roll. Graphic surgery photos make me wince and scroll on, and \"13 types of cancer\" reads like a scare tactic. The three-overweight-people photo feels like it's making a point about bodies, not about the bar in my hand. The bowel cancer one at least names something specific I'd think about, given I'm running and my knees already nag me, but I'd still be more likely to just eat the chocolate after a long run and not think about it again.\n\n{\"points\": {\"A\": 40, \"B\": 15, \"C\": 5, \"D\": 20, \"E\": 10, \"F\": 10}, \"most_ignored\": \"C\", \"why\": \"The 13-cancers scare photo feels like a sensational lecture that I'd scroll past, and nothing about it connects to my actual life or budget.\"}",
+   "points": [
+    40.0,
+    15.0,
+    5.0,
+    20.0,
+    10.0,
+    10.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "raw": "My gut reaction is that the photos are the bit I'd actually notice, and the cancer ones feel like a shock tactic. Bowel cancer and \"13 types of cancer\" would make me think about my own health for a second, but I'd still be thinking \"that's a lot to pin on a chocolate bar\" and reaching for it anyway after a run. The three overweight people from behind feel like being judged, so I'd probably just scroll past.\n\n{\"points\": {\"A\": 25, \"B\": 12, \"C\": 10, \"D\": 8, \"E\": 30, \"F\": 15}, \"most_ignored\": \"D\", \"why\": \"It's a vague, judgy picture that feels like it's getting at me without telling me anything I can use, so I'd tune it out.\"}",
+   "points": [
+    25.0,
+    12.0,
+    10.0,
+    8.0,
+    30.0,
+    15.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "raw": "My gut reaction is that a warning on a chocolate bar would make me roll my eyes before anything else. The surgery and eye photos are grim, so they'd stick for a second, but I'd still be standing at the shop fridge thinking about the price and whether I've earned something after a run. The plain \"obesity\" one with the people from behind feels like being told off, and I'd skip it.\n\n{\"points\": {\"A\": 15, \"B\": 17, \"C\": 5, \"D\": 15, \"E\": 16, \"F\": 32}, \"most_ignored\": \"C\", \"why\": \"It's a vague lecture with a photo of strangers from behind, and it gives me nothing specific to think about or act on.\"}",
+   "points": [
+    15.0,
+    17.0,
+    5.0,
+    15.0,
+    16.0,
+    32.0
+   ]
+  },
+  {
+   "persona": "dd6e5b9e1e",
+   "cell": {
+    "country": "UK",
+    "education": "university degree"
+   },
+   "order": [
+    3,
+    5,
+    2,
+    1,
+    4,
+    0
+   ],
+   "raw": "Honestly, most of these look like the same scary poster with a different body part on it, and I'd probably just roll my eyes at the lot. The gory ones (the eye, the bowel, the surgery) feel like they're shouting at me, which is exactly the toddler-and-biscuit-tin tone I can't stand, so they'd make me more irritated than hungry-or-not. The plain \"excess calories cause obesity\" one with the three people from behind is the most dull and, weirdly, the one that would at least make me think about my own portions, though I doubt it would stop me reaching for a bar after a run. Cancer and heart disease feel further off and more generic, so I'd barely register them, whereas the eye one is so dramatic I'd probably assume it's exaggerated and tune it out.\n\n{\"points\": {\"A\": 12, \"B\": 30, \"C\": 8, \"D\": 10, \"E\": 8, \"F\": 7, \"G\": 0}, \"most_ignored\": \"C\", \"why\": \"Thirteen cancers sounds like a scare figure rather than something I'd connect to a single chocolate bar, so I'd skip past it.\"}",
+   "points": [
+    16.0,
+    40.0,
+    10.666666666666666,
+    13.333333333333334,
+    10.666666666666666,
+    9.333333333333334
+   ]
+  }
+ ]
+}

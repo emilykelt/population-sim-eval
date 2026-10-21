@@ -1,0 +1,16 @@
+
+=== claude-haiku-5-5 ===
+judge              rho=0.301 top1=0.12 gap=-0.078 valid=234 sd=3.7 $0.022 24.3s
+label_single       rho=0.121 top1=0.00 gap=0.078 valid=234 sd=5.1 $0.018 18.2s
+grounded_single    rho=-0.386 top1=0.00 gap=0.024 valid=222 sd=4.9 $0.022 25.2s
+grounded_ensemble  rho=-0.371 top1=0.00 gap=0.096 valid=546 sd=7.0 $0.049 43.5s
+grounded_debate    rho=-0.364 top1=0.00 gap=-0.072 valid=558 sd=8.5 $0.103 83.7s
+
+=== claude-haiku-4-5-20251001 ===
+judge              rho=0.777 top1=0.50 gap=-0.709 valid=12 sd=nan $0.116 24.7s
+label_single       rho=-0.236 top1=0.00 gap=-0.095 valid=180 sd=8.0 $0.082 13.2s
+grounded_single    rho=-0.450 top1=0.00 gap=-0.125 valid=186 sd=8.4 $0.102 15.5s
+grounded_ensemble  rho=-0.379 top1=0.00 gap=-0.034 valid=474 sd=10.5 $0.247 34.9s
+grounded_debate    rho=0.007 top1=0.25 gap=0.129 valid=486 sd=12.1 $0.528 68.1s
+
+Total cost this run: $1.487 {'claude-haiku-5-5': 0.234, 'claude-haiku-4-5-20251001': 1.254}

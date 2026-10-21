@@ -1,0 +1,9 @@
+
+=== claude-sonnet-5-5 ===
+judge              rho=0.779 top1=0.38 gap=0.139 valid=240 sd=2.4 $0.322 39.6s
+label_single       rho=0.414 top1=0.38 gap=-0.166 valid=240 sd=3.5 $0.220 28.7s
+grounded_ensemble  rho=0.200 top1=0.00 gap=0.080 valid=384 sd=5.1 $0.420 38.4s
+grounded_debate    rho=0.264 top1=0.00 gap=0.279 valid=384 sd=5.9 $0.888 75.3s
+grounded_choice    rho=0.791 top1=0.62 gap=0.363 valid=768 sd=0.4 $2.104 202.6s
+
+Total cost this run: $4.287 {'claude-sonnet-5-5': 4.287}

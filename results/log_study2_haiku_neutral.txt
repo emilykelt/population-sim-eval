@@ -1,0 +1,5 @@
+
+=== claude-haiku-5-5 ===
+grounded_choice_neutral rho=nan top1=nan gap=nan valid=0 sd=nan $0.278 248.5s
+
+Total cost this run: $0.278 {'claude-haiku-5-5': 0.278}

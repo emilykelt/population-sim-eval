@@ -1,0 +1,9 @@
+
+=== claude-haiku-5-5 ===
+judge              rho=0.176 top1=0.75 gap=-0.108 valid=234 sd=2.2 $0.017 28.4s
+label_single       rho=0.258 top1=0.75 gap=-0.005 valid=234 sd=3.8 $0.015 25.1s
+grounded_single    rho=0.376 top1=0.50 gap=0.121 valid=234 sd=5.6 $0.015 23.2s
+grounded_ensemble  rho=0.171 top1=0.62 gap=-0.131 valid=552 sd=6.7 $0.036 52.3s
+grounded_debate    rho=0.272 top1=0.50 gap=0.002 valid=570 sd=6.6 $0.095 125.6s
+
+Total cost this run: $0.195 {'claude-haiku-5-5': 0.195}

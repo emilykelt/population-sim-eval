@@ -1,0 +1,5 @@
+.env
+results/raw/
+.venv/
+__pycache__/
+data/clarke2020_raw/media*/

@@ -1,0 +1,119 @@
+name: clarke2020_study2_labels
+source: Clarke et al. 2020, Appetite; data osf.io/k7tw5 Study 2 (N=4,134 UK adults, 6 arms, primary outcome = chose energy-dense snack in a 12-item vending machine task). Truth = 1 - P(chose energy-dense) per segment per arm.
+outcome_hint: 'Concretely: imagine a vending machine with 12 snacks, six high-calorie (Doritos, McCoy''s, Dairy Milk, Galaxy, millionaire shortbread, a Gü chocolate dessert) and six lower-calorie (apple crisps, beetroot crisps, a Müller yoghurt, fruit pots, a KIND bar). Each option below is a different way the snacks could be labelled. Give more points to the labelling scheme that would most push YOU, today, toward picking one of the lower-calorie snacks instead of a high-calorie one.'
+messages:
+  pictorial_plus_calories: Every high-calorie snack (crisps, chocolate, shortbread, dessert) carries a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. Every snack, healthy or not, also shows its calorie count in a bold badge, e.g. '240 CALORIES'.
+  text_plus_calories: 'Every high-calorie snack carries a plain black-and-white text warning: ''Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes''. No pictures. Every snack, healthy or not, also shows its calorie count in a bold badge, e.g. ''240 CALORIES''.'
+  calories_only: No warnings. Every snack, healthy or not, shows its calorie count in a bold badge, e.g. '240 CALORIES' on a Dairy Milk bar, '95 CALORIES' on a fruit pot.
+  pictorial: Every high-calorie snack carries a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No calorie counts anywhere.
+  text_only: 'Every high-calorie snack carries a plain black-and-white text warning: ''Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes''. No pictures, no calorie counts.'
+  no_label: The snacks are shown exactly as they appear in the shops, with no extra labels of any kind.
+pooled_truth:
+  calories_only: 0.4619
+  no_label: 0.4105
+  pictorial: 0.6307
+  pictorial_plus_calories: 0.6243
+  text_only: 0.5242
+  text_plus_calories: 0.5643
+diagnostics:
+  gender+age_band:
+    pooled_baseline_spearman: 0.819
+    split_half_ceiling_spearman: 0.605
+  education:
+    pooled_baseline_spearman: 0.943
+    split_half_ceiling_spearman: 0.875
+segments:
+- cell:
+    country: UK
+    gender: man
+    age_band: 18-34
+  truth:
+    calories_only: 0.2857
+    no_label: 0.3143
+    pictorial: 0.6154
+    pictorial_plus_calories: 0.56
+    text_only: 0.4118
+    text_plus_calories: 0.4156
+  n: 425
+- cell:
+    country: UK
+    gender: man
+    age_band: 35-54
+  truth:
+    calories_only: 0.352
+    no_label: 0.4211
+    pictorial: 0.5078
+    pictorial_plus_calories: 0.5167
+    text_only: 0.4737
+    text_plus_calories: 0.5268
+  n: 732
+- cell:
+    country: UK
+    gender: man
+    age_band: 55+
+  truth:
+    calories_only: 0.5071
+    no_label: 0.4507
+    pictorial: 0.5753
+    pictorial_plus_calories: 0.6127
+    text_only: 0.5789
+    text_plus_calories: 0.5745
+  n: 844
+- cell:
+    country: UK
+    gender: woman
+    age_band: 18-34
+  truth:
+    calories_only: 0.4141
+    no_label: 0.3409
+    pictorial: 0.6642
+    pictorial_plus_calories: 0.6667
+    text_only: 0.4394
+    text_plus_calories: 0.4662
+  n: 785
+- cell:
+    country: UK
+    gender: woman
+    age_band: 35-54
+  truth:
+    calories_only: 0.5075
+    no_label: 0.4098
+    pictorial: 0.7132
+    pictorial_plus_calories: 0.7068
+    text_only: 0.5873
+    text_plus_calories: 0.6148
+  n: 766
+- cell:
+    country: UK
+    gender: woman
+    age_band: 55+
+  truth:
+    calories_only: 0.6633
+    no_label: 0.4953
+    pictorial: 0.75
+    pictorial_plus_calories: 0.6566
+    text_only: 0.6374
+    text_plus_calories: 0.7778
+  n: 574
+- cell:
+    country: UK
+    education: no university degree
+  truth:
+    calories_only: 0.478
+    no_label: 0.3547
+    pictorial: 0.6166
+    pictorial_plus_calories: 0.5966
+    text_only: 0.5108
+    text_plus_calories: 0.539
+  n: 2368
+- cell:
+    country: UK
+    education: university degree
+  truth:
+    calories_only: 0.4416
+    no_label: 0.4911
+    pictorial: 0.6488
+    pictorial_plus_calories: 0.6643
+    text_only: 0.5399
+    text_plus_calories: 0.6022
+  n: 1758
