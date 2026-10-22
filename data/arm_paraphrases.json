@@ -1,0 +1,42 @@
+[
+ {
+  "pictorial_plus_calories": "Every high-calorie snack (crisps, chocolate, shortbread, dessert) carries a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. Every snack, healthy or not, also shows its calorie count in a bold badge, e.g. '240 CALORIES'.",
+  "text_plus_calories": "Every high-calorie snack carries a plain black-and-white text warning: 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures. Every snack, healthy or not, also shows its calorie count in a bold badge, e.g. '240 CALORIES'.",
+  "calories_only": "No warnings. Every snack, healthy or not, shows its calorie count in a bold badge, e.g. '240 CALORIES' on a Dairy Milk bar, '95 CALORIES' on a fruit pot.",
+  "pictorial": "Every high-calorie snack carries a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No calorie counts anywhere.",
+  "text_only": "Every high-calorie snack carries a plain black-and-white text warning: 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures, no calorie counts.",
+  "no_label": "The snacks are shown exactly as they appear in the shops, with no extra labels of any kind."
+ },
+ {
+  "pictorial_plus_calories": "High-calorie snacks (crisps, chocolate, shortbread, dessert) have a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. All snacks, healthy or not, also have a bold calorie badge, e.g. '240 CALORIES'.",
+  "text_plus_calories": "High-calorie snacks have a plain black-and-white text warning: 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures. All snacks, healthy or not, also have a bold calorie badge, e.g. '240 CALORIES'.",
+  "calories_only": "No warnings. All snacks, healthy or not, have a bold calorie badge, e.g. '240 CALORIES' on a Dairy Milk bar, '95 CALORIES' on a fruit pot.",
+  "pictorial": "High-calorie snacks have a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No calorie counts anywhere.",
+  "text_only": "High-calorie snacks have a plain black-and-white text warning: 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures. No calorie counts.",
+  "no_label": "Snacks are shown as they appear in shops. No extra labels of any kind."
+ },
+ {
+  "pictorial_plus_calories": "Each high-calorie snack (crisps, chocolate, shortbread, dessert) bears a large warning label consisting of a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) accompanied by the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. In addition, every snack, whether healthy or not, displays its calorie count in a bold badge, e.g. '240 CALORIES'.",
+  "text_plus_calories": "Each high-calorie snack bears a plain black-and-white text warning reading 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures are present. In addition, every snack, whether healthy or not, displays its calorie count in a bold badge, e.g. '240 CALORIES'.",
+  "calories_only": "No warnings are displayed. Every snack, whether healthy or not, shows its calorie count in a bold badge, e.g. '240 CALORIES' on a Dairy Milk bar and '95 CALORIES' on a fruit pot.",
+  "pictorial": "Each high-calorie snack bears a large warning label consisting of a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) accompanied by the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No calorie counts appear anywhere.",
+  "text_only": "Each high-calorie snack bears a plain black-and-white text warning reading 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures and no calorie counts are present.",
+  "no_label": "The snacks are presented exactly as they appear in retail settings, with no additional labels of any kind."
+ },
+ {
+  "pictorial_plus_calories": "So every high-calorie snack (the crisps, chocolate, shortbread, dessert) had this big warning label on it with a graphic medical photograph, either a bowel tumour, open-heart surgery, or a bleeding diabetic eye, plus the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. And every single snack, healthy or not, also had its calorie count in a bold badge, like '240 CALORIES'.",
+  "text_plus_calories": "Every high-calorie snack had a plain black-and-white text warning on it that said 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures at all. And every snack, healthy or not, also had its calorie count in a bold badge, like '240 CALORIES'.",
+  "calories_only": "There were no warnings at all. Every snack, healthy or not, just had its calorie count in a bold badge, like '240 CALORIES' on a Dairy Milk bar and '95 CALORIES' on a fruit pot.",
+  "pictorial": "Every high-calorie snack had a large warning label with a graphic medical photograph on it, either a bowel tumour, open-heart surgery, or a bleeding diabetic eye, along with the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. There were no calorie counts anywhere.",
+  "text_only": "Every high-calorie snack had a plain black-and-white text warning on it saying 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No pictures, and no calorie counts either.",
+  "no_label": "The snacks just looked exactly like they do in the shops, with no extra labels of any kind on them."
+ },
+ {
+  "pictorial_plus_calories": "A bold badge showing its calorie count, e.g. '240 CALORIES', appears on every snack, whether healthy or not. In addition, every high-calorie snack (crisps, chocolate, shortbread, dessert) displays a large warning label featuring a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) along with the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'.",
+  "text_plus_calories": "A plain black-and-white text warning reading 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes' appears on every high-calorie snack. There are no pictures. In addition, a bold badge showing its calorie count, e.g. '240 CALORIES', appears on every snack, whether healthy or not.",
+  "calories_only": "There are no warnings. A bold badge showing the calorie count appears on every snack, whether healthy or not, e.g. '240 CALORIES' on a Dairy Milk bar and '95 CALORIES' on a fruit pot.",
+  "pictorial": "A large warning label featuring a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes' appears on every high-calorie snack. Calorie counts are not shown anywhere.",
+  "text_only": "There are no pictures and no calorie counts. A plain black-and-white text warning reading 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes' appears on every high-calorie snack.",
+  "no_label": "The snacks appear precisely as they do in the shops, without any additional labels of any kind."
+ }
+]
