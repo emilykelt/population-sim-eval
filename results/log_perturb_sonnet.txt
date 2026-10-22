@@ -1,0 +1,11 @@
+claude-sonnet-5-5 choice w00 lv=(0, 0, 0, 0) rho=0.67 top1=0.62 pooled=0.87 base=0.38 $0.78
+claude-sonnet-5-5 choice w02 lv=(0, 2, 2, 4) rho=0.72 top1=0.25 pooled=0.94 base=0.45 $0.82
+claude-sonnet-5-5 choice w06 lv=(1, 1, 2, 3) rho=0.76 top1=0.38 pooled=0.94 base=0.50 $0.83
+claude-sonnet-5-5 choice w08 lv=(1, 3, 4, 2) rho=0.58 top1=0.38 pooled=0.88 base=0.28 $0.71
+claude-sonnet-5-5 choice w12 lv=(2, 2, 4, 1) rho=0.57 top1=0.38 pooled=0.93 base=0.57 $0.88
+claude-sonnet-5-5 choice w14 lv=(2, 4, 1, 0) rho=0.80 top1=0.38 pooled=0.94 base=0.63 $0.91
+claude-sonnet-5-5 choice w15 lv=(3, 0, 3, 3) rho=0.79 top1=0.50 pooled=0.94 base=0.34 $0.81
+claude-sonnet-5-5 choice w18 lv=(3, 3, 1, 4) rho=0.41 top1=0.50 pooled=0.87 base=0.17 $0.71
+claude-sonnet-5-5 choice w21 lv=(4, 1, 0, 1) rho=0.72 top1=0.38 pooled=1.00 base=0.53 $0.87
+claude-sonnet-5-5 choice w24 lv=(4, 4, 3, 2) rho=0.59 top1=0.38 pooled=0.77 base=0.62 $0.94
+TOTAL $8.27 {'claude-sonnet-5-5': 8.27}

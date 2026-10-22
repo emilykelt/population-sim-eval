@@ -29,3 +29,25 @@ Sign-flip rate of the top-1 pick across wordings: 0.35 for replicate, 0.07 for p
 - Keep honesty admonitions out of behavioural prompts; they are not neutral.
 - Pre-register the wording family. The 25 wordings and the square are in `src/simsoc/perturb.py`.
 - The pending Sonnet run tests H1: whether a frontier model's wording variance is smaller than its gap to Haiku. If Sonnet's IQR sits entirely above Haiku's range, the model choice survives the perturbation; if the ranges overlap, the leaderboard in the pilot paper is not supported.
+
+# Part 2: Sonnet 5.5, replicate design, 10 wordings (22 Oct 2026, $8.27)
+
+Ten of the 25 wordings, chosen so each system-prompt level and each task level appears twice (w00, 02, 06, 08, 12, 14, 15, 18, 21, 24). Same 48 personas. Replicate design only.
+
+| model | n wordings | rho median [IQR] | range | pooled-ordering rho range | base rate range | top-1 median |
+|---|---|---|---|---|---|---|
+| Sonnet 5.5 | 10 | **0.70 [0.58, 0.75]** | 0.41 to 0.80 | 0.77 to 1.00 | 0.17 to 0.63 | 0.38 |
+| Haiku 5.5 | 25 | 0.16 [0.05, 0.36] | -0.11 to 0.66 | -0.23 to 0.86 | 0.03 to 0.38 | 0.38 |
+
+## What it settles
+
+1. **H1 holds: the model gap survives rewording.** Sonnet's worst wording (0.41) beats Haiku's third quartile (0.36). Mann-Whitney one-sided p = 1e-5. The ranges still overlap at the extremes (Haiku's single best wording, 0.66, exceeds Sonnet's two worst), so a one-prompt comparison could still get it wrong roughly one time in ten. The pilot paper's model claim stands if stated as a median with a bar: Sonnet 0.70 [0.58, 0.75], not 0.79.
+2. **The pilot's 0.79 was a top-decile draw.** The original wording scored 0.67 at n=6 personas. Report 0.70.
+3. **Ordering is robust, level is not.** Sonnet's population-level ordering correlation never fell below 0.77 across wordings, and reached 1.00 once. Its base rate swung from 0.17 to 0.63 around the human 0.41. Same pattern as Haiku, at a higher level. Relative claims ("which label wins") are defensible; absolute claims ("x percent will switch") are not without calibration. H3 supported on both models.
+4. **Honesty admonitions depress the base rate on Sonnet too**, though less violently: task levels 0 and 3 (with admonition) 0.36 and 0.22; levels 1, 2, 4 at 0.51 to 0.63. Humans 0.41. The neutral wordings over-shoot healthy choice on Sonnet and under-shoot on Haiku, so there is no single "right" wording across models; only the median over a family is comparable.
+5. Top-1 accuracy is the weak metric: median 0.38 on both models. Sonnet gets the ordering right but the human top-1 differs between pictorial and pictorial-plus-calories by one to five points per segment, below the ceiling's resolution. Top-1 on near-tied arms is noise and should be reported with a tie band.
+
+The Sonnet ANOVA is not reported: 10 runs cannot support a 4-factor decomposition (16 parameters). The balanced 25-run version would cost another $12.
+
+## Updated recommendation for the paper and benchmark
+Report every (model, design) cell as median and IQR over the published wording family; state the pooled-ordering range separately from the segment-level rho; put a tie band on top-1; never report a base rate without a human anchor. With these rules the pilot's conclusions all survive: replicate beats poll, Sonnet beats Haiku, segment gaps are inflated, and absolute levels are prompt artefacts.

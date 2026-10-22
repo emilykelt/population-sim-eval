@@ -54,6 +54,7 @@ def main():
     ap.add_argument("--n", type=int, default=6)
     ap.add_argument("--workers", type=int, default=12)
     ap.add_argument("--designs", nargs="+", default=["choice", "poll"])
+    ap.add_argument("--wordings", nargs="+", type=int, default=None, help="subset of wording indices 0-24")
     args = ap.parse_args()
 
     case = yaml.safe_load(Path(args.case).read_text())
@@ -64,12 +65,15 @@ def main():
     arms = arm_paraphrases(case["messages"])
     out_dir = ROOT / "results" / f"{case['name']}_perturb"
     out_dir.mkdir(parents=True, exist_ok=True)
-    rows = []
+    rows_path = out_dir / "rows.json"
+    rows = [r for r in (json.loads(rows_path.read_text()) if rows_path.exists() else []) if r["model"] not in args.models]
 
     for model in args.models:
         personas = build_personas(cells, args.n, grounded=True, model=model, workers=args.workers)
         for design in args.designs:
             for w, levels in enumerate(design_25()):
+                if args.wordings and w not in args.wordings:
+                    continue
                 t0, c0 = time.time(), USAGE.cost_usd
                 msgs = [(m, arms[levels[2]][m]) for m in msg_ids]
                 rng = random.Random(1000 + w)
