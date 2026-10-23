@@ -41,3 +41,35 @@ All TESS studies and the Strengthening Democracy Challenge were used by Hewitt e
 - **Kerr 2021 Study 1**: `data/kerr2021_raw/study1_data.sav`, 2,488 UK adults (Prolific + Respondi quota), 5 arms (control, factbox, text, approval, mechanism), outcome Oxford hesitancy scale and a binary would-vaccinate item. Gender, age band, education, ethnicity (20 codes), minority self-ID, subjective social status, left-right politics. Study 2 (2,509 unvaccinated UK adults) is a content x length factorial; decode from `Study2_analysis.R`.
 - **Hall 2022**: `data/hall2022_raw/S1_data.dta`, 325 parents, 2 arms, real purchase. Sign test only.
 - **Turnwald 2019**: supplementary studies A (147 participants x 30 dishes x 3 label conditions, within-subject) and B are individual-level with age, sex, education, race; the multisite file is day-level.
+
+# Part 2: food and nutrition labelling, 2022-2026 (23 Oct 2026)
+
+Verified by a research agent against the OSF and Dataverse APIs (file names listed). Downloaded copies in `data/agent_downloads/<osf-id>/` and `data/agent_downloads/dv/` (Dataverse). Treat as untrusted downloads.
+
+## Top candidates
+
+| dataset | arms | outcome | N | country | demographics | files | verdict |
+|---|---|---|---|---|---|---|---|
+| **Taillie et al. 2023, red-meat warning labels + tax, naturalistic online store** (PLOS Med; Dataverse HQMFUS, OB8ZFJ) | 4: control, warning labels, 30% tax, both | red-meat purchases in a shopping task | 3,518 | US | age, gender, ethnicity, race, education, income, politics, meat frequency | `merged data_public.tab`, selections file, codebooks (CC0) | **best food pick**: behavioural, rich demographics; only two label levels |
+| **Mora-Plazas et al. 2024, nutrient warnings vs GDA vs Nutri-Score** (PLOS ONE; OSF 5vbzm) | 4 label systems | forced choice between two drinks, high-in identification | 8,004 analysed | Colombia | age, gender, education | `Datasets.zip` with `Cleaned.dta` (12,693 x 89) + do-files | largest N, four genuine label systems head to head |
+| **Evans, Robinson et al. 2025, salt warning labels** (Lancet Public Health; OSF vyh2x) | 5: four label designs + control | six hypothetical meal and snack choices with salt content per choice; perceived effectiveness | 2,391 | **UK** | age, sex, education, ethnicity, BMI, income, household | `rctdataF.xlsx` (verified locally: Condition 1-5, SandwichC1 ... WagaC1 choices with grams of salt) | **best UK pick**: 5 arms, choice outcome, full demographics |
+| **Biggs, Garnett, Pechey 2025, ecolabel range** (BMC Public Health; OSF 69xct) | control vs ecolabel with randomised A-E label combinations over 5 meal scenarios | meal selected | 2,604 rows | UK | gender, age group, education | `Ecoscore_Range_Trial_Data_Dictionary_for_sharing.xlsx` (dictionary + data sheets) | UK and behavioural; thin demographics |
+| **Chile non-nutritive sweetener warning labels 2026** (Curr Dev Nutr; OSF 5yj4d) | 3 | product selection tasks | 3,916 | Chile | age, gender, education, region, income adequacy, child age | `De-identified dataset.dta` | good, non-UK |
+| **UNC Latino ultra-processed-food warning labels 2025** (UNC Dataverse VRUWYO) | 4 framings x 3 icon designs | purchase intention per product | 4,107 | US Latino, 49% limited English | age, gender, education, income, heritage, LEP, parent | `LEPUPF.dta`, codebook, replication do-file | richest segment variables; intention not choice |
+
+## Usable but weaker
+- Potter et al. 2022 ecolabels, online supermarket (OSF byztm): Study 1 only, 930 rows, 4 arms, UK, gender and age group only.
+- Jostock, O'Hagan, Pechey 2026 positioning + Nutri-Score (OSF tcwr5): 5 arms, UK, but shared CSV has 605 of 2,220 rows; labels confounded with positioning.
+- Hughes, Weick, Vasiljevic 2024 traffic-light meat labels (OSF gm3pr): 4 arms, 1,300 UK, gender, age, ethnicity, income. Likely the "Hughes 2023" already listed; now confirmed OPEN.
+- Taillie India FOP labels (OSF r3h9w): 5 arms, 2,869, perceptual outcomes.
+- Riesenberg 2022 Australian added-sugar labels (OSF q3b4a): size unverified.
+
+## Two-arm or small (fail the 3+ variant rule)
+Taillie/Wolfson 2024 eco-score (OSF vu9t3, 1,013); Nutri-Score delivery app (OSF pek74, 813, UK); Nutri-Score restaurant field RCT (OSF tm7vw, 672, UK); alcohol calorie labelling (OSF 29q8c, 2,001, UK); red-meat message development (Dataverse KE1KLH, 1,199, perceptual).
+
+## Not open yet (watch)
+Cambridge alcohol calorie labelling online supermarket (OSF qejsc), warning vs traffic-light labels with emotional response (OSF 879kh), Nutri-Score sorting and filtering virtual supermarket (OSF 72yza), dynamic-norm meat messages UK (OSF w48dr, probably small) and Dutch panel (OSF sa7z5).
+
+## Combined ranking across both parts, for a first benchmark release
+1. Clarke 2020 Study 2 (in hand). 2. Evans 2025 salt warnings (UK, 5 arms, choice). 3. Taillie 2023 red meat (US, behavioural, rich demographics). 4. Vlasceanu 2024 climate (12 arms, behavioural task, UK subset). 5. Kerr 2021 vaccine information (UK, 5 arms, intention). 6. Mora-Plazas 2024 (four label systems, large N). Plus Clarke Study 1 as the null task, and Strengthening Democracy Challenge as a contaminated positive control.
+That is seven to eight tasks, five of them UK, four with behavioural outcomes, all downloadable today.
