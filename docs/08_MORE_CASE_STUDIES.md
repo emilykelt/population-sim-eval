@@ -35,3 +35,9 @@ All TESS studies and the Strengthening Democracy Challenge were used by Hewitt e
 3. Clarke 2023 alcohol: UK, behavioural, Cambridge group, same shape as our Clarke 2020 case; small N.
 4. Porter & Wood 2021: UK included, 22 items x 3 arms, ideology.
 5. Strengthening Democracy Challenge: 25 arms, as a calibration set given contamination.
+
+## Verified locally (23 Oct)
+- **Vlasceanu 2024**: `data/vlasceanu2024_raw/data63.xlsx`, 59,440 rows, 12 conditions, UK subset 2,403 rows (about 200 per arm). Behavioural WEPT task (0-8 pages of effort) and share intention. Gender, age, education, income, politics (0-100). UK arm means on WEPT range 4.10 to 5.03, so the between-arm signal is small; pooled across countries it will be clearer.
+- **Kerr 2021 Study 1**: `data/kerr2021_raw/study1_data.sav`, 2,488 UK adults (Prolific + Respondi quota), 5 arms (control, factbox, text, approval, mechanism), outcome Oxford hesitancy scale and a binary would-vaccinate item. Gender, age band, education, ethnicity (20 codes), minority self-ID, subjective social status, left-right politics. Study 2 (2,509 unvaccinated UK adults) is a content x length factorial; decode from `Study2_analysis.R`.
+- **Hall 2022**: `data/hall2022_raw/S1_data.dta`, 325 parents, 2 arms, real purchase. Sign test only.
+- **Turnwald 2019**: supplementary studies A (147 participants x 30 dishes x 3 label conditions, within-subject) and B are individual-level with age, sex, education, race; the multisite file is day-level.
