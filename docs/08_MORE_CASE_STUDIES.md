@@ -73,3 +73,6 @@ Cambridge alcohol calorie labelling online supermarket (OSF qejsc), warning vs t
 ## Combined ranking across both parts, for a first benchmark release
 1. Clarke 2020 Study 2 (in hand). 2. Evans 2025 salt warnings (UK, 5 arms, choice). 3. Taillie 2023 red meat (US, behavioural, rich demographics). 4. Vlasceanu 2024 climate (12 arms, behavioural task, UK subset). 5. Kerr 2021 vaccine information (UK, 5 arms, intention). 6. Mora-Plazas 2024 (four label systems, large N). Plus Clarke Study 1 as the null task, and Strengthening Democracy Challenge as a contaminated positive control.
 That is seven to eight tasks, five of them UK, four with behavioural outcomes, all downloadable today.
+
+### Evans 2025 salt labels, local check
+`rctdataF.xlsx`, sheet `casesremoved` (2,391 rows after exclusions). Six hypothetical choices each with grams of salt. Total salt chosen by condition: 1 = 12.25, 2 = 12.54, 3 = 11.99, 4 = 12.44, 5 = 13.36 (SD about 3.1, about 480 per arm). Condition 5 is almost certainly the control; the four label designs differ from control by about 1 g and from each other by 0.5 g. Same shape as Clarke: a clear label-versus-nothing effect and small between-design differences, so segment ceilings will again be modest. Demographics: age, sex, education (binary and 6-level), ethnicity (87 percent code 4), income category, BMI, household.
