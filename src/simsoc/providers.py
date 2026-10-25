@@ -27,6 +27,13 @@ PRICES: dict[str, tuple[float, float]] = {
     "claude-sonnet-5-5": (2.00, 10.00),
     "claude-sonnet-4-5-20250929": (3.00, 15.00),
     "claude-opus-5-5": (4.00, 20.00),
+    # OpenAI direct (ids starting with "gpt-" or "o"); prices per million tokens, Oct 2026 list
+    "gpt-5-nano": (0.05, 0.40),
+    "gpt-5-mini": (0.25, 2.00),
+    "gpt-5": (1.25, 10.00),
+    "gpt-4.1-nano": (0.10, 0.40),
+    "gpt-4.1-mini": (0.40, 1.60),
+    "gpt-4o-mini": (0.15, 0.60),
     "google/gemini-2.5-flash-lite": (0.10, 0.40),
     "openai/gpt-5-nano": (0.05, 0.40),
     "openai/gpt-4o-mini": (0.15, 0.60),
@@ -105,6 +112,8 @@ def complete(
         try:
             if model.startswith("claude-"):
                 text, inp, out = _call_anthropic(model, system, user, temperature, max_tokens)
+            elif model.startswith(("gpt-", "o1", "o3", "o4")):
+                text, inp, out = _call_openai(model, system, user, temperature, max_tokens)
             else:
                 text, inp, out = _call_gateway(model, system, user, temperature, max_tokens)
             break
@@ -156,3 +165,28 @@ def _call_gateway(model, system, user, temperature, max_tokens):
     d = r.json()
     u = d.get("usage", {})
     return d["choices"][0]["message"]["content"], u.get("prompt_tokens", 0), u.get("completion_tokens", 0)
+
+
+def _call_openai(model, system, user, temperature, max_tokens):
+    """Direct OpenAI chat completions. GPT-5 family ignores temperature and needs max_completion_tokens;
+    reasoning models spend tokens on reasoning first, so give headroom and set reasoning effort low."""
+    key = os.environ.get("OPENAI_API_KEY")
+    if not key:
+        raise RuntimeError("OPENAI_API_KEY not set in .env")
+    body = {"model": model, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+    if model.startswith("gpt-5") or model.startswith(("o1", "o3", "o4")):
+        body["max_completion_tokens"] = max_tokens + 2000
+        body["reasoning_effort"] = "low"
+    else:
+        body["max_tokens"] = max_tokens
+        body["temperature"] = temperature
+    r = requests.post("https://api.openai.com/v1/chat/completions",
+                      headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, json=body, timeout=120)
+    if r.status_code == 400 and "reasoning_effort" in r.text:
+        body.pop("reasoning_effort", None)
+        r = requests.post("https://api.openai.com/v1/chat/completions",
+                          headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, json=body, timeout=120)
+    r.raise_for_status()
+    d = r.json()
+    u = d.get("usage", {})
+    return d["choices"][0]["message"]["content"] or "", u.get("prompt_tokens", 0), u.get("completion_tokens", 0)

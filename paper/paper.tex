@@ -11,117 +11,134 @@
 \captionsetup{font=small,labelfont=bf}
 \setlength{\parskip}{2pt}
 
-\title{\vspace{-6mm}Ask Them or Test Them? Persona Polling Predicts the Opposite of Behavioural Replication in LLM Simulation of a UK Food-Labelling Trial\\[2mm]\large A pilot study}
-\author{Emily Kelt\thanks{University of Cambridge. \texttt{emk50@cam.ac.uk}. Code, data pipeline and all raw model outputs: project repository \texttt{simulated societies}. Draft of 22 October 2026.}}
+\title{\vspace{-6mm}Three Fidelities: Evaluating LLM Twins Against Behavioural Message-Testing Trials\\[2mm]\large Effect, distributional and mechanism fidelity on four open randomised experiments, with a prompt-perturbation audit}
+\author{Emily Kelt\thanks{University of Cambridge. \texttt{emk50@cam.ac.uk}. Code, eval specs, twin files and all raw model outputs are in the project repository \texttt{simulated societies}. Draft of 25 October 2026.}}
 \date{}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Commercial ``synthetic respondent'' tools predict how an audience will react to a message by prompting language-model personas and asking them which message would change their behaviour. We test this design against an open randomised experiment with a behavioural outcome: Clarke et al.\ (2020), in which 4,134 UK adults chose a snack from a simulated vending machine under one of six labelling conditions. Using the same interview-grounded personas, the same models and the same human data, we compare \emph{asking} personas which labelling scheme would move them with \emph{placing} each persona in one arm of the experiment and recording its choice. The two designs disagree in sign. Across three Claude models, polled personas consistently favoured calorie badges and dismissed graphic health warnings, the reverse of the human result; placed in the experiment, Claude Sonnet~5.5 reproduced the human ordering of the six arms in every demographic segment (mean segment-level Spearman $\rho = 0.79$, bootstrap 95\% CI $[0.66, 0.80]$, against a pooled-population baseline of $0.82$). Two cheaper models, Claude Haiku~5.5 and Haiku~4.5, collapsed to choosing an energy-dense snack in 94--97\% of trials regardless of condition, and a single deleted prompt sentence moved Haiku~5.5's accuracy from $0.33$ to $0.47$. An adversarial-critic ``debate'' round changed answers substantially but did not improve accuracy. We also find a three-fold inflation of the education gap by the best model. The results are from one dataset at pilot scale and should be read as hypotheses, but they argue that audience-simulation tools should replicate the decision, not poll the persona, and should report a human noise ceiling alongside any segment-level claim.
+Commercial ``synthetic respondent'' tools predict how an audience will react to a public message by prompting language-model personas. The published evidence for such tools rests almost entirely on survey items, and almost entirely on one number per model from one prompt. We propose an evaluation that separates three things a simulator can be faithful to, and test it on four open randomised experiments with behavioural or quasi-behavioural outcomes and individual-level demographics: snack warning labels (Clarke et al.\ 2020, UK, $N{=}4{,}134$), salt warning labels (Evans et al.\ 2025, UK, $N{=}2{,}391$), vaccine-information framings with a null human effect (Kerr et al.\ 2021, UK, $N{=}2{,}488$) and front-of-pack label systems (Mora-Plazas et al.\ 2024, Colombia, $N{=}8{,}004$). Each experiment is replicated with 150 \emph{twins}: personas generated from real respondents' own covariates, placed in every arm, making the study's decision. We score (i) \textbf{effect fidelity}, whether arms differ as they did for humans, against two human-only reference lines; (ii) \textbf{distributional fidelity}, whether the response distribution per arm matches; (iii) \textbf{mechanism fidelity}, whether the same covariates and covariate$\times$arm interactions predict the outcome; and (iv) individual fidelity against a leave-one-out lookup table. Claude Sonnet~5.5 recovers arm orderings where humans have them (Clarke pooled $\rho{=}0.94$) and correctly returns nothing on the null task, but its effect sizes are five times human size on Clarke, it misses the Evans effect entirely, and every label system saturates on Mora-Plazas. Simulated variance is 26--64\% of human variance on every dataset and model. Covariate main effects are recovered with the right signs ($r{=}0.84$ on Kerr) but at 3--6$\times$ human strength, and covariate$\times$arm interactions, the quantity a segment-targeting tool reports, show no agreement anywhere. Twins never beat a lookup table at predicting the individual they were built from. Two further audits qualify every number: asking the same personas \emph{which} label would move them predicts the \emph{reverse} of what people did, and 25 semantically equivalent rewordings move a cheap model's score across a range of 0.77 and a frontier model's across 0.39. We release the eval specs and argue that audience simulators should replicate decisions rather than poll opinions, report rankings with a human-calibrated scale rather than levels, publish a null task and a wording family with every score, and not report segment-specific claims at all until interaction fidelity is demonstrated.
 \end{abstract}
 
 \section{Introduction}
-A growing market (Aaru, Artificial Societies, Simile, Qualtrics Edge Audiences, Toluna, YouGov/Yabble) sells LLM ``digital twins'' that forecast how population segments will respond to marketing or public-health messages before any human sees them. The academic evidence is mixed. Conditioned on rich backstories, LLMs reproduce group-level survey distributions reasonably well \cite{argyle2023,park2024}, and aggregated LLM forecasts of survey-experiment treatment effects correlate at $r \approx 0.85$--$0.90$ with realised effects \cite{hewitt2024,lippert2024}. Yet the same models flatten within-group variance, drift toward socially desirable answers, inflate between-group differences two- to four-fold, and are sensitive to cosmetic prompt changes \cite{wang2024,bisbee2024,salecha2024,chen2026fail}. Nearly all of this evidence concerns survey items. Message testing is different: the outcome of interest is what people \emph{do} after exposure, and the human literature has long known that people are poor at reporting what persuades them, especially for fear appeals \cite{witte2000}.
+At least eight funded companies sell LLM ``digital twins'' that forecast how population segments respond to marketing and public-health messages \cite{compnote}. The academic evidence is mixed. Conditioned on rich backstories, LLMs reproduce group-level survey distributions reasonably well \cite{argyle2023,park2024}, and aggregated LLM forecasts of survey-experiment treatment effects correlate at $r\approx0.85$ with realised effects \cite{hewitt2024}. The same models flatten within-group variance, drift toward socially desirable answers, inflate between-group gaps two- to four-fold and are sensitive to cosmetic prompt changes \cite{wang2024,bisbee2024,salecha2024,chen2026fail}. Existing benchmarks score survey items \cite{santurkar2023,suh2025,toubia2025,hu2026}; none scores what people \emph{did} after exposure to a message, none reports a human noise ceiling, and none reports how much a score moves under rewording.
 
-This note asks a narrow question. Holding personas, models and ground truth fixed, does it matter whether the simulator \emph{asks} the persona which message would work, or \emph{tests} the persona by placing it in the experiment? We also ask whether cheap models suffice, and whether an adversarial critic round helps.
+``Similar to a human'' is not one property. A simulator can reproduce how a treatment shifts behaviour on average (\emph{effect fidelity}), the spread of behaviour within a group (\emph{distributional fidelity}), or the way individual characteristics drive behaviour and moderate treatment (\emph{mechanism fidelity}; we measure a structural proxy, since true mechanism requires interpretability access). A message-testing product needs the first, is unsafe without the second, and sells the third. This paper builds an evaluation that scores all three against open behavioural trials and reports what two current models achieve.
 
 \section{Method}
-\paragraph{Ground truth.} Clarke et al.\ \cite{clarke2020} randomised 4,134 UK adults to one of six labelling conditions in a $3\times 2$ design (health warning: pictorial, text-only, none; calorie badge: present, absent) and asked them to pick one of twelve snacks, six energy-dense, from a hypothetical vending machine. The primary outcome is whether an energy-dense snack was chosen. Individual-level age, gender, ethnicity, education and BMI are released on OSF (\texttt{k7tw5}). We define arm effectiveness as $1 - P(\text{energy-dense})$ and compute it for eight segments: gender $\times$ age band (18--34, 35--54, 55+) and education (degree, no degree). Two reference points are computed from the human data alone: the \emph{pooled baseline}, the Spearman correlation obtained by predicting every segment with the whole-population ranking ($0.82$ for gender$\times$age, $0.94$ for education), and a \emph{split-half ceiling}, the mean correlation between segment rankings computed on two random halves of the human sample ($0.60$ and $0.88$). The ceiling bounds what any method can achieve; the baseline is what segmentation must beat to add value.
+\paragraph{Datasets.} Table~\ref{tab:data}. Selection criteria: randomised exposure to three or more message or label variants, a choice or behavioural outcome, downloadable individual-level data with demographics. Kerr et al.\ is included as a \emph{null task}: five information framings that had no detectable effect on vaccination willingness in 2,488 UK adults. A simulator that produces an effect there is manufacturing one.
 
-\paragraph{Personas.} For each segment we generate 8--12 personas. Each is a $\sim$250-word first-person interview transcript written by the model under test, constrained to the segment's demographics plus three randomly drawn mundane life facts (shift work, shops at the corner shop, sceptical of government advice, \dots) to induce within-segment variation. Interview-style grounding follows \cite{park2024,lutz2025}. A \emph{label} condition uses the bare demographic description instead.
-
-\paragraph{Elicitation designs.} All designs see the same six arm descriptions in randomised order.
-\begin{itemize}\setlength{\itemsep}{0pt}
-\item \textbf{Poll (points).} The persona allocates 100 points across the six labelling schemes ``in proportion to how much each would actually change what you buy''. Variants: a single grounded persona sampled five times; a crowd of 12 independent grounded personas; a label-only persona; and a no-persona \emph{judge} in which the model, as a communication expert, predicts the segment.
-\item \textbf{Poll + critic (debate).} After the crowd answers, a ``blunt friend from the same community'' critiques each answer and the persona revises. Adversarial rather than consensus-seeking, since consensus debate is known to homogenise \cite{smit2024,debatevote2025}.
-\item \textbf{Replicate (choice).} Each persona is placed in \emph{one} arm, shown the twelve snacks with that arm's labelling, and asked to pick the one it would take now. Two draws per persona per arm; effectiveness is the share of lower-energy choices. This is the between-subjects design of the original trial, in the spirit of ``Turing experiments'' \cite{aher2023}.
-\end{itemize}
-
-\paragraph{Models and cost.} Claude Sonnet~5.5 (\$2/\$10 per M tokens), Haiku~5.5 (\$0.10/\$0.50) and Haiku~4.5 (\$1/\$5), temperature 1, thinking effort low. Total spend for every result reported here was about \$9. Non-Anthropic low-cost models are supported by the pipeline but were not run.
-
-\paragraph{Metrics.} Mean Spearman correlation between predicted and human rankings of the six arms within each segment; top-1 accuracy (did the method pick the human-best arm); gap preservation, the Pearson correlation between predicted and human between-segment differences, arm by arm; and 95\% bootstrap intervals over personas (1,000 resamples).
-
-\begin{table*}[t]
-\centering\small
-\caption{Study 2 of Clarke et al.\ (2020). Segment-level mean Spearman $\rho$ against human arm rankings (bootstrap 95\% CI over personas), top-1 accuracy, between-segment gap preservation, and the population-level ordering correlation. Human reference points: pooled baseline $0.82$ / $0.94$, split-half ceiling $0.60$ / $0.88$ (gender$\times$age / education).}
-\label{tab:main}
-\begin{tabular}{llcccccr}
+\begin{table*}[t]\centering\small
+\caption{Datasets. Ceiling = split-half Spearman correlation between segment-level arm rankings computed on two random halves of the human sample (gender$\times$age-band segments). Pooled baseline = correlation obtained by predicting every segment with the whole-population ranking.}
+\label{tab:data}
+\resizebox{\textwidth}{!}{\begin{tabular}{lllrlcc}
 \toprule
-Model & Design & $\rho$ (segment) & 95\% CI & top-1 & gap & $\rho$ (pooled) & cost \\
+Study & Country & Arms & $N$ & Outcome & Ceiling & Pooled baseline \\
 \midrule
-Sonnet 5.5 & Replicate (choice) & \textbf{0.79} & [0.66, 0.80] & \textbf{0.62} & \textbf{0.36} & 0.94 & \$2.10 \\
-Sonnet 5.5 & Judge, no persona & 0.78 & [0.71, 0.79] & 0.38 & 0.14 & 0.89 & \$0.32 \\
-Sonnet 5.5 & Poll, label persona & 0.41 & [0.35, 0.47] & 0.38 & $-0.17$ & -- & \$0.22 \\
-Sonnet 5.5 & Poll, grounded crowd (12) & 0.20 & [0.17, 0.27] & 0.00 & 0.08 & 0.26 & \$0.42 \\
-Sonnet 5.5 & Poll + critic & 0.26 & [0.21, 0.35] & 0.00 & 0.28 & 0.26 & \$0.89 \\
-\midrule
-Haiku 5.5 & Replicate (choice) & 0.33 & [0.05, 0.52] & 0.12 & 0.03 & 0.75 & \$0.26 \\
-Haiku 5.5 & Replicate, neutral prompt & 0.47 & [0.24, 0.57] & 0.50 & 0.37 & 0.89 & \$0.28 \\
-Haiku 5.5 & Judge, no persona & 0.29 & [0.19, 0.36] & 0.12 & $-0.13$ & 0.26 & \$0.02 \\
-Haiku 5.5 & Poll, label persona & 0.12 & [$-0.01$, 0.28] & 0.00 & 0.08 & -- & \$0.02 \\
-Haiku 5.5 & Poll, grounded crowd (12) & $-0.37$ & [$-0.46$, $-0.26$] & 0.00 & 0.10 & $-0.60$ & \$0.05 \\
-Haiku 5.5 & Poll + critic & $-0.36$ & [$-0.46$, $-0.15$] & 0.00 & $-0.07$ & $-0.43$ & \$0.10 \\
-\midrule
-Haiku 4.5 & Replicate (choice) & $-0.17$ & [$-0.37$, 0.07] & 0.12 & $-0.01$ & 0.09 & \$1.17 \\
-Haiku 4.5 & Judge, no persona & 0.40 & [0.26, 0.48] & 0.25 & $-0.10$ & 0.49 & \$0.14 \\
-Haiku 4.5 & Poll, grounded crowd (12) & $-0.38$ & [$-0.52$, $-0.20$] & 0.00 & $-0.03$ & $-0.60$ & \$0.25 \\
-Haiku 4.5 & Poll + critic & 0.01 & -- & 0.25 & 0.13 & -- & \$0.53 \\
+Clarke et al.\ 2020, S2 \cite{clarke2020} & UK & 6 snack-labelling schemes & 4,134 & chose lower-energy snack (12 options) & 0.61 & 0.82 \\
+Evans \& Robinson 2025 \cite{evans2025} & UK & 4 salt-warning designs + QR control & 2,391 & total salt (g) over 6 menu choices & 0.42 & 0.68 \\
+Kerr et al.\ 2021, S1 \cite{kerr2021} & UK & 5 vaccine-information texts (null) & 2,488 & Oxford willingness scale, 1--5 & 0.08 & 0.28 \\
+Mora-Plazas et al.\ 2024 \cite{mora2024} & Colombia & 4 front-of-pack label systems & 8,004 & chose no-added-sugar drink & 0.87 & 0.90 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{table*}
+
+\paragraph{Twins.} For each dataset we sample 150 respondents across arms. Each becomes a twin: a $\sim$200-word first-person interview transcript generated by the model under test, constrained to the respondent's recorded covariates (age, gender, ethnicity, education, income, BMI, relevant habits) and forbidden from contradicting them. Twins therefore have exactly the covariate composition of a human sample and can be matched back to a real person.
+
+\paragraph{Replication, not polling.} Each twin is placed in \emph{one} arm at a time and makes the study's decision with the study's options: picks one of twelve snacks (Clarke), one item from each of six menus with the arm's symbol printed beside high-salt items (Evans), answers the seven Oxford willingness items after reading the arm's text (Kerr), or chooses between two drinks whose fronts carry the arm's label (Mora-Plazas). Every twin is run in every arm, so arm comparisons are within-composition. Prompts contain no honesty admonitions, for reasons given in Section~\ref{sec:perturb}.
+
+\paragraph{Scores.} \emph{Effect}: Spearman correlation between human and simulated arm means, pooled and within segment; slope of simulated on human arm effects relative to control (1 = calibrated); top-1 arm; correlation and slope of between-segment differences. \emph{Distribution}: Wasserstein-1 per arm in outcome units; total variation for discrete outcomes; dispersion ratio (simulated SD / human SD within arm); mean bias over segment$\times$arm cells. \emph{Mechanism}: OLS of outcome on standardised covariates and arm dummies in each table; correlation and sign agreement of covariate coefficients; the same for arm$\times$covariate interactions; share of outcome variance explained by covariates alone. \emph{Individual}: twin outcome in its real person's own arm versus that person's outcome, against a leave-one-out (segment, arm) cell mean from the full human sample.
+
+\paragraph{Models and cost.} Claude Sonnet~5.5 (\$2/\$10 per Mtok) and Claude Haiku~5.5 (\$0.10/\$0.50), temperature~1, one draw per twin per arm. The four-dataset run cost \$17.90. Two earlier audits on Clarke used synthetic personas: a design comparison (poll versus replicate, Section~\ref{sec:design}) and a prompt-perturbation study (Section~\ref{sec:perturb}).
 
 \section{Results}
 
-\paragraph{Polling personas gets the sign wrong.} Figure~\ref{fig:stated} shows the core result. Asked which labelling scheme would change their behaviour, Sonnet's grounded crowd put 36\% of its points on calorie badges alone and 5\% on pictorial warnings; humans chose a lower-energy snack 46\% of the time under calorie badges and 63\% under pictorial warnings. The rationales are recognisably human: ``gory pictures would make me roll my eyes'', ``a number I can take in at a glance''. Both Haiku models produce the same pattern, with population-level correlations of $-0.60$. The poll design is not noisy; it is confidently wrong in a direction the fear-appeal literature predicts for self-report \cite{witte2000}.
+\begin{figure*}[t]\centering\includegraphics[width=\textwidth]{fig_arms_all.pdf}
+\caption{Per-arm outcome, humans (black) versus 150 twins per model. Sonnet recovers the ordering on Clarke and Mora-Plazas with exaggerated range, is flat on Evans, and correctly flat on the null task; Haiku is flat everywhere except Mora-Plazas.}
+\label{fig:arms}\end{figure*}
 
-\paragraph{Replicating the experiment recovers the human ordering, on one model.} Placed inside the trial, Sonnet~5.5 reproduced the human ordering (pictorial $>$ text $>$ calories $>$ nothing) in all eight segments (Figure~\ref{fig:arms}), with segment-level $\rho = 0.79$ and top-1 accuracy $0.62$. This matches the pooled-population baseline and exceeds the gender$\times$age noise ceiling; it does not show that segmentation adds information beyond the population ranking, and in this dataset there is little such information to add. A no-persona Sonnet judge reaches almost the same rank accuracy ($0.78$) at a sixth of the cost, but with weaker gap preservation ($0.14$ vs $0.36$).
+\subsection{Effect fidelity: ordering yes, magnitude no}
+Figure~\ref{fig:arms} and Table~\ref{tab:main}. On Clarke both models reproduce the human ordering of the six schemes (pooled $\rho{=}0.94$) and Sonnet's segment-level rankings ($0.77$) exceed the human ceiling ($0.61$), approaching the pooled baseline ($0.82$). But Sonnet's effect sizes are $5.3\times$ human: the labels explain 55\% of simulated choice variance against 2.4\% for humans, and twins run from 7\% to 99\% healthy choice where humans move from 41\% to 63\%. Haiku's slope of 0.62 looks better calibrated only because its twins barely respond to anything (4\% to 17\%).
 
-\begin{figure}[t]
-\centering\includegraphics[width=\columnwidth]{fig_stated_revealed.pdf}
-\caption{Same model (Sonnet~5.5), same personas, opposite conclusions. Light bars: share of 100 points the polled crowd gave each labelling scheme. Dark bars: share of lower-energy choices when personas were placed in each arm. Black: human participants.}
-\label{fig:stated}
-\end{figure}
+On Evans, neither model recovers the salt effect (pooled $\rho{=}0.10$, slope negative). The twins reacted to the label: the share of labelled items chosen fell from 27\% under the QR control to 5\% under any warning (humans: 48\% to 33\%). They then chose low-salt \emph{unlabelled} items, so total salt barely moved. Twins avoid the marked item and ignore the nutrient; humans do a little of both. Top-1 accuracy of 0.67--0.83 here is a tie artefact: the four designs differ by under 0.5~g for humans.
 
-\begin{figure}[t]
-\centering\includegraphics[width=\columnwidth]{fig_arms.pdf}
-\caption{Population-level share of lower-energy snack choices by arm. Sonnet reproduces the human ordering with exaggerated spread. Both Haiku models sit near zero in every arm; removing one sentence from the prompt (dashed) more than doubles Haiku~5.5's rate.}
-\label{fig:arms}
-\end{figure}
+On the null task, Sonnet correctly produces no effect (slope $-0.03$; arm $R^2$ 0.000). Haiku produces a negative effect of information (slope $-0.39$, pooled $\rho{=}-0.60$). The null task separated the two models when the positive tasks did not.
 
-\paragraph{Cheap models collapse rather than err.} Haiku~5.5 and 4.5 personas chose an energy-dense snack in 94--97\% of trials in every arm; humans did so in 59\% of control trials. With almost no variance there is nothing to rank, and the between-model difference in $\rho$ is mostly noise around a floor. The collapse is prompt-dependent: deleting the sentence ``Do not try to be healthy or make a point'' raised Haiku~5.5's lower-energy rate from $0.07$ to $0.19$ and its segment-level $\rho$ from $0.33$ to $0.47$, with the population-level ordering rising to $0.89$. A change that should be semantically neutral moved the estimate more than the treatment did, as \cite{bisbee2024} found for survey items.
+On Mora-Plazas, with back-of-pack sugar figures mentioned in the prompt, every twin on both models chose the healthier drink in every arm. Removing the figures restores the ordering (pooled $\rho{=}0.77$) but any label at all saturates to 100\% healthy choice, while humans distinguish Nutri-Score (73\%) from a nutrient warning (83\%).
 
-\paragraph{The best model over-determines demographics.} Sonnet placed the no-degree segment at $0.1$--$0.3$ lower-energy choices and the degree segment at $0.3$--$0.9$; the human figures are $0.36$--$0.62$ and $0.44$--$0.66$. The direction is right and the magnitude is roughly three times too large, consistent with the $2$--$4\times$ gap inflation reported by \cite{chen2026fail}. Any segment difference shown to a user needs shrinkage calibrated on a human pilot.
+\begin{table*}[t]\centering\small
+\caption{Headline scores. Effect slope: simulated arm effects regressed on human arm effects (1 = calibrated). Dispersion: simulated/human SD within arm. Cov.\ $R^2$: outcome variance explained by covariates alone, human versus twins. Interaction $r$: agreement of arm$\times$covariate coefficients. Individual: twin versus own person, against leave-one-out lookup.}
+\label{tab:main}
+\resizebox{\textwidth}{!}{\begin{tabular}{llcccccccl}
+\toprule
+Dataset & Model & pooled $\rho$ & seg.\ $\rho$ & effect slope & dispersion & bias & cov.\ $R^2$ h/sim & interaction $r$ & individual (sim vs lookup) \\
+\midrule
+Clarke & Sonnet & 0.94 & 0.77 & 5.32 & 0.64 & $-0.10$ & 0.03 / 0.07 & 0.03 & acc 0.58 vs 0.61 \\
+Clarke & Haiku & 0.94 & 0.66 & 0.62 & 0.55 & $-0.45$ & 0.03 / 0.19 & $-0.02$ & acc 0.43 vs 0.61 \\
+Evans & Sonnet & 0.10 & 0.12 & $-0.17$ & 0.35 & $-2.5$ g & 0.08 / 0.32 & $-0.57$ & MAE 3.1 vs 2.2 g \\
+Evans & Haiku & 0.10 & 0.33 & $-0.19$ & 0.47 & $-2.9$ g & 0.08 / 0.12 & 0.60 & MAE 3.7 vs 2.2 g \\
+Kerr (null) & Sonnet & $-0.10$ & $-0.26$ & $-0.03$ & 0.40 & $+0.22$ & 0.10 / 0.59 & $-0.11$ & MAE 0.77 vs 0.78 \\
+Kerr (null) & Haiku & $-0.60$ & $-0.22$ & $-0.39$ & 0.45 & $-0.13$ & 0.10 / 0.33 & 0.24 & MAE 0.84 vs 0.78 \\
+Mora-Plazas & Sonnet & 0.77 & 0.69 & 0.00 & 0.26 & $+0.15$ & 0.00 / 0.01 & 0.13 & acc 0.77 vs 0.79 \\
+Mora-Plazas & Haiku & 0.77 & 0.69 & 0.00 & 0.27 & $+0.11$ & 0.00 / 0.00 & 0.26 & acc 0.74 vs 0.79 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
 
-\paragraph{An adversarial critic moves answers but not accuracy.} The critic round shifted 17--29 points per persona and slightly increased within-segment variance (Sonnet: SD $5.1 \to 5.9$), so it is not a consensus-collapse mechanism. Rank accuracy was unchanged (Sonnet $0.20 \to 0.26$; Haiku~5.5 $-0.37 \to -0.36$) at two to three times the cost. A critic cannot repair an elicitation whose signal is wrong-signed.
+\subsection{Distributional fidelity: collapsed everywhere}
+Dispersion ratios are 0.26--0.64 on every dataset and model (Figure~\ref{fig:disp}, left). No cell reaches 0.7. Wasserstein distances are large in outcome units: 2.4--2.9~g of salt against a human SD of 3.1~g; 0.45--0.52 scale points on Kerr. Bias is toward the healthier or more compliant answer on three of four datasets. Because twins carry real covariates, this collapse cannot be attributed to synthetic personas; it is the flattening reported for survey items \cite{wang2024,park2023div} reproduced on behavioural outcomes with matched composition.
 
-\paragraph{Null check.} Study 1 of the same project (4,607 adults rating desire for a chocolate bar under six disease framings) has a split-half ceiling of $0.17$: humans barely distinguish the framings. Haiku~5.5 methods scored $0.17$--$0.38$, consistent with noise, yet every method produced a confident ``best framing'' per segment. A simulator that does not report the ceiling will present noise as insight.
+\begin{figure}[t]\centering\includegraphics[width=\columnwidth]{fig_dispersion_mech.pdf}
+\caption{Left: within-arm dispersion ratio; 1 would match human variance. Right: share of outcome variance explained by covariates alone, humans (black ticks) versus twins. Twins are their demographics; humans mostly are not.}
+\label{fig:disp}\end{figure}
+
+\subsection{Mechanism fidelity: the right levers, pulled too hard; no interactions}
+Where humans have covariate structure, Sonnet finds it with the right signs: Kerr main-effect correlation $0.84$ with 100\% sign agreement (politics, age and subjective social status predict willingness the same way); Clarke $0.80$ with 83\% agreement. Where humans have none (Evans, Mora-Plazas), Sonnet returns none, which is correct. But covariates explain 3--6$\times$ more of twin behaviour than of human behaviour (Figure~\ref{fig:disp}, right): Kerr 0.59 versus 0.10, Evans 0.32 versus 0.08. Arm$\times$covariate interactions, the quantity behind ``this message works better for group X'', show no agreement on any dataset ($r$ from $-0.57$ to $0.60$, centred on zero). The one output a segment-targeting tool exists to produce is the one with no measurable fidelity.
+
+\subsection{Individual fidelity: never beats a lookup table}
+Clarke: Sonnet 58\% versus lookup 61\% versus majority 60\%. Evans: Sonnet MAE 3.1~g versus 2.2~g, correlation with the real person 0.01. Kerr: 0.77 versus 0.78, $r{=}0.25$. Mora-Plazas: all at the majority rate. Real covariates do not make a twin predict its person, consistent with \cite{toubia2025,chen2026fail}.
+
+\subsection{Design audit: ask them or test them}\label{sec:design}
+Before the twin study we ran the Clarke task two ways with the same synthetic personas and models. \emph{Poll}: allocate 100 points across the six schemes by how much each ``would change what you buy''. \emph{Replicate}: as above. Polled personas on all three Claude models put most points on calorie badges and least on graphic warnings, the reverse of the human result (population-level $\rho$ of $-0.60$ for both Haiku models), with recognisably human rationales (``gory pictures would make me roll my eyes''). Under 25 rewordings the poll's modal top pick was calories-only in every segment every time. Replicated, the same personas rank pictorial warnings first. The poll is stable and wrong; replication is right on average. This is the stated-versus-revealed gap for fear appeals \cite{witte2000}, reproduced by the simulator, and it is the design most synthetic-respondent products use.
+
+\subsection{Perturbation audit: one prompt is a sample of one}\label{sec:perturb}
+We rewrote four prompt components (persona framing, task instruction, arm descriptions, output format) five ways each and ran a $5\times5$ Graeco-Latin square of 25 wordings on Haiku (both designs) and 10 on Sonnet (replicate), same personas (Figure~\ref{fig:perturb}). Haiku's segment-level $\rho$ spanned $-0.11$ to $0.66$ (median 0.16); Sonnet's spanned 0.41 to 0.80 (median 0.70). The model gap survives (Mann--Whitney $p{=}10^{-5}$) but the extremes overlap. Base rate was 90\% explained by the task wording on Haiku: three wordings containing an honesty admonition (``do not try to be healthy'') gave 4--6\% healthy choice, two without gave 24--29\%; Sonnet moved from 0.22 to 0.63 around the human 0.41. Orderings were far more stable than levels (Sonnet population-level $\rho$ never below 0.77). Every single-prompt leaderboard entry, including our own earlier 0.79 for Sonnet, is a draw from a distribution wider than most model gaps.
+
+\begin{figure}[t]\centering\includegraphics[width=\columnwidth]{fig_perturb.pdf}
+\caption{Segment-level $\rho$ per prompt wording on Clarke, synthetic personas. Bars are medians.}
+\label{fig:perturb}\end{figure}
 
 \section{Discussion}
-The practical recommendation is simple: simulate the decision, not the opinion about the decision. This is how the strongest published results were obtained \cite{hewitt2024,aher2023}, and it is the opposite of how most persona-polling products are used. Three caveats bound the claim. First, one dataset with modest true heterogeneity; the two open datasets with published heterogeneity, label design by Latino parents \cite{hall2021} and climate labels by sex \cite{wolfson2022}, need author requests. Second, pilot scale: 8--12 personas per cell and two draws, where $\sim$200 draws per cell are recommended for stable distributions \cite{sun2024}. Third, one prompt wording per design; the Haiku ablation shows that any number here is partly a property of the prompt. A full study would run three datasets, four model families including open-weight and base models \cite{lutz2025}, five paraphrases per design, and report each model as a distribution over wordings.
+Three fidelities give three verdicts. Effect fidelity is partly achieved by a capable model: orderings are recovered where humans have them, nothing is invented where they do not, but magnitudes are wrong by factors of five in one direction or absent in the other. Distributional fidelity is not achieved by any configuration tested. Mechanism fidelity splits exactly along the line that matters commercially: main effects of who people are come out with the right sign and several times the right strength; moderation of treatment by who people are does not come out at all.
+
+The practical rules that follow: replicate the decision, never poll the persona; report rankings with a scale factor fitted on a small human pilot, never levels; include a null task; publish a wording family and report median and spread; and do not report segment-specific message recommendations until arm$\times$covariate fidelity has been shown on held-out human data, which no configuration here achieves. Prompt omniscience is a separate confound: any fact placed in the stimulus text is used with certainty (Mora-Plazas, version 1), so stimulus descriptions must contain only what a human would plausibly attend to, and that choice should be perturbed like any other wording.
+
+\paragraph{Limitations.} One draw per twin per arm; one wording per task in the twin study (the perturbation audit covers only Clarke); Anthropic models only; stimuli are text reconstructions of visual labels; backstories were written by the model under test, so a weaker model also writes weaker twins; Kerr and Mora-Plazas outcomes are intentions and hypothetical choices rather than purchases. The datasets with published demographic heterogeneity (Hall et al.\ 2021; Wolfson et al.\ 2022) are available only on request and would be the right place to test interaction fidelity properly.
 
 \section{Conclusion}
-On an open behavioural trial, asking LLM personas which public-health message would move them predicted the reverse of what people did, while placing the same personas in the experiment reproduced the human ordering with a capable model. Cheap models collapsed, a critic round did not help, and segment gaps were inflated. Audience-simulation tools should replicate decisions, calibrate segment gaps on human pilots, and publish the human noise ceiling with every prediction.
+On four open behavioural trials, LLM twins built from real respondents' covariates rank message variants roughly as people do, exaggerate or miss the size of the effect, show a third to two-thirds of human variance, treat demographics as several times more deterministic than they are, and show no fidelity on which groups respond to which message. Evaluations that report one accuracy number from one prompt on survey items cannot see any of this. The three-fidelity eval, the null task and the wording family are released so that they can.
 
 \small
 \begin{thebibliography}{99}\setlength{\itemsep}{0pt}
-\bibitem{aher2023} Aher, G., Arriaga, R., Kalai, A. (2023). Using large language models to simulate multiple humans and replicate human subject studies. ICML. arXiv:2208.10264.
 \bibitem{argyle2023} Argyle, L.\ et al.\ (2023). Out of one, many: Using language models to simulate human samples. \emph{Political Analysis} 31(3).
 \bibitem{bisbee2024} Bisbee, J.\ et al.\ (2024). Synthetic replacements for human survey data? The perils of large language models. \emph{Political Analysis}.
 \bibitem{chen2026fail} Chen, Zhu, Zheng (2026). When synthetic users fail. arXiv:2607.26348.
 \bibitem{clarke2020} Clarke, N., Pechey, E., Mantzari, E.\ et al.\ (2020). Impact of health warning labels on snack selection: An online experimental study. \emph{Appetite}. Data: \url{https://osf.io/k7tw5/}.
-\bibitem{debatevote2025} Debate or vote: Which yields better decisions in multi-agent large language models? (2025). arXiv:2508.17536.
-\bibitem{hall2021} Hall, M.\ G., Lazard, A.\ J., Grummon, A.\ H.\ et al.\ (2021). Designing warnings for sugary drinks: A randomized experiment with Latino and non-Latino parents. \emph{Preventive Medicine} 148.
-\bibitem{hewitt2024} Hewitt, L., Ashokkumar, A., Ghezae, I., Willer, R. (2024/2026). Predicting results of social science experiments using large language models. \emph{Nature}.
-\bibitem{lippert2024} Lippert, S.\ et al.\ (2024). Can large language models help predict results from a complex behavioural science study? \emph{Royal Society Open Science}.
-\bibitem{lutz2025} Lutz, Sen, Ahnert, Rogers, Strohmaier (2025). The prompt makes the person(a). Findings of EMNLP. arXiv:2507.16076.
+\bibitem{compnote} Competitor landscape compiled from public filings: Aaru, Artificial Societies, Simile, Listen Labs, Evidenza, Qualtrics Edge Audiences, Toluna HarmonAIze, YouGov/Yabble (2025--2026).
+\bibitem{evans2025} Evans, R., \dots, Robinson, E.\ (2025). Salt warning labels in the out-of-home food sector: online and real-world randomised controlled trials in the UK. \emph{Lancet Public Health} 10(8). Data: \url{https://osf.io/vyh2x/}.
+\bibitem{hewitt2024} Hewitt, L., Ashokkumar, A., Ghezae, I., Willer, R.\ (2024/2026). Predicting results of social science experiments using large language models. \emph{Nature}.
+\bibitem{hu2026} Hu, T., Baumann, J., Lupo, N., Collier, N., Hovy, D., R\"ottger, P.\ (2026). SimBench. ICLR.
+\bibitem{kerr2021} Kerr, J.\ R., Freeman, A.\ L.\ J., Marteau, T.\ M., van der Linden, S.\ (2021). Effect of information about COVID-19 vaccine effectiveness and side effects on behavioural intentions: Two online experiments. \emph{Vaccines} 9(4):379. Data: \url{https://osf.io/78hr9/}.
+\bibitem{mora2024} Mora-Plazas, M.\ et al.\ (2024). Nutrient warnings versus GDA and Nutri-Score labels in Colombia: a randomised experiment. \emph{PLOS ONE} 19:e0303514. Data: \url{https://osf.io/5vbzm/}.
+\bibitem{park2023div} Park, P.\ S., Schoenegger, P., Zhu, C.\ (2024). Diminished diversity-of-thought in a standard large language model. \emph{Behavior Research Methods}.
 \bibitem{park2024} Park, J.\ S.\ et al.\ (2024). Generative agent simulations of 1,000 people. arXiv:2411.10109.
 \bibitem{salecha2024} Salecha, A.\ et al.\ (2024). Large language models display human-like social desirability biases in Big Five personality surveys. \emph{PNAS Nexus}.
-\bibitem{smit2024} Smit, A.\ et al.\ (2024). Should we be going MAD? A look at multi-agent debate strategies for LLMs. ICML.
-\bibitem{sun2024} Sun, S.\ et al.\ (2024). Random silicon sampling. arXiv:2402.18144.
+\bibitem{santurkar2023} Santurkar, S.\ et al.\ (2023). Whose opinions do language models reflect? ICML.
+\bibitem{suh2025} Suh, J.\ et al.\ (2025). SubPOP: Language models can predict public opinion for sub-populations. ACL.
+\bibitem{toubia2025} Toubia, O.\ et al.\ (2025). Twin-2K-500. arXiv:2505.17479.
 \bibitem{wang2024} Wang, A., Morgenstern, J., Dickerson, J.\ (2024). Large language models should not replace human participants because they can misportray and flatten identity groups. arXiv:2402.01908.
-\bibitem{witte2000} Witte, K., Allen, M.\ (2000). A meta-analysis of fear appeals: Implications for effective public health campaigns. \emph{Health Education \& Behavior} 27(5).
-\bibitem{wolfson2022} Wolfson, J.\ A.\ et al.\ (2022). Effect of climate change impact menu labels on fast food ordering choices. \emph{JAMA Network Open} 5(12).
+\bibitem{witte2000} Witte, K., Allen, M.\ (2000). A meta-analysis of fear appeals. \emph{Health Education \& Behavior} 27(5).
 \end{thebibliography}
 \end{document}
