@@ -1,0 +1,12 @@
+clarke2020_s2: 4126 humans, 150 twins, 6 arms; split-half ceiling 0.61
+  claude-sonnet-5-5: 900/900 valid answers, $3.09, 404s
+  EFFECT  pooled rho 0.94 | seg rho nan (baseline nan, ceiling 0.61) | top1 nan | gap r nan slope nan | effect-size slope 5.32
+  DIST    W1 0.309 | TV 0.309 | dispersion ratio 0.64 | seg-arm MAE nan bias +nan
+  MECH    main r 0.80 sign 0.83 | interaction r 0.03 | covariate R2 human 0.027 sim 0.067 | arm R2 human 0.024 sim 0.552
+  INDIV   {'n': 150, 'accuracy_sim': 0.58, 'accuracy_lookup': 0.68, 'accuracy_majority': 0.6}
+  claude-haiku-5-5: 900/900 valid answers, $0.24, 450s
+  EFFECT  pooled rho 0.94 | seg rho nan (baseline nan, ceiling 0.61) | top1 nan | gap r nan slope nan | effect-size slope 0.62
+  DIST    W1 0.450 | TV 0.450 | dispersion ratio 0.55 | seg-arm MAE nan bias +nan
+  MECH    main r 0.65 sign 0.67 | interaction r -0.02 | covariate R2 human 0.027 sim 0.188 | arm R2 human 0.024 sim 0.028
+  INDIV   {'n': 150, 'accuracy_sim': 0.4266666666666667, 'accuracy_lookup': 0.68, 'accuracy_majority': 0.6}
+TOTAL $3.32

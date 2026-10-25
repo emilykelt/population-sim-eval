@@ -1,0 +1,4652 @@
+[
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "15",
+  "covariates": {
+   "age": "64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 64.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 24.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1830",
+  "covariates": {
+   "age": "50",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a335-40k",
+   "bmi_rounded": "26.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 26.0,
+   "income_rank": 6.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2531",
+  "covariates": {
+   "age": "51",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "24.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 24.0,
+   "income_rank": 4.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2865",
+  "covariates": {
+   "age": "66",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 66.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 28.0,
+   "income_rank": 14.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2023",
+  "covariates": {
+   "age": "43",
+   "gender": "woman",
+   "ethnicity": "Other",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": null,
+   "bmi_rounded": "23.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": null,
+   "snack_daily": 0.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2408",
+  "covariates": {
+   "age": "75",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 75.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 27.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3710",
+  "covariates": {
+   "age": "60",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 19.0,
+   "income_rank": 5.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3073",
+  "covariates": {
+   "age": "83",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "28.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 83.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 28.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2970",
+  "covariates": {
+   "age": "60",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 60.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 28.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1194",
+  "covariates": {
+   "age": "55",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 22.0,
+   "income_rank": 0.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1173",
+  "covariates": {
+   "age": "25",
+   "gender": "man",
+   "ethnicity": "Black or Black British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 21.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1177",
+  "covariates": {
+   "age": "28",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "20.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 14.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1848",
+  "covariates": {
+   "age": "48",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": null,
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 24.0,
+   "income_rank": null,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "887",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "21.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 21.0,
+   "income_rank": 14.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1818",
+  "covariates": {
+   "age": "54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "27.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 27.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1478",
+  "covariates": {
+   "age": "30",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "18.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 18.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1895",
+  "covariates": {
+   "age": "52",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "28.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3454",
+  "covariates": {
+   "age": "43",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "30.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 30.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2002",
+  "covariates": {
+   "age": "22",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 22.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1943",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a320-25k",
+   "bmi_rounded": "35.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 35.0,
+   "income_rank": 3.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "873",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 27.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "691",
+  "covariates": {
+   "age": "33",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 20.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3383",
+  "covariates": {
+   "age": "43",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "32.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 32.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2947",
+  "covariates": {
+   "age": "65",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "bmi": 25.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3001",
+  "covariates": {
+   "age": "60",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "22.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 60.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 22.0,
+   "income_rank": 8.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "864",
+  "covariates": {
+   "age": "34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "24.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 24.0,
+   "income_rank": 5.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "4127",
+  "covariates": {
+   "age": "69",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 22.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "84",
+  "covariates": {
+   "age": "71",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 71.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "bmi": 28.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "201",
+  "covariates": {
+   "age": "27",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 27.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 19.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "9",
+  "covariates": {
+   "age": "77",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 77.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 28.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "8",
+  "covariates": {
+   "age": "59",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 59.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 25.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3190",
+  "covariates": {
+   "age": "51",
+   "gender": "woman",
+   "ethnicity": "Mixed",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 4.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1821",
+  "covariates": {
+   "age": "44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 23.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2484",
+  "covariates": {
+   "age": "73",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 73.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 30.0,
+   "income_rank": 4.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3133",
+  "covariates": {
+   "age": "61",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "16.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 61.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 16.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3594",
+  "covariates": {
+   "age": "50",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "24.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 24.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2128",
+  "covariates": {
+   "age": "49",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "29.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 29.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3684",
+  "covariates": {
+   "age": "60",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "46.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 46.0,
+   "income_rank": 4.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2764",
+  "covariates": {
+   "age": "45",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": null,
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 23.0,
+   "income_rank": null,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2123",
+  "covariates": {
+   "age": "38",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "26.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 26.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2999",
+  "covariates": {
+   "age": "37",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 22.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2850",
+  "covariates": {
+   "age": "79",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 79.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3609",
+  "covariates": {
+   "age": "39",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "44.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 44.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3161",
+  "covariates": {
+   "age": "49",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 22.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3356",
+  "covariates": {
+   "age": "52",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1229",
+  "covariates": {
+   "age": "69",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "31.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "bmi": 31.0,
+   "income_rank": 5.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "404",
+  "covariates": {
+   "age": "27",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "25.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 27.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 25.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2824",
+  "covariates": {
+   "age": "54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a340-45k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 19.0,
+   "income_rank": 7.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3587",
+  "covariates": {
+   "age": "35",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "28.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 28.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1086",
+  "covariates": {
+   "age": "63",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "32.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 32.0,
+   "income_rank": 9.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1515",
+  "covariates": {
+   "age": "29",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": null,
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": null,
+   "income_rank": 0.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3417",
+  "covariates": {
+   "age": "54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 25.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "86",
+  "covariates": {
+   "age": "69",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 20.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3261",
+  "covariates": {
+   "age": "41",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "29.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 29.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2755",
+  "covariates": {
+   "age": "51",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "39.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 39.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1163",
+  "covariates": {
+   "age": "31",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 20.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3137",
+  "covariates": {
+   "age": "54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 24.0,
+   "income_rank": 14.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "926",
+  "covariates": {
+   "age": "32",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "40.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 40.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "484",
+  "covariates": {
+   "age": "23",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "31.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 31.0,
+   "income_rank": 8.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3646",
+  "covariates": {
+   "age": "44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a340-45k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 21.0,
+   "income_rank": 7.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "949",
+  "covariates": {
+   "age": "34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "32.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 32.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2458",
+  "covariates": {
+   "age": "67",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 67.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 19.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2290",
+  "covariates": {
+   "age": "55",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "26.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 26.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "472",
+  "covariates": {
+   "age": "26",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 20.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1897",
+  "covariates": {
+   "age": "50",
+   "gender": "man",
+   "ethnicity": "Black or Black British",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "28.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 28.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1413",
+  "covariates": {
+   "age": "23",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "37.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 37.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3591",
+  "covariates": {
+   "age": "54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "31.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 31.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "724",
+  "covariates": {
+   "age": "29",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "32.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 32.0,
+   "income_rank": 14.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1079",
+  "covariates": {
+   "age": "63",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a340-45k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 24.0,
+   "income_rank": 7.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "4032",
+  "covariates": {
+   "age": "45",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 20.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3129",
+  "covariates": {
+   "age": "55",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 20.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1455",
+  "covariates": {
+   "age": "32",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a340-45k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 19.0,
+   "income_rank": 7.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2695",
+  "covariates": {
+   "age": "77",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 77.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 24.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2980",
+  "covariates": {
+   "age": "58",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "26.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 58.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 26.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3799",
+  "covariates": {
+   "age": "71",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "33.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 71.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 33.0,
+   "income_rank": 9.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "410",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 19.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "460",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "ethnicity": "Other",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": null,
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": null,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3585",
+  "covariates": {
+   "age": "44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "37.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 37.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "740",
+  "covariates": {
+   "age": "30",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 22.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2706",
+  "covariates": {
+   "age": "63",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 19.0,
+   "income_rank": 4.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "666",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a335-40k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "bmi": 21.0,
+   "income_rank": 6.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1896",
+  "covariates": {
+   "age": "47",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 47.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 30.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "4096",
+  "covariates": {
+   "age": "76",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 76.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "bmi": 25.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2739",
+  "covariates": {
+   "age": "48",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 25.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "676",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "26.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 14.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1474",
+  "covariates": {
+   "age": "24",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "32.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 32.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1363",
+  "covariates": {
+   "age": "29",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 28.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1512",
+  "covariates": {
+   "age": "28",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1469",
+  "covariates": {
+   "age": "34",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 25.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1865",
+  "covariates": {
+   "age": "47",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "27.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 47.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 27.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "4084",
+  "covariates": {
+   "age": "61",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "33.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 61.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 33.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3387",
+  "covariates": {
+   "age": "49",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "17.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 17.0,
+   "income_rank": 0.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3362",
+  "covariates": {
+   "age": "49",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "32.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 32.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2969",
+  "covariates": {
+   "age": "54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "42.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 42.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2547",
+  "covariates": {
+   "age": "69",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 27.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3053",
+  "covariates": {
+   "age": "49",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a335-40k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1780",
+  "covariates": {
+   "age": "38",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "35.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 35.0,
+   "income_rank": 0.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2321",
+  "covariates": {
+   "age": "54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 23.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2022",
+  "covariates": {
+   "age": "37",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 23.0,
+   "income_rank": 5.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2946",
+  "covariates": {
+   "age": "46",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "36.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 46.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 36.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3479",
+  "covariates": {
+   "age": "75",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 75.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 30.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3116",
+  "covariates": {
+   "age": "48",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1451",
+  "covariates": {
+   "age": "32",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 19.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "869",
+  "covariates": {
+   "age": "22",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "18.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 22.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 18.0,
+   "income_rank": 9.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3444",
+  "covariates": {
+   "age": "68",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a335-40k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 68.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 20.0,
+   "income_rank": 6.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3992",
+  "covariates": {
+   "age": "26",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "17.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 17.0,
+   "income_rank": 5.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2320",
+  "covariates": {
+   "age": "65",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 27.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2149",
+  "covariates": {
+   "age": "58",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 58.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "bmi": 30.0,
+   "income_rank": 0.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1807",
+  "covariates": {
+   "age": "51",
+   "gender": "man",
+   "ethnicity": "Mixed",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a315-20k",
+   "bmi_rounded": "37.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 37.0,
+   "income_rank": 2.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3557",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "22.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 22.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "689",
+  "covariates": {
+   "age": "23",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "18.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 18.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3015",
+  "covariates": {
+   "age": "59",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 59.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 21.0,
+   "income_rank": 4.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "187",
+  "covariates": {
+   "age": "28",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 23.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2272",
+  "covariates": {
+   "age": "64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "26.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 64.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "417",
+  "covariates": {
+   "age": "24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a335-40k",
+   "bmi_rounded": "28.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 6.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1182",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "27.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 27.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3619",
+  "covariates": {
+   "age": "36",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "19.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 19.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3295",
+  "covariates": {
+   "age": "53",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 20.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2512",
+  "covariates": {
+   "age": "77",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "32.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 77.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "bmi": 32.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3018",
+  "covariates": {
+   "age": "71",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "25.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 71.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 25.0,
+   "income_rank": 9.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "85",
+  "covariates": {
+   "age": "23",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3236",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "22.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 22.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "192",
+  "covariates": {
+   "age": "28",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2750",
+  "covariates": {
+   "age": "52",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a315-20k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 24.0,
+   "income_rank": 2.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1111",
+  "covariates": {
+   "age": "61",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "36.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 61.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 36.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "844",
+  "covariates": {
+   "age": "29",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 24.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1685",
+  "covariates": {
+   "age": "40",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "20.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "bmi": 20.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "675",
+  "covariates": {
+   "age": "32",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "16.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 16.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3277",
+  "covariates": {
+   "age": "35",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a3100-150k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 21.0,
+   "income_rank": 13.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "450",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "25.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 25.0,
+   "income_rank": 5.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2287",
+  "covariates": {
+   "age": "38",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 21.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3441",
+  "covariates": {
+   "age": "42",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": "\u00a340-45k",
+   "bmi_rounded": "39.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 42.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 39.0,
+   "income_rank": 7.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2518",
+  "covariates": {
+   "age": "53",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "27.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 10.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2143",
+  "covariates": {
+   "age": "50",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "over \u00a3150k",
+   "bmi_rounded": "31.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 31.0,
+   "income_rank": 14.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "858",
+  "covariates": {
+   "age": "29",
+   "gender": "man",
+   "ethnicity": "Black or Black British",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "15.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 15.0,
+   "income_rank": 5.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "957",
+  "covariates": {
+   "age": "33",
+   "gender": "man",
+   "ethnicity": "Mixed",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "21.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 21.0,
+   "income_rank": 5.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "478",
+  "covariates": {
+   "age": "32",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "33.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 33.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1146",
+  "covariates": {
+   "age": "20",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "24.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 24.0,
+   "income_rank": 11.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2714",
+  "covariates": {
+   "age": "72",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 72.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 22.0,
+   "income_rank": 10.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "2772",
+  "covariates": {
+   "age": "73",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "23.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 73.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 23.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "calories_only",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3463",
+  "covariates": {
+   "age": "70",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a340-45k",
+   "bmi_rounded": "19.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 70.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 19.0,
+   "income_rank": 7.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1390",
+  "covariates": {
+   "age": "26",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a315-20k",
+   "bmi_rounded": "40.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 40.0,
+   "income_rank": 2.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1982",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "5",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "38.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 38.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3141",
+  "covariates": {
+   "age": "55",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 30.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "443",
+  "covariates": {
+   "age": "20",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "highest_qualification_level_1_to_7": "6",
+   "household_income": "\u00a345-50k",
+   "bmi_rounded": "22.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 22.0,
+   "income_rank": 8.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "88",
+  "covariates": {
+   "age": "65",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "35.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 35.0,
+   "income_rank": 12.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "text_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "96",
+  "covariates": {
+   "age": "57",
+   "gender": "man",
+   "ethnicity": "Mixed",
+   "highest_qualification_level_1_to_7": "4",
+   "household_income": "\u00a325-30k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 57.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 30.0,
+   "income_rank": 4.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "1988",
+  "covariates": {
+   "age": "52",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "3",
+   "household_income": "\u00a380-100k",
+   "bmi_rounded": "30.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 30.0,
+   "income_rank": 12.0,
+   "snack_daily": 1.0
+  },
+  "human_arm": "pictorial",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "3220",
+  "covariates": {
+   "age": "65",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "7",
+   "household_income": "\u00a330-35k",
+   "bmi_rounded": "20.0",
+   "snacking": "weekly"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "bmi": 20.0,
+   "income_rank": 5.0,
+   "snack_daily": 0.0
+  },
+  "human_arm": "pictorial_plus_calories",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "clarke2020_s2",
+  "row_id": "90",
+  "covariates": {
+   "age": "66",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification_level_1_to_7": "2",
+   "household_income": null,
+   "bmi_rounded": "26.0",
+   "snacking": "eats energy-dense snacks daily"
+  },
+  "numeric": {
+   "age": 66.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 26.0,
+   "income_rank": null,
+   "snack_daily": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ }
+]

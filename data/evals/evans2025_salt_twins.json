@@ -1,0 +1,4652 @@
+[
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1576",
+  "covariates": {
+   "age": "69.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "25.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 25.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 8.879999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2365",
+  "covariates": {
+   "age": "35.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "36.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 36.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 13.989999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "508",
+  "covariates": {
+   "age": "56.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "1",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "36.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 56.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "bmi": 36.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 13.110000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "704",
+  "covariates": {
+   "age": "33.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 10.2,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1910",
+  "covariates": {
+   "age": "52.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "25.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 25.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 13.530000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1670",
+  "covariates": {
+   "age": "32.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "35.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 35.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 19.369999999999997,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1188",
+  "covariates": {
+   "age": "60.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 60.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 26.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 11.17,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "542",
+  "covariates": {
+   "age": "29.0",
+   "gender": "woman",
+   "ethnicity": "Black or Black British",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "28.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 28.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 14.790000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1407",
+  "covariates": {
+   "age": "34.0",
+   "gender": "woman",
+   "ethnicity": "Black or Black British",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "24.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 24.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.040000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "615",
+  "covariates": {
+   "age": "66.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "28.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 66.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 11.86,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2381",
+  "covariates": {
+   "age": "33.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "47.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 47.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 11.629999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2341",
+  "covariates": {
+   "age": "49.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "25.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 25.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 11.659999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "253",
+  "covariates": {
+   "age": "31.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 14.48,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1101",
+  "covariates": {
+   "age": "39.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "28.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 13.83,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "685",
+  "covariates": {
+   "age": "34.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "23.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 9.419999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1196",
+  "covariates": {
+   "age": "34.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "22.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 22.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 11.76,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1048",
+  "covariates": {
+   "age": "34.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "28.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 28.0,
+   "income_rank": 1.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.93,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "463",
+  "covariates": {
+   "age": "42.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 42.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 29.0,
+   "income_rank": 7.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 10.69,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2174",
+  "covariates": {
+   "age": "18.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "19.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 19.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 13.04,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "65",
+  "covariates": {
+   "age": "28.0",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "24.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 24.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 10.259999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1004",
+  "covariates": {
+   "age": "57.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 57.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 24.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 11.15,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1734",
+  "covariates": {
+   "age": "54.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "22.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 22.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.049999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "193",
+  "covariates": {
+   "age": "29.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 26.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 20.97,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "335",
+  "covariates": {
+   "age": "67.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 67.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 26.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.24,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1502",
+  "covariates": {
+   "age": "54.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.219999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "841",
+  "covariates": {
+   "age": "59.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "19.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 59.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 19.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 9.32,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "106",
+  "covariates": {
+   "age": "31.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.009999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1020",
+  "covariates": {
+   "age": "41.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "23.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 23.0,
+   "income_rank": 1.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.04,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "970",
+  "covariates": {
+   "age": "54.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 24.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 10.59,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "816",
+  "covariates": {
+   "age": "64.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 64.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 10.099999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1599",
+  "covariates": {
+   "age": "41.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.099999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1828",
+  "covariates": {
+   "age": "63.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "22.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 22.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 11.889999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "515",
+  "covariates": {
+   "age": "36.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "23.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 20.04,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "829",
+  "covariates": {
+   "age": "40.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "27.0",
+   "eating_out": "several times a week"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 27.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 5.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 16.08,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1653",
+  "covariates": {
+   "age": "33.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "35.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 35.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.290000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1363",
+  "covariates": {
+   "age": "34.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "21.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 21.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.799999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "537",
+  "covariates": {
+   "age": "55.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 9.04,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "921",
+  "covariates": {
+   "age": "66.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "19.0",
+   "eating_out": "eats out or gets takeaway less than monthly"
+  },
+  "numeric": {
+   "age": 66.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 19.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 1.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 14.139999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1789",
+  "covariates": {
+   "age": "44.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.09,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "543",
+  "covariates": {
+   "age": "57.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 57.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 26.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 9.07,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2331",
+  "covariates": {
+   "age": "51.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "27.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 27.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.4,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1088",
+  "covariates": {
+   "age": "53.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "32.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 32.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.760000000000002,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2022",
+  "covariates": {
+   "age": "52.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "27.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 27.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 9.96,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1250",
+  "covariates": {
+   "age": "63.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 11.699999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1989",
+  "covariates": {
+   "age": "67.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 67.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "bmi": 26.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.95,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2511",
+  "covariates": {
+   "age": "20.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "30.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 30.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.71,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1249",
+  "covariates": {
+   "age": "40.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "22.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 22.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.26,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1851",
+  "covariates": {
+   "age": "55.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "31.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 31.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 10.99,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "302",
+  "covariates": {
+   "age": "55.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "19.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 19.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.74,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1248",
+  "covariates": {
+   "age": "42.0",
+   "gender": "man",
+   "ethnicity": "Mixed",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "21.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 42.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 21.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 18.36,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "786",
+  "covariates": {
+   "age": "41.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "35.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 35.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 22.67,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1868",
+  "covariates": {
+   "age": "50.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "30.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 30.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.83,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2253",
+  "covariates": {
+   "age": "37.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "22.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 22.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 11.53,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "368",
+  "covariates": {
+   "age": "23.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 24.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 10.03,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "469",
+  "covariates": {
+   "age": "53.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 12.479999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "40",
+  "covariates": {
+   "age": "23.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "28.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 20.83,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2141",
+  "covariates": {
+   "age": "22.0",
+   "gender": "man",
+   "ethnicity": "Mixed",
+   "education_level_1_to_6": "3",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "19.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 22.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 19.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.339999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2506",
+  "covariates": {
+   "age": "38.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "34.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 34.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 11.75,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "332",
+  "covariates": {
+   "age": "23.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "43.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 43.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 10.33,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2238",
+  "covariates": {
+   "age": "56.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "27.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 56.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 10.790000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "69",
+  "covariates": {
+   "age": "25.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 16.939999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "490",
+  "covariates": {
+   "age": "40.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "31.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 31.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.93,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "232",
+  "covariates": {
+   "age": "57.0",
+   "gender": "man",
+   "ethnicity": "Black or Black British",
+   "education_level_1_to_6": "4",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "36.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 57.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 36.0,
+   "income_rank": 1.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 9.8,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "920",
+  "covariates": {
+   "age": "57.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "35.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 57.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 35.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 12.069999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "856",
+  "covariates": {
+   "age": "44.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "43.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 43.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 12.759999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1471",
+  "covariates": {
+   "age": "53.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 29.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.079999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2150",
+  "covariates": {
+   "age": "30.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "44.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 44.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 11.819999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2463",
+  "covariates": {
+   "age": "51.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "23.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.649999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "757",
+  "covariates": {
+   "age": "24.0",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "24.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 24.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 19.21,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "130",
+  "covariates": {
+   "age": "75.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "35.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 75.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 35.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 12.02,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2312",
+  "covariates": {
+   "age": "35.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "49.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 49.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.139999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1472",
+  "covariates": {
+   "age": "41.0",
+   "gender": "woman",
+   "ethnicity": "Asian or Asian British",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "26.0",
+   "eating_out": "several times a week"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 26.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 5.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1377",
+  "covariates": {
+   "age": "44.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "58.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 58.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 15.049999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1730",
+  "covariates": {
+   "age": "29.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 24.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 13.65,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "587",
+  "covariates": {
+   "age": "58.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 58.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 29.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 8.44,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "42",
+  "covariates": {
+   "age": "22.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "50.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 22.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 50.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 13.790000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1970",
+  "covariates": {
+   "age": "55.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 26.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 11.299999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1574",
+  "covariates": {
+   "age": "69.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "34.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 34.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 10.88,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2060",
+  "covariates": {
+   "age": "44.0",
+   "gender": "man",
+   "ethnicity": "Black or Black British",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "22.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 22.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 18.6,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1408",
+  "covariates": {
+   "age": "65.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "19.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 19.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.13,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2033",
+  "covariates": {
+   "age": "62.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "22.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 62.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 22.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 13.09,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1568",
+  "covariates": {
+   "age": "41.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "1",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "30.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "bmi": 30.0,
+   "income_rank": 1.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.17,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "73",
+  "covariates": {
+   "age": "31.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "35.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 35.0,
+   "income_rank": 7.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 13.489999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2419",
+  "covariates": {
+   "age": "35.0",
+   "gender": "woman",
+   "ethnicity": "Black or Black British",
+   "education_level_1_to_6": "5",
+   "household_income": "under \u00a310k",
+   "bmi_rounded": "20.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 1.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.03,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1894",
+  "covariates": {
+   "age": "71.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "28.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 71.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 14.709999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2521",
+  "covariates": {
+   "age": "45.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 11.28,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "783",
+  "covariates": {
+   "age": "44.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "46.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 46.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 11.819999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2388",
+  "covariates": {
+   "age": "31.0",
+   "gender": "woman",
+   "ethnicity": "Black or Black British",
+   "education_level_1_to_6": "4",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "36.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 36.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.42,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "897",
+  "covariates": {
+   "age": "26.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "22.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 22.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 20.32,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1932",
+  "covariates": {
+   "age": "36.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "28.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 28.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 14.379999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "628",
+  "covariates": {
+   "age": "74.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 74.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 29.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 9.34,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1683",
+  "covariates": {
+   "age": "24.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 24.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 10.25,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "936",
+  "covariates": {
+   "age": "41.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "25.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 25.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 15.459999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2237",
+  "covariates": {
+   "age": "28.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "30.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 30.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 13.16,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "482",
+  "covariates": {
+   "age": "42.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 42.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.209999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1311",
+  "covariates": {
+   "age": "65.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 29.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.379999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1580",
+  "covariates": {
+   "age": "36.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "20.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 20.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 9.52,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "881",
+  "covariates": {
+   "age": "43.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "36.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 36.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 13.519999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "477",
+  "covariates": {
+   "age": "75.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 75.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 9.559999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1482",
+  "covariates": {
+   "age": "45.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 15.35,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2287",
+  "covariates": {
+   "age": "47.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "30.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 47.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 30.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 17.9,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1530",
+  "covariates": {
+   "age": "44.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 24.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.58,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "38",
+  "covariates": {
+   "age": "63.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "23.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 12.92,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "83",
+  "covariates": {
+   "age": "40.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "29.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 29.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 12.09,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1238",
+  "covariates": {
+   "age": "55.0",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.07,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "814",
+  "covariates": {
+   "age": "65.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "36.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 65.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 36.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 9.989999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1934",
+  "covariates": {
+   "age": "69.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "23.0",
+   "eating_out": "several times a week"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 5.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 10.39,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "222",
+  "covariates": {
+   "age": "69.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "19.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 69.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 19.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.89,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1974",
+  "covariates": {
+   "age": "50.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "28.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 11.72,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "884",
+  "covariates": {
+   "age": "68.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "23.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 68.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 12.409999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1279",
+  "covariates": {
+   "age": "39.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "19.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 19.0,
+   "income_rank": 7.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.59,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1874",
+  "covariates": {
+   "age": "42.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "27.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 42.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 9.15,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1400",
+  "covariates": {
+   "age": "77.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 77.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 26.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 13.069999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "355",
+  "covariates": {
+   "age": "33.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "32.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 32.0,
+   "income_rank": 7.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 19.14,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "192",
+  "covariates": {
+   "age": "39.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 29.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 13.53,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1619",
+  "covariates": {
+   "age": "29.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "26.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 26.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 22.119999999999997,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1318",
+  "covariates": {
+   "age": "55.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "26.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 26.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 10.73,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1921",
+  "covariates": {
+   "age": null,
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "19.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": null,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 19.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.79,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "nan",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1045",
+  "covariates": {
+   "age": "33.0",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "20.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 20.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.469999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "996",
+  "covariates": {
+   "age": "32.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "23.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 15.86,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2218",
+  "covariates": {
+   "age": "46.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "33.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 46.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 33.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 14.09,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1405",
+  "covariates": {
+   "age": "48.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "23.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.87,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1650",
+  "covariates": {
+   "age": "67.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "27.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 67.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 14.56,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "986",
+  "covariates": {
+   "age": "53.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "20.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 10.59,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2085",
+  "covariates": {
+   "age": "31.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "28.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 28.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 10.97,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1399",
+  "covariates": {
+   "age": "41.0",
+   "gender": "woman",
+   "ethnicity": "Other",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 24.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.57,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "23",
+  "covariates": {
+   "age": "29.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 24.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.28,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1503",
+  "covariates": {
+   "age": "33.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "32.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 32.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "220",
+  "covariates": {
+   "age": "28.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 23.0,
+   "income_rank": 7.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 10.259999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1458",
+  "covariates": {
+   "age": "59.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 59.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 9.89,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1575",
+  "covariates": {
+   "age": "44.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "29.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 29.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 20.14,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "844",
+  "covariates": {
+   "age": "51.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "31.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "bmi": 31.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 15.339999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2207",
+  "covariates": {
+   "age": "36.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "27.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 27.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 19.65,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2244",
+  "covariates": {
+   "age": "63.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a310-20k",
+   "bmi_rounded": "24.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 24.0,
+   "income_rank": 2.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 12.61,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "753",
+  "covariates": {
+   "age": "36.0",
+   "gender": "man",
+   "ethnicity": "Asian or Asian British",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a370-80k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 8.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_octagon",
+  "human_outcome": 22.509999999999998,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "49",
+  "covariates": {
+   "age": "48.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "over \u00a380k",
+   "bmi_rounded": "25.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 25.0,
+   "income_rank": 9.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 12.86,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2229",
+  "covariates": {
+   "age": "29.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "6",
+   "household_income": "\u00a360-70k",
+   "bmi_rounded": "25.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "bmi": 25.0,
+   "income_rank": 7.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 9.87,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2204",
+  "covariates": {
+   "age": "68.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a340-50k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 68.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 23.0,
+   "income_rank": 5.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 13.48,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1836",
+  "covariates": {
+   "age": "62.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "1",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "30.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 62.0,
+   "female": 0.0,
+   "edu_level": 1.0,
+   "bmi": 30.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 12.870000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2257",
+  "covariates": {
+   "age": "27.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "36.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 27.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 36.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 18.64,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "170",
+  "covariates": {
+   "age": "37.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "23.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 23.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.110000000000001,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "196",
+  "covariates": {
+   "age": "30.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "5",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "20.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "bmi": 20.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 10.57,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1298",
+  "covariates": {
+   "age": "41.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "26.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 26.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 12.129999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1375",
+  "covariates": {
+   "age": "24.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "31.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 31.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 20.31,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "265",
+  "covariates": {
+   "age": "51.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "22.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "bmi": 22.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "red_triangle",
+  "human_outcome": 11.059999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2176",
+  "covariates": {
+   "age": "52.0",
+   "gender": "woman",
+   "ethnicity": "Mixed",
+   "education_level_1_to_6": "4",
+   "household_income": "\u00a350-60k",
+   "bmi_rounded": "29.0",
+   "eating_out": "weekly"
+  },
+  "numeric": {
+   "age": 52.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "bmi": 29.0,
+   "income_rank": 6.0,
+   "restaurant_freq": 4.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 14.2,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2432",
+  "covariates": {
+   "age": "45.0",
+   "gender": "woman",
+   "ethnicity": "Mixed",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a330-40k",
+   "bmi_rounded": "22.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 22.0,
+   "income_rank": 4.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 14.55,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "2192",
+  "covariates": {
+   "age": "68.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "2",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "27.0",
+   "eating_out": "about monthly"
+  },
+  "numeric": {
+   "age": 68.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "bmi": 27.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 2.0
+  },
+  "human_arm": "qr_control",
+  "human_outcome": 14.16,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1116",
+  "covariates": {
+   "age": "48.0",
+   "gender": "man",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "27.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_triangle",
+  "human_outcome": 17.95,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "evans2025_salt",
+  "row_id": "1543",
+  "covariates": {
+   "age": "22.0",
+   "gender": "woman",
+   "ethnicity": "White",
+   "education_level_1_to_6": "3",
+   "household_income": "\u00a320-30k",
+   "bmi_rounded": "27.0",
+   "eating_out": "two or three times a month"
+  },
+  "numeric": {
+   "age": 22.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "bmi": 27.0,
+   "income_rank": 3.0,
+   "restaurant_freq": 3.0
+  },
+  "human_arm": "black_octagon",
+  "human_outcome": 15.969999999999999,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ }
+]

@@ -1,0 +1,158 @@
+task_type: menu_choice
+country: UK
+control_arm: qr_control
+arms:
+  qr_control: '[small QR code]'
+  red_triangle: '[red-outlined white triangle with a black exclamation mark and the words HIGH IN SALT]'
+  red_octagon: '[solid red stop-sign octagon with a white exclamation mark and the words HIGH IN SALT]'
+  black_triangle: '[solid black triangle with a white exclamation mark and the words HIGH IN SALT]'
+  black_octagon: '[solid black stop-sign octagon with a white exclamation mark and the words HIGH IN SALT]'
+outcome:
+  name: total salt (g) across six choices
+  binary: false
+  support: null
+  higher_is: label failed
+segment_keys:
+- gender
+- age_band
+mechanism_covariates:
+- age
+- female
+- edu_level
+- bmi
+- income_rank
+- restaurant_freq
+task:
+  menus:
+  - title: 1. Tesco meal-deal sandwiches
+    items:
+    - label: Tesco Chicken & Sweetcorn Sandwich (£2.10)
+      value: 1.03
+      labelled: false
+    - label: Tesco Chicken Salad Sandwich (£2.60)
+      value: 1.12
+      labelled: false
+    - label: Tesco Chicken & Stuffing Sandwich (£2.60)
+      value: 1.18
+      labelled: false
+    - label: Tesco Chicken, Bacon & Lettuce Sandwich (£2.60)
+      value: 2.09
+      labelled: true
+    - label: Tesco Roast Chicken, Mozzarella & Pesto Sandwich (£2.60)
+      value: 1.85
+      labelled: true
+    - label: Tesco BBQ Chicken, Bacon & Cheese Sandwich (£2.85)
+      value: 1.93
+      labelled: true
+  - title: 2. Crisps (grab bags)
+    items:
+    - label: Walkers Cheese & Onion 45g (£1.00)
+      value: 0.52
+      labelled: false
+    - label: Walkers Baked Cheese & Onion 37.5g (£1.00)
+      value: 0.33
+      labelled: false
+    - label: McCoy's Cheddar & Onion 45g (£1.00)
+      value: 0.44
+      labelled: false
+    - label: Walkers Quavers Cheese 34g (£1.00)
+      value: 0.64
+      labelled: true
+    - label: Walkers Monster Munch Pickled Onion (£1.00)
+      value: 0.62
+      labelled: true
+    - label: Jacob's Mini Cheddars 45g (£1.00)
+      value: 0.6
+      labelled: true
+  - title: 3. Savoury snacks
+    items:
+    - label: Fridge Raiders Southern Style Chicken Bites 45g (£1.30)
+      value: 0.7
+      labelled: false
+    - label: Philadelphia Light soft cheese snack (£1.30)
+      value: 0.4
+      labelled: false
+    - label: Popchips BBQ 23g (£1.00)
+      value: 0.2
+      labelled: false
+    - label: Peperami Original 22.5g (£1.30)
+      value: 0.88
+      labelled: true
+    - label: Cathedral City Cheddar sticks with pickle dip 60g (£1.25)
+      value: 1.62
+      labelled: true
+    - label: Love Corn BBQ roasted corn 45g (£1.00)
+      value: 1.0
+      labelled: true
+  - title: 4. KFC meals
+    items:
+    - label: Twister wrap meal (£7.99), 766 kcal
+      value: 2.77
+      labelled: false
+    - label: Regular popcorn chicken meal (£6.99), 536 kcal
+      value: 2.14
+      labelled: false
+    - label: Colonel's meal, 2 piece (£6.99), 726 kcal
+      value: 2.86
+      labelled: false
+    - label: Twister wrap box meal (£9.99), 956 kcal
+      value: 3.57
+      labelled: true
+    - label: Large popcorn chicken meal (£8.49), 716 kcal
+      value: 3.11
+      labelled: true
+    - label: Mighty bucket for one (£10.49), 1166 kcal
+      value: 5.14
+      labelled: true
+  - title: 5. Wagamama mains
+    items:
+    - label: Chicken katsu curry (£14.00), 998 kcal
+      value: 2.26
+      labelled: false
+    - label: Ginger chicken udon (£14.30), 678 kcal
+      value: 2.05
+      labelled: false
+    - label: Shu's shiok chicken (£14.00), 552 kcal
+      value: 2.35
+      labelled: false
+    - label: Grilled chicken ramen (£14.00), 504 kcal
+      value: 5.17
+      labelled: true
+    - label: Chicken gyoza ramen (£15.50), 698 kcal
+      value: 10.12
+      labelled: true
+    - label: Chicken teriyaki donburi (£14.50), 738 kcal
+      value: 3.61
+      labelled: true
+  - title: 6. Bella Italia mains
+    items:
+    - label: Pomodoro Mozzarella (£11.49), 684 kcal
+      value: 2.1
+      labelled: false
+    - label: Pollo Funghi (£14.59), 788 kcal
+      value: 2.3
+      labelled: false
+    - label: Bolognese (£13.59), 669 kcal
+      value: 2.8
+      labelled: false
+    - label: Spicy Sausage rigatoni (£14.99), 936 kcal
+      value: 3.7
+      labelled: true
+    - label: Pollo Cacciatore (£15.49), 670 kcal
+      value: 3.8
+      labelled: true
+    - label: Spaghetti and Meatballs (£14.99), 1168 kcal
+      value: 4.4
+      labelled: true
+  aggregate: sum
+  prompt: 'Imagine six separate occasions over the next couple of weeks. On each you are choosing one item from the list, as yourself, with your usual tastes and budget. Some items carry a small symbol next to their name, shown in square brackets; it appears exactly as printed on the pack or menu.
+
+
+    {menus}
+
+
+    For each of the six lists, say which item you would pick. One short sentence overall, then answer.'
+topic_hint: takeaways, meal deals and what they order when eating out
+name: evans2025_salt
+human_table: data/evals/evans2025_salt_human.csv
+twins: data/evals/evans2025_salt_twins.json

@@ -1,0 +1,219 @@
+{
+ "model": "claude-haiku-5-5",
+ "n_twins": 150,
+ "n_valid": 600,
+ "n_jobs": 600,
+ "ceiling_split_half": 0.8730769872361543,
+ "effect": {
+  "pooled_rho": NaN,
+  "effect_size_slope": 0.0,
+  "segment_rho_mean": NaN,
+  "top1_accuracy": 0.0,
+  "pooled_baseline": 0.8999999999999999,
+  "gap_preservation_r": NaN,
+  "gap_inflation_slope": NaN,
+  "human_arm_means": [
+   0.689,
+   0.831,
+   0.725,
+   0.844
+  ],
+  "sim_arm_means": [
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "per_segment": {
+   "man|18-34": {
+    "rho": NaN,
+    "top1_hit": 0.0,
+    "human": [
+     0.703,
+     0.804,
+     0.756,
+     0.828
+    ],
+    "sim": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 2868,
+    "n_sim": 172
+   },
+   "man|35-54": {
+    "rho": NaN,
+    "top1_hit": 0.0,
+    "human": [
+     0.662,
+     0.822,
+     0.707,
+     0.844
+    ],
+    "sim": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 1838,
+    "n_sim": 88
+   },
+   "man|55+": {
+    "rho": NaN,
+    "top1_hit": 0.0,
+    "human": [
+     0.707,
+     0.812,
+     0.671,
+     0.894
+    ],
+    "sim": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 316,
+    "n_sim": 28
+   },
+   "woman|18-34": {
+    "rho": NaN,
+    "top1_hit": 0.0,
+    "human": [
+     0.71,
+     0.848,
+     0.729,
+     0.881
+    ],
+    "sim": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 2759,
+    "n_sim": 168
+   },
+   "woman|35-54": {
+    "rho": NaN,
+    "top1_hit": 0.0,
+    "human": [
+     0.674,
+     0.854,
+     0.699,
+     0.815
+    ],
+    "sim": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 1805,
+    "n_sim": 124
+   },
+   "woman|55+": {
+    "rho": NaN,
+    "top1_hit": 0.0,
+    "human": [
+     0.611,
+     0.897,
+     0.7,
+     0.786
+    ],
+    "sim": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 246,
+    "n_sim": 20
+   }
+  }
+ },
+ "distribution": {
+  "wasserstein_mean": 0.22750508871848407,
+  "tv_mean": 0.22750508871848402,
+  "dispersion_ratio_mean": 0.0,
+  "segment_arm_mae": 0.23277455663457422,
+  "segment_arm_bias": 0.23277455663457422,
+  "human_pooled_sd": 0.4191877615392811,
+  "sim_pooled_sd": 0.0,
+  "per_arm": {
+   "no_label": {
+    "wasserstein": 0.31054131054131057,
+    "tv": 0.3105413105413105,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.6894586894586895,
+    "sim_mean": 1.0,
+    "human_sd": 0.4628094440009032,
+    "sim_sd": 0.0
+   },
+   "nutrient_warning": {
+    "wasserstein": 0.16863063795205202,
+    "tv": 0.16863063795205202,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.831369362047948,
+    "sim_mean": 1.0,
+    "human_sd": 0.3745014492194101,
+    "sim_sd": 0.0
+   },
+   "nutri_score": {
+    "wasserstein": 0.27487765089722677,
+    "tv": 0.2748776508972267,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.7251223491027733,
+    "sim_mean": 1.0,
+    "human_sd": 0.44654367066891826,
+    "sim_sd": 0.0
+   },
+   "gda": {
+    "wasserstein": 0.15597075548334688,
+    "tv": 0.15597075548334685,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.8440292445166532,
+    "sim_mean": 1.0,
+    "human_sd": 0.3629013239773203,
+    "sim_sd": 0.0
+   }
+  }
+ },
+ "mechanism": {
+  "main_effect_r": -0.9049051898477576,
+  "main_effect_sign_agreement": 0.0,
+  "interaction_r": 0.16394676771555122,
+  "interaction_sign_agreement": 0.4444444444444444,
+  "covariate_r2_human": 0.0036346738298198566,
+  "covariate_r2_sim": -Infinity,
+  "human_main": {
+   "age": -0.019,
+   "female": -0.001,
+   "edu_level": 0.011,
+   "finance": -0.002,
+   "parent_num": 0.013,
+   "sugar_drinks": -0.009
+  },
+  "sim_main": {
+   "age": 0.0,
+   "female": 0.0,
+   "edu_level": -0.0,
+   "finance": 0.0,
+   "parent_num": -0.0,
+   "sugar_drinks": 0.0
+  },
+  "arm_r2_human": 0.028144346193219483,
+  "arm_r2_sim": NaN
+ },
+ "individual": {
+  "n": 150,
+  "accuracy_sim": 0.7866666666666666,
+  "accuracy_lookup": 0.7866666666666666,
+  "accuracy_majority": 0.7866666666666666
+ },
+ "cost_usd": 0.0,
+ "seconds": 0
+}

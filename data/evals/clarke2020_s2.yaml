@@ -1,0 +1,66 @@
+task_type: choice
+country: UK
+control_arm: no_label
+arms:
+  no_label: The snacks are shown exactly as they appear in the shops, with no extra labels of any kind.
+  calories_only: No warnings. Every snack, healthy or not, shows its calorie count in a bold badge, e.g. '240 CALORIES' on a Dairy Milk bar, '95 CALORIES' on a fruit pot.
+  text_only: 'Every high-calorie snack carries a plain black-and-white text warning: ''Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes''. No pictures, no calorie counts.'
+  text_plus_calories: 'Every high-calorie snack carries a plain black-and-white text warning: ''Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes''. No pictures. Every snack, healthy or not, also shows its calorie count in a bold badge, e.g. ''240 CALORIES''.'
+  pictorial: Every high-calorie snack carries a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. No calorie counts anywhere.
+  pictorial_plus_calories: Every high-calorie snack (crisps, chocolate, shortbread, dessert) carries a large warning label with a graphic medical photograph (a bowel tumour, open-heart surgery, or a bleeding diabetic eye) and the words 'Excess calories cause obesity which causes bowel cancer / heart disease / Type 2 diabetes'. Every snack, healthy or not, also shows its calorie count in a bold badge, e.g. '240 CALORIES'.
+outcome:
+  name: chose lower-energy snack
+  binary: true
+  support:
+  - 0
+  - 1
+  higher_is: label worked
+segment_keys:
+- gender
+- age_band
+mechanism_covariates:
+- age
+- female
+- edu_level
+- bmi
+- income_rank
+- snack_daily
+task:
+  options:
+  - label: Doritos Tangy Cheese (crisps)
+    value: 0
+  - label: apple crisps
+    value: 1
+  - label: Galaxy chocolate bar
+    value: 0
+  - label: Nim's beetroot crisps
+    value: 1
+  - label: Müller Corner yoghurt
+    value: 1
+  - label: McCoy's salt and vinegar crisps
+    value: 0
+  - label: apple and grapes fruit pot
+    value: 1
+  - label: millionaire shortbread
+    value: 0
+  - label: Cadbury Dairy Milk bar
+    value: 0
+  - label: mango and pineapple fruit pot
+    value: 1
+  - label: Gü chocolate dessert pot
+    value: 0
+  - label: KIND nut bar
+    value: 1
+  prompt: 'You are at a vending machine and you are going to have a snack now. The twelve options:
+
+    {options}
+
+
+    Labelling in this machine: {arm}
+
+
+    Which one do you take? One sentence of reaction, then answer.'
+topic_hint: snacks and what they grab when hungry
+name: clarke2020_s2
+human_table: data/evals/clarke2020_s2_human.csv
+twins: data/evals/clarke2020_s2_twins.json

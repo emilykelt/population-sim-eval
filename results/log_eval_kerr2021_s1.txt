@@ -1,0 +1,16 @@
+kerr2021_s1: 2395 humans, 150 twins, 5 arms; split-half ceiling 0.08
+  claude-sonnet-5-5: 750/750 valid answers, $4.33, 441s
+/Users/emilykelt/Library/Mobile Documents/com~apple~CloudDocs/Coding/simulated societies/src/simsoc/fidelity.py:127: RuntimeWarning: Mean of empty slice
+  "tv_mean": float(np.nanmean(tv)) if tv else np.nan,
+  EFFECT  pooled rho -0.10 | seg rho nan (baseline nan, ceiling 0.08) | top1 nan | gap r nan slope nan | effect-size slope -0.03
+  DIST    W1 0.451 | TV nan | dispersion ratio 0.40 | seg-arm MAE nan bias +nan
+  MECH    main r 0.84 sign 1.00 | interaction r -0.11 | covariate R2 human 0.099 sim 0.591 | arm R2 human 0.002 sim 0.000
+  INDIV   {'n': 150, 'mae_sim': 0.7676190476190478, 'mae_lookup': 0.8343728602552133, 'r_sim_human': 0.25024931389770233}
+  claude-haiku-5-5: 750/750 valid answers, $0.30, 467s
+/Users/emilykelt/Library/Mobile Documents/com~apple~CloudDocs/Coding/simulated societies/src/simsoc/fidelity.py:127: RuntimeWarning: Mean of empty slice
+  "tv_mean": float(np.nanmean(tv)) if tv else np.nan,
+  EFFECT  pooled rho -0.60 | seg rho nan (baseline nan, ceiling 0.08) | top1 nan | gap r nan slope nan | effect-size slope -0.39
+  DIST    W1 0.523 | TV nan | dispersion ratio 0.45 | seg-arm MAE nan bias +nan
+  MECH    main r 0.74 sign 0.83 | interaction r 0.24 | covariate R2 human 0.099 sim 0.334 | arm R2 human 0.002 sim 0.011
+  INDIV   {'n': 150, 'mae_sim': 0.8419047619047618, 'mae_lookup': 0.8343728602552133, 'r_sim_human': 0.17093291277923378}
+TOTAL $4.63

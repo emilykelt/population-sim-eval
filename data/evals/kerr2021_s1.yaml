@@ -1,0 +1,58 @@
+task_type: likert
+country: UK
+control_arm: control
+arms:
+  control: It is mid-January 2021. Several new vaccines have been developed to protect people against COVID-19. (You were shown no further information.)
+  factbox: 'It is mid-January 2021. Several new vaccines have been developed to protect people against COVID-19. You read a one-page fact box comparing a group who had the vaccine with a group who had a placebo in a large trial. It reported that the vaccine was 95.5% effective at preventing COVID-19 in 18 to 64 year olds and 86.2% in people aged 65 and over, and listed side effects side by side: for example, pain at the injection site in 90.1% of vaccinated people versus 18.8% of the placebo group, with tiredness, headache and muscle aches also common after vaccination, and serious side effects rare in both groups.'
+  text: It is mid-January 2021. Several new vaccines have been developed to protect people against COVID-19. You read a short question-and-answer text, adapted from the European Medicines Agency, explaining that in a large trial the vaccine reduced symptomatic COVID-19 by about 94% overall, that the most common side effects were mild or moderate and affected more than 1 in 10 people (pain at the injection site, tiredness, headache, muscle and joint pain, chills, fever), usually resolving within a few days, and that serious allergic reactions were rare.
+  approval: 'It is mid-January 2021. Several new vaccines have been developed to protect people against COVID-19. You read a short text from the European Medicines Agency explaining how the vaccine was approved so quickly: regulators reviewed data on a rolling basis as it came in rather than waiting for the end of trials, the trials themselves were the normal size and length for a vaccine, no safety steps were skipped, and the vaccine is monitored continuously now it is in use.'
+  mechanism: 'It is mid-January 2021. Several new vaccines have been developed to protect people against COVID-19. You read a short text explaining how vaccines, including the new mRNA vaccines, work: the vaccine gives your cells the instructions to make a harmless piece of the virus''s spike protein, your immune system learns to recognise it and makes antibodies, the instructions break down within days, the vaccine cannot give you COVID-19 and does not alter your DNA, and if you later meet the real virus your body already knows how to fight it.'
+outcome:
+  name: vaccine willingness (Oxford scale, 1-5, higher = more willing)
+  binary: false
+  support: null
+  higher_is: more willing
+segment_keys:
+- gender
+- age_band
+mechanism_covariates:
+- age_mid
+- female
+- edu_level
+- politics
+- social_status
+- minority
+task:
+  items:
+  - text: Would you take a COVID-19 vaccine (approved for use in the UK) if offered? (1 = Definitely; 2 = Probably; 3 = I may or I may not; 4 = Probably not; 5 = Definitely not)
+    reverse: true
+    k: 5
+  - text: 'Now that there is a COVID-19 vaccine available in the UK: (1 = I will want to get it as soon as possible; 2 = I will take it when offered; 3 = I’m not sure what I will do; 4 = I will put off (delay) getting it; 5 = I will refuse to get it)'
+    reverse: true
+    k: 5
+  - text: 'I would describe my attitude towards receiving a COVID-19 vaccine as: (1 = Very keen; 2 = Pretty positive; 3 = Neutral; 4 = Quite uneasy; 5 = Against it)'
+    reverse: true
+    k: 5
+  - text: 'If a COVID-19 vaccine was available at my local pharmacy, I would: (1 = Get it as soon as possible; 2 = Get it when I have time; 3 = Delay getting it; 4 = Avoid getting it for as long as possible; 5 = Never get it)'
+    reverse: true
+    k: 5
+  - text: 'If my family or friends were thinking of getting a COVID-19 vaccination, I would: (1 = Strongly encourage them; 2 = Encourage them; 3 = Not say anything to them about it; 4 = Ask them to delay getting the vaccination; 5 = Suggest that they do not get the vaccination)'
+    reverse: true
+    k: 5
+  - text: 'I would describe myself as: (1 = Eager to get a COVID-19 vaccine; 2 = Willing to get the COVID-19 vaccine; 3 = Not bothered about getting the COVID-19 vaccine; 4 = Unwilling to get the COVID-19 vaccine; 5 = Anti-vaccination for COVID-19)'
+    reverse: true
+    k: 5
+  - text: 'Taking a COVID-19 vaccination is: (1 = Really important; 2 = Important; 3 = Neither important nor unimportant; 4 = Unimportant; 5 = Really unimportant)'
+    reverse: true
+    k: 5
+  prompt: '{arm}
+
+
+    Now answer the following as yourself, in January 2021, before you have been offered a vaccine. For each question give the number of the option that fits you best.
+
+
+    {items}'
+topic_hint: their attitude to the NHS, to COVID restrictions, and to vaccines generally, in January 2021
+name: kerr2021_s1
+human_table: data/evals/kerr2021_s1_human.csv
+twins: data/evals/kerr2021_s1_twins.json

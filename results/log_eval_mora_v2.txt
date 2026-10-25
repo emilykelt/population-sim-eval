@@ -1,0 +1,12 @@
+moraplazas2024_drink_v2: 9832 humans, 150 twins, 4 arms; split-half ceiling 0.87
+  claude-sonnet-5-5: 600/600 valid answers, $1.41, 115s
+  EFFECT  pooled rho 0.77 | seg rho 0.69 (baseline 0.90, ceiling 0.87) | top1 0.33 | gap r 0.05 slope 0.09 | effect-size slope -0.00
+  DIST    W1 0.162 | TV 0.162 | dispersion ratio 0.26 | seg-arm MAE 0.178 bias +0.152
+  MECH    main r -0.36 sign 0.33 | interaction r 0.13 | covariate R2 human 0.004 sim 0.014 | arm R2 human 0.028 sim 0.283
+  INDIV   {'n': 150, 'accuracy_sim': 0.7666666666666667, 'accuracy_lookup': 0.7933333333333333, 'accuracy_majority': 0.7866666666666666}
+  claude-haiku-5-5: 600/600 valid answers, $0.08, 79s
+  EFFECT  pooled rho 0.77 | seg rho 0.69 (baseline 0.90, ceiling 0.87) | top1 0.33 | gap r 0.15 slope 0.17 | effect-size slope 0.00
+  DIST    W1 0.194 | TV 0.194 | dispersion ratio 0.27 | seg-arm MAE 0.194 bias +0.111
+  MECH    main r 0.26 sign 0.67 | interaction r 0.26 | covariate R2 human 0.004 sim 0.004 | arm R2 human 0.028 sim 0.416
+  INDIV   {'n': 150, 'accuracy_sim': 0.74, 'accuracy_lookup': 0.7933333333333333, 'accuracy_majority': 0.7866666666666666}
+TOTAL $1.49

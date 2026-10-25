@@ -1,0 +1,47 @@
+task_type: binary
+country: Colombia
+control_arm: no_label
+arms:
+  no_label: Neither drink carries any front-of-pack nutrition label; the fronts just show the brand and a picture of fruit.
+  nutrient_warning: Drink B carries a black octagonal warning seal on the front reading 'EXCESO DE AZÚCARES' (excess sugar), with the Ministry of Health logo and the line 'evitar su alto consumo' (avoid high consumption). Drink A has no seal because it does not exceed the threshold.
+  nutri_score: Both drinks carry a Nutri-Score colour-graded letter (A dark green to E dark red) on the front. Drink A shows a green B; Drink B shows an orange D.
+  gda: 'Both drinks carry a Guideline Daily Amount panel on the front: serving size and small blocks for calories, total fat, saturated fat, sugar and sodium as a percentage of a 2,000-calorie diet. Drink A''s sugar block reads 3 g (3%); Drink B''s reads 18 g (20%).'
+outcome:
+  name: chose the no-added-sugar drink
+  binary: true
+  support:
+  - 0
+  - 1
+  higher_is: label worked
+segment_keys:
+- gender
+- age_band
+mechanism_covariates:
+- age
+- female
+- edu_level
+- finance
+- parent_num
+- sugar_drinks
+task:
+  options:
+  - label: 'Fruit drink A: a boxed fruit juice drink, same size and price as B.'
+    value: 1
+  - label: 'Fruit drink B: a boxed fruit juice drink, same size and price as A.'
+    value: 0
+  prompt: 'You are shopping and comparing two boxed fruit drinks on the shelf, same brand style, same size, same price. Like any packaged drink they have a nutrition table on the back, but you are looking at the fronts as they sit on the shelf.
+
+
+    Front of pack: {arm}
+
+
+    Option 1: {opt1}
+
+    Option 2: {opt2}
+
+
+    Which of these would you rather buy? Decide the way you actually shop. One short sentence, then answer.'
+topic_hint: what they drink day to day and shop for the household
+name: moraplazas2024_drink_v2
+human_table: data/evals/moraplazas2024_drink_human.csv
+twins: data/evals/moraplazas2024_drink_twins.json

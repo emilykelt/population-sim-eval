@@ -1,0 +1,4502 @@
+[
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10090",
+  "covariates": {
+   "age": "34",
+   "gender": "woman",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Sucre",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11650",
+  "covariates": {
+   "age": "36",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3223",
+  "covariates": {
+   "age": "21",
+   "gender": "woman",
+   "education": "Primary school",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 21.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5859",
+  "covariates": {
+   "age": "39",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6556",
+  "covariates": {
+   "age": "50",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9815",
+  "covariates": {
+   "age": "36",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2603",
+  "covariates": {
+   "age": "24",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "848",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Casanare",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "191",
+  "covariates": {
+   "age": "35",
+   "gender": "woman",
+   "education": "Graduate degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 4.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2956",
+  "covariates": {
+   "age": "46",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Quind\u00edo",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 46.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3030",
+  "covariates": {
+   "age": "22",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 22.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1385",
+  "covariates": {
+   "age": "34",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6077",
+  "covariates": {
+   "age": "37",
+   "gender": "man",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2130",
+  "covariates": {
+   "age": "40",
+   "gender": "man",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2049",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Boyac\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2658",
+  "covariates": {
+   "age": "21",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 21.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4848",
+  "covariates": {
+   "age": "27",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Cannot pay the bills",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 27.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 4.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "8708",
+  "covariates": {
+   "age": "50",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Cundinamarca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "790",
+  "covariates": {
+   "age": "23",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bolivar",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6396",
+  "covariates": {
+   "age": "34",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4032",
+  "covariates": {
+   "age": "53",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Cannot pay the bills",
+   "department_of_residence": "Meta",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 4.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10742",
+  "covariates": {
+   "age": "19",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Cannot pay the bills",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 19.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 4.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6036",
+  "covariates": {
+   "age": "36",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Quind\u00edo",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9992",
+  "covariates": {
+   "age": "28",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7017",
+  "covariates": {
+   "age": "24",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2801",
+  "covariates": {
+   "age": "50",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 50.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10132",
+  "covariates": {
+   "age": "34",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5173",
+  "covariates": {
+   "age": "44",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2965",
+  "covariates": {
+   "age": "58",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 58.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7633",
+  "covariates": {
+   "age": "37",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11120",
+  "covariates": {
+   "age": "18",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 3.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4620",
+  "covariates": {
+   "age": "25",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11031",
+  "covariates": {
+   "age": "30",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Cannot pay the bills",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 4.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2289",
+  "covariates": {
+   "age": "38",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": "Boyac\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": 1.0,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10530",
+  "covariates": {
+   "age": "21",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 21.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10567",
+  "covariates": {
+   "age": "29",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11689",
+  "covariates": {
+   "age": "59",
+   "gender": "woman",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Norte de Santander",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 59.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5976",
+  "covariates": {
+   "age": "63",
+   "gender": "man",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9577",
+  "covariates": {
+   "age": "18",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6716",
+  "covariates": {
+   "age": "25",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 4.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5014",
+  "covariates": {
+   "age": "45",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1131",
+  "covariates": {
+   "age": "34",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6199",
+  "covariates": {
+   "age": "21",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 21.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6297",
+  "covariates": {
+   "age": "18",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1462",
+  "covariates": {
+   "age": "35",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1128",
+  "covariates": {
+   "age": "51",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1377",
+  "covariates": {
+   "age": "43",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4591",
+  "covariates": {
+   "age": "59",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 59.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6053",
+  "covariates": {
+   "age": "48",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 48.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11956",
+  "covariates": {
+   "age": "45",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Bolivar",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3990",
+  "covariates": {
+   "age": "20",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4503",
+  "covariates": {
+   "age": "19",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 19.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "8376",
+  "covariates": {
+   "age": "20",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6081",
+  "covariates": {
+   "age": "33",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9632",
+  "covariates": {
+   "age": "32",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12100",
+  "covariates": {
+   "age": "51",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 51.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7571",
+  "covariates": {
+   "age": "41",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": null,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6319",
+  "covariates": {
+   "age": "45",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3824",
+  "covariates": {
+   "age": "20",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": "La Guajira",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": 1.0,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11207",
+  "covariates": {
+   "age": "20",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10897",
+  "covariates": {
+   "age": "37",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2902",
+  "covariates": {
+   "age": "18",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2354",
+  "covariates": {
+   "age": "28",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Arauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11440",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9195",
+  "covariates": {
+   "age": "25",
+   "gender": "man",
+   "education": "9th grade",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6617",
+  "covariates": {
+   "age": "54",
+   "gender": "man",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Santander",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5727",
+  "covariates": {
+   "age": "26",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Boyac\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9243",
+  "covariates": {
+   "age": "23",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 4.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11496",
+  "covariates": {
+   "age": "35",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4621",
+  "covariates": {
+   "age": "64",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 64.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10549",
+  "covariates": {
+   "age": "20",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "959",
+  "covariates": {
+   "age": "18",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Cesar",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5749",
+  "covariates": {
+   "age": "38",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1415",
+  "covariates": {
+   "age": "23",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Caldas",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 7.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7334",
+  "covariates": {
+   "age": "43",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12552",
+  "covariates": {
+   "age": "46",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 46.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7371",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5298",
+  "covariates": {
+   "age": "20",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6374",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3817",
+  "covariates": {
+   "age": "54",
+   "gender": "woman",
+   "education": "9th grade",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3759",
+  "covariates": {
+   "age": "20",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 4.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1839",
+  "covariates": {
+   "age": "23",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 23.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "741",
+  "covariates": {
+   "age": "18",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Amazonas",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9936",
+  "covariates": {
+   "age": "33",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "8426",
+  "covariates": {
+   "age": "36",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 5.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5978",
+  "covariates": {
+   "age": "30",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Bolivar",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9142",
+  "covariates": {
+   "age": "30",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3468",
+  "covariates": {
+   "age": "37",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Cannot pay the bills",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 4.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11483",
+  "covariates": {
+   "age": "56",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 56.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 3.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9023",
+  "covariates": {
+   "age": "43",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 43.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "8479",
+  "covariates": {
+   "age": "26",
+   "gender": "woman",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 7.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "647",
+  "covariates": {
+   "age": "28",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5679",
+  "covariates": {
+   "age": "37",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11368",
+  "covariates": {
+   "age": "29",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Cesar",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9337",
+  "covariates": {
+   "age": "54",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Risaralda",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 54.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9253",
+  "covariates": {
+   "age": "39",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "815",
+  "covariates": {
+   "age": "56",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 56.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4201",
+  "covariates": {
+   "age": "21",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 21.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 3.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4659",
+  "covariates": {
+   "age": "49",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 49.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3823",
+  "covariates": {
+   "age": "35",
+   "gender": "man",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1503",
+  "covariates": {
+   "age": "53",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 53.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12273",
+  "covariates": {
+   "age": "26",
+   "gender": "man",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5330",
+  "covariates": {
+   "age": "31",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7040",
+  "covariates": {
+   "age": "18",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4356",
+  "covariates": {
+   "age": "18",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7136",
+  "covariates": {
+   "age": "28",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Cundinamarca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3067",
+  "covariates": {
+   "age": "32",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6409",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5248",
+  "covariates": {
+   "age": "29",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10079",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 3.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2283",
+  "covariates": {
+   "age": "29",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Cundinamarca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6706",
+  "covariates": {
+   "age": "28",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 28.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1754",
+  "covariates": {
+   "age": "57",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Tolima",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 57.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9066",
+  "covariates": {
+   "age": "38",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 38.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7863",
+  "covariates": {
+   "age": "24",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 24.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7976",
+  "covariates": {
+   "age": "37",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Santander",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 37.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11491",
+  "covariates": {
+   "age": "19",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 19.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4912",
+  "covariates": {
+   "age": "55",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 55.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5607",
+  "covariates": {
+   "age": "62",
+   "gender": "woman",
+   "education": "Primary school",
+   "financial_situation": null,
+   "department_of_residence": "Tolima",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 62.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "finance": null,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11612",
+  "covariates": {
+   "age": "33",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 33.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12029",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3828",
+  "covariates": {
+   "age": "31",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bolivar",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12252",
+  "covariates": {
+   "age": "19",
+   "gender": "man",
+   "education": "Primary school",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 19.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12248",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10073",
+  "covariates": {
+   "age": "44",
+   "gender": "man",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 44.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4788",
+  "covariates": {
+   "age": "25",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Cundinamarca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "6030",
+  "covariates": {
+   "age": "26",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 26.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "2640",
+  "covariates": {
+   "age": "27",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Atl\u00e1ntico",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 27.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "3454",
+  "covariates": {
+   "age": "34",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9583",
+  "covariates": {
+   "age": "20",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "4613",
+  "covariates": {
+   "age": "35",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 35.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10675",
+  "covariates": {
+   "age": "31",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 31.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "616",
+  "covariates": {
+   "age": "41",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 41.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "885",
+  "covariates": {
+   "age": "30",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1630",
+  "covariates": {
+   "age": "40",
+   "gender": "woman",
+   "education": "Associate's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Caldas",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 40.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5739",
+  "covariates": {
+   "age": "25",
+   "gender": "man",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Antioquia",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 25.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "9708",
+  "covariates": {
+   "age": "32",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Cundinamarca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 32.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5375",
+  "covariates": {
+   "age": "18",
+   "gender": "man",
+   "education": "None",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 18.0,
+   "female": 0.0,
+   "edu_level": 1.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10731",
+  "covariates": {
+   "age": "36",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 36.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10697",
+  "covariates": {
+   "age": "63",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 63.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "11734",
+  "covariates": {
+   "age": "64",
+   "gender": "man",
+   "education": "9th grade",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 64.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "finance": 2.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "8273",
+  "covariates": {
+   "age": "29",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Valle del Cauca",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutrient_warning",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "814",
+  "covariates": {
+   "age": "34",
+   "gender": "man",
+   "education": "Graduate degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 34.0,
+   "female": 0.0,
+   "edu_level": 7.0,
+   "finance": 1.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "1096",
+  "covariates": {
+   "age": "39",
+   "gender": "man",
+   "education": "9th grade",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Norte de Santander",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 39.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 0.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "7436",
+  "covariates": {
+   "age": "30",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": "Can barely pay the bills",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 30.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": 3.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 1.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5504",
+  "covariates": {
+   "age": "29",
+   "gender": "woman",
+   "education": "Bachelor's degree",
+   "financial_situation": "Can pay the bills and buy more than necessities",
+   "department_of_residence": "Huila",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "finance": 1.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "10399",
+  "covariates": {
+   "age": "20",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 20.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "12647",
+  "covariates": {
+   "age": "45",
+   "gender": "man",
+   "education": "Associate's degree",
+   "financial_situation": null,
+   "department_of_residence": null,
+   "children": null
+  },
+  "numeric": {
+   "age": 45.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "finance": null,
+   "parent_num": null,
+   "sugar_drinks": null
+  },
+  "human_arm": "gda",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "5630",
+  "covariates": {
+   "age": "47",
+   "gender": "woman",
+   "education": "High school diploma",
+   "financial_situation": "Can pay the bills and buy necessities",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "parent or caregiver of a child under 18"
+  },
+  "numeric": {
+   "age": 47.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "finance": 2.0,
+   "parent_num": 1.0,
+   "sugar_drinks": 2.0
+  },
+  "human_arm": "nutri_score",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "moraplazas2024_drink",
+  "row_id": "8924",
+  "covariates": {
+   "age": "29",
+   "gender": "man",
+   "education": "High school diploma",
+   "financial_situation": "Cannot pay the bills",
+   "department_of_residence": "Bogot\u00e1",
+   "children": "no children under 18 at home"
+  },
+  "numeric": {
+   "age": 29.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "finance": 4.0,
+   "parent_num": 0.0,
+   "sugar_drinks": 3.0
+  },
+  "human_arm": "no_label",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ }
+]

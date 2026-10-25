@@ -1,0 +1,2396 @@
+id,arm,y,gender,age_band,education,age_mid,female,edu_level,politics,social_status,minority
+0,control,4.428571428571429,man,55+,university degree,60,0.0,4.0,4.0,6.0,0.0
+1,text,4.0,woman,55+,no university degree,60,1.0,2.0,3.0,4.0,1.0
+2,control,5.0,woman,35-54,no university degree,50,1.0,3.0,5.0,6.0,0.0
+3,text,5.0,man,35-54,no university degree,40,0.0,3.0,5.0,6.0,0.0
+4,mechanism,5.0,woman,55+,no university degree,60,1.0,3.0,2.0,4.0,0.0
+5,approval,4.857142857142858,woman,55+,no university degree,70,1.0,2.0,5.0,6.0,0.0
+6,text,5.0,woman,18-34,no university degree,21,1.0,3.0,5.0,6.0,0.0
+7,factbox,2.4285714285714284,woman,55+,no university degree,60,1.0,2.0,5.0,4.0,0.0
+8,control,4.714285714285714,woman,55+,university degree,70,1.0,4.0,5.0,6.0,0.0
+9,mechanism,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,5.0,6.0,0.0
+10,approval,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,4.0,4.0,1.0
+11,approval,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,2.0,4.0,0.0
+12,control,4.285714285714286,man,35-54,no university degree,40,0.0,2.0,4.0,2.0,0.0
+13,text,3.0,man,35-54,university degree,50,0.0,5.0,6.0,7.0,0.0
+14,text,4.0,woman,35-54,university degree,40,1.0,5.0,1.0,7.0,1.0
+15,approval,5.0,woman,55+,no university degree,70,1.0,1.0,4.0,5.0,0.0
+16,mechanism,5.0,man,55+,no university degree,60,0.0,2.0,3.0,5.0,0.0
+17,factbox,4.285714285714286,woman,35-54,no university degree,50,1.0,2.0,2.0,2.0,0.0
+18,control,3.857142857142857,woman,18-34,university degree,30,1.0,5.0,3.0,,1.0
+19,control,4.142857142857142,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,0.0
+20,mechanism,4.714285714285714,woman,55+,no university degree,60,1.0,2.0,5.0,6.0,0.0
+21,approval,4.857142857142858,woman,55+,no university degree,70,1.0,2.0,6.0,6.0,0.0
+22,factbox,3.0,woman,55+,university degree,70,1.0,4.0,3.0,3.0,0.0
+23,text,5.0,woman,35-54,no university degree,40,1.0,2.0,4.0,6.0,0.0
+25,factbox,4.0,man,35-54,university degree,50,0.0,4.0,3.0,3.0,0.0
+26,control,4.857142857142858,woman,55+,university degree,70,1.0,5.0,6.0,6.0,0.0
+27,text,4.285714285714286,woman,55+,no university degree,70,1.0,1.0,6.0,4.0,0.0
+28,mechanism,4.714285714285714,woman,55+,no university degree,60,1.0,1.0,5.0,5.0,0.0
+30,text,5.0,woman,55+,no university degree,70,1.0,3.0,5.0,4.0,0.0
+31,factbox,4.285714285714286,woman,18-34,university degree,30,1.0,6.0,4.0,7.0,0.0
+32,approval,4.714285714285714,woman,55+,no university degree,70,1.0,1.0,4.0,4.0,0.0
+33,control,3.857142857142857,woman,55+,no university degree,70,1.0,1.0,4.0,2.0,0.0
+34,mechanism,4.857142857142858,woman,55+,no university degree,70,1.0,1.0,4.0,2.0,0.0
+35,control,4.428571428571429,woman,55+,no university degree,70,1.0,1.0,5.0,6.0,0.0
+36,mechanism,1.0,man,18-34,no university degree,30,0.0,3.0,2.0,4.0,0.0
+37,text,4.428571428571429,man,35-54,no university degree,40,0.0,2.0,4.0,7.0,0.0
+38,factbox,5.0,woman,55+,no university degree,70,1.0,3.0,7.0,6.0,0.0
+39,approval,3.4285714285714284,man,18-34,no university degree,30,0.0,2.0,4.0,4.0,0.0
+40,factbox,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,4.0,4.0,0.0
+41,mechanism,5.0,woman,35-54,no university degree,50,1.0,2.0,3.0,6.0,0.0
+42,control,4.0,woman,55+,no university degree,70,1.0,1.0,6.0,2.0,0.0
+43,control,4.571428571428571,woman,55+,no university degree,60,1.0,2.0,5.0,2.0,0.0
+44,approval,4.714285714285714,woman,55+,university degree,70,1.0,4.0,3.0,4.0,0.0
+45,text,5.0,woman,55+,university degree,70,1.0,5.0,6.0,6.0,0.0
+46,mechanism,5.0,woman,55+,no university degree,70,1.0,1.0,6.0,7.0,0.0
+47,text,5.0,woman,55+,no university degree,70,1.0,3.0,6.0,6.0,0.0
+48,factbox,5.0,woman,55+,no university degree,70,1.0,2.0,5.0,7.0,0.0
+49,control,5.0,woman,55+,no university degree,70,1.0,3.0,1.0,4.0,0.0
+50,factbox,2.857142857142857,woman,35-54,no university degree,50,1.0,1.0,7.0,3.0,0.0
+51,mechanism,5.0,woman,55+,no university degree,70,1.0,2.0,5.0,3.0,0.0
+52,approval,2.5714285714285716,woman,35-54,no university degree,50,1.0,1.0,5.0,1.0,0.0
+53,text,5.0,man,35-54,university degree,40,0.0,5.0,2.0,7.0,0.0
+54,approval,5.0,woman,18-34,university degree,30,1.0,4.0,5.0,7.0,0.0
+55,text,3.5714285714285716,woman,55+,no university degree,70,1.0,2.0,4.0,7.0,0.0
+56,factbox,5.0,woman,55+,university degree,60,1.0,4.0,5.0,2.0,0.0
+57,control,4.857142857142858,woman,55+,no university degree,70,1.0,1.0,6.0,5.0,0.0
+58,text,5.0,woman,55+,no university degree,70,1.0,1.0,4.0,3.0,0.0
+59,factbox,4.142857142857142,woman,55+,university degree,70,1.0,6.0,5.0,7.0,0.0
+60,control,5.0,woman,35-54,university degree,50,1.0,4.0,6.0,4.0,0.0
+61,control,5.0,woman,35-54,university degree,50,1.0,4.0,4.0,7.0,0.0
+62,factbox,4.857142857142858,woman,55+,no university degree,70,1.0,1.0,4.0,4.0,0.0
+63,approval,4.285714285714286,woman,55+,no university degree,60,1.0,3.0,3.0,2.0,0.0
+64,mechanism,5.0,woman,55+,no university degree,70,1.0,1.0,5.0,2.0,1.0
+65,approval,4.714285714285714,man,35-54,university degree,50,0.0,4.0,5.0,3.0,0.0
+66,text,4.714285714285714,man,35-54,university degree,40,0.0,5.0,4.0,,0.0
+68,mechanism,3.5714285714285716,woman,55+,no university degree,60,1.0,2.0,4.0,3.0,0.0
+69,factbox,4.142857142857142,woman,55+,university degree,60,1.0,4.0,6.0,1.0,0.0
+70,control,4.0,woman,55+,no university degree,60,1.0,3.0,3.0,6.0,1.0
+71,factbox,5.0,man,35-54,university degree,50,0.0,4.0,2.0,5.0,0.0
+72,text,4.428571428571429,woman,55+,no university degree,60,1.0,1.0,2.0,1.0,0.0
+73,control,2.4285714285714284,man,18-34,no university degree,30,0.0,2.0,4.0,3.0,0.0
+74,approval,5.0,man,35-54,university degree,50,0.0,5.0,5.0,6.0,0.0
+75,mechanism,5.0,woman,35-54,no university degree,50,1.0,1.0,4.0,3.0,0.0
+76,approval,4.571428571428571,woman,35-54,university degree,50,1.0,5.0,6.0,3.0,1.0
+77,mechanism,5.0,woman,55+,no university degree,70,1.0,2.0,4.0,4.0,0.0
+78,mechanism,5.0,woman,55+,no university degree,70,1.0,1.0,4.0,5.0,0.0
+79,factbox,5.0,woman,55+,no university degree,60,1.0,3.0,4.0,5.0,0.0
+80,text,4.857142857142858,woman,55+,no university degree,70,1.0,3.0,6.0,5.0,0.0
+82,approval,4.0,woman,35-54,no university degree,50,1.0,2.0,7.0,3.0,1.0
+83,text,5.0,woman,55+,no university degree,70,1.0,1.0,6.0,6.0,0.0
+84,mechanism,5.0,woman,55+,university degree,70,1.0,4.0,3.0,6.0,0.0
+85,approval,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,2.0,2.0,1.0
+86,text,2.7142857142857144,woman,55+,no university degree,70,1.0,3.0,3.0,7.0,0.0
+87,factbox,5.0,woman,55+,university degree,70,1.0,5.0,2.0,7.0,0.0
+88,control,3.5714285714285716,woman,35-54,university degree,50,1.0,4.0,4.0,6.0,0.0
+89,text,5.0,woman,35-54,no university degree,50,1.0,2.0,4.0,2.0,1.0
+90,control,1.1428571428571432,man,35-54,no university degree,40,0.0,3.0,3.0,1.0,0.0
+91,mechanism,4.428571428571429,woman,55+,no university degree,70,1.0,2.0,5.0,6.0,0.0
+92,mechanism,5.0,woman,55+,university degree,70,1.0,4.0,3.0,4.0,0.0
+93,text,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,3.0,4.0,0.0
+94,approval,5.0,woman,55+,no university degree,70,1.0,3.0,2.0,7.0,0.0
+95,control,5.0,woman,55+,university degree,70,1.0,4.0,5.0,8.0,0.0
+96,text,4.428571428571429,woman,55+,no university degree,70,1.0,3.0,6.0,7.0,0.0
+97,control,4.142857142857142,woman,35-54,no university degree,50,1.0,1.0,4.0,4.0,0.0
+98,approval,5.0,man,55+,university degree,60,0.0,5.0,5.0,7.0,0.0
+100,factbox,4.714285714285714,woman,55+,no university degree,70,1.0,1.0,4.0,2.0,0.0
+101,text,5.0,woman,55+,university degree,60,1.0,5.0,5.0,8.0,0.0
+102,control,4.857142857142858,man,18-34,university degree,30,0.0,4.0,5.0,6.0,0.0
+103,approval,4.714285714285714,woman,18-34,university degree,30,1.0,4.0,3.0,3.0,0.0
+105,factbox,2.142857142857143,woman,35-54,university degree,50,1.0,4.0,2.0,3.0,0.0
+106,factbox,5.0,woman,55+,no university degree,70,1.0,2.0,6.0,7.0,0.0
+107,control,4.857142857142858,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+108,mechanism,4.285714285714286,woman,55+,university degree,60,1.0,4.0,4.0,5.0,0.0
+109,text,4.571428571428571,woman,55+,no university degree,60,1.0,2.0,2.0,6.0,0.0
+110,approval,4.857142857142858,woman,55+,university degree,70,1.0,4.0,7.0,7.0,0.0
+111,text,5.0,man,35-54,no university degree,50,0.0,2.0,6.0,6.0,0.0
+112,mechanism,5.0,woman,35-54,university degree,40,1.0,6.0,6.0,6.0,0.0
+113,factbox,4.285714285714286,man,35-54,university degree,40,0.0,4.0,2.0,5.0,0.0
+114,approval,5.0,man,18-34,university degree,30,0.0,4.0,4.0,5.0,1.0
+115,approval,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,,1.0
+116,control,5.0,woman,55+,no university degree,70,1.0,1.0,4.0,7.0,0.0
+117,control,3.5714285714285716,woman,18-34,university degree,30,1.0,4.0,3.0,5.0,0.0
+118,factbox,1.7142857142857144,woman,55+,university degree,70,1.0,5.0,5.0,2.0,0.0
+119,text,4.857142857142858,man,35-54,university degree,40,0.0,4.0,6.0,2.0,0.0
+120,control,3.857142857142857,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,1.0
+121,approval,5.0,man,18-34,no university degree,30,0.0,1.0,1.0,9.0,0.0
+122,control,5.0,woman,55+,university degree,60,1.0,5.0,3.0,8.0,0.0
+123,approval,3.2857142857142856,man,18-34,no university degree,30,0.0,3.0,3.0,1.0,0.0
+124,text,5.0,woman,55+,no university degree,70,1.0,2.0,4.0,1.0,0.0
+125,approval,4.0,woman,35-54,university degree,40,1.0,4.0,3.0,4.0,1.0
+126,factbox,4.285714285714286,woman,55+,university degree,60,1.0,4.0,4.0,3.0,0.0
+127,factbox,3.5714285714285716,woman,35-54,no university degree,50,1.0,2.0,5.0,5.0,0.0
+128,control,4.857142857142858,woman,55+,university degree,70,1.0,4.0,5.0,6.0,0.0
+129,approval,5.0,woman,35-54,no university degree,50,1.0,1.0,4.0,3.0,0.0
+130,mechanism,5.0,man,35-54,university degree,50,0.0,4.0,5.0,7.0,0.0
+131,text,5.0,woman,55+,no university degree,70,1.0,3.0,5.0,5.0,0.0
+132,text,1.0,man,35-54,university degree,40,0.0,4.0,4.0,5.0,1.0
+133,factbox,4.142857142857142,woman,55+,no university degree,70,1.0,1.0,4.0,6.0,0.0
+134,control,5.0,woman,35-54,university degree,50,1.0,5.0,2.0,6.0,0.0
+135,factbox,5.0,woman,55+,no university degree,70,1.0,2.0,4.0,4.0,0.0
+136,factbox,1.2857142857142856,man,35-54,university degree,40,0.0,5.0,4.0,6.0,1.0
+137,approval,5.0,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+138,control,2.2857142857142856,woman,55+,no university degree,70,1.0,1.0,5.0,2.0,1.0
+139,mechanism,5.0,woman,55+,university degree,70,1.0,4.0,3.0,7.0,0.0
+140,mechanism,4.857142857142858,woman,55+,no university degree,70,1.0,3.0,5.0,5.0,0.0
+141,control,4.857142857142858,woman,55+,no university degree,60,1.0,1.0,6.0,6.0,0.0
+142,approval,3.7142857142857144,woman,35-54,university degree,50,1.0,5.0,4.0,3.0,0.0
+143,mechanism,4.714285714285714,woman,55+,no university degree,70,1.0,2.0,5.0,4.0,0.0
+144,factbox,5.0,woman,55+,university degree,70,1.0,4.0,5.0,5.0,0.0
+145,control,2.5714285714285716,woman,35-54,no university degree,40,1.0,2.0,2.0,8.0,0.0
+146,control,5.0,woman,55+,no university degree,60,1.0,2.0,6.0,3.0,1.0
+147,text,4.142857142857142,woman,55+,university degree,60,1.0,4.0,6.0,6.0,0.0
+148,text,4.142857142857142,man,55+,no university degree,60,0.0,3.0,,2.0,0.0
+149,approval,2.142857142857143,man,18-34,no university degree,30,0.0,2.0,4.0,,0.0
+152,mechanism,2.2857142857142856,woman,55+,no university degree,60,1.0,3.0,2.0,5.0,0.0
+153,text,5.0,woman,55+,university degree,70,1.0,4.0,5.0,7.0,0.0
+154,factbox,4.571428571428571,woman,55+,university degree,60,1.0,4.0,4.0,3.0,0.0
+155,control,4.428571428571429,woman,55+,university degree,60,1.0,4.0,2.0,8.0,0.0
+156,factbox,4.714285714285714,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+157,approval,4.0,man,35-54,no university degree,40,0.0,1.0,4.0,4.0,1.0
+158,approval,5.0,man,35-54,no university degree,50,0.0,1.0,3.0,8.0,0.0
+159,factbox,5.0,woman,55+,no university degree,70,1.0,1.0,3.0,8.0,0.0
+160,control,5.0,woman,55+,no university degree,70,1.0,1.0,6.0,3.0,0.0
+161,text,5.0,woman,55+,no university degree,60,1.0,3.0,2.0,3.0,0.0
+162,approval,2.142857142857143,woman,55+,university degree,60,1.0,4.0,2.0,6.0,0.0
+163,factbox,2.7142857142857144,man,35-54,university degree,40,0.0,4.0,4.0,6.0,1.0
+164,factbox,4.714285714285714,woman,35-54,no university degree,50,1.0,2.0,4.0,9.0,0.0
+165,text,1.7142857142857144,woman,55+,university degree,70,1.0,4.0,3.0,5.0,0.0
+166,text,4.857142857142858,man,18-34,university degree,21,0.0,4.0,5.0,3.0,1.0
+167,control,5.0,woman,55+,no university degree,70,1.0,3.0,5.0,7.0,0.0
+168,control,5.0,woman,35-54,no university degree,50,1.0,3.0,2.0,,0.0
+169,control,5.0,woman,55+,no university degree,70,1.0,1.0,4.0,3.0,0.0
+170,approval,4.714285714285714,woman,55+,no university degree,70,1.0,2.0,5.0,7.0,0.0
+171,text,4.285714285714286,woman,55+,no university degree,60,1.0,1.0,5.0,4.0,0.0
+172,approval,5.0,woman,55+,university degree,60,1.0,4.0,1.0,7.0,0.0
+173,mechanism,5.0,man,35-54,no university degree,50,0.0,1.0,4.0,5.0,0.0
+174,mechanism,4.285714285714286,woman,35-54,no university degree,50,1.0,1.0,5.0,3.0,0.0
+175,mechanism,4.857142857142858,man,55+,no university degree,70,0.0,2.0,7.0,,0.0
+176,text,4.857142857142858,man,55+,no university degree,70,0.0,1.0,4.0,3.0,0.0
+177,factbox,4.142857142857142,woman,55+,no university degree,70,1.0,1.0,4.0,2.0,1.0
+178,text,5.0,woman,35-54,no university degree,50,1.0,3.0,6.0,4.0,0.0
+179,mechanism,4.285714285714286,man,18-34,university degree,30,0.0,4.0,4.0,6.0,1.0
+180,text,5.0,woman,55+,no university degree,60,1.0,3.0,5.0,2.0,1.0
+181,text,5.0,man,35-54,no university degree,50,0.0,2.0,3.0,3.0,0.0
+182,approval,4.714285714285714,woman,18-34,no university degree,30,1.0,1.0,5.0,5.0,0.0
+183,control,5.0,woman,55+,no university degree,70,1.0,3.0,2.0,4.0,1.0
+184,control,5.0,woman,55+,no university degree,70,1.0,1.0,6.0,2.0,0.0
+185,approval,5.0,man,35-54,no university degree,50,0.0,3.0,5.0,6.0,0.0
+186,factbox,4.714285714285714,woman,55+,no university degree,70,1.0,2.0,5.0,4.0,1.0
+188,text,3.857142857142857,man,35-54,no university degree,50,0.0,3.0,3.0,1.0,0.0
+189,mechanism,4.0,man,35-54,no university degree,40,0.0,2.0,4.0,,0.0
+190,mechanism,1.7142857142857144,woman,18-34,university degree,30,1.0,4.0,6.0,6.0,0.0
+191,control,1.7142857142857144,man,18-34,no university degree,30,0.0,1.0,1.0,2.0,0.0
+192,approval,4.428571428571429,woman,55+,university degree,70,1.0,4.0,6.0,3.0,0.0
+193,factbox,3.0,man,35-54,no university degree,50,0.0,3.0,4.0,3.0,0.0
+194,control,1.4285714285714288,woman,18-34,no university degree,30,1.0,1.0,4.0,7.0,0.0
+195,mechanism,5.0,woman,55+,no university degree,70,1.0,2.0,4.0,7.0,0.0
+196,control,4.428571428571429,woman,18-34,no university degree,21,1.0,3.0,1.0,6.0,0.0
+197,factbox,5.0,woman,55+,university degree,70,1.0,4.0,5.0,4.0,0.0
+198,factbox,5.0,man,35-54,no university degree,50,0.0,2.0,6.0,5.0,0.0
+199,approval,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,2.0,3.0,0.0
+200,approval,4.857142857142858,woman,55+,no university degree,70,1.0,2.0,6.0,6.0,0.0
+201,text,1.4285714285714288,woman,35-54,no university degree,50,1.0,2.0,6.0,7.0,0.0
+202,mechanism,5.0,woman,55+,no university degree,60,1.0,1.0,3.0,2.0,1.0
+203,control,2.857142857142857,woman,55+,no university degree,60,1.0,1.0,5.0,3.0,0.0
+204,text,3.0,woman,35-54,no university degree,50,1.0,1.0,4.0,3.0,0.0
+205,mechanism,2.0,woman,55+,university degree,60,1.0,6.0,5.0,5.0,0.0
+206,control,3.857142857142857,man,18-34,university degree,30,0.0,4.0,3.0,7.0,0.0
+207,text,5.0,woman,55+,no university degree,60,1.0,1.0,4.0,6.0,0.0
+208,approval,4.142857142857142,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+209,mechanism,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+210,factbox,4.714285714285714,woman,35-54,no university degree,50,1.0,1.0,5.0,4.0,0.0
+211,factbox,4.285714285714286,man,55+,university degree,70,0.0,4.0,3.0,6.0,0.0
+212,mechanism,3.7142857142857144,woman,55+,no university degree,70,1.0,2.0,4.0,2.0,0.0
+213,control,5.0,woman,55+,no university degree,70,1.0,2.0,6.0,6.0,0.0
+214,text,2.0,man,18-34,university degree,21,0.0,4.0,2.0,3.0,0.0
+215,mechanism,2.142857142857143,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+216,approval,4.142857142857142,woman,55+,no university degree,60,1.0,1.0,5.0,3.0,0.0
+217,factbox,5.0,man,35-54,university degree,50,0.0,4.0,3.0,4.0,0.0
+218,control,4.857142857142858,man,35-54,university degree,40,0.0,5.0,4.0,5.0,1.0
+219,text,2.4285714285714284,man,35-54,no university degree,50,0.0,2.0,4.0,2.0,0.0
+220,factbox,1.0,woman,35-54,no university degree,50,1.0,2.0,4.0,6.0,0.0
+221,approval,5.0,woman,35-54,no university degree,50,1.0,3.0,6.0,7.0,0.0
+222,approval,2.5,man,18-34,no university degree,30,0.0,1.0,4.0,,1.0
+223,mechanism,5.0,woman,35-54,no university degree,50,1.0,3.0,7.0,5.0,0.0
+224,control,4.0,man,18-34,no university degree,21,0.0,2.0,4.0,5.0,0.0
+225,text,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,5.0,5.0,1.0
+226,approval,4.0,woman,55+,university degree,60,1.0,4.0,5.0,,0.0
+227,text,3.0,man,35-54,university degree,40,0.0,4.0,4.0,4.0,0.0
+228,mechanism,4.714285714285714,woman,55+,no university degree,70,1.0,1.0,4.0,,0.0
+229,control,4.0,man,55+,no university degree,70,0.0,2.0,4.0,4.0,1.0
+230,factbox,4.714285714285714,woman,55+,no university degree,60,1.0,2.0,4.0,3.0,0.0
+231,mechanism,4.666666666666667,man,55+,no university degree,70,0.0,1.0,4.0,3.0,0.0
+232,factbox,5.0,woman,35-54,university degree,40,1.0,5.0,5.0,7.0,0.0
+233,mechanism,3.2857142857142856,man,35-54,no university degree,40,0.0,3.0,3.0,4.0,0.0
+234,text,4.428571428571429,man,35-54,no university degree,50,0.0,2.0,5.0,3.0,0.0
+235,text,4.142857142857142,woman,55+,university degree,70,1.0,4.0,4.0,1.0,1.0
+236,control,4.714285714285714,woman,55+,no university degree,60,1.0,1.0,5.0,4.0,0.0
+237,approval,4.857142857142858,woman,55+,university degree,70,1.0,5.0,4.0,4.0,0.0
+238,mechanism,5.0,man,55+,no university degree,70,0.0,1.0,6.0,3.0,0.0
+239,factbox,4.142857142857142,man,18-34,university degree,30,0.0,4.0,4.0,6.0,1.0
+240,text,1.0,woman,35-54,no university degree,50,1.0,1.0,4.0,3.0,0.0
+241,control,2.142857142857143,man,18-34,university degree,21,0.0,4.0,4.0,5.0,1.0
+242,text,5.0,woman,35-54,no university degree,40,1.0,3.0,3.0,6.0,0.0
+243,factbox,3.857142857142857,man,35-54,no university degree,40,0.0,3.0,4.0,,0.0
+244,factbox,4.428571428571429,man,55+,university degree,70,0.0,4.0,3.0,8.0,0.0
+245,control,1.8571428571428568,woman,35-54,university degree,50,1.0,4.0,6.0,3.0,0.0
+246,factbox,1.7142857142857144,woman,55+,no university degree,70,1.0,3.0,6.0,7.0,0.0
+247,approval,1.0,woman,35-54,no university degree,40,1.0,2.0,,1.0,1.0
+248,mechanism,4.0,man,18-34,no university degree,21,0.0,3.0,4.0,,1.0
+249,mechanism,4.857142857142858,man,18-34,no university degree,21,0.0,2.0,4.0,4.0,0.0
+250,control,5.0,woman,55+,no university degree,70,1.0,2.0,4.0,3.0,0.0
+251,approval,4.571428571428571,woman,35-54,no university degree,50,1.0,3.0,4.0,6.0,0.0
+252,control,4.714285714285714,woman,18-34,university degree,30,1.0,6.0,4.0,6.0,0.0
+253,factbox,4.428571428571429,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+254,text,5.0,woman,55+,university degree,60,1.0,5.0,6.0,6.0,0.0
+255,factbox,3.5714285714285716,woman,55+,no university degree,60,1.0,1.0,3.0,5.0,0.0
+256,approval,5.0,woman,55+,university degree,70,1.0,4.0,4.0,1.0,0.0
+257,text,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,2.0,4.0,1.0
+258,control,4.142857142857142,woman,18-34,university degree,30,1.0,6.0,4.0,7.0,0.0
+259,mechanism,4.0,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+260,mechanism,4.0,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+261,control,3.7142857142857144,woman,55+,no university degree,60,1.0,3.0,2.0,6.0,0.0
+262,approval,5.0,woman,55+,no university degree,60,1.0,1.0,4.0,2.0,0.0
+263,factbox,5.0,woman,55+,university degree,70,1.0,4.0,2.0,7.0,0.0
+264,factbox,4.428571428571429,woman,35-54,university degree,40,1.0,4.0,4.0,6.0,0.0
+265,control,4.857142857142858,man,55+,no university degree,70,0.0,1.0,,5.0,0.0
+266,approval,4.571428571428571,man,55+,university degree,70,0.0,4.0,6.0,6.0,0.0
+267,mechanism,5.0,man,55+,university degree,70,0.0,5.0,4.0,7.0,0.0
+268,text,2.5714285714285716,woman,35-54,no university degree,50,1.0,3.0,5.0,6.0,0.0
+270,mechanism,5.0,woman,35-54,no university degree,50,1.0,2.0,4.0,4.0,0.0
+271,control,4.714285714285714,woman,55+,university degree,70,1.0,4.0,6.0,8.0,0.0
+272,mechanism,5.0,woman,55+,no university degree,70,1.0,2.0,4.0,3.0,0.0
+273,approval,3.4285714285714284,woman,35-54,no university degree,50,1.0,1.0,4.0,6.0,0.0
+274,factbox,4.857142857142858,woman,55+,no university degree,60,1.0,2.0,5.0,6.0,0.0
+275,factbox,5.0,woman,55+,university degree,60,1.0,5.0,3.0,7.0,0.0
+276,control,4.571428571428571,man,55+,no university degree,70,0.0,1.0,4.0,6.0,1.0
+277,text,3.0,woman,55+,no university degree,70,1.0,2.0,6.0,3.0,0.0
+278,approval,4.857142857142858,man,55+,no university degree,70,0.0,3.0,4.0,4.0,0.0
+279,approval,5.0,woman,55+,no university degree,70,1.0,2.0,3.0,3.0,0.0
+280,control,4.285714285714286,woman,55+,no university degree,70,1.0,2.0,,3.0,0.0
+281,mechanism,5.0,woman,55+,no university degree,60,1.0,3.0,5.0,4.0,0.0
+282,text,4.571428571428571,woman,55+,university degree,70,1.0,4.0,6.0,4.0,0.0
+283,factbox,4.0,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+284,mechanism,2.0,woman,55+,no university degree,60,1.0,2.0,4.0,1.0,1.0
+285,text,5.0,man,35-54,no university degree,50,0.0,2.0,4.0,6.0,0.0
+286,control,3.0,woman,35-54,no university degree,40,1.0,3.0,4.0,6.0,0.0
+287,approval,3.0,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+288,text,3.5714285714285716,man,18-34,no university degree,21,0.0,3.0,1.0,9.0,1.0
+289,approval,4.0,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+290,control,4.0,woman,18-34,no university degree,21,1.0,2.0,2.0,7.0,1.0
+291,factbox,3.142857142857143,woman,18-34,no university degree,30,1.0,2.0,2.0,6.0,0.0
+292,factbox,2.4285714285714284,woman,18-34,no university degree,21,1.0,1.0,2.0,9.0,1.0
+293,control,3.142857142857143,woman,18-34,university degree,30,1.0,4.0,3.0,5.0,0.0
+294,control,4.0,woman,18-34,university degree,30,1.0,4.0,4.0,3.0,0.0
+295,control,2.0,woman,18-34,no university degree,21,1.0,1.0,4.0,9.0,0.0
+296,approval,5.0,woman,35-54,university degree,40,1.0,5.0,1.0,3.0,0.0
+297,control,3.857142857142857,woman,18-34,no university degree,21,1.0,2.0,4.0,2.0,0.0
+298,factbox,3.2857142857142856,man,18-34,university degree,30,0.0,6.0,5.0,6.0,0.0
+299,text,3.142857142857143,man,18-34,no university degree,21,0.0,3.0,5.0,6.0,0.0
+300,factbox,4.428571428571429,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,1.0
+301,mechanism,4.0,woman,18-34,no university degree,30,1.0,2.0,4.0,7.0,0.0
+302,text,5.0,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+303,mechanism,3.5714285714285716,man,18-34,no university degree,21,0.0,,2.0,,0.0
+304,approval,2.5714285714285716,woman,18-34,no university degree,21,1.0,2.0,6.0,7.0,0.0
+305,mechanism,1.5714285714285712,man,18-34,no university degree,30,0.0,3.0,4.0,2.0,0.0
+306,factbox,3.4285714285714284,man,18-34,no university degree,30,0.0,3.0,3.0,7.0,0.0
+307,approval,3.857142857142857,woman,18-34,no university degree,21,1.0,2.0,2.0,8.0,1.0
+308,text,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,1.0,5.0,0.0
+309,mechanism,5.0,man,18-34,university degree,30,0.0,4.0,1.0,3.0,0.0
+310,mechanism,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,5.0,7.0,0.0
+311,factbox,2.857142857142857,woman,18-34,no university degree,21,1.0,2.0,3.0,,1.0
+312,mechanism,4.428571428571429,woman,18-34,no university degree,30,1.0,3.0,4.0,6.0,0.0
+313,mechanism,2.7142857142857144,woman,18-34,no university degree,21,1.0,3.0,3.0,8.0,0.0
+314,mechanism,4.571428571428571,woman,18-34,no university degree,21,1.0,2.0,5.0,4.0,0.0
+315,factbox,4.142857142857142,woman,18-34,no university degree,30,1.0,2.0,4.0,8.0,0.0
+316,text,5.0,woman,18-34,no university degree,21,1.0,3.0,1.0,3.0,0.0
+317,approval,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,2.0,5.0,0.0
+318,factbox,4.428571428571429,man,18-34,university degree,30,0.0,4.0,3.0,4.0,0.0
+319,text,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,3.0,5.0,0.0
+320,approval,4.571428571428571,man,18-34,no university degree,30,0.0,3.0,5.0,4.0,0.0
+321,control,5.0,man,55+,no university degree,70,0.0,1.0,4.0,6.0,0.0
+322,control,4.714285714285714,man,18-34,university degree,21,0.0,4.0,2.0,4.0,0.0
+323,approval,5.0,woman,18-34,university degree,30,1.0,5.0,4.0,7.0,0.0
+324,text,4.142857142857142,woman,18-34,no university degree,30,1.0,3.0,4.0,,1.0
+325,text,4.571428571428571,man,18-34,no university degree,30,0.0,2.0,4.0,2.0,1.0
+326,control,3.4285714285714284,woman,18-34,no university degree,21,1.0,3.0,3.0,7.0,0.0
+327,mechanism,4.714285714285714,woman,18-34,no university degree,30,1.0,3.0,3.0,2.0,0.0
+328,approval,4.0,man,35-54,no university degree,50,0.0,2.0,4.0,,0.0
+329,control,5.0,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+330,control,2.5714285714285716,woman,18-34,university degree,30,1.0,5.0,5.0,7.0,1.0
+331,approval,4.714285714285714,man,18-34,university degree,30,0.0,5.0,2.0,6.0,0.0
+332,mechanism,3.857142857142857,woman,18-34,university degree,30,1.0,5.0,5.0,8.0,1.0
+333,control,3.5,man,18-34,no university degree,30,0.0,3.0,2.0,,0.0
+334,factbox,5.0,woman,18-34,university degree,30,1.0,5.0,3.0,4.0,0.0
+335,control,4.142857142857142,man,18-34,university degree,30,0.0,5.0,4.0,6.0,0.0
+336,text,4.285714285714286,woman,18-34,university degree,21,1.0,4.0,4.0,9.0,0.0
+337,approval,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,1.0,8.0,0.0
+338,control,3.4285714285714284,woman,18-34,no university degree,21,1.0,3.0,4.0,3.0,0.0
+339,control,3.0,man,18-34,no university degree,30,0.0,2.0,5.0,3.0,0.0
+340,factbox,3.0,woman,18-34,no university degree,21,1.0,3.0,4.0,6.0,1.0
+341,factbox,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,5.0,6.0,0.0
+342,text,4.428571428571429,man,18-34,no university degree,30,0.0,3.0,2.0,4.0,0.0
+343,text,3.0,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,0.0
+344,approval,5.0,man,55+,no university degree,70,0.0,3.0,4.0,1.0,0.0
+345,factbox,4.857142857142858,woman,18-34,no university degree,30,1.0,3.0,2.0,3.0,0.0
+346,factbox,4.428571428571429,woman,18-34,no university degree,21,1.0,3.0,5.0,4.0,0.0
+347,mechanism,1.2857142857142856,woman,18-34,university degree,30,1.0,5.0,3.0,7.0,0.0
+348,text,4.0,woman,18-34,no university degree,21,1.0,3.0,3.0,7.0,0.0
+349,text,2.857142857142857,woman,18-34,university degree,30,1.0,5.0,3.0,6.0,0.0
+350,mechanism,2.2857142857142856,woman,35-54,no university degree,40,1.0,1.0,5.0,5.0,0.0
+351,control,4.142857142857142,woman,18-34,university degree,30,1.0,4.0,5.0,7.0,0.0
+352,approval,4.428571428571429,woman,35-54,no university degree,50,1.0,2.0,3.0,6.0,0.0
+353,control,4.571428571428571,woman,35-54,no university degree,40,1.0,2.0,2.0,7.0,0.0
+354,approval,4.0,man,18-34,university degree,30,0.0,5.0,2.0,6.0,0.0
+355,factbox,5.0,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,0.0
+357,mechanism,1.2857142857142856,woman,18-34,no university degree,21,1.0,3.0,1.0,4.0,1.0
+358,text,2.7142857142857144,man,18-34,no university degree,21,0.0,3.0,3.0,6.0,0.0
+359,text,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,0.0
+360,approval,4.857142857142858,woman,35-54,no university degree,40,1.0,2.0,4.0,5.0,0.0
+361,factbox,4.571428571428571,man,18-34,university degree,30,0.0,4.0,1.0,2.0,0.0
+362,control,3.7142857142857144,man,18-34,no university degree,21,0.0,3.0,6.0,8.0,0.0
+363,approval,5.0,woman,18-34,no university degree,30,1.0,3.0,4.0,7.0,0.0
+364,factbox,5.0,woman,18-34,no university degree,30,1.0,3.0,3.0,6.0,0.0
+365,control,4.142857142857142,woman,18-34,university degree,30,1.0,4.0,3.0,5.0,0.0
+366,approval,5.0,woman,18-34,no university degree,30,1.0,3.0,4.0,3.0,0.0
+368,control,5.0,woman,35-54,no university degree,40,1.0,3.0,4.0,5.0,0.0
+369,factbox,4.142857142857142,woman,18-34,no university degree,30,1.0,3.0,3.0,6.0,0.0
+370,approval,3.0,woman,18-34,no university degree,30,1.0,3.0,5.0,6.0,0.0
+371,text,2.7142857142857144,woman,18-34,university degree,21,1.0,5.0,4.0,5.0,0.0
+372,mechanism,3.2857142857142856,woman,18-34,no university degree,21,1.0,3.0,4.0,3.0,0.0
+373,mechanism,1.1428571428571432,woman,18-34,no university degree,21,1.0,3.0,7.0,2.0,1.0
+374,text,2.5714285714285716,woman,18-34,university degree,30,1.0,5.0,2.0,3.0,0.0
+375,mechanism,4.857142857142858,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+376,mechanism,2.5714285714285716,woman,18-34,no university degree,21,1.0,3.0,4.0,3.0,1.0
+377,approval,3.7142857142857144,woman,18-34,university degree,30,1.0,4.0,5.0,4.0,0.0
+378,factbox,2.7142857142857144,woman,18-34,no university degree,30,1.0,1.0,4.0,3.0,0.0
+379,control,3.0,man,18-34,no university degree,21,0.0,3.0,,,0.0
+380,factbox,3.7142857142857144,woman,18-34,university degree,30,1.0,4.0,5.0,3.0,0.0
+381,mechanism,4.428571428571429,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,0.0
+383,mechanism,3.0,woman,18-34,no university degree,30,1.0,3.0,7.0,6.0,0.0
+384,approval,4.285714285714286,man,18-34,university degree,21,0.0,4.0,2.0,3.0,1.0
+385,text,5.0,man,18-34,university degree,30,0.0,4.0,2.0,5.0,0.0
+386,approval,2.5714285714285716,woman,18-34,university degree,30,1.0,4.0,4.0,7.0,0.0
+387,mechanism,5.0,woman,18-34,university degree,30,1.0,5.0,4.0,5.0,0.0
+388,factbox,4.428571428571429,woman,18-34,no university degree,30,1.0,3.0,2.0,3.0,0.0
+389,factbox,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,1.0
+390,control,3.2857142857142856,woman,18-34,no university degree,30,1.0,3.0,5.0,5.0,1.0
+392,text,1.5714285714285712,man,18-34,no university degree,21,0.0,3.0,1.0,7.0,0.0
+393,approval,4.714285714285714,woman,55+,no university degree,60,1.0,3.0,4.0,3.0,0.0
+394,factbox,5.0,man,55+,university degree,70,0.0,4.0,6.0,4.0,0.0
+395,mechanism,5.0,man,55+,no university degree,70,0.0,1.0,5.0,3.0,0.0
+396,control,3.5714285714285716,woman,55+,no university degree,60,1.0,1.0,4.0,3.0,0.0
+397,control,3.7142857142857144,woman,55+,no university degree,60,1.0,3.0,3.0,6.0,1.0
+398,control,3.0,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+399,approval,4.428571428571429,woman,55+,no university degree,60,1.0,3.0,5.0,4.0,0.0
+400,control,3.7142857142857144,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,1.0
+401,factbox,2.2857142857142856,woman,18-34,no university degree,21,1.0,3.0,3.0,5.0,0.0
+402,factbox,1.0,man,35-54,university degree,40,0.0,5.0,6.0,7.0,0.0
+403,factbox,4.0,woman,18-34,university degree,30,1.0,5.0,6.0,8.0,1.0
+404,factbox,4.857142857142858,woman,55+,no university degree,60,1.0,1.0,4.0,5.0,0.0
+405,control,1.2857142857142856,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+406,mechanism,4.571428571428571,woman,18-34,no university degree,30,1.0,3.0,4.0,2.0,0.0
+407,control,5.0,man,35-54,no university degree,50,0.0,2.0,4.0,4.0,0.0
+408,mechanism,1.0,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,1.0
+409,text,5.0,man,55+,no university degree,70,0.0,1.0,5.0,6.0,0.0
+410,approval,1.0,woman,18-34,no university degree,21,1.0,3.0,4.0,2.0,0.0
+411,text,4.857142857142858,woman,18-34,no university degree,30,1.0,3.0,4.0,3.0,0.0
+412,approval,4.285714285714286,man,55+,university degree,60,0.0,4.0,4.0,,0.0
+413,text,5.0,man,55+,no university degree,60,0.0,2.0,2.0,5.0,0.0
+414,mechanism,3.5714285714285716,woman,35-54,no university degree,40,1.0,3.0,4.0,5.0,0.0
+415,control,5.0,man,55+,no university degree,60,0.0,2.0,5.0,4.0,0.0
+416,factbox,4.857142857142858,man,55+,no university degree,70,0.0,2.0,4.0,2.0,1.0
+417,mechanism,4.285714285714286,woman,18-34,no university degree,21,1.0,3.0,2.0,7.0,1.0
+419,text,5.0,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+420,text,5.0,woman,35-54,university degree,50,1.0,5.0,3.0,6.0,0.0
+421,mechanism,1.0,woman,18-34,no university degree,30,1.0,2.0,2.0,3.0,0.0
+422,control,5.0,woman,18-34,no university degree,21,1.0,3.0,2.0,6.0,1.0
+423,text,5.0,man,35-54,university degree,50,0.0,4.0,5.0,7.0,0.0
+424,approval,5.0,man,55+,university degree,70,0.0,4.0,4.0,7.0,0.0
+425,factbox,5.0,woman,18-34,no university degree,30,1.0,2.0,2.0,4.0,0.0
+426,approval,2.5714285714285716,man,35-54,university degree,50,0.0,5.0,5.0,6.0,1.0
+427,mechanism,4.857142857142858,woman,18-34,no university degree,30,1.0,3.0,3.0,5.0,0.0
+428,factbox,5.0,woman,35-54,university degree,40,1.0,5.0,2.0,5.0,1.0
+429,factbox,3.142857142857143,man,18-34,university degree,21,0.0,5.0,3.0,5.0,1.0
+430,control,5.0,man,55+,no university degree,70,0.0,1.0,4.0,4.0,0.0
+431,mechanism,5.0,woman,55+,no university degree,60,1.0,3.0,6.0,6.0,0.0
+432,approval,4.0,woman,18-34,university degree,30,1.0,6.0,4.0,6.0,1.0
+433,control,1.2857142857142856,woman,18-34,university degree,30,1.0,4.0,4.0,7.0,0.0
+434,control,3.2857142857142856,man,18-34,university degree,21,0.0,4.0,3.0,5.0,0.0
+435,factbox,5.0,man,55+,university degree,60,0.0,5.0,1.0,7.0,0.0
+436,factbox,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,5.0,5.0,0.0
+437,approval,5.0,woman,18-34,university degree,30,1.0,5.0,3.0,5.0,1.0
+438,approval,3.5714285714285716,man,55+,university degree,70,0.0,4.0,5.0,2.0,0.0
+439,factbox,3.142857142857143,man,18-34,no university degree,21,0.0,1.0,3.0,4.0,0.0
+440,text,5.0,man,35-54,university degree,50,0.0,4.0,6.0,4.0,0.0
+441,approval,2.5714285714285716,woman,18-34,no university degree,21,1.0,3.0,6.0,1.0,0.0
+442,mechanism,4.857142857142858,man,35-54,university degree,50,0.0,4.0,4.0,4.0,1.0
+443,approval,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,3.0,5.0,0.0
+444,factbox,5.0,woman,18-34,no university degree,21,1.0,3.0,4.0,7.0,0.0
+445,mechanism,4.0,woman,35-54,no university degree,40,1.0,3.0,5.0,3.0,0.0
+446,text,4.571428571428571,woman,55+,no university degree,60,1.0,2.0,2.0,4.0,0.0
+447,mechanism,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,5.0,3.0,0.0
+448,approval,5.0,woman,55+,university degree,60,1.0,4.0,5.0,4.0,0.0
+449,control,5.0,woman,55+,no university degree,60,1.0,1.0,2.0,7.0,1.0
+450,text,3.7142857142857144,man,18-34,university degree,21,0.0,4.0,3.0,6.0,0.0
+451,mechanism,5.0,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+452,factbox,5.0,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+453,mechanism,5.0,woman,18-34,no university degree,30,1.0,1.0,5.0,7.0,0.0
+454,text,5.0,woman,18-34,university degree,21,1.0,4.0,1.0,6.0,0.0
+455,approval,4.428571428571429,man,55+,university degree,60,0.0,6.0,1.0,8.0,0.0
+456,mechanism,5.0,man,35-54,no university degree,40,0.0,1.0,5.0,3.0,0.0
+457,approval,4.857142857142858,man,55+,no university degree,70,0.0,1.0,4.0,3.0,0.0
+458,text,1.4285714285714288,woman,18-34,university degree,30,1.0,6.0,2.0,5.0,0.0
+459,text,4.428571428571429,woman,18-34,university degree,21,1.0,5.0,4.0,7.0,0.0
+460,control,5.0,woman,55+,no university degree,60,1.0,2.0,4.0,6.0,0.0
+461,approval,5.0,man,55+,university degree,60,0.0,4.0,4.0,4.0,0.0
+462,factbox,3.4285714285714284,woman,18-34,no university degree,21,1.0,2.0,1.0,7.0,0.0
+463,control,4.571428571428571,man,18-34,university degree,30,0.0,4.0,,6.0,0.0
+464,control,4.571428571428571,man,18-34,university degree,21,0.0,4.0,1.0,6.0,0.0
+465,control,4.571428571428571,woman,18-34,university degree,30,1.0,5.0,3.0,6.0,0.0
+466,control,4.571428571428571,man,55+,no university degree,70,0.0,3.0,4.0,4.0,0.0
+467,control,4.857142857142858,man,55+,no university degree,70,0.0,1.0,4.0,3.0,0.0
+468,text,5.0,man,18-34,university degree,21,0.0,4.0,4.0,4.0,1.0
+469,factbox,2.5714285714285716,woman,18-34,university degree,21,1.0,6.0,2.0,9.0,1.0
+470,factbox,5.0,man,18-34,no university degree,21,0.0,3.0,7.0,9.0,1.0
+471,mechanism,1.1428571428571432,woman,18-34,no university degree,30,1.0,1.0,4.0,2.0,0.0
+472,approval,2.4285714285714284,man,55+,no university degree,60,0.0,2.0,4.0,3.0,1.0
+473,factbox,5.0,man,55+,no university degree,70,0.0,1.0,3.0,4.0,0.0
+474,text,4.571428571428571,man,18-34,university degree,21,0.0,5.0,2.0,6.0,0.0
+475,mechanism,4.857142857142858,woman,55+,university degree,60,1.0,4.0,5.0,1.0,0.0
+476,approval,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,6.0,0.0
+477,approval,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,5.0,7.0,0.0
+478,factbox,2.142857142857143,woman,55+,university degree,60,1.0,4.0,6.0,8.0,0.0
+479,factbox,3.4285714285714284,woman,18-34,no university degree,21,1.0,1.0,2.0,7.0,0.0
+480,approval,4.0,woman,18-34,no university degree,30,1.0,3.0,4.0,2.0,0.0
+481,control,4.714285714285714,woman,55+,university degree,60,1.0,5.0,6.0,8.0,0.0
+482,factbox,1.2857142857142856,woman,18-34,no university degree,30,1.0,3.0,3.0,4.0,1.0
+483,control,5.0,man,55+,no university degree,60,0.0,3.0,4.0,3.0,0.0
+484,text,4.428571428571429,man,55+,no university degree,70,0.0,1.0,4.0,3.0,1.0
+485,approval,5.0,man,55+,university degree,70,0.0,4.0,5.0,7.0,0.0
+486,mechanism,2.857142857142857,man,18-34,university degree,30,0.0,4.0,4.0,6.0,1.0
+487,control,3.7142857142857144,woman,18-34,university degree,21,1.0,4.0,4.0,5.0,0.0
+488,text,3.0,man,18-34,university degree,30,0.0,5.0,3.0,4.0,0.0
+489,control,3.857142857142857,man,18-34,no university degree,30,0.0,3.0,4.0,9.0,1.0
+490,mechanism,3.857142857142857,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,0.0
+491,text,4.714285714285714,woman,18-34,university degree,21,1.0,4.0,3.0,6.0,1.0
+492,approval,2.4285714285714284,man,18-34,no university degree,21,0.0,3.0,4.0,3.0,0.0
+493,mechanism,4.0,woman,18-34,university degree,21,1.0,4.0,3.0,7.0,0.0
+494,mechanism,2.5714285714285716,woman,35-54,no university degree,40,1.0,3.0,5.0,5.0,0.0
+495,text,3.0,man,18-34,no university degree,21,0.0,2.0,3.0,9.0,0.0
+496,mechanism,5.0,man,55+,university degree,70,0.0,4.0,4.0,4.0,0.0
+497,approval,3.857142857142857,man,55+,no university degree,60,0.0,2.0,5.0,4.0,0.0
+498,approval,4.428571428571429,woman,18-34,no university degree,21,1.0,2.0,3.0,7.0,0.0
+499,mechanism,4.571428571428571,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+500,approval,5.0,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+502,text,2.5714285714285716,woman,18-34,no university degree,21,1.0,1.0,4.0,3.0,1.0
+503,approval,4.857142857142858,man,18-34,university degree,30,0.0,5.0,5.0,4.0,0.0
+504,approval,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,1.0
+505,control,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,1.0,4.0,1.0
+506,control,5.0,woman,18-34,university degree,30,1.0,4.0,3.0,5.0,0.0
+507,factbox,3.4285714285714284,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+508,factbox,5.0,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+509,mechanism,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,0.0
+510,control,5.0,woman,55+,no university degree,60,1.0,1.0,4.0,6.0,0.0
+511,factbox,4.285714285714286,woman,55+,no university degree,60,1.0,1.0,4.0,3.0,0.0
+512,factbox,4.571428571428571,man,35-54,no university degree,50,0.0,3.0,6.0,6.0,0.0
+513,mechanism,5.0,woman,18-34,university degree,30,1.0,4.0,6.0,4.0,0.0
+514,approval,2.4285714285714284,woman,18-34,university degree,30,1.0,5.0,5.0,6.0,0.0
+516,approval,4.285714285714286,man,35-54,no university degree,40,0.0,3.0,5.0,7.0,1.0
+517,text,5.0,woman,35-54,university degree,50,1.0,5.0,2.0,6.0,1.0
+518,text,4.0,man,18-34,no university degree,30,0.0,2.0,4.0,4.0,0.0
+519,text,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,5.0,,0.0
+520,text,2.2857142857142856,woman,18-34,university degree,30,1.0,4.0,5.0,3.0,0.0
+521,factbox,4.285714285714286,man,35-54,university degree,40,0.0,4.0,3.0,5.0,0.0
+522,mechanism,3.5714285714285716,man,55+,university degree,60,0.0,4.0,5.0,9.0,1.0
+523,factbox,5.0,man,35-54,no university degree,40,0.0,2.0,4.0,6.0,0.0
+524,control,5.0,woman,55+,university degree,60,1.0,5.0,6.0,6.0,0.0
+525,text,3.0,man,18-34,university degree,21,0.0,4.0,4.0,6.0,1.0
+526,mechanism,2.4285714285714284,woman,18-34,university degree,30,1.0,4.0,3.0,3.0,0.0
+527,mechanism,5.0,man,18-34,no university degree,30,0.0,3.0,5.0,1.0,0.0
+528,control,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,3.0,4.0,0.0
+529,text,4.714285714285714,woman,55+,university degree,60,1.0,5.0,5.0,8.0,0.0
+530,factbox,4.285714285714286,man,18-34,university degree,30,0.0,4.0,2.0,3.0,0.0
+531,factbox,3.0,woman,18-34,no university degree,21,1.0,2.0,5.0,6.0,0.0
+532,control,5.0,woman,35-54,no university degree,50,1.0,2.0,4.0,4.0,0.0
+533,mechanism,5.0,woman,55+,university degree,60,1.0,4.0,5.0,7.0,0.0
+534,text,5.0,woman,35-54,no university degree,40,1.0,3.0,4.0,2.0,0.0
+535,text,5.0,man,55+,no university degree,70,0.0,1.0,5.0,3.0,0.0
+536,control,1.7142857142857144,woman,18-34,no university degree,21,1.0,2.0,2.0,5.0,0.0
+537,control,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,5.0,7.0,0.0
+538,factbox,4.571428571428571,man,55+,no university degree,70,0.0,1.0,6.0,3.0,0.0
+539,mechanism,3.142857142857143,woman,18-34,university degree,30,1.0,4.0,5.0,7.0,1.0
+540,mechanism,2.0,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,0.0
+541,approval,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,5.0,6.0,0.0
+542,approval,5.0,man,55+,no university degree,70,0.0,3.0,4.0,2.0,0.0
+544,text,4.142857142857142,woman,18-34,no university degree,30,1.0,3.0,3.0,3.0,0.0
+545,mechanism,4.142857142857142,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+546,factbox,5.0,man,55+,no university degree,70,0.0,3.0,4.0,7.0,0.0
+547,factbox,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,5.0,7.0,0.0
+548,control,5.0,woman,55+,no university degree,60,1.0,1.0,2.0,2.0,0.0
+549,factbox,5.0,man,35-54,no university degree,50,0.0,2.0,3.0,4.0,0.0
+550,approval,5.0,man,18-34,university degree,21,0.0,5.0,2.0,5.0,0.0
+551,text,5.0,man,55+,no university degree,60,0.0,3.0,6.0,9.0,0.0
+552,control,2.5714285714285716,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+553,factbox,2.142857142857143,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+554,control,5.0,man,55+,university degree,70,0.0,5.0,5.0,8.0,0.0
+555,text,2.4285714285714284,woman,18-34,no university degree,30,1.0,1.0,4.0,7.0,0.0
+556,mechanism,4.714285714285714,woman,35-54,no university degree,40,1.0,2.0,7.0,6.0,0.0
+557,approval,5.0,man,18-34,university degree,30,0.0,5.0,3.0,1.0,0.0
+559,approval,4.0,man,18-34,university degree,30,0.0,4.0,2.0,5.0,0.0
+561,control,4.428571428571429,woman,35-54,university degree,40,1.0,4.0,6.0,6.0,0.0
+562,approval,2.0,man,35-54,no university degree,50,0.0,1.0,4.0,,1.0
+563,mechanism,3.857142857142857,man,18-34,no university degree,30,0.0,1.0,2.0,3.0,0.0
+564,mechanism,5.0,woman,35-54,no university degree,50,1.0,1.0,7.0,3.0,0.0
+565,mechanism,4.428571428571429,man,55+,no university degree,60,0.0,2.0,4.0,7.0,0.0
+566,factbox,5.0,man,55+,no university degree,70,0.0,3.0,3.0,4.0,0.0
+567,factbox,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,4.0,3.0,0.0
+568,control,4.571428571428571,man,55+,no university degree,60,0.0,2.0,6.0,5.0,0.0
+569,factbox,5.0,woman,18-34,no university degree,30,1.0,3.0,7.0,5.0,1.0
+570,control,5.0,man,55+,no university degree,60,0.0,3.0,5.0,6.0,0.0
+571,control,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,5.0,7.0,0.0
+572,text,4.142857142857142,woman,18-34,university degree,21,1.0,4.0,4.0,4.0,0.0
+573,control,1.7142857142857144,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+574,approval,2.857142857142857,man,55+,no university degree,60,0.0,1.0,3.0,7.0,0.0
+575,text,2.4285714285714284,man,35-54,university degree,50,0.0,4.0,4.0,1.0,0.0
+576,text,4.428571428571429,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+577,approval,4.0,man,55+,no university degree,70,0.0,1.0,5.0,4.0,0.0
+578,text,5.0,man,55+,no university degree,70,0.0,1.0,5.0,5.0,0.0
+580,approval,4.857142857142858,woman,18-34,no university degree,30,1.0,2.0,4.0,7.0,0.0
+581,mechanism,4.428571428571429,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+582,text,3.0,woman,18-34,no university degree,21,1.0,2.0,4.0,6.0,0.0
+584,mechanism,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,7.0,0.0
+585,control,3.2857142857142856,woman,35-54,no university degree,40,1.0,3.0,4.0,3.0,0.0
+586,mechanism,4.714285714285714,man,18-34,university degree,30,0.0,4.0,4.0,5.0,1.0
+587,factbox,4.428571428571429,man,55+,no university degree,70,0.0,3.0,4.0,3.0,0.0
+588,mechanism,3.5714285714285716,woman,18-34,no university degree,30,1.0,2.0,4.0,8.0,0.0
+589,approval,4.714285714285714,man,55+,no university degree,70,0.0,2.0,4.0,4.0,0.0
+591,mechanism,4.428571428571429,woman,18-34,university degree,21,1.0,4.0,4.0,6.0,0.0
+592,mechanism,4.714285714285714,woman,18-34,no university degree,30,1.0,2.0,3.0,4.0,0.0
+593,approval,4.285714285714286,woman,35-54,university degree,50,1.0,5.0,4.0,3.0,1.0
+594,factbox,4.0,man,18-34,university degree,21,0.0,4.0,4.0,5.0,0.0
+595,text,5.0,man,55+,university degree,60,0.0,4.0,3.0,2.0,0.0
+596,control,4.428571428571429,man,55+,no university degree,70,0.0,2.0,4.0,4.0,0.0
+597,factbox,5.0,woman,18-34,no university degree,21,1.0,3.0,3.0,7.0,0.0
+598,factbox,4.714285714285714,man,55+,no university degree,60,0.0,3.0,4.0,3.0,0.0
+599,text,5.0,man,55+,university degree,70,0.0,4.0,6.0,6.0,0.0
+600,approval,2.4285714285714284,woman,35-54,university degree,50,1.0,5.0,5.0,6.0,0.0
+601,control,2.5714285714285716,woman,35-54,university degree,40,1.0,4.0,4.0,6.0,0.0
+602,mechanism,5.0,woman,18-34,no university degree,21,1.0,3.0,3.0,8.0,0.0
+603,approval,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,0.0
+605,control,5.0,man,55+,no university degree,70,0.0,1.0,4.0,,0.0
+606,mechanism,2.142857142857143,woman,35-54,no university degree,40,1.0,3.0,3.0,2.0,0.0
+607,text,3.0,woman,18-34,no university degree,21,1.0,3.0,3.0,5.0,0.0
+608,control,3.2857142857142856,man,55+,no university degree,60,0.0,3.0,4.0,6.0,0.0
+609,text,3.4285714285714284,woman,35-54,no university degree,40,1.0,2.0,1.0,3.0,1.0
+610,mechanism,4.857142857142858,woman,55+,university degree,60,1.0,5.0,4.0,8.0,0.0
+611,approval,3.142857142857143,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+612,approval,2.2857142857142856,woman,35-54,university degree,50,1.0,4.0,4.0,5.0,0.0
+613,approval,4.857142857142858,man,55+,no university degree,70,0.0,1.0,6.0,6.0,0.0
+614,control,4.0,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,0.0
+615,text,4.0,woman,18-34,university degree,30,1.0,4.0,3.0,6.0,0.0
+616,factbox,4.857142857142858,man,55+,no university degree,70,0.0,1.0,4.0,4.0,0.0
+617,approval,3.7142857142857144,woman,18-34,no university degree,30,1.0,2.0,4.0,4.0,0.0
+618,approval,4.714285714285714,man,55+,no university degree,60,0.0,1.0,5.0,6.0,0.0
+619,control,1.4285714285714288,woman,35-54,no university degree,50,1.0,2.0,5.0,,0.0
+620,mechanism,4.857142857142858,man,55+,no university degree,70,0.0,3.0,2.0,6.0,0.0
+621,factbox,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,5.0,0.0
+622,factbox,3.5714285714285716,man,55+,no university degree,60,0.0,1.0,4.0,4.0,0.0
+623,approval,1.7142857142857144,man,55+,no university degree,60,0.0,2.0,4.0,8.0,1.0
+624,control,2.857142857142857,woman,18-34,university degree,21,1.0,4.0,7.0,9.0,1.0
+625,mechanism,3.7142857142857144,woman,35-54,no university degree,50,1.0,1.0,2.0,5.0,0.0
+626,text,5.0,woman,35-54,no university degree,50,1.0,2.0,4.0,4.0,0.0
+627,approval,5.0,man,55+,no university degree,60,0.0,2.0,4.0,5.0,0.0
+628,factbox,2.7142857142857144,woman,18-34,university degree,30,1.0,4.0,5.0,6.0,0.0
+629,factbox,2.5714285714285716,woman,35-54,no university degree,50,1.0,3.0,4.0,7.0,0.0
+630,text,4.857142857142858,man,55+,university degree,60,0.0,5.0,5.0,3.0,0.0
+631,mechanism,5.0,man,55+,university degree,70,0.0,4.0,4.0,5.0,0.0
+632,control,4.0,woman,35-54,university degree,40,1.0,4.0,4.0,4.0,1.0
+633,mechanism,2.4285714285714284,man,18-34,no university degree,30,0.0,3.0,6.0,7.0,0.0
+634,text,5.0,man,55+,university degree,60,0.0,4.0,4.0,6.0,0.0
+635,factbox,5.0,man,35-54,university degree,50,0.0,4.0,3.0,8.0,0.0
+636,control,5.0,woman,18-34,no university degree,30,1.0,3.0,6.0,5.0,0.0
+637,approval,5.0,woman,18-34,no university degree,30,1.0,1.0,3.0,5.0,0.0
+638,control,5.0,woman,18-34,university degree,21,1.0,4.0,4.0,6.0,0.0
+639,text,4.714285714285714,man,55+,no university degree,60,0.0,2.0,4.0,7.0,0.0
+640,factbox,3.0,woman,18-34,no university degree,21,1.0,3.0,2.0,6.0,0.0
+641,control,3.857142857142857,man,55+,no university degree,60,0.0,3.0,5.0,5.0,0.0
+642,text,5.0,man,55+,no university degree,70,0.0,2.0,4.0,6.0,0.0
+643,factbox,5.0,woman,55+,no university degree,60,1.0,3.0,3.0,3.0,0.0
+644,text,5.0,woman,55+,no university degree,60,1.0,3.0,4.0,6.0,0.0
+645,factbox,3.142857142857143,woman,35-54,no university degree,40,1.0,2.0,4.0,2.0,0.0
+646,mechanism,4.857142857142858,man,55+,no university degree,70,0.0,3.0,6.0,6.0,0.0
+647,factbox,4.857142857142858,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,1.0
+648,approval,5.0,woman,55+,university degree,60,1.0,4.0,5.0,7.0,0.0
+649,mechanism,4.285714285714286,man,55+,no university degree,60,0.0,2.0,4.0,5.0,0.0
+650,approval,4.857142857142858,man,35-54,no university degree,50,0.0,3.0,4.0,1.0,0.0
+651,control,5.0,woman,35-54,no university degree,40,1.0,3.0,7.0,,0.0
+652,approval,4.857142857142858,man,35-54,no university degree,40,0.0,2.0,2.0,4.0,0.0
+653,factbox,5.0,woman,55+,university degree,60,1.0,4.0,3.0,5.0,0.0
+654,factbox,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,2.0,4.0,0.0
+655,text,3.142857142857143,man,18-34,university degree,30,0.0,4.0,,,0.0
+656,text,4.428571428571429,man,18-34,university degree,30,0.0,4.0,5.0,1.0,0.0
+657,control,4.428571428571429,man,35-54,university degree,40,0.0,4.0,6.0,5.0,0.0
+658,text,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+659,factbox,3.2857142857142856,woman,18-34,university degree,21,1.0,5.0,5.0,9.0,1.0
+660,factbox,4.142857142857142,woman,35-54,university degree,40,1.0,4.0,3.0,5.0,1.0
+661,approval,3.5714285714285716,woman,18-34,no university degree,21,1.0,3.0,5.0,7.0,1.0
+662,text,4.714285714285714,man,35-54,university degree,50,0.0,5.0,4.0,5.0,0.0
+663,approval,5.0,woman,35-54,no university degree,40,1.0,2.0,4.0,6.0,0.0
+664,text,2.4285714285714284,woman,18-34,no university degree,21,1.0,2.0,7.0,5.0,1.0
+665,approval,5.0,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+666,control,4.0,man,18-34,no university degree,21,0.0,3.0,2.0,3.0,0.0
+667,approval,5.0,man,55+,no university degree,70,0.0,2.0,6.0,,0.0
+668,mechanism,4.0,woman,18-34,university degree,30,1.0,4.0,1.0,6.0,1.0
+669,factbox,4.428571428571429,man,55+,no university degree,70,0.0,1.0,6.0,3.0,0.0
+670,text,1.8571428571428568,man,35-54,university degree,40,0.0,4.0,4.0,2.0,0.0
+672,control,2.7142857142857144,woman,18-34,no university degree,30,1.0,3.0,4.0,5.0,0.0
+673,mechanism,4.571428571428571,man,35-54,university degree,50,0.0,4.0,4.0,4.0,0.0
+674,mechanism,4.0,woman,18-34,no university degree,30,1.0,3.0,3.0,5.0,0.0
+675,factbox,4.428571428571429,man,35-54,no university degree,40,0.0,2.0,4.0,7.0,0.0
+676,control,2.7142857142857144,woman,18-34,no university degree,21,1.0,2.0,4.0,5.0,1.0
+677,text,5.0,woman,35-54,university degree,40,1.0,5.0,6.0,6.0,1.0
+678,text,5.0,man,55+,university degree,70,0.0,4.0,5.0,7.0,0.0
+679,factbox,5.0,man,18-34,university degree,30,0.0,4.0,4.0,2.0,0.0
+680,approval,5.0,man,35-54,university degree,50,0.0,6.0,4.0,7.0,0.0
+681,mechanism,4.142857142857142,man,35-54,no university degree,50,0.0,2.0,4.0,3.0,0.0
+682,control,4.714285714285714,man,55+,no university degree,70,0.0,3.0,5.0,6.0,0.0
+683,approval,5.0,woman,35-54,no university degree,50,1.0,3.0,5.0,4.0,0.0
+684,control,5.0,woman,55+,no university degree,60,1.0,2.0,3.0,6.0,0.0
+685,control,2.0,woman,18-34,university degree,30,1.0,4.0,5.0,5.0,1.0
+686,mechanism,2.7142857142857144,man,18-34,no university degree,30,0.0,3.0,4.0,3.0,0.0
+687,approval,2.857142857142857,man,35-54,no university degree,40,0.0,3.0,5.0,6.0,0.0
+688,text,4.857142857142858,man,55+,no university degree,60,0.0,1.0,3.0,2.0,1.0
+689,control,4.142857142857142,man,35-54,no university degree,50,0.0,1.0,4.0,4.0,0.0
+690,approval,4.0,man,35-54,university degree,40,0.0,4.0,3.0,7.0,0.0
+691,control,4.428571428571429,man,35-54,no university degree,50,0.0,3.0,5.0,4.0,0.0
+692,approval,5.0,woman,35-54,university degree,40,1.0,6.0,6.0,5.0,0.0
+693,factbox,5.0,man,55+,no university degree,70,0.0,3.0,6.0,4.0,0.0
+694,mechanism,5.0,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+695,text,4.285714285714286,woman,18-34,university degree,30,1.0,5.0,2.0,3.0,0.0
+697,factbox,4.857142857142858,man,55+,university degree,70,0.0,4.0,4.0,6.0,0.0
+698,control,4.714285714285714,man,18-34,no university degree,30,0.0,3.0,4.0,,0.0
+699,approval,4.142857142857142,man,35-54,university degree,50,0.0,6.0,3.0,5.0,0.0
+700,control,3.7142857142857144,man,18-34,university degree,30,0.0,5.0,2.0,3.0,0.0
+702,text,1.1428571428571432,man,18-34,no university degree,30,0.0,3.0,4.0,4.0,0.0
+703,text,4.571428571428571,woman,55+,no university degree,60,1.0,2.0,4.0,6.0,1.0
+704,mechanism,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,7.0,1.0
+705,factbox,4.857142857142858,man,18-34,no university degree,30,0.0,3.0,3.0,,1.0
+706,control,4.428571428571429,man,18-34,university degree,30,0.0,5.0,4.0,7.0,0.0
+707,text,2.7142857142857144,man,18-34,no university degree,30,0.0,2.0,4.0,3.0,0.0
+708,mechanism,5.0,man,55+,no university degree,70,0.0,1.0,1.0,3.0,0.0
+709,text,2.7142857142857144,man,18-34,university degree,30,0.0,4.0,4.0,7.0,0.0
+710,factbox,4.571428571428571,man,35-54,no university degree,50,0.0,3.0,4.0,7.0,0.0
+711,factbox,4.428571428571429,man,55+,no university degree,60,0.0,3.0,4.0,6.0,0.0
+712,control,4.142857142857142,man,18-34,no university degree,21,0.0,1.0,3.0,9.0,0.0
+713,approval,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,0.0
+714,approval,5.0,woman,55+,university degree,60,1.0,4.0,3.0,6.0,0.0
+715,control,3.857142857142857,man,18-34,university degree,30,0.0,4.0,1.0,5.0,0.0
+716,approval,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,7.0,0.0
+717,text,3.5714285714285716,man,18-34,no university degree,30,0.0,3.0,1.0,6.0,0.0
+718,text,5.0,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,0.0
+719,approval,2.4285714285714284,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+720,mechanism,5.0,man,18-34,university degree,30,0.0,4.0,2.0,4.0,0.0
+721,control,3.5714285714285716,woman,18-34,no university degree,30,1.0,1.0,4.0,5.0,0.0
+722,factbox,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,3.0,5.0,0.0
+723,mechanism,2.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,,0.0
+724,mechanism,4.285714285714286,man,55+,no university degree,70,0.0,2.0,6.0,5.0,0.0
+725,control,5.0,woman,35-54,university degree,50,1.0,6.0,4.0,7.0,0.0
+726,factbox,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,4.0,2.0,0.0
+727,text,5.0,man,18-34,no university degree,21,0.0,3.0,2.0,6.0,0.0
+728,text,3.5714285714285716,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,0.0
+729,factbox,3.142857142857143,man,18-34,no university degree,30,0.0,3.0,5.0,3.0,1.0
+730,control,4.142857142857142,man,18-34,no university degree,21,0.0,2.0,2.0,4.0,1.0
+731,mechanism,5.0,man,55+,no university degree,70,0.0,3.0,6.0,5.0,0.0
+732,factbox,4.428571428571429,man,18-34,university degree,30,0.0,4.0,1.0,5.0,1.0
+733,mechanism,2.4285714285714284,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,1.0
+734,control,4.571428571428571,man,18-34,university degree,21,0.0,5.0,4.0,6.0,1.0
+735,approval,4.285714285714286,woman,35-54,no university degree,40,1.0,3.0,4.0,,0.0
+736,mechanism,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,6.0,5.0,0.0
+737,approval,2.5714285714285716,man,35-54,university degree,40,0.0,4.0,4.0,,0.0
+738,mechanism,2.0,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+739,approval,4.571428571428571,woman,55+,no university degree,60,1.0,2.0,2.0,3.0,0.0
+741,mechanism,2.142857142857143,man,18-34,no university degree,21,0.0,3.0,2.0,3.0,0.0
+742,control,4.428571428571429,man,18-34,no university degree,30,0.0,2.0,1.0,5.0,1.0
+743,mechanism,2.0,man,35-54,no university degree,40,0.0,2.0,6.0,3.0,0.0
+744,text,4.428571428571429,man,18-34,no university degree,30,0.0,3.0,5.0,6.0,0.0
+745,approval,4.714285714285714,man,18-34,no university degree,30,0.0,2.0,4.0,6.0,0.0
+746,control,3.0,woman,18-34,no university degree,21,1.0,2.0,4.0,8.0,0.0
+747,approval,4.857142857142858,man,55+,university degree,60,0.0,4.0,3.0,6.0,0.0
+748,text,2.857142857142857,man,18-34,university degree,30,0.0,5.0,4.0,6.0,0.0
+749,approval,5.0,man,18-34,university degree,30,0.0,4.0,4.0,4.0,1.0
+750,factbox,4.428571428571429,man,18-34,no university degree,30,0.0,3.0,5.0,5.0,0.0
+751,approval,3.7142857142857144,man,18-34,no university degree,30,0.0,1.0,4.0,5.0,0.0
+752,text,4.428571428571429,man,18-34,no university degree,21,0.0,3.0,4.0,8.0,0.0
+753,control,4.714285714285714,woman,35-54,no university degree,50,1.0,1.0,4.0,9.0,0.0
+754,factbox,2.4285714285714284,man,35-54,university degree,40,0.0,5.0,4.0,5.0,1.0
+755,factbox,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,4.0,6.0,0.0
+756,mechanism,3.857142857142857,man,18-34,university degree,21,0.0,4.0,5.0,7.0,1.0
+757,control,4.428571428571429,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+759,factbox,4.714285714285714,woman,55+,no university degree,60,1.0,2.0,4.0,6.0,0.0
+760,text,4.571428571428571,man,55+,no university degree,60,0.0,2.0,3.0,7.0,0.0
+761,control,3.2857142857142856,man,18-34,no university degree,30,0.0,3.0,2.0,4.0,0.0
+762,mechanism,5.0,woman,18-34,no university degree,30,1.0,3.0,4.0,7.0,1.0
+763,factbox,5.0,man,55+,university degree,60,0.0,5.0,3.0,6.0,0.0
+764,control,5.0,woman,55+,university degree,60,1.0,4.0,2.0,7.0,0.0
+765,control,2.7142857142857144,woman,55+,no university degree,60,1.0,1.0,6.0,4.0,0.0
+766,mechanism,4.285714285714286,man,35-54,no university degree,50,0.0,2.0,4.0,3.0,0.0
+767,control,4.571428571428571,man,55+,no university degree,60,0.0,2.0,1.0,1.0,0.0
+768,approval,5.0,man,55+,no university degree,60,0.0,3.0,6.0,6.0,0.0
+769,approval,3.7142857142857144,man,35-54,no university degree,50,0.0,2.0,3.0,8.0,0.0
+770,approval,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,6.0,0.0
+771,factbox,4.142857142857142,woman,55+,no university degree,60,1.0,1.0,4.0,3.0,0.0
+772,control,2.2857142857142856,man,55+,no university degree,60,0.0,2.0,5.0,4.0,0.0
+773,approval,4.857142857142858,woman,35-54,university degree,50,1.0,5.0,3.0,7.0,0.0
+775,text,3.7142857142857144,woman,18-34,university degree,30,1.0,5.0,5.0,7.0,0.0
+776,factbox,5.0,man,35-54,university degree,50,0.0,5.0,4.0,6.0,0.0
+777,approval,3.857142857142857,man,35-54,university degree,40,0.0,5.0,4.0,7.0,1.0
+778,control,4.0,man,18-34,university degree,30,0.0,4.0,2.0,5.0,0.0
+779,factbox,4.857142857142858,man,35-54,no university degree,50,0.0,1.0,4.0,1.0,0.0
+780,text,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,1.0,4.0,1.0
+781,mechanism,4.142857142857142,man,35-54,no university degree,50,0.0,2.0,4.0,6.0,0.0
+782,text,4.714285714285714,man,55+,no university degree,60,0.0,3.0,4.0,,0.0
+783,approval,2.142857142857143,man,55+,no university degree,60,0.0,1.0,4.0,7.0,0.0
+784,factbox,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,5.0,0.0
+785,factbox,5.0,man,35-54,university degree,50,0.0,4.0,2.0,4.0,0.0
+786,mechanism,2.5714285714285716,woman,18-34,university degree,21,1.0,6.0,4.0,6.0,1.0
+787,mechanism,3.7142857142857144,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,0.0
+788,control,2.7142857142857144,woman,55+,no university degree,60,1.0,1.0,6.0,2.0,0.0
+789,control,1.1428571428571432,man,18-34,university degree,30,0.0,4.0,4.0,2.0,1.0
+790,factbox,4.714285714285714,woman,55+,university degree,60,1.0,4.0,3.0,4.0,0.0
+791,mechanism,4.428571428571429,man,55+,university degree,60,0.0,6.0,6.0,7.0,0.0
+792,text,2.142857142857143,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+793,text,2.7142857142857144,man,35-54,university degree,40,0.0,5.0,4.0,7.0,1.0
+794,factbox,5.0,woman,55+,university degree,60,1.0,4.0,3.0,7.0,0.0
+795,mechanism,4.428571428571429,man,55+,no university degree,70,0.0,2.0,4.0,6.0,0.0
+796,approval,4.714285714285714,woman,35-54,no university degree,40,1.0,2.0,5.0,2.0,0.0
+797,approval,5.0,woman,35-54,university degree,50,1.0,4.0,6.0,5.0,0.0
+798,factbox,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,5.0,7.0,0.0
+799,mechanism,4.857142857142858,man,55+,no university degree,70,0.0,2.0,6.0,6.0,0.0
+800,approval,5.0,man,18-34,no university degree,21,0.0,3.0,4.0,9.0,0.0
+801,text,5.0,man,55+,no university degree,70,0.0,2.0,3.0,5.0,0.0
+802,factbox,5.0,man,55+,university degree,70,0.0,4.0,6.0,7.0,0.0
+803,text,2.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,7.0,0.0
+804,control,4.142857142857142,woman,35-54,no university degree,40,1.0,2.0,4.0,4.0,0.0
+805,mechanism,5.0,man,18-34,no university degree,30,0.0,3.0,4.0,,0.0
+806,control,3.5714285714285716,man,18-34,no university degree,21,0.0,1.0,4.0,5.0,0.0
+807,mechanism,2.0,man,18-34,university degree,21,0.0,4.0,4.0,5.0,0.0
+808,approval,3.2857142857142856,man,18-34,no university degree,21,0.0,1.0,2.0,8.0,0.0
+809,factbox,4.0,man,18-34,no university degree,21,0.0,3.0,3.0,5.0,0.0
+810,mechanism,3.4285714285714284,man,18-34,no university degree,21,0.0,3.0,2.0,2.0,0.0
+811,control,1.0,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+812,text,5.0,woman,55+,no university degree,60,1.0,3.0,3.0,4.0,0.0
+813,text,4.142857142857142,woman,18-34,no university degree,21,1.0,3.0,6.0,5.0,0.0
+814,mechanism,2.5714285714285716,man,35-54,no university degree,50,0.0,3.0,3.0,1.0,0.0
+815,approval,4.714285714285714,man,18-34,no university degree,30,0.0,3.0,5.0,5.0,0.0
+816,control,3.857142857142857,man,18-34,university degree,21,0.0,4.0,4.0,2.0,0.0
+817,factbox,4.571428571428571,woman,35-54,university degree,40,1.0,5.0,3.0,9.0,1.0
+818,mechanism,1.0,woman,18-34,no university degree,21,1.0,1.0,2.0,5.0,0.0
+819,approval,5.0,woman,55+,university degree,60,1.0,4.0,6.0,7.0,0.0
+821,factbox,5.0,man,18-34,university degree,21,0.0,4.0,1.0,6.0,0.0
+822,approval,4.857142857142858,man,55+,university degree,60,0.0,5.0,2.0,6.0,0.0
+823,control,4.571428571428571,man,18-34,university degree,30,0.0,4.0,2.0,3.0,0.0
+824,factbox,4.285714285714286,woman,35-54,no university degree,50,1.0,1.0,4.0,1.0,0.0
+825,text,2.857142857142857,woman,18-34,no university degree,30,1.0,2.0,3.0,6.0,0.0
+826,text,5.0,man,35-54,no university degree,40,0.0,2.0,3.0,6.0,0.0
+827,control,4.142857142857142,woman,35-54,no university degree,50,1.0,1.0,5.0,2.0,0.0
+828,text,4.142857142857142,woman,35-54,no university degree,40,1.0,2.0,4.0,5.0,0.0
+829,approval,3.7142857142857144,woman,18-34,no university degree,21,1.0,1.0,4.0,3.0,1.0
+830,mechanism,4.714285714285714,man,55+,no university degree,70,0.0,1.0,4.0,3.0,1.0
+831,mechanism,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,0.0
+832,factbox,3.142857142857143,man,18-34,no university degree,21,0.0,1.0,4.0,3.0,0.0
+833,mechanism,5.0,man,35-54,no university degree,40,0.0,3.0,3.0,7.0,0.0
+834,text,2.2857142857142856,woman,55+,no university degree,60,1.0,2.0,4.0,4.0,0.0
+835,control,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,4.0,2.0,0.0
+836,text,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,3.0,3.0,0.0
+837,mechanism,5.0,man,18-34,university degree,30,0.0,4.0,4.0,2.0,0.0
+839,factbox,5.0,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+840,mechanism,5.0,man,18-34,university degree,30,0.0,4.0,3.0,7.0,1.0
+841,factbox,4.571428571428571,man,55+,no university degree,70,0.0,3.0,3.0,6.0,0.0
+842,text,2.0,man,55+,no university degree,60,0.0,2.0,4.0,3.0,0.0
+843,approval,5.0,man,55+,no university degree,70,0.0,2.0,3.0,3.0,0.0
+844,control,5.0,woman,55+,no university degree,60,1.0,2.0,4.0,6.0,0.0
+845,text,5.0,man,55+,no university degree,60,0.0,2.0,5.0,5.0,0.0
+846,factbox,4.857142857142858,man,35-54,university degree,50,0.0,4.0,4.0,3.0,0.0
+847,text,1.0,woman,18-34,university degree,21,1.0,5.0,7.0,9.0,1.0
+848,control,5.0,woman,55+,no university degree,60,1.0,3.0,6.0,5.0,0.0
+849,approval,4.428571428571429,man,55+,university degree,70,0.0,4.0,3.0,4.0,0.0
+850,mechanism,4.285714285714286,man,55+,university degree,60,0.0,4.0,4.0,4.0,0.0
+852,approval,1.4285714285714288,man,18-34,no university degree,30,0.0,3.0,4.0,4.0,0.0
+853,factbox,4.428571428571429,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+854,factbox,1.7142857142857144,man,18-34,no university degree,30,0.0,3.0,3.0,4.0,0.0
+855,approval,4.571428571428571,man,18-34,university degree,30,0.0,5.0,3.0,6.0,0.0
+856,control,4.857142857142858,man,18-34,university degree,21,0.0,4.0,2.0,4.0,0.0
+857,control,4.714285714285714,man,55+,no university degree,70,0.0,2.0,4.0,2.0,0.0
+858,mechanism,2.4285714285714284,man,18-34,university degree,30,0.0,4.0,1.0,3.0,0.0
+859,factbox,4.571428571428571,woman,35-54,no university degree,40,1.0,2.0,4.0,6.0,0.0
+860,mechanism,4.857142857142858,woman,55+,no university degree,60,1.0,2.0,2.0,3.0,0.0
+861,control,4.428571428571429,woman,35-54,no university degree,50,1.0,1.0,5.0,4.0,0.0
+862,approval,4.857142857142858,man,55+,no university degree,70,0.0,2.0,4.0,2.0,1.0
+863,mechanism,2.857142857142857,woman,55+,no university degree,60,1.0,1.0,5.0,5.0,0.0
+864,mechanism,5.0,man,55+,no university degree,70,0.0,1.0,4.0,3.0,0.0
+865,factbox,5.0,man,55+,no university degree,70,0.0,1.0,4.0,4.0,0.0
+866,approval,4.714285714285714,man,18-34,no university degree,21,0.0,3.0,3.0,4.0,0.0
+867,text,2.857142857142857,man,18-34,no university degree,21,0.0,3.0,1.0,6.0,1.0
+868,mechanism,2.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,1.0
+869,text,4.857142857142858,man,55+,no university degree,70,0.0,1.0,4.0,4.0,1.0
+870,approval,4.285714285714286,man,18-34,university degree,30,0.0,4.0,4.0,9.0,0.0
+871,text,4.142857142857142,woman,35-54,university degree,40,1.0,4.0,4.0,5.0,0.0
+872,factbox,4.714285714285714,woman,55+,university degree,60,1.0,5.0,3.0,7.0,0.0
+873,factbox,4.142857142857142,woman,18-34,university degree,30,1.0,5.0,4.0,,0.0
+874,factbox,4.0,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+875,control,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,5.0,7.0,1.0
+876,mechanism,4.285714285714286,man,35-54,no university degree,50,0.0,2.0,4.0,5.0,0.0
+877,text,5.0,man,55+,no university degree,70,0.0,2.0,6.0,6.0,0.0
+878,approval,5.0,man,35-54,university degree,50,0.0,4.0,2.0,7.0,0.0
+879,text,5.0,man,55+,no university degree,60,0.0,2.0,4.0,,0.0
+880,text,4.571428571428571,man,18-34,university degree,30,0.0,4.0,2.0,7.0,0.0
+881,control,4.857142857142858,man,55+,no university degree,60,0.0,1.0,7.0,6.0,0.0
+882,text,2.7142857142857144,man,18-34,university degree,21,0.0,5.0,3.0,5.0,0.0
+883,control,4.571428571428571,woman,35-54,no university degree,50,1.0,1.0,4.0,,0.0
+884,control,3.7142857142857144,man,35-54,no university degree,40,0.0,2.0,3.0,5.0,0.0
+885,mechanism,4.714285714285714,man,18-34,university degree,30,0.0,5.0,1.0,7.0,0.0
+886,mechanism,3.5714285714285716,man,35-54,university degree,40,0.0,4.0,6.0,7.0,0.0
+887,mechanism,1.8571428571428568,man,18-34,no university degree,30,0.0,3.0,5.0,6.0,0.0
+888,factbox,3.5714285714285716,woman,55+,university degree,60,1.0,4.0,4.0,5.0,0.0
+889,text,5.0,man,35-54,university degree,50,0.0,4.0,3.0,4.0,0.0
+890,factbox,5.0,man,55+,university degree,60,0.0,4.0,4.0,6.0,0.0
+891,factbox,5.0,man,35-54,no university degree,50,0.0,2.0,4.0,7.0,0.0
+892,approval,4.571428571428571,woman,55+,university degree,60,1.0,4.0,7.0,6.0,0.0
+893,approval,2.7142857142857144,man,18-34,no university degree,21,0.0,3.0,2.0,5.0,1.0
+894,approval,5.0,man,55+,no university degree,60,0.0,1.0,2.0,3.0,0.0
+895,mechanism,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,2.0,0.0
+896,mechanism,3.0,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+897,factbox,4.285714285714286,woman,18-34,no university degree,21,1.0,3.0,4.0,5.0,0.0
+898,mechanism,3.857142857142857,man,55+,no university degree,70,0.0,2.0,4.0,7.0,0.0
+900,factbox,5.0,woman,35-54,no university degree,40,1.0,3.0,3.0,2.0,1.0
+901,control,2.5714285714285716,woman,35-54,no university degree,50,1.0,3.0,4.0,3.0,0.0
+902,control,3.5714285714285716,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+903,text,3.0,man,35-54,university degree,40,0.0,4.0,4.0,6.0,1.0
+904,factbox,2.4285714285714284,man,35-54,university degree,40,0.0,5.0,4.0,6.0,1.0
+905,approval,4.142857142857142,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+906,control,4.857142857142858,man,55+,no university degree,60,0.0,1.0,5.0,2.0,0.0
+907,mechanism,4.428571428571429,woman,35-54,university degree,50,1.0,4.0,2.0,1.0,1.0
+908,control,4.857142857142858,man,55+,no university degree,70,0.0,2.0,5.0,4.0,0.0
+909,factbox,4.857142857142858,man,55+,no university degree,60,0.0,3.0,3.0,6.0,0.0
+910,approval,4.714285714285714,man,18-34,university degree,30,0.0,4.0,3.0,7.0,0.0
+911,factbox,5.0,man,18-34,university degree,21,0.0,4.0,5.0,4.0,0.0
+912,text,5.0,woman,35-54,university degree,40,1.0,4.0,6.0,9.0,0.0
+913,approval,3.857142857142857,man,18-34,university degree,30,0.0,5.0,4.0,5.0,1.0
+915,control,2.2857142857142856,man,55+,university degree,60,0.0,4.0,4.0,2.0,1.0
+916,control,2.4285714285714284,man,35-54,university degree,50,0.0,4.0,4.0,4.0,0.0
+918,control,4.142857142857142,man,35-54,no university degree,50,0.0,3.0,2.0,5.0,0.0
+919,factbox,4.714285714285714,man,18-34,university degree,30,0.0,4.0,1.0,4.0,0.0
+920,control,4.857142857142858,woman,18-34,university degree,30,1.0,5.0,3.0,6.0,0.0
+921,mechanism,5.0,man,18-34,university degree,30,0.0,4.0,6.0,4.0,0.0
+922,mechanism,5.0,woman,35-54,university degree,50,1.0,4.0,4.0,4.0,0.0
+923,text,3.142857142857143,man,18-34,no university degree,30,0.0,3.0,3.0,4.0,0.0
+924,approval,4.285714285714286,man,35-54,university degree,50,0.0,4.0,3.0,6.0,0.0
+925,approval,4.285714285714286,man,35-54,no university degree,50,0.0,1.0,4.0,6.0,1.0
+926,approval,3.142857142857143,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,0.0
+927,text,5.0,man,18-34,university degree,30,0.0,4.0,1.0,4.0,0.0
+928,mechanism,3.857142857142857,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+929,factbox,4.428571428571429,man,35-54,no university degree,50,0.0,3.0,6.0,3.0,0.0
+930,factbox,5.0,man,55+,no university degree,70,0.0,2.0,4.0,5.0,0.0
+931,text,5.0,man,18-34,no university degree,30,0.0,3.0,3.0,4.0,0.0
+932,mechanism,4.857142857142858,man,35-54,no university degree,50,0.0,2.0,4.0,5.0,0.0
+933,mechanism,3.857142857142857,man,18-34,no university degree,30,0.0,3.0,3.0,6.0,0.0
+934,control,5.0,man,55+,university degree,60,0.0,4.0,2.0,,0.0
+935,control,4.857142857142858,man,55+,no university degree,70,0.0,3.0,4.0,,0.0
+936,control,4.142857142857142,man,18-34,no university degree,21,0.0,3.0,4.0,4.0,0.0
+937,approval,4.857142857142858,man,35-54,no university degree,50,0.0,2.0,6.0,7.0,0.0
+938,factbox,2.4285714285714284,man,35-54,no university degree,40,0.0,2.0,4.0,4.0,0.0
+939,factbox,4.428571428571429,man,35-54,no university degree,50,0.0,1.0,4.0,1.0,0.0
+940,mechanism,4.571428571428571,man,55+,no university degree,60,0.0,1.0,1.0,3.0,0.0
+941,factbox,4.857142857142858,man,55+,no university degree,70,0.0,1.0,3.0,4.0,0.0
+942,control,5.0,man,35-54,university degree,50,0.0,5.0,7.0,5.0,0.0
+943,mechanism,4.428571428571429,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+944,mechanism,4.714285714285714,man,55+,no university degree,70,0.0,2.0,3.0,6.0,0.0
+945,text,5.0,man,55+,university degree,60,0.0,4.0,6.0,6.0,0.0
+946,approval,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,5.0,5.0,1.0
+947,text,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,3.0,4.0,0.0
+948,text,5.0,man,55+,university degree,70,0.0,5.0,3.0,7.0,0.0
+949,control,4.857142857142858,man,35-54,no university degree,50,0.0,3.0,2.0,6.0,0.0
+950,approval,4.0,woman,18-34,university degree,30,1.0,5.0,5.0,7.0,1.0
+951,factbox,5.0,man,55+,no university degree,60,0.0,1.0,1.0,5.0,0.0
+952,control,5.0,man,55+,university degree,70,0.0,4.0,3.0,4.0,0.0
+953,text,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,2.0,8.0,0.0
+954,control,5.0,man,55+,no university degree,70,0.0,3.0,4.0,5.0,0.0
+955,text,1.7142857142857144,woman,18-34,no university degree,21,1.0,3.0,6.0,2.0,0.0
+956,mechanism,4.285714285714286,man,35-54,no university degree,50,0.0,3.0,6.0,5.0,0.0
+957,approval,3.4285714285714284,man,55+,university degree,60,0.0,4.0,4.0,2.0,0.0
+958,mechanism,5.0,woman,18-34,university degree,30,1.0,5.0,4.0,6.0,0.0
+959,factbox,4.571428571428571,woman,35-54,no university degree,40,1.0,3.0,4.0,3.0,0.0
+960,approval,4.142857142857142,man,35-54,university degree,40,0.0,5.0,2.0,4.0,0.0
+961,approval,4.142857142857142,woman,35-54,university degree,40,1.0,5.0,4.0,6.0,0.0
+962,mechanism,4.857142857142858,woman,35-54,university degree,50,1.0,5.0,4.0,7.0,0.0
+963,text,4.714285714285714,woman,35-54,university degree,40,1.0,4.0,6.0,6.0,0.0
+964,control,5.0,man,55+,university degree,70,0.0,4.0,4.0,6.0,0.0
+965,approval,5.0,man,55+,no university degree,60,0.0,3.0,6.0,5.0,0.0
+966,factbox,4.714285714285714,man,55+,no university degree,70,0.0,1.0,6.0,3.0,0.0
+968,approval,4.714285714285714,man,55+,university degree,70,0.0,4.0,3.0,6.0,0.0
+969,text,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,5.0,7.0,0.0
+970,factbox,4.571428571428571,woman,35-54,no university degree,50,1.0,3.0,3.0,7.0,0.0
+971,mechanism,4.428571428571429,woman,35-54,no university degree,50,1.0,1.0,4.0,7.0,0.0
+972,factbox,2.4285714285714284,woman,35-54,no university degree,40,1.0,2.0,4.0,5.0,0.0
+973,text,3.142857142857143,woman,18-34,no university degree,30,1.0,1.0,3.0,6.0,0.0
+974,mechanism,1.2857142857142856,man,55+,no university degree,70,0.0,1.0,4.0,2.0,0.0
+975,mechanism,3.2857142857142856,man,35-54,university degree,40,0.0,4.0,4.0,5.0,1.0
+976,control,5.0,man,55+,no university degree,70,0.0,2.0,4.0,5.0,1.0
+977,factbox,4.0,man,18-34,university degree,30,0.0,5.0,2.0,7.0,0.0
+978,text,2.4285714285714284,man,35-54,university degree,40,0.0,4.0,4.0,4.0,0.0
+979,control,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,4.0,5.0,1.0
+980,approval,4.142857142857142,woman,35-54,no university degree,40,1.0,3.0,4.0,3.0,0.0
+981,mechanism,3.857142857142857,man,18-34,no university degree,30,0.0,3.0,3.0,5.0,0.0
+982,text,4.857142857142858,man,18-34,no university degree,30,0.0,2.0,2.0,3.0,0.0
+983,factbox,4.142857142857142,man,55+,no university degree,60,0.0,1.0,3.0,5.0,0.0
+984,mechanism,4.571428571428571,man,55+,university degree,60,0.0,4.0,4.0,3.0,0.0
+985,approval,3.857142857142857,man,18-34,university degree,21,0.0,4.0,3.0,3.0,0.0
+986,approval,5.0,man,35-54,no university degree,50,0.0,2.0,5.0,5.0,0.0
+987,mechanism,5.0,woman,35-54,no university degree,40,1.0,3.0,3.0,3.0,0.0
+988,factbox,5.0,man,35-54,no university degree,50,0.0,1.0,4.0,4.0,0.0
+989,control,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,5.0,4.0,0.0
+990,text,4.714285714285714,man,35-54,no university degree,50,0.0,2.0,3.0,6.0,0.0
+992,approval,4.857142857142858,man,55+,university degree,60,0.0,4.0,4.0,5.0,0.0
+993,control,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,6.0,0.0
+994,factbox,4.857142857142858,man,35-54,no university degree,50,0.0,3.0,4.0,3.0,0.0
+995,mechanism,5.0,man,55+,no university degree,60,0.0,1.0,5.0,1.0,0.0
+996,text,3.4285714285714284,man,35-54,no university degree,40,0.0,2.0,4.0,3.0,0.0
+997,text,5.0,man,35-54,university degree,50,0.0,5.0,4.0,7.0,1.0
+998,factbox,3.0,man,55+,no university degree,60,0.0,3.0,3.0,2.0,0.0
+999,approval,4.857142857142858,man,55+,no university degree,60,0.0,1.0,4.0,4.0,0.0
+1000,mechanism,5.0,man,35-54,no university degree,50,0.0,2.0,4.0,2.0,0.0
+1001,mechanism,1.7142857142857144,man,35-54,no university degree,40,0.0,2.0,4.0,5.0,0.0
+1002,factbox,4.714285714285714,woman,35-54,no university degree,50,1.0,1.0,4.0,7.0,0.0
+1003,text,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,0.0
+1004,control,4.428571428571429,woman,35-54,no university degree,50,1.0,2.0,4.0,,0.0
+1005,approval,3.4285714285714284,woman,35-54,no university degree,50,1.0,3.0,2.0,9.0,0.0
+1006,text,3.0,woman,18-34,university degree,30,1.0,4.0,7.0,,0.0
+1007,factbox,2.5714285714285716,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+1008,mechanism,3.857142857142857,man,35-54,no university degree,50,0.0,3.0,5.0,4.0,0.0
+1009,control,4.857142857142858,man,55+,no university degree,60,0.0,3.0,4.0,7.0,0.0
+1010,approval,3.142857142857143,man,35-54,no university degree,50,0.0,2.0,4.0,5.0,0.0
+1011,mechanism,4.857142857142858,man,55+,no university degree,60,0.0,1.0,6.0,3.0,0.0
+1012,factbox,5.0,woman,35-54,university degree,50,1.0,4.0,1.0,1.0,1.0
+1013,control,4.571428571428571,man,55+,no university degree,60,0.0,1.0,4.0,3.0,0.0
+1014,text,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+1015,text,4.428571428571429,woman,35-54,no university degree,50,1.0,2.0,6.0,,0.0
+1016,mechanism,5.0,man,55+,no university degree,60,0.0,1.0,4.0,3.0,0.0
+1017,approval,4.142857142857142,woman,35-54,no university degree,50,1.0,3.0,3.0,3.0,0.0
+1018,factbox,4.428571428571429,woman,35-54,no university degree,50,1.0,2.0,6.0,4.0,0.0
+1019,mechanism,5.0,man,55+,no university degree,60,0.0,2.0,6.0,3.0,0.0
+1020,approval,4.857142857142858,man,55+,university degree,60,0.0,5.0,3.0,2.0,0.0
+1021,text,4.0,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,0.0
+1022,factbox,5.0,man,55+,no university degree,60,0.0,2.0,4.0,5.0,0.0
+1023,control,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,2.0,1.0
+1024,approval,4.857142857142858,man,55+,no university degree,60,0.0,2.0,5.0,6.0,0.0
+1025,mechanism,4.428571428571429,man,55+,university degree,60,0.0,5.0,4.0,6.0,0.0
+1026,control,4.714285714285714,woman,35-54,no university degree,40,1.0,1.0,2.0,3.0,0.0
+1027,text,2.7142857142857144,woman,35-54,university degree,50,1.0,4.0,7.0,4.0,0.0
+1029,control,4.571428571428571,man,55+,no university degree,60,0.0,1.0,6.0,6.0,0.0
+1030,factbox,4.571428571428571,man,55+,no university degree,60,0.0,1.0,4.0,6.0,0.0
+1031,text,4.285714285714286,man,55+,no university degree,60,0.0,2.0,6.0,6.0,0.0
+1032,mechanism,2.857142857142857,man,35-54,university degree,40,0.0,5.0,4.0,4.0,0.0
+1033,approval,4.0,man,35-54,no university degree,50,0.0,2.0,2.0,3.0,0.0
+1034,approval,5.0,man,35-54,no university degree,40,0.0,1.0,4.0,6.0,0.0
+1035,factbox,4.714285714285714,man,55+,no university degree,60,0.0,2.0,5.0,3.0,0.0
+1036,mechanism,5.0,man,55+,university degree,60,0.0,4.0,2.0,2.0,0.0
+1037,text,5.0,man,55+,no university degree,60,0.0,2.0,6.0,6.0,0.0
+1038,control,5.0,woman,35-54,university degree,40,1.0,4.0,5.0,5.0,1.0
+1040,mechanism,2.0,man,35-54,no university degree,40,0.0,2.0,2.0,1.0,0.0
+1041,approval,2.7142857142857144,woman,35-54,no university degree,40,1.0,2.0,4.0,2.0,1.0
+1042,text,4.428571428571429,man,35-54,no university degree,50,0.0,1.0,4.0,4.0,0.0
+1043,factbox,1.8571428571428568,woman,35-54,no university degree,50,1.0,3.0,2.0,3.0,1.0
+1044,mechanism,3.857142857142857,man,35-54,no university degree,50,0.0,3.0,3.0,3.0,0.0
+1045,approval,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,5.0,4.0,0.0
+1046,control,4.285714285714286,man,35-54,no university degree,50,0.0,3.0,5.0,5.0,1.0
+1047,control,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,5.0,6.0,0.0
+1048,factbox,4.857142857142858,man,55+,no university degree,60,0.0,2.0,7.0,5.0,0.0
+1049,approval,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,2.0,2.0,0.0
+1050,mechanism,4.285714285714286,man,35-54,no university degree,50,0.0,2.0,4.0,3.0,0.0
+1051,factbox,5.0,man,55+,no university degree,60,0.0,1.0,5.0,2.0,0.0
+1052,approval,5.0,man,35-54,no university degree,40,0.0,3.0,4.0,2.0,0.0
+1053,mechanism,4.571428571428571,man,35-54,university degree,40,0.0,5.0,3.0,6.0,0.0
+1055,factbox,2.857142857142857,man,35-54,university degree,50,0.0,4.0,4.0,6.0,1.0
+1056,mechanism,4.714285714285714,man,55+,no university degree,60,0.0,2.0,4.0,7.0,0.0
+1057,text,5.0,man,35-54,no university degree,40,0.0,2.0,5.0,4.0,0.0
+1058,factbox,4.571428571428571,woman,35-54,no university degree,50,1.0,1.0,4.0,2.0,0.0
+1059,approval,5.0,man,35-54,university degree,40,0.0,4.0,3.0,3.0,0.0
+1060,control,5.0,man,35-54,university degree,50,0.0,4.0,3.0,7.0,0.0
+1061,text,3.7142857142857144,man,55+,no university degree,60,0.0,2.0,5.0,2.0,0.0
+1062,factbox,4.571428571428571,woman,35-54,no university degree,50,1.0,1.0,4.0,6.0,0.0
+1063,control,4.0,man,55+,no university degree,60,0.0,3.0,4.0,6.0,0.0
+1064,factbox,4.571428571428571,man,35-54,no university degree,50,0.0,3.0,6.0,4.0,0.0
+1065,approval,5.0,woman,35-54,no university degree,50,1.0,2.0,2.0,3.0,0.0
+1067,text,3.857142857142857,man,35-54,no university degree,40,0.0,3.0,4.0,7.0,0.0
+1068,approval,4.285714285714286,woman,35-54,no university degree,50,1.0,2.0,3.0,4.0,0.0
+1069,factbox,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,4.0,1.0,0.0
+1070,control,5.0,man,35-54,university degree,40,0.0,4.0,6.0,6.0,0.0
+1071,text,4.428571428571429,man,35-54,no university degree,50,0.0,3.0,4.0,4.0,0.0
+1072,text,5.0,man,35-54,no university degree,50,0.0,3.0,3.0,7.0,0.0
+1073,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,6.0,1.0,9.0,1.0
+1074,approval,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,5.0,5.0,0.0
+1075,mechanism,1.7142857142857144,man,35-54,university degree,40,0.0,4.0,5.0,5.0,1.0
+1076,control,4.428571428571429,woman,35-54,no university degree,50,1.0,2.0,3.0,4.0,0.0
+1077,text,3.7142857142857144,man,35-54,university degree,50,0.0,6.0,2.0,6.0,0.0
+1078,factbox,5.0,man,35-54,university degree,40,0.0,4.0,3.0,3.0,0.0
+1079,approval,4.857142857142858,woman,18-34,university degree,21,1.0,4.0,4.0,8.0,1.0
+1080,control,5.0,woman,35-54,no university degree,50,1.0,3.0,2.0,6.0,0.0
+1081,mechanism,5.0,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+1082,factbox,4.857142857142858,man,55+,no university degree,60,0.0,2.0,3.0,3.0,0.0
+1083,factbox,4.857142857142858,man,55+,no university degree,60,0.0,3.0,6.0,6.0,0.0
+1085,approval,5.0,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+1086,control,4.857142857142858,woman,35-54,no university degree,40,1.0,2.0,4.0,4.0,0.0
+1087,factbox,4.142857142857142,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+1088,text,3.857142857142857,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+1089,control,3.7142857142857144,woman,35-54,no university degree,40,1.0,3.0,5.0,9.0,0.0
+1090,mechanism,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+1091,approval,4.571428571428571,woman,35-54,no university degree,40,1.0,3.0,4.0,2.0,0.0
+1092,text,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,6.0,0.0
+1093,mechanism,5.0,man,35-54,university degree,50,0.0,5.0,1.0,3.0,0.0
+1094,text,4.571428571428571,man,35-54,university degree,40,0.0,4.0,4.0,6.0,1.0
+1095,factbox,4.714285714285714,woman,35-54,no university degree,40,1.0,3.0,6.0,2.0,0.0
+1096,control,4.428571428571429,woman,35-54,university degree,40,1.0,6.0,2.0,8.0,1.0
+1097,control,5.0,man,35-54,no university degree,40,0.0,2.0,2.0,8.0,0.0
+1098,approval,4.857142857142858,man,35-54,no university degree,40,0.0,2.0,5.0,4.0,0.0
+1099,approval,4.428571428571429,man,35-54,university degree,40,0.0,5.0,6.0,,0.0
+1100,control,5.0,man,35-54,no university degree,50,0.0,3.0,7.0,7.0,0.0
+1101,mechanism,3.142857142857143,man,35-54,no university degree,50,0.0,2.0,4.0,4.0,0.0
+1102,factbox,4.857142857142858,man,35-54,no university degree,40,0.0,3.0,4.0,6.0,0.0
+1103,mechanism,3.857142857142857,woman,35-54,no university degree,40,1.0,2.0,4.0,5.0,0.0
+1104,factbox,2.2857142857142856,man,35-54,no university degree,50,0.0,2.0,4.0,4.0,0.0
+1105,approval,4.857142857142858,man,35-54,university degree,50,0.0,4.0,3.0,6.0,0.0
+1106,factbox,5.0,man,35-54,university degree,50,0.0,4.0,5.0,5.0,0.0
+1108,approval,3.0,woman,35-54,no university degree,50,1.0,2.0,3.0,8.0,0.0
+1109,mechanism,4.857142857142858,woman,35-54,university degree,50,1.0,5.0,5.0,7.0,0.0
+1110,control,2.142857142857143,man,35-54,university degree,40,0.0,4.0,4.0,2.0,1.0
+1111,text,4.857142857142858,man,35-54,university degree,50,0.0,4.0,4.0,7.0,0.0
+1112,approval,4.142857142857142,man,35-54,no university degree,50,0.0,2.0,4.0,5.0,1.0
+1113,mechanism,5.0,man,55+,no university degree,60,0.0,1.0,6.0,5.0,0.0
+1114,factbox,1.0,man,55+,no university degree,60,0.0,3.0,4.0,2.0,0.0
+1115,control,4.857142857142858,man,35-54,no university degree,40,0.0,2.0,6.0,7.0,0.0
+1116,control,4.428571428571429,man,35-54,university degree,40,0.0,4.0,4.0,5.0,1.0
+1117,mechanism,5.0,man,35-54,university degree,50,0.0,5.0,3.0,7.0,0.0
+1118,text,5.0,man,35-54,no university degree,50,0.0,1.0,4.0,4.0,0.0
+1119,text,2.2857142857142856,man,35-54,no university degree,50,0.0,3.0,4.0,3.0,0.0
+1120,approval,4.0,woman,35-54,no university degree,40,1.0,2.0,5.0,3.0,0.0
+1122,control,4.857142857142858,man,55+,no university degree,60,0.0,3.0,4.0,7.0,0.0
+1123,approval,2.857142857142857,man,35-54,no university degree,50,0.0,2.0,4.0,4.0,1.0
+1126,text,3.857142857142857,woman,35-54,no university degree,40,1.0,3.0,3.0,4.0,0.0
+1127,factbox,5.0,man,35-54,university degree,50,0.0,4.0,4.0,5.0,0.0
+1129,factbox,1.0,man,35-54,university degree,40,0.0,4.0,4.0,3.0,0.0
+1130,mechanism,2.2857142857142856,woman,35-54,no university degree,40,1.0,1.0,4.0,,1.0
+1131,control,4.571428571428571,man,35-54,no university degree,50,0.0,3.0,3.0,6.0,0.0
+1132,mechanism,5.0,man,35-54,university degree,50,0.0,5.0,3.0,7.0,0.0
+1133,factbox,5.0,man,35-54,university degree,40,0.0,4.0,4.0,,0.0
+1134,approval,4.142857142857142,woman,35-54,no university degree,40,1.0,3.0,5.0,3.0,0.0
+1135,mechanism,3.2857142857142856,woman,35-54,no university degree,40,1.0,3.0,4.0,,0.0
+1136,mechanism,4.714285714285714,woman,35-54,university degree,40,1.0,6.0,7.0,9.0,1.0
+1137,control,5.0,man,35-54,no university degree,40,0.0,1.0,4.0,4.0,1.0
+1138,text,2.7142857142857144,man,35-54,university degree,50,0.0,4.0,5.0,5.0,0.0
+1139,text,4.428571428571429,woman,35-54,no university degree,40,1.0,3.0,4.0,7.0,0.0
+1140,approval,4.428571428571429,man,35-54,university degree,50,0.0,5.0,2.0,7.0,0.0
+1141,text,4.571428571428571,man,35-54,no university degree,40,0.0,2.0,4.0,6.0,0.0
+1142,mechanism,1.5714285714285712,man,55+,no university degree,60,0.0,3.0,7.0,4.0,1.0
+1143,control,5.0,woman,35-54,no university degree,40,1.0,3.0,2.0,6.0,0.0
+1144,approval,5.0,man,35-54,university degree,40,0.0,4.0,4.0,6.0,1.0
+1145,control,2.0,man,35-54,no university degree,40,0.0,2.0,4.0,2.0,0.0
+1146,approval,5.0,woman,35-54,no university degree,40,1.0,3.0,2.0,6.0,0.0
+1147,mechanism,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,5.0,4.0,1.0
+1148,text,4.285714285714286,man,35-54,no university degree,40,0.0,2.0,3.0,5.0,0.0
+1149,mechanism,2.0,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1150,text,1.8571428571428568,man,35-54,no university degree,50,0.0,2.0,4.0,5.0,1.0
+1151,factbox,5.0,man,35-54,no university degree,50,0.0,3.0,5.0,6.0,0.0
+1152,factbox,4.428571428571429,man,55+,no university degree,60,0.0,2.0,5.0,3.0,0.0
+1153,control,4.142857142857142,man,55+,no university degree,60,0.0,3.0,2.0,,0.0
+1154,factbox,5.0,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+1156,factbox,5.0,woman,35-54,no university degree,40,1.0,3.0,5.0,5.0,0.0
+1157,approval,5.0,man,35-54,no university degree,50,0.0,2.0,6.0,6.0,0.0
+1158,mechanism,5.0,man,35-54,university degree,40,0.0,5.0,4.0,7.0,0.0
+1159,text,3.0,woman,35-54,no university degree,40,1.0,2.0,4.0,,0.0
+1160,approval,4.0,man,35-54,no university degree,50,0.0,3.0,4.0,4.0,1.0
+1161,control,4.142857142857142,man,35-54,no university degree,50,0.0,3.0,4.0,3.0,0.0
+1163,control,5.0,man,55+,no university degree,60,0.0,3.0,2.0,3.0,0.0
+1164,mechanism,1.5714285714285712,man,35-54,university degree,40,0.0,4.0,6.0,7.0,0.0
+1165,control,5.0,man,35-54,no university degree,50,0.0,1.0,5.0,3.0,0.0
+1166,factbox,2.857142857142857,woman,35-54,university degree,40,1.0,4.0,4.0,1.0,0.0
+1167,factbox,4.142857142857142,man,35-54,university degree,40,0.0,4.0,3.0,6.0,0.0
+1168,text,5.0,man,35-54,no university degree,40,0.0,3.0,6.0,7.0,0.0
+1169,text,5.0,woman,35-54,no university degree,40,1.0,3.0,3.0,5.0,0.0
+1171,text,4.285714285714286,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1172,approval,3.7142857142857144,man,35-54,university degree,40,0.0,5.0,1.0,6.0,0.0
+1173,text,3.0,woman,35-54,no university degree,40,1.0,1.0,3.0,3.0,1.0
+1174,approval,4.571428571428571,man,35-54,no university degree,40,0.0,3.0,4.0,4.0,0.0
+1175,approval,5.0,man,35-54,university degree,50,0.0,5.0,2.0,7.0,0.0
+1176,factbox,4.714285714285714,man,35-54,no university degree,40,0.0,3.0,4.0,4.0,0.0
+1177,mechanism,2.2857142857142856,woman,35-54,no university degree,40,1.0,2.0,5.0,2.0,0.0
+1178,factbox,5.0,man,35-54,university degree,50,0.0,5.0,1.0,7.0,0.0
+1179,text,3.7142857142857144,woman,35-54,no university degree,40,1.0,3.0,4.0,9.0,0.0
+1180,approval,4.571428571428571,man,35-54,no university degree,40,0.0,3.0,1.0,1.0,0.0
+1181,mechanism,4.714285714285714,man,35-54,university degree,50,0.0,4.0,3.0,4.0,0.0
+1182,mechanism,5.0,man,35-54,no university degree,40,0.0,3.0,3.0,6.0,0.0
+1183,control,4.428571428571429,man,35-54,university degree,40,0.0,5.0,5.0,6.0,0.0
+1184,text,1.1428571428571432,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,1.0
+1185,approval,5.0,man,55+,no university degree,60,0.0,3.0,2.0,3.0,0.0
+1186,approval,5.0,man,35-54,no university degree,40,0.0,3.0,4.0,3.0,0.0
+1187,control,4.0,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+1188,control,4.571428571428571,man,35-54,no university degree,40,0.0,1.0,2.0,5.0,0.0
+1189,factbox,4.428571428571429,man,35-54,no university degree,40,0.0,3.0,2.0,2.0,0.0
+1190,factbox,4.0,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1191,mechanism,3.7142857142857144,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1192,mechanism,2.2857142857142856,man,35-54,no university degree,40,0.0,3.0,4.0,2.0,0.0
+1193,factbox,2.4285714285714284,man,35-54,university degree,40,0.0,5.0,6.0,4.0,0.0
+1194,mechanism,4.571428571428571,man,35-54,university degree,40,0.0,5.0,2.0,2.0,0.0
+1195,factbox,4.285714285714286,woman,35-54,no university degree,50,1.0,3.0,4.0,6.0,0.0
+1196,approval,4.0,woman,35-54,no university degree,50,1.0,3.0,4.0,1.0,0.0
+1197,factbox,5.0,man,35-54,no university degree,40,0.0,3.0,5.0,6.0,0.0
+1198,mechanism,4.857142857142858,woman,35-54,no university degree,50,1.0,1.0,2.0,4.0,0.0
+1199,text,2.142857142857143,man,35-54,university degree,40,0.0,4.0,6.0,2.0,0.0
+1200,control,5.0,man,35-54,no university degree,50,0.0,3.0,6.0,6.0,1.0
+1201,control,4.857142857142858,man,35-54,no university degree,40,0.0,1.0,7.0,9.0,0.0
+1202,control,5.0,man,35-54,university degree,40,0.0,4.0,3.0,6.0,0.0
+1203,approval,3.7142857142857144,man,35-54,no university degree,50,0.0,3.0,2.0,4.0,0.0
+1204,factbox,2.2857142857142856,man,35-54,university degree,40,0.0,4.0,5.0,5.0,0.0
+1205,text,5.0,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1206,approval,4.714285714285714,man,35-54,university degree,40,0.0,5.0,3.0,9.0,0.0
+1207,approval,5.0,man,35-54,no university degree,40,0.0,3.0,4.0,,1.0
+1208,text,5.0,woman,35-54,university degree,40,1.0,4.0,4.0,6.0,0.0
+1210,approval,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,1.0
+1211,control,4.857142857142858,woman,35-54,no university degree,50,1.0,2.0,3.0,3.0,0.0
+1212,mechanism,4.571428571428571,man,35-54,university degree,40,0.0,5.0,2.0,5.0,0.0
+1213,factbox,5.0,man,35-54,no university degree,50,0.0,2.0,2.0,6.0,0.0
+1214,factbox,4.142857142857142,woman,35-54,no university degree,40,1.0,3.0,1.0,5.0,0.0
+1215,text,4.714285714285714,man,35-54,no university degree,40,0.0,3.0,4.0,1.0,0.0
+1216,mechanism,4.428571428571429,woman,35-54,no university degree,40,1.0,3.0,4.0,4.0,0.0
+1217,mechanism,3.0,man,35-54,university degree,40,0.0,4.0,4.0,6.0,1.0
+1218,approval,2.7142857142857144,man,35-54,university degree,40,0.0,4.0,3.0,6.0,1.0
+1219,control,5.0,man,35-54,university degree,40,0.0,5.0,4.0,6.0,0.0
+1220,factbox,2.5714285714285716,man,35-54,university degree,40,0.0,5.0,4.0,6.0,0.0
+1221,mechanism,4.714285714285714,woman,35-54,university degree,40,1.0,5.0,4.0,5.0,0.0
+1222,approval,2.857142857142857,woman,35-54,no university degree,40,1.0,3.0,5.0,3.0,0.0
+1223,factbox,1.4285714285714288,woman,35-54,no university degree,40,1.0,1.0,4.0,5.0,0.0
+1224,mechanism,1.4285714285714288,woman,35-54,no university degree,40,1.0,3.0,4.0,9.0,1.0
+1225,text,4.0,woman,35-54,university degree,40,1.0,4.0,4.0,,0.0
+1226,text,3.4285714285714284,woman,35-54,university degree,40,1.0,4.0,2.0,7.0,0.0
+1227,control,4.142857142857142,woman,35-54,no university degree,40,1.0,2.0,3.0,4.0,0.0
+1228,factbox,3.7142857142857144,woman,35-54,no university degree,40,1.0,3.0,4.0,1.0,0.0
+1229,approval,5.0,woman,35-54,no university degree,40,1.0,2.0,4.0,5.0,0.0
+1230,approval,3.857142857142857,woman,35-54,university degree,40,1.0,4.0,4.0,7.0,1.0
+1231,factbox,4.0,woman,35-54,no university degree,40,1.0,1.0,4.0,6.0,0.0
+1232,text,3.5714285714285716,woman,35-54,no university degree,40,1.0,3.0,2.0,1.0,0.0
+1233,approval,5.0,woman,55+,university degree,60,1.0,4.0,4.0,7.0,0.0
+1234,control,4.142857142857142,man,18-34,no university degree,30,0.0,1.0,2.0,4.0,0.0
+1235,mechanism,1.0,woman,18-34,university degree,30,1.0,4.0,1.0,3.0,0.0
+1236,factbox,5.0,man,18-34,no university degree,21,0.0,3.0,1.0,5.0,0.0
+1237,factbox,4.857142857142858,woman,55+,university degree,60,1.0,4.0,4.0,6.0,0.0
+1238,mechanism,4.714285714285714,man,18-34,university degree,21,0.0,4.0,6.0,5.0,0.0
+1239,control,5.0,man,18-34,university degree,30,0.0,5.0,2.0,4.0,0.0
+1240,text,5.0,man,18-34,university degree,30,0.0,4.0,2.0,4.0,0.0
+1241,text,4.142857142857142,woman,18-34,no university degree,21,1.0,3.0,1.0,4.0,1.0
+1242,control,4.428571428571429,woman,55+,no university degree,60,1.0,1.0,4.0,3.0,0.0
+1243,approval,4.142857142857142,man,18-34,university degree,30,0.0,4.0,5.0,3.0,0.0
+1244,approval,5.0,man,35-54,university degree,40,0.0,4.0,4.0,7.0,0.0
+1245,approval,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,6.0,0.0
+1246,text,4.857142857142858,woman,55+,no university degree,60,1.0,2.0,5.0,7.0,0.0
+1247,mechanism,4.0,man,18-34,university degree,30,0.0,4.0,2.0,5.0,0.0
+1248,factbox,5.0,man,18-34,no university degree,21,0.0,2.0,1.0,6.0,1.0
+1249,approval,4.857142857142858,woman,35-54,university degree,50,1.0,5.0,6.0,7.0,0.0
+1250,control,5.0,man,55+,no university degree,60,0.0,3.0,3.0,6.0,0.0
+1251,factbox,3.142857142857143,man,18-34,no university degree,30,0.0,3.0,4.0,3.0,0.0
+1252,control,5.0,woman,55+,university degree,70,1.0,5.0,6.0,7.0,0.0
+1253,text,4.857142857142858,woman,18-34,university degree,21,1.0,4.0,2.0,3.0,0.0
+1254,text,5.0,woman,55+,no university degree,70,1.0,3.0,5.0,7.0,0.0
+1255,mechanism,5.0,man,55+,no university degree,60,0.0,3.0,3.0,3.0,0.0
+1256,control,2.5714285714285716,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,0.0
+1257,factbox,5.0,woman,55+,university degree,60,1.0,4.0,2.0,4.0,0.0
+1258,control,5.0,woman,55+,university degree,60,1.0,4.0,3.0,6.0,0.0
+1259,factbox,2.142857142857143,man,18-34,university degree,30,0.0,4.0,4.0,4.0,0.0
+1260,factbox,4.571428571428571,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+1261,approval,5.0,woman,55+,no university degree,60,1.0,3.0,6.0,6.0,0.0
+1262,control,4.714285714285714,woman,55+,no university degree,60,1.0,1.0,4.0,5.0,0.0
+1263,control,4.714285714285714,man,18-34,no university degree,21,0.0,3.0,5.0,8.0,0.0
+1264,text,5.0,man,35-54,university degree,50,0.0,4.0,4.0,4.0,1.0
+1265,text,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,4.0,7.0,0.0
+1266,control,3.4285714285714284,man,18-34,university degree,30,0.0,5.0,4.0,5.0,0.0
+1267,mechanism,4.857142857142858,man,55+,no university degree,70,0.0,3.0,3.0,6.0,0.0
+1268,control,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,2.0,7.0,0.0
+1269,mechanism,5.0,man,18-34,no university degree,30,0.0,3.0,2.0,2.0,0.0
+1270,mechanism,4.428571428571429,woman,55+,no university degree,60,1.0,1.0,3.0,6.0,1.0
+1271,control,5.0,man,55+,university degree,60,0.0,4.0,2.0,7.0,0.0
+1272,approval,5.0,man,18-34,university degree,21,0.0,4.0,1.0,3.0,0.0
+1273,factbox,4.571428571428571,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+1274,mechanism,5.0,woman,55+,university degree,60,1.0,5.0,2.0,6.0,0.0
+1275,approval,5.0,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+1276,approval,4.428571428571429,man,18-34,university degree,21,0.0,4.0,2.0,6.0,1.0
+1277,mechanism,5.0,woman,55+,university degree,70,1.0,5.0,4.0,7.0,0.0
+1278,approval,4.571428571428571,man,35-54,university degree,40,0.0,4.0,2.0,4.0,0.0
+1279,approval,4.0,woman,35-54,no university degree,40,1.0,3.0,3.0,3.0,0.0
+1280,factbox,5.0,man,18-34,no university degree,30,0.0,2.0,2.0,3.0,0.0
+1281,approval,4.285714285714286,man,18-34,university degree,30,0.0,4.0,2.0,5.0,1.0
+1282,mechanism,5.0,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+1283,approval,4.285714285714286,woman,55+,university degree,60,1.0,5.0,3.0,7.0,0.0
+1284,text,3.5714285714285716,man,18-34,no university degree,21,0.0,2.0,2.0,6.0,0.0
+1285,factbox,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,1.0
+1286,text,4.142857142857142,man,18-34,university degree,21,0.0,5.0,3.0,3.0,0.0
+1287,text,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,2.0,5.0,0.0
+1288,mechanism,3.5714285714285716,man,18-34,university degree,30,0.0,5.0,5.0,3.0,0.0
+1289,control,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,3.0,3.0,0.0
+1290,mechanism,4.857142857142858,man,55+,university degree,60,0.0,4.0,2.0,6.0,0.0
+1291,text,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,2.0,4.0,0.0
+1292,factbox,4.714285714285714,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+1293,mechanism,5.0,man,55+,university degree,60,0.0,4.0,3.0,6.0,0.0
+1294,factbox,5.0,woman,18-34,university degree,30,1.0,4.0,3.0,3.0,1.0
+1295,factbox,4.428571428571429,man,18-34,no university degree,30,0.0,1.0,5.0,5.0,0.0
+1296,control,4.0,woman,18-34,university degree,21,1.0,4.0,3.0,4.0,1.0
+1297,approval,1.0,man,18-34,no university degree,30,0.0,3.0,4.0,2.0,0.0
+1298,text,5.0,man,55+,no university degree,60,0.0,1.0,4.0,7.0,0.0
+1299,control,4.857142857142858,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1300,factbox,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,4.0,6.0,0.0
+1301,approval,4.142857142857142,man,18-34,no university degree,21,0.0,3.0,3.0,5.0,0.0
+1302,control,4.142857142857142,woman,18-34,university degree,21,1.0,4.0,4.0,6.0,0.0
+1303,control,4.428571428571429,man,18-34,university degree,30,0.0,4.0,4.0,7.0,0.0
+1304,mechanism,5.0,woman,55+,no university degree,70,1.0,3.0,5.0,6.0,0.0
+1305,mechanism,4.428571428571429,man,35-54,university degree,40,0.0,4.0,4.0,3.0,0.0
+1306,factbox,2.4285714285714284,woman,18-34,university degree,21,1.0,5.0,2.0,6.0,1.0
+1307,text,3.4285714285714284,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,0.0
+1308,control,5.0,woman,18-34,university degree,30,1.0,5.0,2.0,4.0,0.0
+1309,text,4.714285714285714,man,35-54,university degree,50,0.0,6.0,1.0,7.0,0.0
+1311,control,3.4285714285714284,man,18-34,university degree,30,0.0,4.0,3.0,4.0,0.0
+1313,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+1314,factbox,4.714285714285714,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,0.0
+1315,control,5.0,man,18-34,university degree,30,0.0,4.0,1.0,4.0,1.0
+1316,text,2.857142857142857,man,18-34,no university degree,30,0.0,1.0,4.0,2.0,0.0
+1317,mechanism,3.857142857142857,woman,35-54,university degree,50,1.0,4.0,3.0,7.0,0.0
+1318,text,4.428571428571429,man,18-34,university degree,30,0.0,4.0,4.0,3.0,0.0
+1319,factbox,5.0,man,18-34,university degree,30,0.0,5.0,2.0,4.0,0.0
+1320,factbox,5.0,woman,18-34,university degree,30,1.0,6.0,2.0,4.0,1.0
+1321,text,1.7142857142857144,man,18-34,university degree,30,0.0,4.0,4.0,4.0,0.0
+1322,control,4.285714285714286,man,35-54,university degree,50,0.0,4.0,3.0,3.0,0.0
+1323,control,1.7142857142857144,man,35-54,university degree,50,0.0,4.0,5.0,6.0,0.0
+1324,text,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,2.0,6.0,0.0
+1325,text,5.0,woman,35-54,university degree,40,1.0,4.0,4.0,5.0,0.0
+1326,control,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,4.0,4.0,0.0
+1327,text,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,6.0,0.0
+1328,control,1.1428571428571432,woman,18-34,no university degree,30,1.0,1.0,4.0,5.0,0.0
+1329,control,5.0,man,18-34,no university degree,21,0.0,3.0,2.0,6.0,0.0
+1330,control,2.857142857142857,man,18-34,no university degree,30,0.0,2.0,4.0,5.0,0.0
+1331,control,5.0,man,18-34,university degree,21,0.0,5.0,2.0,6.0,0.0
+1332,approval,4.714285714285714,woman,55+,university degree,70,1.0,5.0,6.0,8.0,0.0
+1333,mechanism,5.0,man,18-34,no university degree,30,0.0,2.0,2.0,3.0,0.0
+1334,approval,4.571428571428571,man,35-54,university degree,40,0.0,4.0,3.0,5.0,0.0
+1335,control,4.285714285714286,man,35-54,university degree,50,0.0,4.0,2.0,2.0,0.0
+1336,approval,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,2.0,3.0,1.0
+1337,text,2.2857142857142856,man,18-34,no university degree,30,0.0,1.0,4.0,3.0,1.0
+1338,factbox,4.428571428571429,man,35-54,no university degree,50,0.0,2.0,2.0,6.0,0.0
+1339,approval,3.5714285714285716,woman,18-34,university degree,21,1.0,4.0,4.0,4.0,1.0
+1340,text,5.0,man,18-34,university degree,30,0.0,4.0,2.0,7.0,0.0
+1341,control,4.857142857142858,man,35-54,university degree,40,0.0,4.0,2.0,6.0,1.0
+1342,factbox,4.285714285714286,woman,18-34,no university degree,21,1.0,3.0,1.0,4.0,0.0
+1343,factbox,4.428571428571429,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,0.0
+1344,control,4.571428571428571,woman,18-34,university degree,21,1.0,5.0,3.0,3.0,0.0
+1345,control,5.0,man,55+,university degree,60,0.0,4.0,6.0,5.0,0.0
+1346,mechanism,4.714285714285714,woman,35-54,no university degree,40,1.0,1.0,3.0,4.0,0.0
+1347,factbox,4.571428571428571,woman,55+,no university degree,60,1.0,3.0,6.0,7.0,0.0
+1348,control,4.857142857142858,man,18-34,university degree,30,0.0,5.0,2.0,6.0,1.0
+1349,approval,5.0,man,55+,university degree,60,0.0,5.0,2.0,6.0,0.0
+1350,factbox,3.7142857142857144,woman,18-34,no university degree,21,1.0,3.0,2.0,2.0,1.0
+1351,text,2.2857142857142856,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1352,factbox,4.857142857142858,man,35-54,university degree,50,0.0,5.0,3.0,7.0,0.0
+1353,approval,4.428571428571429,man,55+,no university degree,60,0.0,3.0,5.0,4.0,0.0
+1354,approval,5.0,man,18-34,university degree,21,0.0,4.0,4.0,4.0,1.0
+1355,text,4.0,man,18-34,university degree,30,0.0,5.0,2.0,6.0,0.0
+1356,approval,2.7142857142857144,woman,35-54,university degree,50,1.0,4.0,6.0,5.0,0.0
+1358,factbox,4.142857142857142,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,0.0
+1359,control,5.0,woman,18-34,university degree,30,1.0,5.0,2.0,2.0,1.0
+1360,control,5.0,man,35-54,no university degree,40,0.0,2.0,4.0,2.0,0.0
+1361,control,5.0,man,35-54,university degree,50,0.0,5.0,2.0,7.0,0.0
+1362,mechanism,4.857142857142858,man,35-54,no university degree,50,0.0,1.0,2.0,3.0,1.0
+1363,control,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,2.0,7.0,0.0
+1364,text,5.0,man,35-54,university degree,40,0.0,5.0,2.0,6.0,0.0
+1365,control,5.0,man,35-54,university degree,40,0.0,4.0,3.0,3.0,0.0
+1366,text,4.142857142857142,woman,18-34,university degree,21,1.0,4.0,3.0,3.0,1.0
+1367,mechanism,4.428571428571429,man,18-34,university degree,30,0.0,5.0,2.0,6.0,1.0
+1368,factbox,5.0,woman,55+,no university degree,60,1.0,3.0,4.0,6.0,0.0
+1369,text,5.0,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+1370,control,4.285714285714286,woman,18-34,university degree,21,1.0,4.0,5.0,6.0,1.0
+1371,control,3.857142857142857,man,18-34,university degree,21,0.0,5.0,2.0,3.0,0.0
+1372,text,3.142857142857143,man,35-54,university degree,40,0.0,4.0,4.0,4.0,0.0
+1373,approval,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,0.0
+1374,mechanism,3.4285714285714284,man,55+,university degree,60,0.0,5.0,2.0,7.0,0.0
+1375,factbox,2.5714285714285716,woman,18-34,university degree,30,1.0,5.0,2.0,3.0,0.0
+1376,mechanism,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,2.0,3.0,1.0
+1377,text,2.142857142857143,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,0.0
+1378,mechanism,3.2857142857142856,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1379,mechanism,5.0,man,18-34,university degree,21,0.0,4.0,2.0,2.0,1.0
+1380,factbox,1.1428571428571432,man,18-34,no university degree,30,0.0,3.0,5.0,5.0,0.0
+1381,mechanism,4.714285714285714,man,55+,no university degree,60,0.0,1.0,4.0,6.0,0.0
+1382,control,3.5714285714285716,man,35-54,university degree,40,0.0,6.0,4.0,7.0,0.0
+1383,control,5.0,man,18-34,university degree,30,0.0,4.0,2.0,4.0,0.0
+1384,text,4.285714285714286,man,18-34,no university degree,21,0.0,3.0,5.0,7.0,0.0
+1385,mechanism,5.0,man,55+,no university degree,60,0.0,3.0,6.0,6.0,0.0
+1386,mechanism,4.714285714285714,man,55+,university degree,60,0.0,4.0,3.0,4.0,0.0
+1387,approval,2.857142857142857,woman,18-34,no university degree,21,1.0,3.0,5.0,5.0,0.0
+1388,text,4.857142857142858,man,18-34,university degree,21,0.0,4.0,1.0,3.0,1.0
+1389,factbox,4.857142857142858,man,18-34,university degree,30,0.0,4.0,3.0,2.0,0.0
+1390,control,4.714285714285714,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+1391,control,4.571428571428571,man,35-54,no university degree,40,0.0,2.0,4.0,4.0,0.0
+1392,mechanism,4.857142857142858,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+1393,approval,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,2.0,3.0,0.0
+1394,mechanism,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,4.0,7.0,1.0
+1395,control,4.428571428571429,man,18-34,no university degree,30,0.0,3.0,4.0,6.0,0.0
+1397,control,3.4285714285714284,man,35-54,no university degree,40,0.0,3.0,2.0,6.0,0.0
+1398,approval,4.714285714285714,woman,18-34,university degree,30,1.0,5.0,2.0,6.0,0.0
+1399,mechanism,4.571428571428571,man,18-34,university degree,21,0.0,4.0,2.0,6.0,0.0
+1400,factbox,3.857142857142857,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+1401,mechanism,4.857142857142858,man,35-54,university degree,40,0.0,6.0,2.0,6.0,0.0
+1402,mechanism,4.428571428571429,man,18-34,university degree,21,0.0,5.0,3.0,6.0,0.0
+1403,factbox,4.0,man,18-34,university degree,30,0.0,4.0,2.0,6.0,0.0
+1404,factbox,5.0,man,18-34,university degree,21,0.0,4.0,2.0,6.0,0.0
+1405,factbox,4.285714285714286,man,18-34,university degree,30,0.0,5.0,4.0,5.0,0.0
+1406,approval,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,1.0,2.0,1.0
+1407,approval,4.714285714285714,man,55+,university degree,60,0.0,4.0,3.0,6.0,0.0
+1408,text,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,2.0,6.0,1.0
+1409,text,5.0,man,35-54,no university degree,50,0.0,2.0,2.0,5.0,0.0
+1410,text,4.428571428571429,man,35-54,university degree,40,0.0,4.0,5.0,5.0,0.0
+1411,control,4.285714285714286,woman,55+,no university degree,60,1.0,3.0,6.0,7.0,0.0
+1412,text,4.571428571428571,man,35-54,university degree,40,0.0,5.0,2.0,8.0,0.0
+1413,factbox,3.4285714285714284,man,18-34,no university degree,21,0.0,3.0,1.0,4.0,0.0
+1414,factbox,5.0,man,35-54,university degree,50,0.0,4.0,6.0,7.0,0.0
+1415,approval,4.571428571428571,man,18-34,university degree,21,0.0,4.0,2.0,7.0,0.0
+1416,text,4.142857142857142,woman,18-34,university degree,21,1.0,4.0,4.0,3.0,0.0
+1418,factbox,5.0,man,18-34,no university degree,21,0.0,3.0,2.0,1.0,0.0
+1420,mechanism,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,2.0,3.0,0.0
+1421,mechanism,4.857142857142858,man,18-34,university degree,21,0.0,4.0,4.0,2.0,0.0
+1422,text,4.714285714285714,woman,55+,university degree,70,1.0,5.0,3.0,7.0,0.0
+1423,approval,3.7142857142857144,man,35-54,university degree,40,0.0,4.0,5.0,4.0,0.0
+1424,factbox,4.285714285714286,man,18-34,no university degree,30,0.0,3.0,2.0,6.0,0.0
+1425,factbox,4.714285714285714,woman,35-54,no university degree,40,1.0,2.0,2.0,3.0,0.0
+1426,approval,4.857142857142858,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+1427,approval,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,5.0,3.0,0.0
+1428,control,4.0,woman,35-54,university degree,50,1.0,6.0,3.0,7.0,1.0
+1430,approval,1.1428571428571432,man,18-34,university degree,21,0.0,4.0,5.0,7.0,1.0
+1431,text,5.0,man,35-54,university degree,40,0.0,4.0,5.0,6.0,0.0
+1432,control,4.142857142857142,man,18-34,university degree,30,0.0,5.0,3.0,5.0,1.0
+1433,approval,5.0,man,35-54,university degree,40,0.0,4.0,4.0,3.0,0.0
+1434,approval,5.0,man,18-34,university degree,30,0.0,5.0,2.0,6.0,0.0
+1435,control,1.8571428571428568,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,0.0
+1436,mechanism,2.4285714285714284,man,18-34,no university degree,30,0.0,3.0,4.0,5.0,0.0
+1437,control,1.0,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+1438,control,4.428571428571429,woman,18-34,no university degree,21,1.0,3.0,1.0,6.0,0.0
+1439,approval,4.142857142857142,man,18-34,university degree,30,0.0,4.0,3.0,5.0,0.0
+1440,approval,4.714285714285714,man,18-34,no university degree,21,0.0,1.0,4.0,4.0,0.0
+1441,text,4.142857142857142,man,18-34,university degree,30,0.0,4.0,5.0,7.0,0.0
+1442,text,4.714285714285714,man,35-54,university degree,40,0.0,5.0,1.0,2.0,0.0
+1443,mechanism,3.4285714285714284,woman,18-34,university degree,21,1.0,4.0,2.0,6.0,0.0
+1444,mechanism,4.285714285714286,woman,18-34,university degree,21,1.0,4.0,2.0,3.0,0.0
+1445,approval,3.2857142857142856,man,35-54,no university degree,40,0.0,3.0,2.0,5.0,0.0
+1446,approval,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,0.0
+1447,text,2.0,woman,18-34,no university degree,30,1.0,2.0,4.0,6.0,0.0
+1449,control,4.571428571428571,woman,35-54,university degree,40,1.0,5.0,2.0,4.0,0.0
+1450,control,1.5714285714285712,man,35-54,university degree,50,0.0,4.0,4.0,4.0,0.0
+1451,factbox,2.857142857142857,woman,55+,university degree,70,1.0,4.0,6.0,3.0,0.0
+1452,factbox,2.2857142857142856,woman,18-34,university degree,30,1.0,4.0,7.0,3.0,1.0
+1453,control,5.0,man,35-54,university degree,40,0.0,4.0,1.0,7.0,0.0
+1454,control,4.714285714285714,man,35-54,university degree,40,0.0,4.0,3.0,6.0,0.0
+1455,approval,5.0,man,55+,no university degree,60,0.0,3.0,3.0,4.0,0.0
+1456,control,2.142857142857143,man,18-34,no university degree,21,0.0,2.0,3.0,3.0,0.0
+1457,mechanism,5.0,woman,55+,no university degree,60,1.0,3.0,5.0,4.0,0.0
+1458,factbox,2.5714285714285716,man,35-54,no university degree,40,0.0,3.0,3.0,5.0,0.0
+1459,approval,3.7142857142857144,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,0.0
+1460,approval,4.285714285714286,man,18-34,university degree,21,0.0,5.0,1.0,3.0,0.0
+1461,factbox,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,1.0
+1462,factbox,4.0,man,18-34,university degree,30,0.0,4.0,4.0,7.0,1.0
+1463,control,3.4285714285714284,man,35-54,university degree,50,0.0,5.0,5.0,7.0,0.0
+1464,control,4.142857142857142,man,18-34,no university degree,30,0.0,2.0,2.0,1.0,0.0
+1465,control,5.0,man,18-34,university degree,30,0.0,4.0,2.0,3.0,0.0
+1466,text,5.0,man,18-34,university degree,21,0.0,4.0,1.0,3.0,0.0
+1467,factbox,4.857142857142858,man,18-34,university degree,30,0.0,6.0,5.0,6.0,0.0
+1468,text,3.857142857142857,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1469,text,4.714285714285714,man,35-54,no university degree,40,0.0,3.0,4.0,4.0,0.0
+1470,text,2.142857142857143,man,35-54,no university degree,40,0.0,3.0,4.0,7.0,0.0
+1471,text,2.5714285714285716,man,35-54,no university degree,40,0.0,2.0,6.0,7.0,0.0
+1472,mechanism,2.2857142857142856,man,35-54,no university degree,50,0.0,2.0,3.0,4.0,0.0
+1473,text,2.7142857142857144,man,18-34,no university degree,30,0.0,2.0,4.0,3.0,0.0
+1474,factbox,4.428571428571429,woman,35-54,no university degree,40,1.0,3.0,5.0,6.0,0.0
+1475,approval,5.0,man,35-54,no university degree,40,0.0,1.0,1.0,3.0,0.0
+1476,text,2.142857142857143,woman,35-54,no university degree,40,1.0,3.0,1.0,5.0,1.0
+1477,mechanism,5.0,woman,18-34,university degree,21,1.0,5.0,4.0,8.0,0.0
+1478,mechanism,4.142857142857142,man,18-34,university degree,30,0.0,5.0,3.0,3.0,0.0
+1479,approval,4.285714285714286,man,18-34,university degree,21,0.0,4.0,2.0,5.0,0.0
+1480,control,4.857142857142858,woman,55+,no university degree,70,1.0,2.0,3.0,6.0,0.0
+1481,mechanism,5.0,man,35-54,university degree,50,0.0,4.0,3.0,4.0,0.0
+1482,text,2.0,man,35-54,no university degree,50,0.0,3.0,4.0,2.0,0.0
+1483,factbox,4.714285714285714,man,18-34,university degree,30,0.0,4.0,3.0,4.0,0.0
+1484,control,5.0,man,35-54,university degree,50,0.0,5.0,4.0,5.0,0.0
+1485,control,4.714285714285714,woman,18-34,university degree,30,1.0,6.0,1.0,4.0,1.0
+1486,approval,5.0,woman,35-54,university degree,50,1.0,5.0,1.0,6.0,0.0
+1487,approval,3.857142857142857,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+1488,text,1.0,man,18-34,no university degree,21,0.0,3.0,4.0,2.0,0.0
+1489,control,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,3.0,0.0
+1490,factbox,5.0,woman,18-34,university degree,30,1.0,5.0,5.0,7.0,1.0
+1491,mechanism,5.0,man,35-54,university degree,50,0.0,5.0,4.0,7.0,0.0
+1492,factbox,4.142857142857142,man,18-34,no university degree,30,0.0,2.0,2.0,6.0,0.0
+1493,approval,4.857142857142858,man,18-34,university degree,21,0.0,4.0,3.0,6.0,0.0
+1494,control,2.857142857142857,man,18-34,no university degree,21,0.0,1.0,4.0,5.0,0.0
+1495,text,4.571428571428571,man,35-54,no university degree,50,0.0,3.0,4.0,5.0,0.0
+1496,factbox,3.7142857142857144,man,18-34,university degree,30,0.0,4.0,2.0,4.0,1.0
+1497,control,5.0,woman,35-54,university degree,40,1.0,4.0,1.0,4.0,0.0
+1498,factbox,5.0,woman,35-54,no university degree,40,1.0,3.0,3.0,,0.0
+1499,mechanism,4.428571428571429,man,18-34,university degree,21,0.0,4.0,4.0,6.0,0.0
+1500,factbox,4.142857142857142,man,18-34,university degree,30,0.0,5.0,3.0,2.0,0.0
+1501,control,5.0,woman,18-34,university degree,21,1.0,4.0,5.0,3.0,0.0
+1502,approval,5.0,man,35-54,university degree,40,0.0,4.0,5.0,8.0,0.0
+1503,approval,1.1428571428571432,man,55+,no university degree,60,0.0,3.0,4.0,7.0,0.0
+1504,control,4.285714285714286,man,18-34,university degree,30,0.0,5.0,3.0,7.0,0.0
+1506,control,4.142857142857142,man,18-34,university degree,30,0.0,4.0,4.0,4.0,1.0
+1507,control,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,1.0,6.0,0.0
+1508,approval,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,3.0,0.0
+1509,approval,2.5714285714285716,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,0.0
+1510,approval,4.857142857142858,woman,18-34,university degree,30,1.0,6.0,2.0,6.0,0.0
+1511,factbox,4.0,woman,18-34,university degree,21,1.0,4.0,3.0,4.0,1.0
+1512,text,2.142857142857143,woman,18-34,university degree,30,1.0,4.0,4.0,3.0,0.0
+1514,mechanism,2.0,man,18-34,university degree,30,0.0,4.0,4.0,3.0,0.0
+1515,mechanism,4.857142857142858,woman,18-34,university degree,21,1.0,4.0,3.0,7.0,0.0
+1516,control,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,2.0,5.0,0.0
+1517,text,3.7142857142857144,man,18-34,no university degree,30,0.0,3.0,2.0,2.0,1.0
+1518,control,4.571428571428571,man,35-54,no university degree,40,0.0,3.0,3.0,6.0,0.0
+1519,control,4.857142857142858,man,55+,university degree,60,0.0,4.0,2.0,7.0,0.0
+1520,approval,2.142857142857143,woman,55+,no university degree,60,1.0,2.0,6.0,3.0,0.0
+1521,mechanism,4.714285714285714,man,35-54,university degree,40,0.0,4.0,5.0,3.0,0.0
+1522,factbox,4.571428571428571,woman,18-34,no university degree,21,1.0,2.0,6.0,8.0,0.0
+1523,text,5.0,man,35-54,university degree,50,0.0,5.0,3.0,7.0,0.0
+1524,control,4.285714285714286,man,18-34,no university degree,21,0.0,3.0,6.0,2.0,0.0
+1525,approval,2.5714285714285716,man,35-54,university degree,40,0.0,4.0,2.0,4.0,0.0
+1526,mechanism,4.0,woman,35-54,no university degree,40,1.0,3.0,2.0,7.0,0.0
+1527,control,4.0,woman,18-34,university degree,30,1.0,5.0,6.0,8.0,1.0
+1528,factbox,2.5714285714285716,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+1529,text,2.2857142857142856,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,0.0
+1530,text,4.0,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,1.0
+1531,control,5.0,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+1532,text,3.4285714285714284,woman,55+,no university degree,60,1.0,3.0,5.0,5.0,1.0
+1533,mechanism,2.2857142857142856,man,35-54,university degree,40,0.0,5.0,3.0,6.0,0.0
+1534,factbox,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,2.0,4.0,1.0
+1535,control,4.285714285714286,woman,18-34,university degree,21,1.0,4.0,3.0,5.0,1.0
+1536,approval,5.0,woman,35-54,university degree,50,1.0,6.0,1.0,3.0,0.0
+1537,mechanism,4.0,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+1538,mechanism,4.571428571428571,man,35-54,university degree,50,0.0,4.0,5.0,4.0,0.0
+1539,factbox,4.285714285714286,woman,18-34,university degree,30,1.0,5.0,2.0,6.0,0.0
+1540,text,4.857142857142858,man,18-34,university degree,30,0.0,6.0,2.0,7.0,1.0
+1541,factbox,3.857142857142857,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+1542,approval,5.0,woman,35-54,university degree,50,1.0,4.0,4.0,7.0,0.0
+1543,mechanism,5.0,woman,18-34,university degree,21,1.0,4.0,4.0,7.0,0.0
+1544,control,4.571428571428571,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,0.0
+1545,text,5.0,man,55+,university degree,60,0.0,4.0,1.0,2.0,0.0
+1546,approval,4.142857142857142,man,18-34,university degree,30,0.0,4.0,3.0,6.0,0.0
+1547,approval,4.285714285714286,woman,18-34,university degree,30,1.0,5.0,5.0,5.0,0.0
+1548,text,3.5714285714285716,man,18-34,university degree,21,0.0,5.0,4.0,5.0,0.0
+1549,text,5.0,woman,35-54,university degree,50,1.0,4.0,5.0,4.0,0.0
+1550,mechanism,4.0,man,18-34,university degree,30,0.0,4.0,2.0,3.0,0.0
+1551,text,4.0,man,55+,no university degree,60,0.0,3.0,3.0,3.0,1.0
+1552,approval,3.7142857142857144,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+1553,text,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,2.0,4.0,0.0
+1554,mechanism,5.0,woman,35-54,university degree,50,1.0,5.0,5.0,7.0,0.0
+1555,approval,5.0,man,55+,no university degree,60,0.0,2.0,4.0,5.0,0.0
+1556,text,5.0,man,35-54,university degree,50,0.0,4.0,6.0,8.0,0.0
+1558,approval,4.285714285714286,man,35-54,university degree,40,0.0,4.0,2.0,5.0,0.0
+1559,approval,4.714285714285714,man,55+,no university degree,60,0.0,3.0,5.0,5.0,0.0
+1560,factbox,4.857142857142858,man,55+,university degree,60,0.0,5.0,4.0,6.0,0.0
+1561,mechanism,2.5714285714285716,man,18-34,no university degree,21,0.0,3.0,1.0,5.0,0.0
+1562,mechanism,4.714285714285714,woman,18-34,no university degree,30,1.0,3.0,1.0,3.0,0.0
+1563,mechanism,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,5.0,4.0,0.0
+1564,mechanism,4.142857142857142,woman,18-34,no university degree,21,1.0,3.0,4.0,6.0,0.0
+1565,approval,2.142857142857143,man,18-34,no university degree,30,0.0,3.0,4.0,7.0,0.0
+1566,factbox,3.7142857142857144,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,1.0
+1567,text,5.0,woman,55+,university degree,60,1.0,5.0,5.0,8.0,0.0
+1568,mechanism,2.5714285714285716,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+1569,approval,4.428571428571429,man,35-54,university degree,40,0.0,5.0,3.0,8.0,0.0
+1570,control,4.428571428571429,man,35-54,university degree,50,0.0,4.0,5.0,5.0,0.0
+1571,approval,5.0,man,18-34,university degree,30,0.0,5.0,6.0,6.0,0.0
+1572,mechanism,5.0,woman,18-34,university degree,21,1.0,4.0,2.0,3.0,0.0
+1573,text,4.285714285714286,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+1574,control,4.714285714285714,man,18-34,no university degree,30,0.0,3.0,4.0,3.0,0.0
+1575,factbox,2.857142857142857,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1576,approval,4.428571428571429,man,18-34,no university degree,30,0.0,2.0,3.0,4.0,0.0
+1577,mechanism,5.0,woman,55+,university degree,60,1.0,4.0,5.0,7.0,0.0
+1578,mechanism,2.2857142857142856,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+1579,control,4.714285714285714,woman,18-34,no university degree,30,1.0,1.0,2.0,3.0,0.0
+1580,factbox,4.285714285714286,man,35-54,no university degree,50,0.0,3.0,4.0,3.0,0.0
+1581,approval,1.0,woman,35-54,no university degree,40,1.0,2.0,6.0,6.0,0.0
+1582,text,4.428571428571429,woman,35-54,university degree,40,1.0,4.0,4.0,5.0,0.0
+1583,approval,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,4.0,6.0,0.0
+1584,mechanism,5.0,man,35-54,university degree,50,0.0,4.0,2.0,3.0,0.0
+1585,approval,2.7142857142857144,man,18-34,university degree,21,0.0,4.0,2.0,4.0,0.0
+1586,approval,2.5714285714285716,man,18-34,no university degree,21,0.0,3.0,3.0,4.0,0.0
+1587,mechanism,3.142857142857143,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,0.0
+1588,control,3.7142857142857144,man,35-54,no university degree,40,0.0,3.0,3.0,4.0,0.0
+1589,factbox,3.857142857142857,woman,18-34,university degree,30,1.0,6.0,3.0,6.0,0.0
+1590,factbox,5.0,woman,18-34,no university degree,21,1.0,3.0,3.0,4.0,0.0
+1591,text,5.0,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+1592,text,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,4.0,1.0
+1593,control,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+1594,approval,4.0,woman,35-54,no university degree,40,1.0,3.0,3.0,3.0,0.0
+1595,text,5.0,woman,35-54,university degree,50,1.0,4.0,3.0,6.0,0.0
+1596,control,4.571428571428571,woman,35-54,no university degree,40,1.0,3.0,1.0,3.0,0.0
+1597,approval,4.571428571428571,man,55+,university degree,60,0.0,5.0,2.0,4.0,0.0
+1598,approval,1.4285714285714288,woman,55+,no university degree,60,1.0,1.0,4.0,4.0,0.0
+1599,mechanism,3.4285714285714284,woman,18-34,university degree,30,1.0,5.0,4.0,5.0,0.0
+1600,text,5.0,man,35-54,university degree,40,0.0,5.0,2.0,7.0,0.0
+1601,factbox,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,2.0,3.0,0.0
+1602,approval,4.857142857142858,woman,18-34,university degree,30,1.0,5.0,2.0,6.0,0.0
+1603,approval,4.0,woman,35-54,university degree,40,1.0,5.0,1.0,3.0,0.0
+1604,factbox,4.857142857142858,woman,35-54,university degree,50,1.0,5.0,1.0,7.0,0.0
+1605,approval,4.571428571428571,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+1606,factbox,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,1.0,3.0,0.0
+1607,factbox,5.0,man,18-34,university degree,30,0.0,5.0,2.0,5.0,0.0
+1608,control,1.0,woman,18-34,university degree,30,1.0,4.0,4.0,4.0,0.0
+1609,approval,1.7142857142857144,man,35-54,no university degree,50,0.0,3.0,2.0,6.0,0.0
+1610,factbox,4.285714285714286,woman,18-34,university degree,21,1.0,4.0,1.0,6.0,1.0
+1611,control,4.0,woman,18-34,no university degree,21,1.0,3.0,4.0,6.0,0.0
+1612,mechanism,4.142857142857142,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1613,factbox,4.285714285714286,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1614,control,4.0,woman,35-54,university degree,40,1.0,4.0,3.0,3.0,0.0
+1615,approval,4.714285714285714,woman,18-34,no university degree,21,1.0,1.0,4.0,5.0,0.0
+1616,factbox,3.0,man,18-34,university degree,30,0.0,4.0,3.0,5.0,0.0
+1617,text,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,3.0,5.0,0.0
+1618,factbox,5.0,man,35-54,university degree,40,0.0,6.0,2.0,8.0,0.0
+1619,mechanism,2.142857142857143,man,35-54,no university degree,40,0.0,3.0,2.0,5.0,0.0
+1620,approval,3.4285714285714284,woman,18-34,university degree,30,1.0,5.0,3.0,5.0,0.0
+1621,factbox,5.0,woman,35-54,no university degree,40,1.0,1.0,3.0,3.0,1.0
+1622,factbox,5.0,man,55+,no university degree,60,0.0,2.0,4.0,5.0,0.0
+1623,mechanism,5.0,woman,35-54,no university degree,40,1.0,3.0,2.0,5.0,0.0
+1624,factbox,4.571428571428571,man,55+,no university degree,60,0.0,3.0,2.0,4.0,0.0
+1625,approval,5.0,woman,18-34,university degree,30,1.0,4.0,2.0,5.0,0.0
+1626,text,3.5714285714285716,man,35-54,university degree,40,0.0,4.0,2.0,7.0,1.0
+1627,mechanism,5.0,woman,35-54,no university degree,50,1.0,2.0,5.0,7.0,0.0
+1628,text,3.142857142857143,man,18-34,university degree,30,0.0,4.0,4.0,7.0,0.0
+1629,text,5.0,woman,35-54,university degree,50,1.0,4.0,3.0,6.0,0.0
+1630,control,4.428571428571429,man,18-34,no university degree,21,0.0,3.0,3.0,2.0,1.0
+1631,mechanism,4.428571428571429,man,18-34,university degree,30,0.0,5.0,2.0,6.0,1.0
+1632,control,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,4.0,6.0,0.0
+1633,mechanism,4.142857142857142,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1634,text,4.0,man,35-54,no university degree,40,0.0,1.0,4.0,3.0,0.0
+1635,mechanism,4.714285714285714,man,18-34,university degree,30,0.0,5.0,4.0,6.0,0.0
+1636,mechanism,4.714285714285714,man,18-34,university degree,30,0.0,4.0,2.0,6.0,1.0
+1637,approval,5.0,man,55+,no university degree,60,0.0,3.0,6.0,6.0,0.0
+1638,text,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,2.0,3.0,0.0
+1639,factbox,4.0,man,18-34,university degree,30,0.0,4.0,5.0,7.0,0.0
+1640,control,4.571428571428571,man,35-54,university degree,40,0.0,4.0,2.0,3.0,0.0
+1641,factbox,5.0,man,35-54,university degree,40,0.0,4.0,2.0,7.0,0.0
+1642,control,5.0,man,35-54,no university degree,50,0.0,2.0,4.0,7.0,0.0
+1643,control,5.0,woman,35-54,university degree,40,1.0,4.0,3.0,3.0,0.0
+1644,approval,2.7142857142857144,woman,35-54,no university degree,40,1.0,3.0,4.0,2.0,0.0
+1645,mechanism,4.285714285714286,woman,18-34,university degree,21,1.0,4.0,3.0,3.0,0.0
+1646,control,5.0,woman,55+,no university degree,60,1.0,3.0,5.0,5.0,0.0
+1647,factbox,5.0,man,35-54,university degree,50,0.0,5.0,3.0,6.0,0.0
+1648,mechanism,4.0,woman,18-34,no university degree,21,1.0,3.0,5.0,6.0,0.0
+1649,control,4.857142857142858,woman,55+,university degree,60,1.0,4.0,5.0,6.0,0.0
+1650,text,5.0,woman,35-54,university degree,50,1.0,6.0,4.0,7.0,0.0
+1651,control,5.0,man,35-54,no university degree,50,0.0,3.0,2.0,5.0,0.0
+1652,mechanism,4.0,man,35-54,no university degree,40,0.0,1.0,3.0,4.0,0.0
+1653,text,4.571428571428571,man,35-54,university degree,40,0.0,4.0,2.0,7.0,0.0
+1654,text,5.0,woman,18-34,university degree,21,1.0,4.0,1.0,3.0,0.0
+1656,text,4.571428571428571,man,18-34,university degree,30,0.0,4.0,4.0,5.0,0.0
+1657,approval,4.857142857142858,woman,18-34,university degree,30,1.0,5.0,3.0,7.0,0.0
+1658,factbox,5.0,man,35-54,university degree,40,0.0,4.0,2.0,7.0,0.0
+1659,text,3.0,man,18-34,no university degree,30,0.0,3.0,3.0,5.0,1.0
+1660,text,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,2.0,5.0,0.0
+1661,factbox,2.5714285714285716,man,35-54,university degree,50,0.0,5.0,4.0,7.0,0.0
+1662,approval,5.0,man,35-54,university degree,50,0.0,4.0,6.0,5.0,0.0
+1663,approval,3.142857142857143,man,18-34,university degree,30,0.0,4.0,2.0,3.0,1.0
+1664,factbox,3.857142857142857,man,35-54,no university degree,50,0.0,1.0,5.0,4.0,1.0
+1665,approval,4.428571428571429,woman,35-54,university degree,40,1.0,5.0,6.0,6.0,0.0
+1666,approval,5.0,woman,55+,university degree,60,1.0,4.0,1.0,3.0,0.0
+1667,factbox,4.857142857142858,man,18-34,university degree,21,0.0,4.0,2.0,3.0,0.0
+1668,factbox,5.0,woman,18-34,university degree,21,1.0,4.0,3.0,4.0,0.0
+1669,mechanism,4.428571428571429,woman,35-54,university degree,40,1.0,4.0,4.0,6.0,1.0
+1670,mechanism,4.142857142857142,woman,18-34,no university degree,21,1.0,3.0,4.0,7.0,0.0
+1671,mechanism,4.428571428571429,man,35-54,university degree,40,0.0,6.0,2.0,7.0,0.0
+1672,mechanism,5.0,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+1673,factbox,3.7142857142857144,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,0.0
+1674,control,4.0,woman,18-34,university degree,30,1.0,4.0,5.0,7.0,0.0
+1675,factbox,5.0,woman,18-34,university degree,30,1.0,4.0,3.0,6.0,1.0
+1676,factbox,4.571428571428571,man,18-34,no university degree,30,0.0,2.0,4.0,6.0,0.0
+1677,mechanism,2.2857142857142856,man,35-54,no university degree,50,0.0,3.0,4.0,4.0,1.0
+1678,approval,5.0,man,35-54,university degree,40,0.0,5.0,3.0,6.0,0.0
+1679,control,4.857142857142858,man,35-54,university degree,40,0.0,4.0,3.0,,0.0
+1680,control,5.0,man,18-34,no university degree,30,0.0,3.0,3.0,5.0,0.0
+1681,approval,2.142857142857143,woman,18-34,university degree,30,1.0,4.0,2.0,3.0,0.0
+1682,control,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,1.0,4.0,0.0
+1683,text,4.428571428571429,man,35-54,no university degree,50,0.0,2.0,2.0,5.0,0.0
+1684,factbox,2.7142857142857144,woman,18-34,university degree,30,1.0,4.0,4.0,3.0,1.0
+1686,text,5.0,woman,35-54,university degree,40,1.0,5.0,1.0,5.0,0.0
+1687,factbox,5.0,woman,35-54,university degree,50,1.0,5.0,2.0,6.0,0.0
+1688,text,5.0,woman,35-54,no university degree,40,1.0,3.0,6.0,3.0,0.0
+1689,control,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,2.0,4.0,0.0
+1690,mechanism,4.428571428571429,woman,35-54,no university degree,40,1.0,3.0,1.0,4.0,0.0
+1691,control,3.2857142857142856,woman,18-34,university degree,21,1.0,5.0,4.0,3.0,0.0
+1692,control,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,1.0
+1693,factbox,3.857142857142857,man,35-54,university degree,40,0.0,4.0,4.0,4.0,0.0
+1694,control,4.0,man,35-54,university degree,40,0.0,4.0,4.0,4.0,0.0
+1695,factbox,4.714285714285714,woman,18-34,no university degree,30,1.0,2.0,2.0,6.0,0.0
+1696,control,4.857142857142858,woman,18-34,no university degree,21,1.0,2.0,3.0,3.0,0.0
+1697,control,4.285714285714286,man,18-34,no university degree,21,0.0,2.0,1.0,3.0,1.0
+1698,mechanism,4.428571428571429,woman,18-34,university degree,21,1.0,4.0,2.0,3.0,0.0
+1699,approval,4.142857142857142,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+1700,control,5.0,man,55+,university degree,60,0.0,4.0,4.0,5.0,0.0
+1701,text,5.0,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+1702,text,4.0,woman,35-54,no university degree,50,1.0,3.0,3.0,3.0,0.0
+1703,mechanism,4.428571428571429,man,55+,university degree,60,0.0,4.0,4.0,4.0,0.0
+1704,text,4.0,woman,18-34,no university degree,30,1.0,3.0,5.0,3.0,0.0
+1705,mechanism,3.857142857142857,woman,35-54,no university degree,40,1.0,3.0,5.0,3.0,0.0
+1706,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,2.0,7.0,0.0
+1707,mechanism,5.0,woman,35-54,university degree,50,1.0,4.0,3.0,3.0,0.0
+1708,control,2.7142857142857144,woman,35-54,university degree,50,1.0,4.0,3.0,6.0,0.0
+1709,control,5.0,woman,55+,no university degree,60,1.0,3.0,5.0,6.0,0.0
+1710,factbox,5.0,woman,18-34,no university degree,21,1.0,3.0,2.0,3.0,0.0
+1711,control,4.571428571428571,man,35-54,university degree,50,0.0,5.0,3.0,6.0,0.0
+1712,mechanism,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,2.0,6.0,0.0
+1713,approval,5.0,woman,35-54,university degree,40,1.0,5.0,3.0,7.0,0.0
+1714,approval,4.714285714285714,man,35-54,university degree,40,0.0,5.0,2.0,6.0,0.0
+1715,factbox,4.428571428571429,woman,18-34,no university degree,21,1.0,3.0,5.0,6.0,1.0
+1716,approval,3.7142857142857144,man,35-54,university degree,50,0.0,4.0,4.0,7.0,0.0
+1717,approval,5.0,woman,18-34,university degree,30,1.0,6.0,1.0,7.0,0.0
+1718,text,4.857142857142858,man,35-54,university degree,50,0.0,4.0,4.0,7.0,0.0
+1719,control,4.714285714285714,woman,35-54,no university degree,40,1.0,3.0,4.0,5.0,0.0
+1720,text,5.0,woman,18-34,university degree,30,1.0,4.0,5.0,4.0,0.0
+1721,mechanism,4.571428571428571,woman,18-34,no university degree,30,1.0,1.0,2.0,3.0,0.0
+1722,factbox,5.0,woman,55+,university degree,60,1.0,4.0,4.0,6.0,0.0
+1723,mechanism,4.285714285714286,man,35-54,university degree,40,0.0,5.0,2.0,5.0,0.0
+1724,mechanism,5.0,man,55+,university degree,70,0.0,4.0,2.0,5.0,0.0
+1725,approval,5.0,woman,18-34,no university degree,21,1.0,3.0,1.0,4.0,1.0
+1726,text,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+1727,approval,5.0,woman,18-34,university degree,30,1.0,4.0,4.0,3.0,1.0
+1728,factbox,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,4.0,5.0,0.0
+1729,factbox,3.5714285714285716,woman,18-34,no university degree,21,1.0,3.0,3.0,4.0,1.0
+1730,factbox,4.857142857142858,woman,35-54,no university degree,50,1.0,1.0,1.0,3.0,0.0
+1731,control,1.8571428571428568,woman,18-34,university degree,30,1.0,4.0,4.0,3.0,0.0
+1732,text,4.428571428571429,man,35-54,university degree,40,0.0,5.0,2.0,6.0,0.0
+1733,approval,5.0,man,18-34,no university degree,21,0.0,3.0,1.0,3.0,0.0
+1734,approval,4.285714285714286,man,35-54,university degree,50,0.0,4.0,4.0,7.0,0.0
+1735,mechanism,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,5.0,6.0,0.0
+1736,factbox,4.857142857142858,man,35-54,no university degree,50,0.0,3.0,6.0,4.0,0.0
+1737,factbox,5.0,man,35-54,no university degree,50,0.0,2.0,5.0,3.0,0.0
+1738,approval,5.0,man,35-54,university degree,50,0.0,4.0,4.0,6.0,0.0
+1739,control,3.2857142857142856,woman,18-34,no university degree,21,1.0,3.0,2.0,7.0,0.0
+1740,mechanism,4.714285714285714,woman,18-34,no university degree,30,1.0,1.0,4.0,6.0,0.0
+1741,approval,5.0,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+1742,factbox,5.0,man,35-54,university degree,40,0.0,4.0,2.0,6.0,0.0
+1743,factbox,4.714285714285714,man,18-34,university degree,21,0.0,4.0,1.0,6.0,0.0
+1744,factbox,3.4285714285714284,woman,35-54,university degree,40,1.0,4.0,3.0,4.0,0.0
+1745,approval,2.2857142857142856,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,1.0
+1746,approval,5.0,man,35-54,no university degree,50,0.0,1.0,5.0,7.0,0.0
+1747,text,4.714285714285714,woman,18-34,university degree,21,1.0,5.0,3.0,6.0,0.0
+1748,approval,4.0,woman,35-54,no university degree,40,1.0,3.0,2.0,6.0,0.0
+1749,text,4.857142857142858,woman,18-34,university degree,30,1.0,5.0,2.0,6.0,0.0
+1751,factbox,4.714285714285714,man,35-54,university degree,40,0.0,4.0,2.0,3.0,0.0
+1752,approval,4.857142857142858,man,35-54,no university degree,50,0.0,3.0,2.0,2.0,0.0
+1753,factbox,4.142857142857142,man,35-54,university degree,40,0.0,4.0,2.0,4.0,0.0
+1754,text,5.0,man,35-54,university degree,50,0.0,4.0,5.0,4.0,0.0
+1755,approval,4.857142857142858,man,35-54,no university degree,40,0.0,3.0,3.0,1.0,0.0
+1756,mechanism,5.0,man,55+,university degree,60,0.0,4.0,1.0,5.0,0.0
+1757,text,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,5.0,2.0,0.0
+1758,text,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,3.0,6.0,1.0
+1759,control,4.428571428571429,man,35-54,university degree,40,0.0,4.0,2.0,5.0,0.0
+1760,factbox,4.428571428571429,man,55+,university degree,60,0.0,5.0,3.0,7.0,0.0
+1761,factbox,5.0,woman,18-34,university degree,30,1.0,5.0,1.0,7.0,1.0
+1762,text,4.571428571428571,man,35-54,university degree,50,0.0,5.0,6.0,7.0,0.0
+1763,approval,4.857142857142858,man,35-54,no university degree,50,0.0,3.0,5.0,7.0,0.0
+1764,control,3.4285714285714284,man,35-54,university degree,40,0.0,5.0,2.0,1.0,1.0
+1765,factbox,4.571428571428571,man,35-54,no university degree,50,0.0,3.0,2.0,4.0,0.0
+1767,approval,2.5714285714285716,man,35-54,no university degree,40,0.0,3.0,4.0,4.0,0.0
+1768,mechanism,5.0,man,35-54,no university degree,40,0.0,3.0,4.0,4.0,0.0
+1769,mechanism,4.714285714285714,man,35-54,no university degree,40,0.0,3.0,6.0,7.0,0.0
+1770,mechanism,3.0,man,35-54,university degree,50,0.0,5.0,3.0,4.0,0.0
+1771,mechanism,5.0,man,35-54,university degree,40,0.0,4.0,4.0,5.0,0.0
+1772,approval,2.142857142857143,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+1773,approval,4.571428571428571,man,18-34,university degree,30,0.0,5.0,2.0,3.0,1.0
+1775,control,2.142857142857143,woman,35-54,no university degree,40,1.0,3.0,5.0,7.0,0.0
+1776,text,5.0,woman,35-54,no university degree,40,1.0,2.0,1.0,5.0,0.0
+1777,factbox,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,3.0,3.0,1.0
+1778,approval,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,6.0,6.0,0.0
+1779,approval,4.714285714285714,woman,55+,university degree,60,1.0,4.0,2.0,3.0,0.0
+1780,control,2.2857142857142856,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,0.0
+1781,mechanism,4.571428571428571,woman,35-54,university degree,40,1.0,5.0,4.0,7.0,0.0
+1782,factbox,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,0.0
+1784,mechanism,4.428571428571429,man,35-54,no university degree,40,0.0,3.0,4.0,4.0,0.0
+1785,factbox,5.0,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+1786,control,5.0,woman,55+,university degree,70,1.0,4.0,2.0,6.0,0.0
+1787,control,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,3.0,7.0,0.0
+1788,control,5.0,man,35-54,university degree,50,0.0,4.0,2.0,8.0,0.0
+1789,text,3.2857142857142856,man,18-34,university degree,30,0.0,5.0,3.0,4.0,0.0
+1790,text,4.857142857142858,man,35-54,university degree,50,0.0,4.0,3.0,6.0,0.0
+1791,factbox,4.142857142857142,man,18-34,no university degree,30,0.0,1.0,2.0,5.0,0.0
+1792,text,2.7142857142857144,man,18-34,university degree,30,0.0,5.0,5.0,6.0,1.0
+1793,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,0.0
+1794,text,4.428571428571429,woman,18-34,no university degree,30,1.0,2.0,6.0,5.0,0.0
+1795,control,5.0,woman,35-54,no university degree,40,1.0,1.0,3.0,2.0,0.0
+1796,factbox,5.0,woman,35-54,university degree,50,1.0,4.0,6.0,4.0,0.0
+1797,mechanism,4.571428571428571,man,18-34,university degree,30,0.0,4.0,3.0,7.0,0.0
+1798,factbox,5.0,man,35-54,university degree,40,0.0,4.0,3.0,1.0,0.0
+1799,factbox,4.571428571428571,man,35-54,no university degree,40,0.0,2.0,4.0,4.0,0.0
+1800,factbox,4.0,man,35-54,no university degree,50,0.0,1.0,4.0,5.0,0.0
+1801,mechanism,4.142857142857142,woman,35-54,university degree,40,1.0,5.0,1.0,5.0,0.0
+1802,text,2.142857142857143,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+1803,factbox,4.714285714285714,woman,18-34,university degree,21,1.0,5.0,2.0,6.0,1.0
+1804,control,4.571428571428571,man,18-34,university degree,30,0.0,5.0,3.0,5.0,0.0
+1805,text,4.142857142857142,man,35-54,no university degree,50,0.0,3.0,4.0,4.0,0.0
+1806,text,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,4.0,3.0,0.0
+1807,text,4.857142857142858,man,18-34,university degree,21,0.0,4.0,4.0,6.0,1.0
+1808,mechanism,3.4285714285714284,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,0.0
+1809,mechanism,5.0,man,35-54,university degree,40,0.0,6.0,2.0,6.0,0.0
+1810,approval,4.285714285714286,woman,35-54,no university degree,50,1.0,3.0,5.0,6.0,0.0
+1811,approval,5.0,woman,35-54,no university degree,50,1.0,2.0,3.0,4.0,0.0
+1812,mechanism,2.5714285714285716,man,35-54,university degree,50,0.0,4.0,6.0,4.0,0.0
+1813,approval,4.857142857142858,man,35-54,no university degree,40,0.0,3.0,4.0,7.0,0.0
+1814,approval,4.714285714285714,man,35-54,university degree,40,0.0,4.0,5.0,7.0,0.0
+1815,approval,4.857142857142858,woman,18-34,university degree,21,1.0,4.0,2.0,6.0,0.0
+1816,mechanism,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,4.0,6.0,0.0
+1817,mechanism,5.0,woman,35-54,university degree,50,1.0,6.0,5.0,6.0,0.0
+1818,factbox,4.0,woman,18-34,university degree,30,1.0,4.0,5.0,6.0,0.0
+1819,approval,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,3.0,7.0,1.0
+1820,mechanism,2.857142857142857,man,35-54,university degree,50,0.0,4.0,5.0,4.0,0.0
+1821,control,2.142857142857143,man,35-54,no university degree,40,0.0,1.0,3.0,5.0,0.0
+1822,factbox,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,3.0,6.0,0.0
+1823,factbox,3.2857142857142856,woman,18-34,university degree,21,1.0,5.0,3.0,6.0,0.0
+1824,mechanism,4.857142857142858,woman,55+,university degree,60,1.0,4.0,2.0,7.0,0.0
+1825,factbox,3.857142857142857,man,35-54,no university degree,40,0.0,1.0,4.0,3.0,0.0
+1826,text,4.428571428571429,man,55+,university degree,70,0.0,4.0,2.0,7.0,0.0
+1827,approval,4.285714285714286,woman,35-54,university degree,50,1.0,4.0,3.0,5.0,0.0
+1828,text,4.428571428571429,woman,18-34,university degree,30,1.0,5.0,2.0,3.0,1.0
+1829,mechanism,5.0,woman,18-34,university degree,30,1.0,4.0,3.0,3.0,1.0
+1830,mechanism,3.857142857142857,woman,55+,no university degree,60,1.0,3.0,5.0,6.0,0.0
+1831,mechanism,3.0,woman,35-54,no university degree,40,1.0,3.0,5.0,6.0,0.0
+1832,mechanism,1.1428571428571432,man,18-34,university degree,30,0.0,4.0,1.0,1.0,1.0
+1833,control,4.857142857142858,man,35-54,no university degree,50,0.0,1.0,4.0,3.0,0.0
+1834,text,5.0,woman,18-34,university degree,21,1.0,4.0,2.0,4.0,0.0
+1835,text,4.714285714285714,man,35-54,no university degree,40,0.0,3.0,3.0,2.0,0.0
+1837,control,5.0,man,55+,no university degree,60,0.0,3.0,3.0,5.0,0.0
+1838,mechanism,3.5714285714285716,woman,18-34,no university degree,30,1.0,2.0,5.0,4.0,0.0
+1839,control,2.2857142857142856,woman,35-54,no university degree,50,1.0,3.0,5.0,3.0,0.0
+1840,mechanism,2.0,man,35-54,university degree,40,0.0,5.0,6.0,7.0,0.0
+1841,text,5.0,man,35-54,no university degree,40,0.0,3.0,4.0,3.0,0.0
+1842,factbox,3.5714285714285716,woman,18-34,no university degree,21,1.0,3.0,3.0,4.0,0.0
+1843,control,5.0,man,55+,no university degree,60,0.0,2.0,2.0,3.0,0.0
+1844,control,4.0,man,35-54,university degree,40,0.0,5.0,3.0,5.0,0.0
+1845,factbox,4.571428571428571,man,55+,no university degree,60,0.0,2.0,4.0,3.0,0.0
+1846,factbox,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,2.0,6.0,0.0
+1847,approval,5.0,woman,18-34,no university degree,30,1.0,3.0,4.0,4.0,0.0
+1848,approval,4.428571428571429,man,35-54,university degree,50,0.0,5.0,3.0,4.0,0.0
+1849,approval,2.857142857142857,woman,35-54,no university degree,40,1.0,3.0,1.0,4.0,0.0
+1850,text,4.714285714285714,woman,35-54,no university degree,40,1.0,3.0,2.0,2.0,0.0
+1851,control,4.571428571428571,woman,35-54,no university degree,50,1.0,3.0,3.0,6.0,0.0
+1852,text,4.714285714285714,man,18-34,university degree,30,0.0,5.0,4.0,6.0,0.0
+1853,text,4.857142857142858,man,35-54,university degree,50,0.0,4.0,5.0,4.0,0.0
+1854,mechanism,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,2.0,3.0,0.0
+1855,mechanism,4.857142857142858,woman,18-34,no university degree,21,1.0,2.0,2.0,3.0,0.0
+1856,approval,5.0,woman,35-54,university degree,50,1.0,4.0,6.0,2.0,0.0
+1857,control,4.285714285714286,man,35-54,no university degree,50,0.0,3.0,5.0,4.0,0.0
+1858,control,4.0,woman,18-34,university degree,21,1.0,5.0,3.0,3.0,0.0
+1859,mechanism,5.0,woman,18-34,no university degree,21,1.0,2.0,4.0,6.0,0.0
+1860,mechanism,5.0,woman,55+,no university degree,60,1.0,2.0,2.0,3.0,0.0
+1861,approval,4.714285714285714,woman,18-34,university degree,30,1.0,4.0,1.0,3.0,1.0
+1862,mechanism,5.0,man,35-54,university degree,40,0.0,6.0,3.0,4.0,0.0
+1864,factbox,5.0,man,55+,no university degree,70,0.0,1.0,4.0,4.0,0.0
+1865,approval,4.285714285714286,woman,18-34,no university degree,30,1.0,3.0,3.0,5.0,0.0
+1866,approval,3.7142857142857144,man,35-54,university degree,40,0.0,4.0,3.0,7.0,0.0
+1867,factbox,2.2857142857142856,woman,35-54,no university degree,50,1.0,3.0,5.0,6.0,0.0
+1868,approval,5.0,woman,35-54,university degree,40,1.0,6.0,2.0,4.0,0.0
+1869,mechanism,4.714285714285714,woman,18-34,university degree,30,1.0,5.0,1.0,4.0,0.0
+1870,approval,4.428571428571429,man,35-54,no university degree,50,0.0,3.0,2.0,6.0,0.0
+1871,text,4.571428571428571,woman,18-34,university degree,30,1.0,5.0,2.0,6.0,0.0
+1872,factbox,3.4285714285714284,man,18-34,university degree,30,0.0,4.0,2.0,7.0,0.0
+1873,mechanism,5.0,woman,35-54,no university degree,40,1.0,2.0,3.0,6.0,0.0
+1874,text,2.857142857142857,man,35-54,university degree,50,0.0,4.0,4.0,5.0,0.0
+1875,control,5.0,man,55+,no university degree,60,0.0,1.0,2.0,4.0,0.0
+1876,control,2.7142857142857144,man,18-34,no university degree,30,0.0,3.0,2.0,5.0,1.0
+1877,control,2.857142857142857,woman,18-34,university degree,30,1.0,4.0,4.0,4.0,0.0
+1878,factbox,4.0,woman,18-34,university degree,30,1.0,4.0,1.0,3.0,0.0
+1879,approval,2.2857142857142856,man,35-54,university degree,40,0.0,5.0,2.0,6.0,0.0
+1880,approval,5.0,man,35-54,university degree,50,0.0,4.0,3.0,6.0,0.0
+1881,factbox,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,0.0
+1882,factbox,4.0,man,35-54,university degree,40,0.0,4.0,2.0,3.0,0.0
+1884,factbox,4.714285714285714,woman,35-54,university degree,40,1.0,4.0,7.0,7.0,0.0
+1885,control,4.857142857142858,woman,18-34,university degree,21,1.0,5.0,1.0,4.0,1.0
+1886,approval,5.0,man,35-54,no university degree,50,0.0,3.0,4.0,2.0,0.0
+1887,text,4.571428571428571,man,55+,university degree,60,0.0,4.0,2.0,6.0,0.0
+1888,approval,4.0,man,35-54,no university degree,50,0.0,1.0,3.0,2.0,0.0
+1889,text,4.0,woman,18-34,university degree,30,1.0,5.0,3.0,7.0,0.0
+1890,control,4.857142857142858,man,55+,no university degree,60,0.0,2.0,4.0,7.0,0.0
+1891,text,5.0,woman,55+,no university degree,60,1.0,2.0,3.0,7.0,0.0
+1892,approval,2.5714285714285716,woman,18-34,no university degree,30,1.0,3.0,2.0,1.0,0.0
+1893,mechanism,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,2.0,3.0,0.0
+1894,factbox,3.7142857142857144,man,18-34,no university degree,21,0.0,3.0,5.0,7.0,0.0
+1895,factbox,5.0,woman,18-34,university degree,30,1.0,6.0,1.0,6.0,0.0
+1896,control,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,3.0,7.0,0.0
+1897,control,4.428571428571429,man,35-54,university degree,50,0.0,4.0,2.0,6.0,0.0
+1898,text,2.4285714285714284,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+1900,text,4.428571428571429,man,35-54,university degree,40,0.0,4.0,3.0,4.0,0.0
+1901,approval,4.428571428571429,woman,18-34,university degree,30,1.0,4.0,1.0,4.0,0.0
+1902,approval,4.571428571428571,man,35-54,no university degree,50,0.0,1.0,4.0,6.0,0.0
+1903,control,4.571428571428571,woman,55+,no university degree,70,1.0,3.0,6.0,5.0,0.0
+1904,control,4.857142857142858,man,35-54,university degree,50,0.0,4.0,4.0,3.0,0.0
+1905,text,5.0,man,55+,no university degree,60,0.0,3.0,2.0,4.0,0.0
+1906,control,3.7142857142857144,man,35-54,no university degree,50,0.0,3.0,4.0,4.0,0.0
+1907,factbox,5.0,man,18-34,no university degree,21,0.0,3.0,3.0,6.0,0.0
+1908,factbox,1.2857142857142856,woman,18-34,no university degree,30,1.0,3.0,3.0,3.0,0.0
+1909,mechanism,4.714285714285714,woman,35-54,university degree,40,1.0,5.0,5.0,7.0,0.0
+1910,factbox,2.142857142857143,man,55+,no university degree,60,0.0,3.0,4.0,6.0,0.0
+1911,mechanism,5.0,man,18-34,university degree,21,0.0,4.0,2.0,3.0,1.0
+1912,text,3.7142857142857144,man,35-54,no university degree,50,0.0,3.0,6.0,7.0,0.0
+1913,text,2.4285714285714284,woman,35-54,no university degree,50,1.0,2.0,3.0,6.0,0.0
+1914,text,4.0,woman,35-54,no university degree,40,1.0,2.0,3.0,3.0,0.0
+1915,text,4.285714285714286,man,18-34,university degree,30,0.0,4.0,4.0,6.0,0.0
+1916,mechanism,5.0,woman,35-54,university degree,40,1.0,5.0,3.0,3.0,0.0
+1917,factbox,5.0,woman,35-54,university degree,50,1.0,4.0,5.0,8.0,0.0
+1918,text,3.857142857142857,woman,18-34,university degree,30,1.0,4.0,6.0,6.0,0.0
+1919,factbox,5.0,woman,35-54,no university degree,50,1.0,2.0,6.0,6.0,0.0
+1921,mechanism,5.0,woman,18-34,university degree,30,1.0,4.0,2.0,3.0,1.0
+1922,factbox,2.2857142857142856,man,18-34,university degree,30,0.0,5.0,3.0,4.0,1.0
+1923,text,5.0,man,55+,university degree,60,0.0,4.0,3.0,8.0,0.0
+1924,text,5.0,man,55+,no university degree,60,0.0,3.0,3.0,6.0,0.0
+1925,control,4.714285714285714,woman,55+,university degree,60,1.0,4.0,4.0,7.0,1.0
+1926,mechanism,4.714285714285714,man,18-34,university degree,30,0.0,5.0,2.0,7.0,0.0
+1927,approval,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,5.0,4.0,1.0
+1928,control,5.0,woman,18-34,university degree,30,1.0,4.0,1.0,3.0,0.0
+1930,control,5.0,woman,18-34,university degree,30,1.0,5.0,2.0,5.0,0.0
+1931,factbox,5.0,man,35-54,university degree,50,0.0,5.0,2.0,6.0,0.0
+1932,approval,5.0,man,35-54,university degree,40,0.0,4.0,2.0,4.0,0.0
+1933,approval,5.0,man,55+,no university degree,60,0.0,3.0,5.0,5.0,0.0
+1934,text,4.714285714285714,woman,35-54,no university degree,50,1.0,2.0,3.0,5.0,0.0
+1935,mechanism,4.0,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,0.0
+1936,approval,5.0,woman,55+,no university degree,60,1.0,3.0,5.0,4.0,0.0
+1937,mechanism,4.571428571428571,man,35-54,no university degree,40,0.0,3.0,4.0,5.0,0.0
+1938,control,5.0,woman,35-54,university degree,50,1.0,5.0,5.0,5.0,0.0
+1939,approval,4.714285714285714,woman,18-34,university degree,30,1.0,5.0,2.0,3.0,0.0
+1940,text,3.857142857142857,woman,35-54,no university degree,40,1.0,3.0,3.0,3.0,1.0
+1941,control,4.428571428571429,woman,35-54,university degree,50,1.0,4.0,3.0,6.0,0.0
+1942,mechanism,1.4285714285714288,man,35-54,no university degree,40,0.0,2.0,6.0,3.0,0.0
+1943,mechanism,4.714285714285714,woman,18-34,university degree,21,1.0,5.0,4.0,7.0,1.0
+1944,mechanism,4.0,woman,18-34,no university degree,30,1.0,3.0,3.0,3.0,0.0
+1945,mechanism,4.714285714285714,man,35-54,no university degree,50,0.0,2.0,4.0,5.0,0.0
+1946,approval,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,3.0,5.0,0.0
+1948,mechanism,4.428571428571429,woman,35-54,university degree,50,1.0,4.0,2.0,5.0,0.0
+1949,factbox,1.7142857142857144,woman,35-54,no university degree,40,1.0,2.0,4.0,1.0,0.0
+1950,approval,4.714285714285714,woman,55+,university degree,60,1.0,5.0,4.0,5.0,1.0
+1951,text,4.0,woman,35-54,no university degree,40,1.0,3.0,2.0,3.0,0.0
+1952,text,5.0,man,55+,no university degree,60,0.0,3.0,4.0,3.0,0.0
+1953,control,5.0,woman,18-34,no university degree,30,1.0,1.0,4.0,5.0,1.0
+1954,approval,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,4.0,6.0,0.0
+1955,approval,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,0.0
+1956,approval,2.857142857142857,woman,35-54,no university degree,40,1.0,3.0,4.0,3.0,0.0
+1957,factbox,4.428571428571429,man,35-54,no university degree,50,0.0,1.0,4.0,3.0,0.0
+1958,mechanism,4.571428571428571,man,35-54,no university degree,40,0.0,3.0,5.0,4.0,0.0
+1959,approval,4.285714285714286,woman,35-54,university degree,50,1.0,4.0,3.0,6.0,0.0
+1960,text,4.428571428571429,man,35-54,university degree,40,0.0,5.0,2.0,6.0,0.0
+1961,control,4.0,man,18-34,university degree,30,0.0,6.0,5.0,6.0,1.0
+1962,text,3.2857142857142856,woman,18-34,university degree,30,1.0,4.0,3.0,4.0,0.0
+1963,control,4.571428571428571,man,55+,no university degree,60,0.0,3.0,6.0,5.0,0.0
+1964,mechanism,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,4.0,0.0
+1965,text,3.857142857142857,woman,18-34,university degree,30,1.0,4.0,3.0,3.0,0.0
+1966,approval,5.0,woman,35-54,no university degree,40,1.0,3.0,4.0,6.0,0.0
+1967,text,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,3.0,0.0
+1968,factbox,5.0,man,35-54,university degree,50,0.0,4.0,3.0,7.0,0.0
+1969,text,4.428571428571429,woman,35-54,no university degree,50,1.0,3.0,2.0,3.0,0.0
+1970,mechanism,3.857142857142857,man,35-54,no university degree,50,0.0,3.0,4.0,3.0,0.0
+1971,mechanism,5.0,man,35-54,university degree,50,0.0,5.0,2.0,4.0,0.0
+1972,control,5.0,woman,55+,no university degree,60,1.0,2.0,3.0,3.0,0.0
+1973,approval,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,5.0,5.0,0.0
+1975,text,3.5714285714285716,man,18-34,university degree,30,0.0,4.0,3.0,6.0,1.0
+1976,mechanism,4.571428571428571,man,35-54,university degree,40,0.0,4.0,4.0,7.0,0.0
+1977,text,5.0,woman,35-54,university degree,40,1.0,5.0,7.0,3.0,1.0
+1978,factbox,1.5714285714285712,woman,35-54,no university degree,50,1.0,2.0,4.0,4.0,0.0
+1979,factbox,2.142857142857143,woman,35-54,university degree,40,1.0,5.0,4.0,7.0,1.0
+1980,control,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,3.0,3.0,0.0
+1981,control,4.0,woman,35-54,university degree,50,1.0,4.0,5.0,2.0,0.0
+1982,control,4.428571428571429,man,35-54,no university degree,50,0.0,2.0,5.0,3.0,0.0
+1983,text,5.0,man,55+,university degree,60,0.0,4.0,2.0,7.0,0.0
+1984,text,4.714285714285714,woman,55+,no university degree,60,1.0,3.0,5.0,2.0,0.0
+1985,mechanism,4.714285714285714,woman,35-54,no university degree,40,1.0,3.0,2.0,6.0,0.0
+1986,control,3.2857142857142856,man,55+,no university degree,60,0.0,2.0,2.0,5.0,0.0
+1987,mechanism,1.5714285714285712,woman,18-34,university degree,21,1.0,4.0,2.0,4.0,0.0
+1988,mechanism,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,3.0,6.0,0.0
+1989,text,4.428571428571429,woman,35-54,no university degree,50,1.0,2.0,4.0,6.0,0.0
+1990,control,3.0,woman,18-34,university degree,21,1.0,4.0,4.0,7.0,1.0
+1991,approval,4.142857142857142,man,35-54,no university degree,50,0.0,3.0,2.0,3.0,0.0
+1992,text,4.142857142857142,woman,35-54,university degree,40,1.0,4.0,3.0,6.0,0.0
+1993,text,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,4.0,7.0,0.0
+1994,mechanism,5.0,woman,55+,no university degree,60,1.0,3.0,4.0,4.0,0.0
+1995,approval,5.0,woman,55+,university degree,70,1.0,4.0,5.0,4.0,0.0
+1996,factbox,5.0,woman,55+,no university degree,60,1.0,3.0,6.0,6.0,1.0
+1997,text,4.857142857142858,man,55+,no university degree,60,0.0,2.0,2.0,8.0,0.0
+1998,mechanism,4.428571428571429,woman,35-54,no university degree,40,1.0,1.0,2.0,4.0,0.0
+1999,approval,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,5.0,7.0,0.0
+2000,factbox,1.4285714285714288,man,35-54,university degree,50,0.0,4.0,5.0,8.0,0.0
+2001,mechanism,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,4.0,7.0,0.0
+2002,text,4.714285714285714,man,35-54,university degree,40,0.0,5.0,2.0,6.0,1.0
+2003,mechanism,4.428571428571429,man,55+,no university degree,60,0.0,3.0,3.0,6.0,0.0
+2004,mechanism,4.428571428571429,woman,35-54,university degree,40,1.0,4.0,4.0,3.0,0.0
+2005,factbox,4.714285714285714,woman,18-34,university degree,21,1.0,4.0,2.0,6.0,1.0
+2006,factbox,2.5714285714285716,man,35-54,university degree,50,0.0,4.0,2.0,2.0,0.0
+2007,control,5.0,woman,35-54,no university degree,50,1.0,2.0,4.0,2.0,1.0
+2009,control,5.0,woman,35-54,no university degree,40,1.0,3.0,2.0,4.0,0.0
+2010,control,4.571428571428571,woman,35-54,university degree,50,1.0,4.0,2.0,3.0,0.0
+2011,factbox,4.285714285714286,woman,35-54,university degree,50,1.0,4.0,3.0,6.0,0.0
+2012,approval,5.0,woman,55+,university degree,60,1.0,5.0,4.0,7.0,0.0
+2013,approval,5.0,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+2014,factbox,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,6.0,6.0,1.0
+2015,approval,3.857142857142857,woman,35-54,no university degree,40,1.0,3.0,2.0,3.0,0.0
+2016,factbox,4.571428571428571,woman,35-54,no university degree,50,1.0,3.0,4.0,3.0,0.0
+2017,control,4.428571428571429,woman,35-54,university degree,40,1.0,4.0,3.0,7.0,1.0
+2018,mechanism,5.0,woman,35-54,university degree,40,1.0,4.0,2.0,4.0,0.0
+2019,text,4.142857142857142,woman,35-54,no university degree,50,1.0,2.0,4.0,4.0,0.0
+2020,factbox,4.857142857142858,man,55+,university degree,60,0.0,4.0,2.0,4.0,0.0
+2021,factbox,3.7142857142857144,woman,35-54,university degree,50,1.0,5.0,2.0,4.0,0.0
+2022,factbox,4.285714285714286,woman,35-54,university degree,50,1.0,4.0,5.0,3.0,0.0
+2023,approval,4.428571428571429,woman,18-34,university degree,21,1.0,4.0,2.0,7.0,0.0
+2024,control,4.857142857142858,woman,35-54,no university degree,40,1.0,2.0,4.0,7.0,0.0
+2025,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,0.0
+2026,mechanism,4.714285714285714,woman,35-54,no university degree,50,1.0,1.0,4.0,6.0,0.0
+2027,mechanism,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+2028,text,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,2.0,5.0,0.0
+2029,factbox,4.285714285714286,woman,55+,university degree,60,1.0,4.0,5.0,4.0,0.0
+2031,mechanism,2.2857142857142856,woman,18-34,university degree,30,1.0,5.0,3.0,4.0,1.0
+2032,factbox,5.0,woman,55+,university degree,60,1.0,4.0,3.0,8.0,0.0
+2033,mechanism,4.285714285714286,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+2034,factbox,5.0,woman,55+,university degree,70,1.0,4.0,2.0,3.0,0.0
+2035,approval,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,2.0,5.0,0.0
+2036,factbox,5.0,woman,55+,university degree,60,1.0,4.0,4.0,7.0,1.0
+2037,control,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,6.0,6.0,0.0
+2038,approval,5.0,man,55+,university degree,60,0.0,5.0,2.0,3.0,1.0
+2039,control,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+2040,text,5.0,woman,35-54,university degree,50,1.0,5.0,3.0,7.0,0.0
+2041,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,1.0
+2042,factbox,4.857142857142858,man,35-54,university degree,50,0.0,4.0,1.0,3.0,0.0
+2043,mechanism,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,7.0,0.0
+2044,control,4.714285714285714,man,35-54,no university degree,50,0.0,3.0,3.0,3.0,0.0
+2045,control,4.714285714285714,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+2046,text,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,5.0,7.0,0.0
+2047,control,5.0,woman,35-54,no university degree,50,1.0,2.0,5.0,7.0,0.0
+2048,control,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,2.0,6.0,0.0
+2049,mechanism,3.857142857142857,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+2050,text,4.571428571428571,woman,35-54,university degree,40,1.0,5.0,2.0,5.0,1.0
+2051,approval,3.7142857142857144,woman,55+,no university degree,60,1.0,2.0,2.0,2.0,0.0
+2052,control,3.5714285714285716,woman,35-54,university degree,50,1.0,4.0,3.0,3.0,0.0
+2053,factbox,4.714285714285714,woman,35-54,no university degree,50,1.0,3.0,3.0,5.0,0.0
+2054,mechanism,2.5714285714285716,man,35-54,no university degree,40,0.0,3.0,3.0,5.0,0.0
+2055,mechanism,4.0,man,18-34,university degree,30,0.0,4.0,4.0,6.0,1.0
+2056,approval,4.428571428571429,woman,55+,university degree,60,1.0,5.0,3.0,7.0,0.0
+2057,approval,5.0,woman,55+,university degree,60,1.0,4.0,5.0,1.0,0.0
+2058,mechanism,5.0,woman,35-54,university degree,40,1.0,5.0,3.0,6.0,1.0
+2059,control,5.0,woman,35-54,university degree,50,1.0,4.0,3.0,3.0,1.0
+2060,mechanism,4.428571428571429,woman,35-54,university degree,50,1.0,5.0,3.0,3.0,0.0
+2061,factbox,4.0,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+2062,factbox,3.5714285714285716,woman,35-54,no university degree,50,1.0,1.0,3.0,4.0,1.0
+2063,text,4.714285714285714,woman,35-54,university degree,40,1.0,6.0,4.0,6.0,1.0
+2064,factbox,4.714285714285714,woman,18-34,university degree,30,1.0,4.0,5.0,6.0,0.0
+2065,control,4.142857142857142,woman,35-54,university degree,50,1.0,4.0,2.0,5.0,1.0
+2066,factbox,5.0,woman,35-54,university degree,40,1.0,5.0,3.0,6.0,0.0
+2067,mechanism,4.857142857142858,woman,35-54,university degree,50,1.0,4.0,2.0,3.0,0.0
+2068,approval,4.857142857142858,woman,55+,no university degree,70,1.0,3.0,4.0,6.0,0.0
+2069,approval,4.428571428571429,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+2070,factbox,4.142857142857142,woman,35-54,university degree,50,1.0,4.0,4.0,6.0,0.0
+2071,text,4.285714285714286,woman,18-34,university degree,30,1.0,4.0,5.0,6.0,1.0
+2072,control,3.2857142857142856,man,35-54,university degree,50,0.0,4.0,2.0,6.0,0.0
+2073,mechanism,2.857142857142857,woman,35-54,no university degree,50,1.0,2.0,5.0,4.0,0.0
+2074,approval,4.714285714285714,woman,55+,university degree,60,1.0,4.0,3.0,8.0,0.0
+2075,text,3.857142857142857,woman,35-54,university degree,40,1.0,4.0,6.0,7.0,0.0
+2076,mechanism,5.0,man,55+,no university degree,60,0.0,2.0,3.0,6.0,0.0
+2077,factbox,4.0,woman,35-54,university degree,50,1.0,5.0,4.0,6.0,1.0
+2078,mechanism,2.2857142857142856,woman,35-54,no university degree,50,1.0,3.0,1.0,3.0,0.0
+2079,control,4.142857142857142,woman,35-54,no university degree,50,1.0,3.0,4.0,5.0,1.0
+2080,approval,5.0,woman,35-54,no university degree,50,1.0,3.0,4.0,4.0,0.0
+2081,text,3.4285714285714284,man,35-54,university degree,50,0.0,4.0,4.0,6.0,1.0
+2082,control,4.857142857142858,woman,55+,university degree,70,1.0,6.0,3.0,6.0,0.0
+2083,approval,3.0,woman,35-54,no university degree,40,1.0,1.0,3.0,2.0,1.0
+2084,control,2.5714285714285716,woman,55+,no university degree,60,1.0,3.0,2.0,4.0,1.0
+2085,factbox,4.285714285714286,woman,35-54,university degree,40,1.0,5.0,3.0,6.0,0.0
+2086,control,4.571428571428571,woman,35-54,university degree,40,1.0,4.0,5.0,4.0,0.0
+2087,mechanism,5.0,woman,18-34,no university degree,30,1.0,2.0,3.0,6.0,0.0
+2088,approval,5.0,woman,35-54,no university degree,50,1.0,2.0,6.0,2.0,0.0
+2089,text,2.5714285714285716,woman,35-54,university degree,50,1.0,4.0,4.0,5.0,0.0
+2090,mechanism,4.714285714285714,man,55+,no university degree,60,0.0,3.0,5.0,4.0,0.0
+2091,factbox,4.142857142857142,woman,55+,no university degree,60,1.0,3.0,3.0,7.0,0.0
+2092,approval,1.8571428571428568,man,55+,no university degree,60,0.0,3.0,4.0,3.0,0.0
+2093,text,4.857142857142858,man,35-54,no university degree,40,0.0,3.0,4.0,6.0,0.0
+2094,mechanism,3.5714285714285716,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+2095,approval,4.142857142857142,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,1.0
+2096,text,4.285714285714286,woman,35-54,no university degree,50,1.0,3.0,4.0,5.0,0.0
+2097,factbox,4.428571428571429,man,35-54,no university degree,50,0.0,3.0,4.0,6.0,0.0
+2098,factbox,2.142857142857143,woman,35-54,university degree,50,1.0,5.0,5.0,5.0,0.0
+2099,mechanism,4.857142857142858,woman,55+,university degree,60,1.0,5.0,3.0,3.0,0.0
+2100,text,1.7142857142857144,man,55+,no university degree,70,0.0,3.0,3.0,3.0,0.0
+2101,factbox,3.2857142857142856,woman,35-54,university degree,50,1.0,4.0,5.0,4.0,0.0
+2102,control,4.571428571428571,man,35-54,university degree,50,0.0,4.0,2.0,7.0,0.0
+2103,mechanism,4.571428571428571,woman,35-54,no university degree,50,1.0,1.0,3.0,4.0,0.0
+2104,factbox,3.2857142857142856,man,35-54,university degree,40,0.0,4.0,3.0,6.0,1.0
+2105,control,3.857142857142857,woman,55+,no university degree,60,1.0,2.0,4.0,4.0,0.0
+2106,approval,5.0,woman,55+,no university degree,60,1.0,3.0,2.0,3.0,0.0
+2107,approval,4.857142857142858,man,55+,no university degree,70,0.0,2.0,4.0,6.0,0.0
+2108,mechanism,5.0,woman,35-54,university degree,50,1.0,4.0,6.0,6.0,0.0
+2109,factbox,3.5714285714285716,man,18-34,university degree,21,0.0,4.0,2.0,7.0,0.0
+2110,text,5.0,man,55+,no university degree,70,0.0,1.0,1.0,6.0,0.0
+2111,approval,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,6.0,0.0
+2112,text,3.7142857142857144,woman,18-34,university degree,30,1.0,4.0,2.0,6.0,0.0
+2113,approval,4.571428571428571,woman,35-54,no university degree,50,1.0,3.0,3.0,6.0,0.0
+2114,text,4.142857142857142,woman,18-34,no university degree,30,1.0,3.0,4.0,3.0,0.0
+2115,approval,4.142857142857142,man,55+,no university degree,70,0.0,2.0,7.0,6.0,0.0
+2116,mechanism,5.0,woman,35-54,no university degree,50,1.0,3.0,3.0,2.0,0.0
+2117,approval,4.857142857142858,woman,35-54,no university degree,50,1.0,3.0,5.0,6.0,0.0
+2118,control,5.0,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,1.0
+2119,factbox,5.0,woman,35-54,no university degree,50,1.0,3.0,3.0,4.0,0.0
+2120,factbox,2.142857142857143,man,55+,no university degree,70,0.0,3.0,4.0,,0.0
+2121,approval,4.714285714285714,woman,18-34,university degree,30,1.0,4.0,2.0,3.0,1.0
+2122,text,2.142857142857143,woman,18-34,university degree,30,1.0,4.0,4.0,7.0,1.0
+2123,mechanism,3.2857142857142856,man,35-54,university degree,50,0.0,4.0,3.0,6.0,0.0
+2124,control,5.0,woman,18-34,university degree,30,1.0,5.0,2.0,8.0,0.0
+2125,control,5.0,man,18-34,university degree,21,0.0,5.0,4.0,3.0,1.0
+2126,mechanism,5.0,woman,35-54,university degree,50,1.0,4.0,5.0,6.0,0.0
+2127,mechanism,5.0,woman,35-54,no university degree,50,1.0,3.0,5.0,7.0,0.0
+2128,control,4.857142857142858,woman,55+,no university degree,70,1.0,3.0,5.0,4.0,0.0
+2129,text,3.4285714285714284,man,55+,university degree,60,0.0,6.0,2.0,8.0,0.0
+2130,mechanism,5.0,woman,55+,university degree,60,1.0,4.0,5.0,6.0,0.0
+2131,factbox,1.7142857142857144,man,35-54,no university degree,40,0.0,2.0,2.0,5.0,1.0
+2132,text,4.285714285714286,woman,35-54,no university degree,50,1.0,2.0,6.0,5.0,0.0
+2133,mechanism,2.7142857142857144,man,55+,no university degree,70,0.0,1.0,2.0,3.0,1.0
+2134,factbox,4.857142857142858,woman,55+,no university degree,60,1.0,2.0,5.0,5.0,0.0
+2135,control,2.5714285714285716,woman,55+,university degree,70,1.0,5.0,5.0,3.0,0.0
+2136,text,4.571428571428571,woman,55+,no university degree,70,1.0,2.0,5.0,7.0,0.0
+2137,approval,4.428571428571429,woman,55+,no university degree,60,1.0,2.0,7.0,7.0,0.0
+2138,text,4.571428571428571,woman,55+,no university degree,60,1.0,2.0,6.0,4.0,0.0
+2139,approval,5.0,man,55+,no university degree,60,0.0,3.0,5.0,5.0,0.0
+2140,text,4.571428571428571,man,55+,no university degree,70,0.0,3.0,5.0,7.0,0.0
+2141,factbox,4.285714285714286,man,18-34,university degree,21,0.0,4.0,2.0,4.0,1.0
+2142,mechanism,5.0,woman,55+,no university degree,60,1.0,2.0,6.0,6.0,0.0
+2143,control,4.428571428571429,woman,18-34,university degree,30,1.0,5.0,2.0,4.0,0.0
+2144,factbox,4.857142857142858,man,35-54,university degree,40,0.0,4.0,1.0,4.0,0.0
+2145,text,5.0,man,55+,no university degree,60,0.0,1.0,4.0,3.0,0.0
+2146,approval,5.0,woman,18-34,university degree,30,1.0,4.0,2.0,8.0,1.0
+2147,control,5.0,woman,55+,university degree,60,1.0,5.0,2.0,6.0,0.0
+2148,control,4.571428571428571,man,35-54,university degree,40,0.0,4.0,4.0,7.0,1.0
+2149,text,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,6.0,0.0
+2150,approval,3.142857142857143,man,35-54,no university degree,50,0.0,3.0,2.0,2.0,1.0
+2151,approval,5.0,man,55+,no university degree,70,0.0,2.0,4.0,6.0,0.0
+2152,control,1.7142857142857144,man,55+,no university degree,60,0.0,3.0,3.0,4.0,0.0
+2153,mechanism,4.857142857142858,woman,35-54,university degree,50,1.0,6.0,6.0,6.0,0.0
+2154,factbox,2.7142857142857144,man,35-54,university degree,40,0.0,4.0,4.0,5.0,1.0
+2156,text,5.0,woman,55+,no university degree,70,1.0,3.0,4.0,8.0,0.0
+2158,control,4.428571428571429,woman,55+,university degree,70,1.0,4.0,5.0,6.0,0.0
+2159,approval,2.4285714285714284,man,35-54,no university degree,40,0.0,2.0,4.0,1.0,1.0
+2160,factbox,4.714285714285714,man,55+,no university degree,60,0.0,2.0,4.0,2.0,0.0
+2161,mechanism,4.285714285714286,man,55+,university degree,60,0.0,4.0,4.0,7.0,1.0
+2162,text,1.5714285714285712,man,55+,university degree,70,0.0,4.0,6.0,7.0,0.0
+2163,control,2.857142857142857,man,55+,university degree,60,0.0,4.0,3.0,3.0,0.0
+2164,factbox,4.142857142857142,man,55+,university degree,60,0.0,4.0,4.0,6.0,0.0
+2165,text,5.0,woman,35-54,no university degree,40,1.0,1.0,3.0,7.0,0.0
+2166,approval,4.571428571428571,woman,35-54,no university degree,50,1.0,1.0,1.0,3.0,1.0
+2167,control,5.0,man,55+,university degree,60,0.0,4.0,5.0,4.0,0.0
+2168,mechanism,2.2857142857142856,man,55+,university degree,70,0.0,4.0,3.0,6.0,0.0
+2169,approval,5.0,man,55+,no university degree,60,0.0,3.0,3.0,5.0,0.0
+2170,factbox,5.0,man,55+,university degree,60,0.0,4.0,2.0,6.0,0.0
+2171,text,4.0,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,1.0
+2172,mechanism,4.142857142857142,man,35-54,university degree,40,0.0,4.0,2.0,7.0,1.0
+2173,control,4.142857142857142,man,55+,university degree,70,0.0,4.0,3.0,7.0,0.0
+2174,text,5.0,man,55+,no university degree,60,0.0,3.0,3.0,6.0,0.0
+2175,mechanism,3.0,man,55+,university degree,60,0.0,4.0,4.0,7.0,1.0
+2176,control,4.857142857142858,woman,55+,university degree,60,1.0,5.0,5.0,7.0,0.0
+2178,text,4.857142857142858,man,55+,no university degree,60,0.0,3.0,6.0,6.0,0.0
+2179,text,4.857142857142858,man,55+,university degree,70,0.0,4.0,2.0,4.0,0.0
+2180,approval,2.0,man,35-54,no university degree,40,0.0,2.0,4.0,3.0,1.0
+2181,factbox,5.0,man,55+,no university degree,70,0.0,2.0,2.0,2.0,0.0
+2182,mechanism,5.0,woman,55+,university degree,70,1.0,5.0,6.0,7.0,0.0
+2183,control,3.2857142857142856,man,55+,no university degree,60,0.0,1.0,4.0,3.0,0.0
+2184,approval,4.857142857142858,woman,55+,university degree,60,1.0,4.0,3.0,6.0,0.0
+2185,mechanism,4.714285714285714,man,55+,no university degree,60,0.0,1.0,4.0,6.0,0.0
+2187,mechanism,3.857142857142857,woman,55+,university degree,70,1.0,4.0,3.0,8.0,0.0
+2188,text,5.0,man,55+,no university degree,70,0.0,2.0,4.0,2.0,0.0
+2189,mechanism,5.0,man,55+,university degree,60,0.0,6.0,3.0,7.0,0.0
+2190,control,4.428571428571429,man,55+,university degree,70,0.0,5.0,3.0,7.0,0.0
+2191,factbox,3.857142857142857,man,55+,no university degree,60,0.0,3.0,3.0,7.0,0.0
+2192,factbox,5.0,woman,55+,university degree,60,1.0,4.0,5.0,5.0,0.0
+2193,text,4.285714285714286,man,55+,university degree,60,0.0,4.0,6.0,6.0,0.0
+2194,approval,4.285714285714286,man,35-54,university degree,50,0.0,5.0,5.0,6.0,1.0
+2195,approval,3.142857142857143,man,35-54,university degree,40,0.0,5.0,4.0,6.0,1.0
+2196,factbox,4.571428571428571,man,55+,university degree,70,0.0,4.0,6.0,6.0,0.0
+2197,factbox,5.0,man,55+,university degree,60,0.0,5.0,4.0,5.0,1.0
+2198,text,5.0,woman,55+,university degree,60,1.0,4.0,1.0,4.0,0.0
+2199,approval,3.7142857142857144,man,55+,no university degree,60,0.0,1.0,4.0,3.0,0.0
+2200,mechanism,5.0,man,55+,no university degree,60,0.0,1.0,6.0,6.0,0.0
+2201,control,4.714285714285714,woman,55+,university degree,60,1.0,5.0,2.0,6.0,0.0
+2203,text,5.0,man,55+,no university degree,60,0.0,2.0,2.0,4.0,0.0
+2204,approval,5.0,man,55+,university degree,70,0.0,5.0,2.0,8.0,0.0
+2205,mechanism,2.2857142857142856,woman,35-54,no university degree,40,1.0,1.0,4.0,1.0,1.0
+2206,control,4.857142857142858,woman,55+,university degree,60,1.0,5.0,5.0,7.0,0.0
+2207,factbox,2.5714285714285716,man,55+,no university degree,60,0.0,3.0,4.0,4.0,1.0
+2208,control,4.857142857142858,woman,55+,university degree,70,1.0,5.0,2.0,6.0,1.0
+2209,text,4.571428571428571,woman,55+,no university degree,70,1.0,2.0,3.0,7.0,0.0
+2210,approval,5.0,woman,55+,no university degree,60,1.0,3.0,4.0,6.0,1.0
+2211,approval,5.0,woman,18-34,university degree,30,1.0,5.0,2.0,6.0,1.0
+2212,control,2.0,man,55+,no university degree,60,0.0,2.0,6.0,5.0,0.0
+2213,mechanism,5.0,woman,55+,university degree,70,1.0,4.0,6.0,8.0,0.0
+2214,factbox,5.0,woman,55+,university degree,60,1.0,4.0,2.0,6.0,0.0
+2215,mechanism,4.142857142857142,woman,35-54,no university degree,40,1.0,3.0,5.0,3.0,1.0
+2216,text,5.0,man,55+,no university degree,60,0.0,3.0,4.0,7.0,0.0
+2217,factbox,3.5714285714285716,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+2218,control,5.0,man,55+,university degree,60,0.0,4.0,6.0,5.0,0.0
+2219,approval,5.0,man,55+,university degree,70,0.0,5.0,6.0,5.0,0.0
+2220,approval,4.428571428571429,woman,55+,no university degree,70,1.0,2.0,5.0,3.0,0.0
+2221,text,5.0,man,55+,no university degree,60,0.0,2.0,3.0,6.0,1.0
+2222,mechanism,5.0,man,55+,university degree,60,0.0,6.0,5.0,9.0,0.0
+2223,text,5.0,man,55+,no university degree,70,0.0,1.0,4.0,5.0,0.0
+2224,factbox,2.2857142857142856,woman,55+,university degree,60,1.0,4.0,2.0,4.0,1.0
+2225,text,4.571428571428571,woman,55+,no university degree,60,1.0,3.0,3.0,7.0,0.0
+2226,control,4.857142857142858,man,55+,no university degree,60,0.0,2.0,4.0,6.0,0.0
+2227,approval,5.0,woman,55+,no university degree,60,1.0,3.0,2.0,5.0,0.0
+2228,factbox,2.4285714285714284,woman,55+,no university degree,60,1.0,3.0,5.0,5.0,1.0
+2229,mechanism,4.571428571428571,man,55+,no university degree,70,0.0,2.0,5.0,6.0,0.0
+2230,text,4.428571428571429,woman,18-34,university degree,30,1.0,5.0,3.0,4.0,1.0
+2231,approval,5.0,woman,35-54,university degree,50,1.0,4.0,4.0,4.0,1.0
+2232,mechanism,5.0,man,55+,university degree,60,0.0,4.0,2.0,4.0,0.0
+2233,control,5.0,man,55+,university degree,60,0.0,5.0,5.0,9.0,0.0
+2234,factbox,5.0,man,55+,no university degree,70,0.0,2.0,6.0,2.0,0.0
+2235,mechanism,5.0,man,55+,university degree,60,0.0,5.0,5.0,6.0,0.0
+2236,factbox,5.0,man,55+,university degree,60,0.0,5.0,2.0,7.0,1.0
+2237,control,2.857142857142857,man,55+,no university degree,60,0.0,3.0,2.0,2.0,0.0
+2238,approval,4.714285714285714,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,1.0
+2239,mechanism,4.857142857142858,man,55+,university degree,70,0.0,4.0,3.0,4.0,0.0
+2240,text,1.8571428571428568,man,35-54,university degree,50,0.0,4.0,1.0,2.0,1.0
+2241,factbox,4.142857142857142,woman,55+,no university degree,60,1.0,3.0,3.0,5.0,0.0
+2242,approval,4.142857142857142,man,55+,no university degree,60,0.0,1.0,4.0,3.0,0.0
+2243,control,5.0,man,55+,university degree,70,0.0,4.0,7.0,5.0,0.0
+2244,text,3.5714285714285716,woman,35-54,university degree,50,1.0,4.0,6.0,7.0,1.0
+2245,mechanism,5.0,woman,55+,no university degree,60,1.0,3.0,2.0,3.0,0.0
+2246,control,4.285714285714286,woman,55+,university degree,60,1.0,5.0,4.0,6.0,1.0
+2247,approval,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,3.0,7.0,0.0
+2248,text,4.0,man,55+,university degree,60,0.0,4.0,4.0,6.0,1.0
+2249,mechanism,4.571428571428571,man,35-54,university degree,50,0.0,4.0,1.0,5.0,0.0
+2251,factbox,5.0,woman,55+,university degree,60,1.0,4.0,6.0,7.0,0.0
+2252,mechanism,3.2857142857142856,woman,35-54,no university degree,50,1.0,1.0,2.0,7.0,0.0
+2253,approval,5.0,man,55+,university degree,70,0.0,4.0,4.0,6.0,0.0
+2254,control,4.714285714285714,woman,55+,university degree,60,1.0,4.0,2.0,5.0,0.0
+2255,factbox,5.0,woman,55+,no university degree,70,1.0,2.0,5.0,5.0,0.0
+2256,control,5.0,man,55+,university degree,60,0.0,5.0,2.0,7.0,0.0
+2257,approval,5.0,woman,55+,university degree,60,1.0,4.0,6.0,7.0,1.0
+2258,mechanism,5.0,man,55+,no university degree,60,0.0,2.0,5.0,4.0,0.0
+2259,text,5.0,man,55+,university degree,60,0.0,4.0,1.0,7.0,0.0
+2260,factbox,5.0,man,55+,university degree,60,0.0,4.0,2.0,7.0,0.0
+2261,mechanism,5.0,woman,55+,no university degree,60,1.0,2.0,5.0,5.0,0.0
+2262,approval,4.857142857142858,woman,55+,university degree,70,1.0,5.0,3.0,8.0,1.0
+2263,factbox,4.428571428571429,man,55+,no university degree,60,0.0,2.0,5.0,4.0,0.0
+2264,text,4.142857142857142,man,55+,university degree,70,0.0,5.0,3.0,4.0,0.0
+2265,control,5.0,woman,55+,university degree,60,1.0,4.0,2.0,7.0,0.0
+2266,factbox,5.0,woman,55+,university degree,70,1.0,4.0,3.0,2.0,0.0
+2268,mechanism,4.714285714285714,man,55+,no university degree,60,0.0,3.0,4.0,7.0,0.0
+2269,control,5.0,man,55+,no university degree,70,0.0,3.0,4.0,6.0,0.0
+2270,mechanism,5.0,man,55+,no university degree,60,0.0,2.0,5.0,,0.0
+2271,approval,4.857142857142858,woman,55+,no university degree,60,1.0,3.0,3.0,6.0,0.0
+2272,approval,4.571428571428571,woman,55+,no university degree,60,1.0,3.0,5.0,4.0,0.0
+2273,factbox,4.857142857142858,man,55+,university degree,60,0.0,5.0,3.0,3.0,0.0
+2274,text,5.0,man,55+,university degree,60,0.0,5.0,3.0,6.0,0.0
+2275,control,5.0,man,55+,university degree,60,0.0,4.0,3.0,7.0,0.0
+2276,factbox,5.0,man,55+,no university degree,70,0.0,1.0,5.0,4.0,0.0
+2277,approval,5.0,woman,55+,university degree,60,1.0,4.0,3.0,4.0,1.0
+2278,mechanism,4.571428571428571,man,55+,no university degree,60,0.0,2.0,6.0,5.0,0.0
+2279,text,4.571428571428571,man,55+,university degree,60,0.0,4.0,5.0,6.0,0.0
+2280,approval,5.0,man,55+,university degree,70,0.0,4.0,2.0,7.0,0.0
+2281,mechanism,5.0,woman,55+,university degree,60,1.0,4.0,1.0,8.0,0.0
+2282,control,5.0,man,55+,no university degree,60,0.0,2.0,4.0,3.0,0.0
+2283,factbox,1.2857142857142856,man,55+,university degree,60,0.0,4.0,3.0,2.0,0.0
+2284,text,4.571428571428571,man,55+,no university degree,60,0.0,3.0,3.0,4.0,0.0
+2286,mechanism,2.2857142857142856,woman,55+,university degree,60,1.0,5.0,6.0,8.0,0.0
+2287,text,4.571428571428571,woman,55+,university degree,60,1.0,4.0,5.0,4.0,0.0
+2288,factbox,4.571428571428571,man,55+,no university degree,60,0.0,3.0,6.0,5.0,0.0
+2289,control,5.0,woman,55+,no university degree,60,1.0,3.0,3.0,7.0,0.0
+2290,factbox,5.0,man,55+,no university degree,60,0.0,1.0,5.0,5.0,0.0
+2291,text,4.571428571428571,man,55+,university degree,70,0.0,5.0,2.0,5.0,0.0
+2292,mechanism,5.0,man,55+,university degree,70,0.0,6.0,5.0,7.0,0.0
+2293,control,4.857142857142858,man,55+,no university degree,60,0.0,3.0,5.0,6.0,0.0
+2294,approval,4.571428571428571,man,55+,no university degree,70,0.0,3.0,2.0,6.0,0.0
+2295,factbox,5.0,woman,55+,university degree,70,1.0,5.0,5.0,7.0,0.0
+2296,control,2.7142857142857144,woman,18-34,university degree,21,1.0,4.0,4.0,4.0,1.0
+2297,text,3.7142857142857144,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,1.0
+2298,approval,4.428571428571429,woman,18-34,university degree,30,1.0,5.0,2.0,7.0,1.0
+2299,mechanism,5.0,woman,35-54,university degree,40,1.0,4.0,4.0,1.0,1.0
+2300,control,3.4285714285714284,woman,18-34,no university degree,21,1.0,2.0,4.0,6.0,0.0
+2301,text,4.142857142857142,woman,18-34,no university degree,21,1.0,2.0,4.0,6.0,0.0
+2302,control,4.714285714285714,man,18-34,university degree,21,0.0,4.0,3.0,4.0,0.0
+2303,text,2.7142857142857144,man,18-34,university degree,21,0.0,4.0,2.0,2.0,0.0
+2304,approval,4.0,woman,18-34,university degree,30,1.0,5.0,3.0,7.0,0.0
+2305,factbox,4.857142857142858,man,18-34,university degree,30,0.0,4.0,2.0,4.0,0.0
+2306,text,5.0,man,18-34,no university degree,30,0.0,1.0,1.0,4.0,0.0
+2307,approval,4.142857142857142,man,18-34,no university degree,21,0.0,3.0,4.0,3.0,0.0
+2308,control,2.2857142857142856,woman,18-34,no university degree,21,1.0,3.0,1.0,3.0,0.0
+2309,approval,1.4285714285714288,man,18-34,no university degree,21,0.0,3.0,7.0,5.0,0.0
+2310,factbox,3.857142857142857,man,18-34,no university degree,30,0.0,3.0,5.0,5.0,0.0
+2311,control,4.857142857142858,man,18-34,university degree,21,0.0,4.0,2.0,7.0,0.0
+2312,control,5.0,woman,35-54,university degree,40,1.0,5.0,2.0,6.0,1.0
+2313,factbox,5.0,woman,18-34,no university degree,21,1.0,2.0,3.0,8.0,0.0
+2314,approval,4.285714285714286,man,18-34,no university degree,21,0.0,2.0,5.0,6.0,1.0
+2315,control,4.714285714285714,woman,35-54,university degree,50,1.0,4.0,2.0,7.0,0.0
+2316,control,4.571428571428571,woman,18-34,university degree,21,1.0,5.0,4.0,6.0,1.0
+2317,factbox,4.714285714285714,woman,18-34,university degree,21,1.0,4.0,4.0,4.0,0.0
+2318,control,5.0,woman,35-54,university degree,50,1.0,4.0,2.0,7.0,1.0
+2319,approval,5.0,man,35-54,university degree,40,0.0,4.0,3.0,4.0,0.0
+2320,control,4.714285714285714,woman,35-54,no university degree,40,1.0,3.0,4.0,6.0,0.0
+2321,approval,5.0,man,35-54,university degree,50,0.0,5.0,2.0,5.0,0.0
+2322,factbox,4.285714285714286,man,18-34,no university degree,21,0.0,3.0,1.0,4.0,1.0
+2323,factbox,1.1428571428571432,woman,18-34,no university degree,30,1.0,3.0,3.0,2.0,0.0
+2325,text,4.714285714285714,man,18-34,university degree,21,0.0,4.0,5.0,7.0,1.0
+2326,mechanism,3.0,man,18-34,university degree,30,0.0,5.0,4.0,6.0,1.0
+2328,mechanism,4.714285714285714,woman,18-34,university degree,30,1.0,5.0,3.0,4.0,0.0
+2329,mechanism,5.0,woman,35-54,no university degree,40,1.0,3.0,3.0,3.0,0.0
+2331,control,1.2857142857142856,man,18-34,no university degree,30,0.0,3.0,4.0,1.0,0.0
+2332,text,5.0,woman,35-54,university degree,40,1.0,6.0,1.0,4.0,1.0
+2333,control,3.2857142857142856,man,18-34,no university degree,21,0.0,3.0,3.0,3.0,1.0
+2335,text,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,3.0,2.0,1.0
+2336,control,4.142857142857142,man,35-54,university degree,40,0.0,4.0,5.0,4.0,0.0
+2337,factbox,3.5714285714285716,man,18-34,no university degree,21,0.0,3.0,1.0,5.0,0.0
+2338,mechanism,5.0,woman,18-34,university degree,21,1.0,4.0,2.0,5.0,1.0
+2339,control,4.714285714285714,woman,35-54,no university degree,50,1.0,2.0,3.0,3.0,0.0
+2340,control,4.714285714285714,man,18-34,university degree,21,0.0,4.0,2.0,5.0,0.0
+2341,text,4.857142857142858,woman,35-54,no university degree,40,1.0,3.0,3.0,6.0,0.0
+2342,approval,4.0,man,18-34,university degree,21,0.0,4.0,2.0,4.0,1.0
+2343,approval,4.0,woman,18-34,university degree,21,1.0,4.0,2.0,3.0,0.0
+2344,text,5.0,woman,18-34,university degree,30,1.0,4.0,3.0,7.0,0.0
+2345,factbox,4.428571428571429,man,35-54,university degree,40,0.0,4.0,3.0,5.0,1.0
+2346,mechanism,4.714285714285714,woman,35-54,university degree,40,1.0,4.0,5.0,6.0,0.0
+2347,text,5.0,man,18-34,university degree,30,0.0,5.0,2.0,5.0,0.0
+2348,factbox,5.0,man,18-34,university degree,30,0.0,4.0,2.0,5.0,0.0
+2349,factbox,2.2857142857142856,man,18-34,no university degree,30,0.0,3.0,2.0,5.0,0.0
+2350,factbox,4.0,man,18-34,no university degree,21,0.0,3.0,4.0,5.0,1.0
+2351,control,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,2.0,3.0,0.0
+2352,mechanism,4.571428571428571,man,18-34,university degree,30,0.0,4.0,5.0,7.0,0.0
+2353,factbox,5.0,woman,18-34,university degree,30,1.0,4.0,6.0,7.0,0.0
+2354,text,3.7142857142857144,man,18-34,no university degree,21,0.0,3.0,1.0,4.0,1.0
+2355,control,4.428571428571429,man,18-34,university degree,21,0.0,4.0,3.0,6.0,0.0
+2356,factbox,5.0,man,35-54,university degree,50,0.0,4.0,4.0,6.0,0.0
+2357,control,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,2.0,4.0,0.0
+2358,text,5.0,woman,18-34,university degree,30,1.0,4.0,2.0,4.0,0.0
+2359,control,5.0,woman,18-34,no university degree,21,1.0,3.0,3.0,6.0,0.0
+2360,approval,4.0,woman,18-34,university degree,30,1.0,5.0,3.0,6.0,0.0
+2361,mechanism,4.857142857142858,man,18-34,no university degree,30,0.0,3.0,6.0,6.0,0.0
+2362,text,5.0,woman,18-34,university degree,30,1.0,5.0,3.0,7.0,0.0
+2363,approval,3.5714285714285716,woman,18-34,university degree,21,1.0,4.0,4.0,8.0,0.0
+2364,text,5.0,man,18-34,university degree,30,0.0,4.0,2.0,6.0,0.0
+2365,control,5.0,woman,18-34,university degree,30,1.0,4.0,3.0,5.0,0.0
+2366,mechanism,5.0,man,18-34,university degree,21,0.0,5.0,2.0,6.0,0.0
+2368,mechanism,4.857142857142858,man,35-54,no university degree,40,0.0,3.0,1.0,6.0,0.0
+2369,control,5.0,woman,18-34,no university degree,21,1.0,3.0,2.0,5.0,0.0
+2370,mechanism,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,1.0,2.0,0.0
+2371,factbox,5.0,man,18-34,university degree,21,0.0,4.0,3.0,4.0,0.0
+2372,text,5.0,man,35-54,university degree,40,0.0,6.0,2.0,7.0,1.0
+2373,mechanism,4.714285714285714,woman,18-34,no university degree,21,1.0,3.0,6.0,7.0,0.0
+2374,mechanism,5.0,man,35-54,university degree,40,0.0,6.0,3.0,5.0,0.0
+2375,approval,4.142857142857142,man,35-54,university degree,40,0.0,5.0,2.0,4.0,0.0
+2376,mechanism,4.571428571428571,man,18-34,university degree,30,0.0,6.0,2.0,7.0,0.0
+2377,control,2.142857142857143,woman,35-54,university degree,40,1.0,4.0,4.0,2.0,0.0
+2378,approval,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,3.0,5.0,0.0
+2379,mechanism,2.857142857142857,woman,18-34,university degree,30,1.0,4.0,5.0,6.0,0.0
+2380,text,4.0,man,35-54,university degree,50,0.0,4.0,2.0,2.0,0.0
+2381,factbox,3.7142857142857144,woman,35-54,university degree,40,1.0,4.0,1.0,6.0,0.0
+2382,mechanism,4.857142857142858,woman,18-34,university degree,30,1.0,4.0,3.0,6.0,0.0
+2383,mechanism,3.4285714285714284,woman,18-34,no university degree,21,1.0,3.0,4.0,3.0,0.0
+2384,factbox,4.857142857142858,man,18-34,university degree,30,0.0,4.0,3.0,4.0,0.0
+2385,control,5.0,woman,35-54,university degree,40,1.0,4.0,3.0,4.0,0.0
+2386,factbox,5.0,woman,18-34,university degree,30,1.0,5.0,3.0,7.0,0.0
+2387,approval,4.714285714285714,woman,35-54,no university degree,40,1.0,2.0,4.0,6.0,0.0
+2388,text,5.0,woman,18-34,university degree,21,1.0,4.0,2.0,6.0,1.0
+2389,text,5.0,man,35-54,university degree,40,0.0,4.0,2.0,2.0,1.0
+2390,control,4.142857142857142,woman,18-34,no university degree,21,1.0,3.0,3.0,3.0,0.0
+2391,approval,5.0,man,35-54,university degree,40,0.0,5.0,2.0,6.0,0.0
+2392,factbox,5.0,woman,18-34,university degree,30,1.0,6.0,5.0,6.0,0.0
+2393,approval,4.571428571428571,man,55+,university degree,60,0.0,4.0,3.0,6.0,0.0
+2394,text,2.857142857142857,woman,18-34,university degree,30,1.0,4.0,4.0,5.0,0.0
+2395,text,3.142857142857143,man,18-34,university degree,30,0.0,4.0,4.0,4.0,0.0
+2396,factbox,4.857142857142858,man,18-34,university degree,30,0.0,4.0,3.0,6.0,1.0
+2397,approval,4.142857142857142,woman,35-54,no university degree,50,1.0,3.0,5.0,7.0,0.0
+2398,text,4.714285714285714,man,18-34,no university degree,21,0.0,3.0,2.0,4.0,1.0
+2399,approval,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,4.0,5.0,1.0
+2400,approval,4.285714285714286,man,35-54,university degree,50,0.0,4.0,2.0,6.0,0.0
+2401,approval,4.714285714285714,woman,18-34,university degree,30,1.0,5.0,2.0,5.0,0.0
+2402,mechanism,3.2857142857142856,woman,18-34,university degree,30,1.0,4.0,4.0,3.0,0.0
+2403,text,5.0,man,18-34,university degree,30,0.0,5.0,5.0,6.0,0.0
+2404,control,2.4285714285714284,man,35-54,university degree,40,0.0,4.0,4.0,5.0,1.0
+2405,control,4.571428571428571,man,18-34,university degree,21,0.0,4.0,1.0,3.0,1.0
+2406,factbox,4.857142857142858,man,18-34,university degree,30,0.0,4.0,2.0,3.0,0.0
+2407,approval,4.285714285714286,man,18-34,university degree,30,0.0,4.0,3.0,4.0,0.0
+2408,factbox,5.0,man,35-54,university degree,40,0.0,4.0,6.0,7.0,0.0
+2409,text,5.0,woman,18-34,no university degree,30,1.0,3.0,1.0,3.0,0.0
+2410,mechanism,5.0,woman,18-34,university degree,21,1.0,4.0,1.0,1.0,1.0
+2411,mechanism,4.571428571428571,woman,18-34,no university degree,21,1.0,3.0,2.0,4.0,0.0
+2412,mechanism,4.428571428571429,woman,18-34,no university degree,21,1.0,3.0,2.0,7.0,0.0
+2413,control,5.0,man,18-34,university degree,21,0.0,4.0,2.0,6.0,1.0
+2414,control,4.285714285714286,man,35-54,university degree,50,0.0,4.0,3.0,5.0,0.0
+2415,mechanism,3.5714285714285716,man,18-34,no university degree,21,0.0,1.0,2.0,2.0,0.0
+2416,mechanism,3.4285714285714284,woman,35-54,no university degree,40,1.0,1.0,6.0,1.0,0.0
+2417,approval,1.5714285714285712,man,35-54,university degree,50,0.0,4.0,3.0,6.0,0.0
+2418,text,4.571428571428571,woman,18-34,university degree,30,1.0,4.0,4.0,4.0,1.0
+2419,factbox,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,2.0,5.0,0.0
+2420,factbox,3.4285714285714284,man,18-34,no university degree,21,0.0,1.0,1.0,3.0,0.0
+2421,mechanism,4.857142857142858,man,18-34,university degree,30,0.0,4.0,2.0,5.0,0.0
+2422,approval,3.857142857142857,man,35-54,no university degree,40,0.0,3.0,4.0,6.0,0.0
+2423,approval,4.428571428571429,man,18-34,university degree,30,0.0,4.0,2.0,3.0,1.0
+2424,control,5.0,woman,18-34,university degree,30,1.0,4.0,2.0,3.0,0.0
+2425,approval,3.2857142857142856,woman,18-34,no university degree,21,1.0,2.0,3.0,5.0,0.0
+2426,factbox,5.0,man,35-54,university degree,50,0.0,4.0,2.0,6.0,0.0
+2428,mechanism,1.5714285714285712,woman,18-34,no university degree,30,1.0,3.0,5.0,3.0,0.0
+2429,text,4.571428571428571,woman,35-54,no university degree,40,1.0,3.0,2.0,6.0,1.0
+2430,mechanism,5.0,man,35-54,university degree,40,0.0,4.0,4.0,6.0,0.0
+2431,factbox,3.857142857142857,woman,18-34,university degree,21,1.0,4.0,3.0,4.0,0.0
+2432,control,1.4285714285714288,woman,18-34,no university degree,30,1.0,3.0,5.0,3.0,0.0
+2433,control,5.0,man,18-34,university degree,30,0.0,5.0,2.0,7.0,1.0
+2434,text,5.0,man,18-34,no university degree,21,0.0,3.0,2.0,5.0,0.0
+2435,factbox,1.4285714285714288,woman,35-54,no university degree,40,1.0,3.0,3.0,1.0,0.0
+2436,factbox,4.285714285714286,woman,35-54,university degree,40,1.0,4.0,5.0,7.0,0.0
+2437,factbox,4.857142857142858,woman,18-34,university degree,21,1.0,4.0,3.0,3.0,0.0
+2438,mechanism,4.857142857142858,man,18-34,no university degree,21,0.0,3.0,2.0,6.0,0.0
+2439,text,1.5714285714285712,man,35-54,university degree,40,0.0,4.0,4.0,7.0,0.0
+2440,approval,4.428571428571429,woman,18-34,university degree,21,1.0,4.0,4.0,5.0,0.0
+2441,approval,5.0,woman,18-34,university degree,21,1.0,5.0,1.0,4.0,0.0
+2442,control,2.2857142857142856,woman,18-34,no university degree,30,1.0,2.0,4.0,4.0,0.0
+2443,text,4.571428571428571,man,18-34,university degree,30,0.0,4.0,2.0,6.0,0.0
+2444,text,4.285714285714286,woman,18-34,university degree,30,1.0,5.0,2.0,4.0,0.0
+2445,factbox,5.0,woman,18-34,university degree,21,1.0,5.0,2.0,6.0,0.0
+2446,approval,3.4285714285714284,woman,18-34,university degree,30,1.0,4.0,4.0,6.0,1.0
+2447,control,4.714285714285714,man,18-34,no university degree,30,0.0,3.0,4.0,3.0,0.0
+2448,approval,4.428571428571429,woman,18-34,no university degree,30,1.0,2.0,5.0,4.0,0.0
+2449,approval,3.2857142857142856,man,35-54,university degree,40,0.0,5.0,2.0,7.0,0.0
+2450,text,2.5714285714285716,man,35-54,university degree,50,0.0,4.0,2.0,6.0,0.0
+2451,mechanism,4.285714285714286,woman,18-34,university degree,30,1.0,5.0,5.0,7.0,0.0
+2452,mechanism,4.142857142857142,man,18-34,no university degree,21,0.0,3.0,4.0,3.0,0.0
+2453,mechanism,3.0,man,18-34,university degree,21,0.0,4.0,2.0,3.0,1.0
+2454,mechanism,4.142857142857142,man,18-34,university degree,30,0.0,4.0,3.0,3.0,0.0
+2455,approval,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,2.0,6.0,1.0
+2456,factbox,4.285714285714286,man,18-34,university degree,21,0.0,4.0,4.0,6.0,1.0
+2457,factbox,4.0,man,18-34,university degree,21,0.0,4.0,4.0,6.0,0.0
+2458,factbox,2.142857142857143,woman,18-34,no university degree,30,1.0,3.0,4.0,6.0,0.0
+2459,text,5.0,woman,35-54,university degree,40,1.0,5.0,5.0,7.0,0.0
+2460,text,4.571428571428571,man,35-54,no university degree,50,0.0,1.0,4.0,4.0,0.0
+2461,mechanism,4.857142857142858,woman,18-34,no university degree,21,1.0,2.0,3.0,5.0,0.0
+2462,factbox,2.5714285714285716,man,35-54,no university degree,40,0.0,2.0,4.0,2.0,0.0
+2463,approval,4.571428571428571,man,18-34,no university degree,21,0.0,3.0,1.0,4.0,0.0
+2464,factbox,5.0,man,18-34,university degree,30,0.0,5.0,5.0,5.0,0.0
+2465,text,3.857142857142857,man,18-34,no university degree,21,0.0,3.0,4.0,4.0,1.0
+2466,approval,5.0,man,55+,no university degree,60,0.0,2.0,5.0,4.0,0.0
+2467,text,3.7142857142857144,woman,18-34,no university degree,21,1.0,3.0,6.0,4.0,0.0
+2468,mechanism,2.5714285714285716,woman,18-34,university degree,30,1.0,4.0,4.0,4.0,1.0
+2469,control,3.142857142857143,man,18-34,no university degree,21,0.0,3.0,2.0,5.0,0.0
+2470,factbox,5.0,woman,18-34,university degree,30,1.0,4.0,1.0,4.0,1.0
+2471,approval,4.428571428571429,man,18-34,university degree,30,0.0,4.0,6.0,4.0,0.0
+2472,text,3.0,man,35-54,no university degree,50,0.0,2.0,2.0,2.0,0.0
+2473,mechanism,4.0,woman,18-34,university degree,30,1.0,4.0,3.0,4.0,0.0
+2474,text,4.857142857142858,man,18-34,university degree,30,0.0,5.0,2.0,3.0,0.0
+2475,approval,4.714285714285714,man,18-34,university degree,30,0.0,6.0,3.0,7.0,1.0
+2476,mechanism,4.142857142857142,man,18-34,university degree,30,0.0,5.0,5.0,3.0,0.0
+2477,approval,4.428571428571429,woman,18-34,no university degree,30,1.0,3.0,3.0,6.0,0.0
+2478,factbox,3.5714285714285716,man,35-54,university degree,40,0.0,4.0,5.0,5.0,1.0
+2479,mechanism,5.0,woman,35-54,no university degree,40,1.0,3.0,2.0,3.0,0.0
+2480,control,4.857142857142858,man,18-34,university degree,30,0.0,5.0,4.0,7.0,0.0
+2481,text,2.0,man,18-34,no university degree,21,0.0,3.0,5.0,5.0,1.0
+2482,text,4.571428571428571,woman,18-34,university degree,21,1.0,4.0,3.0,6.0,1.0
+2483,approval,4.857142857142858,woman,18-34,no university degree,21,1.0,3.0,3.0,7.0,0.0
+2484,mechanism,4.857142857142858,woman,35-54,university degree,40,1.0,4.0,4.0,4.0,0.0
+2485,control,5.0,woman,35-54,no university degree,40,1.0,3.0,4.0,5.0,1.0
+2486,factbox,3.5714285714285716,woman,18-34,no university degree,21,1.0,3.0,4.0,6.0,0.0
+2487,text,3.5714285714285716,woman,18-34,university degree,30,1.0,4.0,6.0,4.0,1.0

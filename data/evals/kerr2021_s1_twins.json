@@ -1,0 +1,4652 @@
+[
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1146",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2260",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "47",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1652",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 1.0,
+   "politics": 3.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2015",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 3.857142857142857,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2220",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 5.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1640",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1740",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1588",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 3.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 3.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1705",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 5.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 3.857142857142857,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2464",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "politics": 5.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2020",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1889",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 3.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "169",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "556",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Very right wing/conservative",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 7.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "102",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 5.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "691",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 5.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "72",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "politics": 2.0,
+   "social_status": 1.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "126",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "707",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 2.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "786",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "Asian",
+   "highest_qualification": "Doctorate",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 6.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 1.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 2.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "600",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 5.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 2.4285714285714284,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1469",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1720",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 5.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1963",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "139",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1905",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2237",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "Asian",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 2.857142857142857,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "781",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.142857142857142,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1317",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 3.857142857142857,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "399",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 5.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1827",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "681",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.142857142857142,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1394",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "Asian",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 7.0,
+   "minority": 1.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1276",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "man",
+   "ethnicity": "Mixed",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 1.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2404",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 1.0
+  },
+  "human_arm": "control",
+  "human_outcome": 2.4285714285714284,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "606",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 3.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 2.142857142857143,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "84",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2471",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 6.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1191",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 3.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1613",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1271",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1598",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "politics": 4.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 1.4285714285714288,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1731",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 1.8571428571428568,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2242",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 1.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.142857142857142,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "521",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2246",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "Black",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 1.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "737",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": null,
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": null,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 2.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1138",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 5.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 2.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2282",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2232",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1767",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 2.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "874",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2028",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1567",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "Asian",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "8.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 5.0,
+   "social_status": 8.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "55",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 3.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "87",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "622",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 1.0,
+   "politics": 4.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 3.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2444",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 2.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "645",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 3.142857142857143,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2274",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "politics": 3.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "572",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.142857142857142,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1702",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 3.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2249",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Very left wing/liberal",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 1.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2430",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1787",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 3.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2251",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 6.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "732",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Very left wing/liberal",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 1.0,
+   "social_status": 5.0,
+   "minority": 1.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "907",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "Other",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 1.0,
+   "minority": 1.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2209",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 3.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2228",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "Black",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 5.0,
+   "social_status": 5.0,
+   "minority": 1.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 2.4285714285714284,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1519",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "487",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 3.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1699",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.142857142857142,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1832",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "Black",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Very left wing/liberal",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 1.0,
+   "social_status": 1.0,
+   "minority": 1.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 1.1428571428571432,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1656",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2440",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1180",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Very left wing/liberal",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 1.0,
+   "social_status": 1.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "394",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 6.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "481",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "8.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 6.0,
+   "social_status": 8.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1280",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1398",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1215",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 1.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "210",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 1.0,
+   "politics": 5.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2074",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "8.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 8.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2000",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "8.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 5.0,
+   "social_status": 8.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 1.4285714285714288,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2473",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1251",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 3.142857142857143,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "417",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "Black",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 1.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2280",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1862",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Doctorate",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 6.0,
+   "politics": 3.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1297",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 1.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1149",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 2.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1782",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1340",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1145",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 2.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "617",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 3.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2258",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 5.0,
+   "social_status": 4.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "474",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1708",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 2.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1347",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "650",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 1.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "955",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 1.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2110",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "No formal education above age 16",
+   "political_views": "Very left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 0.0,
+   "edu_level": 1.0,
+   "politics": 1.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "571",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 5.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2286",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "8.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 6.0,
+   "social_status": 8.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 2.2857142857142856,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "893",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "man",
+   "ethnicity": "Asian",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 5.0,
+   "minority": 1.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 2.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1061",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 5.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 3.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "541",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 5.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "633",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 2.4285714285714284,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2212",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 6.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 2.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "739",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1258",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 3.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "630",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "politics": 5.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1960",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "85",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 2.0,
+   "minority": 1.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1329",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2253",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1990",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "Arab",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 7.0,
+   "minority": 1.0
+  },
+  "human_arm": "control",
+  "human_outcome": 3.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "540",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 2.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1684",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "Asian",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 1.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 2.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "844",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 2.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "199",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "223",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Very right wing/conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 7.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2288",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "70",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "Asian",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 3.0,
+   "social_status": 6.0,
+   "minority": 1.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "96",
+  "covariates": {
+   "age_group": "65+",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 70.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 6.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1115",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 6.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1887",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.571428571428571,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "608",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 3.2857142857142856,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1779",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2076",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Professional or technical qualifications above age 16",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 2.0,
+   "politics": 3.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2435",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "1.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 3.0,
+   "social_status": 1.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 1.4285714285714288,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "530",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.285714285714286,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1290",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "mechanism",
+  "human_outcome": 4.857142857142858,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1003",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1760",
+  "covariates": {
+   "age_group": "55-64",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre left/slightly liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 60.0,
+   "female": 0.0,
+   "edu_level": 5.0,
+   "politics": 3.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.428571428571429,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "55+",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1156",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 5.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1644",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "2.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 2.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 2.7142857142857144,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "35-54",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1803",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 2.0,
+   "social_status": 6.0,
+   "minority": 1.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1241",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "woman",
+   "ethnicity": "Mixed",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Very left wing/liberal",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 1.0,
+   "edu_level": 3.0,
+   "politics": 1.0,
+   "social_status": 4.0,
+   "minority": 1.0
+  },
+  "human_arm": "text",
+  "human_outcome": 4.142857142857142,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2487",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "Mixed",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Right wing/conservative",
+   "self_rated_social_standing_1_to_9": "4.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 6.0,
+   "social_status": 4.0,
+   "minority": 1.0
+  },
+  "human_arm": "text",
+  "human_outcome": 3.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "552",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 2.5714285714285716,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "2447",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "3.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": 3.0,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1529",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "text",
+  "human_outcome": 2.2857142857142856,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1127",
+  "covariates": {
+   "age_group": "45-54",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 50.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "594",
+  "covariates": {
+   "age_group": "18-24",
+   "gender": "man",
+   "ethnicity": "Asian",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": "5.0",
+   "job": "works in healthcare"
+  },
+  "numeric": {
+   "age_mid": 21.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 4.0,
+   "social_status": 5.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 4.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "1658",
+  "covariates": {
+   "age_group": "35-44",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Bachelors) or equivalent",
+   "political_views": "Left wing/liberal",
+   "self_rated_social_standing_1_to_9": "7.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 40.0,
+   "female": 0.0,
+   "edu_level": 4.0,
+   "politics": 2.0,
+   "social_status": 7.0,
+   "minority": 0.0
+  },
+  "human_arm": "factbox",
+  "human_outcome": 5.0,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "35-54",
+    "education": "university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "698",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "man",
+   "ethnicity": "White",
+   "highest_qualification": "School education up to age 18",
+   "political_views": "Middle of the road",
+   "self_rated_social_standing_1_to_9": null,
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 0.0,
+   "edu_level": 3.0,
+   "politics": 4.0,
+   "social_status": null,
+   "minority": 0.0
+  },
+  "human_arm": "control",
+  "human_outcome": 4.714285714285714,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "man",
+    "age_band": "18-34",
+    "education": "no university degree"
+   }
+  }
+ },
+ {
+  "dataset": "kerr2021_s1",
+  "row_id": "514",
+  "covariates": {
+   "age_group": "25-34",
+   "gender": "woman",
+   "ethnicity": "White",
+   "highest_qualification": "Degree (Masters) or other postgraduate qualification",
+   "political_views": "Centre right/slightly conservative",
+   "self_rated_social_standing_1_to_9": "6.0",
+   "job": "does not work in healthcare"
+  },
+  "numeric": {
+   "age_mid": 30.0,
+   "female": 1.0,
+   "edu_level": 5.0,
+   "politics": 5.0,
+   "social_status": 6.0,
+   "minority": 0.0
+  },
+  "human_arm": "approval",
+  "human_outcome": 2.4285714285714284,
+  "backstory": null,
+  "extra": {
+   "segments": {
+    "gender": "woman",
+    "age_band": "18-34",
+    "education": "university degree"
+   }
+  }
+ }
+]

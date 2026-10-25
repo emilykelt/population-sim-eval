@@ -1,0 +1,219 @@
+{
+ "model": "claude-haiku-5-5",
+ "n_twins": 150,
+ "n_valid": 600,
+ "n_jobs": 600,
+ "ceiling_split_half": 0.8730769872361543,
+ "effect": {
+  "pooled_rho": 0.7745966692414834,
+  "effect_size_slope": 0.0,
+  "segment_rho_mean": 0.6885303726590962,
+  "top1_accuracy": 0.3333333333333333,
+  "pooled_baseline": 0.8999999999999999,
+  "gap_preservation_r": 0.15066742673764574,
+  "gap_inflation_slope": 0.17465940211065625,
+  "human_arm_means": [
+   0.689,
+   0.831,
+   0.725,
+   0.844
+  ],
+  "sim_arm_means": [
+   0.513,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "per_segment": {
+   "man|18-34": {
+    "rho": 0.7745966692414834,
+    "top1_hit": 0.0,
+    "human": [
+     0.703,
+     0.804,
+     0.756,
+     0.828
+    ],
+    "sim": [
+     0.558,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 2868,
+    "n_sim": 172
+   },
+   "man|35-54": {
+    "rho": 0.7745966692414834,
+    "top1_hit": 0.0,
+    "human": [
+     0.662,
+     0.822,
+     0.707,
+     0.844
+    ],
+    "sim": [
+     0.591,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 1838,
+    "n_sim": 88
+   },
+   "man|55+": {
+    "rho": 0.2581988897471611,
+    "top1_hit": 0.0,
+    "human": [
+     0.707,
+     0.812,
+     0.671,
+     0.894
+    ],
+    "sim": [
+     0.571,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 316,
+    "n_sim": 28
+   },
+   "woman|18-34": {
+    "rho": 0.7745966692414834,
+    "top1_hit": 0.0,
+    "human": [
+     0.71,
+     0.848,
+     0.729,
+     0.881
+    ],
+    "sim": [
+     0.405,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 2759,
+    "n_sim": 168
+   },
+   "woman|35-54": {
+    "rho": 0.7745966692414834,
+    "top1_hit": 1.0,
+    "human": [
+     0.674,
+     0.854,
+     0.699,
+     0.815
+    ],
+    "sim": [
+     0.548,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 1805,
+    "n_sim": 124
+   },
+   "woman|55+": {
+    "rho": 0.7745966692414834,
+    "top1_hit": 1.0,
+    "human": [
+     0.611,
+     0.897,
+     0.7,
+     0.786
+    ],
+    "sim": [
+     0.4,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "n_human": 246,
+    "n_sim": 20
+   }
+  }
+ },
+ "distribution": {
+  "wasserstein_mean": 0.19390110011449546,
+  "tv_mean": 0.19390110011449543,
+  "dispersion_ratio_mean": 0.27089801644962813,
+  "segment_arm_mae": 0.1936332731792718,
+  "segment_arm_bias": 0.11084231491613594,
+  "human_pooled_sd": 0.4191877615392811,
+  "sim_pooled_sd": 0.3271731845828328,
+  "per_arm": {
+   "no_label": {
+    "wasserstein": 0.17612535612535613,
+    "tv": 0.17612535612535615,
+    "dispersion_ratio": 1.0835920657985125,
+    "human_mean": 0.6894586894586895,
+    "sim_mean": 0.5133333333333333,
+    "human_sd": 0.4628094440009032,
+    "sim_sd": 0.5014966414959997
+   },
+   "nutrient_warning": {
+    "wasserstein": 0.16863063795205202,
+    "tv": 0.16863063795205202,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.831369362047948,
+    "sim_mean": 1.0,
+    "human_sd": 0.3745014492194101,
+    "sim_sd": 0.0
+   },
+   "nutri_score": {
+    "wasserstein": 0.27487765089722677,
+    "tv": 0.2748776508972267,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.7251223491027733,
+    "sim_mean": 1.0,
+    "human_sd": 0.44654367066891826,
+    "sim_sd": 0.0
+   },
+   "gda": {
+    "wasserstein": 0.15597075548334688,
+    "tv": 0.15597075548334685,
+    "dispersion_ratio": 0.0,
+    "human_mean": 0.8440292445166532,
+    "sim_mean": 1.0,
+    "human_sd": 0.3629013239773203,
+    "sim_sd": 0.0
+   }
+  }
+ },
+ "mechanism": {
+  "main_effect_r": 0.26338890057118125,
+  "main_effect_sign_agreement": 0.6666666666666666,
+  "interaction_r": 0.25858832334459325,
+  "interaction_sign_agreement": 0.5555555555555556,
+  "covariate_r2_human": 0.0036346738298198566,
+  "covariate_r2_sim": 0.003500542955459207,
+  "human_main": {
+   "age": -0.019,
+   "female": -0.001,
+   "edu_level": 0.011,
+   "finance": -0.002,
+   "parent_num": 0.013,
+   "sugar_drinks": -0.009
+  },
+  "sim_main": {
+   "age": -0.001,
+   "female": -0.017,
+   "edu_level": 0.003,
+   "finance": 0.004,
+   "parent_num": 0.011,
+   "sugar_drinks": 0.005
+  },
+  "arm_r2_human": 0.028144346193219483,
+  "arm_r2_sim": 0.4162679425837321
+ },
+ "individual": {
+  "n": 150,
+  "accuracy_sim": 0.74,
+  "accuracy_lookup": 0.7933333333333333,
+  "accuracy_majority": 0.7866666666666666
+ },
+ "cost_usd": 0.075,
+ "seconds": 79
+}
