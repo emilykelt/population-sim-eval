@@ -16,3 +16,6 @@ Methods: `judge`, `label_single`, `grounded_single`, `grounded_ensemble`, `groun
 Models: any `claude-*` id (direct), or a Vercel AI Gateway id such as `google/gemini-2.5-flash-lite` once a card is on the Vercel team.
 
 `.env` needs `ANTHROPIC_API_KEY`; optional `AI_GATEWAY_API_KEY`. All model calls are cached under `results/raw/cache/` keyed on model + prompt + seed, so reruns are free.
+
+### Other providers, direct (no Vercel needed)
+Put the key in `.env` and use the prefixed id: `gemini/gemini-2.5-flash-lite` (GOOGLE_API_KEY), `deepseek/deepseek-chat` (DEEPSEEK_API_KEY), `together/Qwen/Qwen3-32B` (TOGETHER_API_KEY), `groq/llama-3.3-70b-versatile` (GROQ_API_KEY), `mistral/mistral-small-latest` (MISTRAL_API_KEY), `ollama/<local model>` (no key; needs Ollama running).

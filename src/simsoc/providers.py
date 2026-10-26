@@ -34,6 +34,12 @@ PRICES: dict[str, tuple[float, float]] = {
     "gpt-4.1-nano": (0.10, 0.40),
     "gpt-4.1-mini": (0.40, 1.60),
     "gpt-4o-mini": (0.15, 0.60),
+    "gemini/gemini-2.5-flash-lite": (0.10, 0.40),
+    "gemini/gemini-2.5-flash": (0.30, 2.50),
+    "deepseek/deepseek-chat": (0.27, 1.10),
+    "together/Qwen/Qwen3-32B": (0.80, 0.80),
+    "together/meta-llama/Llama-3.3-70B-Instruct-Turbo": (0.88, 0.88),
+    "groq/llama-3.3-70b-versatile": (0.59, 0.79),
     "google/gemini-2.5-flash-lite": (0.10, 0.40),
     "openai/gpt-5-nano": (0.05, 0.40),
     "openai/gpt-4o-mini": (0.15, 0.60),
@@ -114,6 +120,8 @@ def complete(
                 text, inp, out = _call_anthropic(model, system, user, temperature, max_tokens)
             elif model.startswith(("gpt-", "o1", "o3", "o4")):
                 text, inp, out = _call_openai(model, system, user, temperature, max_tokens)
+            elif model.split("/")[0] in DIRECT_PROVIDERS:
+                text, inp, out = _call_compatible(model, system, user, temperature, max_tokens)
             else:
                 text, inp, out = _call_gateway(model, system, user, temperature, max_tokens)
             break
@@ -189,4 +197,39 @@ def _call_openai(model, system, user, temperature, max_tokens):
     r.raise_for_status()
     d = r.json()
     u = d.get("usage", {})
+    return d["choices"][0]["message"]["content"] or "", u.get("prompt_tokens", 0), u.get("completion_tokens", 0)
+
+
+# Direct, OpenAI-compatible endpoints. Model id = "<prefix>/<provider model name>", e.g.
+#   gemini/gemini-2.5-flash-lite   deepseek/deepseek-chat   together/Qwen/Qwen3-32B   groq/llama-3.3-70b-versatile
+#   fireworks/accounts/fireworks/models/qwen3-32b   ollama/qwen3:32b (local, no key)
+DIRECT_PROVIDERS = {
+    "gemini": ("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "GOOGLE_API_KEY"),
+    "deepseek": ("https://api.deepseek.com/chat/completions", "DEEPSEEK_API_KEY"),
+    "together": ("https://api.together.xyz/v1/chat/completions", "TOGETHER_API_KEY"),
+    "fireworks": ("https://api.fireworks.ai/inference/v1/chat/completions", "FIREWORKS_API_KEY"),
+    "groq": ("https://api.groq.com/openai/v1/chat/completions", "GROQ_API_KEY"),
+    "dashscope": ("https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions", "DASHSCOPE_API_KEY"),
+    "mistral": ("https://api.mistral.ai/v1/chat/completions", "MISTRAL_API_KEY"),
+    "ollama": ("http://localhost:11434/v1/chat/completions", None),
+}
+
+
+def _call_compatible(model, system, user, temperature, max_tokens):
+    prefix, name = model.split("/", 1)
+    url, env = DIRECT_PROVIDERS[prefix]
+    key = os.environ.get(env) if env else "ollama"
+    if not key:
+        raise RuntimeError(f"{env} not set in .env (needed for {model})")
+    body = {"model": name, "temperature": temperature, "max_tokens": max_tokens,
+            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+    if prefix == "gemini":
+        body["reasoning_effort"] = "low"  # keeps Gemini 2.5 thinking from eating the budget; ignored by non-thinking models
+    r = requests.post(url, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, json=body, timeout=180)
+    if r.status_code == 400 and "reasoning_effort" in r.text:
+        body.pop("reasoning_effort", None)
+        r = requests.post(url, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"}, json=body, timeout=180)
+    r.raise_for_status()
+    d = r.json()
+    u = d.get("usage", {}) or {}
     return d["choices"][0]["message"]["content"] or "", u.get("prompt_tokens", 0), u.get("completion_tokens", 0)
