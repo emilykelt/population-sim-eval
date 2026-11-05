@@ -5,6 +5,8 @@ Predicts how UK population segments respond to candidate public food / nutrition
 Read in order: `docs/00_PLAN.md` -> `docs/05_RESULTS.md`. Literature: `docs/01_SYNTHESIS.md` (vault papers), `docs/02` (debate vs crowd), `docs/03` (cheap-model fidelity), `docs/04` (case studies with open data).
 
 ## Run
+Raw trial data is not in the repo; see `data/README.md` for download links. The eval specs and human tables in `data/evals/` are committed, so `run_eval.py` works without them.
+
 ```bash
 uv sync
 PYTHONPATH=src uv run python src/make_cases.py                       # builds data/*.yaml from the Clarke 2020 OSF files, prints baselines + ceilings

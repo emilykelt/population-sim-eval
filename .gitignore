@@ -3,3 +3,5 @@ results/raw/
 .venv/
 __pycache__/
 data/clarke2020_raw/media*/
+data/agent_downloads/
+data/*_raw/
