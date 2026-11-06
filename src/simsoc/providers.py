@@ -212,6 +212,7 @@ DIRECT_PROVIDERS = {
     "dashscope": ("https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions", "DASHSCOPE_API_KEY"),
     "mistral": ("https://api.mistral.ai/v1/chat/completions", "MISTRAL_API_KEY"),
     "ollama": ("http://localhost:11434/v1/chat/completions", None),
+    "local": ("http://localhost:8080/v1/chat/completions", None),  # mlx_lm.server / llama-server / LM Studio on :8080
 }
 
 

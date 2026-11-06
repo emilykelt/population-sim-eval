@@ -114,7 +114,7 @@ def main() -> None:
                 r1 = [dict(r, points=r["round1_points"]) for r in results]
                 sc["round1"] = {k: v for k, v in metrics.score(metrics.aggregate(r1, msg_ids), truth, msg_ids).items() if k != "per_segment"}
             summary.append(sc)
-            (out_dir / f"{model}__{method}.json").write_text(json.dumps({"score": sc, "results": results}, indent=1, default=str))
+            (out_dir / f"{model.replace('/', '__')}__{method}.json").write_text(json.dumps({"score": sc, "results": results}, indent=1, default=str))
             print(f"{method:18s} rho={sc['mean_spearman']:.3f} top1={sc['top1_accuracy']:.2f} gap={sc['gap_preservation']:.3f} "
                   f"valid={sc['n_valid_answers']} sd={sc['within_sd']:.1f} ${sc['cost_usd']:.3f} {sc['seconds']}s")
 

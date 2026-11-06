@@ -1,0 +1,9 @@
+/Users/emilykelt/Library/Mobile Documents/com~apple~CloudDocs/Coding/simulated societies/src/simsoc/fidelity.py:127: RuntimeWarning: Mean of empty slice
+  "tv_mean": float(np.nanmean(tv)) if tv else np.nan,
+evans2025_salt: 2367 humans, 150 twins, 5 arms; split-half ceiling 0.42
+  local/Qwen/Qwen2.5-1.5B-Instruct: 528/750 valid answers, $0.00, 1965s
+  EFFECT  pooled rho -0.90 | seg rho 0.03 (baseline 0.68, ceiling 0.42) | top1 0.33 | gap r -0.03 slope -0.03 | effect-size slope -0.57
+  DIST    W1 1.481 | TV nan | dispersion ratio 1.51 | seg-arm MAE 1.258 bias -0.076
+  MECH    main r -0.46 sign 0.17 | interaction r -0.29 | covariate R2 human 0.078 sim 0.003 | arm R2 human 0.021 sim 0.002
+  INDIV   {'n': 104, 'mae_sim': 4.633461538461539, 'mae_lookup': 2.334396457946473, 'r_sim_human': -0.13867086001217407}
+TOTAL $0.00

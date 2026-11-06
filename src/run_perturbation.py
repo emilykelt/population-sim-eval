@@ -100,7 +100,7 @@ def main():
                            top1_by_seg={seg: msg_ids[int(np.argmax(d["pred"]))] for seg, d in sc["per_segment"].items()},
                            n_valid=sc["n_valid_answers"], cost=round(USAGE.cost_usd - c0, 3), secs=round(time.time() - t0, 1))
                 rows.append(row)
-                (out_dir / f"{model}__{design}__w{w:02d}.json").write_text(json.dumps({"row": row, "results": res}, default=str))
+                (out_dir / f"{model.replace('/', '__')}__{design}__w{w:02d}.json").write_text(json.dumps({"row": row, "results": res}, default=str))
                 print(f"{model} {design} w{w:02d} lv={levels} rho={row['rho']:.2f} top1={row['top1']:.2f} pooled={row['pooled_rho']:.2f} base={base:.2f} ${row['cost']:.2f}", flush=True)
                 (out_dir / "rows.json").write_text(json.dumps(rows, indent=1, default=str))
     print("TOTAL $%.2f" % USAGE.cost_usd, {k: round(v["cost"], 2) for k, v in USAGE.by_model.items()})

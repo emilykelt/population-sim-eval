@@ -42,7 +42,7 @@ class Twin:
 
 
 def backstory_for(twin: Twin, model: str, country: str = "UK", topic_hint: str = "") -> str:
-    path = TWIN_DIR / f"{twin.id}_{model}.txt"
+    path = TWIN_DIR / f"{twin.id}_{model.replace('/', '__')}.txt"
     if path.exists():
         return path.read_text()
     facts = "; ".join(f"{k.replace('_', ' ')}: {v}" for k, v in twin.covariates.items() if v not in (None, "", "nan"))

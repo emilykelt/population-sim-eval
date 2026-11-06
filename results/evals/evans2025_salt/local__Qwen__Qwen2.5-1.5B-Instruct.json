@@ -1,0 +1,249 @@
+{
+ "model": "local/Qwen/Qwen2.5-1.5B-Instruct",
+ "n_twins": 150,
+ "n_valid": 528,
+ "n_jobs": 750,
+ "ceiling_split_half": 0.4245492436860248,
+ "effect": {
+  "pooled_rho": -0.8999999999999998,
+  "effect_size_slope": -0.5734072539594977,
+  "segment_rho_mean": 0.03333333333333335,
+  "top1_accuracy": 0.3333333333333333,
+  "pooled_baseline": 0.6833333333333332,
+  "gap_preservation_r": -0.02621633309012503,
+  "gap_inflation_slope": -0.03100574060574522,
+  "human_arm_means": [
+   13.376,
+   12.273,
+   12.557,
+   12.01,
+   12.439
+  ],
+  "sim_arm_means": [
+   12.175,
+   12.632,
+   12.222,
+   12.552,
+   12.429
+  ],
+  "per_segment": {
+   "man|18-34": {
+    "rho": 0.39999999999999997,
+    "top1_hit": 1.0,
+    "human": [
+     13.146,
+     13.041,
+     13.559,
+     12.914,
+     13.413
+    ],
+    "sim": [
+     13.508,
+     12.868,
+     13.595,
+     12.439,
+     12.051
+    ],
+    "n_human": 324,
+    "n_sim": 96
+   },
+   "man|35-54": {
+    "rho": 0.0,
+    "top1_hit": 0.0,
+    "human": [
+     13.111,
+     12.472,
+     12.217,
+     11.495,
+     12.036
+    ],
+    "sim": [
+     11.509,
+     13.805,
+     12.012,
+     11.685,
+     11.939
+    ],
+    "n_human": 564,
+    "n_sim": 110
+   },
+   "man|55+": {
+    "rho": -0.8999999999999998,
+    "top1_hit": 0.0,
+    "human": [
+     12.088,
+     10.616,
+     10.899,
+     11.168,
+     11.414
+    ],
+    "sim": [
+     9.223,
+     13.869,
+     12.519,
+     12.8,
+     12.349
+    ],
+    "n_human": 306,
+    "n_sim": 79
+   },
+   "woman|18-34": {
+    "rho": -0.09999999999999999,
+    "top1_hit": 0.0,
+    "human": [
+     14.444,
+     13.64,
+     14.049,
+     13.267,
+     13.526
+    ],
+    "sim": [
+     12.165,
+     11.232,
+     12.07,
+     13.118,
+     11.691
+    ],
+    "n_human": 289,
+    "n_sim": 66
+   },
+   "woman|35-54": {
+    "rho": 0.7999999999999999,
+    "top1_hit": 1.0,
+    "human": [
+     14.34,
+     12.364,
+     13.09,
+     12.115,
+     12.606
+    ],
+    "sim": [
+     12.97,
+     10.845,
+     11.948,
+     11.917,
+     12.95
+    ],
+    "n_human": 566,
+    "n_sim": 110
+   },
+   "woman|55+": {
+    "rho": 0.0,
+    "top1_hit": 0.0,
+    "human": [
+     12.821,
+     11.284,
+     11.567,
+     11.806,
+     11.704
+    ],
+    "sim": [
+     13.257,
+     13.75,
+     11.211,
+     14.899,
+     13.728
+    ],
+    "n_human": 318,
+    "n_sim": 64
+   }
+  }
+ },
+ "distribution": {
+  "wasserstein_mean": 1.4813393342617445,
+  "tv_mean": NaN,
+  "dispersion_ratio_mean": 1.5077575434340253,
+  "segment_arm_mae": 1.2579158219204274,
+  "segment_arm_bias": -0.0762922898278277,
+  "human_pooled_sd": 3.1007671043389586,
+  "sim_pooled_sd": 4.602846749239439,
+  "per_arm": {
+   "qr_control": {
+    "wasserstein": 1.6854334689602384,
+    "tv": NaN,
+    "dispersion_ratio": 1.6889827670008228,
+    "human_mean": 13.376410788381744,
+    "sim_mean": 12.174757281553399,
+    "human_sd": 3.0815936324099518,
+    "sim_sd": 5.204758540039877
+   },
+   "red_triangle": {
+    "wasserstein": 1.3762968289085546,
+    "tv": NaN,
+    "dispersion_ratio": 1.361645147721556,
+    "human_mean": 12.273416666666666,
+    "sim_mean": 12.632212389380529,
+    "human_sd": 3.1006890596120806,
+    "sim_sd": 4.2220382126141045
+   },
+   "red_octagon": {
+    "wasserstein": 1.1591137820512818,
+    "tv": NaN,
+    "dispersion_ratio": 1.3713773770032385,
+    "human_mean": 12.556604166666666,
+    "sim_mean": 12.221634615384614,
+    "human_sd": 3.215688630942458,
+    "sim_sd": 4.409922639961003
+   },
+   "black_triangle": {
+    "wasserstein": 1.9464550058433971,
+    "tv": NaN,
+    "dispersion_ratio": 1.6056178198362014,
+    "human_mean": 12.009889624724062,
+    "sim_mean": 12.551960784313724,
+    "human_sd": 2.8862253323686065,
+    "sim_sd": 4.634174825713698
+   },
+   "black_octagon": {
+    "wasserstein": 1.2393975855452508,
+    "tv": NaN,
+    "dispersion_ratio": 1.5111646056083081,
+    "human_mean": 12.439131355932204,
+    "sim_mean": 12.429056603773585,
+    "human_sd": 3.0402786300459503,
+    "sim_sd": 4.594361456912756
+   }
+  }
+ },
+ "mechanism": {
+  "main_effect_r": -0.4623107374043274,
+  "main_effect_sign_agreement": 0.16666666666666666,
+  "interaction_r": -0.29415362194234385,
+  "interaction_sign_agreement": 0.25,
+  "covariate_r2_human": 0.07801230525610692,
+  "covariate_r2_sim": 0.003166224956735908,
+  "human_main": {
+   "age": -0.743,
+   "female": 0.307,
+   "edu_level": -0.126,
+   "bmi": 0.283,
+   "income_rank": -0.109,
+   "restaurant_freq": 0.091
+  },
+  "sim_main": {
+   "age": 0.179,
+   "female": -0.034,
+   "edu_level": 0.134,
+   "bmi": 0.186,
+   "income_rank": 0.024,
+   "restaurant_freq": -0.002
+  },
+  "arm_r2_human": 0.021339054318462836,
+  "arm_r2_sim": 0.0018367447572299467
+ },
+ "individual": {
+  "n": 104,
+  "mae_sim": 4.633461538461539,
+  "mae_lookup": 2.334396457946473,
+  "r_sim_human": -0.13867086001217407
+ },
+ "cost_usd": 0.0,
+ "seconds": 1966,
+ "share_labelled_by_arm": {
+  "black_octagon": 0.503,
+  "black_triangle": 0.517,
+  "qr_control": 0.518,
+  "red_octagon": 0.508,
+  "red_triangle": 0.523
+ }
+}

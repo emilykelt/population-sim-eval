@@ -91,9 +91,10 @@ def main():
         }
         if "share_labelled" in valid:
             rep["share_labelled_by_arm"] = valid.groupby("arm")["share_labelled"].mean().round(3).to_dict()
-        (out_dir / f"{model}.json").write_text(json.dumps(rep, indent=1, default=str))
-        (out_dir / f"{model}_raw.json").write_text(json.dumps(raws, default=str))
-        valid.to_csv(out_dir / f"{model}_sim_table.csv", index=False)
+        stem = model.replace("/", "__")
+        (out_dir / f"{stem}.json").write_text(json.dumps(rep, indent=1, default=str))
+        (out_dir / f"{stem}_raw.json").write_text(json.dumps(raws, default=str))
+        valid.to_csv(out_dir / f"{stem}_sim_table.csv", index=False)
         e, d_, m, i = rep["effect"], rep["distribution"], rep["mechanism"], rep["individual"]
         print(f"  EFFECT  pooled rho {e['pooled_rho']:.2f} | seg rho {e['segment_rho_mean']:.2f} (baseline {e['pooled_baseline']:.2f}, ceiling {ceiling:.2f}) | top1 {e['top1_accuracy']:.2f} | gap r {e['gap_preservation_r']:.2f} slope {e['gap_inflation_slope']:.2f} | effect-size slope {e['effect_size_slope']:.2f}")
         print(f"  DIST    W1 {d_['wasserstein_mean']:.3f} | TV {d_['tv_mean']:.3f} | dispersion ratio {d_['dispersion_ratio_mean']:.2f} | seg-arm MAE {d_['segment_arm_mae']:.3f} bias {d_['segment_arm_bias']:+.3f}")

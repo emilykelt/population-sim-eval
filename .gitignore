@@ -5,3 +5,4 @@ __pycache__/
 data/clarke2020_raw/media*/
 data/agent_downloads/
 data/*_raw/
+data/evals/upworthy_*.csv

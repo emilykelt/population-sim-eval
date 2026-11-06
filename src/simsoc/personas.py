@@ -52,7 +52,7 @@ LIFE_FACTS = [
 
 
 def generate_backstory(persona: Persona, model: str) -> str:
-    path = PERSONA_DIR / f"{persona.id}_{model}.txt"
+    path = PERSONA_DIR / f"{persona.id}_{model.replace('/', '__')}.txt"
     if path.exists():
         return path.read_text()
     rng = random.Random(persona.id)

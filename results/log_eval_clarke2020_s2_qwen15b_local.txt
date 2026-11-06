@@ -1,0 +1,7 @@
+clarke2020_s2: 4126 humans, 150 twins, 6 arms; split-half ceiling 0.61
+  local/Qwen/Qwen2.5-1.5B-Instruct: 693/900 valid answers, $0.00, 1034s
+  EFFECT  pooled rho -0.26 | seg rho 0.12 (baseline 0.82, ceiling 0.61) | top1 0.17 | gap r 0.03 slope 0.06 | effect-size slope 0.40
+  DIST    W1 0.092 | TV 0.092 | dispersion ratio 0.98 | seg-arm MAE 0.155 bias +0.086
+  MECH    main r -0.37 sign 0.33 | interaction r 0.01 | covariate R2 human 0.027 sim 0.003 | arm R2 human 0.024 sim 0.010
+  INDIV   {'n': 108, 'accuracy_sim': 0.4166666666666667, 'accuracy_lookup': 0.5740740740740741, 'accuracy_majority': 0.5833333333333334}
+TOTAL $0.00
