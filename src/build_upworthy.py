@@ -72,6 +72,34 @@ def pairwise_acc(d: pd.DataFrame, score: pd.Series) -> float:
     return float(np.mean(hits)) if hits else float("nan")
 
 
+def split_ids(d: pd.DataFrame, n_dev: int = 200, n_calib: int = 200) -> tuple[list, list, list]:
+    """Fixed shuffle of test ids: dev (method comparison), calib (fitting the judge+classifier blend), pool (training
+    and few-shot examples). Dev is never used for training or prompting."""
+    ids = d.clickability_test_id.drop_duplicates().sample(frac=1, random_state=0).tolist()
+    return ids[:n_dev], ids[n_dev:n_dev + n_calib], ids[n_dev + n_calib:]
+
+
+def pair_z(b: pd.Series, w: pd.Series) -> float:
+    p = (b.clicks + w.clicks) / (b.impressions + w.impressions)
+    se = np.sqrt(p * (1 - p) * (1 / b.impressions + 1 / w.impressions))
+    return float((b.ctr - w.ctr) / se) if se > 0 else 0.0
+
+
+def score_all(d: pd.DataFrame, score: pd.Series) -> dict:
+    """Pairwise (all pairs), top-1, best-vs-worst, and best-vs-worst restricted to decisive gaps (z >= 2, z >= 4)."""
+    top1, bvw = [], []
+    for _, x in d.assign(s=score).dropna(subset=["s"]).groupby("clickability_test_id"):
+        if len(x) < 2:
+            continue
+        top1.append(x.ctr.to_numpy().argmax() == x.s.to_numpy().argmax())
+        b, w = x.loc[x.ctr.idxmax()], x.loc[x.ctr.idxmin()]
+        if b.s != w.s:
+            bvw.append((pair_z(b, w), b.s > w.s))
+    r = pd.DataFrame(bvw, columns=["z", "hit"])
+    return {"pairwise": pairwise_acc(d, score), "top1": float(np.mean(top1)), "bvw": float(r.hit.mean()),
+            "z2": float(r[r.z >= 2].hit.mean()), "z4": float(r[r.z >= 4].hit.mean()), "n_z4": int((r.z >= 4).sum())}
+
+
 def main():
     split = sys.argv[1] if len(sys.argv) > 1 else "exploratory"
     d = load(split)

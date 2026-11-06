@@ -23,7 +23,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from build_upworthy import pairwise_acc
+from build_upworthy import pair_z, score_all, split_ids
 from simsoc.providers import USAGE, complete
 from simsoc.tasks import _json_tail
 
@@ -46,12 +46,27 @@ def reader(seed: int) -> str:
             f"education: {_pick(rng, EDU)}. It is 2014 and you are scrolling your Facebook feed, {rng.choice(MOODS)}.")
 
 
-def judge(headlines: list[str], model: str, seed: int) -> list[float]:
+def examples_block(k: int, seed: int) -> str:
+    """k decisive best-vs-worst pairs (z >= 3) from training tests only, drawn per call, sides randomised."""
+    rng = random.Random(seed)
+    lines = []
+    for n, (b, w) in enumerate(rng.sample(POOL_PAIRS, k)):
+        first_wins = rng.random() < 0.5
+        a_, b_ = (b, w) if first_wins else (w, b)
+        lines.append(f"Test {n + 1}\nA: {a_[0]}\nB: {b_[0]}\nClicked more: {'A' if first_wins else 'B'} "
+                     f"(click rate {a_[1]:.2%} vs {b_[1]:.2%})")
+    return "Past results from the same A/B testing programme, for calibration:\n\n" + "\n\n".join(lines) + "\n\nNow the new test.\n\n"
+
+
+POOL_PAIRS: list = []
+
+
+def judge(headlines: list[str], model: str, seed: int, shots: int = 0) -> list[float]:
     rng = random.Random(seed)
     order = list(range(len(headlines)))
     rng.shuffle(order)
     listing = "\n".join(f"{k + 1}. {headlines[i]}" for k, i in enumerate(order))
-    user = ("These headlines were A/B tested for the same Upworthy article on Facebook in 2013-2015. Each was shown to "
+    user = (examples_block(shots, seed + 1) if shots else "") + ("These headlines were A/B tested for the same Upworthy article on Facebook in 2013-2015. Each was shown to "
             "a few thousand people. Rank them from most to least clicked.\n\n" + listing +
             '\n\nFinish with JSON on its own line: {"ranking": [numbers, best first]}')
     text = complete(model, "You are an experienced social media editor.", user, temperature=1.0, max_tokens=400, seed=seed)
@@ -88,11 +103,18 @@ def main():
     ap.add_argument("--methods", nargs="+", default=["judge", "crowd"])
     ap.add_argument("--crowd", type=int, default=20)
     ap.add_argument("--workers", type=int, default=12)
+    ap.add_argument("--subset", default="dev", choices=["dev", "calib"], help="dev: method comparison; calib: blend fitting")
+    ap.add_argument("--shots", type=int, default=8, help="examples per call for the fewshot method")
     args = ap.parse_args()
 
     d = pd.read_csv(ROOT / f"data/evals/upworthy_{args.split}.csv")
     base = json.loads((ROOT / f"data/evals/upworthy_{args.split}_baselines.json").read_text())
-    ids = d.clickability_test_id.drop_duplicates().sample(frac=1, random_state=0).head(args.tests).tolist()
+    dev, calib, pool = split_ids(d)
+    for _, x in d[d.clickability_test_id.isin(pool)].groupby("clickability_test_id"):
+        b, w = x.loc[x.ctr.idxmax()], x.loc[x.ctr.idxmin()]
+        if len(x) >= 2 and pair_z(b, w) >= 3:
+            POOL_PAIRS.append(((b.headline, b.ctr), (w.headline, w.ctr)))
+    ids = (dev if args.subset == "dev" else calib)[: args.tests]
     d = d[d.clickability_test_id.isin(ids)].reset_index(drop=True)
     tests = {t: x.index.tolist() for t, x in d.groupby("clickability_test_id")}
     print(f"{len(tests)} tests, {len(d)} headlines | chance pairwise 0.50, top1 {base['chance_top1']:.2f} | "
@@ -104,10 +126,11 @@ def main():
         for method in args.methods:
             t0, c0 = time.time(), USAGE.cost_usd
             score = pd.Series(np.nan, index=d.index)
-            if method == "judge":
+            if method in ("judge", "fewshot"):
+                shots = args.shots if method == "fewshot" else 0
                 def job(item):
                     t, rows = item
-                    return rows, judge(d.headline[rows].tolist(), model, zlib.crc32(str(t).encode()) % 10**6)
+                    return rows, judge(d.headline[rows].tolist(), model, zlib.crc32(str(t).encode()) % 10**6, shots)
                 with ThreadPoolExecutor(args.workers) as ex:
                     for rows, s in ex.map(job, tests.items()):
                         score[rows] = s
@@ -121,11 +144,14 @@ def main():
                     for rows, k in ex.map(job, jobs):
                         if k is not None:
                             score[rows[k]] += 1
-            top1 = np.mean([d.ctr[rows].to_numpy().argmax() == np.nanargmax(score[rows].to_numpy())
-                            for rows in tests.values() if score[rows].notna().any()])
-            pw = pairwise_acc(d, score)
-            print(f"  {model:<22} {method:<6} pairwise {pw:.3f} | top1 {top1:.3f} | ${USAGE.cost_usd - c0:.2f} {time.time() - t0:.0f}s")
-            d.assign(score=score).to_csv(out_dir / f"{args.split}_{model.replace('/', '__')}_{method}.csv", index=False)
+            r = score_all(d, score)
+            print(f"  {model:<22} {method:<7} {args.subset}: pairwise {r['pairwise']:.3f} | top1 {r['top1']:.3f} | "
+                  f"best-vs-worst {r['bvw']:.3f} | z>=4 {r['z4']:.3f} | ${USAGE.cost_usd - c0:.2f} {time.time() - t0:.0f}s")
+            path = out_dir / f"{args.split}_{model.replace('/', '__')}_{method}.csv"
+            new = d.assign(score=score)
+            if path.exists():  # keep rows for the other subset
+                new = pd.concat([new, pd.read_csv(path)]).drop_duplicates(["clickability_test_id", "headline"], keep="first")
+            new.to_csv(path, index=False)
     print("TOTAL $%.2f" % USAGE.cost_usd)
 
 

@@ -6,3 +6,4 @@ data/clarke2020_raw/media*/
 data/agent_downloads/
 data/*_raw/
 data/evals/upworthy_*.csv
+results/upworthy/emb_*.npz
