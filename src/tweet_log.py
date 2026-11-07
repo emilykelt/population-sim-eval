@@ -88,7 +88,7 @@ def spearman(x: list[float], y: list[float]) -> float:
 def summary() -> None:
     _, posts = read(POSTS)
     _, mets = read(METRICS)
-    print(f"{'id':<12} {'status':<8} {'score':>6} {'h':>4} {'impr':>7} {'eng':>5} {'rate':>6}  text")
+    print(f"{"id":<12} {"status":<8} {"category":<8} {"score":>6} {'h':>4} {'impr':>7} {'eng':>5} {'rate':>6}  text")
     pairs = []
     for p in posts:
         snaps = sorted((m for m in mets if m["id"] == p["id"]), key=lambda m: float(m["hours_since_post"]))
@@ -99,9 +99,9 @@ def summary() -> None:
             rate = eng / impr if impr else float("nan")
             if snap["hours_since_post"] == "24" and impr:
                 pairs.append((float(p["score_z"]), rate))
-            print(f"{p['id']:<12} {p['status']:<8} {p['score_z']:>6} {snap['hours_since_post']:>4} {impr:>7.0f} {eng:>5.0f} {rate:>6.1%}  {p['text'][:60]}")
+            print(f"{p["id"]:<12} {p["status"]:<8} {p.get("category",""):<8} {p['score_z']:>6} {snap['hours_since_post']:>4} {impr:>7.0f} {eng:>5.0f} {rate:>6.1%}  {p['text'][:60]}")
         else:
-            print(f"{p['id']:<12} {p['status']:<8} {p['score_z']:>6} {'-':>4} {'-':>7} {'-':>5} {'-':>6}  {p['text'][:60]}")
+            print(f"{p["id"]:<12} {p["status"]:<8} {p.get("category",""):<8} {p['score_z']:>6} {'-':>4} {'-':>7} {'-':>5} {'-':>6}  {p['text'][:60]}")
     if len(pairs) >= 5:
         rho = spearman([a for a, _ in pairs], [b for _, b in pairs])
         print(f"\nclassifier score vs 24 h engagement rate: Spearman {rho:+.2f} over {len(pairs)} tweets"
