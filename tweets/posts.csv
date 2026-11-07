@@ -1,0 +1,4 @@
+id,status,account,topic,text,draft_file,rank_in_batch,batch_size,score_z,runner_up_gap,has_photo,posted_at_utc,url,notes
+bridge-1,planned,actuallythough,Newton Mathematical Bridge myth,"The story goes that Newton built a bridge with no bolts, students took it apart, and nobody could put it back. None of it is true.",drafts/mathematical_bridge.txt,1,20,1.58,0.02,yes,,,photo of the bridge; reply with dates 1727 vs 1749
+tiramisu-1,planned,actuallythough,Tiramisu origin dispute,Tiramisu is one of the most famous desserts in the world and nobody can agree where it came from.,drafts/tiramisu.txt,1,20,2.35,0.93,yes,,,reply with Treviso vs Tolmezzo and 2017 Friuli listing
+vikings-1,planned,actuallythough,Viking horned helmet myth,The real Viking helmet looks nothing like the one you're picturing.,drafts/vikings.txt,1,20,1.73,0.13,yes,,,photo of Gjermundbu helmet; reply with Doepler 1876
