@@ -97,6 +97,26 @@ PYTHONPATH=src uv run python src/report.py data/clarke2020_study2_labels.yaml   
 ```
 Methods: `judge`, `label_single`, `grounded_single`, `grounded_ensemble`, `grounded_debate`, `grounded_choice`, `label_choice`, `grounded_choice_neutral`. Perturbation audit: `src/run_perturbation.py`, `src/analyse_perturbation.py`.
 
+## Extension: predicting which headline wins
+
+Same question, different outcome: given the headline variants of a real A/B test, which one got the most clicks? Ground truth is the Upworthy Research Archive (32,487 tests, CC-BY 4.0; see `data/README.md`). Only tests where every variant shares the same image are used.
+
+Results on the 2,237-test holdout split, scored once:
+
+| Predictor | Pairwise | Top-1 (chance 0.23) | Best vs worst | Decisive pairs (z >= 4) |
+|---|---|---|---|---|
+| Embedding classifier (bge-small + pairwise logistic, local, $0) | 0.635 | 0.387 | 0.740 | 0.858 |
+| Noise ceiling (re-running the same test) | 0.84 | 0.72 | | |
+
+On 400 exploratory tests, the free classifier matched a Claude Sonnet 5.5 judge (pairwise 0.613 vs 0.606) and beat it on decisive pairs (0.84 vs 0.74). Few-shot examples and a judge + classifier blend added nothing. A crowd of 20 simulated readers per test scored at chance, even though 69% of their clicks agreed. As in the food trials, polling personas fails where a direct forecast or a trained model does not.
+
+```bash
+PYTHONPATH=src uv run python src/build_upworthy.py exploratory            # eval set, noise ceiling, heuristics
+PYTHONPATH=src uv run python src/run_upworthy.py --methods judge crowd    # LLM judge and simulated crowd on dev
+PYTHONPATH=src uv run python src/upworthy_scale.py                        # train on confirmatory, score holdout
+PYTHONPATH=src uv run python src/rank_drafts.py drafts/mathematical_bridge.txt   # rank your own drafts
+```
+
 ## Limitations
 
 One draw per twin per arm; one wording per task in the twin study; Anthropic models only so far; stimuli are text reconstructions of visual labels; twins are written by the model under test; Kerr and Mora-Plazas outcomes are intentions or hypothetical choices, not purchases.

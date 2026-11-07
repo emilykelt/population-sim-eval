@@ -1,0 +1,6 @@
+train 12269 tests; dropping 2080 that share a headline with test sets
+10189 train tests, 52285 training pairs (|z|>=1)
+dev      C=0.03  pairwise 0.608 | top1 0.310 | best-vs-worst 0.690 | z>=2 0.754 | z>=4 0.850 (n=40)
+dev      C=0.1   pairwise 0.612 | top1 0.315 | best-vs-worst 0.690 | z>=2 0.746 | z>=4 0.850 (n=40)
+dev      C=0.3   pairwise 0.611 | top1 0.320 | best-vs-worst 0.690 | z>=2 0.739 | z>=4 0.825 (n=40)
+HOLDOUT  C=0.1   pairwise 0.635 | top1 0.387 | best-vs-worst 0.740 | z>=2 0.775 | z>=4 0.858 (n=457)

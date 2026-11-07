@@ -13,6 +13,10 @@ The derived eval specs (`data/evals/*.yaml`), per-participant extracts of the fo
 | Kerr, Freeman, Marteau, van der Linden 2021, vaccine information (Vaccines) | OSF https://osf.io/78hr9/ (`study1_data.sav`) | `data/kerr2021_raw/` | `build_evals.py` |
 | Mora-Plazas et al. 2024, front-of-pack labels in Colombia (PLOS ONE) | OSF https://osf.io/5vbzm/ (`Datasets.zip` -> `Cleaned.dta`) | `data/moraplazas2024_raw/` | `build_evals.py` |
 
+## Headline A/B tests
+
+The Upworthy Research Archive (Matias, Munger, Aubin Le Quere & Ebersole 2021, *Scientific Data*; OSF https://osf.io/jd64p/, CC-BY 4.0): 32,487 headline/image A/B tests run on Upworthy, 2013-2015. Download the exploratory, confirmatory and holdout package CSVs into `data/upworthy_raw/{exploratory,confirmatory,holdout}.csv`, then run `src/build_upworthy.py <split>`. Headline text in `results/upworthy/` comes from this archive.
+
 ## Other candidate datasets (not yet used)
 
 Listed with sources in `docs/04_CASE_STUDIES_BRIEF.md` and `docs/08_MORE_CASE_STUDIES.md`: Turnwald 2019 (OSF 39vsg), Vlasceanu 2024 (Zenodo 10345806), Taillie 2023 (Harvard Dataverse HQMFUS, OB8ZFJ), Biggs 2025 (OSF 69xct), Potter 2022 (OSF byztm), Hughes 2024 (OSF gm3pr), and others. The local download script put these under `data/agent_downloads/<osf-id>/`.
