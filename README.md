@@ -115,7 +115,20 @@ PYTHONPATH=src uv run python src/build_upworthy.py exploratory            # eval
 PYTHONPATH=src uv run python src/run_upworthy.py --methods judge crowd    # LLM judge and simulated crowd on dev
 PYTHONPATH=src uv run python src/upworthy_scale.py                        # train on confirmatory, score holdout
 PYTHONPATH=src uv run python src/rank_drafts.py drafts/mathematical_bridge.txt   # rank your own drafts
+PYTHONPATH=src uv run python src/bandit_sim.py                            # offline bandit simulator ($0)
 ```
+
+### Can a posting bot learn online? An offline bandit simulator
+
+`src/bandit_sim.py` replays the holdout tests as a contextual bandit: each test is a topic, its headlines are the drafts, the policy posts one and sees only that one's clicks (Binomial at the real CTR). Lift captured: random 0, always picking the real winner 1. Mean of 20 seeds, 200 views per post:
+
+| Policy | First 30 posts | First 365 | First 2,000 |
+|---|---|---|---|
+| Thompson sampling from scratch | 0.02 | 0.09 | 0.16 |
+| Thompson sampling, classifier as prior | 0.29 | 0.30 | 0.31 |
+| Classifier only, no learning | 0.33 | 0.32 | 0.33 |
+
+Learning from your own posts does not catch up with a classifier trained on 10,000 tests within 2,000 posts, and more views per post barely help (20 to 20,000 views moves the from-scratch bandit from 0.11 to 0.16): topic-to-topic differences in click rate swamp the wording signal. Training the bandit on the simulated persona crowd instead of real clicks, then testing on real holdout clicks, gives 0.06 against 0.15 (the crowd's within-test correlation with real CTR is -0.02). The persona crowd is not usable as a training environment.
 
 ## Limitations
 
