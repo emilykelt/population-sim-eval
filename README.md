@@ -130,6 +130,17 @@ PYTHONPATH=src uv run python src/bandit_sim.py                            # offl
 
 Learning from your own posts does not catch up with a classifier trained on 10,000 tests within 2,000 posts, and more views per post barely help (20 to 20,000 views moves the from-scratch bandit from 0.11 to 0.16): topic-to-topic differences in click rate swamp the wording signal. Training the bandit on the simulated persona crowd instead of real clicks, then testing on real holdout clicks, gives 0.06 against 0.15 (the crowd's within-test correlation with real CTR is -0.02). The persona crowd is not usable as a training environment.
 
+`src/bandit_shift.py` tests the two conditions under which online learning should pay off: an audience the classifier was not trained on, and A/B feedback (two drafts of the same topic, learning from the difference, which cancels topic popularity). The classifier is retrained on 2013 to mid-2014 tests only; the bandit learns on later tests and is scored on a separate set of later tests. Upworthy itself barely drifted (old classifier 0.246, retrained 0.258), so the run below adds a stand-in platform shift that penalises curiosity bait (CTR × exp(−0.5 × [question + "you" + "this"]), late tests only). 2,000 views per topic, 10 seeds:
+
+| Posts (topics) | 0 | 30 | 100 | 365 | 1,000 |
+|---|---|---|---|---|---|
+| One post per topic, from scratch | 0.08 | 0.14 | 0.21 | 0.35 | 0.36 |
+| **A/B pair per topic, from scratch** | 0.08 | 0.20 | **0.37** | **0.48** | 0.51 |
+| Old classifier, frozen | 0.15 | | | | |
+| Classifier retrained offline on all 875 late tests | 0.51 | | | | |
+
+With A/B feedback the bandit recovers from the shift within a few hundred topics and matches offline retraining; with one post per topic it plateaus at 0.36. The shift is synthetic and sits in features the bandit sees directly, so this is a best case for how fast it adapts.
+
 ## Limitations
 
 One draw per twin per arm; one wording per task in the twin study; Anthropic models only so far; stimuli are text reconstructions of visual labels; twins are written by the model under test; Kerr and Mora-Plazas outcomes are intentions or hypothetical choices, not purchases.
